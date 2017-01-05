@@ -1,0 +1,19 @@
+///////////////// MEDIA QUERIES /////////////////////
+$phablet: "(min-width: 400px) and (max-width: 768px)";
+$tablet: "(min-width: 768px) and (max-width: 1023px)";
+$mac13: "(min-width: 1024px) and (max-width: 1439px)";
+$mac15: "(min-width: 1440px) and (max-width: 1819px)";
+$tab-monitor: "(min-width: 768px) and (max-width: 1920px)";
+$fourk: "(min-width: 1921px) and (max-width: 2560)";
+$monitor: "(min-width: 1820px)"; ///////////////// TYPOGRAPHY/////////////////////
+$roboto: 'Roboto', sans-serif;
+$roboto-mono: 'Roboto Mono', monospace; /////////////// COLORS /////////////////////////
+$yellow: #FFCA01;
+$pink: #FC136A;
+$green: #4AFF01;
+$textdark: #313131; ///////////// ACTILIST  /////////////////
+$darkblue: #183161;
+$bgblue: #3F97F9;
+$bgdark: #424242;
+$grey1: #EEEEEE;
+$actilistred: #EC5454;

@@ -1,0 +1,16 @@
+.bigbox{
+
+
+    //
+    @media #{$tablet}{
+        background-color: red;
+        width: 200px;
+        height: 200px;
+    }
+    @media #{$mac13}{
+        background-color: green;
+        width: 100%;
+        height: 200px;
+    }
+    //
+}

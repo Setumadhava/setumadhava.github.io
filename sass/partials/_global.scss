@@ -1,0 +1,95 @@
+.container,
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+////////////////////////// FOOTER  //////////////////////////////////
+.footerdiv {
+    background-color: #292929;
+    width: 100%;
+}
+
+.getintouch {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    padding: 2em 0;
+    text-align: center;
+    @media #{$phablet} {
+        font-size: 1.5em;
+    }
+    @media #{$tablet} {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    @media #{$mac13} {
+        font-size: 1.5em;
+    }
+    @media #{$mac15} {
+        font-size: 1.5em;
+    }
+    @media #{$monitor} {
+        font-size: 1.5em;
+    }
+}
+
+.iconsflex {
+    display: flex;
+    flex-wrap: wrap;
+    @media #{$tablet} {
+        display: inline-block;
+    }
+}
+
+.iconsgroup {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.icons {
+    padding: 2em;
+    margin-bottom: 2em;
+    @media #{$tablet} {
+        padding: 0 2em;
+    }
+}
+
+.resumeline {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 1em;
+
+    #resume {
+        color: #D92A1C;
+    }
+}
+
+.arrowup {
+    width: 50px;
+    margin: 0 auto;
+    padding: 2em 0 3em;
+}
+
+.copyrightdiv {
+    width: 100%;
+    background-color: #3E3E3E;
+}
+
+.copyright {
+    padding: 0.8em 0;
+    text-align: center;
+    color: #ABABAB;
+    font-size: 0.8em;
+    margin: 0 auto;
+    @media #{$mac13} {
+        padding: 0.8em 0 0.8em 10em;
+        text-align: left;
+    }
+}
