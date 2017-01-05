@@ -131,6 +131,12 @@ p {
     }
 }
 
+.projectcontainer {
+    @media #{$monitor} {
+        width: 70%;
+    }
+}
+
 #setu {
     color: #17DECB;
 }
@@ -261,6 +267,70 @@ p {
 .readmore,
 .title {
     color: white;
+}
+//////////////////////////// ACTILIST //////////////////////
+
+#zero {
+    background-image: url("img/actilist/herobg.png");
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    min-height: 700px;
+    margin-top: -16px;
+    @media #{$tab-monitor} {
+        margin-top: 0;
+    }
+}
+
+.actilistdiv {
+    display: none;
+    @media #{$tablet} {
+        display: block;
+        width: auto;
+        position: absolute;
+        bottom: 50%;
+        transform: translateY(50%);
+        right: 3em;
+    }
+    @media #{$mac13} {
+        display: block;
+        position: absolute;
+        width: auto;
+        bottom: 50%;
+        right: 8em;
+        transform: translateY(50%);
+    }
+    @media #{$mac15} {
+        display: block;
+        position: absolute;
+        width: auto;
+        bottom: 50%;
+        right: 18em;
+        transform: translateY(50%);
+    }
+    @media #{$monitor} {
+        display: block;
+        position: absolute;
+        width: auto;
+        bottom: 50%;
+        right: 25em;
+        transform: translateY(50%);
+    }
+}
+
+.actilistline {
+    background: $actigreen;
+}
+
+.actilisttag {
+    color: $actigreen;
+}
+
+.actilistcta {
+    border: 1px solid $actigreen;
 }
 ////////////////////// EXPEDIA /////////////////////////
 
