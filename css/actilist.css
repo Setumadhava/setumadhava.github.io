@@ -1128,6 +1128,41 @@ html {
   .nav a {
     color: #EEEEEE; }
 
+.footernavcontainer {
+  display: flex;
+  justify-content: space-between; }
+  .footernavcontainer .navbutton {
+    width: 50%;
+    padding: 1em 0;
+    background-color: #C9EB91;
+    text-align: center; }
+  .footernavcontainer .navbutton:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E; }
+    .footernavcontainer .navbutton:hover .nextprojbig,
+    .footernavcontainer .navbutton:hover .nextprojsmall {
+      color: #EEEEEE;
+      font-weight: 700; }
+  .footernavcontainer .nextprojsmall {
+    font-size: 0.8em;
+    color: #424242; }
+  .footernavcontainer .nextprojbig {
+    font-size: 1em;
+    font-weight: 500; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1820px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+
 .footerdiv {
   background-color: #292929;
   width: 100%; }

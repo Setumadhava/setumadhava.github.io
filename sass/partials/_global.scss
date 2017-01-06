@@ -67,6 +67,73 @@ html {
         color: $grey1;
     }
 }
+///////////////////// FOOTER NAV ///////////////////////////////
+
+.footernavcontainer {
+    display: flex;
+    justify-content: space-between;
+
+    .navbutton {
+        width: 50%;
+        padding: 1em 0;
+        background-color: #C9EB91;
+        text-align: center;
+    }
+
+    .navbutton:hover {
+        transition: all 0.20s ease-in-out;
+        cursor: pointer;
+        background-color: $darkgreen;
+        // border: 8px solid white;
+        .nextprojbig,
+        .nextprojsmall {
+            color: $grey1;
+            font-weight: 700;
+        }
+    }
+    // .home {
+    //     background-color: $grey1;
+    //     width: 40%;
+    //     text-align: center;
+    //     padding-top: 2em;
+    //     color: $textdark;
+    //
+    //     a {
+    //         color: $textdark;
+    //     }
+    // }
+    //
+    // .home:hover {
+    //     transition: all 0.20s ease-in-out;
+    //     cursor: pointer;
+    //     background-color: $textdark;
+    //
+    //     a {
+    //         color: $grey1;
+    //     }
+    // }
+    .nextprojsmall {
+        font-size: 0.8em;
+        color: $bgdark;
+    }
+
+    .nextprojbig {
+        font-size: 1em;
+        @media #{$tablet} {
+            font-size: 2em;
+        }
+        @media #{$mac13} {
+            font-size: 2em;
+        }
+        @media #{$mac15} {
+            font-size: 2em;
+        }
+        @media #{$monitor} {
+            font-size: 2em;
+        }
+        font-weight: 500;
+    }
+}
 ////////////////////////// FOOTER  //////////////////////////////////
 
 .footerdiv {
