@@ -124,10 +124,6 @@ p {
     .arrowdowndiv {
       /*bottom: 28em;*/ } }
 
-@media (min-width: 1820px) {
-  .projectcontainer {
-    width: 70%; } }
-
 #setu {
   color: #17DECB; }
 
@@ -258,58 +254,272 @@ p {
   background-repeat: no-repeat;
   background-attachment: scroll;
   position: relative;
-  min-height: 700px;
-  margin-top: -16px; }
+  min-height: 700px; }
   @media (min-width: 768px) and (max-width: 1920px) {
     #zero {
       margin-top: 0; } }
-
-.actilistdiv {
-  display: none; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .actilistdiv {
-      display: block;
-      width: auto;
-      position: absolute;
-      bottom: 50%;
-      transform: translateY(50%);
-      right: 3em; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    .actilistdiv {
-      display: block;
-      position: absolute;
-      width: auto;
-      bottom: 50%;
-      right: 8em;
-      transform: translateY(50%); } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    .actilistdiv {
-      display: block;
-      position: absolute;
-      width: auto;
-      bottom: 50%;
-      right: 18em;
-      transform: translateY(50%); } }
-  @media (min-width: 1820px) {
-    .actilistdiv {
-      display: block;
-      position: absolute;
-      width: auto;
-      bottom: 50%;
-      right: 25em;
-      transform: translateY(50%); } }
-
-.actilistline {
-  background: #0FE5A8; }
-
-.actilisttag {
-  color: #0FE5A8; }
-
-.actilistcta {
-  border: 1px solid #0FE5A8; }
+  #zero .projectcontainer {
+    padding: 4em 0;
+    display: flex;
+    flex-wrap: wrap; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #zero .projectcontainer {
+        flex-wrap: wrap; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #zero .projectcontainer {
+        width: 90%;
+        margin: 0 auto; } }
+    @media (min-width: 1820px) {
+      #zero .projectcontainer {
+        width: 70%;
+        margin: 0 auto; } }
+  #zero .contenthalf {
+    width: 90%;
+    margin: 0 auto; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      #zero .contenthalf {
+        width: 90%;
+        padding: 4em 0 0 2em; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #zero .contenthalf {
+        width: 40%;
+        padding: 4em 0 0 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #zero .contenthalf {
+        width: 40%;
+        padding: 6em 0 0 4em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #zero .contenthalf {
+        width: 40%;
+        padding: 6em 0 0 4em; } }
+    @media (min-width: 1820px) {
+      #zero .contenthalf {
+        width: 40%;
+        padding: 6em 0 0 4em; }
+        #zero .contenthalf .title {
+          font-size: 3em; }
+        #zero .contenthalf p {
+          font-size: 1.3em; }
+        #zero .contenthalf .readmore {
+          width: 190px;
+          height: 60px; } }
+    #zero .contenthalf .projcontent {
+      width: 100%; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #zero .contenthalf .projcontent {
+          width: 70%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #zero .contenthalf .projcontent {
+          width: 70%; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #zero .contenthalf .projcontent {
+          width: 70%; } }
+      @media (min-width: 1820px) {
+        #zero .contenthalf .projcontent {
+          width: 70%; } }
+  #zero .imagehalf {
+    width: 100%; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      #zero .imagehalf {
+        width: 80%;
+        margin: 0 auto; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #zero .imagehalf {
+        width: 50%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #zero .imagehalf {
+        width: 50%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #zero .imagehalf {
+        width: 50%; } }
+    @media (min-width: 1820px) {
+      #zero .imagehalf {
+        width: 50%; } }
+    #zero .imagehalf .imagediv {
+      width: 90%;
+      margin: 0 auto;
+      padding: 4em 0; }
+      #zero .imagehalf .imagediv img {
+        width: 100%; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #zero .imagehalf .imagediv {
+          width: 90%;
+          margin: 0 auto; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #zero .imagehalf .imagediv {
+          width: 80%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #zero .imagehalf .imagediv {
+          width: 60%; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #zero .imagehalf .imagediv {
+          width: 50%; } }
+      @media (min-width: 1820px) {
+        #zero .imagehalf .imagediv {
+          width: 50%; } }
+  #zero .actilistline {
+    background: #0FE5A8; }
+  #zero .actilisttag {
+    color: #0FE5A8; }
+  #zero .actilistcta {
+    border: 1px solid #0FE5A8; }
 
 #one {
-  background-image: url("img/homepage/expediabgmob.png");
+  display: flex;
+  flex-wrap: wrap; }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #one {
+      min-height: 900px; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #one {
+      min-height: 900px; } }
+  @media (min-width: 1820px) {
+    #one {
+      min-height: 900px; } }
+  #one .contenthalf {
+    order: 1;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("img/homepage/expediabgtab.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 4em 0; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #one .contenthalf {
+        width: 50%;
+        order: 3; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #one .contenthalf {
+        width: 50%;
+        order: 3; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #one .contenthalf {
+        width: 50%;
+        order: 3; } }
+    @media (min-width: 1820px) {
+      #one .contenthalf {
+        width: 50%;
+        order: 3; } }
+    #one .contenthalf .contentdiv {
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 4em; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #one .contenthalf .contentdiv {
+          width: 90%;
+          padding: 4em 0 0 2em; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #one .contenthalf .contentdiv {
+          width: 90%;
+          padding: 4em 0 0 2em; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #one .contenthalf .contentdiv {
+          width: 90%;
+          padding: 6em 0 0 4em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #one .contenthalf .contentdiv {
+          width: 80%;
+          padding: 6em 0 0 4em; } }
+      @media (min-width: 1820px) {
+        #one .contenthalf .contentdiv {
+          width: 60%;
+          padding: 6em 0 0 4em; }
+          #one .contenthalf .contentdiv .title {
+            font-size: 3em; }
+          #one .contenthalf .contentdiv p {
+            font-size: 1.3em; }
+          #one .contenthalf .contentdiv .readmore {
+            width: 190px;
+            height: 60px; } }
+      #one .contenthalf .contentdiv .projcontent {
+        width: 100%; }
+        @media (min-width: 375px) and (max-width: 768px) {
+          #one .contenthalf .contentdiv .projcontent {
+            width: 70%; } }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          #one .contenthalf .contentdiv .projcontent {
+            width: 70%; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          #one .contenthalf .contentdiv .projcontent {
+            width: 70%; } }
+        @media (min-width: 1820px) {
+          #one .contenthalf .contentdiv .projcontent {
+            width: 70%; } }
+  #one .imagehalf {
+    order: 2;
+    width: 100%;
+    background-image: url("img/homepage/hotel_room.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 400px;
+    position: relative; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #one .imagehalf {
+        width: 50%;
+        height: auto; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #one .imagehalf {
+        width: 50%;
+        height: auto; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #one .imagehalf {
+        width: 50%;
+        height: auto; } }
+    @media (min-width: 1820px) {
+      #one .imagehalf {
+        width: 50%;
+        height: auto; } }
+    #one .imagehalf .imagediv {
+      width: 80%;
+      margin: 0 auto; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #one .imagehalf .imagediv {
+          width: 50%; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #one .imagehalf .imagediv {
+          width: 70%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #one .imagehalf .imagediv {
+          width: 70%; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #one .imagehalf .imagediv {
+          width: 50%; } }
+      @media (min-width: 1820px) {
+        #one .imagehalf .imagediv {
+          width: 30%; } }
+      #one .imagehalf .imagediv img {
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); }
+        @media (min-width: 375px) and (max-width: 768px) {
+          #one .imagehalf .imagediv img {
+            width: 50%; } }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          #one .imagehalf .imagediv img {
+            width: 70%; } }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          #one .imagehalf .imagediv img {
+            width: 70%; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          #one .imagehalf .imagediv img {
+            width: 50%; } }
+        @media (min-width: 1820px) {
+          #one .imagehalf .imagediv img {
+            width: 30%; } }
+  #one .expedialine {
+    background: #FFCA01; }
+  #one .expediatag {
+    color: #FFCA01; }
+  #one .expediacta {
+    border: 1px solid #FFCA01; }
+
+#two {
+  background-image: url("img/homepage/dscoutcouplebg.png");
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -317,149 +527,230 @@ p {
   background-attachment: scroll;
   position: relative;
   min-height: 700px; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #one {
-      background-image: url("img/homepage/expediabgtab.png"); } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    #one {
-      background-image: url("img/homepage/expediabg.png"); } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    #one {
-      background-image: url("img/homepage/expediabg.png"); } }
-  @media (min-width: 1820px) {
-    #one {
-      background-image: url("img/homepage/expediabg.png"); } }
-
-#expediadiv {
-  position: absolute;
-  z-index: 99;
-  width: 80%;
-  bottom: -40px;
-  left: 50%;
-  transform: translateX(-50%); }
-  @media (min-width: 400px) and (max-width: 768px) {
-    #expediadiv {
-      width: 65%;
-      bottom: -50px;
-      left: 50%;
-      transform: translateX(-50%); } }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #expediadiv {
-      width: auto;
-      bottom: 50%;
-      left: 1em;
-      transform: translateY(50%); } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    #expediadiv {
-      width: auto;
-      bottom: 50%;
-      left: 8em;
-      transform: translateY(50%); } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    #expediadiv {
-      width: auto;
-      bottom: 50%;
-      left: 18em;
-      transform: translateY(50%); } }
-  @media (min-width: 1820px) {
-    #expediadiv {
-      width: auto;
-      bottom: 50%;
-      left: 25em;
-      transform: translateY(50%); } }
-
-.expedialine {
-  background: #FFCA01; }
-
-.expediatag {
-  color: #FFCA01; }
-
-.expediacta {
-  border: 1px solid #FFCA01; }
-
-#two {
-  background-image: url("img/homepage/datescoutbgmob.png");
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  position: relative;
-  min-height: 700px;
-  margin-top: -16px; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #two {
-      background-image: url("img/homepage/datescoutbgtab.png"); } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    #two {
-      background-image: url("img/homepage/datescoutbg.png"); } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    #two {
-      background-image: url("img/homepage/datescoutbg.png"); } }
-  @media (min-width: 1820px) {
-    #two {
-      background-image: url("img/homepage/datescoutbg.png"); } }
   @media (min-width: 768px) and (max-width: 1920px) {
     #two {
       margin-top: 0; } }
+  #two .projectcontainer {
+    padding: 4em 0;
+    display: flex;
+    flex-wrap: wrap; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #two .projectcontainer {
+        flex-wrap: wrap; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #two .projectcontainer {
+        width: 90%;
+        margin: 0 auto; } }
+    @media (min-width: 1820px) {
+      #two .projectcontainer {
+        width: 70%;
+        margin: 0 auto; } }
+  #two .contenthalf {
+    width: 90%;
+    margin: 0 auto; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      #two .contenthalf {
+        width: 90%;
+        padding: 4em 0 0 2em; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #two .contenthalf {
+        width: 40%;
+        padding: 4em 0 0 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #two .contenthalf {
+        width: 40%;
+        padding: 6em 0 0 4em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #two .contenthalf {
+        width: 40%;
+        padding: 6em 0 0 4em; } }
+    @media (min-width: 1820px) {
+      #two .contenthalf {
+        width: 40%;
+        padding: 6em 0 0 4em; }
+        #two .contenthalf .title {
+          font-size: 3em; }
+        #two .contenthalf p {
+          font-size: 1.3em; }
+        #two .contenthalf .readmore {
+          width: 190px;
+          height: 60px; } }
+    #two .contenthalf .projcontent {
+      width: 100%; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #two .contenthalf .projcontent {
+          width: 70%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #two .contenthalf .projcontent {
+          width: 70%; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #two .contenthalf .projcontent {
+          width: 70%; } }
+      @media (min-width: 1820px) {
+        #two .contenthalf .projcontent {
+          width: 70%; } }
+  #two .imagehalf {
+    width: 80%;
+    margin: 0 auto; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      #two .imagehalf {
+        width: 60%;
+        margin: 0 auto; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #two .imagehalf {
+        width: 35%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #two .imagehalf {
+        width: 40%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #two .imagehalf {
+        width: 35%; } }
+    @media (min-width: 1820px) {
+      #two .imagehalf {
+        width: 40%; } }
+    #two .imagehalf .imagediv {
+      width: 90%;
+      margin: 0 auto;
+      padding: 4em 0; }
+      #two .imagehalf .imagediv img {
+        width: 100%; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #two .imagehalf .imagediv {
+          width: 90%;
+          margin: 0 auto; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #two .imagehalf .imagediv {
+          width: 80%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #two .imagehalf .imagediv {
+          width: 60%; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #two .imagehalf .imagediv {
+          width: 50%; } }
+      @media (min-width: 1820px) {
+        #two .imagehalf .imagediv {
+          width: 50%; } }
+  #two .datescoutline {
+    background: #FC136A; }
+  #two .datescouttag {
+    color: #FC136A; }
+  #two .datescoutcta {
+    border: 1px solid #FC136A; }
 
-#datescoutdivsmall {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  right: 0; }
-  @media (min-width: 400px) and (max-width: 768px) {
-    #datescoutdivsmall {
-      bottom: 0;
-      right: 0; } }
-
-@media (min-width: 768px) and (max-width: 1920px) {
-  .smallimage {
-    display: none; } }
-
-.datescoutdivbig {
-  display: none; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .datescoutdivbig {
-      display: block;
-      width: auto;
-      position: absolute;
-      bottom: 50%;
-      transform: translateY(50%);
-      right: 3em; } }
+#four {
+  display: flex;
+  flex-wrap: wrap; }
   @media (min-width: 1024px) and (max-width: 1439px) {
-    .datescoutdivbig {
-      display: block;
-      position: absolute;
-      width: auto;
-      bottom: 50%;
-      right: 8em;
-      transform: translateY(50%); } }
+    #four {
+      min-height: 900px; } }
   @media (min-width: 1440px) and (max-width: 1819px) {
-    .datescoutdivbig {
-      display: block;
-      position: absolute;
-      width: auto;
-      bottom: 50%;
-      right: 18em;
-      transform: translateY(50%); } }
+    #four {
+      min-height: 900px; } }
   @media (min-width: 1820px) {
-    .datescoutdivbig {
-      display: block;
-      position: absolute;
-      width: auto;
-      bottom: 50%;
-      right: 25em;
-      transform: translateY(50%); } }
-
-.datescoutline {
-  background: #FC136A; }
-
-.datescouttag {
-  color: #FC136A; }
-
-.datescoutcta {
-  border: 1px solid #FC136A; }
+    #four {
+      min-height: 900px; } }
+  #four .contenthalf {
+    order: 1;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("img/homepage/homebg.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 4em 0; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #four .contenthalf {
+        width: 50%;
+        order: 3; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #four .contenthalf {
+        width: 50%;
+        order: 3; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #four .contenthalf {
+        width: 50%;
+        order: 3; } }
+    @media (min-width: 1820px) {
+      #four .contenthalf {
+        width: 50%;
+        order: 3; } }
+    #four .contenthalf .contentdiv {
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 4em; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #four .contenthalf .contentdiv {
+          width: 90%;
+          padding: 4em 0 0 2em; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #four .contenthalf .contentdiv {
+          width: 90%;
+          padding: 4em 0 0 2em; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #four .contenthalf .contentdiv {
+          width: 90%;
+          padding: 6em 0 0 4em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #four .contenthalf .contentdiv {
+          width: 80%;
+          padding: 6em 0 0 4em; } }
+      @media (min-width: 1820px) {
+        #four .contenthalf .contentdiv {
+          width: 60%;
+          padding: 6em 0 0 4em; }
+          #four .contenthalf .contentdiv .title {
+            font-size: 3em; }
+          #four .contenthalf .contentdiv p {
+            font-size: 1.3em; }
+          #four .contenthalf .contentdiv .readmore {
+            width: 190px;
+            height: 60px; } }
+      #four .contenthalf .contentdiv .projcontent {
+        width: 100%; }
+        @media (min-width: 375px) and (max-width: 768px) {
+          #four .contenthalf .contentdiv .projcontent {
+            width: 70%; } }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          #four .contenthalf .contentdiv .projcontent {
+            width: 70%; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          #four .contenthalf .contentdiv .projcontent {
+            width: 70%; } }
+        @media (min-width: 1820px) {
+          #four .contenthalf .contentdiv .projcontent {
+            width: 70%; } }
+  #four .imagehalf {
+    order: 2;
+    width: 100%;
+    background-image: url("img/homepage/homeimg3.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 400px; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #four .imagehalf {
+        width: 50%;
+        height: auto; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #four .imagehalf {
+        width: 50%;
+        height: auto; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #four .imagehalf {
+        width: 50%;
+        height: auto; } }
+    @media (min-width: 1820px) {
+      #four .imagehalf {
+        width: 50%;
+        height: auto; } }
+  #four .homeline {
+    background: #FFCA01; }
+  #four .hometag {
+    color: #FFCA01; }
+  #four .homecta {
+    border: 1px solid #FFCA01; }
 
 #three {
   background-image: url("img/homepage/eventosaurbgmob.png");
@@ -494,7 +785,7 @@ p {
   bottom: -30px;
   left: 50%;
   transform: translateX(-50%); }
-  @media (min-width: 400px) and (max-width: 768px) {
+  @media (min-width: 375px) and (max-width: 768px) {
     #eventosaurdiv {
       width: 80%;
       bottom: -50px;
@@ -531,68 +822,6 @@ p {
 .eventosaurcta {
   border: 1px solid #4AFF01; }
 
-#four {
-  background-image: url("img/homepage/homebgmob.png");
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  position: relative;
-  min-height: 700px;
-  margin-top: -16px; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #four {
-      background-image: url("img/homepage/homebgtab.png"); } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    #four {
-      background-image: url("img/homepage/homebg.png"); } }
-  @media (min-width: 768px) and (max-width: 1920px) {
-    #four {
-      margin-top: 0; } }
-
-#smarthome {
-  margin-top: 3em; }
-  @media (min-width: 768px) and (max-width: 1920px) {
-    #smarthome {
-      margin-top: 0; } }
-
-#homediv {
-  position: absolute;
-  bottom: -1em;
-  width: 90%;
-  z-index: 89; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #homediv {
-      right: 0;
-      width: 60%; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    #homediv {
-      right: 0;
-      width: 50%; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    #homediv {
-      right: 0;
-      width: 45%;
-      bottom: -1.5em; } }
-  @media (min-width: 1820px) {
-    #homediv {
-      right: 0;
-      width: 35%;
-      bottom: -1.5em; } }
-
-#homeimg {
-  width: 100%; }
-
-.homeline {
-  background: #FFCA01; }
-
-.hometag {
-  color: #FFCA01; }
-
-.homecta {
-  border: 1px solid #FFCA01; }
-
 #aboutsection {
   position: relative; }
 
@@ -621,7 +850,7 @@ p {
   width: 60%;
   margin-bottom: 4em;
   padding-top: 4em; }
-  @media (min-width: 400px) and (max-width: 768px) {
+  @media (min-width: 375px) and (max-width: 768px) {
     #mushdidiv {
       padding-top: 4em;
       width: 50%; } }
@@ -772,7 +1001,7 @@ html {
   font-size: 1em;
   padding: 2em 0;
   text-align: center; }
-  @media (min-width: 400px) and (max-width: 768px) {
+  @media (min-width: 375px) and (max-width: 768px) {
     .getintouch {
       font-size: 1.5em; } }
   @media (min-width: 768px) and (max-width: 1023px) {

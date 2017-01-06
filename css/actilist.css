@@ -5,7 +5,7 @@
   font-size: 2em;
   color: #183161;
   text-align: center; }
-  @media (min-width: 400px) and (max-width: 768px) {
+  @media (min-width: 375px) and (max-width: 768px) {
     .title {
       font-size: 2.5em; } }
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -32,7 +32,7 @@ ul {
   line-height: 2em;
   color: #313131;
   margin: 0 auto; }
-  @media (min-width: 400px) and (max-width: 768px) {
+  @media (min-width: 375px) and (max-width: 768px) {
     .content,
     ul {
       width: 100%; } }
@@ -67,7 +67,7 @@ ul {
   background-attachment: scroll;
   height: 400px;
   position: relative; }
-  @media (min-width: 400px) and (max-width: 768px) {
+  @media (min-width: 375px) and (max-width: 768px) {
     .hero {
       height: 600px; } }
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -89,7 +89,7 @@ ul {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%); }
-  @media (min-width: 400px) and (max-width: 768px) {
+  @media (min-width: 375px) and (max-width: 768px) {
     #herophonediv {
       width: 45%; } }
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -211,7 +211,7 @@ ul {
 
 .roleflex {
   padding: 2em 0 4em 1em; }
-  @media (min-width: 400px) and (max-width: 768px) {
+  @media (min-width: 375px) and (max-width: 768px) {
     .roleflex {
       padding: 2em 0 4em 2em; } }
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -319,7 +319,7 @@ ul {
     width: 90%;
     margin: 0 auto;
     padding-top: 4em; }
-    @media (min-width: 400px) and (max-width: 768px) {
+    @media (min-width: 375px) and (max-width: 768px) {
       .whatcontentdiv .contentdiv {
         width: 70%;
         margin: 0 auto; } }
@@ -346,11 +346,11 @@ ul {
   .whatphonediv #phonediv {
     width: 70%;
     margin: 0 auto; }
-    @media (min-width: 400px) and (max-width: 768px) {
+    @media (min-width: 375px) and (max-width: 768px) {
       .whatphonediv #phonediv {
         width: 60%;
         margin: 0 auto; } }
-    @media (min-width: 400px) and (max-width: 768px) {
+    @media (min-width: 375px) and (max-width: 768px) {
       .whatphonediv #phonediv {
         width: 40%;
         margin: 0 auto; } }
@@ -504,7 +504,7 @@ ul {
     padding-top: 4em;
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 400px) and (max-width: 768px) {
+    @media (min-width: 375px) and (max-width: 768px) {
       #backcontainer .contentdiv {
         width: 75%; } }
     @media (min-width: 768px) and (max-width: 1023px) {
@@ -534,7 +534,7 @@ ul {
     padding-top: 4em;
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 400px) and (max-width: 768px) {
+    @media (min-width: 375px) and (max-width: 768px) {
       #researchbox .contentdiv {
         width: 75%; } }
     @media (min-width: 768px) and (max-width: 1023px) {
@@ -642,7 +642,7 @@ ul {
     padding-top: 4em;
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 400px) and (max-width: 768px) {
+    @media (min-width: 375px) and (max-width: 768px) {
       #wireframesbox .contentdiv {
         width: 75%; } }
     @media (min-width: 768px) and (max-width: 1023px) {
@@ -715,7 +715,7 @@ ul {
     padding-top: 4em;
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 400px) and (max-width: 768px) {
+    @media (min-width: 375px) and (max-width: 768px) {
       #visualbox .contentdiv {
         width: 75%; } }
     @media (min-width: 768px) and (max-width: 1023px) {
@@ -784,7 +784,7 @@ ul {
     margin: 0 auto; }
     #hificontainer .contentdiv p {
       color: white; }
-    @media (min-width: 400px) and (max-width: 768px) {
+    @media (min-width: 375px) and (max-width: 768px) {
       #hificontainer .contentdiv {
         width: 75%; } }
     @media (min-width: 768px) and (max-width: 1023px) {
@@ -843,7 +843,7 @@ ul {
     padding-top: 4em;
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 400px) and (max-width: 768px) {
+    @media (min-width: 375px) and (max-width: 768px) {
       #benefitscontainer .colorcontentdiv .contentdiv {
         width: 75%; } }
     @media (min-width: 768px) and (max-width: 1023px) {
@@ -926,7 +926,7 @@ ul {
       width: 80%; }
       #reflectioncontainer #blackphonebox #blackphonediv img {
         width: 100%; }
-      @media (min-width: 400px) and (max-width: 768px) {
+      @media (min-width: 375px) and (max-width: 768px) {
         #reflectioncontainer #blackphonebox #blackphonediv {
           margin: 0 auto;
           width: 70%; } }
@@ -952,7 +952,7 @@ ul {
   #reflectioncontainer .refcontentdiv {
     width: 100%;
     padding-top: 4em; }
-    @media (min-width: 400px) and (max-width: 768px) {
+    @media (min-width: 375px) and (max-width: 768px) {
       #reflectioncontainer .refcontentdiv {
         margin: 0 auto;
         width: 80%; } }
@@ -1010,7 +1010,7 @@ ul {
       padding: 4em 0;
       width: 90%;
       margin: 0 auto; }
-      @media (min-width: 400px) and (max-width: 768px) {
+      @media (min-width: 375px) and (max-width: 768px) {
         #beyondcontainer .beyondcontentdiv .contentdiv {
           width: 80%; } }
       @media (min-width: 768px) and (max-width: 1023px) {
@@ -1042,7 +1042,7 @@ ul {
     #beyondcontainer #benefitsimagediv .nakedscreendiv {
       width: 90%;
       margin: 0 auto; }
-      @media (min-width: 400px) and (max-width: 768px) {
+      @media (min-width: 375px) and (max-width: 768px) {
         #beyondcontainer #benefitsimagediv .nakedscreendiv {
           width: 70%; } }
       @media (min-width: 768px) and (max-width: 1023px) {
@@ -1090,7 +1090,7 @@ html {
   font-size: 1em;
   padding: 2em 0;
   text-align: center; }
-  @media (min-width: 400px) and (max-width: 768px) {
+  @media (min-width: 375px) and (max-width: 768px) {
     .getintouch {
       font-size: 1.5em; } }
   @media (min-width: 768px) and (max-width: 1023px) {

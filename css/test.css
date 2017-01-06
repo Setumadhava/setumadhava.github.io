@@ -29,7 +29,7 @@ html {
   font-size: 1em;
   padding: 2em 0;
   text-align: center; }
-  @media (min-width: 400px) and (max-width: 768px) {
+  @media (min-width: 375px) and (max-width: 768px) {
     .getintouch {
       font-size: 1.5em; } }
   @media (min-width: 768px) and (max-width: 1023px) {
