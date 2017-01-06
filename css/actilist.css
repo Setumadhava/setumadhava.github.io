@@ -1080,6 +1080,26 @@ html {
   margin: 0;
   padding: 0; }
 
+.navcontainer {
+  background-color: #272727;
+  position: fixed;
+  width: 100%;
+  z-index: 10000; }
+  .navcontainer .navbox {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 4em 0 0; }
+    .navcontainer .navbox .navitem {
+      padding: 2em 2em 1em;
+      color: #B5B5B5;
+      font-weight: 400;
+      font-size: 1em; }
+    .navcontainer .navbox .navitem:hover {
+      transition: all 0.30s ease-in-out;
+      color: #17DECB;
+      font-weight: 900;
+      cursor: pointer; }
+
 .footerdiv {
   background-color: #292929;
   width: 100%; }

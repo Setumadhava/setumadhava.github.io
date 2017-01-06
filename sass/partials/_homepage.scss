@@ -28,10 +28,14 @@ p {
 .introcontent {
     width: 80%;
     padding-top: 8em;
-    padding-left: 1em;
+    padding-left: 2em;
+    @media #{$phablet} {
+        padding-top: 11em;
+        padding-left: 2em;
+    }
     @media #{$tablet} {
         padding-top: 11em;
-        padding-left: 3em;
+        padding-left: 5em;
     }
     @media #{$mac13} {
         padding-top: 18em;
@@ -39,11 +43,15 @@ p {
     }
     @media #{$mac15} {
         padding-top: 14em;
-        padding-left: 5em;
+        padding-left: 8em;
     }
     @media #{$monitor} {
         padding-top: 14em;
-        padding-left: 5em;
+        padding-left: 10em;
+
+        .introbody {
+            font-size: 1.3em;
+        }
     }
 }
 
@@ -82,7 +90,7 @@ p {
         font-size: 1.4em;
     }
     @media #{$monitor} {
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
 }
 
@@ -135,6 +143,7 @@ p {
     color: #17DECB;
 }
 /////////////////////////// PROJECT COMMON ///////////////////////
+//////////////////////////////////
 
 .projectsection {
     width: 100%;
@@ -322,12 +331,12 @@ p {
             }
 
             p {
-                font-size: 1.3em;
+                font-size: 1.2em;
             }
 
             .readmore {
                 width: 190px;
-                height: 60px;
+                height: 56px;
             }
         }
 
@@ -404,6 +413,18 @@ p {
 
     .actilistcta {
         border: 1px solid $actigreen;
+    }
+
+    .actilistcta:hover {
+        transition: all 0.30s ease-in-out;
+        border: 1px solid white;
+        background: $darkgreen;
+        cursor: pointer;
+
+        .readmoretext {
+            color: white;
+            font-weight: 800;
+        }
     }
 }
 /////////////////////// NEW EXPEDIA///////////////////////
@@ -584,6 +605,18 @@ p {
 
     .expediacta {
         border: 1px solid $yellow;
+    }
+
+    .expediacta:hover {
+        transition: all 0.30s ease-in-out;
+        border: 1px solid white;
+        background: $yellow;
+        cursor: default;
+
+        .readmoretext {
+            color: white;
+            font-weight: 800;
+        }
     }
 }
 //////////////////// NEW DATESCOUT  //////////////////////////

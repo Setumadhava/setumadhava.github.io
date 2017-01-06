@@ -26,11 +26,15 @@ p {
 .introcontent {
   width: 80%;
   padding-top: 8em;
-  padding-left: 1em; }
+  padding-left: 2em; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .introcontent {
+      padding-top: 11em;
+      padding-left: 2em; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     .introcontent {
       padding-top: 11em;
-      padding-left: 3em; } }
+      padding-left: 5em; } }
   @media (min-width: 1024px) and (max-width: 1439px) {
     .introcontent {
       padding-top: 18em;
@@ -38,11 +42,13 @@ p {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .introcontent {
       padding-top: 14em;
-      padding-left: 5em; } }
+      padding-left: 8em; } }
   @media (min-width: 1820px) {
     .introcontent {
       padding-top: 14em;
-      padding-left: 5em; } }
+      padding-left: 10em; }
+      .introcontent .introbody {
+        font-size: 1.3em; } }
 
 #introtitle {
   font-size: 2em;
@@ -79,7 +85,7 @@ p {
       font-size: 1.4em; } }
   @media (min-width: 1820px) {
     .ixdtitle {
-      font-size: 1.4em; } }
+      font-size: 1.6em; } }
 
 .introbody {
   font-size: 1em;
@@ -299,10 +305,10 @@ p {
         #zero .contenthalf .title {
           font-size: 3em; }
         #zero .contenthalf p {
-          font-size: 1.3em; }
+          font-size: 1.2em; }
         #zero .contenthalf .readmore {
           width: 190px;
-          height: 60px; } }
+          height: 56px; } }
     #zero .contenthalf .projcontent {
       width: 100%; }
       @media (min-width: 375px) and (max-width: 768px) {
@@ -363,6 +369,14 @@ p {
     color: #0FE5A8; }
   #zero .actilistcta {
     border: 1px solid #0FE5A8; }
+  #zero .actilistcta:hover {
+    transition: all 0.30s ease-in-out;
+    border: 1px solid white;
+    background: #00936E;
+    cursor: pointer; }
+    #zero .actilistcta:hover .readmoretext {
+      color: white;
+      font-weight: 800; }
 
 #one {
   display: flex;
@@ -517,6 +531,14 @@ p {
     color: #FFCA01; }
   #one .expediacta {
     border: 1px solid #FFCA01; }
+  #one .expediacta:hover {
+    transition: all 0.30s ease-in-out;
+    border: 1px solid white;
+    background: #FFCA01;
+    cursor: default; }
+    #one .expediacta:hover .readmoretext {
+      color: white;
+      font-weight: 800; }
 
 #two {
   background-image: url("img/homepage/dscoutcouplebg.png");
@@ -990,6 +1012,26 @@ html {
 * {
   margin: 0;
   padding: 0; }
+
+.navcontainer {
+  background-color: #272727;
+  position: fixed;
+  width: 100%;
+  z-index: 10000; }
+  .navcontainer .navbox {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 4em 0 0; }
+    .navcontainer .navbox .navitem {
+      padding: 2em 2em 1em;
+      color: #B5B5B5;
+      font-weight: 400;
+      font-size: 1em; }
+    .navcontainer .navbox .navitem:hover {
+      transition: all 0.30s ease-in-out;
+      color: #17DECB;
+      font-weight: 900;
+      cursor: pointer; }
 
 .footerdiv {
   background-color: #292929;
