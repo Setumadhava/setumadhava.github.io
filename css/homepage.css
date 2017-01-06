@@ -1,3 +1,51 @@
+.nav {
+  background-color: #272727;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .nav {
+      justify-content: flex-end; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  @media (min-width: 1820px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  .nav .navitem {
+    padding: 1em 2em;
+    font-size: 0.8em;
+    font-weight: 500; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .nav .navitem {
+        padding: 1.5em 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .nav .navitem {
+        padding: 1.5em 2em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .nav .navitem {
+        padding: 1.5em 2em; } }
+    @media (min-width: 1820px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        font-size: 1.4em; } }
+  .nav .navitem:hover {
+    transition: all 0.30s ease-in-out;
+    cursor: pointer;
+    background-color: white; }
+    .nav .navitem:hover a {
+      color: #183161; }
+  .nav a {
+    color: #EEEEEE; }
+
 p {
   font-family: "Roboto", sans-serif; }
 
@@ -1013,25 +1061,53 @@ html {
   margin: 0;
   padding: 0; }
 
-.navcontainer {
+.nav {
   background-color: #272727;
+  display: flex;
+  justify-content: center;
   position: fixed;
   width: 100%;
-  z-index: 10000; }
-  .navcontainer .navbox {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 4em 0 0; }
-    .navcontainer .navbox .navitem {
-      padding: 2em 2em 1em;
-      color: #B5B5B5;
-      font-weight: 400;
-      font-size: 1em; }
-    .navcontainer .navbox .navitem:hover {
-      transition: all 0.30s ease-in-out;
-      color: #17DECB;
-      font-weight: 900;
-      cursor: pointer; }
+  z-index: 1000; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .nav {
+      justify-content: flex-end; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  @media (min-width: 1820px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  .nav .navitem {
+    padding: 1em 2em;
+    font-size: 0.8em;
+    font-weight: 500; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .nav .navitem {
+        padding: 1.5em 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .nav .navitem {
+        padding: 1.5em 2em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .nav .navitem {
+        padding: 1.5em 2em; } }
+    @media (min-width: 1820px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        font-size: 1.4em; } }
+  .nav .navitem:hover {
+    transition: all 0.30s ease-in-out;
+    cursor: pointer;
+    background-color: white; }
+    .nav .navitem:hover a {
+      color: #183161; }
+  .nav a {
+    color: #EEEEEE; }
 
 .footerdiv {
   background-color: #292929;

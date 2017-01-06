@@ -11,30 +11,60 @@ html {
 }
 ////////////////////////// HEADER  //////////////////////////////////
 
-.navcontainer {
+.nav {
     background-color: #272727;
+    display: flex;
+    justify-content: center;
     position: fixed;
     width: 100%;
-    z-index: 10000;
-
-    .navbox {
-        display: flex;
+    z-index: 1000;
+    @media #{$tablet} {
         justify-content: flex-end;
-        padding: 0 4em 0 0;
+    }
+    @media #{$mac13} {
+        justify-content: flex-end;
+        padding-right: 2em;
+    }
+    @media #{$mac15} {
+        justify-content: flex-end;
+        padding-right: 2em;
+    }
+    @media #{$monitor} {
+        justify-content: flex-end;
+        padding-right: 2em;
+    }
 
-        .navitem {
-            padding: 2em 2em 1em;
-            color: #B5B5B5;
-            font-weight: 400;
-            font-size: 1em;
+    .navitem {
+        padding: 1em 2em;
+        font-size: 0.8em;
+        font-weight: 500;
+        @media #{$tablet} {
+            padding: 1.5em 2em;
         }
+        @media #{$mac13} {
+            padding: 1.5em 2em;
+        }
+        @media #{$mac15} {
+            padding: 1.5em 2em;
+        }
+        @media #{$monitor} {
+            padding: 1.5em 2em;
+            font-size: 1.4em;
+        }
+    }
 
-        .navitem:hover {
-            transition: all 0.30s ease-in-out;
-            color: #17DECB;
-            font-weight: 900;
-            cursor: pointer;
+    .navitem:hover {
+        transition: all 0.30s ease-in-out;
+        cursor: pointer;
+        background-color: white;
+
+        a {
+            color: $darkblue;
         }
+    }
+
+    a {
+        color: $grey1;
     }
 }
 ////////////////////////// FOOTER  //////////////////////////////////
