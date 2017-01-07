@@ -247,6 +247,9 @@ p {
     .projcontent {
       width: 100%; } }
 
+.mobilelink {
+  cursor: text; }
+
 .projcontent,
 .readmore,
 .title {
