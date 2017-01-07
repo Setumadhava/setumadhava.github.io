@@ -14,9 +14,15 @@
 </head>
 
 <div class="nav">
-    <div class="navitem"><a href="\">Home</a></div>
-    <div class="navitem"><a href="#aboutsection"> About</a></div>
-    <div class="navitem"><a href="Setumadhava_G_Kathawate_CV.pdf" target="_blank">Resume</a></div>
+    <a href="#intro">
+        <div class="navitem">Home</div>
+    </a>
+    <a href="#aboutsection">
+        <div class="navitem">About</div>
+    </a>
+    <a href="Setumadhava_G_Kathawate_CV.pdf" target="_blank">
+        <div class="navitem">Resume</div>
+    </a>
 </div>
 
 
@@ -24,13 +30,15 @@
 
 
 
-    <div class="intro">
+    <div id="intro">
         <div class="introcontent">
             <p id="introtitle"><span id="setu">Setu</span> Kathawate</p>
             <p class="ixdtitle">Interaction Designer </p>
             <p class="introbody">I enjoy solving design problems with meaningful interactions & delightful experiences.</p>
         </div>
-        <div class="arrowdowndiv"><img src="css/img/homepage/arrowdown.png" /></div>
+        <div class="arrowdowndiv">
+            <a href="#zero"><img src="css/img/homepage/arrowdown.png" /></a>
+        </div>
 
     </div>
 
@@ -41,9 +49,12 @@
         <div id="zero">
             <div class="projectcontainer">
                 <div class="contenthalf">
+                    <div class="labeldiv">
+                        <p>Personal Project </p>
+                    </div>
                     <p class="title">Actilist</p>
                     <div class="line actilistline"></div>
-                    <p class="projcontent actilisttag">Ideation | Interaction Design | Visual Design</p>
+                    <p class="projcontent actilisttag">iOS app | Ideation | Interaction Design | Visual Design</p>
                     <p class="projcontent"> An app that helps people stay updated with unique interests that matter to them.</p>
 
                     <a href="actilist.html">
@@ -203,9 +214,9 @@
 
 
 
-        <!-- <script>
+        <script>
             document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-        </script> -->
+        </script>
 
 
 

@@ -1,55 +1,7 @@
-.nav {
-  background-color: #272727;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  width: 100%;
-  z-index: 1000; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .nav {
-      justify-content: flex-end; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    .nav {
-      justify-content: flex-end;
-      padding-right: 2em; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    .nav {
-      justify-content: flex-end;
-      padding-right: 2em; } }
-  @media (min-width: 1820px) {
-    .nav {
-      justify-content: flex-end;
-      padding-right: 2em; } }
-  .nav .navitem {
-    padding: 1em 2em;
-    font-size: 0.8em;
-    font-weight: 500; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      .nav .navitem {
-        padding: 1.5em 2em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      .nav .navitem {
-        padding: 1.5em 2em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      .nav .navitem {
-        padding: 1.5em 2em; } }
-    @media (min-width: 1820px) {
-      .nav .navitem {
-        padding: 1.5em 2em;
-        font-size: 1.4em; } }
-  .nav .navitem:hover {
-    transition: all 0.30s ease-in-out;
-    cursor: pointer;
-    background-color: white; }
-    .nav .navitem:hover a {
-      color: #183161; }
-  .nav a {
-    color: #EEEEEE; }
-
 p {
   font-family: "Roboto", sans-serif; }
 
-.intro {
+#intro {
   background-image: url("img/homepage/blackmob.png");
   width: 100%;
   display: block;
@@ -59,16 +11,16 @@ p {
   background-attachment: scroll;
   height: 100%; }
   @media (min-width: 768px) and (max-width: 1023px) {
-    .intro {
+    #intro {
       background-image: url("img/homepage/blacktab.png"); } }
   @media (min-width: 1024px) and (max-width: 1439px) {
-    .intro {
+    #intro {
       background-image: url("img/homepage/blacklaptop.png"); } }
   @media (min-width: 1440px) and (max-width: 1819px) {
-    .intro {
+    #intro {
       background-image: url("img/homepage/blacklaptop.png"); } }
   @media (min-width: 1820px) {
-    .intro {
+    #intro {
       background-image: url("img/homepage/blacklaptop.png"); } }
 
 .introcontent {
@@ -315,7 +267,8 @@ p {
   #zero .projectcontainer {
     padding: 4em 0;
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    position: relative; }
     @media (min-width: 768px) and (max-width: 1023px) {
       #zero .projectcontainer {
         flex-wrap: wrap; } }
@@ -327,6 +280,19 @@ p {
       #zero .projectcontainer {
         width: 70%;
         margin: 0 auto; } }
+    #zero .projectcontainer .labeldiv {
+      background-color: #00936E;
+      border-radius: 0 0 3px 3px;
+      width: 200px;
+      height: 40px;
+      opacity: 0.8;
+      position: absolute;
+      top: 0; }
+      #zero .projectcontainer .labeldiv p {
+        padding: 0.4em 1em;
+        color: white;
+        font-size: 1em;
+        font-weight: 600; }
   #zero .contenthalf {
     width: 90%;
     margin: 0 auto; }
@@ -1103,14 +1069,13 @@ html {
     @media (min-width: 1820px) {
       .nav .navitem {
         padding: 1.5em 2em;
-        font-size: 1.2em;
+        font-size: 1.1em;
         width: 200px; } }
   .nav .navitem:hover {
     transition: all 0.30s ease-in-out;
     cursor: pointer;
-    background-color: white; }
-    .nav .navitem:hover a {
-      color: #183161; }
+    background-color: white;
+    color: #272727; }
   .nav a {
     color: #EEEEEE; }
 

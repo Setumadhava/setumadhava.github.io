@@ -1,65 +1,8 @@
-.nav {
-    background-color: #272727;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    @media #{$tablet} {
-        justify-content: flex-end;
-    }
-    @media #{$mac13} {
-        justify-content: flex-end;
-        padding-right: 2em;
-    }
-    @media #{$mac15} {
-        justify-content: flex-end;
-        padding-right: 2em;
-    }
-    @media #{$monitor} {
-        justify-content: flex-end;
-        padding-right: 2em;
-    }
-
-    .navitem {
-        padding: 1em 2em;
-        font-size: 0.8em;
-        font-weight: 500;
-        @media #{$tablet} {
-            padding: 1.5em 2em;
-        }
-        @media #{$mac13} {
-            padding: 1.5em 2em;
-        }
-        @media #{$mac15} {
-            padding: 1.5em 2em;
-        }
-        @media #{$monitor} {
-            padding: 1.5em 2em;
-            font-size: 1.4em;
-        }
-    }
-
-    .navitem:hover {
-        transition: all 0.30s ease-in-out;
-        cursor: pointer;
-        background-color: white;
-
-        a {
-            color: $darkblue;
-        }
-    }
-
-    a {
-        color: $grey1;
-    }
-}
-
 p {
     font-family: $roboto;
 }
 
-.intro {
+#intro {
     background-image: url("img/homepage/blackmob.png");
     @media #{$tablet} {
         background-image: url("img/homepage/blacktab.png");
@@ -347,6 +290,7 @@ p {
         padding: 4em 0;
         display: flex;
         flex-wrap: wrap;
+        position: relative;
         @media #{$tablet} {
             flex-wrap: wrap;
         }
@@ -357,6 +301,23 @@ p {
         @media #{$monitor} {
             width: 70%;
             margin: 0 auto;
+        }
+
+        .labeldiv {
+            background-color: $darkgreen;
+            border-radius: 0 0 3px 3px;
+            width: 200px;
+            height: 40px;
+            opacity: 0.8;
+            position: absolute;
+            top: 0;
+
+            p {
+                padding: 0.4em 1em;
+                color: white;
+                font-size: 1em;
+                font-weight: 600;
+            }
         }
     }
 

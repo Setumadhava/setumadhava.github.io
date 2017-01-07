@@ -1122,14 +1122,13 @@ html {
     @media (min-width: 1820px) {
       .nav .navitem {
         padding: 1.5em 2em;
-        font-size: 1.2em;
+        font-size: 1.1em;
         width: 200px; } }
   .nav .navitem:hover {
     transition: all 0.30s ease-in-out;
     cursor: pointer;
-    background-color: white; }
-    .nav .navitem:hover a {
-      color: #183161; }
+    background-color: white;
+    color: #272727; }
   .nav a {
     color: #EEEEEE; }
 
