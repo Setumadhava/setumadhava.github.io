@@ -94,34 +94,17 @@ html {
         // border: 8px solid white;
         .nextprojbig,
         .nextprojsmall {
-            color: $grey1;
+            color: white;
             font-weight: 700;
         }
     }
-    // .home {
-    //     background-color: $grey1;
-    //     width: 40%;
-    //     text-align: center;
-    //     padding-top: 2em;
-    //     color: $textdark;
-    //
-    //     a {
-    //         color: $textdark;
-    //     }
-    // }
-    //
-    // .home:hover {
-    //     transition: all 0.20s ease-in-out;
-    //     cursor: pointer;
-    //     background-color: $textdark;
-    //
-    //     a {
-    //         color: $grey1;
-    //     }
-    // }
+
+    a {
+        color: $bgdark;
+    }
+
     .nextprojsmall {
         font-size: 0.8em;
-        color: $bgdark;
     }
 
     .nextprojbig {

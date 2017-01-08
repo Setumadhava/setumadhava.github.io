@@ -90,11 +90,12 @@ html {
     background-color: #00936E; }
     .footernavcontainer .navbutton:hover .nextprojbig,
     .footernavcontainer .navbutton:hover .nextprojsmall {
-      color: #EEEEEE;
+      color: white;
       font-weight: 700; }
-  .footernavcontainer .nextprojsmall {
-    font-size: 0.8em;
+  .footernavcontainer a {
     color: #424242; }
+  .footernavcontainer .nextprojsmall {
+    font-size: 0.8em; }
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
