@@ -306,15 +306,20 @@ p {
             width: 70%;
             margin: 0 auto;
         }
+    }
+
+    .contenthalf {
+        width: 90%;
+        margin: 0 auto;
 
         .labeldiv {
-            background-color: $darkgreen;
             border-radius: 0 0 4px 4px;
             width: 200px;
             height: 40px;
             opacity: 0.8;
             position: absolute;
             top: 0;
+            background-color: $darkgreen;
 
             p {
                 padding: 0.4em 1em;
@@ -323,11 +328,6 @@ p {
                 font-weight: 600;
             }
         }
-    }
-
-    .contenthalf {
-        width: 90%;
-        margin: 0 auto;
         @media #{$phablet} {
             width: 90%;
             padding: 4em 0 0 2em;
@@ -454,6 +454,7 @@ p {
 #one {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
     @media #{$mac13} {
         min-height: 900px;
     }
@@ -495,6 +496,7 @@ p {
             width: 90%;
             margin: 0 auto;
             padding-top: 4em;
+            position: relative;
             @media #{$phablet} {
                 width: 90%;
                 padding: 4em 0 0 2em;

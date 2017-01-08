@@ -283,22 +283,22 @@ p {
       #zero .projectcontainer {
         width: 70%;
         margin: 0 auto; } }
-    #zero .projectcontainer .labeldiv {
-      background-color: #00936E;
+  #zero .contenthalf {
+    width: 90%;
+    margin: 0 auto; }
+    #zero .contenthalf .labeldiv {
       border-radius: 0 0 4px 4px;
       width: 200px;
       height: 40px;
       opacity: 0.8;
       position: absolute;
-      top: 0; }
-      #zero .projectcontainer .labeldiv p {
+      top: 0;
+      background-color: #00936E; }
+      #zero .contenthalf .labeldiv p {
         padding: 0.4em 1em;
         color: white;
         font-size: 1em;
         font-weight: 600; }
-  #zero .contenthalf {
-    width: 90%;
-    margin: 0 auto; }
     @media (min-width: 375px) and (max-width: 768px) {
       #zero .contenthalf {
         width: 90%;
@@ -397,7 +397,8 @@ p {
 
 #one {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  position: relative; }
   @media (min-width: 1024px) and (max-width: 1439px) {
     #one {
       min-height: 900px; } }
@@ -436,7 +437,8 @@ p {
     #one .contenthalf .contentdiv {
       width: 90%;
       margin: 0 auto;
-      padding-top: 4em; }
+      padding-top: 4em;
+      position: relative; }
       @media (min-width: 375px) and (max-width: 768px) {
         #one .contenthalf .contentdiv {
           width: 90%;
