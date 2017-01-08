@@ -30,7 +30,7 @@
 ul {
   width: 90%;
   line-height: 2em;
-  color: #313131;
+  color: #414141;
   margin: 0 auto; }
   @media (min-width: 375px) and (max-width: 768px) {
     .content,
@@ -57,7 +57,7 @@ ul {
       margin: 0 auto;
       font-size: 1.2em; } }
 
-.hero {
+#hero {
   background-image: url("img/actilist/herobg.png");
   width: 100%;
   display: block;
@@ -68,19 +68,19 @@ ul {
   height: 400px;
   position: relative; }
   @media (min-width: 375px) and (max-width: 768px) {
-    .hero {
+    #hero {
       height: 600px; } }
   @media (min-width: 768px) and (max-width: 1023px) {
-    .hero {
+    #hero {
       height: 800px; } }
   @media (min-width: 1024px) and (max-width: 1439px) {
-    .hero {
+    #hero {
       height: 600px; } }
   @media (min-width: 1440px) and (max-width: 1819px) {
-    .hero {
+    #hero {
       height: 600px; } }
   @media (min-width: 1820px) {
-    .hero {
+    #hero {
       height: 800px; } }
 
 #herophonediv {
@@ -1078,7 +1078,8 @@ html {
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
 
 .nav {
   background-color: #272727;
@@ -1087,6 +1088,9 @@ html {
   position: fixed;
   width: 100%;
   z-index: 1000; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .nav {
+      justify-content: space-around; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     .nav {
       justify-content: flex-end; } }
@@ -1196,27 +1200,33 @@ html {
 
 .iconsflex {
   display: flex;
-  flex-wrap: wrap; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .iconsflex {
-      display: inline-block; } }
-
-.iconsgroup {
-  margin: 0 auto;
-  width: 200px; }
-
-.icons {
-  padding: 2em;
-  margin-bottom: 2em; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .icons {
-      padding: 0 2em; } }
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 4em;
+  justify-content: center; }
+  .iconsflex .icondiv {
+    width: 28px;
+    margin: 0 2em; }
+  .iconsflex .mail {
+    fill: #EEEEEE;
+    width: 28px;
+    padding-top: 0.57em; }
+  .iconsflex .in {
+    fill: #EEEEEE;
+    width: 28px; }
+  .iconsflex .mailicon:hover .mail {
+    transition: all 0.20s ease-in-out;
+    fill: #DC4638; }
+  .iconsflex .inicon:hover .in {
+    transition: all 0.20s ease-in-out;
+    fill: #0075B5; }
 
 .resumeline {
   color: white;
   margin: 0;
   text-align: center;
-  font-size: 1em; }
+  font-size: 1em;
+  padding-bottom: 1em; }
   .resumeline #resume {
     color: #D92A1C; }
 

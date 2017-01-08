@@ -550,7 +550,7 @@ p {
     .imagehalf {
         order: 2;
         width: 100%;
-        background-image: url("img/homepage/hotel_room.jpg");
+        background-image: url("img/homepage/hotel_room.png");
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -632,11 +632,11 @@ p {
     .expediacta:hover {
         transition: all 0.30s ease-in-out;
         border: 1px solid white;
-        background: $yellow;
-        cursor: default;
+        background: $expediayellow;
+        cursor: pointer;
 
         .readmoretext {
-            color: white;
+            color: $expediablue;
             font-weight: 800;
         }
     }

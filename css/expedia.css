@@ -1,0 +1,641 @@
+.titlebar {
+  padding: 2em 0; }
+  .titlebar .sectionheader {
+    text-align: center;
+    font-size: 2em;
+    color: #033260; }
+    @media (min-width: 1820px) {
+      .titlebar .sectionheader {
+        font-size: 3em; } }
+
+.subtitle {
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #033260; }
+
+.container {
+  padding: 4em 0; }
+  @media (min-width: 1820px) {
+    .container {
+      max-width: 70%;
+      margin: 0 auto; } }
+  .container .contentbox p {
+    line-height: 2em; }
+  .container .body {
+    color: #414141; }
+
+#ptitle {
+  background-image: url("img/expedia/hotel_room.png");
+  width: 100%;
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 500px;
+  position: relative; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #ptitle {
+      height: 600px; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #ptitle {
+      height: 700px; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #ptitle {
+      height: 600px; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #ptitle {
+      height: 600px; } }
+  @media (min-width: 1820px) {
+    #ptitle {
+      height: 800px; } }
+  #ptitle .projecttitle {
+    font-size: 3em;
+    text-align: center;
+    color: #EEEEEE;
+    margin: 0 auto;
+    padding-top: 2.8em; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #ptitle .projecttitle {
+        font-size: 4em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #ptitle .projecttitle {
+        font-size: 4em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #ptitle .projecttitle {
+        font-size: 5em; } }
+    @media (min-width: 1820px) {
+      #ptitle .projecttitle {
+        font-size: 5em; } }
+  #ptitle .headintro {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 5em;
+    padding-bottom: 1.5em; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #ptitle .headintro {
+        font-size: 1.2em;
+        width: 50%;
+        line-height: 2.4em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #ptitle .headintro {
+        font-size: 1.2em;
+        width: 40%;
+        line-height: 2.4em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #ptitle .headintro {
+        font-size: 1.2em;
+        width: 30%;
+        line-height: 2.4em; } }
+    @media (min-width: 1820px) {
+      #ptitle .headintro {
+        font-size: 1.5em;
+        width: 30%;
+        line-height: 2.4em; } }
+  #ptitle #datetext {
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    padding-top: 0.8em; }
+
+.greycontainer {
+  background-color: #EEEEEE; }
+
+.contentbox {
+  display: flex;
+  flex-wrap: wrap; }
+  .contentbox .introcontent {
+    width: 90%;
+    margin: 0 auto; }
+    .contentbox .introcontent p {
+      line-height: 2em;
+      font-weight: 600; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .contentbox .introcontent {
+        width: 40%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .contentbox .introcontent {
+        width: 50%; }
+        .contentbox .introcontent p {
+          width: 95%;
+          padding: 8em 3em;
+          font-size: 1.2em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .contentbox .introcontent {
+        width: 50%; }
+        .contentbox .introcontent p {
+          width: 80%;
+          padding: 10em 5em;
+          font-size: 1.2em; } }
+    @media (min-width: 1820px) {
+      .contentbox .introcontent {
+        width: 50%; }
+        .contentbox .introcontent p {
+          width: 95%;
+          padding: 10em 6em;
+          font-size: 1.2em; } }
+  .contentbox #intropicdiv {
+    width: 90%;
+    margin: 0 auto;
+    padding: 4em 0; }
+    .contentbox #intropicdiv #intro_pic {
+      width: 100%; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .contentbox #intropicdiv {
+        width: 70%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .contentbox #intropicdiv {
+        width: 50%; }
+        .contentbox #intropicdiv .introbox {
+          width: 90%;
+          margin: 0 auto; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .contentbox #intropicdiv {
+        width: 50%; }
+        .contentbox #intropicdiv .introbox {
+          width: 70%;
+          margin: 0 auto; } }
+    @media (min-width: 1820px) {
+      .contentbox #intropicdiv {
+        width: 50%; }
+        .contentbox #intropicdiv .introbox {
+          width: 70%;
+          margin: 0 auto; } }
+
+.processflex {
+  padding: 4em 0;
+  display: flex;
+  flex-wrap: wrap; }
+  .processflex .subtitle {
+    padding-bottom: 1em; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .processflex .subtitle {
+        padding: 0; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .processflex .subtitle {
+        padding: 0; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .processflex .subtitle {
+        padding: 0; } }
+    @media (min-width: 1820px) {
+      .processflex .subtitle {
+        padding: 0; } }
+  .processflex .processitem {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 0; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      .processflex .processitem {
+        padding: 2em; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .processflex .processitem {
+        width: 70%; }
+        .processflex .processitem .processbox {
+          display: flex;
+          padding: 0;
+          align-items: center;
+          justify-content: space-between; }
+          .processflex .processitem .processbox .processcontent {
+            padding-left: 3em;
+            width: 60%;
+            text-align: center; }
+          .processflex .processitem .processbox .processcontent1 {
+            display: flex; }
+            .processflex .processitem .processbox .processcontent1 p {
+              padding: 1em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .processflex .processitem {
+        width: 51%; }
+        .processflex .processitem .processbox {
+          display: flex;
+          padding: 0;
+          align-items: center;
+          justify-content: space-between; }
+          .processflex .processitem .processbox .processcontent {
+            padding-left: 3em;
+            width: 60%;
+            text-align: center; }
+          .processflex .processitem .processbox .processcontent1 {
+            display: flex; }
+            .processflex .processitem .processbox .processcontent1 p {
+              padding: 1em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .processflex .processitem {
+        width: 33%;
+        padding: 6em 0 0 8em; }
+        .processflex .processitem .processcontent {
+          padding: 1em 0; }
+        .processflex .processitem .processcontent1 {
+          display: flex; }
+          .processflex .processitem .processcontent1 p {
+            padding: 0 1em; }
+          .processflex .processitem .processcontent1 #researchtext {
+            padding-left: 0; } }
+    @media (min-width: 1820px) {
+      .processflex .processitem {
+        width: 33%;
+        padding: 6em 0 0 8em; }
+        .processflex .processitem .processcontent {
+          padding: 1em 0; }
+        .processflex .processitem .processcontent1 {
+          display: flex; }
+          .processflex .processitem .processcontent1 p {
+            padding: 0 1em; }
+          .processflex .processitem .processcontent1 #researchtext {
+            padding-left: 0; } }
+
+.problemcontainer .contentbox {
+  width: 90%;
+  margin: 0 auto;
+  padding: 4em 0; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .problemcontainer .contentbox {
+      width: 75%;
+      margin: 0 auto; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .problemcontainer .contentbox {
+      width: 50%;
+      margin: 0 auto; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .problemcontainer .contentbox {
+      width: 40%;
+      margin: 0 auto; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .problemcontainer .contentbox {
+      width: 30%;
+      margin: 0 auto; } }
+  @media (min-width: 1820px) {
+    .problemcontainer .contentbox {
+      width: 35%;
+      margin: 0 auto; } }
+  .problemcontainer .contentbox .subtitle {
+    padding-bottom: 1em; }
+.problemcontainer .existingproblems {
+  display: flex;
+  flex-wrap: wrap; }
+  .problemcontainer .existingproblems .probpicdiv {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 6em; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      .problemcontainer .existingproblems .probpicdiv {
+        width: 65%;
+        margin: 0 auto; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .problemcontainer .existingproblems .probpicdiv {
+        width: 30%;
+        margin: 0 auto; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .problemcontainer .existingproblems .probpicdiv {
+        width: 25%;
+        margin: 0 auto;
+        padding: 4em 0 6em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .problemcontainer .existingproblems .probpicdiv {
+        width: 18%;
+        margin: 0 auto;
+        padding: 4em 0 6em; } }
+    @media (min-width: 1820px) {
+      .problemcontainer .existingproblems .probpicdiv {
+        width: 20%;
+        margin: 0 auto;
+        padding: 4em 0 6em; } }
+
+.proposedcontainerr {
+  padding: 4em 0; }
+  .proposedcontainerr .contentbox {
+    padding: 2em 0 6em;
+    width: 90%;
+    margin: 0 auto; }
+    .proposedcontainerr .contentbox p {
+      line-height: 2em; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      .proposedcontainerr .contentbox {
+        width: 75%;
+        margin: 0 auto; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .proposedcontainerr .contentbox {
+        width: 60%;
+        margin: 0 auto; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .proposedcontainerr .contentbox {
+        width: 40%;
+        margin: 0 auto; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .proposedcontainerr .contentbox {
+        width: 30%;
+        margin: 0 auto; } }
+    @media (min-width: 1820px) {
+      .proposedcontainerr .contentbox {
+        width: 35%;
+        margin: 0 auto; } }
+  .proposedcontainerr #finaldesigndiv {
+    width: 90%;
+    margin: 0 auto; }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .proposedcontainerr #finaldesigndiv {
+        width: 70%;
+        margin: 0 auto; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .proposedcontainerr #finaldesigndiv {
+        width: 60%;
+        margin: 0 auto; } }
+    @media (min-width: 1820px) {
+      .proposedcontainerr #finaldesigndiv {
+        width: 50%;
+        margin: 0 auto; } }
+
+.researchcontainer .contentbox {
+  padding: 2em 0 6em;
+  width: 90%;
+  margin: 0 auto; }
+  .researchcontainer .contentbox p {
+    line-height: 2em; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .researchcontainer .contentbox {
+      width: 75%;
+      margin: 0 auto; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .researchcontainer .contentbox {
+      width: 60%;
+      margin: 0 auto; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .researchcontainer .contentbox {
+      width: 40%;
+      margin: 0 auto; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .researchcontainer .contentbox {
+      width: 30%;
+      margin: 0 auto; } }
+  @media (min-width: 1820px) {
+    .researchcontainer .contentbox {
+      width: 35%;
+      margin: 0 auto; } }
+.researchcontainer #companalysis {
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .researchcontainer #companalysis {
+      width: 70%;
+      margin: 0 auto; } }
+  @media (min-width: 1820px) {
+    .researchcontainer #companalysis {
+      width: 75%;
+      margin: 0 auto; } }
+  .researchcontainer #companalysis img {
+    width: 100%; }
+
+.ideationcontainer .freemancontainer {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0; }
+  .ideationcontainer .freemancontainer #freeman {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .ideationcontainer .freemancontainer {
+      margin: 4em auto; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .ideationcontainer .freemancontainer {
+      width: 70%;
+      padding: 4em 0; } }
+  @media (min-width: 1820px) {
+    .ideationcontainer .freemancontainer {
+      width: 70%;
+      padding: 4em 0; } }
+.ideationcontainer .earlydesigns {
+  width: 90%;
+  margin: 0 auto; }
+  .ideationcontainer .earlydesigns .variantpicdiv1 {
+    padding: 4em 0; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .ideationcontainer .earlydesigns {
+      width: 70%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .ideationcontainer .earlydesigns {
+      width: 60%; }
+      .ideationcontainer .earlydesigns .variantpicdiv1 {
+        padding: 6em 0; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .ideationcontainer .earlydesigns {
+      width: 45%; }
+      .ideationcontainer .earlydesigns .variantpicdiv1 {
+        padding: 8em 0; } }
+  @media (min-width: 1820px) {
+    .ideationcontainer .earlydesigns {
+      width: 50%; }
+      .ideationcontainer .earlydesigns .variantpicdiv1 {
+        padding: 8em 0; } }
+
+.takeawaycontainer .contentbox {
+  width: 90%;
+  margin: 0 auto; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .takeawaycontainer .contentbox {
+      width: 75%;
+      margin: 0 auto; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .takeawaycontainer .contentbox {
+      width: 60%;
+      margin: 0 auto; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .takeawaycontainer .contentbox {
+      width: 40%;
+      margin: 0 auto;
+      padding: 2em 0; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .takeawaycontainer .contentbox {
+      width: 30%;
+      margin: 0 auto;
+      padding: 4em 0; } }
+  @media (min-width: 1820px) {
+    .takeawaycontainer .contentbox {
+      width: 35%;
+      margin: 0 auto;
+      padding: 4em 0; } }
+
+.container,
+body,
+html {
+  height: 100%;
+  width: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
+
+.nav {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1000; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .nav {
+      justify-content: space-around; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .nav {
+      justify-content: flex-end; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  @media (min-width: 1820px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  .nav .navitem {
+    padding: 1em 1.5em;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-align: center;
+    width: 33%; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .nav .navitem {
+        padding: 1.5em 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        width: 150px; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        width: 150px; } }
+    @media (min-width: 1820px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        font-size: 1.1em;
+        width: 200px; } }
+  .nav .navitem:hover {
+    transition: all 0.30s ease-in-out;
+    cursor: pointer;
+    background-color: white;
+    color: #272727; }
+  .nav a {
+    color: #EEEEEE; }
+
+.footernavcontainer {
+  display: flex;
+  justify-content: space-between; }
+  .footernavcontainer .navbutton {
+    width: 50%;
+    padding: 1em 0;
+    background-color: #C9EB91;
+    text-align: center; }
+  .footernavcontainer .navbutton:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E; }
+    .footernavcontainer .navbutton:hover .nextprojbig,
+    .footernavcontainer .navbutton:hover .nextprojsmall {
+      color: #EEEEEE;
+      font-weight: 700; }
+  .footernavcontainer .nextprojsmall {
+    font-size: 0.8em;
+    color: #424242; }
+  .footernavcontainer .nextprojbig {
+    font-size: 1em;
+    font-weight: 500; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1820px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+
+.footerdiv {
+  background-color: #292929;
+  width: 100%; }
+
+.getintouch {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  padding: 2em 0;
+  text-align: center; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .getintouch {
+      font-size: 1.5em; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .getintouch {
+      font-size: 1.5em;
+      text-align: center; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .getintouch {
+      font-size: 1.5em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .getintouch {
+      font-size: 1.5em; } }
+  @media (min-width: 1820px) {
+    .getintouch {
+      font-size: 1.5em; } }
+
+.iconsflex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 4em;
+  justify-content: center; }
+  .iconsflex .icondiv {
+    width: 28px;
+    margin: 0 2em; }
+  .iconsflex .mail {
+    fill: #EEEEEE;
+    width: 28px;
+    padding-top: 0.57em; }
+  .iconsflex .in {
+    fill: #EEEEEE;
+    width: 28px; }
+  .iconsflex .mailicon:hover .mail {
+    transition: all 0.20s ease-in-out;
+    fill: #DC4638; }
+  .iconsflex .inicon:hover .in {
+    transition: all 0.20s ease-in-out;
+    fill: #0075B5; }
+
+.resumeline {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: 1em; }
+  .resumeline #resume {
+    color: #D92A1C; }
+
+.arrowup {
+  width: 50px;
+  margin: 0 auto;
+  padding: 2em 0 3em; }
+
+.copyrightdiv {
+  width: 100%;
+  background-color: #3E3E3E; }
+
+.copyright {
+  padding: 0.8em 0;
+  text-align: center;
+  color: #ABABAB;
+  font-size: 0.8em;
+  margin: 0 auto; }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .copyright {
+      padding: 0.8em 0 0.8em 10em;
+      text-align: left; } }
+
+/*# sourceMappingURL=expedia.css.map */

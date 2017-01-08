@@ -1,0 +1,588 @@
+.titlebar {
+    padding: 2em 0;
+
+    .sectionheader {
+        text-align: center;
+        font-size: 2em;
+        color: $expediablue;
+        @media #{$monitor} {
+            font-size: 3em;
+        }
+    }
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: $expediablue;
+}
+
+.container {
+    padding: 4em 0;
+    @media #{$monitor} {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .contentbox {
+        p {
+            line-height: 2em;
+        }
+    }
+
+    .body {
+        color: $textdark;
+    }
+}
+// <!-- ################# HERO ################# -->
+
+#ptitle {
+    background-image: url("img/expedia/hotel_room.png");
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 500px;
+    position: relative;
+    @media #{$phablet} {
+        height: 600px;
+    }
+    @media #{$tablet} {
+        height: 700px;
+    }
+    @media #{$mac13} {
+        height: 600px;
+    }
+    @media #{$mac15} {
+        height: 600px;
+    }
+    @media #{$monitor} {
+        height: 800px;
+    }
+
+    .projecttitle {
+        font-size: 3em;
+        text-align: center;
+        color: $grey1;
+        margin: 0 auto;
+        padding-top: 2.8em;
+        @media #{$tablet} {
+            font-size: 4em;
+        }
+        @media #{$mac13} {
+            font-size: 4em;
+        }
+        @media #{$mac15} {
+            font-size: 5em;
+        }
+        @media #{$monitor} {
+            font-size: 5em;
+        }
+    }
+
+    .headintro {
+        width: 80%;
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+        font-size: 1em;
+        line-height: 1.5em;
+        padding-top: 5em;
+        padding-bottom: 1.5em;
+        @media #{$tablet} {
+            font-size: 1.2em;
+            width: 50%;
+            line-height: 2.4em;
+        }
+        @media #{$mac13} {
+            font-size: 1.2em;
+            width: 40%;
+            line-height: 2.4em;
+        }
+        @media #{$mac15} {
+            font-size: 1.2em;
+            width: 30%;
+            line-height: 2.4em;
+        }
+        @media #{$monitor} {
+            font-size: 1.5em;
+            width: 30%;
+            line-height: 2.4em;
+        }
+    }
+
+    #datetext {
+        text-align: center;
+        color: black;
+        font-size: 1em;
+        padding-top: 0.8em;
+    }
+}
+// <!-- ################# INTRO ################# -->
+
+.greycontainer {
+    background-color: $grey1;
+}
+
+.contentbox {
+    display: flex;
+    flex-wrap: wrap;
+
+    .introcontent {
+        width: 90%;
+        margin: 0 auto;
+
+        p {
+            line-height: 2em;
+            font-weight: 600;
+        }
+        @media #{$tablet} {
+            width: 40%;
+        }
+        @media #{$mac13} {
+            width: 50%;
+
+            p {
+                width: 95%;
+                padding: 8em 3em;
+                font-size: 1.2em;
+            }
+        }
+        @media #{$mac15} {
+            width: 50%;
+
+            p {
+                width: 80%;
+                padding: 10em 5em;
+                font-size: 1.2em;
+            }
+        }
+        @media #{$monitor} {
+            width: 50%;
+
+            p {
+                width: 95%;
+                padding: 10em 6em;
+                font-size: 1.2em;
+            }
+        }
+    }
+
+    #intropicdiv {
+        width: 90%;
+        margin: 0 auto;
+        padding: 4em 0;
+
+        #intro_pic {
+            width: 100%;
+        }
+        @media #{$tablet} {
+            width: 70%;
+        }
+        @media #{$mac13} {
+            width: 50%;
+
+            .introbox {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+        @media #{$mac15} {
+            width: 50%;
+
+            .introbox {
+                width: 70%;
+                margin: 0 auto;
+            }
+        }
+        @media #{$monitor} {
+            width: 50%;
+
+            .introbox {
+                width: 70%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+// <!-- ################# Design Process ################# -->
+
+.processflex {
+    padding: 4em 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    .subtitle {
+        padding-bottom: 1em;
+        @media #{$tablet} {
+            padding: 0;
+        }
+        @media #{$mac13} {
+            padding: 0;
+        }
+        @media #{$mac15} {
+            padding: 0;
+        }
+        @media #{$monitor} {
+            padding: 0;
+        }
+    }
+
+    .processitem {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2em 0;
+        @media #{$phablet} {
+            padding: 2em;
+        }
+        @media #{$tablet} {
+            width: 70%;
+
+            .processbox {
+                display: flex;
+                padding: 0;
+                align-items: center;
+                justify-content: space-between;
+
+                .processcontent {
+                    padding-left: 3em;
+                    width: 60%;
+                    text-align: center;
+                }
+
+                .processcontent1 {
+                    display: flex;
+
+                    p {
+                        padding: 1em;
+                    }
+                }
+            }
+        }
+        @media #{$mac13} {
+            width: 51%;
+
+            .processbox {
+                display: flex;
+                padding: 0;
+                align-items: center;
+                justify-content: space-between;
+
+                .processcontent {
+                    padding-left: 3em;
+                    width: 60%;
+                    text-align: center;
+                }
+
+                .processcontent1 {
+                    display: flex;
+
+                    p {
+                        padding: 1em;
+                    }
+                }
+            }
+        }
+        @media #{$mac15} {
+            width: 33%;
+            padding: 6em 0 0 8em;
+
+            .processcontent {
+                padding: 1em 0;
+            }
+
+            .processcontent1 {
+                display: flex;
+
+                p {
+                    padding: 0 1em;
+                }
+
+                #researchtext {
+                    padding-left: 0;
+                }
+            }
+        }
+        @media #{$monitor} {
+            width: 33%;
+            padding: 6em 0 0 8em;
+
+            .processcontent {
+                padding: 1em 0;
+            }
+
+            .processcontent1 {
+                display: flex;
+
+                p {
+                    padding: 0 1em;
+                }
+
+                #researchtext {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}
+// <!-- ################# Problem & Goals ################# -->
+
+.problemcontainer {
+    .contentbox {
+        width: 90%;
+        margin: 0 auto;
+        padding: 4em 0;
+        @media #{$phablet} {
+            width: 75%;
+            margin: 0 auto;
+        }
+        @media #{$tablet} {
+            width: 50%;
+            margin: 0 auto;
+        }
+        @media #{$mac13} {
+            width: 40%;
+            margin: 0 auto;
+        }
+        @media #{$mac15} {
+            width: 30%;
+            margin: 0 auto;
+        }
+        @media #{$monitor} {
+            width: 35%;
+            margin: 0 auto;
+        }
+
+        .subtitle {
+            padding-bottom: 1em;
+        }
+    }
+
+    .existingproblems {
+        display: flex;
+        flex-wrap: wrap;
+
+        .probpicdiv {
+            width: 80%;
+            margin: 0 auto;
+            padding-bottom: 6em;
+            @media #{$phablet} {
+                width: 65%;
+                margin: 0 auto;
+            }
+            @media #{$tablet} {
+                width: 30%;
+                margin: 0 auto;
+            }
+            @media #{$mac13} {
+                width: 25%;
+                margin: 0 auto;
+                padding: 4em 0 6em;
+            }
+            @media #{$mac15} {
+                width: 18%;
+                margin: 0 auto;
+                padding: 4em 0 6em;
+            }
+            @media #{$monitor} {
+                width: 20%;
+                margin: 0 auto;
+                padding: 4em 0 6em;
+            }
+        }
+    }
+}
+// <!-- ################# PROPOSED SOLUTION################# -->
+
+.proposedcontainerr {
+    padding: 4em 0;
+
+    .contentbox {
+        padding: 2em 0 6em;
+        width: 90%;
+        margin: 0 auto;
+
+        p {
+            line-height: 2em;
+        }
+        @media #{$phablet} {
+            width: 75%;
+            margin: 0 auto;
+        }
+        @media #{$tablet} {
+            width: 60%;
+            margin: 0 auto;
+        }
+        @media #{$mac13} {
+            width: 40%;
+            margin: 0 auto;
+        }
+        @media #{$mac15} {
+            width: 30%;
+            margin: 0 auto;
+        }
+        @media #{$monitor} {
+            width: 35%;
+            margin: 0 auto;
+        }
+    }
+
+    #finaldesigndiv {
+        width: 90%;
+        margin: 0 auto;
+        @media #{$mac13} {
+            width: 70%;
+            margin: 0 auto;
+        }
+        @media #{$mac15} {
+            width: 60%;
+            margin: 0 auto;
+        }
+        @media #{$monitor} {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+}
+// <!-- ################# Research ################# -->
+
+.researchcontainer {
+    .contentbox {
+        padding: 2em 0 6em;
+        width: 90%;
+        margin: 0 auto;
+
+        p {
+            line-height: 2em;
+        }
+        @media #{$phablet} {
+            width: 75%;
+            margin: 0 auto;
+        }
+        @media #{$tablet} {
+            width: 60%;
+            margin: 0 auto;
+        }
+        @media #{$mac13} {
+            width: 40%;
+            margin: 0 auto;
+        }
+        @media #{$mac15} {
+            width: 30%;
+            margin: 0 auto;
+        }
+        @media #{$monitor} {
+            width: 35%;
+            margin: 0 auto;
+        }
+    }
+
+    #companalysis {
+        width: 90%;
+        margin: 0 auto;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        @media #{$mac15} {
+            width: 70%;
+            margin: 0 auto;
+        }
+        @media #{$monitor} {
+            width: 75%;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+/// Ideation ////
+
+.ideationcontainer {
+    .freemancontainer {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2em 0;
+
+        #freeman {
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+        @media #{$mac13} {
+            margin: 4em auto;
+        }
+        @media #{$mac15} {
+            width: 70%;
+            padding: 4em 0;
+        }
+        @media #{$monitor} {
+            width: 70%;
+            padding: 4em 0;
+        }
+    }
+
+    .earlydesigns {
+        width: 90%;
+        margin: 0 auto;
+
+        .variantpicdiv1 {
+            padding: 4em 0;
+        }
+        @media #{$tablet} {
+            width: 70%;
+        }
+        @media #{$mac13} {
+            width: 60%;
+
+            .variantpicdiv1 {
+                padding: 6em 0;
+            }
+        }
+        @media #{$mac15} {
+            width: 45%;
+
+            .variantpicdiv1 {
+                padding: 8em 0;
+            }
+        }
+        @media #{$monitor} {
+            width: 50%;
+
+            .variantpicdiv1 {
+                padding: 8em 0;
+            }
+        }
+    }
+}
+// <!-- ################# Takeaways ################# -->
+
+.takeawaycontainer {
+    .contentbox {
+        width: 90%;
+        margin: 0 auto;
+        @media #{$phablet} {
+            width: 75%;
+            margin: 0 auto;
+        }
+        @media #{$tablet} {
+            width: 60%;
+            margin: 0 auto;
+        }
+        @media #{$mac13} {
+            width: 40%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        @media #{$mac15} {
+            width: 30%;
+            margin: 0 auto;
+            padding: 4em 0;
+        }
+        @media #{$monitor} {
+            width: 35%;
+            margin: 0 auto;
+            padding: 4em 0;
+        }
+    }
+}
+// .

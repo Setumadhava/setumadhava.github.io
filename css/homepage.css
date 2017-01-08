@@ -481,7 +481,7 @@ p {
   #one .imagehalf {
     order: 2;
     width: 100%;
-    background-image: url("img/homepage/hotel_room.jpg");
+    background-image: url("img/homepage/hotel_room.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -551,10 +551,10 @@ p {
   #one .expediacta:hover {
     transition: all 0.30s ease-in-out;
     border: 1px solid white;
-    background: #FFCA01;
-    cursor: default; }
+    background: #FDCF08;
+    cursor: pointer; }
     #one .expediacta:hover .readmoretext {
-      color: white;
+      color: #033260;
       font-weight: 800; }
 
 #two {
@@ -944,7 +944,7 @@ p {
 
 #aboutmecontent {
   line-height: 1.8em;
-  color: #313131;
+  color: #414141;
   padding-left: 1em; }
 
 #skillsmobdiv {
@@ -1028,7 +1028,8 @@ html {
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
 
 .nav {
   background-color: #272727;
@@ -1037,6 +1038,9 @@ html {
   position: fixed;
   width: 100%;
   z-index: 1000; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .nav {
+      justify-content: space-around; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     .nav {
       justify-content: flex-end; } }
@@ -1146,27 +1150,33 @@ html {
 
 .iconsflex {
   display: flex;
-  flex-wrap: wrap; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .iconsflex {
-      display: inline-block; } }
-
-.iconsgroup {
-  margin: 0 auto;
-  width: 200px; }
-
-.icons {
-  padding: 2em;
-  margin-bottom: 2em; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .icons {
-      padding: 0 2em; } }
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 4em;
+  justify-content: center; }
+  .iconsflex .icondiv {
+    width: 28px;
+    margin: 0 2em; }
+  .iconsflex .mail {
+    fill: #EEEEEE;
+    width: 28px;
+    padding-top: 0.57em; }
+  .iconsflex .in {
+    fill: #EEEEEE;
+    width: 28px; }
+  .iconsflex .mailicon:hover .mail {
+    transition: all 0.20s ease-in-out;
+    fill: #DC4638; }
+  .iconsflex .inicon:hover .in {
+    transition: all 0.20s ease-in-out;
+    fill: #0075B5; }
 
 .resumeline {
   color: white;
   margin: 0;
   text-align: center;
-  font-size: 1em; }
+  font-size: 1em;
+  padding-bottom: 1em; }
   .resumeline #resume {
     color: #D92A1C; }
 
