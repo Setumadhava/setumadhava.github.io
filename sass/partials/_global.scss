@@ -87,11 +87,71 @@ html {
         text-align: center;
     }
 
-    .navbutton:hover {
+    .actinxt:hover {
         transition: all 0.20s ease-in-out;
         cursor: pointer;
         background-color: $darkgreen;
-        // border: 8px solid white;
+        background-image: url("img/actilist/herobg.png");
+        width: 70%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+
+        .nextprojbig,
+        .nextprojsmall {
+            color: white;
+            font-weight: 700;
+        }
+    }
+
+    .smarthomenxt:hover {
+        transition: all 0.20s ease-in-out;
+        cursor: pointer;
+        background-color: $darkgreen;
+        background-image: url("img/smarthome/homeimg2.png");
+        width: 70%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+
+        .nextprojbig,
+        .nextprojsmall {
+            color: white;
+            font-weight: 700;
+        }
+    }
+
+    .expedianxt:hover {
+        transition: all 0.20s ease-in-out;
+        cursor: pointer;
+        background-color: $darkgreen;
+        background-image: url("img/homepage/hotel_room.png");
+        width: 70%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+
+        .nextprojbig,
+        .nextprojsmall {
+            color: white;
+            font-weight: 700;
+        }
+    }
+
+    .datescoutnxt:hover {
+        transition: all 0.20s ease-in-out;
+        cursor: pointer;
+        background-color: $darkgreen;
+        background-image: url("img/homepage/dscoutcouplebg.png");
+        width: 70%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+
         .nextprojbig,
         .nextprojsmall {
             color: white;
