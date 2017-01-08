@@ -787,6 +787,18 @@ p {
     .datescoutcta {
         border: 1px solid $pink;
     }
+
+    .datescoutcta:hover {
+        transition: all 0.30s ease-in-out;
+        border: 1px solid white;
+        background: $pink;
+        cursor: pointer;
+
+        .readmoretext {
+            color: white;
+            font-weight: 800;
+        }
+    }
 }
 // ################# SMARTHOME NEW #############
 
@@ -923,6 +935,18 @@ p {
 
     .homecta {
         border: 1px solid $yellow;
+    }
+
+    .homecta:hover {
+        transition: all 0.30s ease-in-out;
+        border: 1px solid white;
+        background: $expediayellow;
+        cursor: pointer;
+
+        .readmoretext {
+            color: #085056;
+            font-weight: 800;
+        }
     }
 }
 //////////////////////////// EVENTOSAUR  //////////////////////

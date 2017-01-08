@@ -1,0 +1,499 @@
+/////////////////////////// COMMON ////////////////////////
+
+.content {
+    font-family: $roboto;
+}
+
+p {
+    line-height: 2em;
+}
+
+.darkcontainer {
+    background-color: $textdark;
+}
+
+.xlcontainer {
+    @media #{$monitor} {
+        width: 70%;
+        margin: 0 auto;
+        // background-color: $grey2;
+    }
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #085056;
+}
+
+.sectionheader {
+    text-align: center;
+    font-size: 2em;
+    color: #085056;
+    @media #{$monitor} {
+        font-size: 3em;
+    }
+}
+/////////////////////////// HERO ////////////////////////
+
+#ptitle {
+    background-image: url("img/smarthome/homeimg2.png");
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 500px;
+    position: relative;
+    @media #{$phablet} {
+        height: 600px;
+    }
+    @media #{$tablet} {
+        height: 700px;
+    }
+    @media #{$mac13} {
+        height: 600px;
+    }
+    @media #{$mac15} {
+        height: 600px;
+    }
+    @media #{$monitor} {
+        height: 800px;
+    }
+
+    .projecttitle {
+        font-size: 3em;
+        text-align: center;
+        color: $grey1;
+        margin: 0 auto;
+        padding-top: 2.8em;
+        @media #{$tablet} {
+            font-size: 4em;
+        }
+        @media #{$mac13} {
+            font-size: 4em;
+        }
+        @media #{$mac15} {
+            font-size: 5em;
+        }
+        @media #{$monitor} {
+            font-size: 5em;
+        }
+    }
+}
+/////////////////////////// INTRO ////////////////////////
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+
+    .smarthomediv {
+        width: 100%;
+        @media #{$tablet} {
+            width: 50%;
+        }
+        @media #{$mac13} {
+            width: 50%;
+        }
+        @media #{$mac15} {
+            width: 50%;
+        }
+        @media #{$monitor} {
+            width: 50%;
+        }
+    }
+
+    .headintro {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2em 0;
+        color: white;
+        @media #{$tablet} {
+            width: 50%;
+            padding-top: 4em;
+
+            p {
+                width: 70%;
+                margin: 0 auto;
+            }
+        }
+        @media #{$mac13} {
+            width: 50%;
+            padding-top: 4em;
+
+            p {
+                width: 70%;
+                margin: 0 auto;
+            }
+        }
+        @media #{$mac15} {
+            width: 50%;
+            padding-top: 6em;
+
+            p {
+                width: 40%;
+                margin: 0 auto;
+                font-size: 1.8em;
+            }
+        }
+        @media #{$monitor} {
+            width: 50%;
+            padding-top: 4em;
+
+            p {
+                width: 60%;
+                margin: 0 auto;
+                font-size: 1.8em;
+            }
+        }
+    }
+}
+//////////////////////////////ROLE/////////////////////////////////////
+
+.rolecontainer {
+    background-color: #085056;
+}
+
+.roleflex {
+    padding: 2em 0 4em 1em;
+    @media #{$phablet} {
+        padding: 2em 0 4em 2em;
+    }
+    @media #{$tablet} {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    @media #{$mac13} {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    @media #{$mac15} {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    @media #{$monitor} {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+}
+
+.roleitem {
+    @media #{$tablet} {
+        width: 50%;
+        margin: 2em 0;
+    }
+    @media #{$mac13} {
+        width: 50%;
+        margin: 2em 0;
+    }
+}
+
+.roletitle {
+    color: #A0A0A0;
+    padding-top: 2em;
+    @media #{$tablet} {
+        width: 80%;
+        margin: 0 auto;
+    }
+    @media #{$mac13} {
+        width: 80%;
+        margin: 0 auto;
+    }
+    @media #{$mac15} {
+        width: 80%;
+    }
+    @media #{$monitor} {
+        width: 80%;
+    }
+}
+
+.rolebody {
+    color: #ECECEC;
+    font-size: 1.1em;
+    width: 90%;
+    @media #{$tablet} {
+        font-size: 1.1em;
+        width: 80%;
+        margin: 1em auto;
+    }
+    @media #{$mac13} {
+        font-size: 1.1em;
+        width: 80%;
+        margin: 1em auto;
+    }
+    @media #{$mac15} {
+        font-size: 1.1em;
+        width: 100%;
+        margin: 1em auto;
+    }
+    @media #{$monitor} {
+        font-size: 1.1em;
+        width: 100%;
+        margin: 1em auto;
+    }
+}
+////////////////////////////// INTRO /////////////////////////////////////
+
+.introcontainer {
+    padding: 4em 0;
+
+    .contentbox {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2em 0;
+        @media #{$tablet} {
+            width: 60%;
+            padding: 4em 0;
+        }
+        @media #{$mac13} {
+            width: 55%;
+            padding: 4em 0;
+        }
+        @media #{$mac15} {
+            width: 35%;
+            padding: 4em 0;
+        }
+        @media #{$monitor} {
+            width: 28%;
+            padding: 4em 0;
+        }
+    }
+
+    #iframe {
+        height: 245px;
+        @media #{$tablet} {
+            height: 400px;
+        }
+        @media #{$mac13} {
+            height: 400px;
+            width: 800px;
+            margin: 0 auto;
+        }
+        @media #{$mac15} {
+            height: 600px;
+            width: 1200px;
+            margin: 0 auto;
+        }
+        @media #{$monitor} {
+            height: 600px;
+            width: 1200px;
+            margin: 0 auto;
+        }
+    }
+}
+////////////////////////////// FEATURES  /////////////////////////////////////
+
+.featurescontainer {
+    padding: 4em 0;
+
+    .sectionheader {
+        padding-bottom: 2em;
+        color: white;
+    }
+
+    .subtitle {
+        color: #7EF486;
+    }
+
+    p {
+        color: $grey1;
+    }
+
+    .contentbox {
+        width: 90%;
+        margin: 0 auto;
+        @media #{$phablet} {
+            width: 80%;
+        }
+        @media #{$tablet} {
+            width: 55%;
+        }
+        @media #{$mac13} {
+            width: 50%;
+        }
+        @media #{$mac15} {
+            width: 35%;
+        }
+        @media #{$monitor} {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .featurecontent {
+                padding-bottom: 2em;
+                width: 33%;
+
+                p {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+////////////////// IDEATION /////////////////
+
+.ideationcontainer {
+    padding: 4em 0;
+
+    .sectionheader {
+        padding-bottom: 2em;
+    }
+
+    .contentbox {
+        width: 90%;
+        margin: 0 auto;
+        @media #{$phablet} {
+            width: 80%;
+        }
+        @media #{$tablet} {
+            width: 55%;
+        }
+        @media #{$mac13} {
+            width: 50%;
+        }
+        @media #{$mac15} {
+            width: 35%;
+        }
+        @media #{$monitor} {
+            width: 35%;
+        }
+    }
+
+    .diagramdiv {
+        padding: 4em 0;
+        @media #{$mac13} {
+            display: flex;
+        }
+        @media #{$mac15} {
+            display: flex;
+        }
+        @media #{$monitor} {
+            display: flex;
+        }
+
+        .diagrams {
+            width: 90%;
+            margin: 0 auto;
+            padding: 4em 0;
+
+            .subtitle {
+                padding-bottom: 2em;
+                text-align: center;
+            }
+            @media #{$tablet} {
+                width: 55%;
+            }
+            @media #{$mac13} {
+                width: 40%;
+            }
+            @media #{$mac15} {
+                width: 30%;
+            }
+            @media #{$monitor} {
+                width: 30%;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .cktdiagram {
+            @media #{$mac13} {
+                width: 30%;
+            }
+            @media #{$mac15} {
+                width: 25%;
+            }
+            @media #{$monitor} {
+                width: 25%;
+            }
+        }
+    }
+}
+////////////////////// photos ////////////////////
+
+.extradarkcontainer {
+    background-color: #2b2b2b;
+    padding: 4em 0;
+
+    #photosbig {
+        display: none;
+        @media #{$tablet} {
+            display: block;
+        }
+        @media #{$mac13} {
+            display: block;
+            width: 900px;
+            margin: 0 auto;
+        }
+        @media #{$mac15} {
+            display: block;
+            width: 1000px;
+            margin: 0 auto;
+        }
+        @media #{$monitor} {
+            display: block;
+            width: 1000px;
+            margin: 0 auto;
+        }
+    }
+
+    #photosmob {
+        display: block;
+        @media #{$tablet} {
+            display: none;
+        }
+        @media #{$mac13} {
+            display: none;
+        }
+        @media #{$mac15} {
+            display: none;
+        }
+        @media #{$monitor} {
+            display: none;
+        }
+    }
+}
+////////////////////// takeaways ////////////////////
+
+.takeawaycontainer {
+    padding: 4em 0;
+
+    .sectionheader {
+        padding-bottom: 2em;
+    }
+
+    .contentbox {
+        width: 90%;
+        margin: 0 auto;
+        @media #{$phablet} {
+            width: 80%;
+        }
+        @media #{$tablet} {
+            width: 55%;
+        }
+        @media #{$mac13} {
+            width: 50%;
+        }
+        @media #{$mac15} {
+            width: 35%;
+        }
+        @media #{$monitor} {
+            width: 28%;
+        }
+    }
+}

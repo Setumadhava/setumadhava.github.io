@@ -677,6 +677,14 @@ p {
     color: #FC136A; }
   #two .datescoutcta {
     border: 1px solid #FC136A; }
+  #two .datescoutcta:hover {
+    transition: all 0.30s ease-in-out;
+    border: 1px solid white;
+    background: #FC136A;
+    cursor: pointer; }
+    #two .datescoutcta:hover .readmoretext {
+      color: white;
+      font-weight: 800; }
 
 #four {
   display: flex;
@@ -792,6 +800,14 @@ p {
     color: #FFCA01; }
   #four .homecta {
     border: 1px solid #FFCA01; }
+  #four .homecta:hover {
+    transition: all 0.30s ease-in-out;
+    border: 1px solid white;
+    background: #FDCF08;
+    cursor: pointer; }
+    #four .homecta:hover .readmoretext {
+      color: #085056;
+      font-weight: 800; }
 
 #three {
   background-image: url("img/homepage/eventosaurbgmob.png");
