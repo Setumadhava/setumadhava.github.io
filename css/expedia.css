@@ -496,7 +496,7 @@ html {
       padding-right: 2em; } }
   .nav .navitem {
     padding: 1em 1.5em;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 500;
     text-align: center;
     width: 33%; }
@@ -514,13 +514,14 @@ html {
     @media (min-width: 1820px) {
       .nav .navitem {
         padding: 1.5em 2em;
-        font-size: 1.1em;
+        font-size: 1em;
         width: 200px; } }
   .nav .navitem:hover {
     transition: all 0.30s ease-in-out;
     cursor: pointer;
     background-color: white;
-    color: #272727; }
+    color: #272727;
+    font-weight: 900; }
   .nav a {
     color: #EEEEEE; }
 
