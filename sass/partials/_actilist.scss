@@ -534,12 +534,13 @@ ul {
 
 #backcontainer {
     background-color: black;
-    padding: 4em 0;
+    padding: 8em 0;
 
     #backgroundbox {
         @media #{$monitor} {
             width: 70%;
             margin: 0 auto;
+            padding: 8em 0;
         }
     }
 
@@ -564,7 +565,7 @@ ul {
             width: 35%;
         }
         @media #{$monitor} {
-            width: 70%;
+            width: 65%;
         }
     }
 }

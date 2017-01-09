@@ -493,11 +493,12 @@ ul {
 
 #backcontainer {
   background-color: black;
-  padding: 4em 0; }
+  padding: 8em 0; }
   @media (min-width: 1820px) {
     #backcontainer #backgroundbox {
       width: 70%;
-      margin: 0 auto; } }
+      margin: 0 auto;
+      padding: 8em 0; } }
   #backcontainer p {
     color: white; }
   #backcontainer .contentdiv {
@@ -518,7 +519,7 @@ ul {
         width: 35%; } }
     @media (min-width: 1820px) {
       #backcontainer .contentdiv {
-        width: 70%; } }
+        width: 65%; } }
 
 #researchcontainer {
   background-color: #EEEEEE;
