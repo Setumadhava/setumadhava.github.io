@@ -111,6 +111,12 @@
 /////////////////////////// INTRO ////////////////////////
 
 .introcontainer {
+    padding: 4em 0;
+    @media #{$monitor} {
+        width: 70%;
+        margin: 0 auto;
+    }
+
     .introbox {
         display: flex;
         flex-wrap: wrap;

@@ -91,71 +91,77 @@
         width: 40%;
         font-size: 1.4em; } }
 
-.introcontainer .introbox {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .introcontainer .introbox {
-      width: 90%;
-      margin: 0 auto; } }
-.introcontainer #intropicdiv {
-  width: 90%;
-  margin: 0 auto; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .introcontainer #intropicdiv {
-      width: 50%;
-      margin: 0 auto; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    .introcontainer #intropicdiv {
-      width: 50%;
-      margin: 0 auto; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    .introcontainer #intropicdiv {
-      width: 35%;
-      margin: 0 auto; } }
-  @media (min-width: 1820px) {
-    .introcontainer #intropicdiv {
-      width: 40%;
-      margin: 0 auto; } }
-  .introcontainer #intropicdiv img {
-    width: 100%; }
-.introcontainer .contentbox {
-  width: 90%;
-  margin: 0 auto;
+.introcontainer {
   padding: 4em 0; }
-  @media (min-width: 375px) and (max-width: 768px) {
-    .introcontainer .contentbox {
-      width: 75%;
-      margin: 0 auto; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .introcontainer .contentbox {
-      width: 50%;
-      margin: 0 auto;
-      padding-left: 3em; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    .introcontainer .contentbox {
-      width: 40%;
-      margin: 0 auto;
-      padding: 5em 0 0 3em; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    .introcontainer .contentbox {
-      width: 30%;
-      padding: 6em 0 0 3em;
-      margin: 0 auto; }
-      .introcontainer .contentbox p {
-        font-size: 1.2em; } }
   @media (min-width: 1820px) {
-    .introcontainer .contentbox {
-      width: 35%;
-      margin: 0 auto;
-      padding: 5em 0 0 3em; }
-      .introcontainer .contentbox p {
-        font-size: 1.2em; } }
-  .introcontainer .contentbox .subtitle {
-    padding-bottom: 1em; }
-.introcontainer .sectionheader {
-  padding-bottom: 2em; }
+    .introcontainer {
+      width: 70%;
+      margin: 0 auto; } }
+  .introcontainer .introbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .introcontainer .introbox {
+        width: 90%;
+        margin: 0 auto; } }
+  .introcontainer #intropicdiv {
+    width: 90%;
+    margin: 0 auto; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .introcontainer #intropicdiv {
+        width: 50%;
+        margin: 0 auto; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .introcontainer #intropicdiv {
+        width: 50%;
+        margin: 0 auto; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .introcontainer #intropicdiv {
+        width: 35%;
+        margin: 0 auto; } }
+    @media (min-width: 1820px) {
+      .introcontainer #intropicdiv {
+        width: 40%;
+        margin: 0 auto; } }
+    .introcontainer #intropicdiv img {
+      width: 100%; }
+  .introcontainer .contentbox {
+    width: 90%;
+    margin: 0 auto;
+    padding: 4em 0; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      .introcontainer .contentbox {
+        width: 75%;
+        margin: 0 auto; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .introcontainer .contentbox {
+        width: 50%;
+        margin: 0 auto;
+        padding-left: 3em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .introcontainer .contentbox {
+        width: 40%;
+        margin: 0 auto;
+        padding: 5em 0 0 3em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .introcontainer .contentbox {
+        width: 30%;
+        padding: 6em 0 0 3em;
+        margin: 0 auto; }
+        .introcontainer .contentbox p {
+          font-size: 1.2em; } }
+    @media (min-width: 1820px) {
+      .introcontainer .contentbox {
+        width: 35%;
+        margin: 0 auto;
+        padding: 5em 0 0 3em; }
+        .introcontainer .contentbox p {
+          font-size: 1.2em; } }
+    .introcontainer .contentbox .subtitle {
+      padding-bottom: 1em; }
+  .introcontainer .sectionheader {
+    padding-bottom: 2em; }
 
 .rolecontainer {
   background-color: #88224C; }
