@@ -879,164 +879,118 @@ p {
 .eventosaurcta {
   border: 1px solid #4AFF01; }
 
+.greybg {
+  background-color: #EEEEEE; }
+
 #aboutsection {
-  position: relative; }
-
-#aboutmobile {
-  background-image: url("img/homepage/aboutbgmob.png");
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #aboutmobile {
-      background-image: url("img/homepage/aboutbgtab.png"); } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    #aboutmobile {
-      background-image: url("img/homepage/aboutbglap.png"); } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    #aboutmobile {
-      background-image: url("img/homepage/aboutbglap.png"); } }
+  padding: 8em 0; }
   @media (min-width: 1820px) {
-    #aboutmobile {
-      background-image: url("img/homepage/aboutbglap.png"); } }
-
-#mushdidiv {
-  margin: 0 auto;
-  width: 60%;
-  margin-bottom: 4em;
-  padding-top: 4em; }
-  @media (min-width: 375px) and (max-width: 768px) {
-    #mushdidiv {
-      padding-top: 4em;
-      width: 50%; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #mushdidiv {
-      margin: 0 0 2em 9em;
-      padding-top: 4em;
-      width: 20%; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    #mushdidiv {
-      margin: 0 0 2em 4em;
-      padding-top: 8em;
-      width: 15%; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    #mushdidiv {
-      margin: 0 0 2em 9em;
-      padding-top: 8em;
-      width: 15%; } }
-  @media (min-width: 1820px) {
-    #mushdidiv {
-      margin: 0 0 2em 9em;
-      padding-top: 8em;
-      width: 10%; } }
-
-#mushdi {
-  width: 100%; }
-
-.aboutmecontentdiv {
-  width: 90%;
-  margin: 0 auto;
-  padding-bottom: 6em;
-  position: relative; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .aboutmecontentdiv {
-      width: 65%;
-      padding: 3em 0; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    .aboutmecontentdiv {
-      width: 50%;
-      padding: 3em 0;
-      margin: 0 3em; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    .aboutmecontentdiv {
-      width: 25%;
-      padding: 3em 0;
-      margin: 0 5em; } }
-  @media (min-width: 1820px) {
-    .aboutmecontentdiv {
-      width: 25%;
-      padding: 3em 0;
-      margin: 0 6em; } }
-
-#aboutmecontent {
-  line-height: 1.8em;
-  color: #414141;
-  padding-left: 1em; }
-
-#skillsmobdiv {
-  margin: 0 auto;
-  width: 100%; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #skillsmobdiv {
-      display: none; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    #skillsmobdiv {
-      display: none; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    #skillsmobdiv {
-      display: none; } }
-  @media (min-width: 1820px) {
-    #skillsmobdiv {
-      display: none; } }
-
-#skillsmob {
-  width: 100%; }
-
-#skillstabdiv {
-  display: none;
-  width: 100%; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #skillstabdiv {
-      display: block; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    #skillstabdiv {
-      display: none; } }
-  @media (min-width: 1820px) {
-    #skillstabdiv {
-      display: block;
-      position: absolute;
-      right: 13em;
-      width: 45%;
-      top: 50%;
-      transform: translateY(-20%); } }
-
-#skillslapdiv {
-  display: none; }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    #skillslapdiv {
-      display: block;
-      position: absolute;
-      right: 3em;
-      width: 40%;
-      top: 6em; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    #skillslapdiv {
-      display: block;
-      position: absolute;
-      right: 13em;
-      width: 30%;
-      top: 15em; } }
-
-#skillslap {
-  width: 100%; }
-
-.random {
-  display: flex;
-  flex-wrap: wrap;
-  height: 800px;
-  background-color: blue; }
-
-.one {
-  height: 300px;
-  width: 40%;
-  background-color: red; }
-
-.two {
-  height: 300px;
-  width: 40%;
-  background-color: green; }
+    #aboutsection {
+      width: 70%;
+      margin: 0 auto; } }
+  #aboutsection .abouttitle {
+    font-size: 3em;
+    font-weight: 200;
+    padding-bottom: 2em;
+    text-align: center;
+    color: #3F97F9; }
+  #aboutsection .mushdiflex {
+    display: flex;
+    flex-wrap: wrap; }
+    #aboutsection .mushdiflex .mushdidiv {
+      width: 90%;
+      margin: 0 auto; }
+      #aboutsection .mushdiflex .mushdidiv img {
+        width: 100%; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #aboutsection .mushdiflex .mushdidiv {
+          width: 60%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #aboutsection .mushdiflex .mushdidiv {
+          width: 50%; }
+          #aboutsection .mushdiflex .mushdidiv .mushdibox {
+            width: 70%;
+            padding-top: 2em;
+            margin: 0 auto; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #aboutsection .mushdiflex .mushdidiv {
+          width: 50%; }
+          #aboutsection .mushdiflex .mushdidiv .mushdibox {
+            width: 60%;
+            padding-top: 2em;
+            margin: 0 auto; } }
+      @media (min-width: 1820px) {
+        #aboutsection .mushdiflex .mushdidiv {
+          width: 50%; }
+          #aboutsection .mushdiflex .mushdidiv .mushdibox {
+            width: 55%;
+            padding-top: 2em;
+            margin: 0 auto; } }
+    #aboutsection .mushdiflex .aboutmediv {
+      width: 90%;
+      padding: 4em 0;
+      margin: 0 auto; }
+      #aboutsection .mushdiflex .aboutmediv p {
+        line-height: 2em; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #aboutsection .mushdiflex .aboutmediv {
+          width: 80%; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #aboutsection .mushdiflex .aboutmediv {
+          width: 60%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #aboutsection .mushdiflex .aboutmediv {
+          width: 50%; }
+          #aboutsection .mushdiflex .aboutmediv .aboutmebox {
+            width: 85%;
+            margin: 0 auto; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #aboutsection .mushdiflex .aboutmediv {
+          width: 50%; }
+          #aboutsection .mushdiflex .aboutmediv .aboutmebox {
+            width: 65%;
+            margin: 0 auto; } }
+      @media (min-width: 1820px) {
+        #aboutsection .mushdiflex .aboutmediv {
+          width: 50%; }
+          #aboutsection .mushdiflex .aboutmediv .aboutmebox {
+            width: 85%;
+            margin: 0 auto; } }
+  #aboutsection .skillscontainer .skillstitle {
+    font-size: 1.5em;
+    text-align-last: center;
+    font-weight: 600;
+    padding: 2em 0; }
+  #aboutsection .skillscontainer .skillsflex {
+    display: flex;
+    flex-wrap: wrap; }
+    #aboutsection .skillscontainer .skillsflex .skilldiv {
+      width: 90%;
+      margin: 0 auto; }
+      #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox {
+        width: 70%;
+        margin: 0 auto;
+        padding: 4em 0; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #aboutsection .skillscontainer .skillsflex .skilldiv {
+          width: 51%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #aboutsection .skillscontainer .skillsflex .skilldiv {
+          width: 33%; }
+          #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox {
+            width: 55%; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #aboutsection .skillscontainer .skillsflex .skilldiv {
+          width: 33%; }
+          #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox {
+            width: 40%; } }
+      @media (min-width: 1820px) {
+        #aboutsection .skillscontainer .skillsflex .skilldiv {
+          width: 33%; }
+          #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox {
+            width: 55%; } }
+      #aboutsection .skillscontainer .skillsflex .skilldiv img {
+        width: 100%; }
 
 .container,
 body,

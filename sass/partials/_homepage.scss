@@ -1027,180 +1027,159 @@ p {
 }
 ////////////////////////// ABOUT ME ////////////////////////////
 
+.greybg {
+    background-color: $grey1;
+}
+
 #aboutsection {
-    // margin-top: 4em;
-    position: relative;
+    padding: 8em 0;
     @media #{$monitor} {
-        // margin-bottom: 10em;
+        width: 70%;
+        margin: 0 auto;
     }
-}
 
-#aboutmobile {
-    background-image: url("img/homepage/aboutbgmob.png");
-    @media #{$tablet} {
-        background-image: url("img/homepage/aboutbgtab.png");
+    .abouttitle {
+        font-size: 3em;
+        font-weight: 200;
+        padding-bottom: 2em;
+        text-align: center;
+        color: $bgblue;
     }
-    @media #{$mac13} {
-        background-image: url("img/homepage/aboutbglap.png");
-    }
-    @media #{$mac15} {
-        background-image: url("img/homepage/aboutbglap.png");
-    }
-    @media #{$monitor} {
-        background-image: url("img/homepage/aboutbglap.png");
-    }
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-}
 
-#mushdidiv {
-    margin: 0 auto;
-    width: 60%;
-    margin-bottom: 4em;
-    padding-top: 4em;
-    @media #{$phablet} {
-        padding-top: 4em;
-        width: 50%;
-    }
-    @media #{$tablet} {
-        margin: 0 0 2em 9em;
-        padding-top: 4em;
-        width: 20%;
-    }
-    @media #{$mac13} {
-        margin: 0 0 2em 4em;
-        padding-top: 8em;
-        width: 15%;
-    }
-    @media #{$mac15} {
-        margin: 0 0 2em 9em;
-        padding-top: 8em;
-        width: 15%;
-    }
-    @media #{$monitor} {
-        margin: 0 0 2em 9em;
-        padding-top: 8em;
-        width: 10%;
-    }
-}
+    .mushdiflex {
+        display: flex;
+        flex-wrap: wrap;
 
-#mushdi {
-    width: 100%;
-}
+        .mushdidiv {
+            width: 90%;
+            margin: 0 auto;
 
-.aboutmecontentdiv {
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 6em;
-    position: relative;
-    @media #{$tablet} {
-        width: 65%;
-        padding: 3em 0;
-    }
-    @media #{$mac13} {
-        width: 50%;
-        padding: 3em 0;
-        margin: 0 3em;
-    }
-    @media #{$mac15} {
-        width: 25%;
-        padding: 3em 0;
-        margin: 0 5em;
-    }
-    @media #{$monitor} {
-        width: 25%;
-        padding: 3em 0;
-        margin: 0 6em;
-    }
-}
+            img {
+                width: 100%;
+            }
+            @media #{$tablet} {
+                width: 60%;
+            }
+            @media #{$mac13} {
+                width: 50%;
 
-#aboutmecontent {
-    line-height: 1.8em;
-    color: $textdark;
-    padding-left: 1em;
-}
+                .mushdibox {
+                    width: 70%;
+                    padding-top: 2em;
+                    margin: 0 auto;
+                }
+            }
+            @media #{$mac15} {
+                width: 50%;
 
-#skillsmobdiv {
-    // display: block;
-    margin: 0 auto;
-    width: 100%;
-    @media #{$tablet} {
-        display: none;
-    }
-    @media #{$mac13} {
-        display: none;
-    }
-    @media #{$mac15} {
-        display: none;
-    }
-    @media #{$monitor} {
-        display: none;
-    }
-}
+                .mushdibox {
+                    width: 60%;
+                    padding-top: 2em;
+                    margin: 0 auto;
+                }
+            }
+            @media #{$monitor} {
+                width: 50%;
 
-#skillsmob {
-    width: 100%;
-}
+                .mushdibox {
+                    width: 55%;
+                    padding-top: 2em;
+                    margin: 0 auto;
+                }
+            }
+        }
 
-#skillstabdiv {
-    display: none;
-    width: 100%;
-    @media #{$tablet} {
-        display: block;
+        .aboutmediv {
+            width: 90%;
+            padding: 4em 0;
+            margin: 0 auto;
+
+            p {
+                line-height: 2em;
+            }
+            @media #{$phablet} {
+                width: 80%;
+            }
+            @media #{$tablet} {
+                width: 60%;
+            }
+            @media #{$mac13} {
+                width: 50%;
+
+                .aboutmebox {
+                    width: 85%;
+                    margin: 0 auto;
+                }
+            }
+            @media #{$mac15} {
+                width: 50%;
+
+                .aboutmebox {
+                    width: 65%;
+                    margin: 0 auto;
+                }
+            }
+            @media #{$monitor} {
+                width: 50%;
+
+                .aboutmebox {
+                    width: 85%;
+                    margin: 0 auto;
+                }
+            }
+        }
     }
-    @media #{$mac13} {
-        display: none;
+
+    .skillscontainer {
+        .skillstitle {
+            font-size: 1.5em;
+            text-align-last: center;
+            font-weight: 600;
+            padding: 2em 0;
+        }
+
+        .skillsflex {
+            display: flex;
+            flex-wrap: wrap;
+
+            .skilldiv {
+                width: 90%;
+                margin: 0 auto;
+
+                .skillbox {
+                    width: 70%;
+                    margin: 0 auto;
+                    padding: 4em 0;
+                }
+                @media #{$tablet} {
+                    width: 51%;
+                }
+                @media #{$mac13} {
+                    width: 33%;
+
+                    .skillbox {
+                        width: 55%;
+                    }
+                }
+                @media #{$mac15} {
+                    width: 33%;
+
+                    .skillbox {
+                        width: 40%;
+                    }
+                }
+                @media #{$monitor} {
+                    width: 33%;
+
+                    .skillbox {
+                        width: 55%;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
-    @media #{$monitor} {
-        display: block;
-        position: absolute;
-        right: 13em;
-        width: 45%;
-        top: 50%;
-        transform: translateY(-20%);
-    }
-}
-
-#skillslapdiv {
-    display: none;
-    @media #{$mac13} {
-        display: block;
-        position: absolute;
-        right: 3em;
-        width: 40%;
-        top: 6em;
-    }
-    @media #{$mac15} {
-        display: block;
-        position: absolute;
-        right: 13em;
-        width: 30%;
-        top: 15em;
-    }
-}
-
-#skillslap {
-    width: 100%;
-}
-
-.random {
-    display: flex;
-    flex-wrap: wrap;
-    height: 800px;
-    background-color: blue;
-}
-
-.one {
-    height: 300px;
-    width: 40%;
-    background-color: red;
-}
-
-.two {
-    height: 300px;
-    width: 40%;
-    background-color: green;
 }
