@@ -459,6 +459,9 @@ ul {
     width: 90%;
     margin: 0 auto;
     order: 1;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, white, rgba(0, 0, 0, 0)) 0.5 0.5%;
     @media #{$tablet} {
         order: 2;
         width: 40%;
@@ -479,9 +482,6 @@ ul {
         width: 30%;
         margin: 0 auto;
     }
-    border-width: 1px;
-    border-style: solid;
-    border-image: linear-gradient(to bottom, white, rgba(0, 0, 0, 0)) 0.5 0.5%;
 }
 
 .prevphonediv {
@@ -513,21 +513,36 @@ ul {
 }
 
 .previewtitle {
-    width: 100%;
-    padding: 1em 0 0 1em;
+    width: 90%;
+    padding: 2em 0;
+    margin: 0 auto;
     font-weight: 600;
+    @media #{$mac13} {
+        width: 75%;
+    }
+    @media #{$mac15} {
+        width: 60%;
+        margin: 0 auto;
+    }
 }
 
 .previewcontent {
-    padding: 2em 0 0 2em;
-    width: 100%;
+    margin: 0 auto;
+    width: 90%;
     @media #{$tablet} {
         width: 90%;
-        padding: 2em 0 0 1.5em;
+        margin: 0 auto;
+    }
+    @media #{$mac13} {
+        width: 75%;
+    }
+    @media #{$mac15} {
+        width: 60%;
+        margin: 0 auto;
     }
     @media #{$monitor} {
         width: 90%;
-        padding: 2em 0 0 0.5em;
+        margin: 0 auto;
     }
 }
 /////////////////////////// BACKGND ////////////////////////

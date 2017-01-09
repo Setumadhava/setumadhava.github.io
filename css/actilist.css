@@ -475,21 +475,36 @@ ul {
       width: 45%; } }
 
 .previewtitle {
-  width: 100%;
-  padding: 1em 0 0 1em;
+  width: 90%;
+  padding: 2em 0;
+  margin: 0 auto;
   font-weight: 600; }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .previewtitle {
+      width: 75%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .previewtitle {
+      width: 60%;
+      margin: 0 auto; } }
 
 .previewcontent {
-  padding: 2em 0 0 2em;
-  width: 100%; }
+  margin: 0 auto;
+  width: 90%; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .previewcontent {
       width: 90%;
-      padding: 2em 0 0 1.5em; } }
+      margin: 0 auto; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .previewcontent {
+      width: 75%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .previewcontent {
+      width: 60%;
+      margin: 0 auto; } }
   @media (min-width: 1820px) {
     .previewcontent {
       width: 90%;
-      padding: 2em 0 0 0.5em; } }
+      margin: 0 auto; } }
 
 #backcontainer {
   background-color: black;
