@@ -1141,6 +1141,7 @@ p {
         .skillsflex {
             display: flex;
             flex-wrap: wrap;
+            align-items: center;
 
             .skilldiv {
                 width: 90%;
@@ -1150,6 +1151,10 @@ p {
                     width: 70%;
                     margin: 0 auto;
                     padding: 4em 0;
+
+                    img {
+                        width: 100%;
+                    }
                 }
                 @media #{$tablet} {
                     width: 51%;

@@ -963,7 +963,8 @@ p {
     padding: 2em 0; }
   #aboutsection .skillscontainer .skillsflex {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    align-items: center; }
     #aboutsection .skillscontainer .skillsflex .skilldiv {
       width: 90%;
       margin: 0 auto; }
@@ -971,6 +972,8 @@ p {
         width: 70%;
         margin: 0 auto;
         padding: 4em 0; }
+        #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox img {
+          width: 100%; }
       @media (min-width: 768px) and (max-width: 1023px) {
         #aboutsection .skillscontainer .skillsflex .skilldiv {
           width: 51%; } }
