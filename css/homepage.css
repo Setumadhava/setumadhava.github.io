@@ -286,19 +286,24 @@ p {
   #zero .contenthalf {
     width: 90%;
     margin: 0 auto; }
-    #zero .contenthalf .labeldiv {
-      border-radius: 0 0 4px 4px;
-      width: 200px;
-      height: 40px;
-      opacity: 0.8;
+    #zero .contenthalf .labelflex {
+      display: flex;
+      position: relative; }
+    #zero .contenthalf .labeldiv .actilabel {
       position: absolute;
-      top: 0;
+      top: 25%;
+      right: 40%;
+      transform: translateX(50%);
+      border-radius: 4px;
+      width: 155px;
+      height: 35px;
+      opacity: 0.8;
       background-color: #00936E; }
-      #zero .contenthalf .labeldiv p {
-        padding: 0.4em 1em;
-        color: white;
-        font-size: 1em;
-        font-weight: 600; }
+    #zero .contenthalf .labeldiv p {
+      padding: 0.2em 1em;
+      color: white;
+      font-size: 1em;
+      font-weight: 600; }
     @media (min-width: 375px) and (max-width: 768px) {
       #zero .contenthalf {
         width: 90%;
