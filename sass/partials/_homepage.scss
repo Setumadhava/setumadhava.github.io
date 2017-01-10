@@ -456,7 +456,7 @@ p {
     flex-wrap: wrap;
     position: relative;
     @media #{$mac13} {
-        min-height: 900px;
+        height: 700px;
     }
     @media #{$mac15} {
         min-height: 900px;

@@ -401,7 +401,7 @@ p {
   position: relative; }
   @media (min-width: 1024px) and (max-width: 1439px) {
     #one {
-      min-height: 900px; } }
+      height: 700px; } }
   @media (min-width: 1440px) and (max-width: 1819px) {
     #one {
       min-height: 900px; } }
