@@ -577,10 +577,59 @@ ul {
             width: 45%;
         }
         @media #{$mac15} {
-            width: 35%;
+            width: 45%;
         }
         @media #{$monitor} {
             width: 65%;
+        }
+    }
+}
+/////////////////////////// Early Explorations ////////////////////////
+
+#earlyexplorationcontainer {
+    padding: 8em 0;
+    @media #{$monitor} {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .contentdiv {
+        padding: 4em 0;
+        width: 90%;
+        margin: 0 auto;
+        @media #{$phablet} {
+            width: 75%;
+        }
+        @media #{$tablet} {
+            width: 60%;
+        }
+        @media #{$mac13} {
+            width: 40%;
+        }
+        @media #{$mac15} {
+            width: 45%;
+        }
+        @media #{$monitor} {
+            width: 55%;
+            padding: 6em 0;
+        }
+    }
+
+    .initialsketchesdiv {
+        width: 90%;
+        margin: 0 auto;
+        @media #{$mac13} {
+            width: 70%;
+        }
+        @media #{$mac15} {
+            width: 55%;
+        }
+        @media #{$monitor} {
+            width: 65%;
+        }
+
+        img {
+            width: 100%;
         }
     }
 }
@@ -612,7 +661,7 @@ ul {
             width: 40%;
         }
         @media #{$mac15} {
-            width: 35%;
+            width: 45%;
         }
         @media #{$monitor} {
             width: 55%;
@@ -735,7 +784,7 @@ ul {
             width: 40%;
         }
         @media #{$mac15} {
-            width: 35%;
+            width: 45%;
         }
         @media #{$monitor} {
             width: 55%;
@@ -826,7 +875,7 @@ ul {
             width: 50%;
         }
         @media #{$mac15} {
-            width: 35%;
+            width: 45%;
         }
         @media #{$monitor} {
             width: 55%;
@@ -907,7 +956,7 @@ ul {
             width: 40%;
         }
         @media #{$mac15} {
-            width: 35%;
+            width: 45%;
         }
         @media #{$monitor} {
             width: 40%;
