@@ -320,14 +320,55 @@ p {
         .labeldiv {
             .actilabel {
                 position: absolute;
-                top: 25%;
-                right: 40%;
+                top: 20%;
+                right: 35%;
                 transform: translateX(50%);
                 border-radius: 4px;
-                width: 155px;
-                height: 35px;
+                width: 125px;
+                height: 28px;
                 opacity: 0.8;
                 background-color: $darkgreen;
+                font-size: 0.8em;
+                text-align: center;
+                @media #{$tablet} {
+                    top: 20%;
+                    right: 35%;
+                    width: 125px;
+                    height: 28px;
+                    opacity: 0.8;
+                    background-color: $darkgreen;
+                    text-align: center;
+                }
+                @media #{$mac13} {
+                    top: 20%;
+                    right: 35%;
+                    width: 150px;
+                    height: 31px;
+                    opacity: 0.8;
+                    background-color: $darkgreen;
+                    text-align: center;
+                    font-size: 0.9em;
+                }
+                @media #{$mac15} {
+                    top: 20%;
+                    right: 50%;
+                    width: 150px;
+                    height: 31px;
+                    opacity: 0.8;
+                    background-color: $darkgreen;
+                    text-align: center;
+                    font-size: 0.9em;
+                }
+                @media #{$monitor} {
+                    top: 25%;
+                    right: 35%;
+                    width: 150px;
+                    height: 31px;
+                    opacity: 0.8;
+                    background-color: $darkgreen;
+                    text-align: center;
+                    font-size: 0.9em;
+                }
             }
 
             p {

@@ -291,14 +291,55 @@ p {
       position: relative; }
     #zero .contenthalf .labeldiv .actilabel {
       position: absolute;
-      top: 25%;
-      right: 40%;
+      top: 20%;
+      right: 35%;
       transform: translateX(50%);
       border-radius: 4px;
-      width: 155px;
-      height: 35px;
+      width: 125px;
+      height: 28px;
       opacity: 0.8;
-      background-color: #00936E; }
+      background-color: #00936E;
+      font-size: 0.8em;
+      text-align: center; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #zero .contenthalf .labeldiv .actilabel {
+          top: 20%;
+          right: 35%;
+          width: 125px;
+          height: 28px;
+          opacity: 0.8;
+          background-color: #00936E;
+          text-align: center; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #zero .contenthalf .labeldiv .actilabel {
+          top: 20%;
+          right: 35%;
+          width: 150px;
+          height: 31px;
+          opacity: 0.8;
+          background-color: #00936E;
+          text-align: center;
+          font-size: 0.9em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #zero .contenthalf .labeldiv .actilabel {
+          top: 20%;
+          right: 50%;
+          width: 150px;
+          height: 31px;
+          opacity: 0.8;
+          background-color: #00936E;
+          text-align: center;
+          font-size: 0.9em; } }
+      @media (min-width: 1820px) {
+        #zero .contenthalf .labeldiv .actilabel {
+          top: 25%;
+          right: 35%;
+          width: 150px;
+          height: 31px;
+          opacity: 0.8;
+          background-color: #00936E;
+          text-align: center;
+          font-size: 0.9em; } }
     #zero .contenthalf .labeldiv p {
       padding: 0.2em 1em;
       color: white;
