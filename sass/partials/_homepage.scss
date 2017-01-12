@@ -999,6 +999,180 @@ p {
         }
     }
 }
+//////////////////// Photography  //////////////////////////
+
+#five {
+    .bgdiv {
+        background-image: url("img/photography/hero.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        height: 400px;
+        position: relative;
+        @media #{$phablet} {
+            height: 600px;
+        }
+        @media #{$tablet} {
+            height: 800px;
+        }
+        @media #{$mac13} {
+            height: 600px;
+        }
+        @media #{$mac15} {
+            height: 600px;
+        }
+        @media #{$monitor} {
+            height: 700px;
+        }
+
+        .readmorephotog {
+            display: none;
+            @media #{$tablet} {
+                margin-top: 3em;
+                height: 50px;
+                display: block;
+                width: 140px;
+                text-align: center;
+                padding-top: 0.6em;
+                color: white;
+                border: 1px solid $skyblue;
+                position: absolute;
+                top: 70%;
+                transform: translateY(50%);
+                right: 50%;
+                transform: translateX(50%);
+            }
+            @media #{$mac13} {
+                margin-top: 3em;
+                height: 50px;
+                display: block;
+                width: 140px;
+                text-align: center;
+                padding-top: 0.6em;
+                color: white;
+                border: 1px solid $skyblue;
+                position: absolute;
+                top: 60%;
+                transform: translateY(50%);
+                right: 50%;
+                transform: translateX(50%);
+            }
+            @media #{$mac15} {
+                margin-top: 3em;
+                height: 50px;
+                display: block;
+                width: 140px;
+                text-align: center;
+                padding-top: 0.6em;
+                color: white;
+                border: 1px solid $skyblue;
+                position: absolute;
+                top: 70%;
+                transform: translateY(50%);
+                right: 50%;
+                transform: translateX(50%);
+            }
+            @media #{$monitor} {
+                margin-top: 3em;
+                height: 50px;
+                display: block;
+                width: 140px;
+                text-align: center;
+                padding-top: 0.6em;
+                color: white;
+                border: 1px solid $skyblue;
+                position: absolute;
+                top: 70%;
+                transform: translateY(50%);
+                right: 50%;
+                transform: translateX(50%);
+            }
+        }
+
+        .readmorephotog:hover {
+            transition: all 0.30s ease-in-out;
+            border: 1px solid white;
+            background: $skyblue;
+            cursor: pointer;
+
+            .readmoretext {
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        .title {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            width: 100%;
+
+            .titletext {
+                font-family: $cursive;
+                color: white;
+                text-shadow: 2px 2px $textdark;
+                font-size: 2.2em;
+                @media #{$phablet} {
+                    font-size: 1.3em;
+                }
+                @media #{$tablet} {
+                    font-size: 2em;
+                }
+                @media #{$mac13} {
+                    font-size: 4em;
+                }
+                @media #{$mac15} {
+                    font-size: 4em;
+                }
+                @media #{$monitor} {
+                    font-size: 6em;
+                }
+            }
+
+            #desc {
+                font-family: $roboto;
+                font-size: 0.6em;
+                margin: 0;
+                padding: 0;
+                color: $grey2;
+                width: 90%;
+                margin: 0 auto;
+                @media #{$phablet} {
+                    font-size: 0.3em;
+                }
+                @media #{$tablet} {
+                    font-size: 0.5em;
+                }
+                @media #{$mac13} {
+                    font-size: 0.8em;
+                }
+                @media #{$mac15} {
+                    font-size: 0.8em;
+                }
+                @media #{$monitor} {
+                    font-size: 1em;
+                }
+            }
+            @media #{$phablet} {
+                font-size: 4em;
+            }
+            @media #{$tablet} {
+                top: 40%;
+            }
+            @media #{$mac13} {
+                top: 40%;
+            }
+            @media #{$mac15} {
+                top: 40%;
+            }
+            @media #{$monitor} {
+                top: 40%;
+            }
+        }
+    }
+}
 //////////////////////////// EVENTOSAUR  //////////////////////
 
 #three {

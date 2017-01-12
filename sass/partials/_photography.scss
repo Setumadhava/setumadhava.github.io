@@ -1,0 +1,155 @@
+* {
+    font-family: $roboto;
+}
+////////////////////////////////////////////////////////////////////
+
+#hero {
+    background-image: url("img/photography/hero.png");
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 400px;
+    position: relative;
+    @media #{$phablet} {
+        height: 600px;
+    }
+    @media #{$tablet} {
+        height: 800px;
+    }
+    @media #{$mac13} {
+        height: 600px;
+    }
+    @media #{$mac15} {
+        height: 600px;
+    }
+    @media #{$monitor} {
+        height: 800px;
+    }
+
+    .title {
+        position: absolute;
+        font-family: $cursive;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: white;
+        width: 100%;
+        text-shadow: 2px 2px $bgdark;
+        font-size: 4em;
+        @media #{$phablet} {
+            font-size: 4em;
+        }
+        @media #{$tablet} {
+            font-size: 6em;
+        }
+        @media #{$mac13} {
+            font-size: 6em;
+        }
+        @media #{$mac15} {
+            font-size: 6em;
+        }
+        @media #{$monitor} {
+            font-size: 8em;
+        }
+    }
+}
+
+.outercontainer {
+    background-color: $dsdarkgrey;
+
+    .descriptioncontainer {
+        padding: 4em 0;
+        @media #{$monitor} {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        .contentbox {
+            width: 90%;
+            color: $grey2;
+            line-height: 2em;
+            margin: 0 auto;
+            @media #{$tablet} {
+                width: 70%;
+                margin: 0 auto;
+            }
+            @media #{$mac13} {
+                width: 70%;
+                margin: 0 auto;
+            }
+            @media #{$mac15} {
+                width: 70%;
+                margin: 0 auto;
+            }
+            @media #{$monitor} {
+                width: 65%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+/////////////////////////// photos ////////////////////////
+
+.photographybody {
+    background-color: #1E1E1E;
+
+    .imagediv {
+        width: 95%;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+
+        .imgwide {
+            width: 100%;
+            padding: 2em 0;
+            margin: 0 auto;
+            @media #{$mac13} {
+                padding: 4em 2em;
+            }
+            @media #{$mac15} {
+                padding: 4em 2em;
+            }
+            @media #{$monitor} {
+                padding: 4em 2em;
+            }
+        }
+
+        .imageflex {
+            // padding-bottom: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            @media #{$mac13} {
+                padding-bottom: 4em;
+            }
+            @media #{$mac15} {
+                padding-bottom: 4em;
+            }
+            @media #{$monitor} {
+                padding-bottom: 4em;
+            }
+
+            .imghalf {
+                width: 100%;
+                padding: 2em 0;
+                @media #{$mac13} {
+                    width: 50%;
+                    padding: 2em;
+                }
+                @media #{$mac15} {
+                    width: 50%;
+                    padding: 2em;
+                }
+                @media #{$monitor} {
+                    width: 50%;
+                    padding: 2em;
+                }
+            }
+        }
+    }
+}

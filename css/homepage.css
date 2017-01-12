@@ -855,6 +855,164 @@ p {
       color: #085056;
       font-weight: 800; }
 
+#five .bgdiv {
+  background-image: url("img/photography/hero.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 400px;
+  position: relative; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #five .bgdiv {
+      height: 600px; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #five .bgdiv {
+      height: 800px; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #five .bgdiv {
+      height: 600px; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #five .bgdiv {
+      height: 600px; } }
+  @media (min-width: 1820px) {
+    #five .bgdiv {
+      height: 700px; } }
+  #five .bgdiv .readmorephotog {
+    display: none; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #five .bgdiv .readmorephotog {
+        margin-top: 3em;
+        height: 50px;
+        display: block;
+        width: 140px;
+        text-align: center;
+        padding-top: 0.6em;
+        color: white;
+        border: 1px solid #3A89F3;
+        position: absolute;
+        top: 70%;
+        transform: translateY(50%);
+        right: 50%;
+        transform: translateX(50%); } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #five .bgdiv .readmorephotog {
+        margin-top: 3em;
+        height: 50px;
+        display: block;
+        width: 140px;
+        text-align: center;
+        padding-top: 0.6em;
+        color: white;
+        border: 1px solid #3A89F3;
+        position: absolute;
+        top: 60%;
+        transform: translateY(50%);
+        right: 50%;
+        transform: translateX(50%); } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #five .bgdiv .readmorephotog {
+        margin-top: 3em;
+        height: 50px;
+        display: block;
+        width: 140px;
+        text-align: center;
+        padding-top: 0.6em;
+        color: white;
+        border: 1px solid #3A89F3;
+        position: absolute;
+        top: 70%;
+        transform: translateY(50%);
+        right: 50%;
+        transform: translateX(50%); } }
+    @media (min-width: 1820px) {
+      #five .bgdiv .readmorephotog {
+        margin-top: 3em;
+        height: 50px;
+        display: block;
+        width: 140px;
+        text-align: center;
+        padding-top: 0.6em;
+        color: white;
+        border: 1px solid #3A89F3;
+        position: absolute;
+        top: 70%;
+        transform: translateY(50%);
+        right: 50%;
+        transform: translateX(50%); } }
+  #five .bgdiv .readmorephotog:hover {
+    transition: all 0.30s ease-in-out;
+    border: 1px solid white;
+    background: #3A89F3;
+    cursor: pointer; }
+    #five .bgdiv .readmorephotog:hover .readmoretext {
+      color: white;
+      font-weight: 800; }
+  #five .bgdiv .title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%; }
+    #five .bgdiv .title .titletext {
+      font-family: "Great Vibes", cursive;
+      color: white;
+      text-shadow: 2px 2px #414141;
+      font-size: 2.2em; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #five .bgdiv .title .titletext {
+          font-size: 1.3em; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #five .bgdiv .title .titletext {
+          font-size: 2em; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #five .bgdiv .title .titletext {
+          font-size: 4em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #five .bgdiv .title .titletext {
+          font-size: 4em; } }
+      @media (min-width: 1820px) {
+        #five .bgdiv .title .titletext {
+          font-size: 6em; } }
+    #five .bgdiv .title #desc {
+      font-family: "Roboto", sans-serif;
+      font-size: 0.6em;
+      margin: 0;
+      padding: 0;
+      color: #D5D5D5;
+      width: 90%;
+      margin: 0 auto; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #five .bgdiv .title #desc {
+          font-size: 0.3em; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #five .bgdiv .title #desc {
+          font-size: 0.5em; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #five .bgdiv .title #desc {
+          font-size: 0.8em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #five .bgdiv .title #desc {
+          font-size: 0.8em; } }
+      @media (min-width: 1820px) {
+        #five .bgdiv .title #desc {
+          font-size: 1em; } }
+    @media (min-width: 375px) and (max-width: 768px) {
+      #five .bgdiv .title {
+        font-size: 4em; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #five .bgdiv .title {
+        top: 40%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #five .bgdiv .title {
+        top: 40%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #five .bgdiv .title {
+        top: 40%; } }
+    @media (min-width: 1820px) {
+      #five .bgdiv .title {
+        top: 40%; } }
+
 #three {
   background-image: url("img/homepage/eventosaurbgmob.png");
   width: 100%;
