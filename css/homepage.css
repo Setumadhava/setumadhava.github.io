@@ -1162,7 +1162,7 @@ p {
             margin: 0 auto; } }
   #aboutsection .skillscontainer .skillstitle {
     font-size: 1.5em;
-    text-align-last: center;
+    text-align: center;
     font-weight: 600;
     padding: 2em 0; }
   #aboutsection .skillscontainer .skillsflex {
