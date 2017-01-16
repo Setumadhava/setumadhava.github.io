@@ -743,7 +743,7 @@ ul {
       margin: 0 auto; } }
   #wireframesbox #newsketchgroup {
     width: 100%;
-    padding-top: 8em; }
+    padding-bottom: 4em; }
   @media (min-width: 1820px) {
     #wireframesbox #wireframegroupsmall {
       padding: 8em 0; } }
