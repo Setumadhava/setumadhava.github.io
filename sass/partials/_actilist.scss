@@ -758,6 +758,58 @@ ul {
         }
     }
 }
+/////////////////////////// PENCIL BG BOX ////////////////////////
+
+.pencilbgdiv {
+    background-image: url("img/actilist/pencilbg.png");
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 900px;
+    @media #{$phablet} {
+        height: 800px;
+    }
+    @media #{$tablet} {
+        height: 700px;
+    }
+    @media #{$mac13} {
+        height: 700px;
+    }
+    @media #{$mac15} {
+        height: 700px;
+    }
+    @media #{$monitor} {
+        height: 700px;
+    }
+
+    .wireframescontentdiv {
+        padding: 4em 0;
+
+        .contentdiv {
+            padding-top: 4em;
+            width: 90%;
+            margin: 0 auto;
+            @media #{$phablet} {
+                width: 75%;
+            }
+            @media #{$tablet} {
+                width: 60%;
+            }
+            @media #{$mac13} {
+                width: 60%;
+            }
+            @media #{$mac15} {
+                width: 45%;
+            }
+            @media #{$monitor} {
+                width: 45%;
+            }
+        }
+    }
+}
 /////////////////////////// WIREFRAMES //////////////////////// -->
 
 #wireframescontainer {
@@ -771,25 +823,9 @@ ul {
         margin: 0 auto;
     }
 
-    .contentdiv {
-        padding-top: 4em;
-        width: 90%;
-        margin: 0 auto;
-        @media #{$phablet} {
-            width: 75%;
-        }
-        @media #{$tablet} {
-            width: 60%;
-        }
-        @media #{$mac13} {
-            width: 40%;
-        }
-        @media #{$mac15} {
-            width: 45%;
-        }
-        @media #{$monitor} {
-            width: 55%;
-        }
+    #newsketchgroup {
+        width: 100%;
+        padding-top: 8em;
     }
 
     #wireframegroupsmall {
@@ -801,6 +837,27 @@ ul {
             width: 90%;
             margin: 0 auto;
             padding: 4em 0;
+        }
+    }
+
+    .contentdiv {
+        padding-top: 4em;
+        width: 90%;
+        margin: 0 auto;
+        @media #{$phablet} {
+            width: 75%;
+        }
+        @media #{$tablet} {
+            width: 60%;
+        }
+        @media #{$mac13} {
+            width: 45%;
+        }
+        @media #{$mac15} {
+            width: 45%;
+        }
+        @media #{$monitor} {
+            width: 55%;
         }
     }
 

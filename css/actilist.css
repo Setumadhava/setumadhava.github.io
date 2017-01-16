@@ -686,6 +686,52 @@ ul {
           width: 30%;
           font-size: 2em; } }
 
+.pencilbgdiv {
+  background-image: url("img/actilist/pencilbg.png");
+  width: 100%;
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 900px; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .pencilbgdiv {
+      height: 800px; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .pencilbgdiv {
+      height: 700px; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .pencilbgdiv {
+      height: 700px; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .pencilbgdiv {
+      height: 700px; } }
+  @media (min-width: 1820px) {
+    .pencilbgdiv {
+      height: 700px; } }
+  .pencilbgdiv .wireframescontentdiv {
+    padding: 4em 0; }
+    .pencilbgdiv .wireframescontentdiv .contentdiv {
+      padding-top: 4em;
+      width: 90%;
+      margin: 0 auto; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        .pencilbgdiv .wireframescontentdiv .contentdiv {
+          width: 75%; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .pencilbgdiv .wireframescontentdiv .contentdiv {
+          width: 60%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        .pencilbgdiv .wireframescontentdiv .contentdiv {
+          width: 60%; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        .pencilbgdiv .wireframescontentdiv .contentdiv {
+          width: 45%; } }
+      @media (min-width: 1820px) {
+        .pencilbgdiv .wireframescontentdiv .contentdiv {
+          width: 45%; } }
+
 #wireframescontainer {
   background-color: white; }
 
@@ -695,6 +741,16 @@ ul {
     #wireframesbox {
       width: 70%;
       margin: 0 auto; } }
+  #wireframesbox #newsketchgroup {
+    width: 100%;
+    padding-top: 8em; }
+  @media (min-width: 1820px) {
+    #wireframesbox #wireframegroupsmall {
+      padding: 8em 0; } }
+  #wireframesbox #wireframegroupsmall .wfdiv {
+    width: 90%;
+    margin: 0 auto;
+    padding: 4em 0; }
   #wireframesbox .contentdiv {
     padding-top: 4em;
     width: 90%;
@@ -707,20 +763,13 @@ ul {
         width: 60%; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #wireframesbox .contentdiv {
-        width: 40%; } }
+        width: 45%; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       #wireframesbox .contentdiv {
         width: 45%; } }
     @media (min-width: 1820px) {
       #wireframesbox .contentdiv {
         width: 55%; } }
-  @media (min-width: 1820px) {
-    #wireframesbox #wireframegroupsmall {
-      padding: 8em 0; } }
-  #wireframesbox #wireframegroupsmall .wfdiv {
-    width: 90%;
-    margin: 0 auto;
-    padding: 4em 0; }
   #wireframesbox #wireframegroupbig .wfgp {
     display: flex;
     flex-wrap: wrap;
