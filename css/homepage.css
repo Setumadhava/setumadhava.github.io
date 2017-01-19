@@ -376,7 +376,7 @@ p {
         width: 50%; } }
     @media (min-width: 1820px) {
       #zero .imagehalf {
-        width: 50%; } }
+        width: 55%; } }
     #zero .imagehalf .imagediv {
       width: 90%;
       margin: 0 auto;
@@ -398,7 +398,7 @@ p {
           width: 50%; } }
       @media (min-width: 1820px) {
         #zero .imagehalf .imagediv {
-          width: 50%; } }
+          width: 55%; } }
   #zero .actilistline {
     background: #0FE5A8; }
   #zero .actilisttag {
@@ -542,7 +542,7 @@ p {
           width: 50%; } }
       @media (min-width: 1820px) {
         #one .imagehalf .imagediv {
-          width: 30%; } }
+          width: 45%; } }
       #one .imagehalf .imagediv img {
         width: 80%;
         position: absolute;
@@ -562,7 +562,7 @@ p {
             width: 50%; } }
         @media (min-width: 1820px) {
           #one .imagehalf .imagediv img {
-            width: 30%; } }
+            width: 45%; } }
   #one .expedialine {
     background: #FFCA01; }
   #one .expediatag {

@@ -20,6 +20,9 @@
   @media (min-width: 1820px) {
     .title {
       font-size: 3em; } }
+  @media (min-width: 2560) {
+    .title {
+      font-size: 3em; } }
 
 .whitetitle {
   color: white;
@@ -82,6 +85,9 @@ ul {
   @media (min-width: 1820px) {
     #hero {
       height: 800px; } }
+  @media (min-width: 2560) {
+    #hero {
+      height: 2800px; } }
   #hero #herooverlay {
     background-color: #414141;
     opacity: 0.5;
@@ -111,6 +117,9 @@ ul {
   @media (min-width: 1820px) {
     #herophonediv {
       width: 17%; } }
+  @media (min-width: 2560) {
+    #herophonediv {
+      width: 5%; } }
 
 #herophone {
   width: 100%; }

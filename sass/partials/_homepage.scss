@@ -418,7 +418,7 @@ p {
             width: 50%;
         }
         @media #{$monitor} {
-            width: 50%;
+            width: 55%;
         }
 
         .imagediv {
@@ -443,7 +443,7 @@ p {
                 width: 50%;
             }
             @media #{$monitor} {
-                width: 50%;
+                width: 55%;
             }
         }
     }
@@ -615,7 +615,7 @@ p {
                 width: 50%;
             }
             @media #{$monitor} {
-                width: 30%;
+                width: 45%;
             }
 
             img {
@@ -636,7 +636,7 @@ p {
                     width: 50%;
                 }
                 @media #{$monitor} {
-                    width: 30%;
+                    width: 45%;
                 }
             }
         }

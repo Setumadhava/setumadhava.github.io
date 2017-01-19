@@ -19,6 +19,9 @@
     @media #{$monitor} {
         font-size: 3em;
     }
+    @media #{$fourk} {
+        font-size: 3em;
+    }
     color: $darkblue;
     text-align: center;
 }
@@ -82,6 +85,9 @@ ul {
     @media #{$monitor} {
         height: 800px;
     }
+    @media #{$fourk} {
+        height: 2800px;
+    }
 
     #herooverlay {
         background-color: $textdark;
@@ -113,6 +119,9 @@ ul {
     }
     @media #{$monitor} {
         width: 17%;
+    }
+    @media #{$fourk} {
+        width: 5%;
     }
 }
 
