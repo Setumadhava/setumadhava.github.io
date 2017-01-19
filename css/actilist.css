@@ -58,7 +58,7 @@ ul {
       font-size: 1.2em; } }
 
 #hero {
-  background-image: url("img/actilist/herobg.png");
+  background-image: url("img/actilist/moviehall2.gif");
   width: 100%;
   display: block;
   background-size: cover;
@@ -82,28 +82,35 @@ ul {
   @media (min-width: 1820px) {
     #hero {
       height: 800px; } }
+  #hero #herooverlay {
+    background-color: #414141;
+    opacity: 0.5;
+    font-size: 5em;
+    position: absolute;
+    width: 100%;
+    height: 100%; }
 
 #herophonediv {
-  width: 45%;
+  width: 60%;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%); }
   @media (min-width: 375px) and (max-width: 768px) {
     #herophonediv {
-      width: 45%; } }
+      width: 65%; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     #herophonediv {
-      width: 25%; } }
+      width: 40%; } }
   @media (min-width: 1024px) and (max-width: 1439px) {
     #herophonediv {
-      width: 20%; } }
+      width: 25%; } }
   @media (min-width: 1440px) and (max-width: 1819px) {
     #herophonediv {
       width: 20%; } }
   @media (min-width: 1820px) {
     #herophonediv {
-      width: 15%; } }
+      width: 17%; } }
 
 #herophone {
   width: 100%; }
