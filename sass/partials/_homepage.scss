@@ -132,8 +132,24 @@ p {
         transform: translateY(0px);
     }
 
+    25% {
+        transform: translateY(-20px);
+    }
+
     50% {
-        transform: translateY(-10px);
+        transform: translateY(-0px);
+    }
+
+    75% {
+        transform: translateY(-5px);
+    }
+
+    85% {
+        transform: translateY(0px);
+    }
+
+    90% {
+        transform: translateY(-3px);
     }
 
     100% {
