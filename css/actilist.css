@@ -360,36 +360,33 @@ ul {
     .whatphonediv {
       width: 50%; } }
   .whatphonediv #phonediv {
-    width: 70%;
+    width: 80%;
     margin: 0 auto; }
+    .whatphonediv #phonediv img {
+      width: 100%; }
     @media (min-width: 375px) and (max-width: 768px) {
       .whatphonediv #phonediv {
-        width: 60%;
+        width: 75%;
         margin: 0 auto; } }
-    @media (min-width: 375px) and (max-width: 768px) {
+    @media (min-width: 768px) and (max-width: 1023px) {
       .whatphonediv #phonediv {
         width: 40%;
         margin: 0 auto; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       .whatphonediv #phonediv {
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
-        padding: 10em 0; } }
+        padding: 12em 0 10em; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       .whatphonediv #phonediv {
-        width: 35%;
+        width: 45%;
         margin: 0 auto;
-        padding: 8em 0; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      .whatphonediv #phonediv {
-        width: 35%;
-        margin: 0 auto;
-        padding: 8em 0; } }
+        padding: 12em 0 8em; } }
     @media (min-width: 1820px) {
       .whatphonediv #phonediv {
-        width: 35%;
+        width: 45%;
         margin: 0 auto;
-        padding: 8em 0; } }
+        padding: 12em 0 8em; } }
     .whatphonediv #phonediv img {
       width: 100%; }
 

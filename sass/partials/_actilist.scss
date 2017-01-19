@@ -385,35 +385,34 @@ ul {
     }
 
     #phonediv {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
-        @media #{$phablet} {
-            width: 60%;
-            margin: 0 auto;
+
+        img {
+            width: 100%;
         }
         @media #{$phablet} {
+            width: 75%;
+            margin: 0 auto;
+        }
+        @media #{$tablet} {
             width: 40%;
             margin: 0 auto;
         }
         @media #{$mac13} {
-            width: 50%;
+            width: 60%;
             margin: 0 auto;
-            padding: 10em 0;
+            padding: 12em 0 10em;
         }
         @media #{$mac15} {
-            width: 35%;
+            width: 45%;
             margin: 0 auto;
-            padding: 8em 0;
-        }
-        @media #{$mac15} {
-            width: 35%;
-            margin: 0 auto;
-            padding: 8em 0;
+            padding: 12em 0 8em;
         }
         @media #{$monitor} {
-            width: 35%;
+            width: 45%;
             margin: 0 auto;
-            padding: 8em 0;
+            padding: 12em 0 8em;
         }
 
         img {
