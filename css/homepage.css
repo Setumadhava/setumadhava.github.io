@@ -109,17 +109,24 @@ p {
   width: 40px;
   bottom: 40px;
   left: 50%;
-  transform: translateX(-50%); }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .arrowdowndiv {
-      /*width: 0.1%;*/
-      /*bottom: 33em;*/ } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    .arrowdowndiv {
-      /*bottom: 28em;*/ } }
+  transform: translateX(-50%);
+  animation-name: blinker;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; }
 
 #setu {
   color: #17DECB; }
+
+@keyframes blinker {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-10px); }
+  100% {
+    transform: translateY(0px); } }
+.arrowdowndiv:hover {
+  animation-play-state: paused; }
 
 .projectsection {
   width: 100%;

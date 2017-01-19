@@ -118,17 +118,31 @@ p {
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
-    @media #{$tablet} {
-        /*width: 0.1%;*/
-        /*bottom: 33em;*/
-    }
-    @media #{$mac13} {
-        /*bottom: 28em;*/
-    }
+    animation-name: blinker;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 #setu {
     color: #17DECB;
+}
+@keyframes blinker {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.arrowdowndiv:hover {
+    animation-play-state: paused;
 }
 /////////////////////////// PROJECT COMMON ///////////////////////
 //////////////////////////////////
