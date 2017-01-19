@@ -315,7 +315,7 @@ p {
                 width: 125px;
                 height: 28px;
                 opacity: 0.8;
-                background-color: $navgrey;
+                background-color: $grey3;
                 font-size: 0.8em;
                 text-align: center;
                 @media #{$tablet} {
@@ -346,7 +346,7 @@ p {
 
             p {
                 padding: 0.2em 1em;
-                color: $grey1;
+                color: $navgrey;
                 font-size: 1em;
                 font-weight: 600;
             }

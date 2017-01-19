@@ -286,7 +286,7 @@ p {
       width: 125px;
       height: 28px;
       opacity: 0.8;
-      background-color: #272727;
+      background-color: #BCBCBC;
       font-size: 0.8em;
       text-align: center; }
       @media (min-width: 768px) and (max-width: 1023px) {
@@ -315,7 +315,7 @@ p {
           height: 28px; } }
     #zero .contenthalf .labeldiv p {
       padding: 0.2em 1em;
-      color: #EEEEEE;
+      color: #272727;
       font-size: 1em;
       font-weight: 600; }
     @media (min-width: 375px) and (max-width: 768px) {
