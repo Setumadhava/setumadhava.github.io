@@ -485,7 +485,7 @@ ul {
       width: 23%; } }
   @media (min-width: 1820px) {
     .prevphonediv {
-      width: 35%; } }
+      width: 30%; } }
 
 .followphone {
   width: 90%;
@@ -495,13 +495,13 @@ ul {
       width: 50%; } }
   @media (min-width: 1024px) and (max-width: 1439px) {
     .followphone {
-      width: 45%; } }
+      width: 50%; } }
   @media (min-width: 1440px) and (max-width: 1819px) {
     .followphone {
       width: 45%; } }
   @media (min-width: 1820px) {
     .followphone {
-      width: 45%; } }
+      width: 55%; } }
 
 .previewtitle {
   width: 90%;
