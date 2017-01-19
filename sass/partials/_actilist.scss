@@ -505,12 +505,27 @@ ul {
 
 .prevphonediv {
     order: 2;
-    width: 256px;
+    width: 90%;
     margin: 0 auto;
     padding: 4em 0 8em;
+
+    img {
+        width: 100%;
+    }
+    @media #{$phablet} {
+        width: 70%;
+    }
+    @media #{$tablet} {
+        width: 35%;
+    }
     @media #{$mac13} {
-        width: 256px;
-        margin: 0 auto;
+        width: 30%;
+    }
+    @media #{$mac15} {
+        width: 23%;
+    }
+    @media #{$monitor} {
+        width: 35%;
     }
 }
 

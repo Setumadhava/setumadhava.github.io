@@ -466,13 +466,26 @@ ul {
 
 .prevphonediv {
   order: 2;
-  width: 256px;
+  width: 90%;
   margin: 0 auto;
   padding: 4em 0 8em; }
+  .prevphonediv img {
+    width: 100%; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .prevphonediv {
+      width: 70%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .prevphonediv {
+      width: 35%; } }
   @media (min-width: 1024px) and (max-width: 1439px) {
     .prevphonediv {
-      width: 256px;
-      margin: 0 auto; } }
+      width: 30%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .prevphonediv {
+      width: 23%; } }
+  @media (min-width: 1820px) {
+    .prevphonediv {
+      width: 35%; } }
 
 .followphone {
   width: 90%;
