@@ -103,20 +103,32 @@ p {
       font-size: 1.1em;
       padding-top: 5em; } }
 
+#setu {
+  color: #17DECB; }
+
 .arrowdowndiv {
   position: absolute;
   margin: 0 auto;
   width: 40px;
   bottom: 40px;
-  left: 50%;
+  left: 45%;
   transform: translateX(-50%);
   animation-name: blinker;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite; }
-
-#setu {
-  color: #17DECB; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .arrowdowndiv {
+      left: 48.5%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .arrowdowndiv {
+      left: 50%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .arrowdowndiv {
+      left: 50%; } }
+  @media (min-width: 1820px) {
+    .arrowdowndiv {
+      left: 50%; } }
 
 @keyframes blinker {
   0% {

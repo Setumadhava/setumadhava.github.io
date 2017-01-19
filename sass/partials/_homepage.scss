@@ -111,21 +111,33 @@ p {
     }
 }
 
+#setu {
+    color: #17DECB;
+}
+
 .arrowdowndiv {
     position: absolute;
     margin: 0 auto;
     width: 40px;
     bottom: 40px;
-    left: 50%;
+    left: 45%;
     transform: translateX(-50%);
     animation-name: blinker;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-}
-
-#setu {
-    color: #17DECB;
+    @media #{$tablet} {
+        left: 48.5%;
+    }
+    @media #{$mac13} {
+        left: 50%;
+    }
+    @media #{$mac15} {
+        left: 50%;
+    }
+    @media #{$monitor} {
+        left: 50%;
+    }
 }
 @keyframes blinker {
     0% {
