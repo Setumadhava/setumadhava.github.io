@@ -138,11 +138,15 @@ p {
   50% {
     transform: translateY(0px); }
   75% {
-    transform: translateY(-5px); }
+    transform: translateY(-10px); }
   85% {
     transform: translateY(0px); }
   90% {
     transform: translateY(-3px); }
+  95% {
+    transform: translateY(0px); }
+  98% {
+    transform: translateY(-1px); }
   100% {
     transform: translateY(0px); } }
 .arrowdowndiv:hover {
