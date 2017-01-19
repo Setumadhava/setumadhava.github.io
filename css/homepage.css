@@ -2,7 +2,7 @@ p {
   font-family: "Roboto", sans-serif; }
 
 #intro {
-  background-image: url("img/homepage/blackmob.png");
+  background-image: url("img/homepage/blackbg.png");
   width: 100%;
   display: block;
   background-size: cover;
@@ -10,18 +10,6 @@ p {
   background-repeat: no-repeat;
   background-attachment: scroll;
   height: 100%; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #intro {
-      background-image: url("img/homepage/blacktab.png"); } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    #intro {
-      background-image: url("img/homepage/blacklaptop.png"); } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    #intro {
-      background-image: url("img/homepage/blacklaptop.png"); } }
-  @media (min-width: 1820px) {
-    #intro {
-      background-image: url("img/homepage/blacklaptop.png"); } }
 
 .introcontent {
   width: 80%;
