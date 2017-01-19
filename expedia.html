@@ -8,6 +8,7 @@
     <title>Expedia</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/expedia.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="css/img/homepage/logo.png" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -346,6 +347,25 @@
     </div>
 
 
+    <!-- //// Smooth scroll jQuery script: https://www.youtube.com/watch?v=iB0hL-NNUJg ////// -->
+
+
+    <script>
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 2000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
