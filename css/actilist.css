@@ -554,7 +554,7 @@ ul {
         width: 55%; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #backcontainer .contentdiv {
-        width: 45%; } }
+        width: 55%; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       #backcontainer .contentdiv {
         width: 45%; } }
@@ -580,7 +580,7 @@ ul {
         width: 60%; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #earlyexplorationcontainer .contentdiv {
-        width: 40%; } }
+        width: 55%; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       #earlyexplorationcontainer .contentdiv {
         width: 45%; } }
@@ -625,13 +625,32 @@ ul {
         width: 60%; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #researchbox .contentdiv {
-        width: 40%; } }
+        width: 55%; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       #researchbox .contentdiv {
         width: 45%; } }
     @media (min-width: 1820px) {
       #researchbox .contentdiv {
         width: 55%; } }
+  #researchbox .subheader {
+    padding: 2em 0;
+    color: #414141;
+    margin: 0 auto;
+    font-size: 1.6em;
+    width: 100%; }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #researchbox .subheader {
+        width: 70%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #researchbox .subheader {
+        width: 65%; } }
+    @media (min-width: 1820px) {
+      #researchbox .subheader {
+        width: 75%; } }
+  #researchbox .personadiv {
+    width: 90%;
+    margin: 0 auto;
+    padding: 4em 0; }
   #researchbox #percentagediv {
     width: 50%;
     margin: 0 auto;
@@ -789,7 +808,7 @@ ul {
         width: 60%; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #wireframesbox .contentdiv {
-        width: 45%; } }
+        width: 55%; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       #wireframesbox .contentdiv {
         width: 45%; } }
@@ -855,7 +874,7 @@ ul {
         width: 60%; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #visualbox .contentdiv {
-        width: 50%; } }
+        width: 55%; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       #visualbox .contentdiv {
         width: 45%; } }
@@ -924,7 +943,7 @@ ul {
         width: 60%; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #hificontainer .contentdiv {
-        width: 40%; } }
+        width: 55%; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       #hificontainer .contentdiv {
         width: 45%; } }

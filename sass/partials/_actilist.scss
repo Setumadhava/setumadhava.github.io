@@ -607,7 +607,7 @@ ul {
             width: 55%;
         }
         @media #{$mac13} {
-            width: 45%;
+            width: 55%;
         }
         @media #{$mac15} {
             width: 45%;
@@ -637,7 +637,7 @@ ul {
             width: 60%;
         }
         @media #{$mac13} {
-            width: 40%;
+            width: 55%;
         }
         @media #{$mac15} {
             width: 45%;
@@ -691,7 +691,7 @@ ul {
             width: 60%;
         }
         @media #{$mac13} {
-            width: 40%;
+            width: 55%;
         }
         @media #{$mac15} {
             width: 45%;
@@ -699,6 +699,29 @@ ul {
         @media #{$monitor} {
             width: 55%;
         }
+    }
+
+    .subheader {
+        padding: 2em 0;
+        color: $textdark;
+        margin: 0 auto;
+        font-size: 1.6em;
+        width: 100%;
+        @media #{$mac13} {
+            width: 70%;
+        }
+        @media #{$mac15} {
+            width: 65%;
+        }
+        @media #{$monitor} {
+            width: 75%;
+        }
+    }
+
+    .personadiv {
+        width: 90%;
+        margin: 0 auto;
+        padding: 4em 0;
     }
 
     #percentagediv {
@@ -884,7 +907,7 @@ ul {
             width: 60%;
         }
         @media #{$mac13} {
-            width: 45%;
+            width: 55%;
         }
         @media #{$mac15} {
             width: 45%;
@@ -963,7 +986,7 @@ ul {
             width: 60%;
         }
         @media #{$mac13} {
-            width: 50%;
+            width: 55%;
         }
         @media #{$mac15} {
             width: 45%;
@@ -1044,7 +1067,7 @@ ul {
             width: 60%;
         }
         @media #{$mac13} {
-            width: 40%;
+            width: 55%;
         }
         @media #{$mac15} {
             width: 45%;
