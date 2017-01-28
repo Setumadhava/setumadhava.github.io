@@ -926,15 +926,45 @@ ul {
         width: 608px;
         margin: 0 auto; } }
 
+.deschcontainer {
+  background-color: #183161; }
+
+@media (min-width: 1820px) {
+  .bluesection {
+    width: 80%;
+    margin: 0 auto; } }
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .bluesection .deschdiv {
+    padding: 4em 0; } }
+@media (min-width: 1440px) and (max-width: 1819px) {
+  .bluesection .deschdiv {
+    padding: 4em 0; } }
+@media (min-width: 1820px) {
+  .bluesection .deschdiv {
+    padding: 4em 0; } }
+.bluesection .deschdiv .hfgp2 {
+  padding: 3em 0;
+  width: 90%;
+  margin: 0 auto; }
+  .bluesection .deschdiv .hfgp2 img {
+    width: 100%; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .bluesection .deschdiv .hfgp2 {
+      width: 80%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .bluesection .deschdiv .hfgp2 {
+      width: 45%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .bluesection .deschdiv .hfgp2 {
+      width: 45%; } }
+  @media (min-width: 1820px) {
+    .bluesection .deschdiv .hfgp2 {
+      width: 38%; } }
+.bluesection .deschdivtop {
+  padding-top: 0; }
+
 .redsection {
   background-color: #EC5454; }
-
-.bluesection {
-  background-color: #183161; }
-  .bluesection .deschdiv {
-    padding: 4em 0; }
-  .bluesection .deschdivtop {
-    padding-top: 0; }
 
 .hificontainer {
   padding: 4em 0; }

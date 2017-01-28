@@ -1048,20 +1048,56 @@ ul {
 }
 ////////////////////////// HIGH FIDELITY ////////////////////////
 
-.redsection {
-    background-color: $actilistred;
+.deschcontainer {
+    background-color: $darkblue;
 }
 
 .bluesection {
-    background-color: $darkblue;
+    @media #{$monitor} {
+        width: 80%;
+        margin: 0 auto;
+    }
 
     .deschdiv {
-        padding: 4em 0;
+        @media #{$mac13} {
+            padding: 4em 0;
+        }
+        @media #{$mac15} {
+            padding: 4em 0;
+        }
+        @media #{$monitor} {
+            padding: 4em 0;
+        }
+
+        .hfgp2 {
+            img {
+                width: 100%;
+            }
+            padding: 3em 0;
+            width: 90%;
+            margin: 0 auto;
+            @media #{$tablet} {
+                width: 80%;
+            }
+            @media #{$mac13} {
+                width: 45%;
+            }
+            @media #{$mac15} {
+                width: 45%;
+            }
+            @media #{$monitor} {
+                width: 38%;
+            }
+        }
     }
 
     .deschdivtop {
         padding-top: 0;
     }
+}
+
+.redsection {
+    background-color: $actilistred;
 }
 
 .hificontainer {
