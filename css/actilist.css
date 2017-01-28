@@ -926,43 +926,92 @@ ul {
         width: 608px;
         margin: 0 auto; } }
 
-#hificontainer {
-  background-color: #EC5454;
+.redsection {
+  background-color: #EC5454; }
+
+.bluesection {
+  background-color: #183161; }
+  .bluesection .deschdiv {
+    padding: 4em 0; }
+  .bluesection .deschdivtop {
+    padding-top: 0; }
+
+.hificontainer {
   padding: 4em 0; }
-  #hificontainer .contentdiv {
+  .hificontainer .contentdiv {
     padding-top: 4em;
     width: 90%;
     margin: 0 auto; }
-    #hificontainer .contentdiv p {
+    .hificontainer .contentdiv p {
       color: white; }
     @media (min-width: 375px) and (max-width: 768px) {
-      #hificontainer .contentdiv {
+      .hificontainer .contentdiv {
         width: 75%; } }
     @media (min-width: 768px) and (max-width: 1023px) {
-      #hificontainer .contentdiv {
+      .hificontainer .contentdiv {
         width: 60%; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
-      #hificontainer .contentdiv {
+      .hificontainer .contentdiv {
         width: 55%; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
-      #hificontainer .contentdiv {
+      .hificontainer .contentdiv {
         width: 45%; } }
     @media (min-width: 1820px) {
-      #hificontainer .contentdiv {
+      .hificontainer .contentdiv {
         width: 40%; } }
-  #hificontainer #hifimockgroupbox {
+  .hificontainer #hifimockgroupbox {
     padding: 8em 0; }
-  #hificontainer .hifigroupdiv {
+  .hificontainer #oldvsnewdiv {
+    width: 240px;
+    margin: 6em auto 0; }
+    .hificontainer #oldvsnewdiv #oldvsnewtext {
+      font-size: 2em;
+      font-weight: 500;
+      text-align: center;
+      color: white; }
+  .hificontainer .hifigroupdiv {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin: 0 auto;
     justify-content: center; }
-    #hificontainer .hifigroupdiv .hfgp {
-      padding: 1em; }
+    .hificontainer .hifigroupdiv .hfgp {
+      padding: 2em; }
       @media (min-width: 1024px) and (max-width: 1439px) {
-        #hificontainer .hifigroupdiv .hfgp {
+        .hificontainer .hifigroupdiv .hfgp {
           width: 50%; } }
+  .hificontainer .redbtn {
+    width: 260px;
+    font-size: 1.5em;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto 4em; }
+    .hificontainer .redbtn p {
+      padding-top: 0.5em; }
+  .hificontainer .redbtn:hover {
+    cursor: pointer;
+    background-color: white;
+    font-weight: 600;
+    color: #EC5454;
+    transition: all 0.30s ease-in-out; }
+  .hificontainer .bluebtn {
+    width: 260px;
+    font-size: 1.5em;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto 4em; }
+    .hificontainer .bluebtn p {
+      padding-top: 0.5em; }
+  .hificontainer .bluebtn:hover {
+    cursor: pointer;
+    background-color: white;
+    font-weight: 600;
+    color: #183161;
+    transition: all 0.30s ease-in-out; }
 
 @media (min-width: 1024px) and (max-width: 1439px) {
   #benefitscontainer #benefitsbox {
