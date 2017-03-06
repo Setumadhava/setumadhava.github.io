@@ -1,0 +1,304 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.vNav {
+  position: fixed;
+  top: 50%;
+  left: 80%;
+  width: 50px;
+  z-index: 9999;
+  list-style-type: none; }
+
+.vNav ul {
+  position: relative;
+  padding: 3px 3px 3px 35%; }
+
+.vNav ul li {
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 35%;
+  color: #718785; }
+
+.vNav a {
+  display: block;
+  width: 18px;
+  height: 18px;
+  text-indent: -9999px;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: #718785;
+  text-decoration: none; }
+
+.vNav a:hover {
+  border-radius: 50%;
+  background-color: #718785;
+  text-decoration: none; }
+
+.vNav a.active {
+  border-radius: 50%;
+  background-color: red;
+  text-decoration: none; }
+
+.labeloo {
+  position: relative;
+  top: -60%;
+  left: -50px;
+  width: 100%;
+  text-align: right;
+  font-size: 1em;
+  color: #718785;
+  display: none; }
+
+#section01 {
+  left: 0;
+  width: 420px;
+  padding-top: 10em; }
+
+#section02 {
+  left: 0;
+  padding-top: 10em;
+  width: 420px; }
+
+#section03 {
+  left: 0;
+  padding-top: 10em;
+  width: 420px; }
+
+#section04 {
+  left: 0;
+  padding-top: 10em;
+  width: 420px; }
+
+.container,
+body,
+html {
+  height: 100%;
+  width: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
+
+.nav {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1000; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .nav {
+      justify-content: space-around; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .nav {
+      justify-content: flex-end; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  @media (min-width: 1820px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  .nav .navitem {
+    padding: 1em 1.5em;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-align: center;
+    width: 33%; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .nav .navitem {
+        padding: 1.5em 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        width: 150px; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        width: 150px; } }
+    @media (min-width: 1820px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        font-size: 1em;
+        width: 200px; } }
+  .nav .navitem:hover {
+    transition: all 0.30s ease-in-out;
+    cursor: pointer;
+    background-color: white;
+    color: #272727;
+    font-weight: 900; }
+  .nav a {
+    color: #EEEEEE; }
+
+.footernavcontainer {
+  display: flex;
+  justify-content: space-between; }
+  .footernavcontainer .navbutton {
+    width: 50%;
+    padding: 1em 0;
+    background-color: #C9EB91;
+    text-align: center; }
+  .footernavcontainer .actinxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/actilist/herobg.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .actinxt:hover .nextprojbig,
+    .footernavcontainer .actinxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer .smarthomenxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/smarthome/homeimg2.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .smarthomenxt:hover .nextprojbig,
+    .footernavcontainer .smarthomenxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer .expedianxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage/hotel_room.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .expedianxt:hover .nextprojbig,
+    .footernavcontainer .expedianxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer .datescoutnxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage/dscoutcouplebg.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .datescoutnxt:hover .nextprojbig,
+    .footernavcontainer .datescoutnxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer a {
+    color: #424242; }
+  .footernavcontainer .nextprojsmall {
+    font-size: 0.8em; }
+  .footernavcontainer .nextprojbig {
+    font-size: 1em;
+    font-weight: 500; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1820px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+
+.footerdiv {
+  background-color: #292929;
+  width: 100%; }
+
+.getintouch {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  padding: 2em 0;
+  text-align: center; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .getintouch {
+      font-size: 1.5em; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .getintouch {
+      font-size: 1.5em;
+      text-align: center; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .getintouch {
+      font-size: 1.5em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .getintouch {
+      font-size: 1.5em; } }
+  @media (min-width: 1820px) {
+    .getintouch {
+      font-size: 1.5em; } }
+
+.iconsflex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 4em;
+  justify-content: center; }
+  .iconsflex .icondiv {
+    width: 28px;
+    margin: 0 2em; }
+  .iconsflex .mail {
+    fill: #EEEEEE;
+    width: 28px;
+    padding-top: 0.57em; }
+  .iconsflex .in {
+    fill: #EEEEEE;
+    width: 28px; }
+  .iconsflex .mailicon:hover .mail {
+    transition: all 0.20s ease-in-out;
+    fill: #DC4638; }
+  .iconsflex .inicon:hover .in {
+    transition: all 0.20s ease-in-out;
+    fill: #0075B5; }
+
+.resumeline {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: 1em; }
+  .resumeline #resume {
+    color: #D92A1C; }
+
+.arrowup {
+  width: 50px;
+  margin: 0 auto;
+  padding: 2em 0 3em; }
+
+.copyrightdiv {
+  width: 100%;
+  background-color: #3E3E3E; }
+
+.copyright {
+  padding: 0.8em 0;
+  text-align: center;
+  color: #ABABAB;
+  font-size: 0.8em;
+  margin: 0 auto; }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .copyright {
+      padding: 0.8em 0 0.8em 10em;
+      text-align: left; } }
+
+/*# sourceMappingURL=testbed.css.map */
