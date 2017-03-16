@@ -1,0 +1,397 @@
+* {
+    font-family: $roboto;
+}
+@media #{$phablet} {}
+@media #{$tablet} {}
+@media #{$mac13} {}
+@media #{$mac15} {}
+@media #{$monitor} {}
+@media #{$fourk} {}
+
+.titlediv {
+    text-align: center;
+    padding: 2em 0;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: $piudarkblue;
+}
+////////////////////////////////////////////////////////////////////
+
+#herosection {
+    background-image: url("img/pumpitup/herobg.png");
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 400px;
+    position: relative;
+    @media #{$phablet} {
+        height: 600px;
+    }
+    @media #{$tablet} {
+        height: 800px;
+    }
+    @media #{$mac13} {
+        height: 600px;
+    }
+    @media #{$mac15} {
+        height: 600px;
+    }
+    @media #{$monitor} {
+        height: 800px;
+    }
+    @media #{$fourk} {
+        height: 2800px;
+    }
+
+    #piulogodiv {
+        position: absolute;
+        top: 30%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70%;
+
+        #piulogo {
+            width: 100%;
+        }
+        @media #{$phablet} {
+            width: 60%;
+            top: 30%;
+            transform: translateY(-50%);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        @media #{$tablet} {
+            width: 50%;
+            top: 30%;
+            transform: translateY(-50%);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        @media #{$mac13} {
+            width: 30%;
+            left: 10%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        @media #{$mac15} {
+            width: 25%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 15%;
+        }
+        @media #{$monitor} {
+            width: 25%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 15%;
+        }
+        @media #{$fourk} {
+            width: 30%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 15%;
+        }
+    }
+
+    #herophonediv {
+        position: absolute;
+        bottom: 0;
+        visibility: hidden;
+        @media #{$mac13} {
+            right: 5%;
+            visibility: visible;
+        }
+        @media #{$mac15} {
+            right: 15%;
+            visibility: visible;
+        }
+        @media #{$monitor} {
+            right: 15%;
+            visibility: visible;
+        }
+        @media #{$fourk} {
+            right: 15%;
+            visibility: visible;
+        }
+    }
+
+    #redline {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 0.4em;
+        background-color: $piured;
+    }
+}
+/////////////// PROCESS  /////////////
+
+#processsection {
+    background-color: $piugreylight;
+
+    .roleflex {
+        @media #{$phablet} {
+            padding: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 0 auto;
+        }
+        @media #{$tablet} {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-around;
+            margin: 0 auto;
+        }
+        @media #{$mac13} {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-around;
+            margin: 0 auto;
+        }
+        @media #{$mac15} {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-around;
+            margin: 0 auto;
+        }
+        @media #{$monitor} {
+            display: flex;
+            flex-wrap: wrap;
+            width: 70%;
+            justify-content: space-around;
+            margin: 0 auto;
+        }
+    }
+
+    .roleitem {
+        width: 50%;
+        @media #{$tablet} {
+            width: 50%;
+            margin: 0 auto;
+        }
+        @media #{$mac13} {
+            width: 25%;
+            margin: 0 auto;
+        }
+        @media #{$mac15} {
+            width: 22%;
+        }
+        @media #{$monitor} {
+            width: 25%;
+        }
+    }
+
+    .bottomrole {
+        padding-top: 2em;
+        @media #{$mac13} {
+            padding: 0;
+        }
+        @media #{$mac15} {
+            padding: 0;
+        }
+        @media #{$monitor} {
+            padding: 0;
+        }
+        @media #{$fourk} {
+            padding: 0;
+        }
+    }
+
+    .roletitle {
+        color: #A0A0A0;
+        // padding-top: 2em;
+        @media #{$tablet} {
+            width: 80%;
+            margin: 0 auto;
+        }
+        @media #{$mac13} {
+            width: 80%;
+            margin: 0 auto;
+        }
+        @media #{$mac15} {
+            width: 80%;
+        }
+        @media #{$monitor} {
+            width: 80%;
+        }
+    }
+
+    .rolebody {
+        color: $piublack;
+        font-size: 1em;
+        width: 90%;
+        @media #{$tablet} {
+            font-size: 1.2em;
+            width: 80%;
+            margin: 1em auto;
+        }
+        @media #{$mac13} {
+            font-size: 1.2em;
+            width: 80%;
+            margin: 1em auto;
+        }
+        @media #{$mac15} {
+            font-size: 1.2em;
+            width: 100%;
+            margin: 1em auto;
+        }
+        @media #{$monitor} {
+            font-size: 1.2em;
+            width: 100%;
+            margin: 1em auto;
+        }
+    }
+
+    .processimgdiv {
+        width: 90%;
+        margin: 0 auto;
+        padding: 4em 0 8em;
+
+        #processimg {
+            width: 100%;
+        }
+        @media #{$mac13} {
+            width: 70%;
+        }
+        @media #{$mac15} {
+            width: 70%;
+        }
+        @media #{$monitor} {
+            width: 50%;
+            padding: 8em 0;
+        }
+    }
+}
+/////////////////////////// PROCESS ////////////////////////
+
+#problemsection {
+    @media #{$monitor} {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .centerdesc {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2em 0;
+        @media #{$tablet} {
+            width: 65%;
+        }
+        @media #{$mac13} {
+            width: 55%;
+        }
+        @media #{$mac15} {
+            width: 40%;
+        }
+        @media #{$monitor} {
+            width: 40%;
+        }
+        @media #{$fourk} {
+            width: 35%;
+        }
+    }
+
+    .problemflex {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 6em 0;
+        // background-color: red;
+        justify-content: center;
+
+        .homediv {
+            width: 90%;
+            margin: 0 auto;
+
+            #simplehome {
+                width: 100%;
+            }
+            @media #{$phablet} {
+                width: 90%;
+            }
+            @media #{$tablet} {
+                width: 65%;
+            }
+            @media #{$mac13} {
+                width: 45%;
+            }
+            @media #{$mac15} {
+                width: 40%;
+            }
+            @media #{$monitor} {
+                width: 40%;
+            }
+            @media #{$fourk} {
+                width: 35%;
+            }
+        }
+
+        .issuehalf {
+            width: 90%;
+            margin-left: 0;
+            padding-top: 2em;
+            // background-color: blue;
+            @media #{$phablet} {
+                width: 90%;
+                margin-left: 0;
+                padding-top: 2em;
+            }
+            @media #{$tablet} {
+                width: 50%;
+                margin-left: 0;
+                padding-top: 2em;
+            }
+            @media #{$mac13} {
+                width: 30%;
+                margin: 0 6em;
+                padding-top: 3em;
+            }
+            @media #{$mac15} {
+                width: 30%;
+                margin: 0 6em;
+                padding-top: 3em;
+            }
+            @media #{$monitor} {
+                width: 30%;
+                margin-left: 6em;
+                padding-top: 3em;
+            }
+            @media #{$fourk} {
+                width: 30%;
+                margin-left: 6em;
+                padding-top: 3em;
+            }
+
+            .homeissuediv {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 1em 0;
+
+                .annotation {
+                    background-color: $piured;
+                    width: 30px;
+                    height: 30px;
+                    text-align: center;
+                    border-radius: 30px;
+                    color: white;
+                    font-weight: bold;
+                    margin-right: 1em;
+                }
+
+                .issuedesc {
+                    width: 85%;
+                }
+            }
+        }
+    }
+}
