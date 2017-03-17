@@ -12,8 +12,50 @@
     text-align: center;
     padding: 2em 0;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2em;
     color: $piudarkblue;
+}
+
+.whitetext {
+    color: white;
+}
+
+.sixembottom {
+    padding-bottom: 6em;
+}
+
+.fourembottom {
+    padding-bottom: 4em;
+}
+
+.sixemboth {
+    padding: 6em 0;
+}
+
+.centerdesc {
+    width: 90%;
+    margin: 0 auto;
+
+    .subheader {
+        font-weight: bold;
+        font-size: 1.2em;
+        color: $piured;
+    }
+    @media #{$tablet} {
+        width: 65%;
+    }
+    @media #{$mac13} {
+        width: 55%;
+    }
+    @media #{$mac15} {
+        width: 40%;
+    }
+    @media #{$monitor} {
+        width: 40%;
+    }
+    @media #{$fourk} {
+        width: 25%;
+    }
 }
 ////////////////////////////////////////////////////////////////////
 
@@ -339,17 +381,17 @@
         .issuehalf {
             width: 90%;
             margin-left: 0;
-            padding-top: 2em;
+            padding-top: 4em;
             // background-color: blue;
             @media #{$phablet} {
-                width: 90%;
+                width: 80%;
                 margin-left: 0;
-                padding-top: 2em;
+                padding-top: 4em;
             }
             @media #{$tablet} {
                 width: 50%;
                 margin-left: 0;
-                padding-top: 2em;
+                padding-top: 4em;
             }
             @media #{$mac13} {
                 width: 30%;
@@ -374,7 +416,7 @@
 
             .homeissuediv {
                 display: flex;
-                flex-wrap: wrap;
+                // flex-wrap: wrap;
                 padding: 1em 0;
 
                 .annotation {
@@ -391,6 +433,109 @@
                 .issuedesc {
                     width: 85%;
                 }
+            }
+        }
+    }
+}
+///////////////////////// RESEARCH /////////////////// -->
+
+#researchsection {
+    background-color: $piudarkblue;
+
+    .researchiconsflex {
+        padding: 8em 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .icondiv {
+            width: 30%;
+            padding: 2em 0;
+            margin: 0 auto;
+            // background-color: red;
+            @media #{$tablet} {
+                width: 15%;
+            }
+            @media #{$mac13} {
+                width: auto;
+            }
+            @media #{$mac15} {
+                width: auto;
+            }
+            @media #{$monitor} {
+                width: auto;
+            }
+            @media #{$fourk} {
+                width: auto;
+            }
+        }
+    }
+}
+
+.researchcontentsection {
+    .journeymapdiv {
+        width: 95%;
+        margin: 0 auto;
+
+        .journeymap {
+            width: 100%;
+        }
+        @media #{$phablet} {
+            width: 95%;
+        }
+        @media #{$tablet} {
+            width: 85%;
+        }
+        @media #{$mac13} {
+            width: 85%;
+        }
+        @media #{$mac15} {
+            width: 75%;
+        }
+        @media #{$monitor} {
+            width: 70%;
+        }
+        @media #{$fourk} {
+            width: 60%;
+        }
+    }
+
+    .keyfindingflex {
+        display: flex;
+        flex-wrap: wrap;
+
+        .keyfindingdiv {
+            width: 90%;
+            margin: 0 auto;
+
+            .rfingdiv {
+                width: 90%;
+                margin: 0 auto;
+                @media #{$monitor} {
+                    width: 70%;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+            @media #{$phablet} {
+                width: 90%;
+            }
+            @media #{$tablet} {
+                width: 50%;
+            }
+            @media #{$mac13} {
+                width: 33%;
+            }
+            @media #{$mac15} {
+                width: 33%;
+            }
+            @media #{$monitor} {
+                width: 33%;
+            }
+            @media #{$fourk} {
+                width: 33%;
             }
         }
     }

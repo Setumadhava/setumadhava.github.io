@@ -5,8 +5,43 @@
   text-align: center;
   padding: 2em 0;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2em;
   color: #026F8B; }
+
+.whitetext {
+  color: white; }
+
+.sixembottom {
+  padding-bottom: 6em; }
+
+.fourembottom {
+  padding-bottom: 4em; }
+
+.sixemboth {
+  padding: 6em 0; }
+
+.centerdesc {
+  width: 90%;
+  margin: 0 auto; }
+  .centerdesc .subheader {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #D63D31; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .centerdesc {
+      width: 65%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .centerdesc {
+      width: 55%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .centerdesc {
+      width: 40%; } }
+  @media (min-width: 1820px) {
+    .centerdesc {
+      width: 40%; } }
+  @media (min-width: 2560) {
+    .centerdesc {
+      width: 25%; } }
 
 #herosection {
   background-image: url("img/pumpitup/herobg.png");
@@ -292,17 +327,17 @@
   #problemsection .problemflex .issuehalf {
     width: 90%;
     margin-left: 0;
-    padding-top: 2em; }
+    padding-top: 4em; }
     @media (min-width: 375px) and (max-width: 768px) {
       #problemsection .problemflex .issuehalf {
-        width: 90%;
+        width: 80%;
         margin-left: 0;
-        padding-top: 2em; } }
+        padding-top: 4em; } }
     @media (min-width: 768px) and (max-width: 1023px) {
       #problemsection .problemflex .issuehalf {
         width: 50%;
         margin-left: 0;
-        padding-top: 2em; } }
+        padding-top: 4em; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #problemsection .problemflex .issuehalf {
         width: 30%;
@@ -325,7 +360,6 @@
         padding-top: 3em; } }
     #problemsection .problemflex .issuehalf .homeissuediv {
       display: flex;
-      flex-wrap: wrap;
       padding: 1em 0; }
       #problemsection .problemflex .issuehalf .homeissuediv .annotation {
         background-color: #D63D31;
@@ -338,6 +372,89 @@
         margin-right: 1em; }
       #problemsection .problemflex .issuehalf .homeissuediv .issuedesc {
         width: 85%; }
+
+#researchsection {
+  background-color: #026F8B; }
+  #researchsection .researchiconsflex {
+    padding: 8em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    #researchsection .researchiconsflex .icondiv {
+      width: 30%;
+      padding: 2em 0;
+      margin: 0 auto; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #researchsection .researchiconsflex .icondiv {
+          width: 15%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #researchsection .researchiconsflex .icondiv {
+          width: auto; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #researchsection .researchiconsflex .icondiv {
+          width: auto; } }
+      @media (min-width: 1820px) {
+        #researchsection .researchiconsflex .icondiv {
+          width: auto; } }
+      @media (min-width: 2560) {
+        #researchsection .researchiconsflex .icondiv {
+          width: auto; } }
+
+.researchcontentsection .journeymapdiv {
+  width: 95%;
+  margin: 0 auto; }
+  .researchcontentsection .journeymapdiv .journeymap {
+    width: 100%; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .researchcontentsection .journeymapdiv {
+      width: 95%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .researchcontentsection .journeymapdiv {
+      width: 85%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .researchcontentsection .journeymapdiv {
+      width: 85%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .researchcontentsection .journeymapdiv {
+      width: 75%; } }
+  @media (min-width: 1820px) {
+    .researchcontentsection .journeymapdiv {
+      width: 70%; } }
+  @media (min-width: 2560) {
+    .researchcontentsection .journeymapdiv {
+      width: 60%; } }
+.researchcontentsection .keyfindingflex {
+  display: flex;
+  flex-wrap: wrap; }
+  .researchcontentsection .keyfindingflex .keyfindingdiv {
+    width: 90%;
+    margin: 0 auto; }
+    .researchcontentsection .keyfindingflex .keyfindingdiv .rfingdiv {
+      width: 90%;
+      margin: 0 auto; }
+      @media (min-width: 1820px) {
+        .researchcontentsection .keyfindingflex .keyfindingdiv .rfingdiv {
+          width: 70%; } }
+      .researchcontentsection .keyfindingflex .keyfindingdiv .rfingdiv img {
+        width: 100%; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      .researchcontentsection .keyfindingflex .keyfindingdiv {
+        width: 90%; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .researchcontentsection .keyfindingflex .keyfindingdiv {
+        width: 50%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .researchcontentsection .keyfindingflex .keyfindingdiv {
+        width: 33%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .researchcontentsection .keyfindingflex .keyfindingdiv {
+        width: 33%; } }
+    @media (min-width: 1820px) {
+      .researchcontentsection .keyfindingflex .keyfindingdiv {
+        width: 33%; } }
+    @media (min-width: 2560) {
+      .researchcontentsection .keyfindingflex .keyfindingdiv {
+        width: 33%; } }
 
 .container,
 body,

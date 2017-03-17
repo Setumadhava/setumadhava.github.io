@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3060px" height="1110px" viewBox="0 0 3060 1110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>journey_map copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="36.9559323" cy="40" rx="36.9559323" ry="40"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="73.9118646" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <ellipse id="path-3" cx="36.9625034" cy="40" rx="36.9625034" ry="40"></ellipse>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="73.9250068" height="80" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <ellipse id="path-5" cx="36.9625034" cy="40" rx="36.9625034" ry="40"></ellipse>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="73.9250068" height="80" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <ellipse id="path-7" cx="36.9625034" cy="40" rx="36.9625034" ry="40"></ellipse>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="73.9250068" height="80" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <ellipse id="path-9" cx="36.9625034" cy="40" rx="36.9625034" ry="40"></ellipse>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="73.9250068" height="80" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <ellipse id="path-11" cx="36.9625034" cy="40" rx="36.9625034" ry="40"></ellipse>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="73.9250068" height="80" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <ellipse id="path-13" cx="36.9625034" cy="40" rx="36.9625034" ry="40"></ellipse>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="73.9250068" height="80" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+    </defs>
+    <g id="Poster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3" transform="translate(-256.000000, -2672.000000)">
+            <g id="journey_map-copy-3" transform="translate(256.000000, 2672.000000)">
+                <path d="M0,29.9929355 C0,13.4282946 13.4332576,0 30.008347,0 L3029.99165,0 C3046.56481,0 3060,13.4333151 3060,29.9929355 L3060,124.146091 L0,124.146091 L0,29.9929355 Z" id="Rectangle-30" fill="#026F8B"></path>
+                <text id="Filling-Overhead-Tan" font-family="Roboto-Regular, Roboto" font-size="57.6" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="1261" y="80">Filling Overhead Tank</tspan>
+                </text>
+                <g id="Group-15" transform="translate(0.000000, 141.075103)">
+                    <g id="Group-6">
+                        <rect id="Rectangle" fill="#53B0BD" x="0" y="0" width="369" height="266" rx="4"></rect>
+                        <text id="Context" font-family="Roboto-Bold, Roboto" font-size="32" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="125.446731" y="135.831276">Context</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-16" transform="translate(0.000000, 424.000000)">
+                    <rect id="Rectangle-Copy" fill="#53B0BD" x="0" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Thinking" font-family="Roboto-Bold, Roboto" font-size="32" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="119.930041" y="83.9156379">Thinking</tspan>
+                    </text>
+                </g>
+                <g id="Group-17" transform="translate(0.000000, 601.000000)">
+                    <rect id="Rectangle-Copy-2" fill="#53B0BD" x="0" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Feeling" font-family="Roboto-Bold, Roboto" font-size="32" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="130.963421" y="83.9156379">Feeling</tspan>
+                    </text>
+                </g>
+                <g id="Group-32" transform="translate(0.000000, 776.000000)">
+                    <rect id="Rectangle-Copy-3" fill="#53B0BD" x="0" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Doing" font-family="Roboto-Bold, Roboto" font-size="32" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="141.9968" y="83.9156379">Doing</tspan>
+                    </text>
+                </g>
+                <g id="Group-33" transform="translate(0.000000, 951.000000)">
+                    <rect id="Rectangle-Copy-4" fill="#53B0BD" x="0" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Feedback" font-family="Roboto-Bold, Roboto" font-size="32" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="110" y="83.9156379">Feedback</tspan>
+                    </text>
+                </g>
+                <g id="Group-23-Copy" opacity="0.502321105" transform="translate(668.000000, 691.832305)"></g>
+                <g id="Group-23-Copy-5" opacity="0.496999547" transform="translate(1052.000000, 692.960905)"></g>
+                <g id="Group-23-Copy-5" opacity="0.496999547" transform="translate(1436.000000, 692.960905)"></g>
+                <g id="Group-23-Copy-8" opacity="0.496999547" transform="translate(1820.000000, 692.960905)"></g>
+                <g id="Group-23-Copy-9" opacity="0.496999547" transform="translate(2205.000000, 692.960905)"></g>
+                <g id="Group-23-Copy-11" opacity="0.496999547" transform="translate(2588.000000, 692.960905)"></g>
+                <g id="Group-23-Copy-9" opacity="0.496999547" transform="translate(2972.000000, 692.960905)"></g>
+                <g id="Group-2" transform="translate(384.000000, 601.076132)">
+                    <rect id="Rectangle-Copy-20" fill-opacity="0.246263587" fill="#53B0BD" x="0" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <g id="Group-9" transform="translate(284.000000, 60.944444)">
+                        <use id="Oval-5" stroke="#032A2F" mask="url(#mask-2)" stroke-width="6" stroke-linecap="square" fill="#FFFFFF" opacity="0.654325181" xlink:href="#path-1"></use>
+                        <ellipse id="Oval" fill="#032A2F" opacity="0.652796649" cx="22.9464939" cy="31.1111111" rx="3.62313062" ry="3.92156863"></ellipse>
+                        <ellipse id="Oval-Copy" fill="#032A2F" opacity="0.652796649" cx="49.9992025" cy="31.1111111" rx="3.62313062" ry="3.92156863"></ellipse>
+                        <rect id="Rectangle-31" fill="#012A2F" opacity="0.652796649" transform="translate(22.983508, 24.208390) rotate(4.000000) translate(-22.983508, -24.208390) " x="17.4280415" y="23.4240761" width="11.1109339" height="1.56862745" rx="0.784313725"></rect>
+                        <rect id="Rectangle-31-Copy" fill="#012A2F" opacity="0.652796649" transform="translate(50.019822, 24.077643) rotate(-20.000000) translate(-50.019822, -24.077643) " x="44.4643547" y="23.2933293" width="11.1109339" height="1.56862745" rx="0.784313725"></rect>
+                        <path d="M22.7049519,55.4615791 C22.7049519,55.4615791 26.4209833,58.8706781 24.1913644,64.8366013 C24.1913644,64.8366013 43.7748499,58.2902474 51.2069127,61.6993464 C50.7238287,60.6535948 50.2035843,57.1661286 50.9467905,55.4615791 C42.7715215,58.0184033 25.677777,52.0524801 22.7049519,55.4615791 Z" id="Path-31" stroke="#032A2F" stroke-linecap="square" fill="#FFFFFF" opacity="0.652796649"></path>
+                        <path d="M32.8497176,40.6890312 C32.8497176,40.6890312 35.1199663,38.6413233 38.6802272,38.2317817 C41.9307124,37.8222401 45.7144602,39.4604065 44.2009611,42.7367392 C42.6874619,45.1939887 37.7685898,46.0130719 37.7685898,46.0130719" id="Path-2" stroke="#032A2F" stroke-width="2" stroke-linecap="square" opacity="0.652796649"></path>
+                    </g>
+                    <text id="Gross" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="24" y="47.0576132">Gross</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-21" fill-opacity="0.246263587" fill="#53B0BD" x="384" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <g id="Group-7" opacity="0.64770154" transform="translate(668.000000, 62.073045)">
+                        <use id="Oval-5" stroke="#032A2F" mask="url(#mask-4)" stroke-width="6" stroke-linecap="square" fill="#FFFFFF" xlink:href="#path-3"></use>
+                        <rect id="Rectangle-31-Copy-2" fill="#012A2F" x="27.5406888" y="56.4705882" width="18.8436292" height="2.61437908" rx="1.30718954"></rect>
+                        <path d="M32.8555586,40.6890312 C32.8555586,40.6890312 35.126211,38.6413233 38.6871049,38.2317817 C41.938168,37.8222401 45.7225887,39.4604065 44.2088204,42.7367392 C42.6950522,45.1939887 37.7753054,46.0130719 37.7753054,46.0130719" id="Path-2" stroke="#032A2F" stroke-width="2" stroke-linecap="square"></path>
+                        <g id="Group-24" transform="translate(17.877289, 23.006536)">
+                            <path d="M9.18022961,8.10457516 C9.18022961,5.93875262 7.55781035,4.18300654 5.55645476,4.18300654 C3.55509918,4.18300654 1.93267992,5.93875262 1.93267992,8.10457516 L9.18022961,8.10457516 Z" id="Oval" fill="#032A2F" transform="translate(5.556455, 6.143791) scale(1, -1) translate(-5.556455, -6.143791) "></path>
+                            <path d="M36.2377485,8.10457516 C36.2377485,5.93875262 34.6153292,4.18300654 32.6139736,4.18300654 C30.612618,4.18300654 28.9901988,5.93875262 28.9901988,8.10457516 L36.2377485,8.10457516 Z" id="Oval-Copy" fill="#032A2F" transform="translate(32.613974, 6.143791) scale(1, -1) translate(-32.613974, -6.143791) "></path>
+                            <rect id="Rectangle-31" fill="#012A2F" x="0" y="0.522875817" width="11.1129095" height="1.56862745" rx="0.784313725"></rect>
+                            <rect id="Rectangle-31-Copy" fill="#012A2F" x="27.0781417" y="0.286793319" width="11.1129095" height="1.56862745" rx="0.784313725"></rect>
+                        </g>
+                    </g>
+                    <text id="Slight-annoyance-(li" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="408" y="45.0576132">Slight annoyance (like a </tspan>
+                        <tspan x="408" y="81.0576132">chore)</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-22" fill-opacity="0.246263587" fill="#53B0BD" x="768" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <g id="Group-8" opacity="0.652966486" transform="translate(1052.000000, 62.073045)">
+                        <use id="Oval-5" stroke="#032A2F" mask="url(#mask-6)" stroke-width="6" stroke-linecap="square" fill="#FFFFFF" xlink:href="#path-5"></use>
+                        <rect id="Rectangle-31-Copy-2" fill="#012A2F" x="27.5406888" y="56.4705882" width="18.8436292" height="2.61437908" rx="1.30718954"></rect>
+                        <path d="M32.8555586,40.6890312 C32.8555586,40.6890312 35.126211,38.6413233 38.6871049,38.2317817 C41.938168,37.8222401 45.7225887,39.4604065 44.2088204,42.7367392 C42.6950522,45.1939887 37.7753054,46.0130719 37.7753054,46.0130719" id="Path-2" stroke="#032A2F" stroke-width="2" stroke-linecap="square"></path>
+                        <g id="Group-24" transform="translate(17.877289, 23.006536)">
+                            <path d="M9.18022961,8.10457516 C9.18022961,5.93875262 7.55781035,4.18300654 5.55645476,4.18300654 C3.55509918,4.18300654 1.93267992,5.93875262 1.93267992,8.10457516 L9.18022961,8.10457516 Z" id="Oval" fill="#032A2F" transform="translate(5.556455, 6.143791) scale(1, -1) translate(-5.556455, -6.143791) "></path>
+                            <path d="M36.2377485,8.10457516 C36.2377485,5.93875262 34.6153292,4.18300654 32.6139736,4.18300654 C30.612618,4.18300654 28.9901988,5.93875262 28.9901988,8.10457516 L36.2377485,8.10457516 Z" id="Oval-Copy" fill="#032A2F" transform="translate(32.613974, 6.143791) scale(1, -1) translate(-32.613974, -6.143791) "></path>
+                            <rect id="Rectangle-31" fill="#012A2F" x="0" y="0.522875817" width="11.1129095" height="1.56862745" rx="0.784313725"></rect>
+                            <rect id="Rectangle-31-Copy" fill="#012A2F" x="27.0781417" y="0.286793319" width="11.1129095" height="1.56862745" rx="0.784313725"></rect>
+                        </g>
+                    </g>
+                    <text id="Slight-annoyance-(li" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="792" y="45.0576132">Slight annoyance (like a </tspan>
+                        <tspan x="792" y="81.0576132">chore)</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-23" fill-opacity="0.246263587" fill="#53B0BD" x="1152" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <g id="Group-10" opacity="0.650928442" transform="translate(1436.000000, 62.073045)">
+                        <use id="Oval-5" stroke="#032A2F" mask="url(#mask-8)" stroke-width="6" stroke-linecap="square" fill="#FFFFFF" xlink:href="#path-7"></use>
+                        <path d="M32.8555586,40.6890312 C32.8555586,40.6890312 35.126211,38.6413233 38.6871049,38.2317817 C41.938168,37.8222401 45.7225887,39.4604065 44.2088204,42.7367392 C42.6950522,45.1939887 37.7753054,46.0130719 37.7753054,46.0130719" id="Path-2" stroke="#032A2F" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M48.8001679,68.7581699 C48.8001679,61.6831496 43.500265,55.9477124 36.9625034,55.9477124 C30.4247418,55.9477124 25.1248389,61.6831496 25.1248389,68.7581699 C25.1248389,68.7581699 30.6812937,64.8366013 36.7209184,64.8366013 C42.7605432,64.8366013 48.8001679,68.7581699 48.8001679,68.7581699 Z" id="Oval-Copy" fill="#032A2F" transform="translate(36.962503, 62.352941) scale(1, -1) rotate(-180.000000) translate(-36.962503, -62.352941) "></path>
+                        <g id="Group-24" transform="translate(17.394119, 18.823529)">
+                            <path d="M9.66339959,12.2875817 C9.66339959,10.1217592 8.04098033,8.36601307 6.03962474,8.36601307 C4.03826916,8.36601307 2.4158499,10.1217592 2.4158499,12.2875817 C2.4158499,12.2875817 3.86535984,10.7189542 6.03962474,10.7189542 C8.21388965,10.7189542 9.66339959,12.2875817 9.66339959,12.2875817 Z" id="Oval" fill="#032A2F" transform="translate(6.039625, 10.326797) scale(1, -1) translate(-6.039625, -10.326797) "></path>
+                            <path d="M36.7209184,12.2875817 C36.7209184,10.1217592 35.0984992,8.36601307 33.0971436,8.36601307 C31.095788,8.36601307 29.4733687,10.1217592 29.4733687,12.2875817 C29.4733687,12.2875817 30.9228787,10.7189542 33.0971436,10.7189542 C35.2714085,10.7189542 36.7209184,12.2875817 36.7209184,12.2875817 Z" id="Oval-Copy-3" fill="#032A2F" transform="translate(33.097144, 10.326797) scale(1, -1) translate(-33.097144, -10.326797) "></path>
+                            <rect id="Rectangle-31" fill="#012A2F" transform="translate(6.008732, 4.599598) rotate(-15.000000) translate(-6.008732, -4.599598) " x="0.452277178" y="3.81528457" width="11.1129095" height="1.56862745" rx="0.784313725"></rect>
+                            <rect id="Rectangle-31-Copy" fill="#012A2F" transform="translate(33.081665, 2.411358) rotate(-344.000000) translate(-33.081665, -2.411358) " x="27.5252107" y="1.62704425" width="11.1129095" height="1.56862745" rx="0.784313725"></rect>
+                        </g>
+                    </g>
+                    <text id="Bored" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="1176" y="47.0576132">Bored</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-24" fill-opacity="0.246263587" fill="#53B0BD" x="1536" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <g id="Group-11" opacity="0.65404212" transform="translate(1821.000000, 62.073045)">
+                        <use id="Oval-5" stroke="#032A2F" mask="url(#mask-10)" stroke-width="6" stroke-linecap="square" fill="#FFFFFF" xlink:href="#path-9"></use>
+                        <path d="M32.8555586,40.6890312 C32.8555586,40.6890312 35.126211,38.6413233 38.6871049,38.2317817 C41.938168,37.8222401 45.7225887,39.4604065 44.2088204,42.7367392 C42.6950522,45.1939887 37.7753054,46.0130719 37.7753054,46.0130719" id="Path-2" stroke="#032A2F" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M48.8001679,68.7581699 C48.8001679,61.6831496 43.500265,55.9477124 36.9625034,55.9477124 C30.4247418,55.9477124 25.1248389,61.6831496 25.1248389,68.7581699 C25.1248389,68.7581699 30.6812937,64.8366013 36.7209184,64.8366013 C42.7605432,64.8366013 48.8001679,68.7581699 48.8001679,68.7581699 Z" id="Oval-Copy" fill="#032A2F" transform="translate(36.962503, 62.352941) scale(1, -1) translate(-36.962503, -62.352941) "></path>
+                        <g id="Group-24" transform="translate(17.394119, 21.437908)">
+                            <path d="M9.66339959,9.67320261 C9.66339959,7.50738007 8.04098033,5.75163399 6.03962474,5.75163399 C4.03826916,5.75163399 2.4158499,7.50738007 2.4158499,9.67320261 C2.4158499,9.67320261 3.86535984,8.10457516 6.03962474,8.10457516 C8.21388965,8.10457516 9.66339959,9.67320261 9.66339959,9.67320261 Z" id="Oval" fill="#032A2F" transform="translate(6.039625, 7.712418) scale(1, -1) rotate(-180.000000) translate(-6.039625, -7.712418) "></path>
+                            <path d="M36.7209184,9.67320261 C36.7209184,7.50738007 35.0984992,5.75163399 33.0971436,5.75163399 C31.095788,5.75163399 29.4733687,7.50738007 29.4733687,9.67320261 C29.4733687,9.67320261 30.9228787,8.10457516 33.0971436,8.10457516 C35.2714085,8.10457516 36.7209184,9.67320261 36.7209184,9.67320261 Z" id="Oval-Copy-3" fill="#032A2F" transform="translate(33.097144, 7.712418) scale(1, -1) rotate(-180.000000) translate(-33.097144, -7.712418) "></path>
+                            <rect id="Rectangle-31" fill="#012A2F" transform="translate(6.008732, 1.985219) rotate(-10.000000) translate(-6.008732, -1.985219) " x="0.452277178" y="1.20090548" width="11.1129095" height="1.56862745" rx="0.784313725"></rect>
+                            <rect id="Rectangle-31-Copy" fill="#012A2F" transform="translate(33.097144, 1.830065) rotate(10.000000) translate(-33.097144, -1.830065) " x="27.5406888" y="1.04575163" width="11.1129095" height="1.56862745" rx="0.784313725"></rect>
+                        </g>
+                    </g>
+                    <text id="Satisfied" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="1560" y="47.0576132">Satisfied</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-25" fill-opacity="0.246263587" fill="#53B0BD" x="1920" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <g id="Group-12" opacity="0.650475543" transform="translate(2204.000000, 62.073045)">
+                        <use id="Oval-5" stroke="#032A2F" mask="url(#mask-12)" stroke-width="6" stroke-linecap="square" fill="#FFFFFF" xlink:href="#path-11"></use>
+                        <ellipse id="Oval-2-Copy" fill="#032A2F" cx="32.6139736" cy="28.496732" rx="3.62377485" ry="3.92156863"></ellipse>
+                        <rect id="Rectangle-31-Copy-2" fill="#012A2F" transform="translate(46.683281, 63.882271) rotate(-11.000000) translate(-46.683281, -63.882271) " x="37.2614661" y="62.5750815" width="18.8436292" height="2.61437908" rx="1.30718954"></rect>
+                        <ellipse id="Oval-2-Copy-2" fill="#032A2F" cx="58.7051525" cy="28.496732" rx="3.62377485" ry="3.92156863"></ellipse>
+                        <ellipse id="Oval-2-Copy-3" fill="#FFFFFF" cx="61.6041724" cy="28.496732" rx="1.69109493" ry="1.83006536"></ellipse>
+                        <ellipse id="Oval-2-Copy-4" fill="#FFFFFF" cx="35.5129935" cy="28.496732" rx="1.69109493" ry="1.83006536"></ellipse>
+                        <path d="M41.0694482,41.211907 C41.0694482,41.211907 43.3401006,39.1641991 46.9009946,38.7546575 C50.1520577,38.3451159 53.9364783,39.9832823 52.4227101,43.259615 C50.9089418,45.7168645 45.989195,46.5359477 45.989195,46.5359477" id="Path-2" stroke="#032A2F" stroke-width="2" stroke-linecap="square"></path>
+                        <g id="Group-24" transform="translate(25.574349, 18.823529)" fill="#012A2F">
+                            <rect id="Rectangle-31" transform="translate(6.586771, 3.189442) rotate(3.000000) translate(-6.586771, -3.189442) " x="1.03031582" y="2.40512826" width="11.1129095" height="1.56862745" rx="0.784313725"></rect>
+                            <rect id="Rectangle-31-Copy" transform="translate(33.613974, 2.352941) rotate(-15.000000) translate(-33.613974, -2.352941) " x="28.0575188" y="1.56862745" width="11.1129095" height="1.56862745" rx="0.784313725"></rect>
+                        </g>
+                    </g>
+                    <text id="Watchful" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="1944" y="47.0576132">Watchful</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-26" fill-opacity="0.246263587" fill="#53B0BD" x="2304" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <g id="Group-13" opacity="0.645380435" transform="translate(2588.000000, 62.073045)">
+                        <use id="Oval-5" stroke="#032A2F" mask="url(#mask-14)" stroke-width="6" stroke-linecap="square" fill="#FFFFFF" xlink:href="#path-13"></use>
+                        <path d="M32.8555586,40.6890312 C32.8555586,40.6890312 35.126211,38.6413233 38.6871049,38.2317817 C41.938168,37.8222401 45.7225887,39.4604065 44.2088204,42.7367392 C42.6950522,45.1939887 37.7753054,46.0130719 37.7753054,46.0130719" id="Path-2" stroke="#032A2F" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M48.8001679,68.7581699 C48.8001679,61.6831496 43.500265,55.9477124 36.9625034,55.9477124 C30.4247418,55.9477124 25.1248389,61.6831496 25.1248389,68.7581699 C25.1248389,68.7581699 30.6812937,64.8366013 36.7209184,64.8366013 C42.7605432,64.8366013 48.8001679,68.7581699 48.8001679,68.7581699 Z" id="Oval-Copy" fill="#032A2F" transform="translate(36.962503, 62.352941) scale(1, -1) translate(-36.962503, -62.352941) "></path>
+                        <g id="Group-24" transform="translate(17.394119, 21.437908)">
+                            <path d="M9.66339959,9.67320261 C9.66339959,7.50738007 8.04098033,5.75163399 6.03962474,5.75163399 C4.03826916,5.75163399 2.4158499,7.50738007 2.4158499,9.67320261 C2.4158499,9.67320261 3.86535984,8.10457516 6.03962474,8.10457516 C8.21388965,8.10457516 9.66339959,9.67320261 9.66339959,9.67320261 Z" id="Oval" fill="#032A2F" transform="translate(6.039625, 7.712418) scale(1, -1) rotate(-180.000000) translate(-6.039625, -7.712418) "></path>
+                            <path d="M36.7209184,9.67320261 C36.7209184,7.50738007 35.0984992,5.75163399 33.0971436,5.75163399 C31.095788,5.75163399 29.4733687,7.50738007 29.4733687,9.67320261 C29.4733687,9.67320261 30.9228787,8.10457516 33.0971436,8.10457516 C35.2714085,8.10457516 36.7209184,9.67320261 36.7209184,9.67320261 Z" id="Oval-Copy-3" fill="#032A2F" transform="translate(33.097144, 7.712418) scale(1, -1) rotate(-180.000000) translate(-33.097144, -7.712418) "></path>
+                            <rect id="Rectangle-31" fill="#012A2F" transform="translate(6.008732, 1.985219) rotate(-10.000000) translate(-6.008732, -1.985219) " x="0.452277178" y="1.20090548" width="11.1129095" height="1.56862745" rx="0.784313725"></rect>
+                            <rect id="Rectangle-31-Copy" fill="#012A2F" transform="translate(33.097144, 1.830065) rotate(10.000000) translate(-33.097144, -1.830065) " x="27.5406888" y="1.04575163" width="11.1129095" height="1.56862745" rx="0.784313725"></rect>
+                        </g>
+                    </g>
+                    <text id="Satisfied" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="2328" y="47.0576132">Satisfied</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(384.000000, 423.885802)">
+                    <rect id="Rectangle-Copy-13" fill-opacity="0.246263587" fill="#53B0BD" x="0" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="&quot;My-hands-are-dirty&quot;" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="24" y="47.0576132">"My hands are dirty"</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-14" fill-opacity="0.246263587" fill="#53B0BD" x="384" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="&quot;Oh-man,-the-overhea" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="408" y="45.0576132">"Oh man, the overhead </tspan>
+                        <tspan x="408" y="81.0576132">tank water level must </tspan>
+                        <tspan x="408" y="117.057613">be low"</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-15" fill-opacity="0.246263587" fill="#53B0BD" x="768" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="“Gotta-go-fill-my-ta" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="792" y="45.0576132">“Gotta go fill my tank"</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-16" fill-opacity="0.246263587" fill="#53B0BD" x="1152" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="&quot;Any-minute-now...&quot;" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="1176" y="47.0576132">"Any minute now..."</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-17" fill-opacity="0.246263587" fill="#53B0BD" x="1536" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="&quot;My-hands-are-clean!" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="1560" y="47.0576132">"My hands are clean!"</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-18" fill-opacity="0.246263587" fill="#53B0BD" x="1920" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="&quot;I-have-to-keep-trac" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="1933" y="47">"I have to keep track of the </tspan>
+                        <tspan x="1933" y="83">time so I know when to turn </tspan>
+                        <tspan x="1933" y="119">off the pump"</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-19" fill-opacity="0.246263587" fill="#53B0BD" x="2304" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="“Alright-done!”" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="2328" y="47.0576132">“Alright done!”</tspan>
+                    </text>
+                </g>
+                <g id="Group-3" transform="translate(384.000000, 776.009259)">
+                    <rect id="Rectangle-Copy-27" fill-opacity="0.246263587" fill="#53B0BD" x="0" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Goes-to-the-bathroom" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="24" y="45.0576132">Goes to the bathroom </tspan>
+                        <tspan x="24" y="81.0576132">and turns on tap</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-28" fill-opacity="0.246263587" fill="#53B0BD" x="384" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Seeing-the-water-thi" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="408" y="45.0576132">Seeing the water thin</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-29" fill-opacity="0.246263587" fill="#53B0BD" x="768" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Turning-on-the-pump" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="792" y="45.0576132">Turning on the pump</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-30" fill-opacity="0.246263587" fill="#53B0BD" x="1152" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Goes-to-the-bathroom" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="1176" y="45.0576132">Goes to the bathroom</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-31" fill-opacity="0.246263587" fill="#53B0BD" x="1536" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Washes-hands" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="1560" y="47.0576132">Washes hands</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-32" fill-opacity="0.246263587" fill="#53B0BD" x="1920" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Checks-the-time" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="1944" y="47.0576132">Checks the time</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-33" fill-opacity="0.246263587" fill="#53B0BD" x="2304" y="0" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Switches-the-pump-of" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="2328" y="45.0576132">Switches the pump off</tspan>
+                    </text>
+                </g>
+                <g id="Group-4" transform="translate(384.000000, 950.942387)">
+                    <rect id="Rectangle-Copy-34" fill-opacity="0.246263587" fill="#53B0BD" x="0" y="0.586088544" width="369" height="158.004115" rx="4"></rect>
+                    <text id="-" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="24" y="47.6437017">-</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-35" fill-opacity="0.246263587" fill="#53B0BD" x="384" y="0.586088544" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Water-in-tap-is-thin" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="31" fill="#032A2F">
+                        <tspan x="408" y="47.6437017">Water in tap is thin</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-36" fill-opacity="0.246263587" fill="#53B0BD" x="768" y="0.586088544" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Sound-from-the-motor" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="792" y="45.6437017">Sound from the motor</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-37" fill-opacity="0.246263587" fill="#53B0BD" x="1152" y="0.586088544" width="369" height="158.004115" rx="4"></rect>
+                    <text id="-" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="34" fill="#032A2F">
+                        <tspan x="1176" y="46.6437017">-</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-38" fill-opacity="0.246263587" fill="#53B0BD" x="1536" y="0.586088544" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Water-pressure-is-hi" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="1560" y="45.6437017">Water pressure is </tspan>
+                        <tspan x="1560" y="81.6437017">higher</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-39" fill-opacity="0.246263587" fill="#53B0BD" x="1920" y="0.586088544" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Current-time" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="34" fill="#032A2F">
+                        <tspan x="1944" y="46.6437017">Current time</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-40" fill-opacity="0.246263587" fill="#53B0BD" x="2304" y="0.586088544" width="369" height="158.004115" rx="4"></rect>
+                    <text id="Pump-sound-turns-off" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="2328" y="45.6437017">Pump sound turns off, </tspan>
+                        <tspan x="2328" y="81.6437017">switch is off, water </tspan>
+                        <tspan x="2328" y="117.643702">pressure is good</tspan>
+                    </text>
+                </g>
+                <g id="Group-5" transform="translate(384.000000, 141.075103)">
+                    <rect id="Rectangle-Copy-5" fill-opacity="0.246263587" fill="#53B0BD" x="0" y="0.228881548" width="369" height="266" rx="4"></rect>
+                    <text id="Arjun-needs-to-wash" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="24" y="58.1825772">Arjun needs to wash </tspan>
+                        <tspan x="24" y="94.1825772">his hands so he goes to </tspan>
+                        <tspan x="24" y="130.182577">the bathroom and turns </tspan>
+                        <tspan x="24" y="166.182577">on the tap</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-6" fill-opacity="0.246263587" fill="#53B0BD" x="384" y="0.228881548" width="369" height="266" rx="4"></rect>
+                    <text id="He-finds-that-the-wa" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="408" y="58.1825772">He finds that the water</tspan>
+                        <tspan x="408" y="94.1825772">pressure is low</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-7" fill-opacity="0.246263587" fill="#53B0BD" x="768" y="0.228881548" width="369" height="266" rx="4"></rect>
+                    <text id="He-goes-to-the-switc" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="792" y="58.1825772">He goes to the switch </tspan>
+                        <tspan x="792" y="94.1825772">and turns on the pump</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-9" fill-opacity="0.246263587" fill="#53B0BD" x="1152" y="0.00790345751" width="369" height="266" rx="4"></rect>
+                    <text id="After-a-few-minutes" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="1176" y="57.9615991">After a few minutes of </tspan>
+                        <tspan x="1176" y="93.9615991">the water pumping, </tspan>
+                        <tspan x="1176" y="129.961599">Arjun can start using</tspan>
+                        <tspan x="1176" y="165.961599">the water so he goes </tspan>
+                        <tspan x="1176" y="201.961599">back to wash his hands</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-10" fill-opacity="0.246263587" fill="#53B0BD" x="1536" y="0.00790345751" width="369" height="266" rx="4"></rect>
+                    <text id="Arjun-washes-his-han" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="1560" y="57.9615991">Arjun washes his </tspan>
+                        <tspan x="1560" y="93.9615991">hands. Meanwhile the </tspan>
+                        <tspan x="1560" y="129.961599">tank continues to fill </tspan>
+                        <tspan x="1560" y="165.961599">with water</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-11" fill-opacity="0.246263587" fill="#53B0BD" x="1920" y="0.00790345751" width="369" height="266" rx="4"></rect>
+                    <text id="Arjun-looks-at-the-c" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="1944" y="57.9615991">Arjun looks at the clock </tspan>
+                        <tspan x="1944" y="93.9615991">to see if enough time </tspan>
+                        <tspan x="1944" y="129.961599">has passed</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-12" fill-opacity="0.246263587" fill="#53B0BD" x="2304" y="0" width="369" height="266" rx="4"></rect>
+                    <text id="Arjun-returns-to-the" font-family="Roboto-Light, Roboto" font-size="29" font-weight="300" line-spacing="36" fill="#032A2F">
+                        <tspan x="2328" y="57.5038361">Arjun returns to the pump </tspan>
+                        <tspan x="2328" y="93.5038361">switch and turns it off. </tspan>
+                        <tspan x="2328" y="129.503836">The water level in the tank </tspan>
+                        <tspan x="2328" y="165.503836">is high and the home has </tspan>
+                        <tspan x="2328" y="201.503836">enough water for future </tspan>
+                        <tspan x="2328" y="237.503836">use</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
