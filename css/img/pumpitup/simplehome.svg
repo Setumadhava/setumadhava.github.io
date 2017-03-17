@@ -116,6 +116,10 @@
                     <rect id="Rectangle-16" fill="url(#linearGradient-3)" x="17" y="99" width="792.870654" height="194.158523"></rect>
                 </g>
                 <use id="Rectangle-15-Copy-13" stroke="#5E5E5E" mask="url(#mask-5)" stroke-width="2" stroke-linecap="square" fill="#1FBFE2" xlink:href="#path-4"></use>
+                <ellipse id="Oval-9-Copy-5" fill="#D63D31" cx="924" cy="192.5" rx="38" ry="38.5"></ellipse>
+                <text id="A-Copy" font-family="Roboto-Medium, Roboto" font-size="46.5" font-weight="400" fill="#F6F6F6">
+                    <tspan x="909" y="208">A</tspan>
+                </text>
                 <use id="Rectangle-15-Copy-8" stroke="#5E5E5E" mask="url(#mask-7)" stroke-width="2" stroke-linecap="square" fill="#1FBFE2" transform="translate(69.132040, 517.500000) scale(-1, 1) rotate(-270.000000) translate(-69.132040, -517.500000) " xlink:href="#path-6"></use>
                 <use id="Rectangle-15-Copy-9" stroke="#5E5E5E" mask="url(#mask-9)" stroke-width="2" stroke-linecap="square" fill="#1FBFE2" xlink:href="#path-8"></use>
                 <use id="Rectangle-15-Copy-12" stroke="#5E5E5E" mask="url(#mask-11)" stroke-width="2" stroke-linecap="square" fill="#1FBFE2" xlink:href="#path-10"></use>
@@ -179,6 +183,10 @@
                         <path d="M850.843992,794.205245 L850.843992,764.057458 L873.010268,743.600041 L873.010268,712.913915 L886.227854,684.831707 C886.461581,684.335129 886.651054,684.376874 886.651054,684.936622 L886.651054,794.205245 L850.843992,794.205245 Z" id="Path-11" stroke="#CBCBCB" stroke-linecap="square" fill="#989898"></path>
                         <path d="M117.220966,171.659339 L1.18875843,328.320723 C0.532225277,329.207144 0.890202243,329.92573 1.9934109,329.92573 L1488.99102,329.92573 C1491.7574,329.92573 1492.46218,328.290113 1490.57688,326.284921 L1347.13085,173.716551 L117.220966,171.659339 Z" id="Path-2" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square" fill="#989898"></path>
                     </g>
+                    <ellipse id="Oval-9-Copy-6" fill="#D63D31" cx="1066" cy="500.5" rx="38" ry="38.5"></ellipse>
+                    <text id="B-Copy" font-family="Roboto-Medium, Roboto" font-size="46.5" font-weight="400" fill="#F6F6F6">
+                        <tspan x="1051" y="517">B</tspan>
+                    </text>
                 </g>
                 <use id="Rectangle-15-Copy-7" stroke="#5E5E5E" mask="url(#mask-44)" stroke-width="2" stroke-linecap="square" fill="#1FBFE2" xlink:href="#path-43"></use>
                 <use id="Rectangle-15-Copy-11" stroke="#5E5E5E" mask="url(#mask-46)" stroke-width="2" stroke-linecap="square" fill="#1FBFE2" xlink:href="#path-45"></use>
@@ -186,6 +194,10 @@
                     <tspan x="1411" y="1177">Govt Water Supply</tspan>
                 </text>
                 <path d="M1428.81818,1201.3072 L1509,1201.3072 L1509,1206.65265 L1428.81818,1206.65265 L1428.81818,1214.85236 L1411,1203.92618 L1428.81818,1193 L1428.81818,1201.3072 Z" id="Combined-Shape" fill="#016F8B"></path>
+                <ellipse id="Oval-9-Copy-7" fill="#D63D31" cx="1448" cy="1275.5" rx="38" ry="38.5"></ellipse>
+                <text id="C-Copy" font-family="Roboto-Medium, Roboto" font-size="46.5" font-weight="400" fill="#F6F6F6">
+                    <tspan x="1433" y="1292">C</tspan>
+                </text>
                 <path d="M1196.81818,1486.88935 L1277,1486.88935 L1277,1492.23481 L1196.81818,1492.23481 L1196.81818,1500.43452 L1179,1489.50834 L1196.81818,1478.58216 L1196.81818,1486.88935 Z" id="Combined-Shape-Copy" fill="#016F8B" transform="translate(1228.000000, 1489.508336) rotate(-180.000000) translate(-1228.000000, -1489.508336) "></path>
                 <path d="M1294.74436,1335.38102 L1374.92618,1335.38102 L1374.92618,1340.72647 L1294.74436,1340.72647 L1294.74436,1348.92618 L1276.92618,1338 L1294.74436,1327.07382 L1294.74436,1335.38102 Z" id="Combined-Shape-Copy-2" fill="#016F8B" transform="translate(1325.926180, 1338.000000) rotate(-270.000000) translate(-1325.926180, -1338.000000) "></path>
                 <path d="M1387.74436,775.381017 L1467.92618,775.381017 L1467.92618,780.726472 L1387.74436,780.726472 L1387.74436,788.92618 L1369.92618,778 L1387.74436,767.07382 L1387.74436,775.381017 Z" id="Combined-Shape-Copy-3" fill="#016F8B" transform="translate(1418.926180, 778.000000) rotate(-270.000000) translate(-1418.926180, -778.000000) "></path>

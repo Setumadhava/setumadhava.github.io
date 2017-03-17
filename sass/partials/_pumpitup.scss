@@ -51,7 +51,7 @@
         width: 40%;
     }
     @media #{$monitor} {
-        width: 40%;
+        width: 35%;
     }
     @media #{$fourk} {
         width: 25%;
@@ -537,6 +537,102 @@
             @media #{$fourk} {
                 width: 33%;
             }
+        }
+    }
+}
+/////////////// IDEATION ////////////
+
+#ideationsection {
+    background-color: $piudarkblue;
+
+    .ideaiconsflex {
+        padding: 8em 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        @media #{$monitor} {
+            width: 70%;
+        }
+        margin: 0 auto;
+
+        .icondiv {
+            width: 30%;
+            margin: 0 auto;
+            @media #{$tablet} {
+                width: 15%;
+            }
+            @media #{$mac13} {
+                width: auto;
+            }
+            @media #{$mac15} {
+                width: auto;
+            }
+            @media #{$monitor} {
+                width: auto;
+            }
+            @media #{$fourk} {
+                width: auto;
+            }
+        }
+    }
+}
+
+.ideacontentsection {
+    .userneedflex {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        @media #{$monitor} {
+            width: 70%;
+        }
+
+        .userneeddiv {
+            // background-color: red;
+            .userneed {
+                width: 90%;
+                @media #{$mac13} {
+                    width: 80%;
+                }
+                @media #{$mac15} {
+                    width: 80%;
+                }
+                @media #{$monitor} {
+                    width: 80%;
+                }
+                margin: 0 auto;
+
+                img {
+                    width: 100%;
+                }
+            }
+            @media #{$mac13} {
+                width: 33%;
+            }
+            @media #{$mac15} {
+                width: 33%;
+            }
+        }
+    }
+
+    .conceptdiv {
+        width: 90%;
+        margin: 0 auto;
+        @media #{$tablet} {
+            width: 75%;
+        }
+        @media #{$mac13} {
+            width: 75%;
+        }
+        @media #{$mac15} {
+            width: 65%;
+        }
+        @media #{$monitor} {
+            width: 55%;
+        }
+
+        .concept {
+            width: 100%;
         }
     }
 }

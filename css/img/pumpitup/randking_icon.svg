@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="161px" viewBox="0 0 210 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>randking_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Poster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-998.000000, -4388.000000)">
+            <g id="randking_icon" transform="translate(998.000000, 4388.000000)">
+                <rect id="Rectangle-9" fill="#026F8B" x="0" y="0" width="210" height="160.391061"></rect>
+                <g id="Group-6" transform="translate(73.000000, 31.000000)">
+                    <rect id="Rectangle-8-Copy-9" fill="#EEEEEE" x="9.83508518" y="0" width="56.9437352" height="6.20666667"></rect>
+                    <rect id="Rectangle-8-Copy-10" fill="#EEEEEE" x="9.83508518" y="14.1555556" width="44.0854724" height="6.20666667"></rect>
+                    <rect id="Rectangle-8-Copy-13" fill="#FFFFFF" x="0" y="0" width="5.83791893" height="6.20666667"></rect>
+                    <rect id="Rectangle-8-Copy-14" fill="#FFFFFF" x="0" y="14.1555556" width="5.83791893" height="6.20666667"></rect>
+                    <rect id="Rectangle-8-Copy-15" fill="#FFFFFF" x="0" y="28.3111111" width="5.83791893" height="6.20666667"></rect>
+                    <rect id="Rectangle-8-Copy-16" fill="#FFFFFF" x="0" y="42.4666667" width="5.83791893" height="6.20666667"></rect>
+                    <rect id="Rectangle-8-Copy-11" fill="#EEEEEE" x="9.83508518" y="28.3111111" width="48.0826386" height="6.20666667"></rect>
+                    <rect id="Rectangle-8-Copy-12" fill="#EEEEEE" x="9.83508518" y="42.4666667" width="51.907394" height="6.20666667"></rect>
+                </g>
+                <text id="User-Need-Ranking" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3" y="129">User Need Ranking</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

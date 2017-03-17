@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="161px" viewBox="0 0 210 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>storyboarding_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Poster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-618.000000, -4389.000000)">
+            <g id="storyboarding_icon" transform="translate(618.000000, 4389.000000)">
+                <rect id="Rectangle-9" fill="#026F8B" x="0" y="0" width="210" height="160.391061"></rect>
+                <g id="Group-7" transform="translate(26.000000, 30.000000)" fill="#EEEEEE">
+                    <rect id="Rectangle-8-Copy" x="56.1532847" y="0" width="44.6934307" height="30.6818182"></rect>
+                    <rect id="Rectangle-8-Copy-3" x="112.306569" y="0" width="44.6934307" height="30.6818182"></rect>
+                    <rect id="Rectangle-8-Copy-2" x="0" y="0" width="44.6934307" height="30.6818182"></rect>
+                    <rect id="Rectangle-8" x="0" y="38.6363636" width="35.5255474" height="3.40909091"></rect>
+                    <rect id="Rectangle-8-Copy-5" x="56.1532847" y="38.6363636" width="35.5255474" height="3.40909091"></rect>
+                    <rect id="Rectangle-8-Copy-7" x="112.306569" y="37.5" width="35.5255474" height="3.40909091"></rect>
+                    <rect id="Rectangle-8-Copy-4" x="0" y="46.5909091" width="27.5036496" height="3.40909091"></rect>
+                    <rect id="Rectangle-8-Copy-6" x="56.1532847" y="46.5909091" width="27.5036496" height="3.40909091"></rect>
+                    <rect id="Rectangle-8-Copy-8" x="112.306569" y="45.4545455" width="27.5036496" height="3.40909091"></rect>
+                </g>
+                <text id="Storyboarding" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="22.0703125" y="128">Storyboarding</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
