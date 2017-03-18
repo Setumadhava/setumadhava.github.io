@@ -22,7 +22,8 @@
 
 .centerdesc {
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  line-height: 2em; }
   .centerdesc .subheader {
     font-weight: bold;
     font-size: 1.2em;
@@ -531,6 +532,98 @@
       width: 55%; } }
   .ideacontentsection .conceptdiv .concept {
     width: 100%; }
+
+.lowfidcontentsection .changeflex {
+  display: flex;
+  flex-wrap: wrap; }
+  .lowfidcontentsection .changeflex .changediv {
+    width: 90%;
+    margin: 0 auto; }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .lowfidcontentsection .changeflex .changediv {
+        width: 40%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .lowfidcontentsection .changeflex .changediv {
+        width: 40%; } }
+    @media (min-width: 1820px) {
+      .lowfidcontentsection .changeflex .changediv {
+        width: 50%; } }
+    .lowfidcontentsection .changeflex .changediv .changepic {
+      width: 90%;
+      margin: 0 auto; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .lowfidcontentsection .changeflex .changediv .changepic {
+          width: 60%; } }
+      @media (min-width: 1820px) {
+        .lowfidcontentsection .changeflex .changediv .changepic {
+          width: 55%; } }
+      .lowfidcontentsection .changeflex .changediv .changepic img {
+        width: 100%; }
+.lowfidcontentsection .lowfidflex {
+  display: flex;
+  flex-wrap: wrap; }
+  .lowfidcontentsection .lowfidflex .lowfiddiv {
+    width: 90%;
+    margin: 0 auto; }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .lowfidcontentsection .lowfidflex .lowfiddiv {
+        width: 50%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .lowfidcontentsection .lowfidflex .lowfiddiv {
+        width: 50%; } }
+    @media (min-width: 1820px) {
+      .lowfidcontentsection .lowfidflex .lowfiddiv {
+        width: 50%; } }
+    .lowfidcontentsection .lowfidflex .lowfiddiv .lowfid {
+      width: 100%;
+      margin: 0 auto; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .lowfidcontentsection .lowfidflex .lowfiddiv .lowfid {
+          width: 75%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        .lowfidcontentsection .lowfidflex .lowfiddiv .lowfid {
+          width: 80%; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        .lowfidcontentsection .lowfidflex .lowfiddiv .lowfid {
+          width: 65%; } }
+      @media (min-width: 1820px) {
+        .lowfidcontentsection .lowfidflex .lowfiddiv .lowfid {
+          width: 65%; } }
+      .lowfidcontentsection .lowfidflex .lowfiddiv .lowfid img {
+        width: 100%; }
+  .lowfidcontentsection .lowfidflex .lowfidtaskdiv {
+    width: 90%;
+    margin: 0 auto; }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .lowfidcontentsection .lowfidflex .lowfidtaskdiv {
+        width: 50%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .lowfidcontentsection .lowfidflex .lowfidtaskdiv {
+        width: 50%; } }
+    @media (min-width: 1820px) {
+      .lowfidcontentsection .lowfidflex .lowfidtaskdiv {
+        width: 50%; } }
+    .lowfidcontentsection .lowfidflex .lowfidtaskdiv .lowfidtask {
+      width: 90%;
+      padding-top: 6em;
+      margin: 0 auto; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        .lowfidcontentsection .lowfidflex .lowfidtaskdiv .lowfidtask {
+          width: 75%; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .lowfidcontentsection .lowfidflex .lowfidtaskdiv .lowfidtask {
+          width: 50%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        .lowfidcontentsection .lowfidflex .lowfidtaskdiv .lowfidtask {
+          width: 55%; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        .lowfidcontentsection .lowfidflex .lowfidtaskdiv .lowfidtask {
+          width: 40%; } }
+      @media (min-width: 1820px) {
+        .lowfidcontentsection .lowfidflex .lowfidtaskdiv .lowfidtask {
+          width: 35%; } }
+      .lowfidcontentsection .lowfidflex .lowfidtaskdiv .lowfidtask img {
+        width: 100%; }
 
 .container,
 body,

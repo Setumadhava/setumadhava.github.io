@@ -35,6 +35,7 @@
 .centerdesc {
     width: 90%;
     margin: 0 auto;
+    line-height: 2em;
 
     .subheader {
         font-weight: bold;
@@ -633,6 +634,121 @@
 
         .concept {
             width: 100%;
+        }
+    }
+}
+
+.lowfidcontentsection {
+    .changeflex {
+        display: flex;
+        flex-wrap: wrap;
+
+        .changediv {
+            width: 90%;
+            margin: 0 auto;
+            @media #{$mac13} {
+                width: 40%;
+            }
+            @media #{$mac15} {
+                width: 40%;
+            }
+            @media #{$monitor} {
+                width: 50%;
+            }
+
+            .changepic {
+                width: 90%;
+                @media #{$tablet} {
+                    width: 60%;
+                }
+                @media #{$monitor} {
+                    width: 55%;
+                }
+                margin: 0 auto;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .lowfidflex {
+        display: flex;
+        flex-wrap: wrap;
+
+        .lowfiddiv {
+            width: 90%;
+            margin: 0 auto;
+            @media #{$mac13} {
+                width: 50%;
+            }
+            @media #{$mac15} {
+                width: 50%;
+            }
+            @media #{$monitor} {
+                width: 50%;
+            }
+
+            .lowfid {
+                width: 100%;
+                margin: 0 auto;
+                @media #{$tablet} {
+                    width: 75%;
+                }
+                @media #{$mac13} {
+                    width: 80%;
+                }
+                @media #{$mac15} {
+                    width: 65%;
+                }
+                @media #{$monitor} {
+                    width: 65%;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .lowfidtaskdiv {
+            width: 90%;
+            margin: 0 auto;
+            @media #{$mac13} {
+                width: 50%;
+            }
+            @media #{$mac15} {
+                width: 50%;
+            }
+            @media #{$monitor} {
+                width: 50%;
+            }
+
+            .lowfidtask {
+                width: 90%;
+                padding-top: 6em;
+                margin: 0 auto;
+                @media #{$phablet} {
+                    width: 75%;
+                }
+                @media #{$tablet} {
+                    width: 50%;
+                }
+                @media #{$mac13} {
+                    width: 55%;
+                }
+                @media #{$mac15} {
+                    width: 40%;
+                }
+                @media #{$monitor} {
+                    width: 35%;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
         }
     }
 }
