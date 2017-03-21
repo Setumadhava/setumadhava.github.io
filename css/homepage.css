@@ -209,7 +209,8 @@ p {
   height: 5px; }
 
 .readmore {
-  display: none; }
+  display: none;
+  margin: 0; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .readmore {
       margin-top: 3em;
@@ -467,6 +468,8 @@ p {
     #piu .piucta:hover .readmoretext {
       color: #f6f6f6;
       font-weight: 800; }
+  #piu .checko {
+    background-color: red; }
 
 #zero {
   background-image: url("img/actilist/herobg.png");

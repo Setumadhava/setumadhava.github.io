@@ -234,6 +234,7 @@ p {
 
 .readmore {
     display: none;
+    margin: 0;
     @media #{$tablet} {
         margin-top: 3em;
         height: 50px;
@@ -537,6 +538,10 @@ p {
             color: $piugreylight;
             font-weight: 800;
         }
+    }
+
+    .checko {
+        background-color: red;
     }
 }
 //////////////////////////// ACTILIST //////////////////////
