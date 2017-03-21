@@ -60,8 +60,8 @@
                 <polyline id="Path-48-Copy-2" stroke="#F6F6F6" stroke-width="40" stroke-linecap="square" transform="translate(62.662659, 500.218267) rotate(-150.000000) translate(-62.662659, -500.218267) " points="37.2668332 520.906089 86.1399001 521.556724 88.0584844 478.879809"></polyline>
                 <polygon id="Path-51" fill="#026F8B" points="579 158 620 158 622 116 614 110 612 150 570 151"></polygon>
                 <path d="M685,462 L705,494 L743,481 C743,481 744,475 745,469 C745,469 709,479 709,479 L688,446 L685,462 Z" id="Path-52" fill="#026F8B"></path>
-                <polygon id="Path-53" fill="#026F8B" points="399 767 370 735 406 706 422 705 387 735 416 765"></polygon>
-                <polygon id="Path-54" fill="#026F8B" points="38 531 59 497 99 520 106 537 64 514 44 546"></polygon>
+                <polygon id="Path-53" fill="#026F8B" points="399 767 370 735 406 706 425 704 387 735 415 765"></polygon>
+                <polygon id="Path-54" fill="#026F8B" points="38 531 59 497 99 520 104 532 63 512 43 543"></polygon>
                 <polyline id="Path-48-Copy-3" stroke="#F6F6F6" stroke-width="40" stroke-linecap="square" transform="translate(375.452620, 735.915715) rotate(-220.000000) translate(-375.452620, -735.915715) " points="350.934567 759.616448 399.970672 760.295 397.86853 711.536431"></polyline>
                 <polyline id="Path-48-Copy" stroke="#F6F6F6" stroke-width="40" stroke-linecap="square" points="679 489 697 518 736 504.5"></polyline>
                 <use id="Oval-14-Copy" stroke-opacity="0.209748641" stroke="#026F8B" mask="url(#mask-4)" stroke-width="4" stroke-linecap="square" xlink:href="#path-3"></use>
