@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="263px" height="93px" viewBox="0 0 263 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>userneed6a</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Poster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-5" transform="translate(-110.000000, -1430.000000)">
+            <g id="Group-9-Copy-3" transform="translate(110.000000, 1283.000000)">
+                <g id="userneed6a" transform="translate(0.000000, 147.000000)">
+                    <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="262.5" height="93"></rect>
+                    <g id="Group-15">
+                        <text id="User-Need" font-family="Roboto-MediumItalic, Roboto" font-size="13.5" font-style="italic" font-weight="500" fill="#032A2F">
+                            <tspan x="58.25" y="14">User Need</tspan>
+                        </text>
+                        <text id="I-want-to-know-when" font-family="Roboto-Italic, Roboto" font-size="13.5" font-style="italic" font-weight="normal" fill="#032A2F">
+                            <tspan x="58.25" y="38">I want to know when the </tspan>
+                            <tspan x="58.25" y="56">government water supply is</tspan>
+                            <tspan x="58.25" y="74">available</tspan>
+                        </text>
+                        <g id="city_water_schedule" transform="translate(0.500000, 0.000000)">
+                            <path d="M0.232247191,11.7215569 L39.75,11.7215569 L39.75,42.7518333 C39.75,43.9934615 38.7334391,45 37.4977932,45 L2.48445399,45 C1.24059452,45 0.232247191,43.9858717 0.232247191,42.7518333 L0.232247191,11.7215569 Z" id="Rectangle-15" fill="#026F8B"></path>
+                            <path d="M0.232247191,7.41017964 C0.232247191,5.51273428 1.76926137,3.9745509 3.6700584,3.9745509 L36.3121888,3.9745509 C38.2108395,3.9745509 39.75,5.5165952 39.75,7.41017964 L39.75,10.8458084 L0.232247191,10.8458084 L0.232247191,7.41017964 Z" id="Rectangle-8" fill="#026F8B"></path>
+                            <ellipse id="Oval-3" fill="#FFFFFF" cx="12.0656593" cy="8.08383234" rx="1.97223535" ry="1.81886228"></ellipse>
+                            <ellipse id="Oval-3-Copy" fill="#FFFFFF" cx="28.1357251" cy="8.08383234" rx="1.97223535" ry="1.81886228"></ellipse>
+                            <rect id="Rectangle-9" fill="#026F8B" x="11.1160645" y="0.0453816507" width="1.97223535" height="8.30791176" rx="0.986117676"></rect>
+                            <rect id="Rectangle-9-Copy" fill="#026F8B" x="27.1861303" y="0.0453816507" width="1.97223535" height="8.30791176" rx="0.986117676"></rect>
+                            <rect id="Rectangle-18-Copy-2" fill="#FFFFFF" x="3.08471546" y="14.1991988" width="10.57521" height="8.87377949"></rect>
+                            <rect id="Rectangle-18-Copy-5" fill="#FFFFFF" x="3.08471546" y="23.9238887" width="10.57521" height="8.87377949"></rect>
+                            <rect id="Rectangle-18-Copy-8" fill="#FFFFFF" x="3.08471546" y="33.6485785" width="10.57521" height="8.87377949"></rect>
+                            <rect id="Rectangle-18-Copy-3" fill="#FFFFFF" x="14.6838976" y="14.1991988" width="10.57521" height="8.87377949"></rect>
+                            <rect id="Rectangle-18-Copy-6" fill="#FFFFFF" x="14.6838976" y="23.9238887" width="10.57521" height="8.87377949"></rect>
+                            <rect id="Rectangle-18-Copy-9" fill="#FFFFFF" x="14.6838976" y="33.6485785" width="10.57521" height="8.87377949"></rect>
+                            <rect id="Rectangle-18-Copy-4" fill="#FFFFFF" x="26.2830798" y="14.1991988" width="10.57521" height="8.87377949"></rect>
+                            <rect id="Rectangle-18-Copy-7" fill="#FFFFFF" x="26.2171753" y="23.9238887" width="10.57521" height="8.87377949"></rect>
+                            <rect id="Rectangle-18-Copy-10" fill="#FFFFFF" x="26.2171753" y="33.6485785" width="10.57521" height="8.87377949"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

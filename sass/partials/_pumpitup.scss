@@ -20,12 +20,22 @@
     color: white;
 }
 
+.highfidheader {
+    color: $piudarkblue;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 .sixembottom {
     padding-bottom: 6em;
 }
 
 .fourembottom {
     padding-bottom: 4em;
+}
+
+.fouremboth {
+    padding: 4em 0;
 }
 
 .sixemboth {
@@ -40,7 +50,7 @@
     .subheader {
         font-weight: bold;
         font-size: 1.2em;
-        color: $piured;
+        color: $piudarkblue;
     }
     @media #{$tablet} {
         width: 65%;
@@ -180,45 +190,18 @@
     background-color: $piugreylight;
 
     .roleflex {
-        @media #{$phablet} {
-            padding: 2em;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 0 auto;
-        }
-        @media #{$tablet} {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            justify-content: space-around;
-            margin: 0 auto;
-        }
-        @media #{$mac13} {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            justify-content: space-around;
-            margin: 0 auto;
-        }
-        @media #{$mac15} {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            justify-content: space-around;
-            margin: 0 auto;
-        }
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
         @media #{$monitor} {
-            display: flex;
-            flex-wrap: wrap;
-            width: 70%;
-            justify-content: space-around;
-            margin: 0 auto;
+            width: 75%;
         }
     }
 
     .roleitem {
         width: 50%;
+        padding-bottom: 4em;
         @media #{$tablet} {
             width: 50%;
             margin: 0 auto;
@@ -228,26 +211,10 @@
             margin: 0 auto;
         }
         @media #{$mac15} {
-            width: 22%;
+            width: 25%;
         }
         @media #{$monitor} {
             width: 25%;
-        }
-    }
-
-    .bottomrole {
-        padding-top: 2em;
-        @media #{$mac13} {
-            padding: 0;
-        }
-        @media #{$mac15} {
-            padding: 0;
-        }
-        @media #{$monitor} {
-            padding: 0;
-        }
-        @media #{$fourk} {
-            padding: 0;
         }
     }
 
@@ -304,14 +271,17 @@
         #processimg {
             width: 100%;
         }
-        @media #{$mac13} {
+        @media #{$tablet} {
             width: 70%;
+        }
+        @media #{$mac13} {
+            width: 50%;
         }
         @media #{$mac15} {
-            width: 70%;
+            width: 40%;
         }
         @media #{$monitor} {
-            width: 50%;
+            width: 40%;
             padding: 8em 0;
         }
     }
@@ -541,7 +511,7 @@
         }
     }
 }
-/////////////// IDEATION ////////////
+/////////////// IDEATION /////////////////////////////
 
 #ideationsection {
     background-color: $piudarkblue;
@@ -637,6 +607,7 @@
         }
     }
 }
+////////////////////// LOW FIDELITY ///////////////////////////
 
 .lowfidcontentsection {
     .changeflex {
@@ -748,6 +719,366 @@
                 img {
                     width: 100%;
                 }
+            }
+        }
+    }
+}
+////////////////////// HIGH FIDELITY ///////////////////////////
+
+#highfidsection {
+    background-color: $piudarkblue;
+    // position: relative;
+    .protobtndiv {
+        padding: 6em 0;
+
+        .protobtn {
+            width: 260px;
+            font-size: 1.5em;
+            color: white;
+            border: 2px solid white;
+            text-align: center;
+            border-radius: 8px;
+            margin: 0 auto;
+
+            p {
+                padding-top: 0.5em;
+            }
+        }
+
+        .protobtn:hover {
+            cursor: pointer;
+            background-color: white;
+            font-weight: 600;
+            color: $piudarkblue;
+            transition: all 0.30s ease-in-out;
+        }
+    }
+}
+
+#highfidcontentsection {
+    .hfsec {
+        width: 90%;
+        @media #{$tablet} {
+            width: 90%;
+        }
+        @media #{$mac13} {
+            width: 85%;
+        }
+        @media #{$mac15} {
+            width: 80%;
+        }
+        @media #{$monitor} {
+            width: 75%;
+        }
+        margin: 0 auto;
+    }
+
+    .hfsecuserneedflex {
+        display: flex;
+        flex-wrap: wrap;
+        // background-color: green;
+        justify-content: space-between;
+
+        .hfsecuserneeddiv {
+            @media #{$tablet} {
+                width: 50%;
+            }
+            @media #{$mac13} {
+                width: 50%;
+            }
+            @media #{$mac15} {
+                width: 50%;
+            }
+        }
+
+        .hfsecuserneediconflex {
+            width: 100%;
+            // background-color: red;
+            display: flex;
+            flex-wrap: wrap;
+
+            .userneedicondiv {
+                @media #{$mac13} {
+                    width: 90%;
+                }
+                @media #{$mac15} {
+                    width: 50%;
+                    position: relative;
+                    left: -0.5em;
+                }
+                @media #{$monitor} {
+                    width: 50%;
+                    position: relative;
+                    left: -0.5em;
+                }
+            }
+
+            .userneedicon {
+                padding-bottom: 1.5em;
+                @media #{$phablet} {
+                    width: 100%;
+                    padding-bottom: 1.5em;
+                }
+                @media #{$tablet} {
+                    width: 90%;
+                    padding-bottom: 1.5em;
+                }
+                @media #{$mac13} {
+                    width: 80%;
+                    padding: 1em;
+                }
+                @media #{$mac15} {
+                    width: 90%;
+                    padding: 0;
+                }
+                @media #{$monitor} {
+                    width: 100%;
+                    padding: 0 1em;
+                }
+            }
+        }
+
+        .hfsecuserneeddesc {
+            width: 100%;
+            // background-color: red;
+            @media #{$phablet} {
+                width: 95%;
+            }
+            @media #{$tablet} {
+                width: 50%;
+            }
+            @media #{$mac13} {
+                width: 50%;
+            }
+            @media #{$mac15} {
+                width: 40%;
+            }
+            @media #{$monitor} {
+                width: 35%;
+            }
+
+            p {
+                line-height: 2em;
+                color: $piublack;
+            }
+        }
+    }
+
+    .hfimgsection {
+        background-color: $piugreylight;
+
+        .hfimgdiv {
+            margin: 0 auto;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+            @media #{$phablet} {
+                padding: 1em 0.5em;
+            }
+            @media #{$tablet} {
+                width: 80%;
+                padding: 2em 1em;
+            }
+            @media #{$mac13} {
+                width: 70%;
+                padding: 4em 0;
+            }
+            @media #{$mac15} {
+                width: 50%;
+                padding: 6em 0;
+            }
+            @media #{$monitor} {
+                width: 50%;
+                padding: 8em 0;
+            }
+        }
+
+        .hfimgdiv2 {
+            // background-color: red;
+            margin: 0 auto;
+            padding: 1em 0.5em;
+
+            img {
+                width: 100%;
+            }
+            @media #{$phablet} {
+                padding: 1em 0.5em;
+            }
+            @media #{$tablet} {
+                width: 80%;
+                padding: 2em 1em;
+            }
+            @media #{$mac13} {
+                width: 75%;
+                padding: 4em 0;
+            }
+            @media #{$mac15} {
+                width: 60%;
+                padding: 6em 0;
+            }
+            @media #{$monitor} {
+                width: 60%;
+                padding: 8em 0;
+            }
+        }
+    }
+
+    .hfimgsectionflex {
+        background-color: $piugreylight;
+        display: flex;
+        flex-wrap: wrap;
+
+        .hfimgdiv {
+            margin: 0 auto;
+
+            img {
+                width: 100%;
+            }
+            width: 100%;
+            padding: 4em 1em 1em;
+            @media #{$tablet} {
+                width: 70%;
+                padding: 4em 1em;
+            }
+            @media #{$mac13} {
+                width: 50%;
+                padding: 4em 1em;
+            }
+            @media #{$mac15} {
+                width: 50%;
+                padding: 6em 2em;
+            }
+            @media #{$monitor} {
+                width: 40%;
+                padding: 8em 2em;
+            }
+        }
+
+        .hifiimgannotationsdiv {
+            margin: 0 auto;
+            @media #{$mac13} {
+                width: 50%;
+            }
+            @media #{$mac15} {
+                width: 50%;
+            }
+
+            .hifiimgannotations {
+                width: 90%;
+                margin: 0 auto;
+                padding: 4em 0;
+
+                img {
+                    width: 100%;
+                }
+                @media #{$tablet} {
+                    width: 80%;
+                    padding: 2em 1em;
+                }
+                @media #{$mac13} {
+                    width: 60%;
+                    padding: 4em 0;
+                }
+                @media #{$mac15} {
+                    width: 45%;
+                    padding: 6em 0;
+                }
+                @media #{$monitor} {
+                    width: 80%;
+                    padding: 8em 0;
+                }
+            }
+        }
+    }
+}
+////////////////////// REFLECTION ///////////////////////////
+
+#reflectionsection {
+    background-color: $piudarkblue;
+
+    p {
+        color: white;
+    }
+
+    .futureflex {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+        @media #{$monitor} {
+            width: 65%;
+        }
+
+        .futureheader {
+            font-weight: bold;
+            font-style: italic;
+            font-size: 1.2em;
+        }
+
+        .futurecontent {
+            font-size: 1em;
+        }
+
+        .futurediv {
+            padding-bottom: 2em;
+            @media #{$tablet} {
+                width: 50%;
+                padding: 2em 1em;
+            }
+            @media #{$mac13} {
+                width: 33%;
+                padding: 2em 1em;
+            }
+            @media #{$mac15} {
+                width: 33%;
+                padding: 2em 1em;
+            }
+            @media #{$monitor} {
+                width: 33%;
+                padding: 2em 1em;
+            }
+        }
+    }
+
+    .reflectionflex {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+        @media #{$monitor} {
+            width: 65%;
+        }
+
+        .refelctionheader {
+            font-weight: bold;
+            font-style: italic;
+            font-size: 1.2em;
+        }
+
+        .reflectioncontent {
+            font-size: 1em;
+            line-height: 1.8em;
+        }
+
+        .reflectiondiv {
+            padding-bottom: 2em;
+            @media #{$tablet} {
+                width: 70%;
+                padding: 2em 1em;
+            }
+            @media #{$mac13} {
+                width: 50%;
+                padding: 2em;
+            }
+            @media #{$mac15} {
+                width: 50%;
+                padding: 3em;
+            }
+            @media #{$monitor} {
+                width: 50%;
+                padding: 4em;
             }
         }
     }

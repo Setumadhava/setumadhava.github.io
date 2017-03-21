@@ -11,11 +11,19 @@
 .whitetext {
   color: white; }
 
+.highfidheader {
+  color: #026F8B;
+  font-weight: bold;
+  font-size: 1.2em; }
+
 .sixembottom {
   padding-bottom: 6em; }
 
 .fourembottom {
   padding-bottom: 4em; }
+
+.fouremboth {
+  padding: 4em 0; }
 
 .sixemboth {
   padding: 6em 0; }
@@ -27,7 +35,7 @@
   .centerdesc .subheader {
     font-weight: bold;
     font-size: 1.2em;
-    color: #D63D31; }
+    color: #026F8B; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .centerdesc {
       width: 65%; } }
@@ -152,43 +160,17 @@
 
 #processsection {
   background-color: #f6f6f6; }
-  @media (min-width: 375px) and (max-width: 768px) {
-    #processsection .roleflex {
-      padding: 2em;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin: 0 auto; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #processsection .roleflex {
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      justify-content: space-around;
-      margin: 0 auto; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    #processsection .roleflex {
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      justify-content: space-around;
-      margin: 0 auto; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    #processsection .roleflex {
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      justify-content: space-around;
-      margin: 0 auto; } }
-  @media (min-width: 1820px) {
-    #processsection .roleflex {
-      display: flex;
-      flex-wrap: wrap;
-      width: 70%;
-      justify-content: space-around;
-      margin: 0 auto; } }
+  #processsection .roleflex {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; }
+    @media (min-width: 1820px) {
+      #processsection .roleflex {
+        width: 75%; } }
   #processsection .roleitem {
-    width: 50%; }
+    width: 50%;
+    padding-bottom: 4em; }
     @media (min-width: 768px) and (max-width: 1023px) {
       #processsection .roleitem {
         width: 50%;
@@ -199,24 +181,10 @@
         margin: 0 auto; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       #processsection .roleitem {
-        width: 22%; } }
+        width: 25%; } }
     @media (min-width: 1820px) {
       #processsection .roleitem {
         width: 25%; } }
-  #processsection .bottomrole {
-    padding-top: 2em; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      #processsection .bottomrole {
-        padding: 0; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      #processsection .bottomrole {
-        padding: 0; } }
-    @media (min-width: 1820px) {
-      #processsection .bottomrole {
-        padding: 0; } }
-    @media (min-width: 2560) {
-      #processsection .bottomrole {
-        padding: 0; } }
   #processsection .roletitle {
     color: #A0A0A0; }
     @media (min-width: 768px) and (max-width: 1023px) {
@@ -263,15 +231,18 @@
     padding: 4em 0 8em; }
     #processsection .processimgdiv #processimg {
       width: 100%; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #processsection .processimgdiv {
+        width: 70%; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #processsection .processimgdiv {
-        width: 70%; } }
+        width: 50%; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       #processsection .processimgdiv {
-        width: 70%; } }
+        width: 40%; } }
     @media (min-width: 1820px) {
       #processsection .processimgdiv {
-        width: 50%;
+        width: 40%;
         padding: 8em 0; } }
 
 @media (min-width: 1820px) {
@@ -624,6 +595,291 @@
           width: 35%; } }
       .lowfidcontentsection .lowfidflex .lowfidtaskdiv .lowfidtask img {
         width: 100%; }
+
+#highfidsection {
+  background-color: #026F8B; }
+  #highfidsection .protobtndiv {
+    padding: 6em 0; }
+    #highfidsection .protobtndiv .protobtn {
+      width: 260px;
+      font-size: 1.5em;
+      color: white;
+      border: 2px solid white;
+      text-align: center;
+      border-radius: 8px;
+      margin: 0 auto; }
+      #highfidsection .protobtndiv .protobtn p {
+        padding-top: 0.5em; }
+    #highfidsection .protobtndiv .protobtn:hover {
+      cursor: pointer;
+      background-color: white;
+      font-weight: 600;
+      color: #026F8B;
+      transition: all 0.30s ease-in-out; }
+
+#highfidcontentsection .hfsec {
+  width: 90%;
+  margin: 0 auto; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #highfidcontentsection .hfsec {
+      width: 90%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #highfidcontentsection .hfsec {
+      width: 85%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #highfidcontentsection .hfsec {
+      width: 80%; } }
+  @media (min-width: 1820px) {
+    #highfidcontentsection .hfsec {
+      width: 75%; } }
+#highfidcontentsection .hfsecuserneedflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddiv {
+      width: 50%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddiv {
+      width: 50%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddiv {
+      width: 50%; } }
+  #highfidcontentsection .hfsecuserneedflex .hfsecuserneediconflex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #highfidcontentsection .hfsecuserneedflex .hfsecuserneediconflex .userneedicondiv {
+        width: 90%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #highfidcontentsection .hfsecuserneedflex .hfsecuserneediconflex .userneedicondiv {
+        width: 50%;
+        position: relative;
+        left: -0.5em; } }
+    @media (min-width: 1820px) {
+      #highfidcontentsection .hfsecuserneedflex .hfsecuserneediconflex .userneedicondiv {
+        width: 50%;
+        position: relative;
+        left: -0.5em; } }
+    #highfidcontentsection .hfsecuserneedflex .hfsecuserneediconflex .userneedicon {
+      padding-bottom: 1.5em; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #highfidcontentsection .hfsecuserneedflex .hfsecuserneediconflex .userneedicon {
+          width: 100%;
+          padding-bottom: 1.5em; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #highfidcontentsection .hfsecuserneedflex .hfsecuserneediconflex .userneedicon {
+          width: 90%;
+          padding-bottom: 1.5em; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #highfidcontentsection .hfsecuserneedflex .hfsecuserneediconflex .userneedicon {
+          width: 80%;
+          padding: 1em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #highfidcontentsection .hfsecuserneedflex .hfsecuserneediconflex .userneedicon {
+          width: 90%;
+          padding: 0; } }
+      @media (min-width: 1820px) {
+        #highfidcontentsection .hfsecuserneedflex .hfsecuserneediconflex .userneedicon {
+          width: 100%;
+          padding: 0 1em; } }
+  #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddesc {
+    width: 100%; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddesc {
+        width: 95%; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddesc {
+        width: 50%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddesc {
+        width: 50%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddesc {
+        width: 40%; } }
+    @media (min-width: 1820px) {
+      #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddesc {
+        width: 35%; } }
+    #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddesc p {
+      line-height: 2em;
+      color: #032A2F; }
+#highfidcontentsection .hfimgsection {
+  background-color: #f6f6f6; }
+  #highfidcontentsection .hfimgsection .hfimgdiv {
+    margin: 0 auto;
+    width: 100%; }
+    #highfidcontentsection .hfimgsection .hfimgdiv img {
+      width: 100%; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      #highfidcontentsection .hfimgsection .hfimgdiv {
+        padding: 1em 0.5em; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #highfidcontentsection .hfimgsection .hfimgdiv {
+        width: 80%;
+        padding: 2em 1em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #highfidcontentsection .hfimgsection .hfimgdiv {
+        width: 70%;
+        padding: 4em 0; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #highfidcontentsection .hfimgsection .hfimgdiv {
+        width: 50%;
+        padding: 6em 0; } }
+    @media (min-width: 1820px) {
+      #highfidcontentsection .hfimgsection .hfimgdiv {
+        width: 50%;
+        padding: 8em 0; } }
+  #highfidcontentsection .hfimgsection .hfimgdiv2 {
+    margin: 0 auto;
+    padding: 1em 0.5em; }
+    #highfidcontentsection .hfimgsection .hfimgdiv2 img {
+      width: 100%; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      #highfidcontentsection .hfimgsection .hfimgdiv2 {
+        padding: 1em 0.5em; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #highfidcontentsection .hfimgsection .hfimgdiv2 {
+        width: 80%;
+        padding: 2em 1em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #highfidcontentsection .hfimgsection .hfimgdiv2 {
+        width: 75%;
+        padding: 4em 0; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #highfidcontentsection .hfimgsection .hfimgdiv2 {
+        width: 60%;
+        padding: 6em 0; } }
+    @media (min-width: 1820px) {
+      #highfidcontentsection .hfimgsection .hfimgdiv2 {
+        width: 60%;
+        padding: 8em 0; } }
+#highfidcontentsection .hfimgsectionflex {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-wrap: wrap; }
+  #highfidcontentsection .hfimgsectionflex .hfimgdiv {
+    margin: 0 auto;
+    width: 100%;
+    padding: 4em 1em 1em; }
+    #highfidcontentsection .hfimgsectionflex .hfimgdiv img {
+      width: 100%; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #highfidcontentsection .hfimgsectionflex .hfimgdiv {
+        width: 70%;
+        padding: 4em 1em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #highfidcontentsection .hfimgsectionflex .hfimgdiv {
+        width: 50%;
+        padding: 4em 1em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #highfidcontentsection .hfimgsectionflex .hfimgdiv {
+        width: 50%;
+        padding: 6em 2em; } }
+    @media (min-width: 1820px) {
+      #highfidcontentsection .hfimgsectionflex .hfimgdiv {
+        width: 40%;
+        padding: 8em 2em; } }
+  #highfidcontentsection .hfimgsectionflex .hifiimgannotationsdiv {
+    margin: 0 auto; }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #highfidcontentsection .hfimgsectionflex .hifiimgannotationsdiv {
+        width: 50%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #highfidcontentsection .hfimgsectionflex .hifiimgannotationsdiv {
+        width: 50%; } }
+    #highfidcontentsection .hfimgsectionflex .hifiimgannotationsdiv .hifiimgannotations {
+      width: 90%;
+      margin: 0 auto;
+      padding: 4em 0; }
+      #highfidcontentsection .hfimgsectionflex .hifiimgannotationsdiv .hifiimgannotations img {
+        width: 100%; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #highfidcontentsection .hfimgsectionflex .hifiimgannotationsdiv .hifiimgannotations {
+          width: 80%;
+          padding: 2em 1em; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #highfidcontentsection .hfimgsectionflex .hifiimgannotationsdiv .hifiimgannotations {
+          width: 60%;
+          padding: 4em 0; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #highfidcontentsection .hfimgsectionflex .hifiimgannotationsdiv .hifiimgannotations {
+          width: 45%;
+          padding: 6em 0; } }
+      @media (min-width: 1820px) {
+        #highfidcontentsection .hfimgsectionflex .hifiimgannotationsdiv .hifiimgannotations {
+          width: 80%;
+          padding: 8em 0; } }
+
+#reflectionsection {
+  background-color: #026F8B; }
+  #reflectionsection p {
+    color: white; }
+  #reflectionsection .futureflex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto; }
+    @media (min-width: 1820px) {
+      #reflectionsection .futureflex {
+        width: 65%; } }
+    #reflectionsection .futureflex .futureheader {
+      font-weight: bold;
+      font-style: italic;
+      font-size: 1.2em; }
+    #reflectionsection .futureflex .futurecontent {
+      font-size: 1em; }
+    #reflectionsection .futureflex .futurediv {
+      padding-bottom: 2em; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #reflectionsection .futureflex .futurediv {
+          width: 50%;
+          padding: 2em 1em; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #reflectionsection .futureflex .futurediv {
+          width: 33%;
+          padding: 2em 1em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #reflectionsection .futureflex .futurediv {
+          width: 33%;
+          padding: 2em 1em; } }
+      @media (min-width: 1820px) {
+        #reflectionsection .futureflex .futurediv {
+          width: 33%;
+          padding: 2em 1em; } }
+  #reflectionsection .reflectionflex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto; }
+    @media (min-width: 1820px) {
+      #reflectionsection .reflectionflex {
+        width: 65%; } }
+    #reflectionsection .reflectionflex .refelctionheader {
+      font-weight: bold;
+      font-style: italic;
+      font-size: 1.2em; }
+    #reflectionsection .reflectionflex .reflectioncontent {
+      font-size: 1em;
+      line-height: 1.8em; }
+    #reflectionsection .reflectionflex .reflectiondiv {
+      padding-bottom: 2em; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #reflectionsection .reflectionflex .reflectiondiv {
+          width: 70%;
+          padding: 2em 1em; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #reflectionsection .reflectionflex .reflectiondiv {
+          width: 50%;
+          padding: 2em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #reflectionsection .reflectionflex .reflectiondiv {
+          width: 50%;
+          padding: 3em; } }
+      @media (min-width: 1820px) {
+        #reflectionsection .reflectionflex .reflectiondiv {
+          width: 50%;
+          padding: 4em; } }
 
 .container,
 body,
