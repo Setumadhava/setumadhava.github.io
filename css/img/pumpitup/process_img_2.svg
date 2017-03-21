@@ -210,11 +210,8 @@
                     <tspan x="125.058594" y="311">High-Fidelity </tspan>
                     <tspan x="136.383301" y="335">Prototype</tspan>
                 </text>
-                <text id="PROCESS-Copy" font-family="Roboto-Black, Roboto" font-size="30" font-weight="700" fill="#026F8B">
-                    <tspan x="315.888184" y="387">PROCESS</tspan>
-                </text>
-                <text id="PROCESS" opacity="0.236922554" font-family="Roboto-Black, Roboto" font-size="30" font-weight="700" fill="#F6F6F6">
-                    <tspan x="317.888184" y="387">PROCESS</tspan>
+                <text id="PROCESS-Copy" font-family="Roboto-Black, Roboto" font-size="30" font-weight="700" fill="#53B0BD">
+                    <tspan x="315.888184" y="406">PROCESS</tspan>
                 </text>
             </g>
         </g>
