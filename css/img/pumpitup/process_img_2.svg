@@ -8,12 +8,12 @@
         <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="739" height="739" fill="white">
             <use xlink:href="#path-1"></use>
         </mask>
-        <circle id="path-3" cx="382.5" cy="397.5" r="303.5"></circle>
-        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="607" height="607" fill="white">
+        <circle id="path-3" cx="382.5" cy="397.5" r="300.5"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="601" height="601" fill="white">
             <use xlink:href="#path-3"></use>
         </mask>
-        <circle id="path-5" cx="383" cy="398" r="379"></circle>
-        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="758" height="758" fill="white">
+        <circle id="path-5" cx="382.5" cy="397.5" r="378.5"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="757" height="757" fill="white">
             <use xlink:href="#path-5"></use>
         </mask>
         <ellipse id="path-7" cx="55.5" cy="55.5" rx="55.5" ry="55.5"></ellipse>
@@ -55,13 +55,17 @@
             <g id="process_img_2" transform="translate(257.000000, 815.000000)">
                 <use id="Oval-14" stroke="#53B0BD" mask="url(#mask-2)" stroke-width="120" stroke-linecap="square" opacity="0.397871377" xlink:href="#path-1"></use>
                 <path d="M64,210 C64,210 141,58 333,31 C332,32 317,62 340,91 C336,92 195,106 114,244 L64,210 Z" id="Path-49" fill="#F6F6F6"></path>
-                <polygon id="Path-50" fill="#026F8B" points="61 216 110 250 114 244 64 210"></polygon>
+                <polygon id="Path-50" fill="#026F8B" points="59 218 109 253 114 244 64 210"></polygon>
                 <polyline id="Path-48" stroke="#F6F6F6" stroke-width="40" stroke-linecap="square" points="596 178 639 178 641 130"></polyline>
                 <polyline id="Path-48-Copy-2" stroke="#F6F6F6" stroke-width="40" stroke-linecap="square" transform="translate(62.662659, 500.218267) rotate(-150.000000) translate(-62.662659, -500.218267) " points="37.2668332 520.906089 86.1399001 521.556724 88.0584844 478.879809"></polyline>
+                <polygon id="Path-51" fill="#026F8B" points="579 158 620 158 622 116 614 110 612 150 570 151"></polygon>
+                <path d="M685,462 L705,494 L743,481 C743,481 744,475 745,469 C745,469 709,479 709,479 L688,446 L685,462 Z" id="Path-52" fill="#026F8B"></path>
+                <polygon id="Path-53" fill="#026F8B" points="399 767 370 735 406 706 422 705 387 735 416 765"></polygon>
+                <polygon id="Path-54" fill="#026F8B" points="38 531 59 497 99 520 106 537 64 514 44 546"></polygon>
                 <polyline id="Path-48-Copy-3" stroke="#F6F6F6" stroke-width="40" stroke-linecap="square" transform="translate(375.452620, 735.915715) rotate(-220.000000) translate(-375.452620, -735.915715) " points="350.934567 759.616448 399.970672 760.295 397.86853 711.536431"></polyline>
                 <polyline id="Path-48-Copy" stroke="#F6F6F6" stroke-width="40" stroke-linecap="square" points="679 489 697 518 736 504.5"></polyline>
-                <use id="Oval-14-Copy" stroke-opacity="0.404127038" stroke="#026F8B" mask="url(#mask-4)" stroke-width="8" stroke-linecap="square" xlink:href="#path-3"></use>
-                <use id="Oval-14-Copy-2" stroke-opacity="0.404127038" stroke="#026F8B" mask="url(#mask-6)" stroke-width="8" stroke-linecap="square" xlink:href="#path-5"></use>
+                <use id="Oval-14-Copy" stroke-opacity="0.209748641" stroke="#026F8B" mask="url(#mask-4)" stroke-width="4" stroke-linecap="square" xlink:href="#path-3"></use>
+                <use id="Oval-14-Copy-2" stroke-opacity="0.209748641" stroke="#026F8B" mask="url(#mask-6)" stroke-width="4" stroke-linecap="square" xlink:href="#path-5"></use>
                 <g id="Group-3" transform="translate(327.000000, 0.000000)">
                     <mask id="mask-8" fill="white">
                         <use xlink:href="#path-7"></use>
