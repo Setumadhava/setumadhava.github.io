@@ -87,6 +87,24 @@ html {
         text-align: center;
     }
 
+    .piunxt:hover {
+        transition: all 0.20s ease-in-out;
+        cursor: pointer;
+        background-color: $darkgreen;
+        background-image: url("img/homepage/piubg.png");
+        width: 50%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+
+        .nextprojbig,
+        .nextprojsmall {
+            color: white;
+            font-weight: 700;
+        }
+    }
+
     .actinxt:hover {
         transition: all 0.20s ease-in-out;
         cursor: pointer;

@@ -289,6 +289,259 @@ p {
 .title {
     color: white;
 }
+//////////////////////////// PUMP IT UP //////////////////////
+
+#piu {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    @media #{$mac13} {
+        height: 700px;
+    }
+    @media #{$mac15} {
+        min-height: 900px;
+    }
+    @media #{$monitor} {
+        min-height: 900px;
+    }
+
+    .contenthalf {
+        order: 1;
+        width: 100%;
+        margin: 0 auto;
+        background-image: url("img/homepage/piubgcolor.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        padding: 4em 0;
+        @media #{$tablet} {
+            width: 50%;
+            order: 3;
+        }
+        @media #{$mac13} {
+            width: 50%;
+            order: 3;
+        }
+        @media #{$mac15} {
+            width: 50%;
+            order: 3;
+        }
+        @media #{$monitor} {
+            width: 50%;
+            order: 3;
+        }
+
+        .contentdiv {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 4em;
+            position: relative;
+            @media #{$phablet} {
+                width: 90%;
+                padding: 4em 0 0 2em;
+            }
+            @media #{$tablet} {
+                width: 90%;
+                padding: 4em 0 0 2em;
+            }
+            @media #{$mac13} {
+                width: 90%;
+                padding: 6em 0 0 4em;
+            }
+            @media #{$mac15} {
+                width: 80%;
+                padding: 6em 0 0 4em;
+            }
+            @media #{$monitor} {
+                width: 60%;
+                padding: 6em 0 0 4em;
+
+                .title {
+                    font-size: 3em;
+                }
+
+                p {
+                    font-size: 1.3em;
+                }
+
+                .readmore {
+                    width: 190px;
+                    height: 60px;
+                }
+            }
+
+            .labelflex {
+                display: flex;
+                position: relative;
+            }
+
+            .labeldiv {
+                .piulabel {
+                    position: absolute;
+                    top: 130%;
+                    right: 72%;
+                    transform: translateX(50%);
+                    border-radius: 4px;
+                    width: 165px;
+                    height: 28px;
+                    opacity: 0.8;
+                    background-color: $grey3;
+                    font-size: 0.8em;
+                    text-align: center;
+                    @media #{$phablet} {
+                        top: 20%;
+                        right: 25%;
+                        // width: 125px;
+                        height: 28px;
+                    }
+                    @media #{$tablet} {
+                        top: 20%;
+                        right: 22%;
+                        // width: 125px;
+                        height: 28px;
+                    }
+                    @media #{$mac13} {
+                        top: 20%;
+                        right: 35%;
+                        // width: 125px;
+                        height: 28px;
+                    }
+                    @media #{$mac15} {
+                        top: 20%;
+                        right: 50%;
+                        // width: 125px;
+                        height: 28px;
+                    }
+                    @media #{$monitor} {
+                        top: 30%;
+                        right: 25%;
+                        // width: 125px;
+                        height: 28px;
+                    }
+                }
+
+                p {
+                    padding: 0.2em 1em;
+                    color: #484443;
+                    font-size: 1em;
+                    font-weight: 600;
+                }
+            }
+
+            .projcontent {
+                width: 100%;
+                @media #{$phablet} {
+                    width: 70%;
+                }
+                @media #{$mac13} {
+                    width: 70%;
+                }
+                @media #{$mac15} {
+                    width: 70%;
+                }
+                @media #{$monitor} {
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+    .imagehalf {
+        order: 2;
+        width: 100%;
+        background-image: url("img/homepage/piubg.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        height: 400px;
+        position: relative;
+        @media #{$tablet} {
+            width: 50%;
+            height: auto;
+        }
+        @media #{$mac13} {
+            width: 50%;
+            height: auto;
+        }
+        @media #{$mac15} {
+            width: 50%;
+            height: auto;
+        }
+        @media #{$monitor} {
+            width: 50%;
+            height: auto;
+        }
+
+        .imagediv {
+            width: 80%;
+            margin: 0 auto;
+            @media #{$phablet} {
+                width: 50%;
+            }
+            @media #{$tablet} {
+                width: 70%;
+            }
+            @media #{$mac13} {
+                width: 70%;
+            }
+            @media #{$mac15} {
+                width: 50%;
+            }
+            @media #{$monitor} {
+                width: 45%;
+            }
+
+            img {
+                width: 80%;
+                position: absolute;
+                bottom: 0;
+                // transform: translateY(-50%);
+                @media #{$phablet} {
+                    width: 55%;
+                }
+                @media #{$tablet} {
+                    width: 70%;
+                }
+                @media #{$mac13} {
+                    width: 70%;
+                }
+                @media #{$mac15} {
+                    width: 55%;
+                }
+                @media #{$monitor} {
+                    width: 45%;
+                }
+            }
+        }
+    }
+
+    .piuline {
+        background: $piublack;
+    }
+
+    .piutag {
+        color: $piublack;
+    }
+
+    .piucta {
+        border: 1px solid $piublack;
+        border-radius: 4px;
+    }
+
+    .piucta:hover {
+        transition: all 0.30s ease-in-out;
+        border: 1px solid white;
+        background: $piublack;
+        cursor: pointer;
+
+        .readmoretext {
+            color: $piugreylight;
+            font-weight: 800;
+        }
+    }
+}
 //////////////////////////// ACTILIST //////////////////////
 
 #zero {
@@ -484,6 +737,7 @@ p {
 
     .actilistcta {
         border: 1px solid $actigreen;
+        border-radius: 4px;
     }
 
     .actilistcta:hover {
@@ -678,6 +932,7 @@ p {
 
     .expediacta {
         border: 1px solid $yellow;
+        border-radius: 4px;
     }
 
     .expediacta:hover {
@@ -835,6 +1090,7 @@ p {
 
     .datescoutcta {
         border: 1px solid $pink;
+        border-radius: 4px;
     }
 
     .datescoutcta:hover {
@@ -984,6 +1240,7 @@ p {
 
     .homecta {
         border: 1px solid $yellow;
+        border-radius: 4px;
     }
 
     .homecta:hover {
@@ -1036,6 +1293,7 @@ p {
                 padding-top: 0.6em;
                 color: white;
                 border: 1px solid $skyblue;
+                border-radius: 4px;
                 position: absolute;
                 top: 70%;
                 transform: translateY(50%);
@@ -1051,6 +1309,7 @@ p {
                 padding-top: 0.6em;
                 color: white;
                 border: 1px solid $skyblue;
+                border-radius: 4px;
                 position: absolute;
                 top: 60%;
                 transform: translateY(50%);
@@ -1066,6 +1325,7 @@ p {
                 padding-top: 0.6em;
                 color: white;
                 border: 1px solid $skyblue;
+                border-radius: 4px;
                 position: absolute;
                 top: 70%;
                 transform: translateY(50%);
@@ -1081,6 +1341,7 @@ p {
                 padding-top: 0.6em;
                 color: white;
                 border: 1px solid $skyblue;
+                border-radius: 4px;
                 position: absolute;
                 top: 70%;
                 transform: translateY(50%);

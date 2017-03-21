@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2076px" height="736px" viewBox="0 0 2076 736" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="98.1642787%" id="linearGradient-1">
+            <stop stop-color="#18A6CB" offset="0%"></stop>
+            <stop stop-color="#08677F" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0 0 2075.25 0 2075.25 736 0 736"></polygon>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="98.1642787%" id="linearGradient-4">
+            <stop stop-color="#129ACB" offset="0%"></stop>
+            <stop stop-color="#6A31C4" offset="83.024248%"></stop>
+            <stop stop-color="#7D1CC3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Poster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Poster_Final-Copy" transform="translate(-274.000000, -1256.000000)">
+            <g id="Group-3" transform="translate(274.000000, 1256.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Rectangle-Copy-4" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <polygon id="Rectangle-Copy-5" fill="url(#linearGradient-4)" style="mix-blend-mode: lighten;" opacity="0.302875906" mask="url(#mask-3)" transform="translate(1041.140832, 368.093745) scale(-1, 1) rotate(-19.000000) translate(-1041.140832, -368.093745) " points="-855.557634 -304.58187 2937.8393 -304.58187 2937.8393 1040.76936 -855.557634 1040.76936"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

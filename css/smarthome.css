@@ -489,6 +489,20 @@ html {
     padding: 1em 0;
     background-color: #C9EB91;
     text-align: center; }
+  .footernavcontainer .piunxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage/piubg.png");
+    width: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .piunxt:hover .nextprojbig,
+    .footernavcontainer .piunxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
   .footernavcontainer .actinxt:hover {
     transition: all 0.20s ease-in-out;
     cursor: pointer;

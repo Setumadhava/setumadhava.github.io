@@ -262,6 +262,215 @@ p {
 .title {
   color: white; }
 
+#piu {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative; }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #piu {
+      height: 700px; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #piu {
+      min-height: 900px; } }
+  @media (min-width: 1820px) {
+    #piu {
+      min-height: 900px; } }
+  #piu .contenthalf {
+    order: 1;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("img/homepage/piubgcolor.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 4em 0; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #piu .contenthalf {
+        width: 50%;
+        order: 3; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #piu .contenthalf {
+        width: 50%;
+        order: 3; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #piu .contenthalf {
+        width: 50%;
+        order: 3; } }
+    @media (min-width: 1820px) {
+      #piu .contenthalf {
+        width: 50%;
+        order: 3; } }
+    #piu .contenthalf .contentdiv {
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 4em;
+      position: relative; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #piu .contenthalf .contentdiv {
+          width: 90%;
+          padding: 4em 0 0 2em; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #piu .contenthalf .contentdiv {
+          width: 90%;
+          padding: 4em 0 0 2em; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #piu .contenthalf .contentdiv {
+          width: 90%;
+          padding: 6em 0 0 4em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #piu .contenthalf .contentdiv {
+          width: 80%;
+          padding: 6em 0 0 4em; } }
+      @media (min-width: 1820px) {
+        #piu .contenthalf .contentdiv {
+          width: 60%;
+          padding: 6em 0 0 4em; }
+          #piu .contenthalf .contentdiv .title {
+            font-size: 3em; }
+          #piu .contenthalf .contentdiv p {
+            font-size: 1.3em; }
+          #piu .contenthalf .contentdiv .readmore {
+            width: 190px;
+            height: 60px; } }
+      #piu .contenthalf .contentdiv .labelflex {
+        display: flex;
+        position: relative; }
+      #piu .contenthalf .contentdiv .labeldiv .piulabel {
+        position: absolute;
+        top: 130%;
+        right: 72%;
+        transform: translateX(50%);
+        border-radius: 4px;
+        width: 165px;
+        height: 28px;
+        opacity: 0.8;
+        background-color: #BCBCBC;
+        font-size: 0.8em;
+        text-align: center; }
+        @media (min-width: 375px) and (max-width: 768px) {
+          #piu .contenthalf .contentdiv .labeldiv .piulabel {
+            top: 20%;
+            right: 25%;
+            height: 28px; } }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          #piu .contenthalf .contentdiv .labeldiv .piulabel {
+            top: 20%;
+            right: 22%;
+            height: 28px; } }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          #piu .contenthalf .contentdiv .labeldiv .piulabel {
+            top: 20%;
+            right: 35%;
+            height: 28px; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          #piu .contenthalf .contentdiv .labeldiv .piulabel {
+            top: 20%;
+            right: 50%;
+            height: 28px; } }
+        @media (min-width: 1820px) {
+          #piu .contenthalf .contentdiv .labeldiv .piulabel {
+            top: 30%;
+            right: 25%;
+            height: 28px; } }
+      #piu .contenthalf .contentdiv .labeldiv p {
+        padding: 0.2em 1em;
+        color: #484443;
+        font-size: 1em;
+        font-weight: 600; }
+      #piu .contenthalf .contentdiv .projcontent {
+        width: 100%; }
+        @media (min-width: 375px) and (max-width: 768px) {
+          #piu .contenthalf .contentdiv .projcontent {
+            width: 70%; } }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          #piu .contenthalf .contentdiv .projcontent {
+            width: 70%; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          #piu .contenthalf .contentdiv .projcontent {
+            width: 70%; } }
+        @media (min-width: 1820px) {
+          #piu .contenthalf .contentdiv .projcontent {
+            width: 70%; } }
+  #piu .imagehalf {
+    order: 2;
+    width: 100%;
+    background-image: url("img/homepage/piubg.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 400px;
+    position: relative; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #piu .imagehalf {
+        width: 50%;
+        height: auto; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #piu .imagehalf {
+        width: 50%;
+        height: auto; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #piu .imagehalf {
+        width: 50%;
+        height: auto; } }
+    @media (min-width: 1820px) {
+      #piu .imagehalf {
+        width: 50%;
+        height: auto; } }
+    #piu .imagehalf .imagediv {
+      width: 80%;
+      margin: 0 auto; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #piu .imagehalf .imagediv {
+          width: 50%; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #piu .imagehalf .imagediv {
+          width: 70%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #piu .imagehalf .imagediv {
+          width: 70%; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #piu .imagehalf .imagediv {
+          width: 50%; } }
+      @media (min-width: 1820px) {
+        #piu .imagehalf .imagediv {
+          width: 45%; } }
+      #piu .imagehalf .imagediv img {
+        width: 80%;
+        position: absolute;
+        bottom: 0; }
+        @media (min-width: 375px) and (max-width: 768px) {
+          #piu .imagehalf .imagediv img {
+            width: 55%; } }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          #piu .imagehalf .imagediv img {
+            width: 70%; } }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          #piu .imagehalf .imagediv img {
+            width: 70%; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          #piu .imagehalf .imagediv img {
+            width: 55%; } }
+        @media (min-width: 1820px) {
+          #piu .imagehalf .imagediv img {
+            width: 45%; } }
+  #piu .piuline {
+    background: #032A2F; }
+  #piu .piutag {
+    color: #032A2F; }
+  #piu .piucta {
+    border: 1px solid #032A2F;
+    border-radius: 4px; }
+  #piu .piucta:hover {
+    transition: all 0.30s ease-in-out;
+    border: 1px solid white;
+    background: #032A2F;
+    cursor: pointer; }
+    #piu .piucta:hover .readmoretext {
+      color: #f6f6f6;
+      font-weight: 800; }
+
 #zero {
   background-image: url("img/actilist/herobg.png");
   width: 100%;
@@ -423,7 +632,8 @@ p {
   #zero .actilisttag {
     color: #0FE5A8; }
   #zero .actilistcta {
-    border: 1px solid #0FE5A8; }
+    border: 1px solid #0FE5A8;
+    border-radius: 4px; }
   #zero .actilistcta:hover {
     transition: all 0.30s ease-in-out;
     border: 1px solid white;
@@ -587,7 +797,8 @@ p {
   #one .expediatag {
     color: #FFCA01; }
   #one .expediacta {
-    border: 1px solid #FFCA01; }
+    border: 1px solid #FFCA01;
+    border-radius: 4px; }
   #one .expediacta:hover {
     transition: all 0.30s ease-in-out;
     border: 1px solid white;
@@ -714,7 +925,8 @@ p {
   #two .datescouttag {
     color: #FC136A; }
   #two .datescoutcta {
-    border: 1px solid #FC136A; }
+    border: 1px solid #FC136A;
+    border-radius: 4px; }
   #two .datescoutcta:hover {
     transition: all 0.30s ease-in-out;
     border: 1px solid white;
@@ -837,7 +1049,8 @@ p {
   #four .hometag {
     color: #FFCA01; }
   #four .homecta {
-    border: 1px solid #FFCA01; }
+    border: 1px solid #FFCA01;
+    border-radius: 4px; }
   #four .homecta:hover {
     transition: all 0.30s ease-in-out;
     border: 1px solid white;
@@ -882,6 +1095,7 @@ p {
         padding-top: 0.6em;
         color: white;
         border: 1px solid #3A89F3;
+        border-radius: 4px;
         position: absolute;
         top: 70%;
         transform: translateY(50%);
@@ -897,6 +1111,7 @@ p {
         padding-top: 0.6em;
         color: white;
         border: 1px solid #3A89F3;
+        border-radius: 4px;
         position: absolute;
         top: 60%;
         transform: translateY(50%);
@@ -912,6 +1127,7 @@ p {
         padding-top: 0.6em;
         color: white;
         border: 1px solid #3A89F3;
+        border-radius: 4px;
         position: absolute;
         top: 70%;
         transform: translateY(50%);
@@ -927,6 +1143,7 @@ p {
         padding-top: 0.6em;
         color: white;
         border: 1px solid #3A89F3;
+        border-radius: 4px;
         position: absolute;
         top: 70%;
         transform: translateY(50%);
@@ -1266,6 +1483,20 @@ html {
     padding: 1em 0;
     background-color: #C9EB91;
     text-align: center; }
+  .footernavcontainer .piunxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage/piubg.png");
+    width: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .piunxt:hover .nextprojbig,
+    .footernavcontainer .piunxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
   .footernavcontainer .actinxt:hover {
     transition: all 0.20s ease-in-out;
     cursor: pointer;

@@ -127,6 +127,40 @@ ul {
 .introcontainer {
   background-color: #2D2D2D; }
 
+.arrowdowndiv {
+  position: absolute;
+  margin: 0 auto;
+  width: 40px;
+  bottom: 40px;
+  left: 45%;
+  transform: translateX(-50%);
+  animation-name: blinker;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .arrowdowndiv {
+      left: 48.5%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .arrowdowndiv {
+      left: 50%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .arrowdowndiv {
+      left: 50%; } }
+  @media (min-width: 1820px) {
+    .arrowdowndiv {
+      left: 50%; } }
+
+@keyframes blinker {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-15px); }
+  100% {
+    transform: translateY(0px); } }
+.arrowdowndiv:hover {
+  animation-play-state: paused; }
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .intro {
     display: flex;
@@ -1375,6 +1409,20 @@ html {
     padding: 1em 0;
     background-color: #C9EB91;
     text-align: center; }
+  .footernavcontainer .piunxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage/piubg.png");
+    width: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .piunxt:hover .nextprojbig,
+    .footernavcontainer .piunxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
   .footernavcontainer .actinxt:hover {
     transition: all 0.20s ease-in-out;
     cursor: pointer;
