@@ -88,9 +88,6 @@ p {
     line-height: 2em;
     width: 95%;
     padding-top: 3em;
-    @media #{$monitor} {
-        max-width: 23%;
-    }
     @media #{$mac13} {
         width: 35%;
         padding-top: 3em;
@@ -105,7 +102,7 @@ p {
         font-size: 1.1em;
     }
     @media #{$monitor} {
-        width: 30%;
+        width: 27%;
         font-size: 1.1em;
         padding-top: 5em;
     }

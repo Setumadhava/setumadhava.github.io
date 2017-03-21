@@ -81,9 +81,6 @@ p {
   line-height: 2em;
   width: 95%;
   padding-top: 3em; }
-  @media (min-width: 1820px) {
-    .introbody {
-      max-width: 23%; } }
   @media (min-width: 1024px) and (max-width: 1439px) {
     .introbody {
       width: 35%;
@@ -99,7 +96,7 @@ p {
       font-size: 1.1em; } }
   @media (min-width: 1820px) {
     .introbody {
-      width: 30%;
+      width: 27%;
       font-size: 1.1em;
       padding-top: 5em; } }
 
