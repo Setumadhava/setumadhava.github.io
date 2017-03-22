@@ -939,6 +939,10 @@
         height: 750px;
         width: 1000px;
         margin: 0 auto; } }
+  #reflectionsection #videocredits {
+    text-align: center;
+    padding: 1em 0;
+    color: #BCBCBC; }
 
 .container,
 body,
