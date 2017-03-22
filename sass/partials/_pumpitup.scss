@@ -606,6 +606,32 @@
             width: 100%;
         }
     }
+
+    .sketchesflex {
+        display: flex;
+        flex-wrap: wrap;
+
+        .sketchdiv {
+            width: 90%;
+            margin: 0 auto;
+            padding: 2em 0;
+            @media #{$tablet} {
+                width: 65%;
+            }
+            @media #{$mac13} {
+                width: 50%;
+                padding: 4em 2em;
+            }
+            @media #{$mac15} {
+                width: 33%;
+                padding: 4em 2em;
+            }
+            @media #{$monitor} {
+                width: 30%;
+                padding: 4em 2em;
+            }
+        }
+    }
 }
 ////////////////////// LOW FIDELITY ///////////////////////////
 
