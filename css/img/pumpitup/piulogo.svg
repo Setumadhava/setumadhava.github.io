@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="364px" height="296px" viewBox="0 0 364 296" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="365px" height="296px" viewBox="0 0 365 296" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
     <title>piulogo</title>
     <desc>Created with Sketch.</desc>
@@ -13,12 +13,12 @@
                         <polyline id="Path" stroke="#032A2F" stroke-width="9" stroke-linecap="square" points="0.327644814 0.243385604 0.327644814 69.5182141 83.25 69.5182141 83.25 0.243385604"></polyline>
                         <rect id="Rectangle" fill="#4FCFDF" x="8.55" y="11.7217069" width="66.1819607" height="49.5467926"></rect>
                     </g>
-                    <g id="Group-Copy-5" transform="translate(198.000000, 152.873840)">
+                    <g id="Group-Copy-5" transform="translate(195.000000, 152.873840)">
                         <polyline id="Path" stroke="#032A2F" stroke-width="9" stroke-linecap="square" points="0.327644814 0.243385604 0.327644814 69.5182141 83.25 69.5182141 83.25 0.243385604"></polyline>
                         <rect id="Rectangle" fill="#4FCFDF" x="8.64798618" y="11.4589402" width="66.1819607" height="49.5467926"></rect>
                     </g>
                     <text id="P-Copy-3" font-family="Roboto-Regular, Roboto" font-size="110.25" font-weight="normal" fill="#032A2F">
-                        <tspan x="297" y="226.454545">P</tspan>
+                        <tspan x="298" y="226.454545">P</tspan>
                     </text>
                     <text id="MP-Copy" font-family="Roboto-Regular, Roboto" font-size="110.25" font-weight="normal" letter-spacing="5" fill="#032A2F">
                         <tspan x="195.75" y="116">M</tspan>
