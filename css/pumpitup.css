@@ -866,8 +866,49 @@
 #reactionsection {
   background-color: #026F8B; }
 
-.reactioncontent {
-  height: 300px; }
+.reactioncontent .reactionflex {
+  display: flex;
+  flex-wrap: wrap; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .reactioncontent .reactionflex {
+      width: 90%;
+      margin: 0 auto; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .reactioncontent .reactionflex {
+      width: 85%;
+      margin: 0 auto; } }
+  @media (min-width: 1820px) {
+    .reactioncontent .reactionflex {
+      width: 85%;
+      margin: 0 auto; } }
+  .reactioncontent .reactionflex .reactionbox {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    margin: 2em auto; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      .reactioncontent .reactionflex .reactionbox {
+        width: 45%; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .reactioncontent .reactionflex .reactionbox {
+        width: 35%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .reactioncontent .reactionflex .reactionbox {
+        width: 22%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .reactioncontent .reactionflex .reactionbox {
+        width: 22%; } }
+    @media (min-width: 1820px) {
+      .reactioncontent .reactionflex .reactionbox {
+        width: 20%; } }
+    .reactioncontent .reactionflex .reactionbox .reaction {
+      width: 100%;
+      margin: 0 auto; }
+      .reactioncontent .reactionflex .reactionbox .reaction img {
+        width: 100%; }
+  .reactioncontent .reactionflex .reactionbox:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 #reflectionsection {
   background-color: #026F8B; }
