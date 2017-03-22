@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="368px" height="295px" viewBox="0 0 368 295" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="364px" height="296px" viewBox="0 0 364 296" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
     <title>piulogo</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Poster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD-Copy" transform="translate(-144.000000, -214.000000)">
-            <g id="piulogo" transform="translate(144.000000, 181.000000)">
+        <g id="Desktop-HD-Copy" transform="translate(-144.000000, -213.000000)">
+            <g id="piulogo" transform="translate(144.000000, 176.000000)">
                 <g>
-                    <polyline id="Path-2-Copy" stroke="#4FCEDE" stroke-width="8.1" stroke-linecap="square" points="139.05 111.80705 139.05 181.686456 192.15 181.686456"></polyline>
-                    <g id="Group-Copy-4" transform="translate(97.200000, 37.419295)">
-                        <polyline id="Path" stroke="#032A2F" stroke-width="8.1" stroke-linecap="square" points="0.327644814 0.243385604 0.327644814 69.5182141 83.25 69.5182141 83.25 0.243385604"></polyline>
+                    <polyline id="Path-2-Copy" stroke="#4FCEDE" stroke-width="8.1" stroke-linecap="square" points="139.05 116.80705 139.05 186.686456 192.15 186.686456"></polyline>
+                    <g id="Group-Copy-4" transform="translate(97.200000, 42.419295)">
+                        <polyline id="Path" stroke="#032A2F" stroke-width="9" stroke-linecap="square" points="0.327644814 0.243385604 0.327644814 69.5182141 83.25 69.5182141 83.25 0.243385604"></polyline>
                         <rect id="Rectangle" fill="#4FCFDF" x="8.55" y="11.7217069" width="66.1819607" height="49.5467926"></rect>
                     </g>
-                    <g id="Group-Copy-5" transform="translate(198.000000, 147.873840)">
-                        <polyline id="Path" stroke="#032A2F" stroke-width="8.1" stroke-linecap="square" points="0.327644814 0.243385604 0.327644814 69.5182141 83.25 69.5182141 83.25 0.243385604"></polyline>
+                    <g id="Group-Copy-5" transform="translate(198.000000, 152.873840)">
+                        <polyline id="Path" stroke="#032A2F" stroke-width="9" stroke-linecap="square" points="0.327644814 0.243385604 0.327644814 69.5182141 83.25 69.5182141 83.25 0.243385604"></polyline>
                         <rect id="Rectangle" fill="#4FCFDF" x="8.64798618" y="11.4589402" width="66.1819607" height="49.5467926"></rect>
                     </g>
-                    <text id="P-Copy-3" font-family="Montserrat-Light, Montserrat" font-size="110.25" font-weight="300" fill="#032A2F">
-                        <tspan x="297" y="221.454545">P</tspan>
+                    <text id="P-Copy-3" font-family="Roboto-Regular, Roboto" font-size="110.25" font-weight="normal" fill="#032A2F">
+                        <tspan x="297" y="226.454545">P</tspan>
                     </text>
-                    <text id="MP-Copy" font-family="Montserrat-Light, Montserrat" font-size="110.25" font-weight="300" fill="#032A2F">
-                        <tspan x="195.75" y="111">MP</tspan>
+                    <text id="MP-Copy" font-family="Roboto-Regular, Roboto" font-size="110.25" font-weight="normal" letter-spacing="5" fill="#032A2F">
+                        <tspan x="195.75" y="116">M</tspan>
+                        <tspan x="297.595581" y="116">P</tspan>
                     </text>
-                    <text id="P-Copy-2" font-family="Montserrat-Light, Montserrat" font-size="110.25" font-weight="300" fill="#032A2F">
-                        <tspan x="0" y="111">P</tspan>
+                    <text id="P-Copy-2" font-family="Roboto-Regular, Roboto" font-size="110.25" font-weight="normal" fill="#032A2F">
+                        <tspan x="0" y="116">P</tspan>
                     </text>
-                    <text id="IT-Copy" font-family="Montserrat-Light, Montserrat" font-size="110.25" font-weight="300" fill="#032A2F">
-                        <tspan x="0.45" y="221.454545">IT</tspan>
+                    <text id="IT-Copy" font-family="Roboto-Regular, Roboto" font-size="110.25" font-weight="normal" fill="#032A2F">
+                        <tspan x="0.45" y="226.454545">IT</tspan>
                     </text>
                 </g>
                 <text id="A-smart-water-manage" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="32" fill="#026F8B">
-                    <tspan x="0" y="292">A smart water management system </tspan>
-                    <tspan x="0" y="324">for stand-alone homes in India</tspan>
+                    <tspan x="0" y="297">A smart water management system </tspan>
+                    <tspan x="0" y="329">for stand-alone homes in India</tspan>
                 </text>
             </g>
         </g>
