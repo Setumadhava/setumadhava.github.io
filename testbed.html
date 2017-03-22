@@ -42,8 +42,8 @@
     <div class="vNav">
         <ul class="vNav">
             <li>
-                <a href="#section01">
-                    <div class="labeloo">Section01</div>
+                <a href="#Processsection">
+                    <div class="labeloo">Process Section</div>
                 </a>
             </li>
             <li>
@@ -64,7 +64,7 @@
         </ul>
     </div>
 
-    <div id="section01" class="par">
+    <div id="Processsection" class="par">
         <h1>Section 01</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis, lacus gravida pharetra posuere, neque ligula malesuada mi, ac accumsan turpis neque sit amet libero. Morbi a hendrerit nibh, sed tristique turpis. Vivamus hendrerit
             tincidunt urna nec laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent faucibus quis diam et auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
@@ -148,7 +148,7 @@
                 var position = $(document).scrollTop(),
                     index;
                 for (var i = 0; i < parPosition.length; i++) {
-                    if (position <= parPosition[i]) {
+                    if (position <= parPosition[i] + 800) {
                         index = i;
                         break;
                     }

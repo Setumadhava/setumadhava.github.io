@@ -44,32 +44,15 @@
 .labeloo {
   position: relative;
   top: -60%;
-  left: -50px;
-  width: 100%;
+  left: -120px;
+  width: 86px;
+  border-radius: 2px;
+  padding: 5px;
   text-align: right;
   font-size: 1em;
-  color: #718785;
-  display: none; }
-
-#section01 {
-  left: 0;
-  width: 420px;
-  padding-top: 10em; }
-
-#section02 {
-  left: 0;
-  padding-top: 10em;
-  width: 420px; }
-
-#section03 {
-  left: 0;
-  padding-top: 10em;
-  width: 420px; }
-
-#section04 {
-  left: 0;
-  padding-top: 10em;
-  width: 420px; }
+  color: #f6f6f6;
+  display: none;
+  background-color: #53B0BD; }
 
 .container,
 body,

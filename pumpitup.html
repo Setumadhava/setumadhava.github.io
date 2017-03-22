@@ -29,9 +29,9 @@
 
 <body>
 
-    <!-- <script>
+    <script>
         document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-    </script> -->
+    </script>
 
     <!-- /////////////////////////// HERO //////////////////////// -->
 
@@ -47,6 +47,57 @@
             </div>
             <div id="redline">&nbsp;</div>
         </div>
+
+
+
+        <!-- ///////////////// VERTICAL NAV ///////////////// -->
+
+        <!-- <div class="vNav">
+            <ul class="vNav">
+                <li>
+
+                    <a href="#processsection">
+                        <div class="labeloo">Process</div>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#problemsection">
+                        <div class="labeloo">
+                            Problem
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#researchsection">
+                        <div class="labeloo">
+                            <p>Research
+                                <p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#ideationsection">
+                        <div class="labeloo">Ideation</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#lowfidsection">
+                        <div class="labeloo">Low Fidelity Prototype & Usability Study</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#highfidsection">
+                        <div class="labeloo">High Fidelity Prototype</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#reflectionsection">
+                        <div class="labeloo">Future & Reflection</div>
+                    </a>
+                </li>
+            </ul>
+        </div> -->
 
 
         <!-- /////////////////////////// PROCESS //////////////////////// -->
@@ -260,7 +311,7 @@
 
         <!-- ///////////////////////// LOW FIDELITY /////////////////// -->
 
-        <div id="ideationsection">
+        <div id="lowfidsection">
 
             <div class="titlediv">
                 <p class="whitetext">Low Fidelity Prototype & Usability Study</p>
@@ -458,6 +509,10 @@
             <div class="hfsec sixembottom">
                 <p class="highfidheader fourembottom">Contextual Diagram</p>
 
+                <p class="contextualdiagdesc">
+
+                    The diagram below explains how the app connects to the various touchpoints in the water managament process in a typical home.
+                </p>
 
 
                 <div class="hfimgsectionflex">
@@ -668,6 +723,55 @@
             });
         });
     </script>
+
+    <!-- ////// NAV DOTS JS /////////// -->
+
+
+    <!-- <script>
+        $(document).ready(function($) {
+            var parPosition = [];
+            $('.par').each(function() {
+                parPosition.push($(this).offset().top);
+            });
+
+            $('a').click(function() {
+                $('html, body').animate({
+                    scrollTop: $($.attr(this, 'href')).offset().top
+                }, 500);
+                return false;
+            });
+
+            $('.vNav ul li a').click(function() {
+                $('.vNav ul li a').removeClass('active');
+                $(this).addClass('active');
+            });
+
+            $('.vNav a').hover(function() {
+                $(this).find('.labeloo').show();
+            }, function() {
+                $(this).find('.labeloo').hide();
+            });
+
+            $(document).scroll(function() {
+                var position = $(document).scrollTop(),
+                    index;
+                for (var i = 0; i < parPosition.length; i++) {
+                    if (position <= parPosition[i] + 800) {
+                        index = i;
+                        break;
+                    }
+                }
+                $('.vNav ul li a').removeClass('active');
+                $('.vNav ul li a:eq(' + index + ')').addClass('active');
+            });
+
+            $('.vNav ul li a').click(function() {
+                $('.vNav ul li a').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+    </script> -->
+
 
 </body>
 

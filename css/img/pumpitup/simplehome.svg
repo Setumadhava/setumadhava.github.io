@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1667px" height="1501px" viewBox="0 0 1667 1501" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1667px" height="1625px" viewBox="0 0 1667 1625" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 5</title>
+    <title>simplehome</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <rect id="path-1" x="-1.13686838e-13" y="0" width="829.053005" height="312.176448" rx="4"></rect>
@@ -80,7 +80,7 @@
             <rect x="116" y="-1.21376141" width="1233.19283" height="24.4574174" fill="white"></rect>
             <use xlink:href="#path-35" fill="black"></use>
         </mask>
-        <rect id="path-37" x="63" y="796.295215" width="1338.25397" height="26.7249257" rx="2"></rect>
+        <rect id="path-37" x="63" y="796" width="1338.25397" height="26.7249257" rx="2"></rect>
         <mask id="mask-38" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1338.25397" height="26.7249257" fill="white">
             <use xlink:href="#path-37"></use>
         </mask>
@@ -107,13 +107,16 @@
     </defs>
     <g id="Poster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.852807971">
         <g id="Assets" transform="translate(-3638.000000, -413.000000)">
-            <g id="Group-5" transform="translate(3641.000000, 413.000000)">
+            <g id="simplehome" transform="translate(3641.000000, 413.000000)">
                 <g id="Group-4" transform="translate(327.378851, 1181.434516)">
                     <use id="Rectangle-14" stroke="#5E5E5E" mask="url(#mask-2)" stroke-width="4" stroke-linecap="square" fill-opacity="0.49" fill="#FFFFFF" xlink:href="#path-1"></use>
                     <text id="Underground-Sump-Tan" font-family="HelveticaNeue, Helvetica Neue" font-size="30" font-weight="normal" fill="#032A2F">
                         <tspan x="244" y="58">Underground Sump Tank</tspan>
                     </text>
                     <rect id="Rectangle-16" fill="url(#linearGradient-3)" x="17" y="99" width="792.870654" height="194.158523"></rect>
+                    <text id="Water-management-in" font-family="Roboto-Regular, Roboto" font-size="30" font-weight="normal" fill="#026F8B">
+                        <tspan x="17.0854492" y="436">Water management in a typical stand-alone home in India</tspan>
+                    </text>
                 </g>
                 <use id="Rectangle-15-Copy-13" stroke="#5E5E5E" mask="url(#mask-5)" stroke-width="2" stroke-linecap="square" fill="#1FBFE2" xlink:href="#path-4"></use>
                 <ellipse id="Oval-9-Copy-5" fill="#D63D31" cx="924" cy="192.5" rx="38" ry="38.5"></ellipse>

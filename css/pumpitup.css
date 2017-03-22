@@ -504,6 +504,36 @@
   .ideacontentsection .conceptdiv .concept {
     width: 100%; }
 
+#lowfidsection {
+  background-color: #026F8B; }
+  #lowfidsection .ideaiconsflex {
+    padding: 8em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto; }
+    @media (min-width: 1820px) {
+      #lowfidsection .ideaiconsflex {
+        width: 70%; } }
+    #lowfidsection .ideaiconsflex .icondiv {
+      width: 30%;
+      margin: 0 auto; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #lowfidsection .ideaiconsflex .icondiv {
+          width: 15%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #lowfidsection .ideaiconsflex .icondiv {
+          width: auto; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #lowfidsection .ideaiconsflex .icondiv {
+          width: auto; } }
+      @media (min-width: 1820px) {
+        #lowfidsection .ideaiconsflex .icondiv {
+          width: auto; } }
+      @media (min-width: 2560) {
+        #lowfidsection .ideaiconsflex .icondiv {
+          width: auto; } }
+
 .lowfidcontentsection .changeflex {
   display: flex;
   flex-wrap: wrap; }
