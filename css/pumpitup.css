@@ -863,6 +863,12 @@
           width: 80%;
           padding: 8em 0; } }
 
+#reactionsection {
+  background-color: #026F8B; }
+
+.reactioncontent {
+  height: 300px; }
+
 #reflectionsection {
   background-color: #026F8B; }
   #reflectionsection p {

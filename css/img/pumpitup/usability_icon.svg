@@ -28,8 +28,8 @@
                     <rect id="Rectangle-2-Copy-2" fill="#EBEBEB" x="6.01626016" y="58.9593496" width="32.1869919" height="12.6341463"></rect>
                 </g>
                 <use id="Combined-Shape" stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="5.4" stroke-linecap="square" fill="#026F8B" xlink:href="#path-3"></use>
-                <text id="Usability-Sudy" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#FFFFFF">
-                    <tspan x="29.2910156" y="140.736957">Usability Sudy</tspan>
+                <text id="Usability-Study" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="26.1425781" y="140.736957">Usability Study</tspan>
                 </text>
             </g>
         </g>
