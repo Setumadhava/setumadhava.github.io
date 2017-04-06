@@ -486,6 +486,9 @@
   @media (min-width: 1440px) and (max-width: 1819px) {
     .ideacontentsection .userneedflex .userneeddiv {
       width: 33%; } }
+  @media (min-width: 1820px) {
+    .ideacontentsection .userneedflex .userneeddiv {
+      width: 33%; } }
 .ideacontentsection .conceptdiv {
   width: 90%;
   margin: 0 auto; }
