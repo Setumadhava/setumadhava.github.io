@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="350px" height="124px" viewBox="0 0 350 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="263px" height="93px" viewBox="0 0 263 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
     <title>userneed3</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M27.1079521,1.78409578 C27.6006166,0.798766891 28.4011963,0.802392559 28.8920479,1.78409578 L55.1079521,54.2159042 C55.6006166,55.2012331 55.0976918,56 54.0069304,56 L1.99306965,56 C0.892327676,56 0.40119628,55.1976074 0.892047892,54.2159042 L27.1079521,1.78409578 Z" id="path-1"></path>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="56" height="56" fill="white">
+        <path d="M20.3250769,1.34984627 C20.6978266,0.604346762 21.2968626,0.593725204 21.6749231,1.34984627 L41.3250769,40.6501537 C41.6978266,41.3956532 41.3232689,42 40.5051978,42 L1.49480224,42 C0.669245757,42 0.296862602,41.4062748 0.674923137,40.6501537 L20.3250769,1.34984627 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="42" height="42" fill="white">
             <use xlink:href="#path-1"></use>
         </mask>
     </defs>
     <g id="Poster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-5" transform="translate(-1906.000000, -1686.000000)">
-            <g id="userneed3" transform="translate(1906.000000, 1686.000000)">
-                <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="350" height="124"></rect>
-                <g id="Group-4" transform="translate(18.000000, 7.000000)">
-                    <use id="Triangle" stroke="#026F8B" mask="url(#mask-2)" stroke-width="4" stroke-linecap="square" xlink:href="#path-1"></use>
-                    <text id="!" font-family="Roboto-Regular, Roboto" font-size="30" font-weight="normal" fill="#026F8B">
-                        <tspan x="24" y="45">!</tspan>
+        <g id="Desktop-HD-Copy" transform="translate(-930.000000, -5134.000000)">
+            <g id="Group-9" transform="translate(248.000000, 4987.000000)">
+                <g id="userneed3" transform="translate(682.500000, 147.000000)">
+                    <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="262.5" height="93"></rect>
+                    <g id="Group-4" transform="translate(13.500000, 5.250000)">
+                        <use id="Triangle" stroke="#026F8B" mask="url(#mask-2)" stroke-width="3" stroke-linecap="square" xlink:href="#path-1"></use>
+                        <text id="!" font-family="Roboto-Regular, Roboto" font-size="22.5" font-weight="normal" fill="#026F8B">
+                            <tspan x="18" y="34.5">!</tspan>
+                        </text>
+                    </g>
+                    <text id="User-Need-3" font-family="Roboto-MediumItalic, Roboto" font-size="13.5" font-style="italic" font-weight="500" fill="#032A2F">
+                        <tspan x="73.5" y="19.25">User Need 3</tspan>
+                    </text>
+                    <text id="I-want-to-be-notifie" font-family="Roboto-Italic, Roboto" font-size="13.5" font-style="italic" font-weight="normal" fill="#032A2F">
+                        <tspan x="73.5" y="43.25">I want to be notified of the </tspan>
+                        <tspan x="73.5" y="61.25">overall water situation or water </tspan>
+                        <tspan x="73.5" y="79.25">shortage in my region</tspan>
                     </text>
                 </g>
-                <text id="User-Need-3" font-family="Roboto-MediumItalic, Roboto" font-size="18" font-style="italic" font-weight="500" fill="#032A2F">
-                    <tspan x="98" y="26">User Need 3</tspan>
-                </text>
-                <text id="I-want-to-be-notofie" font-family="Roboto-Italic, Roboto" font-size="18" font-style="italic" font-weight="normal" fill="#032A2F">
-                    <tspan x="98" y="58">I want to be notofied of the </tspan>
-                    <tspan x="98" y="82">overall water situation or water </tspan>
-                    <tspan x="98" y="106">shortage in my region</tspan>
-                </text>
             </g>
         </g>
     </g>
