@@ -1,0 +1,540 @@
+* {
+    font-family: $roboto;
+}
+@media #{$phablet} {}
+@media #{$tablet} {}
+@media #{$mac13} {}
+@media #{$mac15} {}
+@media #{$monitor} {}
+@media #{$fourk} {}
+
+.titlediv {
+    text-align: center;
+    padding: 2em 0;
+    font-weight: bold;
+    font-size: 2em;
+    color: $esaurblue;
+}
+
+.whitetext {
+    color: white;
+}
+
+.highfidheader {
+    color: $piudarkblue;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.sixembottom {
+    padding-bottom: 6em;
+}
+
+.fourembottom {
+    padding-bottom: 4em;
+}
+
+.fouremboth {
+    padding: 4em 0;
+}
+
+.sixemboth {
+    padding: 6em 0;
+}
+
+.subheader {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: $esaurgreen;
+}
+
+.centerdesc {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 2em;
+    @media #{$tablet} {
+        width: 65%;
+    }
+    @media #{$mac13} {
+        width: 55%;
+    }
+    @media #{$mac15} {
+        width: 40%;
+    }
+    @media #{$monitor} {
+        width: 35%;
+    }
+    @media #{$fourk} {
+        width: 25%;
+    }
+}
+////////////////////////////////////////////////////////////////////
+
+#herosection {
+    background-image: url("img/eventosaur/herobg.png");
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 480px;
+    position: relative;
+    @media #{$phablet} {
+        height: 600px;
+    }
+    @media #{$tablet} {
+        height: 650px;
+    }
+    @media #{$mac13} {
+        height: 600px;
+    }
+    @media #{$mac15} {
+        height: 600px;
+    }
+    @media #{$monitor} {
+        height: 800px;
+    }
+    @media #{$fourk} {
+        height: 2800px;
+    }
+
+    .logodiv {
+        width: 90%;
+        margin: 0 auto;
+        padding: 6em 0 2em;
+        @media #{$tablet} {
+            width: 60%;
+            margin: 0 auto;
+            padding: 8em 0 2em;
+        }
+        @media #{$mac13} {
+            position: absolute;
+            top: 35%;
+            transform: translateY(-50%);
+            right: 5%;
+            width: 40%;
+        }
+        @media #{$mac15} {
+            position: absolute;
+            top: 30%;
+            transform: translateY(-50%);
+            right: 15%;
+            width: 30%;
+        }
+        @media #{$monitor} {
+            position: absolute;
+            top: 30%;
+            transform: translateY(-50%);
+            right: 5%;
+            width: 40%;
+        }
+    }
+
+    .macdiv {
+        width: 85%;
+        margin: 0 auto;
+        @media #{$tablet} {
+            width: 75%;
+            position: absolute;
+            top: 70%;
+            transform: translateY(-50%);
+            left: -8em;
+        }
+        @media #{$mac13} {
+            width: 65%;
+            position: absolute;
+            top: 62%;
+            transform: translateY(-50%);
+            left: -8em;
+        }
+        @media #{$mac15} {
+            width: 55%;
+            position: absolute;
+            top: 60%;
+            transform: translateY(-50%);
+            left: -10em;
+        }
+        @media #{$monitor} {
+            position: absolute;
+            top: 55%;
+            transform: translateY(-50%);
+            left: 5em;
+        }
+    }
+
+    .storytitle {
+        text-align: center;
+        width: 90%;
+        padding: 2em 0;
+        margin: 0 auto;
+        font-size: 1.2em;
+        @media #{$tablet} {
+            font-size: 1em;
+            position: absolute;
+            top: 70%;
+            transform: translateY(-50%);
+            right: 5%;
+            width: 40%;
+        }
+        @media #{$mac13} {
+            font-size: 1.2em;
+            position: absolute;
+            top: 85%;
+            transform: translateY(-50%);
+            right: 5%;
+            width: 40%;
+        }
+        @media #{$mac15} {
+            font-size: 1.2em;
+            position: absolute;
+            top: 90%;
+            transform: translateY(-50%);
+            right: 15%;
+            width: 30%;
+        }
+        @media #{$monitor} {
+            font-size: 1.4em;
+            position: absolute;
+            top: 80%;
+            transform: translateY(-50%);
+            right: 15%;
+            width: 30%;
+        }
+    }
+
+    #greenline {
+        width: 100%;
+        height: 8px;
+        background-color: $esaurgreen;
+        position: absolute;
+        bottom: 0;
+    }
+}
+////////////////////// ROLE /////////////////
+
+#rolesection {
+    .roleflex {
+        display: flex;
+        flex-wrap: wrap;
+
+        .roletitle {
+            background-color: $esaurgreen;
+            text-align: center;
+            width: 90%;
+            margin: 1em auto;
+            padding: 1em;
+
+            .roletitletext {
+                font-size: 1.6em;
+                color: white;
+                font-weight: bold;
+            }
+
+            .cofoundertext {
+                color: $esaurgrey1;
+            }
+            @media #{$tablet} {
+                width: 25%;
+            }
+            @media #{$mac13} {
+                width: 25%;
+            }
+            @media #{$mac15} {
+                width: 25%;
+            }
+            @media #{$monitor} {
+                width: 25%;
+            }
+        }
+
+        .rolecontent {
+            background-color: $esaurgrey1;
+            text-align: center;
+            width: 90%;
+            margin: 1em auto;
+
+            p {
+                width: 100%;
+                padding: 1em;
+                font-size: 1.1em;
+                @media #{$tablet} {
+                    width: 100%;
+                    padding: 2em;
+                }
+                @media #{$mac13} {
+                    width: 90%;
+                    padding: 2em 0 0 8em;
+                }
+                @media #{$mac15} {
+                    width: 75%;
+                    padding: 2em 0 0 12em;
+                }
+                @media #{$monitor} {
+                    width: 65%;
+                    padding: 2em 0 0 16em;
+                }
+            }
+            @media #{$tablet} {
+                width: 73%;
+            }
+            @media #{$mac13} {
+                width: 73%;
+            }
+            @media #{$mac15} {
+                width: 73%;
+            }
+            @media #{$monitor} {
+                width: 73%;
+            }
+        }
+    }
+}
+
+#problemsection {
+    .probcontentflex {
+        display: flex;
+        flex-wrap: wrap;
+
+        .probhalf {
+            order: 3;
+            width: 90%;
+            margin: 0 auto;
+            @media #{$tablet} {
+                order: 1;
+                width: 50%;
+                padding: 1em;
+
+                p {
+                    margin: 0 auto;
+                    width: 95%;
+                }
+            }
+            @media #{$mac13} {
+                order: 1;
+                width: 50%;
+                padding: 1em;
+
+                p {
+                    margin: 0 auto;
+                    width: 95%;
+                }
+            }
+            @media #{$mac15} {
+                order: 1;
+                width: 50%;
+                padding: 1em;
+
+                p {
+                    margin: 0 auto;
+                    width: 75%;
+                }
+            }
+            @media #{$monitor} {
+                order: 1;
+                width: 50%;
+                padding: 1em;
+
+                p {
+                    margin: 0 auto;
+                    width: 70%;
+                }
+            }
+        }
+
+        .prob1liner {
+            order: 1;
+            width: 90%;
+            margin: 0 auto;
+            font-style: italic;
+            font-weight: bold;
+            @media #{$tablet} {
+                order: 3;
+                width: 50%;
+                padding: 5em 1em;
+
+                p {
+                    margin: 0 auto;
+                    width: 80%;
+                }
+            }
+            @media #{$mac13} {
+                order: 3;
+                width: 50%;
+                padding: 5em 1em;
+
+                p {
+                    margin: 0 auto;
+                    width: 80%;
+                }
+            }
+            @media #{$mac15} {
+                order: 3;
+                width: 50%;
+                padding: 5em 1em;
+
+                p {
+                    margin: 0 auto;
+                    width: 60%;
+                }
+            }
+            @media #{$monitor} {
+                order: 3;
+                width: 50%;
+                padding: 3em 1em;
+
+                p {
+                    font-size: 1.2em;
+                    margin: 0 auto;
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    .probimgdiv {
+        width: 90%;
+        margin: 0 auto;
+        @media #{$monitor} {
+            width: 75%;
+            padding: 6em 0;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+///////////// PROCESS ////////////
+
+#processsection {
+    background-color: $esaurgrey1;
+    width: 95%;
+    margin: 0 auto 4em;
+
+    .processdiagdiv {
+        width: 90%;
+        margin: 0 auto;
+        @media #{$tablet} {
+            width: 80%;
+        }
+        @media #{$mac13} {
+            width: 65%;
+        }
+        @media #{$mac15} {
+            width: 45%;
+        }
+        @media #{$monitor} {
+            width: 40%;
+            padding: 8em 0;
+        }
+    }
+}
+///////////// SHIFT ////////////
+
+#shiftsection {
+    background-color: $esaurgreen;
+    width: 95%;
+    margin: 0 auto 4em;
+
+    .ufdiagdiv {
+        width: 90%;
+        margin: 0 auto;
+        @media #{$tablet} {
+            width: 80%;
+        }
+        @media #{$mac13} {
+            width: 70%;
+        }
+        @media #{$mac15} {
+            width: 55%;
+        }
+        @media #{$monitor} {
+            width: 50%;
+            padding: 6em 0;
+        }
+    }
+}
+///////////// VISUAL DESIGN ////////////
+
+#vdsection {
+    .vdflex {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: $esaurgrey1;
+        width: 95%;
+        margin: 0 auto 4em;
+        padding: 4em 0;
+
+        .vddesc {
+            margin: 0 auto;
+            width: 90%;
+            font-size: 0.8em;
+            @media #{$mac13} {
+                width: 25%;
+            }
+            @media #{$mac15} {
+                width: 25%;
+                font-size: 1em;
+            }
+            @media #{$monitor} {
+                width: 25%;
+                font-size: 1em;
+            }
+        }
+
+        .vdimgdiv {
+            width: 90%;
+            margin: 0 auto;
+
+            img {
+                width: 100%;
+            }
+            @media #{$mac13} {
+                width: 60%;
+            }
+            @media #{$mac15} {
+                width: 60%;
+            }
+            @media #{$monitor} {
+                width: 40%;
+            }
+        }
+    }
+}
+///////////// REFLECTION ////////////
+
+#reflectionsection {
+    .reflectionflex {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+
+        .learnings {
+            // background-color: red;
+            @media #{$tablet} {
+                width: 70%;
+                margin: 0 auto;
+            }
+            @media #{$mac13} {
+                width: 45%;
+                margin: 0 auto;
+            }
+            @media #{$mac15} {
+                width: 35%;
+                margin: 0 auto;
+            }
+            @media #{$monitor} {
+                width: 35%;
+                margin: 0 auto;
+            }
+        }
+
+        .smalltitle {
+            font-size: 1.4em;
+            color: $esaurblue;
+            font-weight: bold;
+        }
+    }
+}
