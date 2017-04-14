@@ -809,7 +809,7 @@ p {
       font-weight: 800; }
 
 #two {
-  background-image: url("img/homepage/dscoutcouplebg.png");
+  background-image: url("img/eventosaur/herobg2.png");
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -838,6 +838,10 @@ p {
   #two .contenthalf {
     width: 90%;
     margin: 0 auto; }
+    #two .contenthalf .esaurtitle {
+      font-size: 1.8em;
+      color: #00377D;
+      font-weight: 300; }
     @media (min-width: 375px) and (max-width: 768px) {
       #two .contenthalf {
         width: 90%;
@@ -858,13 +862,17 @@ p {
       #two .contenthalf {
         width: 40%;
         padding: 6em 0 0 4em; }
-        #two .contenthalf .title {
-          font-size: 3em; }
+        #two .contenthalf .esaurtitle {
+          font-size: 3em;
+          color: #00377D;
+          font-weight: 300; }
         #two .contenthalf p {
           font-size: 1.3em; }
         #two .contenthalf .readmore {
           width: 190px;
           height: 60px; } }
+    #two .contenthalf .projdesc {
+      color: #00377D; }
     #two .contenthalf .projcontent {
       width: 100%; }
       @media (min-width: 375px) and (max-width: 768px) {
@@ -880,15 +888,15 @@ p {
         #two .contenthalf .projcontent {
           width: 70%; } }
   #two .imagehalf {
-    width: 80%;
+    width: 90%;
     margin: 0 auto; }
     @media (min-width: 375px) and (max-width: 768px) {
       #two .imagehalf {
-        width: 60%;
+        width: 90%;
         margin: 0 auto; } }
     @media (min-width: 768px) and (max-width: 1023px) {
       #two .imagehalf {
-        width: 35%; } }
+        width: 50%; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #two .imagehalf {
         width: 40%; } }
@@ -899,38 +907,23 @@ p {
       #two .imagehalf {
         width: 40%; } }
     #two .imagehalf .imagediv {
-      width: 90%;
+      width: 100%;
       margin: 0 auto;
       padding: 4em 0; }
       #two .imagehalf .imagediv img {
         width: 100%; }
-      @media (min-width: 375px) and (max-width: 768px) {
-        #two .imagehalf .imagediv {
-          width: 90%;
-          margin: 0 auto; } }
-      @media (min-width: 768px) and (max-width: 1023px) {
-        #two .imagehalf .imagediv {
-          width: 80%; } }
-      @media (min-width: 1024px) and (max-width: 1439px) {
-        #two .imagehalf .imagediv {
-          width: 60%; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
-        #two .imagehalf .imagediv {
-          width: 50%; } }
-      @media (min-width: 1820px) {
-        #two .imagehalf .imagediv {
-          width: 50%; } }
   #two .datescoutline {
-    background: #FC136A; }
+    background: #00BFA0; }
   #two .datescouttag {
-    color: #FC136A; }
+    color: #00BFA0; }
   #two .datescoutcta {
-    border: 1px solid #FC136A;
-    border-radius: 4px; }
+    border: 1px solid #00BFA0;
+    border-radius: 4px;
+    color: #00377D; }
   #two .datescoutcta:hover {
     transition: all 0.30s ease-in-out;
     border: 1px solid white;
-    background: #FC136A;
+    background: #00BFA0;
     cursor: pointer; }
     #two .datescoutcta:hover .readmoretext {
       color: white;

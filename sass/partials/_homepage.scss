@@ -949,10 +949,10 @@ p {
         }
     }
 }
-//////////////////// NEW DATESCOUT  //////////////////////////
+//////////////////// EVENTOSAUR  //////////////////////////
 
 #two {
-    background-image: url("img/homepage/dscoutcouplebg.png");
+    background-image: url("img/eventosaur/herobg2.png");
     width: 100%;
     background-size: cover;
     background-position: center center;
@@ -984,6 +984,12 @@ p {
     .contenthalf {
         width: 90%;
         margin: 0 auto;
+
+        .esaurtitle {
+            font-size: 1.8em;
+            color: $esaurblue;
+            font-weight: 300;
+        }
         @media #{$phablet} {
             width: 90%;
             padding: 4em 0 0 2em;
@@ -1004,8 +1010,10 @@ p {
             width: 40%;
             padding: 6em 0 0 4em;
 
-            .title {
+            .esaurtitle {
                 font-size: 3em;
+                color: $esaurblue;
+                font-weight: 300;
             }
 
             p {
@@ -1016,6 +1024,10 @@ p {
                 width: 190px;
                 height: 60px;
             }
+        }
+
+        .projdesc {
+            color: $esaurblue;
         }
 
         .projcontent {
@@ -1036,14 +1048,14 @@ p {
     }
 
     .imagehalf {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         @media #{$phablet} {
-            width: 60%;
+            width: 90%;
             margin: 0 auto;
         }
         @media #{$tablet} {
-            width: 35%;
+            width: 50%;
         }
         @media #{$mac13} {
             width: 40%;
@@ -1056,49 +1068,50 @@ p {
         }
 
         .imagediv {
-            width: 90%;
+            width: 100%;
             margin: 0 auto;
             padding: 4em 0;
 
             img {
                 width: 100%;
             }
-            @media #{$phablet} {
-                width: 90%;
-                margin: 0 auto;
-            }
-            @media #{$tablet} {
-                width: 80%;
-            }
-            @media #{$mac13} {
-                width: 60%;
-            }
-            @media #{$mac15} {
-                width: 50%;
-            }
-            @media #{$monitor} {
-                width: 50%;
-            }
+            // @media #{$phablet} {
+            //     width: 90%;
+            //     margin: 0 auto;
+            // }
+            // @media #{$tablet} {
+            //     width: 80%;
+            // }
+            // @media #{$mac13} {
+            //     width: 60%;
+            // }
+            // @media #{$mac15} {
+            //     width: 50%;
+            // }
+            // @media #{$monitor} {
+            //     width: 50%;
+            // }
         }
     }
 
     .datescoutline {
-        background: $pink;
+        background: $esaurgreen;
     }
 
     .datescouttag {
-        color: $pink;
+        color: $esaurgreen;
     }
 
     .datescoutcta {
-        border: 1px solid $pink;
+        border: 1px solid $esaurgreen;
         border-radius: 4px;
+        color: $esaurblue;
     }
 
     .datescoutcta:hover {
         transition: all 0.30s ease-in-out;
         border: 1px solid white;
-        background: $pink;
+        background: $esaurgreen;
         cursor: pointer;
 
         .readmoretext {
