@@ -1,5 +1,6 @@
 * {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  transition: 0.3s all ease-in-out; }
 
 .titlediv {
   text-align: center;
@@ -61,7 +62,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  height: 480px;
+  height: auto;
   position: relative; }
   @media (min-width: 375px) and (max-width: 768px) {
     #herosection {
@@ -113,7 +114,8 @@
         width: 40%; } }
   #herosection .macdiv {
     width: 85%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    z-index: 999; }
     @media (min-width: 768px) and (max-width: 1023px) {
       #herosection .macdiv {
         width: 75%;
@@ -132,7 +134,7 @@
       #herosection .macdiv {
         width: 55%;
         position: absolute;
-        top: 60%;
+        top: 55%;
         transform: translateY(-50%);
         left: -10em; } }
     @media (min-width: 1820px) {
