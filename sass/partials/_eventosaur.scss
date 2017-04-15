@@ -134,6 +134,7 @@
     .macdiv {
         width: 85%;
         margin: 0 auto;
+        z-index: 999;
         @media #{$tablet} {
             width: 75%;
             position: absolute;
