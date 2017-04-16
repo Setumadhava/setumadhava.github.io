@@ -235,7 +235,23 @@ p {
             background: rgba(129,129,129,0.5);
             padding: 1em 2em;
             position: relative;
-            // width: 100%;
+            width: 100%;
+            @media #{$phablet} {
+                width: auto;
+            }
+            @media #{$tablet} {
+                width: auto;
+            }
+            @media #{$mac13} {
+                width: auto;
+            }
+            @media #{$mac15} {
+                width: auto;
+            }
+            @media #{$monitor} {
+                width: auto;
+            }
+
             .redunderline {
                 height: 3px;
                 background: rgba(255,0,0,0.5);

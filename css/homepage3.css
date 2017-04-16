@@ -198,7 +198,23 @@ p {
     #projectsection .projectcontainerbig .label {
       background: rgba(129, 129, 129, 0.5);
       padding: 1em 2em;
-      position: relative; }
+      position: relative;
+      width: 100%; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #projectsection .projectcontainerbig .label {
+          width: auto; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #projectsection .projectcontainerbig .label {
+          width: auto; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #projectsection .projectcontainerbig .label {
+          width: auto; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #projectsection .projectcontainerbig .label {
+          width: auto; } }
+      @media (min-width: 1820px) {
+        #projectsection .projectcontainerbig .label {
+          width: auto; } }
       #projectsection .projectcontainerbig .label .redunderline {
         height: 3px;
         background: rgba(255, 0, 0, 0.5);
