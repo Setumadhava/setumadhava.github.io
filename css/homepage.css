@@ -173,6 +173,9 @@ p {
     background-image: url("img/homepage2/smarthomebg.png"); }
   #projectsection .piucontainer {
     background-image: url("img/homepage2/piubg.png"); }
+  #projectsection .photogcontainer {
+    min-height: 500px;
+    background-image: url("img/homepage2/photogbg.png"); }
   #projectsection .projectcontainerbig {
     display: block;
     background-size: cover;
@@ -249,11 +252,16 @@ p {
           font-size: 2em;
           color: white;
           margin-bottom: 0.2em; }
+        #projectsection .projectcontainerbig .projectflex .contenthalf .photogtitle {
+          color: white; }
         #projectsection .projectcontainerbig .projectflex .contenthalf .line {
           width: 80px;
           height: 3px; }
         #projectsection .projectcontainerbig .projectflex .contenthalf .piuline {
           background-color: #026F8B; }
+        #projectsection .projectcontainerbig .projectflex .contenthalf .photogline {
+          background-color: white;
+          margin-bottom: 5em; }
         #projectsection .projectcontainerbig .projectflex .contenthalf .tags {
           font-size: 0.9em;
           color: #d8d8d8; }
@@ -262,6 +270,8 @@ p {
           color: white;
           line-height: 1.8em;
           font-size: 0.9em; }
+        #projectsection .projectcontainerbig .projectflex .contenthalf .photogdesc {
+          color: #00377D; }
         #projectsection .projectcontainerbig .projectflex .contenthalf .readmorebtn {
           width: 143px;
           height: 40px;
@@ -274,11 +284,20 @@ p {
             color: white; }
           #projectsection .projectcontainerbig .projectflex .contenthalf .readmorebtn p {
             padding-top: 0.4em; }
+        #projectsection .projectcontainerbig .projectflex .contenthalf .photogbtn p {
+          color: #00377D; }
         #projectsection .projectcontainerbig .projectflex .contenthalf .piubtn:hover {
           background-color: #026F8B;
           border: 1.5px solid white;
           cursor: pointer; }
           #projectsection .projectcontainerbig .projectflex .contenthalf .piubtn:hover p {
+            color: white;
+            font-weight: bold; }
+        #projectsection .projectcontainerbig .projectflex .contenthalf .photogbtn:hover {
+          background-color: #00377D;
+          border: 1.5px solid white;
+          cursor: pointer; }
+          #projectsection .projectcontainerbig .projectflex .contenthalf .photogbtn:hover p {
             color: white;
             font-weight: bold; }
       #projectsection .projectcontainerbig .projectflex .imagehalf {

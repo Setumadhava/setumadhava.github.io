@@ -208,6 +208,11 @@ p {
         background-image: url("img/homepage2/piubg.png");
     }
 
+    .photogcontainer {
+        min-height: 500px;
+        background-image: url("img/homepage2/photogbg.png");
+    }
+
     .projectcontainerbig {
         display: block;
         background-size: cover;
@@ -293,6 +298,10 @@ p {
                     margin-bottom: 0.2em;
                 }
 
+                .photogtitle {
+                    color: white;
+                }
+
                 .line {
                     width: 80px;
                     height: 3px;
@@ -300,6 +309,11 @@ p {
 
                 .piuline {
                     background-color: $piudarkblue;
+                }
+
+                .photogline {
+                    background-color: white;
+                    margin-bottom: 5em;
                 }
 
                 .tags {
@@ -312,6 +326,10 @@ p {
                     color: white;
                     line-height: 1.8em;
                     font-size: 0.9em;
+                }
+
+                .photogdesc {
+                    color: $esaurblue;
                 }
 
                 .readmorebtn {
@@ -332,8 +350,25 @@ p {
                     }
                 }
 
+                .photogbtn {
+                    p {
+                        color: $esaurblue;
+                    }
+                }
+
                 .piubtn:hover {
                     background-color: $piudarkblue;
+                    border: 1.5px solid white;
+                    cursor: pointer;
+
+                    p {
+                        color: white;
+                        font-weight: bold;
+                    }
+                }
+
+                .photogbtn:hover {
+                    background-color: $esaurblue;
                     border: 1.5px solid white;
                     cursor: pointer;
 
