@@ -1,56 +1,883 @@
-/*
-Error: File to import not found or unreadable: partials/homepage.
-       Load path: /Users/Setumac/Google Drive/Portfolio/Portfoliov3/Portfolio/sass
-        on line 4 of sass/homepage3.scss
+* {
+  transition: 0.3s all ease-in-out; }
 
-1: 
-2: 
-3: @import 'partials/variables';
-4: @import 'partials/homepage';
-5: @import 'partials/global';
+p {
+  font-family: "Roboto", sans-serif; }
 
-Backtrace:
-sass/homepage3.scss:4
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/import_node.rb:45:in `import'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/Users/Setumac/.rvm/gems/ruby-2.2.1/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: partials/homepage.\A        Load path: /Users/Setumac/Google Drive/Portfolio/Portfoliov3/Portfolio/sass\A         on line 4 of sass/homepage3.scss\A \A 1: \A 2: \A 3: @import 'partials/variables';\A 4: @import 'partials/homepage';\A 5: @import 'partials/global';"; }
+#intro {
+  background-image: url("img/homepage/blackbg.png");
+  width: 100%;
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 100%; }
+
+.introcontent {
+  width: 80%;
+  padding-top: 8em;
+  padding-left: 2em; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .introcontent {
+      padding-top: 11em;
+      padding-left: 2em; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .introcontent {
+      padding-top: 11em;
+      padding-left: 5em; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .introcontent {
+      padding-top: 18em;
+      padding-left: 5em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .introcontent {
+      padding-top: 14em;
+      padding-left: 8em; } }
+  @media (min-width: 1820px) {
+    .introcontent {
+      padding-top: 14em;
+      padding-left: 10em; }
+      .introcontent .introbody {
+        font-size: 1.3em; } }
+
+#introtitle {
+  font-size: 2em;
+  color: white;
+  width: 20%;
+  font-family: "Roboto Mono", monospace; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #introtitle {
+      font-size: 3em; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #introtitle {
+      font-size: 3em;
+      width: 100%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #introtitle {
+      font-size: 3em;
+      width: 100%; } }
+  @media (min-width: 1820px) {
+    #introtitle {
+      font-size: 3em;
+      width: 100%; } }
+
+.ixdtitle {
+  color: #B5B5B5;
+  font-size: 1.2em; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .ixdtitle {
+      font-size: 1.2em; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .ixdtitle {
+      font-size: 1.2em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .ixdtitle {
+      font-size: 1.4em; } }
+  @media (min-width: 1820px) {
+    .ixdtitle {
+      font-size: 1.6em; } }
+
+.introbody {
+  font-size: 1em;
+  color: white;
+  line-height: 2em;
+  width: 95%;
+  padding-top: 3em; }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .introbody {
+      width: 35%;
+      padding-top: 3em;
+      font-size: 1em; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .introbody {
+      width: 50%;
+      font-size: 1.1em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .introbody {
+      width: 30%;
+      font-size: 1.1em; } }
+  @media (min-width: 1820px) {
+    .introbody {
+      width: 27%;
+      font-size: 1.1em;
+      padding-top: 5em; } }
+
+#setu {
+  color: #17DECB; }
+
+#projects {
+  position: absolute;
+  margin: 0 auto;
+  width: 40px;
+  bottom: 25px;
+  left: 44%;
+  transform: translateX(-50%);
+  animation-name: blinker;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #projects {
+      left: 45.5%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #projects {
+      left: 47.5%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #projects {
+      left: 48%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #projects {
+      left: 48.65%; } }
+  @media (min-width: 1820px) {
+    #projects {
+      left: 49%; } }
+
+@keyframes blinker {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-15px); }
+  100% {
+    transform: translateY(0px); } }
+.arrowdowndiv:hover {
+  animation-play-state: paused; }
+
+.twoembottom {
+  margin-bottom: 2em; }
+
+.fourembottom {
+  margin-bottom: 4em; }
+
+#sectiontitle {
+  margin: 3em 0; }
+  #sectiontitle p {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-weight: 400;
+    color: #032A2F; }
+
+#projectsection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3em 0; }
+  #projectsection .esaurcontainer {
+    background-image: url("img/homepage2/esaurbg.png"); }
+  #projectsection .expediacontainer {
+    background-image: url("img/homepage2/expediabg.png"); }
+  #projectsection .actilistcontainer {
+    background-image: url("img/homepage2/actibg.png"); }
+  #projectsection .smarthomecontainer {
+    background-image: url("img/homepage2/smarthomebg.png"); }
+  #projectsection .piucontainer {
+    background-image: url("img/homepage2/piubg.png"); }
+  #projectsection .projectcontainerbig {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100%;
+    margin: 0.5em;
+    border-radius: 2px;
+    width: 95%; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #projectsection .projectcontainerbig {
+        width: 90%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #projectsection .projectcontainerbig {
+        width: 90%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #projectsection .projectcontainerbig {
+        width: 94.5%; } }
+    @media (min-width: 1820px) {
+      #projectsection .projectcontainerbig {
+        width: 83.25%; } }
+    #projectsection .projectcontainerbig .label {
+      background: rgba(129, 129, 129, 0.5);
+      padding: 1em 2em;
+      position: relative; }
+      #projectsection .projectcontainerbig .label .redunderline {
+        height: 3px;
+        background: rgba(255, 0, 0, 0.5);
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        transform: translateX(50%); }
+    #projectsection .projectcontainerbig .projectflex {
+      display: flex;
+      flex-wrap: wrap; }
+      #projectsection .projectcontainerbig .projectflex .contenthalf {
+        padding: 1.5em;
+        width: 100%; }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          #projectsection .projectcontainerbig .projectflex .contenthalf {
+            width: 50%;
+            padding: 2.5em; } }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          #projectsection .projectcontainerbig .projectflex .contenthalf {
+            width: 50%;
+            padding: 2.5em; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          #projectsection .projectcontainerbig .projectflex .contenthalf {
+            width: 50%;
+            padding: 2.5em 12em; } }
+        @media (min-width: 1820px) {
+          #projectsection .projectcontainerbig .projectflex .contenthalf {
+            width: 50%;
+            padding: 5em 15em; } }
+        #projectsection .projectcontainerbig .projectflex .contenthalf .title {
+          font-size: 2em;
+          color: white;
+          margin-bottom: 0.2em; }
+        #projectsection .projectcontainerbig .projectflex .contenthalf .line {
+          width: 80px;
+          height: 3px; }
+        #projectsection .projectcontainerbig .projectflex .contenthalf .piuline {
+          background-color: #026F8B; }
+        #projectsection .projectcontainerbig .projectflex .contenthalf .tags {
+          font-size: 0.9em;
+          color: #d8d8d8; }
+        #projectsection .projectcontainerbig .projectflex .contenthalf .projdesc {
+          width: 85%;
+          color: white;
+          line-height: 1.8em;
+          font-size: 0.9em; }
+        #projectsection .projectcontainerbig .projectflex .contenthalf .readmorebtn {
+          width: 143px;
+          height: 40px;
+          text-align: center;
+          border-radius: 50px;
+          border: 1.5px solid white;
+          color: white;
+          font-size: 0.9em; }
+          #projectsection .projectcontainerbig .projectflex .contenthalf .readmorebtn a {
+            color: white; }
+          #projectsection .projectcontainerbig .projectflex .contenthalf .readmorebtn p {
+            padding-top: 0.4em; }
+        #projectsection .projectcontainerbig .projectflex .contenthalf .piubtn:hover {
+          background-color: #026F8B;
+          border: 1.5px solid white;
+          cursor: pointer; }
+          #projectsection .projectcontainerbig .projectflex .contenthalf .piubtn:hover p {
+            color: white;
+            font-weight: bold; }
+      #projectsection .projectcontainerbig .projectflex .imagehalf {
+        width: 100%;
+        position: relative; }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          #projectsection .projectcontainerbig .projectflex .imagehalf {
+            width: 50%;
+            position: relative; } }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          #projectsection .projectcontainerbig .projectflex .imagehalf {
+            width: 50%; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          #projectsection .projectcontainerbig .projectflex .imagehalf {
+            width: 50%;
+            position: relative; } }
+        @media (min-width: 1820px) {
+          #projectsection .projectcontainerbig .projectflex .imagehalf {
+            width: 50%;
+            position: relative; } }
+        #projectsection .projectcontainerbig .projectflex .imagehalf .piuimg {
+          width: 80%;
+          margin: 0 auto; }
+          @media (min-width: 1024px) and (max-width: 1439px) {
+            #projectsection .projectcontainerbig .projectflex .imagehalf .piuimg {
+              width: 58%; } }
+          @media (min-width: 1440px) and (max-width: 1819px) {
+            #projectsection .projectcontainerbig .projectflex .imagehalf .piuimg {
+              width: 50%; } }
+          @media (min-width: 1820px) {
+            #projectsection .projectcontainerbig .projectflex .imagehalf .piuimg {
+              width: 40%; } }
+          #projectsection .projectcontainerbig .projectflex .imagehalf .piuimg img {
+            bottom: 0; }
+  #projectsection .projectcontainer {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100%;
+    margin: 0.5em;
+    border-radius: 2px; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #projectsection .projectcontainer {
+        width: 90%;
+        margin: 1em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #projectsection .projectcontainer {
+        width: 90%;
+        margin: 1em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #projectsection .projectcontainer {
+        width: 45%;
+        margin: 2em;
+        max-height: 440px;
+        min-height: 440px; } }
+    @media (min-width: 1820px) {
+      #projectsection .projectcontainer {
+        width: 40%;
+        margin: 2em;
+        max-height: 440px;
+        min-height: 440px; } }
+    #projectsection .projectcontainer .label {
+      background: rgba(129, 129, 129, 0.5);
+      padding: 1em 2em;
+      position: relative; }
+      #projectsection .projectcontainer .label .redunderline {
+        height: 3px;
+        background: rgba(255, 0, 0, 0.5);
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        transform: translateX(50%); }
+    #projectsection .projectcontainer .projectflex {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0.5em; }
+      #projectsection .projectcontainer .projectflex .contenthalf {
+        padding: 1em;
+        width: 100%; }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          #projectsection .projectcontainer .projectflex .contenthalf {
+            width: 50%;
+            padding: 2em; } }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          #projectsection .projectcontainer .projectflex .contenthalf {
+            width: 50%;
+            padding: 2em; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          #projectsection .projectcontainer .projectflex .contenthalf {
+            width: 50%;
+            padding: 2em; } }
+        @media (min-width: 1820px) {
+          #projectsection .projectcontainer .projectflex .contenthalf {
+            width: 50%;
+            padding: 2em; } }
+        #projectsection .projectcontainer .projectflex .contenthalf .title {
+          font-size: 2em;
+          color: white;
+          margin-bottom: 0.2em; }
+        #projectsection .projectcontainer .projectflex .contenthalf .line {
+          width: 80px;
+          height: 3px; }
+        #projectsection .projectcontainer .projectflex .contenthalf .esaurline {
+          background-color: #00377D; }
+        #projectsection .projectcontainer .projectflex .contenthalf .expedialine {
+          background-color: #FDCF08; }
+        #projectsection .projectcontainer .projectflex .contenthalf .actiline {
+          background-color: #0FE5A8; }
+        #projectsection .projectcontainer .projectflex .contenthalf .smarthomeline {
+          background-color: #D714E7; }
+        #projectsection .projectcontainer .projectflex .contenthalf .tags {
+          font-size: 0.9em;
+          color: #d8d8d8; }
+        #projectsection .projectcontainer .projectflex .contenthalf .projdesc {
+          width: 85%;
+          color: white;
+          line-height: 1.8em;
+          font-size: 0.9em; }
+        #projectsection .projectcontainer .projectflex .contenthalf .readmorebtn {
+          width: 143px;
+          height: 40px;
+          text-align: center;
+          border-radius: 50px;
+          border: 1.5px solid white;
+          color: white;
+          font-size: 0.9em; }
+          #projectsection .projectcontainer .projectflex .contenthalf .readmorebtn a {
+            color: white; }
+          #projectsection .projectcontainer .projectflex .contenthalf .readmorebtn p {
+            padding-top: 0.4em; }
+        #projectsection .projectcontainer .projectflex .contenthalf .esaurbtn:hover {
+          background-color: #00377D;
+          border: 1.5px solid white;
+          cursor: pointer; }
+          #projectsection .projectcontainer .projectflex .contenthalf .esaurbtn:hover p {
+            color: white;
+            font-weight: bold; }
+        #projectsection .projectcontainer .projectflex .contenthalf .expediabtn:hover {
+          background-color: #FDCF08;
+          border: 1.5px solid white;
+          cursor: pointer; }
+          #projectsection .projectcontainer .projectflex .contenthalf .expediabtn:hover p {
+            color: #033260;
+            font-weight: bold; }
+        #projectsection .projectcontainer .projectflex .contenthalf .actibtn:hover {
+          background-color: #0FE5A8;
+          border: 1.5px solid white;
+          cursor: pointer; }
+          #projectsection .projectcontainer .projectflex .contenthalf .actibtn:hover p {
+            color: white;
+            font-weight: bold; }
+        #projectsection .projectcontainer .projectflex .contenthalf .smarthomebtn:hover {
+          background-color: #D714E7;
+          border: 1.5px solid white;
+          cursor: pointer; }
+          #projectsection .projectcontainer .projectflex .contenthalf .smarthomebtn:hover p {
+            color: white;
+            font-weight: bold; }
+      #projectsection .projectcontainer .projectflex .imagehalf {
+        width: 100%;
+        margin: 2em 0; }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          #projectsection .projectcontainer .projectflex .imagehalf {
+            width: 50%;
+            position: relative; } }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          #projectsection .projectcontainer .projectflex .imagehalf {
+            width: 50%;
+            position: relative; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          #projectsection .projectcontainer .projectflex .imagehalf {
+            width: 50%;
+            position: relative; } }
+        @media (min-width: 1820px) {
+          #projectsection .projectcontainer .projectflex .imagehalf {
+            width: 50%;
+            position: relative; } }
+        #projectsection .projectcontainer .projectflex .imagehalf img {
+          width: 100%; }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          #projectsection .projectcontainer .projectflex .imagehalf .esaurimg {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%); } }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          #projectsection .projectcontainer .projectflex .imagehalf .esaurimg {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%); } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          #projectsection .projectcontainer .projectflex .imagehalf .esaurimg {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%); } }
+        @media (min-width: 1820px) {
+          #projectsection .projectcontainer .projectflex .imagehalf .esaurimg {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%); } }
+        #projectsection .projectcontainer .projectflex .imagehalf .expediaimg {
+          width: 60%;
+          margin: 1em auto; }
+          @media (min-width: 375px) and (max-width: 768px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .expediaimg {
+              width: 50%;
+              margin: 1em auto; } }
+          @media (min-width: 768px) and (max-width: 1023px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .expediaimg {
+              position: absolute;
+              top: 10%;
+              transform: translateY(-50%);
+              transform: translateX(50%); } }
+          @media (min-width: 1024px) and (max-width: 1439px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .expediaimg {
+              width: 40%;
+              position: absolute;
+              top: 10%;
+              transform: translateY(-50%);
+              transform: translateX(50%); } }
+          @media (min-width: 1440px) and (max-width: 1819px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .expediaimg {
+              position: absolute;
+              top: 15%;
+              transform: translateY(-50%);
+              transform: translateX(30%); } }
+          @media (min-width: 1820px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .expediaimg {
+              width: 50%;
+              position: absolute;
+              top: 15%;
+              transform: translateY(-50%);
+              transform: translateX(30%); } }
+        #projectsection .projectcontainer .projectflex .imagehalf .actiimg {
+          width: 85%;
+          margin: 0 auto; }
+          @media (min-width: 375px) and (max-width: 768px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .actiimg {
+              width: 70%;
+              margin: 1em auto; } }
+          @media (min-width: 1024px) and (max-width: 1439px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .actiimg {
+              width: 50%; } }
+          @media (min-width: 1440px) and (max-width: 1819px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .actiimg {
+              width: 70%; } }
+          @media (min-width: 1820px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .actiimg {
+              width: 60%; } }
+  #projectsection .projectcontainer:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  #projectsection .projectcontainerbig:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.greybg {
+  background-color: #EEEEEE; }
+
+#aboutsection {
+  padding: 8em 0; }
+  @media (min-width: 1820px) {
+    #aboutsection {
+      width: 70%;
+      margin: 0 auto; } }
+  #aboutsection .abouttitle {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-weight: 400;
+    color: #032A2F;
+    padding-bottom: 2em; }
+  #aboutsection .mushdiflex {
+    display: flex;
+    flex-wrap: wrap; }
+    #aboutsection .mushdiflex .mushdidiv {
+      width: 90%;
+      margin: 0 auto; }
+      #aboutsection .mushdiflex .mushdidiv img {
+        width: 100%; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #aboutsection .mushdiflex .mushdidiv {
+          width: 60%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #aboutsection .mushdiflex .mushdidiv {
+          width: 50%; }
+          #aboutsection .mushdiflex .mushdidiv .mushdibox {
+            width: 70%;
+            padding-top: 2em;
+            margin: 0 auto; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #aboutsection .mushdiflex .mushdidiv {
+          width: 50%; }
+          #aboutsection .mushdiflex .mushdidiv .mushdibox {
+            width: 60%;
+            padding-top: 2em;
+            margin: 0 auto; } }
+      @media (min-width: 1820px) {
+        #aboutsection .mushdiflex .mushdidiv {
+          width: 50%; }
+          #aboutsection .mushdiflex .mushdidiv .mushdibox {
+            width: 55%;
+            padding-top: 2em;
+            margin: 0 auto; } }
+    #aboutsection .mushdiflex .aboutmediv {
+      width: 90%;
+      padding: 4em 0;
+      margin: 0 auto; }
+      #aboutsection .mushdiflex .aboutmediv p {
+        line-height: 2em; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #aboutsection .mushdiflex .aboutmediv {
+          width: 80%; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #aboutsection .mushdiflex .aboutmediv {
+          width: 60%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #aboutsection .mushdiflex .aboutmediv {
+          width: 50%; }
+          #aboutsection .mushdiflex .aboutmediv .aboutmebox {
+            width: 85%;
+            margin: 0 auto; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #aboutsection .mushdiflex .aboutmediv {
+          width: 50%; }
+          #aboutsection .mushdiflex .aboutmediv .aboutmebox {
+            width: 65%;
+            margin: 0 auto; } }
+      @media (min-width: 1820px) {
+        #aboutsection .mushdiflex .aboutmediv {
+          width: 50%; }
+          #aboutsection .mushdiflex .aboutmediv .aboutmebox {
+            width: 85%;
+            margin: 0 auto; } }
+  #aboutsection .skillscontainer .skillstitle {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 600;
+    padding: 2em 0; }
+  #aboutsection .skillscontainer .skillsflex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    #aboutsection .skillscontainer .skillsflex .skilldiv {
+      width: 90%;
+      margin: 0 auto; }
+      #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox {
+        width: 70%;
+        margin: 0 auto;
+        padding: 4em 0; }
+        #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox img {
+          width: 100%; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #aboutsection .skillscontainer .skillsflex .skilldiv {
+          width: 51%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #aboutsection .skillscontainer .skillsflex .skilldiv {
+          width: 33%; }
+          #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox {
+            width: 55%; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #aboutsection .skillscontainer .skillsflex .skilldiv {
+          width: 33%; }
+          #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox {
+            width: 40%; } }
+      @media (min-width: 1820px) {
+        #aboutsection .skillscontainer .skillsflex .skilldiv {
+          width: 33%; }
+          #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox {
+            width: 55%; } }
+      #aboutsection .skillscontainer .skillsflex .skilldiv img {
+        width: 100%; }
+
+.container,
+body,
+html {
+  height: 100%;
+  width: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
+
+.nav {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1000; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .nav {
+      justify-content: space-around; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .nav {
+      justify-content: flex-end; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  @media (min-width: 1820px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  .nav .navitem {
+    padding: 1em 1.5em;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-align: center;
+    width: 33%; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .nav .navitem {
+        padding: 1.5em 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        width: 150px; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        width: 150px; } }
+    @media (min-width: 1820px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        font-size: 1em;
+        width: 200px; } }
+  .nav .navitem:hover {
+    transition: all 0.30s ease-in-out;
+    cursor: pointer;
+    background-color: white;
+    color: #272727;
+    font-weight: 900; }
+  .nav a {
+    color: #EEEEEE; }
+
+.footernavcontainer {
+  display: flex;
+  justify-content: space-between; }
+  .footernavcontainer .navbutton {
+    width: 50%;
+    padding: 1em 0;
+    background-color: #C9EB91;
+    text-align: center; }
+  .footernavcontainer .piunxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage/piubg.png");
+    width: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .piunxt:hover .nextprojbig,
+    .footernavcontainer .piunxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer .actinxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/actilist/herobg.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .actinxt:hover .nextprojbig,
+    .footernavcontainer .actinxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer .smarthomenxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/smarthome/homeimg2.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .smarthomenxt:hover .nextprojbig,
+    .footernavcontainer .smarthomenxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer .expedianxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage/hotel_room.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .expedianxt:hover .nextprojbig,
+    .footernavcontainer .expedianxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer .datescoutnxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage/dscoutcouplebg.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .datescoutnxt:hover .nextprojbig,
+    .footernavcontainer .datescoutnxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer a {
+    color: #424242; }
+  .footernavcontainer .nextprojsmall {
+    font-size: 0.8em; }
+  .footernavcontainer .nextprojbig {
+    font-size: 1em;
+    font-weight: 500; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1820px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+
+.footerdiv {
+  background-color: #292929;
+  width: 100%; }
+
+.getintouch {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  padding: 2em 0;
+  text-align: center; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .getintouch {
+      font-size: 1.5em; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .getintouch {
+      font-size: 1.5em;
+      text-align: center; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .getintouch {
+      font-size: 1.5em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .getintouch {
+      font-size: 1.5em; } }
+  @media (min-width: 1820px) {
+    .getintouch {
+      font-size: 1.5em; } }
+
+.iconsflex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 4em;
+  justify-content: center; }
+  .iconsflex .icondiv {
+    width: 28px;
+    margin: 0 2em; }
+  .iconsflex .mail {
+    fill: #EEEEEE;
+    width: 28px;
+    padding-top: 0.57em; }
+  .iconsflex .in {
+    fill: #EEEEEE;
+    width: 28px; }
+  .iconsflex .mailicon:hover .mail {
+    transition: all 0.20s ease-in-out;
+    fill: #DC4638; }
+  .iconsflex .inicon:hover .in {
+    transition: all 0.20s ease-in-out;
+    fill: #0075B5; }
+
+.resumeline {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: 1em; }
+  .resumeline #resume {
+    color: #D92A1C; }
+
+.arrowup {
+  width: 50px;
+  margin: 0 auto;
+  padding: 2em 0 3em; }
+
+.copyrightdiv {
+  width: 100%;
+  background-color: #3E3E3E; }
+
+.copyright {
+  padding: 0.8em 0;
+  text-align: center;
+  color: #ABABAB;
+  font-size: 0.8em;
+  margin: 0 auto; }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .copyright {
+      padding: 0.8em 0 0.8em 10em;
+      text-align: left; } }
+
+/*# sourceMappingURL=homepage3.css.map */

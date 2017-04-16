@@ -106,7 +106,7 @@ p {
 #setu {
   color: #17DECB; }
 
-#arrowdowndiv {
+#projects {
   position: absolute;
   margin: 0 auto;
   width: 40px;
@@ -118,19 +118,19 @@ p {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite; }
   @media (min-width: 375px) and (max-width: 768px) {
-    #arrowdowndiv {
+    #projects {
       left: 45.5%; } }
   @media (min-width: 768px) and (max-width: 1023px) {
-    #arrowdowndiv {
+    #projects {
       left: 47.5%; } }
   @media (min-width: 1024px) and (max-width: 1439px) {
-    #arrowdowndiv {
+    #projects {
       left: 48%; } }
   @media (min-width: 1440px) and (max-width: 1819px) {
-    #arrowdowndiv {
+    #projects {
       left: 48.65%; } }
   @media (min-width: 1820px) {
-    #arrowdowndiv {
+    #projects {
       left: 49%; } }
 
 @keyframes blinker {
