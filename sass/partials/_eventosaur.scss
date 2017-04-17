@@ -302,14 +302,17 @@
             order: 3;
             width: 90%;
             margin: 0 auto;
+            line-height: 1.8em;
             @media #{$tablet} {
                 order: 1;
                 width: 50%;
                 padding: 1em;
+                line-height: 1.8em;
 
                 p {
                     margin: 0 auto;
                     width: 95%;
+                    line-height: 1.8em;
                 }
             }
             @media #{$mac13} {
@@ -320,6 +323,7 @@
                 p {
                     margin: 0 auto;
                     width: 95%;
+                    line-height: 1.8em;
                 }
             }
             @media #{$mac15} {
@@ -330,6 +334,7 @@
                 p {
                     margin: 0 auto;
                     width: 75%;
+                    line-height: 1.8em;
                 }
             }
             @media #{$monitor} {
@@ -340,6 +345,7 @@
                 p {
                     margin: 0 auto;
                     width: 70%;
+                    line-height: 1.8em;
                 }
             }
         }

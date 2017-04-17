@@ -259,15 +259,18 @@
   #problemsection .probcontentflex .probhalf {
     order: 3;
     width: 90%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    line-height: 1.8em; }
     @media (min-width: 768px) and (max-width: 1023px) {
       #problemsection .probcontentflex .probhalf {
         order: 1;
         width: 50%;
-        padding: 1em; }
+        padding: 1em;
+        line-height: 1.8em; }
         #problemsection .probcontentflex .probhalf p {
           margin: 0 auto;
-          width: 95%; } }
+          width: 95%;
+          line-height: 1.8em; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #problemsection .probcontentflex .probhalf {
         order: 1;
@@ -275,7 +278,8 @@
         padding: 1em; }
         #problemsection .probcontentflex .probhalf p {
           margin: 0 auto;
-          width: 95%; } }
+          width: 95%;
+          line-height: 1.8em; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       #problemsection .probcontentflex .probhalf {
         order: 1;
@@ -283,7 +287,8 @@
         padding: 1em; }
         #problemsection .probcontentflex .probhalf p {
           margin: 0 auto;
-          width: 75%; } }
+          width: 75%;
+          line-height: 1.8em; } }
     @media (min-width: 1820px) {
       #problemsection .probcontentflex .probhalf {
         order: 1;
@@ -291,7 +296,8 @@
         padding: 1em; }
         #problemsection .probcontentflex .probhalf p {
           margin: 0 auto;
-          width: 70%; } }
+          width: 70%;
+          line-height: 1.8em; } }
   #problemsection .probcontentflex .prob1liner {
     order: 1;
     width: 90%;
