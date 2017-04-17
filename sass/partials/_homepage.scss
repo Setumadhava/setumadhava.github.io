@@ -695,14 +695,13 @@ p {
             }
         }
     }
-
-    .projectcontainer:hover {
-        box-shadow: 0 14px 28px rgba(0,0,0,0.55), 0 10px 10px rgba(0,0,0,0.22);
-    }
-
-    .projectcontainerbig:hover {
-        box-shadow: 0 14px 28px rgba(0,0,0,0.55), 0 10px 10px rgba(0,0,0,0.22);
-    }
+    // .projectcontainer:hover {
+    //     box-shadow: 0 14px 28px rgba(0,0,0,0.55), 0 10px 10px rgba(0,0,0,0.22);
+    // }
+    //
+    // .projectcontainerbig:hover {
+    //     box-shadow: 0 14px 28px rgba(0,0,0,0.55), 0 10px 10px rgba(0,0,0,0.22);
+    // }
 }
 ////////////////////////// ABOUT ME ////////////////////////////
 
@@ -812,7 +811,7 @@ p {
 
     .skillscontainer {
         .skillstitle {
-            font-size: 1.5em;
+            font-size: 2em;
             text-align: center;
             font-weight: 600;
             padding: 2em 0;

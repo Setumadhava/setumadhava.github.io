@@ -549,10 +549,6 @@ p {
           @media (min-width: 1820px) {
             #projectsection .projectcontainer .projectflex .imagehalf .actiimg {
               width: 60%; } }
-  #projectsection .projectcontainer:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 10px 10px rgba(0, 0, 0, 0.22); }
-  #projectsection .projectcontainerbig:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .greybg {
   background-color: #EEEEEE; }
@@ -633,7 +629,7 @@ p {
             width: 85%;
             margin: 0 auto; } }
   #aboutsection .skillscontainer .skillstitle {
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
     font-weight: 600;
     padding: 2em 0; }
