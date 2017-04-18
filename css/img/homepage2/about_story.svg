@@ -5,16 +5,16 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop" transform="translate(-210.000000, -628.000000)">
-            <g id="Group" transform="translate(210.000000, 622.000000)">
+        <g id="Desktop" transform="translate(-213.000000, -1416.000000)">
+            <g id="Group" transform="translate(213.000000, 1410.000000)">
                 <text id="Quit-Job" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#3B3B3B">
                     <tspan x="348" y="25">Quit Job</tspan>
                 </text>
                 <text id="Co-founded-Eventosau" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#3B3B3B">
                     <tspan x="348" y="493">Co-founded Eventosaur</tspan>
                 </text>
-                <text id="Expedia" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#3B3B3B">
-                    <tspan x="348" y="961">Expedia</tspan>
+                <text id="Intern-@-Expedia" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#3B3B3B">
+                    <tspan x="348" y="961">Intern @ Expedia</tspan>
                 </text>
                 <text id="Cooking-Ninja" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#3B3B3B">
                     <tspan x="348" y="1426">Cooking Ninja</tspan>
@@ -31,37 +31,37 @@
                 <text id="New-Adventure-Beckon" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#3B3B3B">
                     <tspan x="24" y="1662">New Adventure Beckons</tspan>
                 </text>
-                <ellipse id="Oval" fill="#F52C2C" cx="317.5" cy="18.5" rx="6.5" ry="6.5"></ellipse>
-                <ellipse id="Oval-Copy" fill="#F52C2C" cx="317.5" cy="251.5" rx="6.5" ry="6.5"></ellipse>
-                <ellipse id="Oval-Copy-2" fill="#F52C2C" cx="317.5" cy="484.5" rx="6.5" ry="6.5"></ellipse>
-                <ellipse id="Oval-Copy-3" fill="#F52C2C" cx="317.5" cy="719.5" rx="6.5" ry="6.5"></ellipse>
-                <ellipse id="Oval-Copy-4" fill="#F52C2C" cx="317.5" cy="952.5" rx="6.5" ry="6.5"></ellipse>
-                <ellipse id="Oval-Copy-5" fill="#F52C2C" cx="317.5" cy="1185.5" rx="6.5" ry="6.5"></ellipse>
-                <ellipse id="Oval-Copy-6" fill="#F52C2C" cx="317.5" cy="1419.5" rx="6.5" ry="6.5"></ellipse>
-                <ellipse id="Oval-Copy-7" fill="#F52C2C" cx="317.5" cy="1652.5" rx="6.5" ry="6.5"></ellipse>
+                <circle id="Oval" fill="#F52C2C" cx="317.5" cy="18.5" r="6.5"></circle>
+                <circle id="Oval-Copy" fill="#F52C2C" cx="317.5" cy="251.5" r="6.5"></circle>
+                <circle id="Oval-Copy-2" fill="#F52C2C" cx="317.5" cy="484.5" r="6.5"></circle>
+                <circle id="Oval-Copy-3" fill="#F52C2C" cx="317.5" cy="719.5" r="6.5"></circle>
+                <circle id="Oval-Copy-4" fill="#F52C2C" cx="317.5" cy="952.5" r="6.5"></circle>
+                <circle id="Oval-Copy-5" fill="#F52C2C" cx="317.5" cy="1185.5" r="6.5"></circle>
+                <circle id="Oval-Copy-6" fill="#F52C2C" cx="317.5" cy="1419.5" r="6.5"></circle>
+                <circle id="Oval-Copy-7" fill="#F52C2C" cx="317.5" cy="1652.5" r="6.5"></circle>
                 <text id="mar.2014" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
                     <tspan x="219" y="25">mar.2014</tspan>
                 </text>
-                <text id="mar.2014-copy-2" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
-                    <tspan x="219" y="491">mar.2014</tspan>
+                <text id="mar.2015" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
+                    <tspan x="219" y="491">mar.2015</tspan>
                 </text>
-                <text id="mar.2014-copy-4" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
-                    <tspan x="219" y="959">mar.2014</tspan>
+                <text id="jun.2016" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
+                    <tspan x="219" y="959">jun.2016</tspan>
+                </text>
+                <text id="2015-17" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
+                    <tspan x="228" y="1424">2015-17</tspan>
+                </text>
+                <text id="sep.2014" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
+                    <tspan x="348" y="256">sep.2014</tspan>
+                </text>
+                <text id="sep.2015" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
+                    <tspan x="348" y="724">sep.2015</tspan>
+                </text>
+                <text id="mar.2017" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
+                    <tspan x="348" y="1190">mar.2017</tspan>
                 </text>
                 <text id="today" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
-                    <tspan x="246" y="1424">today</tspan>
-                </text>
-                <text id="mar.2014-copy" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
-                    <tspan x="348" y="256">mar.2014</tspan>
-                </text>
-                <text id="mar.2014-copy-3" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
-                    <tspan x="348" y="724">mar.2014</tspan>
-                </text>
-                <text id="mar.2014-copy-5" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
-                    <tspan x="348" y="1190">mar.2014</tspan>
-                </text>
-                <text id="mar.2014" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#A09E9E">
-                    <tspan x="348" y="1657">mar.2014</tspan>
+                    <tspan x="348" y="1657">today</tspan>
                 </text>
                 <text id="I-decided-to-move-aw" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="21" fill="#777777">
                     <tspan x="350" y="52">I decided to move away from a job I wasn’t </tspan>
@@ -78,11 +78,11 @@
                     <tspan x="350" y="988">I got an opportunity to intern at Expedia </tspan>
                     <tspan x="350" y="1009">as an Interaction designer. </tspan>
                 </text>
-                <text id="Being-a-vegetarian-i" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="21" fill="#777777">
-                    <tspan x="350" y="1453">Being a vegetarian in a foreign land was </tspan>
-                    <tspan x="350" y="1474">getting difficult. So I started cooking. My </tspan>
+                <text id="Being-a-vegetarian-a" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="21" fill="#777777">
+                    <tspan x="350" y="1453">Being a vegetarian and away from home </tspan>
+                    <tspan x="350" y="1474">was not easy. So I started cooking. My </tspan>
                     <tspan x="350" y="1495">proudest moment was when I taught my </tspan>
-                    <tspan x="350" y="1516">mom a recipe. </tspan>
+                    <tspan x="350" y="1516">mom a new recipe. </tspan>
                 </text>
                 <text id="I-thought-a-trip-to" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="21" fill="#777777">
                     <tspan x="0" y="282">I thought a trip to the Himalayas would </tspan>
@@ -104,8 +104,8 @@
                 <text id="Currently-looking-ou" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="21" fill="#777777">
                     <tspan x="24" y="1690">Currently looking out to start a new </tspan>
                     <tspan x="24" y="1711">adventure in my career. Feel free to contact </tspan>
-                    <tspan x="24" y="1732">me if you have an interesting opportunity to </tspan>
-                    <tspan x="24" y="1753">work on or just grab a coffee</tspan>
+                    <tspan x="24" y="1732">me if you have a new opportunity or just </tspan>
+                    <tspan x="24" y="1753">grab a coffee</tspan>
                 </text>
                 <path d="M317.5,19.5 L317.5,244.535553" id="Line" stroke="#F52C2C" stroke-linecap="square"></path>
                 <path d="M317.5,252.5 L317.5,477.535553" id="Line-Copy" stroke="#F52C2C" stroke-linecap="square"></path>

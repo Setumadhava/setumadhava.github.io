@@ -150,6 +150,9 @@ p {
 .fourembottom {
   margin-bottom: 4em; }
 
+.sixembottom {
+  padding-bottom: 6em; }
+
 #sectiontitle {
   margin: 3em 0; }
   #sectiontitle p {
@@ -551,122 +554,145 @@ p {
             #projectsection .projectcontainer .projectflex .imagehalf .actiimg {
               width: 60%; } }
 
-.greybg {
-  background-color: #EEEEEE; }
-
 #aboutsection {
-  padding: 8em 0; }
-  @media (min-width: 1820px) {
-    #aboutsection {
-      width: 70%;
-      margin: 0 auto; } }
-  #aboutsection .abouttitle {
-    font-size: 4em;
-    text-align: center;
-    font-family: 'Parisienne', cursive;
-    font-weight: 400;
-    color: #032A2F;
-    padding-bottom: 2em; }
-  #aboutsection .mushdiflex {
-    display: flex;
-    flex-wrap: wrap; }
-    #aboutsection .mushdiflex .mushdidiv {
-      width: 90%;
-      margin: 0 auto; }
-      #aboutsection .mushdiflex .mushdidiv img {
-        width: 100%; }
+  background-image: url("img/homepage2/aboutbg.svg");
+  width: 100%;
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll; }
+  #aboutsection .biotitle {
+    padding-top: 6em; }
+    #aboutsection .biotitle p {
+      font-size: 3em;
+      text-align: center;
+      font-family: 'Parisienne', cursive;
+      font-weight: 400;
+      color: #032A2F; }
+  #aboutsection .profileimgdiv {
+    width: 100%;
+    margin: 0 auto; }
+    #aboutsection .profileimgdiv .profileimg {
+      max-width: 230px;
+      margin: 0 auto;
+      padding: 4em 0; }
       @media (min-width: 768px) and (max-width: 1023px) {
-        #aboutsection .mushdiflex .mushdidiv {
-          width: 60%; } }
+        #aboutsection .profileimgdiv .profileimg {
+          max-width: 310px; } }
       @media (min-width: 1024px) and (max-width: 1439px) {
-        #aboutsection .mushdiflex .mushdidiv {
-          width: 50%; }
-          #aboutsection .mushdiflex .mushdidiv .mushdibox {
-            width: 70%;
-            padding-top: 2em;
-            margin: 0 auto; } }
+        #aboutsection .profileimgdiv .profileimg {
+          max-width: 310px; } }
       @media (min-width: 1440px) and (max-width: 1819px) {
-        #aboutsection .mushdiflex .mushdidiv {
-          width: 50%; }
-          #aboutsection .mushdiflex .mushdidiv .mushdibox {
-            width: 60%;
-            padding-top: 2em;
-            margin: 0 auto; } }
+        #aboutsection .profileimgdiv .profileimg {
+          max-width: 310px; } }
       @media (min-width: 1820px) {
-        #aboutsection .mushdiflex .mushdidiv {
-          width: 50%; }
-          #aboutsection .mushdiflex .mushdidiv .mushdibox {
-            width: 55%;
-            padding-top: 2em;
-            margin: 0 auto; } }
-    #aboutsection .mushdiflex .aboutmediv {
-      width: 90%;
-      padding: 4em 0;
+        #aboutsection .profileimgdiv .profileimg {
+          max-width: 310px; } }
+      #aboutsection .profileimgdiv .profileimg img {
+        width: 100%; }
+  #aboutsection .biodiv {
+    width: 85%;
+    margin: 0 auto; }
+    #aboutsection .biodiv .biodesc {
+      font-size: 1.1em;
+      line-height: 1.6em;
+      text-align: center; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #aboutsection .biodiv .biodesc {
+          width: 70%;
+          margin: 0 auto;
+          padding: 1em 0; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #aboutsection .biodiv .biodesc {
+          width: 75%;
+          margin: 0 auto;
+          padding: 1.5em 0;
+          font-size: 1.25em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #aboutsection .biodiv .biodesc {
+          width: 50%;
+          margin: 0 auto;
+          padding: 1.5em 0;
+          font-size: 1.25em; } }
+      @media (min-width: 1820px) {
+        #aboutsection .biodiv .biodesc {
+          width: 40%;
+          margin: 0 auto;
+          padding: 1.5em 0;
+          font-size: 1.25em; } }
+  #aboutsection .designprocessdiv {
+    width: 85%;
+    margin: 0 auto; }
+    #aboutsection .designprocessdiv .dptitle p {
+      font-weight: 600;
+      font-size: 2em;
+      text-align: center; }
+    #aboutsection .designprocessdiv .dpflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
       margin: 0 auto; }
-      #aboutsection .mushdiflex .aboutmediv p {
-        line-height: 2em; }
-      @media (min-width: 375px) and (max-width: 768px) {
-        #aboutsection .mushdiflex .aboutmediv {
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #aboutsection .designprocessdiv .dpflex {
           width: 80%; } }
-      @media (min-width: 768px) and (max-width: 1023px) {
-        #aboutsection .mushdiflex .aboutmediv {
-          width: 60%; } }
-      @media (min-width: 1024px) and (max-width: 1439px) {
-        #aboutsection .mushdiflex .aboutmediv {
-          width: 50%; }
-          #aboutsection .mushdiflex .aboutmediv .aboutmebox {
-            width: 85%;
-            margin: 0 auto; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
-        #aboutsection .mushdiflex .aboutmediv {
-          width: 50%; }
-          #aboutsection .mushdiflex .aboutmediv .aboutmebox {
-            width: 65%;
-            margin: 0 auto; } }
       @media (min-width: 1820px) {
-        #aboutsection .mushdiflex .aboutmediv {
-          width: 50%; }
-          #aboutsection .mushdiflex .aboutmediv .aboutmebox {
-            width: 85%;
-            margin: 0 auto; } }
-  #aboutsection .skillscontainer .skillstitle {
-    font-size: 2em;
-    text-align: center;
-    font-weight: 600;
-    padding: 2em 0; }
-  #aboutsection .skillscontainer .skillsflex {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; }
-    #aboutsection .skillscontainer .skillsflex .skilldiv {
-      width: 90%;
-      margin: 0 auto; }
-      #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox {
-        width: 70%;
-        margin: 0 auto;
-        padding: 4em 0; }
-        #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox img {
-          width: 100%; }
-      @media (min-width: 768px) and (max-width: 1023px) {
-        #aboutsection .skillscontainer .skillsflex .skilldiv {
-          width: 51%; } }
-      @media (min-width: 1024px) and (max-width: 1439px) {
-        #aboutsection .skillscontainer .skillsflex .skilldiv {
-          width: 33%; }
-          #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox {
-            width: 55%; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
-        #aboutsection .skillscontainer .skillsflex .skilldiv {
-          width: 33%; }
-          #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox {
-            width: 40%; } }
-      @media (min-width: 1820px) {
-        #aboutsection .skillscontainer .skillsflex .skilldiv {
-          width: 33%; }
-          #aboutsection .skillscontainer .skillsflex .skilldiv .skillbox {
-            width: 55%; } }
-      #aboutsection .skillscontainer .skillsflex .skilldiv img {
+        #aboutsection .designprocessdiv .dpflex {
+          width: 70%; } }
+      #aboutsection .designprocessdiv .dpflex .dpitemdiv {
+        width: 90%;
+        padding: 2em 0 0 1em; }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          #aboutsection .designprocessdiv .dpflex .dpitemdiv {
+            width: 45%; } }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          #aboutsection .designprocessdiv .dpflex .dpitemdiv {
+            width: 30%;
+            padding: 1.5em 1em; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          #aboutsection .designprocessdiv .dpflex .dpitemdiv {
+            width: 30%;
+            padding: 1.5em 1em; } }
+        @media (min-width: 1820px) {
+          #aboutsection .designprocessdiv .dpflex .dpitemdiv {
+            width: 30%;
+            padding: 1.5em 1em; } }
+        #aboutsection .designprocessdiv .dpflex .dpitemdiv .dptitle {
+          font-weight: 400;
+          font-size: 1.6em; }
+        #aboutsection .designprocessdiv .dpflex .dpitemdiv .dpdesc {
+          font-size: 0.85em;
+          line-height: 1.8em; }
+  #aboutsection .storydiv {
+    margin-bottom: 6em; }
+    #aboutsection .storydiv .storytitle {
+      padding: 4em 0; }
+      #aboutsection .storydiv .storytitle p {
+        font-weight: 600;
+        font-size: 2em;
+        text-align: center; }
+    #aboutsection .storydiv .storyimgdiv {
+      width: 95%;
+      margin: 0 auto;
+      padding-bottom: 6em; }
+      #aboutsection .storydiv .storyimgdiv img {
         width: 100%; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #aboutsection .storydiv .storyimgdiv {
+          width: 80%;
+          margin: 0 auto; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #aboutsection .storydiv .storyimgdiv {
+          width: 60%;
+          margin: 3em auto; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #aboutsection .storydiv .storyimgdiv {
+          width: 40%;
+          margin: 3em auto; } }
+      @media (min-width: 1820px) {
+        #aboutsection .storydiv .storyimgdiv {
+          width: 30%;
+          margin: 3em auto; } }
 
 .container,
 body,
@@ -840,7 +866,7 @@ html {
 .getintouch {
   color: white;
   font-family: 'Roboto Mono', monospace;
-  font-size: 1em;
+  font-size: 1.5em;
   padding: 2em 0;
   text-align: center; }
   @media (min-width: 375px) and (max-width: 768px) {
@@ -848,17 +874,17 @@ html {
       font-size: 1.5em; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     .getintouch {
-      font-size: 1.5em;
+      font-size: 2em;
       text-align: center; } }
   @media (min-width: 1024px) and (max-width: 1439px) {
     .getintouch {
-      font-size: 1.5em; } }
+      font-size: 2em; } }
   @media (min-width: 1440px) and (max-width: 1819px) {
     .getintouch {
-      font-size: 1.5em; } }
+      font-size: 2em; } }
   @media (min-width: 1820px) {
     .getintouch {
-      font-size: 1.5em; } }
+      font-size: 2em; } }
 
 .iconsflex {
   display: flex;
@@ -866,6 +892,9 @@ html {
   width: 100%;
   padding-bottom: 4em;
   justify-content: center; }
+  .iconsflex .email {
+    font-size: 1.5em;
+    color: white; }
   .iconsflex .icondiv {
     width: 28px;
     margin: 0 2em; }

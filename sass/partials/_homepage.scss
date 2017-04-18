@@ -169,6 +169,10 @@ p {
 .fourembottom {
     margin-bottom: 4em;
 }
+
+.sixembottom {
+    padding-bottom: 6em;
+}
 ////////////////////////// PROJECT SECTION ///////////////////
 
 #sectiontitle {
@@ -704,167 +708,357 @@ p {
     //     box-shadow: 0 14px 28px rgba(0,0,0,0.55), 0 10px 10px rgba(0,0,0,0.22);
     // }
 }
-////////////////////////// ABOUT ME ////////////////////////////
-
-.greybg {
-    background-color: $grey1;
-}
+///////////////// NEW ABOUT ME ////////////////////////////
 
 #aboutsection {
-    padding: 8em 0;
-    @media #{$monitor} {
-        width: 70%;
+    background-image: url("img/homepage2/aboutbg.svg");
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    // height: 100%;
+    .biotitle {
+        padding-top: 6em;
+
+        p {
+            font-size: 3em;
+            text-align: center;
+            font-family: 'Parisienne', cursive;
+            font-weight: 400;
+            color: $piublack;
+        }
+    }
+
+    .profileimgdiv {
+        width: 100%;
         margin: 0 auto;
-    }
-
-    .abouttitle {
-        font-size: 4em;
-        text-align: center;
-        font-family: 'Parisienne', cursive;
-        font-weight: 400;
-        color: $piublack;
-        padding-bottom: 2em;
-    }
-
-    .mushdiflex {
-        display: flex;
-        flex-wrap: wrap;
-
-        .mushdidiv {
-            width: 90%;
+        // background-color: red;
+        .profileimg {
+            max-width: 230px;
             margin: 0 auto;
+            padding: 4em 0;
+            @media #{$tablet} {
+                max-width: 310px;
+            }
+            @media #{$mac13} {
+                max-width: 310px;
+            }
+            @media #{$mac15} {
+                max-width: 310px;
+            }
+            @media #{$monitor} {
+                max-width: 310px;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .biodiv {
+        width: 85%;
+        margin: 0 auto;
+
+        .biodesc {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            text-align: center;
+            @media #{$tablet} {
+                width: 70%;
+                margin: 0 auto;
+                padding: 1em 0;
+            }
+            @media #{$mac13} {
+                width: 75%;
+                margin: 0 auto;
+                padding: 1.5em 0;
+                font-size: 1.25em;
+            }
+            @media #{$mac15} {
+                width: 50%;
+                margin: 0 auto;
+                padding: 1.5em 0;
+                font-size: 1.25em;
+            }
+            @media #{$monitor} {
+                width: 40%;
+                margin: 0 auto;
+                padding: 1.5em 0;
+                font-size: 1.25em;
+            }
+        }
+    }
+
+    .designprocessdiv {
+        width: 85%;
+        margin: 0 auto;
+
+        .dptitle {
+            p {
+                font-weight: 600;
+                font-size: 2em;
+                text-align: center;
+            }
+        }
+
+        .dpflex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0 auto;
+            @media #{$mac15} {
+                width: 80%;
+            }
+            @media #{$monitor} {
+                width: 70%;
+            }
+
+            .dpitemdiv {
+                width: 90%;
+                padding: 2em 0 0 1em;
+                @media #{$tablet} {
+                    width: 45%;
+                }
+                @media #{$mac13} {
+                    width: 30%;
+                    padding: 1.5em 1em;
+                }
+                @media #{$mac15} {
+                    width: 30%;
+                    padding: 1.5em 1em;
+                }
+                @media #{$monitor} {
+                    width: 30%;
+                    padding: 1.5em 1em;
+                }
+
+                .dptitle {
+                    font-weight: 400;
+                    font-size: 1.6em;
+                }
+
+                .dpdesc {
+                    font-size: 0.85em;
+                    line-height: 1.8em;
+                }
+            }
+        }
+    }
+
+    .storydiv {
+        margin-bottom: 6em;
+
+        .storytitle {
+            padding: 4em 0;
+
+            p {
+                font-weight: 600;
+                font-size: 2em;
+                text-align: center;
+            }
+        }
+
+        .storyimgdiv {
+            width: 95%;
+            margin: 0 auto;
+            padding-bottom: 6em;
 
             img {
                 width: 100%;
             }
             @media #{$tablet} {
-                width: 60%;
-            }
-            @media #{$mac13} {
-                width: 50%;
-
-                .mushdibox {
-                    width: 70%;
-                    padding-top: 2em;
-                    margin: 0 auto;
-                }
-            }
-            @media #{$mac15} {
-                width: 50%;
-
-                .mushdibox {
-                    width: 60%;
-                    padding-top: 2em;
-                    margin: 0 auto;
-                }
-            }
-            @media #{$monitor} {
-                width: 50%;
-
-                .mushdibox {
-                    width: 55%;
-                    padding-top: 2em;
-                    margin: 0 auto;
-                }
-            }
-        }
-
-        .aboutmediv {
-            width: 90%;
-            padding: 4em 0;
-            margin: 0 auto;
-
-            p {
-                line-height: 2em;
-            }
-            @media #{$phablet} {
                 width: 80%;
-            }
-            @media #{$tablet} {
-                width: 60%;
+                margin: 0 auto;
             }
             @media #{$mac13} {
-                width: 50%;
-
-                .aboutmebox {
-                    width: 85%;
-                    margin: 0 auto;
-                }
+                width: 60%;
+                margin: 3em auto;
             }
             @media #{$mac15} {
-                width: 50%;
-
-                .aboutmebox {
-                    width: 65%;
-                    margin: 0 auto;
-                }
+                width: 40%;
+                margin: 3em auto;
             }
             @media #{$monitor} {
-                width: 50%;
-
-                .aboutmebox {
-                    width: 85%;
-                    margin: 0 auto;
-                }
-            }
-        }
-    }
-
-    .skillscontainer {
-        .skillstitle {
-            font-size: 2em;
-            text-align: center;
-            font-weight: 600;
-            padding: 2em 0;
-        }
-
-        .skillsflex {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-
-            .skilldiv {
-                width: 90%;
-                margin: 0 auto;
-
-                .skillbox {
-                    width: 70%;
-                    margin: 0 auto;
-                    padding: 4em 0;
-
-                    img {
-                        width: 100%;
-                    }
-                }
-                @media #{$tablet} {
-                    width: 51%;
-                }
-                @media #{$mac13} {
-                    width: 33%;
-
-                    .skillbox {
-                        width: 55%;
-                    }
-                }
-                @media #{$mac15} {
-                    width: 33%;
-
-                    .skillbox {
-                        width: 40%;
-                    }
-                }
-                @media #{$monitor} {
-                    width: 33%;
-
-                    .skillbox {
-                        width: 55%;
-                    }
-                }
-
-                img {
-                    width: 100%;
-                }
+                width: 30%;
+                margin: 3em auto;
             }
         }
     }
 }
+///////////// NEW FOOTER /////////////////
+// #footersection {
+//     background-image: url("img/homepage2/footerimg.png");
+//     width: 100%;
+//     display: block;
+//     background-size: cover;
+//     background-position: center center;
+//     background-repeat: no-repeat;
+//     background-attachment: scroll;
+//     height: 1100px;
+// }
+////////////////////////// OLD ABOUT ME ///////////
+// .greybg {
+//     background-color: $grey1;
+// }
+//
+// #aboutsection {
+//     padding: 8em 0;
+//     @media #{$monitor} {
+//         width: 70%;
+//         margin: 0 auto;
+//     }
+//
+//     .abouttitle {
+//         font-size: 4em;
+//         text-align: center;
+//         font-family: 'Parisienne', cursive;
+//         font-weight: 400;
+//         color: $piublack;
+//         padding-bottom: 2em;
+//     }
+//
+//     .mushdiflex {
+//         display: flex;
+//         flex-wrap: wrap;
+//
+//         .mushdidiv {
+//             width: 90%;
+//             margin: 0 auto;
+//
+//             img {
+//                 width: 100%;
+//             }
+//             @media #{$tablet} {
+//                 width: 60%;
+//             }
+//             @media #{$mac13} {
+//                 width: 50%;
+//
+//                 .mushdibox {
+//                     width: 70%;
+//                     padding-top: 2em;
+//                     margin: 0 auto;
+//                 }
+//             }
+//             @media #{$mac15} {
+//                 width: 50%;
+//
+//                 .mushdibox {
+//                     width: 60%;
+//                     padding-top: 2em;
+//                     margin: 0 auto;
+//                 }
+//             }
+//             @media #{$monitor} {
+//                 width: 50%;
+//
+//                 .mushdibox {
+//                     width: 55%;
+//                     padding-top: 2em;
+//                     margin: 0 auto;
+//                 }
+//             }
+//         }
+//
+//         .aboutmediv {
+//             width: 90%;
+//             padding: 4em 0;
+//             margin: 0 auto;
+//
+//             p {
+//                 line-height: 2em;
+//             }
+//             @media #{$phablet} {
+//                 width: 80%;
+//             }
+//             @media #{$tablet} {
+//                 width: 60%;
+//             }
+//             @media #{$mac13} {
+//                 width: 50%;
+//
+//                 .aboutmebox {
+//                     width: 85%;
+//                     margin: 0 auto;
+//                 }
+//             }
+//             @media #{$mac15} {
+//                 width: 50%;
+//
+//                 .aboutmebox {
+//                     width: 65%;
+//                     margin: 0 auto;
+//                 }
+//             }
+//             @media #{$monitor} {
+//                 width: 50%;
+//
+//                 .aboutmebox {
+//                     width: 85%;
+//                     margin: 0 auto;
+//                 }
+//             }
+//         }
+//     }
+//
+//     .skillscontainer {
+//         .skillstitle {
+//             font-size: 2em;
+//             text-align: center;
+//             font-weight: 600;
+//             padding: 2em 0;
+//         }
+//
+//         .skillsflex {
+//             display: flex;
+//             flex-wrap: wrap;
+//             align-items: center;
+//
+//             .skilldiv {
+//                 width: 90%;
+//                 margin: 0 auto;
+//
+//                 .skillbox {
+//                     width: 70%;
+//                     margin: 0 auto;
+//                     padding: 4em 0;
+//
+//                     img {
+//                         width: 100%;
+//                     }
+//                 }
+//                 @media #{$tablet} {
+//                     width: 51%;
+//                 }
+//                 @media #{$mac13} {
+//                     width: 33%;
+//
+//                     .skillbox {
+//                         width: 55%;
+//                     }
+//                 }
+//                 @media #{$mac15} {
+//                     width: 33%;
+//
+//                     .skillbox {
+//                         width: 40%;
+//                     }
+//                 }
+//                 @media #{$monitor} {
+//                     width: 33%;
+//
+//                     .skillbox {
+//                         width: 55%;
+//                     }
+//                 }
+//
+//                 img {
+//                     width: 100%;
+//                 }
+//             }
+//         }
+//     }
+// }

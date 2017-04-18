@@ -212,24 +212,24 @@ html {
 .getintouch {
     color: white;
     font-family: 'Roboto Mono', monospace;
-    font-size: 1em;
+    font-size: 1.5em;
     padding: 2em 0;
     text-align: center;
     @media #{$phablet} {
         font-size: 1.5em;
     }
     @media #{$tablet} {
-        font-size: 1.5em;
+        font-size: 2em;
         text-align: center;
     }
     @media #{$mac13} {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     @media #{$mac15} {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     @media #{$monitor} {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 
@@ -239,6 +239,11 @@ html {
     width: 100%;
     padding-bottom: 4em;
     justify-content: center;
+
+    .email {
+        font-size: 1.5em;
+        color: white;
+    }
 
     .icondiv {
         width: 28px;

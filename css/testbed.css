@@ -226,7 +226,7 @@ html {
 .getintouch {
   color: white;
   font-family: 'Roboto Mono', monospace;
-  font-size: 1em;
+  font-size: 1.5em;
   padding: 2em 0;
   text-align: center; }
   @media (min-width: 375px) and (max-width: 768px) {
@@ -234,17 +234,17 @@ html {
       font-size: 1.5em; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     .getintouch {
-      font-size: 1.5em;
+      font-size: 2em;
       text-align: center; } }
   @media (min-width: 1024px) and (max-width: 1439px) {
     .getintouch {
-      font-size: 1.5em; } }
+      font-size: 2em; } }
   @media (min-width: 1440px) and (max-width: 1819px) {
     .getintouch {
-      font-size: 1.5em; } }
+      font-size: 2em; } }
   @media (min-width: 1820px) {
     .getintouch {
-      font-size: 1.5em; } }
+      font-size: 2em; } }
 
 .iconsflex {
   display: flex;
@@ -252,6 +252,9 @@ html {
   width: 100%;
   padding-bottom: 4em;
   justify-content: center; }
+  .iconsflex .email {
+    font-size: 1.5em;
+    color: white; }
   .iconsflex .icondiv {
     width: 28px;
     margin: 0 2em; }
