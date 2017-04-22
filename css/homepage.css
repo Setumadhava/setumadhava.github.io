@@ -607,8 +607,8 @@ p {
     width: 85%;
     margin: 0 auto; }
     #aboutsection .biodiv .biodesc {
-      font-size: 1.1em;
-      line-height: 1.6em;
+      font-size: 1.25em;
+      line-height: 1.9em;
       text-align: center; }
       @media (min-width: 768px) and (max-width: 1023px) {
         #aboutsection .biodiv .biodesc {
@@ -619,20 +619,17 @@ p {
         #aboutsection .biodiv .biodesc {
           width: 75%;
           margin: 0 auto;
-          padding: 1.5em 0;
-          font-size: 1.25em; } }
+          padding: 1.5em 0; } }
       @media (min-width: 1440px) and (max-width: 1819px) {
         #aboutsection .biodiv .biodesc {
           width: 50%;
           margin: 0 auto;
-          padding: 1.5em 0;
-          font-size: 1.25em; } }
+          padding: 1.5em 0; } }
       @media (min-width: 1820px) {
         #aboutsection .biodiv .biodesc {
           width: 40%;
           margin: 0 auto;
-          padding: 1.5em 0;
-          font-size: 1.25em; } }
+          padding: 1.5em 0; } }
   #aboutsection .designprocessdiv {
     width: 85%;
     margin: 0 auto; }
@@ -646,7 +643,7 @@ p {
       margin: 0 auto; }
       #aboutsection .designprocessdiv .designprocessdesc p {
         font-weight: 400;
-        font-size: 1.2em;
+        font-size: 1.25em;
         line-height: 1.9em; }
       @media (min-width: 1024px) and (max-width: 1439px) {
         #aboutsection .designprocessdiv .designprocessdesc {
@@ -693,7 +690,7 @@ p {
           font-weight: 400;
           font-size: 1.6em; }
         #aboutsection .designprocessdiv .dpflex .dpitemdiv .dpdesc {
-          font-size: 0.85em;
+          font-size: 0.9em;
           line-height: 1.8em; }
   #aboutsection .storydiv {
     margin-bottom: 6em; }

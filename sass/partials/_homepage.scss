@@ -775,8 +775,8 @@ p {
         margin: 0 auto;
 
         .biodesc {
-            font-size: 1.1em;
-            line-height: 1.6em;
+            font-size: 1.25em;
+            line-height: 1.9em;
             text-align: center;
             @media #{$tablet} {
                 width: 70%;
@@ -787,19 +787,16 @@ p {
                 width: 75%;
                 margin: 0 auto;
                 padding: 1.5em 0;
-                font-size: 1.25em;
             }
             @media #{$mac15} {
                 width: 50%;
                 margin: 0 auto;
                 padding: 1.5em 0;
-                font-size: 1.25em;
             }
             @media #{$monitor} {
                 width: 40%;
                 margin: 0 auto;
                 padding: 1.5em 0;
-                font-size: 1.25em;
             }
         }
     }
@@ -823,7 +820,7 @@ p {
 
             p {
                 font-weight: 400;
-                font-size: 1.2em;
+                font-size: 1.25em;
                 line-height: 1.9em;
             }
             @media #{$mac13} {
@@ -877,7 +874,7 @@ p {
                 }
 
                 .dpdesc {
-                    font-size: 0.85em;
+                    font-size: 0.9em;
                     line-height: 1.8em;
                 }
             }
