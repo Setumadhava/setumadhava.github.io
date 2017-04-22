@@ -642,7 +642,7 @@ p {
       width: 90%;
       margin: 0 auto; }
       #aboutsection .designprocessdiv .designprocessdesc p {
-        font-weight: bold;
+        font-weight: 400;
         font-size: 1.2em;
         line-height: 1.9em; }
       @media (min-width: 1024px) and (max-width: 1439px) {
