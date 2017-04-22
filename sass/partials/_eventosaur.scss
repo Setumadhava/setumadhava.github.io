@@ -133,11 +133,16 @@
     }
 
     .macdiv {
-        width: 85%;
+        width: 95%;
         margin: 0 auto;
         z-index: 999;
+        @media #{$phablet} {
+            width: 78%;
+            max-width: 450px;
+        }
         @media #{$tablet} {
             width: 75%;
+            max-width: 520px;
             position: absolute;
             top: 70%;
             transform: translateY(-50%);
@@ -145,6 +150,7 @@
         }
         @media #{$mac13} {
             width: 65%;
+            max-width: 720px;
             position: absolute;
             top: 62%;
             transform: translateY(-50%);
@@ -226,15 +232,41 @@
             width: 90%;
             margin: 1em auto;
             padding: 1em;
+            position: relative;
 
             .roletitletext {
-                font-size: 1.6em;
+                font-size: 1.8em;
                 color: white;
                 font-weight: bold;
-            }
-
-            .cofoundertext {
-                color: $esaurgrey1;
+                @media #{$tablet} {
+                    position: absolute;
+                    top: 40%;
+                    transform: translateY(-50%);
+                    right: 50%;
+                    transform: translateX(40%);
+                }
+                @media #{$mac13} {
+                    position: absolute;
+                    top: 40%;
+                    transform: translateY(-50%);
+                    right: 50%;
+                    transform: translateX(40%);
+                }
+                @media #{$mac15} {
+                    position: absolute;
+                    top: 40%;
+                    transform: translateY(-50%);
+                    right: 50%;
+                    transform: translateX(40%);
+                }
+                @media #{$monitor} {
+                    font-size: 2em;
+                    position: absolute;
+                    top: 40%;
+                    transform: translateY(-50%);
+                    right: 50%;
+                    transform: translateX(40%);
+                }
             }
             @media #{$tablet} {
                 width: 25%;
@@ -256,25 +288,44 @@
             width: 90%;
             margin: 1em auto;
 
-            p {
+            .cofoundertext {
+                color: $textdark;
+                padding-top: 2em;
+                font-weight: bold;
+                font-size: 1.2em;
+                @media #{$monitor} {
+                    font-size: 1.4em;
+                }
+            }
+
+            .roleline {
+                width: 70px;
+                height: 5px;
+                background-color: $esaurgreen;
+                margin: 0 auto;
+            }
+
+            .rolecontenttext {
                 width: 100%;
                 padding: 1em;
                 font-size: 1.1em;
+                text-align: center;
+                margin: 0 auto;
                 @media #{$tablet} {
                     width: 100%;
                     padding: 2em;
                 }
                 @media #{$mac13} {
                     width: 90%;
-                    padding: 2em 0 0 8em;
+                    padding: 2em;
                 }
                 @media #{$mac15} {
-                    width: 75%;
-                    padding: 2em 0 0 12em;
+                    width: 60%;
+                    padding: 2em;
                 }
                 @media #{$monitor} {
-                    width: 65%;
-                    padding: 2em 0 0 16em;
+                    width: 50%;
+                    padding: 3em;
                 }
             }
             @media #{$tablet} {
@@ -355,11 +406,18 @@
             width: 90%;
             margin: 0 auto;
             font-style: italic;
-            font-weight: bold;
+            font-weight: 400;
+            text-align: center;
+            font-size: 1.2em;
+
+            p {
+                line-height: 1.9em;
+            }
             @media #{$tablet} {
                 order: 3;
                 width: 50%;
-                padding: 5em 1em;
+                padding: 3em 1em;
+                font-size: 1.3em;
 
                 p {
                     margin: 0 auto;
@@ -369,7 +427,8 @@
             @media #{$mac13} {
                 order: 3;
                 width: 50%;
-                padding: 5em 1em;
+                padding: 3em 1em;
+                font-size: 1.3em;
 
                 p {
                     margin: 0 auto;
@@ -379,7 +438,8 @@
             @media #{$mac15} {
                 order: 3;
                 width: 50%;
-                padding: 5em 1em;
+                padding: 3em 1em;
+                font-size: 1.3em;
 
                 p {
                     margin: 0 auto;
@@ -389,12 +449,14 @@
             @media #{$monitor} {
                 order: 3;
                 width: 50%;
-                padding: 3em 1em;
+                padding: 2em 0;
 
                 p {
                     font-size: 1.2em;
                     margin: 0 auto;
                     width: 50%;
+                    text-align: center;
+                    font-weight: 400;
                 }
             }
         }
@@ -421,19 +483,19 @@
     margin: 0 auto 4em;
 
     .processdiagdiv {
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
         @media #{$tablet} {
-            width: 80%;
+            width: 90%;
         }
         @media #{$mac13} {
-            width: 65%;
+            width: 80%;
         }
         @media #{$mac15} {
-            width: 45%;
+            width: 70%;
         }
         @media #{$monitor} {
-            width: 40%;
+            width: 58%;
             padding: 8em 0;
         }
     }
@@ -506,6 +568,17 @@
             }
             @media #{$monitor} {
                 width: 40%;
+            }
+
+            #noserp {
+                text-align: center;
+                color: $grey4;
+                @media #{$mac15} {
+                    font-size: 1.2em;
+                }
+                @media #{$monitor} {
+                    font-size: 1.2em;
+                }
             }
         }
     }

@@ -472,7 +472,8 @@ p {
             font-weight: bold; }
       #projectsection .projectcontainer .projectflex .imagehalf {
         width: 100%;
-        margin: 2em 0; }
+        margin: 2em 0;
+        position: relative; }
         @media (min-width: 768px) and (max-width: 1023px) {
           #projectsection .projectcontainer .projectflex .imagehalf {
             width: 50%;
@@ -545,8 +546,9 @@ p {
               transform: translateY(-50%);
               transform: translateX(30%); } }
         #projectsection .projectcontainer .projectflex .imagehalf .actiimg {
-          width: 85%;
-          margin: 0 auto; }
+          width: 90%;
+          margin: 0 auto;
+          max-width: 300px; }
           @media (min-width: 375px) and (max-width: 768px) {
             #projectsection .projectcontainer .projectflex .imagehalf .actiimg {
               width: 70%;
@@ -556,7 +558,7 @@ p {
               width: 50%; } }
           @media (min-width: 1440px) and (max-width: 1819px) {
             #projectsection .projectcontainer .projectflex .imagehalf .actiimg {
-              width: 70%; } }
+              max-width: 220px; } }
           @media (min-width: 1820px) {
             #projectsection .projectcontainer .projectflex .imagehalf .actiimg {
               width: 60%; } }
@@ -633,8 +635,28 @@ p {
     margin: 0 auto; }
     #aboutsection .designprocessdiv .dptitle p {
       font-weight: 600;
-      font-size: 2em;
+      font-size: 2.2em;
       text-align: center; }
+    #aboutsection .designprocessdiv .designprocessdesc {
+      padding: 2em 0 4em;
+      width: 90%;
+      margin: 0 auto; }
+      #aboutsection .designprocessdiv .designprocessdesc p {
+        font-weight: bold;
+        font-size: 1.2em;
+        line-height: 1.9em; }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #aboutsection .designprocessdiv .designprocessdesc {
+          width: 70%;
+          padding: 2em 0 4em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #aboutsection .designprocessdiv .designprocessdesc {
+          width: 50%;
+          padding: 2em 0 4em; } }
+      @media (min-width: 1820px) {
+        #aboutsection .designprocessdiv .designprocessdesc {
+          width: 40%;
+          padding: 2em 0 6em; } }
     #aboutsection .designprocessdiv .dpflex {
       display: flex;
       flex-wrap: wrap;

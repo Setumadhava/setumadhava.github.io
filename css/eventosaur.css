@@ -113,12 +113,17 @@
         right: 5%;
         width: 40%; } }
   #herosection .macdiv {
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
     z-index: 999; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      #herosection .macdiv {
+        width: 78%;
+        max-width: 450px; } }
     @media (min-width: 768px) and (max-width: 1023px) {
       #herosection .macdiv {
         width: 75%;
+        max-width: 520px;
         position: absolute;
         top: 70%;
         transform: translateY(-50%);
@@ -126,6 +131,7 @@
     @media (min-width: 1024px) and (max-width: 1439px) {
       #herosection .macdiv {
         width: 65%;
+        max-width: 720px;
         position: absolute;
         top: 62%;
         transform: translateY(-50%);
@@ -196,13 +202,41 @@
     text-align: center;
     width: 90%;
     margin: 1em auto;
-    padding: 1em; }
+    padding: 1em;
+    position: relative; }
     #rolesection .roleflex .roletitle .roletitletext {
-      font-size: 1.6em;
+      font-size: 1.8em;
       color: white;
       font-weight: bold; }
-    #rolesection .roleflex .roletitle .cofoundertext {
-      color: #F5F5F5; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #rolesection .roleflex .roletitle .roletitletext {
+          position: absolute;
+          top: 40%;
+          transform: translateY(-50%);
+          right: 50%;
+          transform: translateX(40%); } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #rolesection .roleflex .roletitle .roletitletext {
+          position: absolute;
+          top: 40%;
+          transform: translateY(-50%);
+          right: 50%;
+          transform: translateX(40%); } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #rolesection .roleflex .roletitle .roletitletext {
+          position: absolute;
+          top: 40%;
+          transform: translateY(-50%);
+          right: 50%;
+          transform: translateX(40%); } }
+      @media (min-width: 1820px) {
+        #rolesection .roleflex .roletitle .roletitletext {
+          font-size: 2em;
+          position: absolute;
+          top: 40%;
+          transform: translateY(-50%);
+          right: 50%;
+          transform: translateX(40%); } }
     @media (min-width: 768px) and (max-width: 1023px) {
       #rolesection .roleflex .roletitle {
         width: 25%; } }
@@ -220,26 +254,41 @@
     text-align: center;
     width: 90%;
     margin: 1em auto; }
-    #rolesection .roleflex .rolecontent p {
+    #rolesection .roleflex .rolecontent .cofoundertext {
+      color: #414141;
+      padding-top: 2em;
+      font-weight: bold;
+      font-size: 1.2em; }
+      @media (min-width: 1820px) {
+        #rolesection .roleflex .rolecontent .cofoundertext {
+          font-size: 1.4em; } }
+    #rolesection .roleflex .rolecontent .roleline {
+      width: 70px;
+      height: 5px;
+      background-color: #00BFA0;
+      margin: 0 auto; }
+    #rolesection .roleflex .rolecontent .rolecontenttext {
       width: 100%;
       padding: 1em;
-      font-size: 1.1em; }
+      font-size: 1.1em;
+      text-align: center;
+      margin: 0 auto; }
       @media (min-width: 768px) and (max-width: 1023px) {
-        #rolesection .roleflex .rolecontent p {
+        #rolesection .roleflex .rolecontent .rolecontenttext {
           width: 100%;
           padding: 2em; } }
       @media (min-width: 1024px) and (max-width: 1439px) {
-        #rolesection .roleflex .rolecontent p {
+        #rolesection .roleflex .rolecontent .rolecontenttext {
           width: 90%;
-          padding: 2em 0 0 8em; } }
+          padding: 2em; } }
       @media (min-width: 1440px) and (max-width: 1819px) {
-        #rolesection .roleflex .rolecontent p {
-          width: 75%;
-          padding: 2em 0 0 12em; } }
+        #rolesection .roleflex .rolecontent .rolecontenttext {
+          width: 60%;
+          padding: 2em; } }
       @media (min-width: 1820px) {
-        #rolesection .roleflex .rolecontent p {
-          width: 65%;
-          padding: 2em 0 0 16em; } }
+        #rolesection .roleflex .rolecontent .rolecontenttext {
+          width: 50%;
+          padding: 3em; } }
     @media (min-width: 768px) and (max-width: 1023px) {
       #rolesection .roleflex .rolecontent {
         width: 73%; } }
@@ -303,12 +352,17 @@
     width: 90%;
     margin: 0 auto;
     font-style: italic;
-    font-weight: bold; }
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.2em; }
+    #problemsection .probcontentflex .prob1liner p {
+      line-height: 1.9em; }
     @media (min-width: 768px) and (max-width: 1023px) {
       #problemsection .probcontentflex .prob1liner {
         order: 3;
         width: 50%;
-        padding: 5em 1em; }
+        padding: 3em 1em;
+        font-size: 1.3em; }
         #problemsection .probcontentflex .prob1liner p {
           margin: 0 auto;
           width: 80%; } }
@@ -316,7 +370,8 @@
       #problemsection .probcontentflex .prob1liner {
         order: 3;
         width: 50%;
-        padding: 5em 1em; }
+        padding: 3em 1em;
+        font-size: 1.3em; }
         #problemsection .probcontentflex .prob1liner p {
           margin: 0 auto;
           width: 80%; } }
@@ -324,7 +379,8 @@
       #problemsection .probcontentflex .prob1liner {
         order: 3;
         width: 50%;
-        padding: 5em 1em; }
+        padding: 3em 1em;
+        font-size: 1.3em; }
         #problemsection .probcontentflex .prob1liner p {
           margin: 0 auto;
           width: 60%; } }
@@ -332,11 +388,13 @@
       #problemsection .probcontentflex .prob1liner {
         order: 3;
         width: 50%;
-        padding: 3em 1em; }
+        padding: 2em 0; }
         #problemsection .probcontentflex .prob1liner p {
           font-size: 1.2em;
           margin: 0 auto;
-          width: 50%; } }
+          width: 50%;
+          text-align: center;
+          font-weight: 400; } }
 #problemsection .probimgdiv {
   width: 90%;
   margin: 0 auto; }
@@ -352,20 +410,20 @@
   width: 95%;
   margin: 0 auto 4em; }
   #processsection .processdiagdiv {
-    width: 90%;
+    width: 95%;
     margin: 0 auto; }
     @media (min-width: 768px) and (max-width: 1023px) {
       #processsection .processdiagdiv {
-        width: 80%; } }
+        width: 90%; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #processsection .processdiagdiv {
-        width: 65%; } }
+        width: 80%; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       #processsection .processdiagdiv {
-        width: 45%; } }
+        width: 70%; } }
     @media (min-width: 1820px) {
       #processsection .processdiagdiv {
-        width: 40%;
+        width: 58%;
         padding: 8em 0; } }
 
 #shiftsection {
@@ -425,6 +483,15 @@
     @media (min-width: 1820px) {
       #vdsection .vdflex .vdimgdiv {
         width: 40%; } }
+    #vdsection .vdflex .vdimgdiv #noserp {
+      text-align: center;
+      color: #7E7E7E; }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #vdsection .vdflex .vdimgdiv #noserp {
+          font-size: 1.2em; } }
+      @media (min-width: 1820px) {
+        #vdsection .vdflex .vdimgdiv #noserp {
+          font-size: 1.2em; } }
 
 #reflectionsection .reflectionflex {
   display: flex;

@@ -608,6 +608,7 @@ p {
             .imagehalf {
                 width: 100%;
                 margin: 2em 0;
+                position: relative;
                 @media #{$tablet} {
                     width: 50%;
                     position: relative;
@@ -688,8 +689,9 @@ p {
                 }
 
                 .actiimg {
-                    width: 85%;
+                    width: 90%;
                     margin: 0 auto;
+                    max-width: 300px;
                     @media #{$phablet} {
                         width: 70%;
                         margin: 1em auto;
@@ -698,7 +700,7 @@ p {
                         width: 50%;
                     }
                     @media #{$mac15} {
-                        width: 70%;
+                        max-width: 220px;
                     }
                     @media #{$monitor} {
                         width: 60%;
@@ -806,8 +808,32 @@ p {
         .dptitle {
             p {
                 font-weight: 600;
-                font-size: 2em;
+                font-size: 2.2em;
                 text-align: center;
+            }
+        }
+
+        .designprocessdesc {
+            padding: 2em 0 4em;
+            width: 90%;
+            margin: 0 auto;
+
+            p {
+                font-weight: bold;
+                font-size: 1.2em;
+                line-height: 1.9em;
+            }
+            @media #{$mac13} {
+                width: 70%;
+                padding: 2em 0 4em;
+            }
+            @media #{$mac15} {
+                width: 50%;
+                padding: 2em 0 4em;
+            }
+            @media #{$monitor} {
+                width: 40%;
+                padding: 2em 0 6em;
             }
         }
 
