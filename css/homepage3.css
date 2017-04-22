@@ -500,8 +500,10 @@ p {
         @media (min-width: 1024px) and (max-width: 1439px) {
           #projectsection .projectcontainer .projectflex .imagehalf .esaurimg {
             position: absolute;
-            top: 50%;
-            transform: translateY(-50%); } }
+            width: 80%;
+            top: 40%;
+            transform: translateY(-50%);
+            right: 12%; } }
         @media (min-width: 1440px) and (max-width: 1819px) {
           #projectsection .projectcontainer .projectflex .imagehalf .esaurimg {
             position: absolute;
@@ -522,16 +524,17 @@ p {
           @media (min-width: 768px) and (max-width: 1023px) {
             #projectsection .projectcontainer .projectflex .imagehalf .expediaimg {
               position: absolute;
+              max-width: 200px;
               top: 10%;
               transform: translateY(-50%);
               transform: translateX(50%); } }
           @media (min-width: 1024px) and (max-width: 1439px) {
             #projectsection .projectcontainer .projectflex .imagehalf .expediaimg {
-              width: 40%;
+              max-width: 200px;
               position: absolute;
-              top: 10%;
+              top: 0;
               transform: translateY(-50%);
-              transform: translateX(50%); } }
+              transform: translateX(80%); } }
           @media (min-width: 1440px) and (max-width: 1819px) {
             #projectsection .projectcontainer .projectflex .imagehalf .expediaimg {
               position: absolute;

@@ -638,8 +638,10 @@ p {
                     }
                     @media #{$mac13} {
                         position: absolute;
-                        top: 50%;
+                        width: 80%;
+                        top: 40%;
                         transform: translateY(-50%);
+                        right: 12%;
                     }
                     @media #{$mac15} {
                         position: absolute;
@@ -662,16 +664,17 @@ p {
                     }
                     @media #{$tablet} {
                         position: absolute;
+                        max-width: 200px;
                         top: 10%;
                         transform: translateY(-50%);
                         transform: translateX(50%);
                     }
                     @media #{$mac13} {
-                        width: 40%;
+                        max-width: 200px;
                         position: absolute;
-                        top: 10%;
+                        top: 0;
                         transform: translateY(-50%);
-                        transform: translateX(50%);
+                        transform: translateX(80%);
                     }
                     @media #{$mac15} {
                         position: absolute;
