@@ -126,6 +126,28 @@
     background-color: $grey1;
 }
 
+.introcontentcenter {
+    margin: 0 auto;
+    width: 90%;
+    padding: 3em 0;
+
+    p {
+        line-height: 2em;
+    }
+    @media #{$tablet} {
+        width: 70%;
+    }
+    @media #{$mac13} {
+        width: 60%;
+    }
+    @media #{$mac15} {
+        width: 40%;
+    }
+    @media #{$monitor} {
+        width: 40%;
+    }
+}
+
 .contentbox {
     display: flex;
     flex-wrap: wrap;
@@ -133,29 +155,29 @@
     .introcontent {
         width: 90%;
         margin: 0 auto;
+        font-size: 1.3em;
+        text-align: center;
 
         p {
             line-height: 2em;
             font-weight: 600;
         }
         @media #{$tablet} {
-            width: 40%;
+            width: 65%;
         }
         @media #{$mac13} {
             width: 50%;
 
             p {
-                width: 95%;
                 padding: 8em 3em;
-                font-size: 1.2em;
+                font-size: 1.1em;
             }
         }
         @media #{$mac15} {
             width: 50%;
 
             p {
-                width: 80%;
-                padding: 10em 5em;
+                padding: 7em 5em;
                 font-size: 1.2em;
             }
         }
@@ -163,8 +185,8 @@
             width: 50%;
 
             p {
-                width: 95%;
-                padding: 10em 6em;
+                // width: 95%;
+                padding: 7em 6em;
                 font-size: 1.2em;
             }
         }
@@ -370,25 +392,20 @@
             padding-bottom: 6em;
             @media #{$phablet} {
                 width: 65%;
-                margin: 0 auto;
             }
             @media #{$tablet} {
-                width: 30%;
-                margin: 0 auto;
+                width: 35%;
             }
             @media #{$mac13} {
-                width: 25%;
-                margin: 0 auto;
+                width: 28%;
                 padding: 4em 0 6em;
             }
             @media #{$mac15} {
                 width: 18%;
-                margin: 0 auto;
                 padding: 4em 0 6em;
             }
             @media #{$monitor} {
-                width: 20%;
-                margin: 0 auto;
+                width: 25%;
                 padding: 4em 0 6em;
             }
         }
