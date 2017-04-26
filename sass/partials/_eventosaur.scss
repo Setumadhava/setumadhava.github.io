@@ -656,6 +656,9 @@
 
         .learnings {
             // background-color: red;
+            p {
+                line-height: 1.8em;
+            }
             @media #{$tablet} {
                 width: 70%;
                 margin: 0 auto;
