@@ -2,6 +2,10 @@
     font-family: $roboto;
     transition: 0.3s all ease-in-out;
 }
+
+p {
+    line-height: 1.8em;
+}
 @media #{$phablet} {}
 @media #{$tablet} {}
 @media #{$mac13} {}
@@ -656,9 +660,6 @@
 
         .learnings {
             // background-color: red;
-            p {
-                line-height: 1.8em;
-            }
             @media #{$tablet} {
                 width: 70%;
                 margin: 0 auto;

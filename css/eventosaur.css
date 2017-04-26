@@ -2,6 +2,9 @@
   font-family: "Roboto", sans-serif;
   transition: 0.3s all ease-in-out; }
 
+p {
+  line-height: 1.8em; }
+
 .KW_progressContainer {
   left: 0;
   width: 100%;
@@ -551,8 +554,6 @@
   flex-wrap: wrap;
   width: 90%;
   margin: 0 auto; }
-  #reflectionsection .reflectionflex .learnings p {
-    line-height: 1.8em; }
   @media (min-width: 768px) and (max-width: 1023px) {
     #reflectionsection .reflectionflex .learnings {
       width: 70%;
