@@ -525,6 +525,40 @@
         }
     }
 }
+/////////////// EARLY EXPLORATION ///////////////
+
+.earexpflex {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    @media #{$mac15} {
+        width: 75%;
+    }
+    @media #{$monitor} {
+        width: 75%;
+    }
+
+    .earexpdiv {
+        img {
+            width: 100%;
+        }
+        margin: 0 auto;
+        @media #{$tablet} {
+            width: 70%;
+        }
+        @media #{$mac13} {
+            width: 40%;
+        }
+        @media #{$mac15} {
+            width: 40%;
+        }
+        @media #{$monitor} {
+            width: 40%;
+            padding: 3em 0;
+        }
+    }
+}
 ///////////// VISUAL DESIGN ////////////
 
 #vdsection {
