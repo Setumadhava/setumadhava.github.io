@@ -87,12 +87,30 @@ html {
         text-align: center;
     }
 
+    .esaurnxt:hover {
+        transition: all 0.20s ease-in-out;
+        cursor: pointer;
+        background-color: $darkgreen;
+        background-image: url("img/homepage2/esaurbg.png");
+        width: 70%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+
+        .nextprojbig,
+        .nextprojsmall {
+            color: white;
+            font-weight: 700;
+        }
+    }
+
     .piunxt:hover {
         transition: all 0.20s ease-in-out;
         cursor: pointer;
         background-color: $darkgreen;
         background-image: url("img/homepage/piubg.png");
-        width: 50%;
+        width: 70%;
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;

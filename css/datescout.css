@@ -668,7 +668,7 @@ html {
     color: #272727;
     font-weight: 900; }
   .nav a {
-    color: #EEEEEE; }
+    color: #F5F5F5; }
 
 .footernavcontainer {
   display: flex;
@@ -678,12 +678,26 @@ html {
     padding: 1em 0;
     background-color: #C9EB91;
     text-align: center; }
+  .footernavcontainer .esaurnxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage2/esaurbg.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .esaurnxt:hover .nextprojbig,
+    .footernavcontainer .esaurnxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
   .footernavcontainer .piunxt:hover {
     transition: all 0.20s ease-in-out;
     cursor: pointer;
     background-color: #00936E;
     background-image: url("img/homepage/piubg.png");
-    width: 50%;
+    width: 70%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -808,11 +822,11 @@ html {
     width: 28px;
     margin: 0 2em; }
   .iconsflex .mail {
-    fill: #EEEEEE;
+    fill: #F5F5F5;
     width: 28px;
     padding-top: 0.57em; }
   .iconsflex .in {
-    fill: #EEEEEE;
+    fill: #F5F5F5;
     width: 28px; }
   .iconsflex .mailicon:hover .mail {
     transition: all 0.20s ease-in-out;
