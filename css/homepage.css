@@ -174,6 +174,8 @@ p {
     #projectsection {
       width: 95%;
       margin: 3em auto 6em; } }
+  #projectsection .premeracontainer {
+    background-image: url("img/homepage2/premerabg.png"); }
   #projectsection .esaurcontainer {
     background-image: url("img/homepage2/esaurbg.png"); }
   #projectsection .expediacontainer {
@@ -268,8 +270,6 @@ p {
         #projectsection .projectcontainerbig .projectflex .contenthalf .line {
           width: 80px;
           height: 3px; }
-        #projectsection .projectcontainerbig .projectflex .contenthalf .piuline {
-          background-color: #026F8B; }
         #projectsection .projectcontainerbig .projectflex .contenthalf .photogline {
           background-color: white;
           margin-bottom: 5em; }
@@ -297,13 +297,6 @@ p {
             padding-top: 0.4em; }
         #projectsection .projectcontainerbig .projectflex .contenthalf .photogbtn p {
           color: #00377D; }
-        #projectsection .projectcontainerbig .projectflex .contenthalf .piubtn:hover {
-          background-color: #026F8B;
-          border: 1.5px solid white;
-          cursor: pointer; }
-          #projectsection .projectcontainerbig .projectflex .contenthalf .piubtn:hover p {
-            color: white;
-            font-weight: bold; }
         #projectsection .projectcontainerbig .projectflex .contenthalf .photogbtn:hover {
           background-color: #00377D;
           border: 1.5px solid white;
@@ -329,20 +322,6 @@ p {
           #projectsection .projectcontainerbig .projectflex .imagehalf {
             width: 50%;
             position: relative; } }
-        #projectsection .projectcontainerbig .projectflex .imagehalf .piuimg {
-          width: 80%;
-          margin: 0 auto; }
-          @media (min-width: 1024px) and (max-width: 1439px) {
-            #projectsection .projectcontainerbig .projectflex .imagehalf .piuimg {
-              width: 58%; } }
-          @media (min-width: 1440px) and (max-width: 1819px) {
-            #projectsection .projectcontainerbig .projectflex .imagehalf .piuimg {
-              width: 50%; } }
-          @media (min-width: 1820px) {
-            #projectsection .projectcontainerbig .projectflex .imagehalf .piuimg {
-              width: 50%; } }
-          #projectsection .projectcontainerbig .projectflex .imagehalf .piuimg img {
-            bottom: 0; }
   #projectsection .projectcontainer {
     display: block;
     background-size: cover;
@@ -411,9 +390,30 @@ p {
           font-size: 2em;
           color: white;
           margin-bottom: 0.2em; }
+        #projectsection .projectcontainer .projectflex .contenthalf .premeratitle {
+          font-size: 2em;
+          color: white;
+          margin-bottom: 0.2em;
+          width: 100%; }
+          @media (min-width: 768px) and (max-width: 1023px) {
+            #projectsection .projectcontainer .projectflex .contenthalf .premeratitle {
+              width: 120%; } }
+          @media (min-width: 1024px) and (max-width: 1439px) {
+            #projectsection .projectcontainer .projectflex .contenthalf .premeratitle {
+              width: 120%; } }
+          @media (min-width: 1440px) and (max-width: 1819px) {
+            #projectsection .projectcontainer .projectflex .contenthalf .premeratitle {
+              width: 120%; } }
+          @media (min-width: 1820px) {
+            #projectsection .projectcontainer .projectflex .contenthalf .premeratitle {
+              width: 120%; } }
         #projectsection .projectcontainer .projectflex .contenthalf .line {
           width: 80px;
           height: 3px; }
+        #projectsection .projectcontainer .projectflex .contenthalf .premeraline {
+          background-color: #FF7C76; }
+        #projectsection .projectcontainer .projectflex .contenthalf .piuline {
+          background-color: #026F8B; }
         #projectsection .projectcontainer .projectflex .contenthalf .esaurline {
           background-color: #00377D; }
         #projectsection .projectcontainer .projectflex .contenthalf .expedialine {
@@ -442,11 +442,25 @@ p {
             color: white; }
           #projectsection .projectcontainer .projectflex .contenthalf .readmorebtn p {
             padding-top: 0.4em; }
+        #projectsection .projectcontainer .projectflex .contenthalf .premerabtn:hover {
+          background-color: #FF7C76;
+          border: 1.5px solid white;
+          cursor: pointer; }
+          #projectsection .projectcontainer .projectflex .contenthalf .premerabtn:hover p {
+            color: white;
+            font-weight: bold; }
         #projectsection .projectcontainer .projectflex .contenthalf .esaurbtn:hover {
           background-color: #00377D;
           border: 1.5px solid white;
           cursor: pointer; }
           #projectsection .projectcontainer .projectflex .contenthalf .esaurbtn:hover p {
+            color: white;
+            font-weight: bold; }
+        #projectsection .projectcontainer .projectflex .contenthalf .piubtn:hover {
+          background-color: #026F8B;
+          border: 1.5px solid white;
+          cursor: pointer; }
+          #projectsection .projectcontainer .projectflex .contenthalf .piubtn:hover p {
             color: white;
             font-weight: bold; }
         #projectsection .projectcontainer .projectflex .contenthalf .expediabtn:hover {
@@ -492,6 +506,23 @@ p {
             position: relative; } }
         #projectsection .projectcontainer .projectflex .imagehalf img {
           width: 100%; }
+        #projectsection .projectcontainer .projectflex .imagehalf .piuimg {
+          width: 90%;
+          margin: 0 auto;
+          max-width: 300px; }
+          @media (min-width: 375px) and (max-width: 768px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .piuimg {
+              width: 70%;
+              margin: 1em auto; } }
+          @media (min-width: 1024px) and (max-width: 1439px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .piuimg {
+              width: 40%; } }
+          @media (min-width: 1440px) and (max-width: 1819px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .piuimg {
+              width: 50%; } }
+          @media (min-width: 1820px) {
+            #projectsection .projectcontainer .projectflex .imagehalf .piuimg {
+              width: 40%; } }
         @media (min-width: 768px) and (max-width: 1023px) {
           #projectsection .projectcontainer .projectflex .imagehalf .esaurimg {
             position: absolute;

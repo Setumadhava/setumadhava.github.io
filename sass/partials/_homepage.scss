@@ -200,6 +200,10 @@ p {
         margin: 3em auto 6em;
     }
 
+    .premeracontainer {
+        background-image: url("img/homepage2/premerabg.png");
+    }
+
     .esaurcontainer {
         background-image: url("img/homepage2/esaurbg.png");
     }
@@ -319,10 +323,6 @@ p {
                     height: 3px;
                 }
 
-                .piuline {
-                    background-color: $piudarkblue;
-                }
-
                 .photogline {
                     background-color: white;
                     margin-bottom: 5em;
@@ -368,17 +368,6 @@ p {
                     }
                 }
 
-                .piubtn:hover {
-                    background-color: $piudarkblue;
-                    border: 1.5px solid white;
-                    cursor: pointer;
-
-                    p {
-                        color: white;
-                        font-weight: bold;
-                    }
-                }
-
                 .photogbtn:hover {
                     background-color: $esaurblue;
                     border: 1.5px solid white;
@@ -409,24 +398,6 @@ p {
                 @media #{$monitor} {
                     width: 50%;
                     position: relative;
-                }
-
-                .piuimg {
-                    width: 80%;
-                    margin: 0 auto;
-                    @media #{$mac13} {
-                        width: 58%;
-                    }
-                    @media #{$mac15} {
-                        width: 50%;
-                    }
-                    @media #{$monitor} {
-                        width: 50%;
-                    }
-
-                    img {
-                        bottom: 0;
-                    }
                 }
             }
         }
@@ -509,9 +480,36 @@ p {
                     margin-bottom: 0.2em;
                 }
 
+                .premeratitle {
+                    font-size: 2em;
+                    color: white;
+                    margin-bottom: 0.2em;
+                    width: 100%;
+                    @media #{$tablet} {
+                        width: 120%;
+                    }
+                    @media #{$mac13} {
+                        width: 120%;
+                    }
+                    @media #{$mac15} {
+                        width: 120%;
+                    }
+                    @media #{$monitor} {
+                        width: 120%;
+                    }
+                }
+
                 .line {
                     width: 80px;
                     height: 3px;
+                }
+
+                .premeraline {
+                    background-color: $premeracoral;
+                }
+
+                .piuline {
+                    background-color: $piudarkblue;
                 }
 
                 .esaurline {
@@ -560,8 +558,30 @@ p {
                     }
                 }
 
+                .premerabtn:hover {
+                    background-color: $premeracoral;
+                    border: 1.5px solid white;
+                    cursor: pointer;
+
+                    p {
+                        color: white;
+                        font-weight: bold;
+                    }
+                }
+
                 .esaurbtn:hover {
                     background-color: $esaurblue;
+                    border: 1.5px solid white;
+                    cursor: pointer;
+
+                    p {
+                        color: white;
+                        font-weight: bold;
+                    }
+                }
+
+                .piubtn:hover {
+                    background-color: $piudarkblue;
                     border: 1.5px solid white;
                     cursor: pointer;
 
@@ -628,6 +648,25 @@ p {
 
                 img {
                     width: 100%;
+                }
+
+                .piuimg {
+                    width: 90%;
+                    margin: 0 auto;
+                    max-width: 300px;
+                    @media #{$phablet} {
+                        width: 70%;
+                        margin: 1em auto;
+                    }
+                    @media #{$mac13} {
+                        width: 40%;
+                    }
+                    @media #{$mac15} {
+                        width: 50%;
+                    }
+                    @media #{$monitor} {
+                        width: 40%;
+                    }
                 }
 
                 .esaurimg {
