@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="364px" height="396px" viewBox="0 0 364 396" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="364px" height="386px" viewBox="0 0 364 386" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
     <title>piulogo</title>
     <desc>Created with Sketch.</desc>
@@ -8,21 +8,21 @@
         <g id="Desktop-HD-Copy" transform="translate(-130.000000, -215.000000)">
             <g id="piulogo" transform="translate(131.000000, 178.000000)">
                 <text id="A-smart-water-manage" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="32" fill="#026F8B">
-                    <tspan x="12" y="295">A smart water management system </tspan>
-                    <tspan x="12" y="327">for stand-alone homes in India</tspan>
+                    <tspan x="12" y="285">A smart water management system </tspan>
+                    <tspan x="12" y="317">for stand-alone homes in India</tspan>
                 </text>
-                <g id="Group-34" transform="translate(0.000000, 362.000000)">
-                    <path d="M52.60905,25.7326875 L52.60905,63.2832673 C133.928139,72.7897433 215.246564,72.7897433 296.564324,63.2832673 C296.566981,62.9587674 296.566981,50.4419075 296.564324,25.7326875 C215.246564,32.2668662 133.928139,32.2668662 52.60905,25.7326875 Z" id="Path-18" stroke="#E72020" stroke-width="0.575" fill="#E66B12" stroke-linecap="square"></path>
+                <g id="Group-34" transform="translate(0.000000, 346.000000)">
+                    <path d="M53,26 L53,68.0212766 C134.319089,78.6595745 215.637514,78.6595745 296.955274,68.0212766 C296.957931,67.6581424 296.957931,53.6510502 296.955274,26 C215.637514,33.3121249 134.319089,33.3121249 53,26 Z" id="Path-18" stroke="#E72020" stroke-width="0.575" fill="#E66B12" stroke-linecap="square"></path>
                     <text id="Best-Graduate-Capsto" font-family="Roboto-Bold, Roboto" font-size="13.7241" font-weight="bold" letter-spacing="0.381225061" fill="#FFFFFF">
                         <tspan x="94.925025" y="48.8820875">Best Graduate Capstone</tspan>
                     </text>
-                    <text id="HCDE-Open-House-2017" font-family="Roboto-Regular, Roboto" font-size="8.005725" font-weight="normal" letter-spacing="0.222381292" fill="#FFFFFF">
-                        <tspan x="128.663437" y="62.3245625">HCDE Open House 2017</tspan>
+                    <text id="HCDE-Open-House-2017" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" letter-spacing="0.277777821" fill="#FFFFFF">
+                        <tspan x="118" y="66">HCDE Open House 2017</tspan>
                     </text>
                     <path d="M253.561745,13.854672 L253.561745,23.4902609 C269.04881,23.7303313 282.147586,22.9054178 292.858074,21.0155204 L253.561745,13.854672 Z" id="Path-19" stroke="#E72020" stroke-width="0.575" fill="#E66B12" stroke-linecap="square"></path>
-                    <path d="M270.266913,11.2400603 L301.696781,18.3797955 L301.696781,45.3868833 L341.60122,35.8611745 L315.927756,25.6092471 C331.87466,17.88393 342.946967,9.4889723 349.144679,0.42437394 C322.852091,9.21658981 296.559502,12.8218186 270.266913,11.2400603 Z" id="Path-20" stroke="#E72020" stroke-width="0.575" fill="#E66B12" stroke-linecap="square"></path>
+                    <path d="M270.266913,12.4518237 L301.696781,20.3914774 L301.696781,50.4243739 L341.60122,39.8314278 L315.927756,28.4308993 C331.87466,19.8400564 342.946967,10.504548 349.144679,0.42437394 C322.852091,10.2016484 296.559502,14.2107983 270.266913,12.4518237 Z" id="Path-20" stroke="#E72020" stroke-width="0.575" fill="#E66B12" stroke-linecap="square"></path>
                     <path d="M56.5346385,13.854672 L56.5346385,23.4902609 C72.0217028,23.7303313 85.120479,22.9054178 95.8309672,21.0155204 L56.5346385,13.854672 Z" id="Path-19" stroke="#E72020" stroke-width="0.575" fill="#E66B12" stroke-linecap="square" transform="translate(76.182803, 18.692760) scale(-1, 1) translate(-76.182803, -18.692760) "></path>
-                    <path d="M0.248033003,11.2400603 L31.6779012,18.3797955 L31.6779012,45.3868833 L71.5823404,35.8611745 L45.9088761,25.6092471 C61.8557798,17.88393 72.9280877,9.4889723 79.1257998,0.42437394 C52.8332108,9.21658981 26.5406219,12.8218186 0.248033003,11.2400603 Z" id="Path-20" stroke="#E72020" stroke-width="0.575" fill="#E66B12" stroke-linecap="square" transform="translate(39.686916, 22.905629) scale(-1, 1) translate(-39.686916, -22.905629) "></path>
+                    <path d="M0.248033003,12.4518237 L31.6779012,20.3914774 L31.6779012,50.4243739 L71.5823404,39.8314278 L45.9088761,28.4308993 C61.8557798,19.8400564 72.9280877,10.504548 79.1257998,0.42437394 C52.8332108,10.2016484 26.5406219,14.2107983 0.248033003,12.4518237 Z" id="Path-20" stroke="#E72020" stroke-width="0.575" fill="#E66B12" stroke-linecap="square" transform="translate(39.686916, 25.424374) scale(-1, 1) translate(-39.686916, -25.424374) "></path>
                 </g>
                 <g transform="translate(5.000000, 0.000000)">
                     <polyline id="Path-2-Copy" stroke="#4FCEDE" stroke-width="8.1" stroke-linecap="square" points="132 117 132 186.879406 191 186.686456"></polyline>
