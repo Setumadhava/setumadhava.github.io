@@ -112,7 +112,7 @@
             width: 100%;
         }
         @media #{$phablet} {
-            width: 60%;
+            width: 80%;
             top: 30%;
             transform: translateY(-50%);
             left: 50%;
@@ -129,13 +129,13 @@
             width: 30%;
             left: 10%;
             position: absolute;
-            top: 50%;
+            top: 60%;
             transform: translateY(-50%);
         }
         @media #{$mac15} {
             width: 25%;
             position: absolute;
-            top: 50%;
+            top: 55%;
             transform: translateY(-50%);
             left: 15%;
         }
@@ -1214,7 +1214,7 @@
         margin: 0 auto;
         @media #{$phablet} {
             height: 445px;
-            width: 400px;
+            width: 375px;
             margin: 0 auto;
         }
         @media #{$tablet} {
