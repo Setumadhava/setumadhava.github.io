@@ -80,7 +80,7 @@ p {
 
 .introbody {
   font-size: 1em;
-  color: white;
+  color: #F5F5F5;
   line-height: 2em;
   width: 95%;
   padding-top: 3em; }
@@ -91,15 +91,19 @@ p {
       font-size: 1em; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     .introbody {
-      width: 50%;
+      width: 60%;
+      font-size: 1.1em; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .introbody {
+      width: 45%;
       font-size: 1.1em; } }
   @media (min-width: 1440px) and (max-width: 1819px) {
     .introbody {
-      width: 30%;
+      width: 35%;
       font-size: 1.1em; } }
   @media (min-width: 1820px) {
     .introbody {
-      width: 27%;
+      width: 35%;
       font-size: 1.1em;
       padding-top: 5em; } }
 
