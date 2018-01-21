@@ -228,6 +228,10 @@ p {
         background-image: url("img/homepage2/piubg.png");
     }
 
+    .ubercontainer {
+        background-image: url("img/homepage2/uberbg.png");
+    }
+
     .photogcontainer {
         min-height: 500px;
         background-image: url("img/homepage2/photogbg.png");
@@ -484,6 +488,25 @@ p {
                     margin-bottom: 0.2em;
                 }
 
+                .ubertitle {
+                    font-size: 2em;
+                    color: white;
+                    margin-bottom: 0.2em;
+                    width: 100%;
+                    @media #{$tablet} {
+                        width: 120%;
+                    }
+                    @media #{$mac13} {
+                        width: 120%;
+                    }
+                    @media #{$mac15} {
+                        width: 120%;
+                    }
+                    @media #{$monitor} {
+                        width: 120%;
+                    }
+                }
+
                 .premeratitle {
                     font-size: 2em;
                     color: white;
@@ -510,6 +533,10 @@ p {
 
                 .premeraline {
                     background-color: $premeracoral;
+                }
+
+                .uberline {
+                    background-color: $uberblue;
                 }
 
                 .piuline {
@@ -586,6 +613,17 @@ p {
 
                 .piubtn:hover {
                     background-color: $piudarkblue;
+                    border: 1.5px solid white;
+                    cursor: pointer;
+
+                    p {
+                        color: white;
+                        font-weight: bold;
+                    }
+                }
+
+                .uberbtn:hover {
+                    background-color: $uberblue;
                     border: 1.5px solid white;
                     cursor: pointer;
 

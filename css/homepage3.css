@@ -189,6 +189,8 @@ p {
     background-image: url("img/homepage2/smarthomebg.png"); }
   #projectsection .piucontainer {
     background-image: url("img/homepage2/piubg.png"); }
+  #projectsection .ubercontainer {
+    background-image: url("img/homepage2/uberbg.png"); }
   #projectsection .photogcontainer {
     min-height: 500px;
     background-image: url("img/homepage2/photogbg.png"); }
@@ -393,6 +395,23 @@ p {
           font-size: 2em;
           color: white;
           margin-bottom: 0.2em; }
+        #projectsection .projectcontainer .projectflex .contenthalf .ubertitle {
+          font-size: 2em;
+          color: white;
+          margin-bottom: 0.2em;
+          width: 100%; }
+          @media (min-width: 768px) and (max-width: 1023px) {
+            #projectsection .projectcontainer .projectflex .contenthalf .ubertitle {
+              width: 120%; } }
+          @media (min-width: 1024px) and (max-width: 1439px) {
+            #projectsection .projectcontainer .projectflex .contenthalf .ubertitle {
+              width: 120%; } }
+          @media (min-width: 1440px) and (max-width: 1819px) {
+            #projectsection .projectcontainer .projectflex .contenthalf .ubertitle {
+              width: 120%; } }
+          @media (min-width: 1820px) {
+            #projectsection .projectcontainer .projectflex .contenthalf .ubertitle {
+              width: 120%; } }
         #projectsection .projectcontainer .projectflex .contenthalf .premeratitle {
           font-size: 2em;
           color: white;
@@ -415,6 +434,8 @@ p {
           height: 3px; }
         #projectsection .projectcontainer .projectflex .contenthalf .premeraline {
           background-color: #FF7C76; }
+        #projectsection .projectcontainer .projectflex .contenthalf .uberline {
+          background-color: #1fbad6; }
         #projectsection .projectcontainer .projectflex .contenthalf .piuline {
           background-color: #026F8B; }
         #projectsection .projectcontainer .projectflex .contenthalf .esaurline {
@@ -464,6 +485,13 @@ p {
           border: 1.5px solid white;
           cursor: pointer; }
           #projectsection .projectcontainer .projectflex .contenthalf .piubtn:hover p {
+            color: white;
+            font-weight: bold; }
+        #projectsection .projectcontainer .projectflex .contenthalf .uberbtn:hover {
+          background-color: #1fbad6;
+          border: 1.5px solid white;
+          cursor: pointer; }
+          #projectsection .projectcontainer .projectflex .contenthalf .uberbtn:hover p {
             color: white;
             font-weight: bold; }
         #projectsection .projectcontainer .projectflex .contenthalf .expediabtn:hover {
