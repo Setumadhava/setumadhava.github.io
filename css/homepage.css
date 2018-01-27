@@ -208,9 +208,26 @@ body {
       .maincard .cardcontents {
         padding: 2em 4em; } }
     .maincard .cardcontents .projectdate {
-      visibility: hidden;
+      opacity: 1;
+      transition: 0.4s all ease-in-out;
+      font-size: 0.7em;
       position: relative;
-      color: #BCBCBC; }
+      color: #7f7f7f; }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        .maincard .cardcontents .projectdate {
+          font-size: 1em;
+          opacity: 0;
+          transition: 0.4s all ease-in-out; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        .maincard .cardcontents .projectdate {
+          font-size: 1em;
+          opacity: 0;
+          transition: 0.4s all ease-in-out; } }
+      @media (min-width: 1820px) {
+        .maincard .cardcontents .projectdate {
+          font-size: 1em;
+          opacity: 0;
+          transition: 0.4s all ease-in-out; } }
   .maincard #projecttitle {
     font-family: georgia;
     font-size: 2em;
@@ -305,7 +322,8 @@ body {
   cursor: pointer;
   transition: 0.4s all ease-in-out; }
   .maincard:hover .projectdate {
-    visibility: visible; }
+    transition: 0.4s all ease-in-out;
+    opacity: 1; }
 
 #aboutsection {
   max-width: 1000px;

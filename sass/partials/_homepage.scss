@@ -259,9 +259,26 @@ body {
         }
 
         .projectdate {
-            visibility: hidden;
+            opacity: 1;
+            transition: 0.4s all ease-in-out;
+            font-size: 0.7em;
+            @media #{$mac13} {
+                font-size: 1em;
+                opacity: 0;
+                transition: 0.4s all ease-in-out;
+            }
+            @media #{$mac15} {
+                font-size: 1em;
+                opacity: 0;
+                transition: 0.4s all ease-in-out;
+            }
+            @media #{$monitor} {
+                font-size: 1em;
+                opacity: 0;
+                transition: 0.4s all ease-in-out;
+            }
             position: relative;
-            color: $grey3;
+            color: $halfgrey;
         }
     }
 
@@ -372,7 +389,8 @@ body {
     transition: 0.4s all ease-in-out;
 
     .projectdate {
-        visibility: visible;
+        transition: 0.4s all ease-in-out;
+        opacity: 1;
     }
 }
 
