@@ -1,0 +1,811 @@
+body {
+  background-color: #F3f3f3; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .wrapper {
+      width: 90%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .wrapper {
+      width: 80%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .wrapper {
+      max-width: 1000px; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .wrapper {
+      max-width: 1000px; } }
+  @media (min-width: 1820px) {
+    .wrapper {
+      max-width: 1000px; } }
+
+#header {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 2em;
+  width: 100%; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
+  @media (min-width: 1820px) {
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
+  #header #headerflex .name {
+    transition: 0.3s all ease-in-out;
+    position: relative; }
+    #header #headerflex .name p {
+      font-family: georgia;
+      font-size: 1.5em; }
+  #header #headerflex .name:hover {
+    transition: 0.3s all ease-in-out;
+    color: #F04B33;
+    cursor: pointer; }
+  #header #headerflex #navflex {
+    width: 80%;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em; } }
+    @media (min-width: 1820px) {
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em; } }
+    #header #headerflex #navflex .navitem {
+      width: 20%;
+      text-align: left;
+      transition: 0.3s all ease-in-out; }
+      #header #headerflex #navflex .navitem a {
+        transition: 0.3s all ease-in-out;
+        color: black; }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #header #headerflex #navflex .navitem {
+          text-align: right; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #header #headerflex #navflex .navitem {
+          text-align: right; } }
+      @media (min-width: 1820px) {
+        #header #headerflex #navflex .navitem {
+          text-align: right; } }
+      #header #headerflex #navflex .navitem p {
+        font-size: 0.9em;
+        font-weight: 500; }
+    #header #headerflex #navflex .navitem:hover {
+      font-weight: bolder;
+      cursor: pointer; }
+      #header #headerflex #navflex .navitem:hover a {
+        transition: 0.3s all ease-in-out;
+        color: #F04B33; }
+
+#intro {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 8em 0 2em; }
+  #intro #hello {
+    font-family: georgia;
+    font-size: 3em; }
+  #intro #shortintro {
+    width: 90%;
+    padding-top: 2em;
+    font-size: 1.2em;
+    color: #7f7f7f; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #intro #shortintro {
+        width: 60%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #intro #shortintro {
+        width: 45%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #intro #shortintro {
+        width: 45%; } }
+    @media (min-width: 1820px) {
+      #intro #shortintro {
+        width: 42%; } }
+    #intro #shortintro #redtext {
+      color: #F04B33; }
+  #intro #factflex {
+    padding-top: 4em;
+    display: flex;
+    flex-wrap: wrap; }
+    #intro #factflex .factbox {
+      width: 100%;
+      padding-bottom: 2em;
+      margin: 0 auto; }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #intro #factflex .factbox {
+          width: 33%;
+          padding: 0; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #intro #factflex .factbox {
+          width: 33%;
+          padding: 0; } }
+      @media (min-width: 1820px) {
+        #intro #factflex .factbox {
+          width: 33%;
+          padding: 0; } }
+      #intro #factflex .factbox #facttitle {
+        font-size: 0.9em;
+        color: #7f7f7f; }
+        #intro #factflex .factbox #facttitle p {
+          margin: 0;
+          padding: 0; }
+      #intro #factflex .factbox #fact {
+        padding-top: 0.8em; }
+    #intro #factflex .lastfactbox {
+      padding-bottom: 0; }
+
+.breakline {
+  height: 1px;
+  position: relative;
+  margin-top: 8em;
+  width: 100%;
+  background-color: #D5D5D5; }
+
+.breaklinetop {
+  margin: 4em 0; }
+
+.breaklineaboutme {
+  height: 1px;
+  position: relative;
+  top: 2em;
+  width: 100%;
+  background-color: #D5D5D5; }
+
+.maincard {
+  background-color: white;
+  margin: 8em auto 0;
+  border-radius: 3px;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: 0.4s all ease-in-out;
+  position: relative; }
+  .maincard #link {
+    color: black; }
+  .maincard .cardcontents {
+    padding: 1em; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .maincard .cardcontents {
+        padding: 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .maincard .cardcontents {
+        padding: 2em 4em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .maincard .cardcontents {
+        padding: 2em 4em; } }
+    @media (min-width: 1820px) {
+      .maincard .cardcontents {
+        padding: 2em 4em; } }
+    .maincard .cardcontents .projectdate {
+      visibility: hidden;
+      position: relative;
+      color: #BCBCBC; }
+  .maincard #projecttitle {
+    font-family: georgia;
+    font-size: 2em;
+    font-weight: 600; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .maincard #projecttitle {
+        padding: 1em 0 0 1em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .maincard #projecttitle {
+        font-size: 3em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .maincard #projecttitle {
+        font-size: 3em; } }
+    @media (min-width: 1820px) {
+      .maincard #projecttitle {
+        font-size: 3em; } }
+  .maincard #blackline {
+    height: 4px;
+    background-color: black;
+    width: 100%; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .maincard #blackline {
+        margin-left: 2em;
+        width: 60%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .maincard #blackline {
+        width: 70%;
+        margin-bottom: 2em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .maincard #blackline {
+        width: 70%;
+        margin-bottom: 2em; } }
+    @media (min-width: 1820px) {
+      .maincard #blackline {
+        width: 60%;
+        margin-bottom: 2em; } }
+  .maincard #projectflex {
+    display: flex;
+    flex-wrap: wrap; }
+  .maincard #projectcontent {
+    width: 100%;
+    padding: 1em 0; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .maincard #projectcontent {
+        width: 90%;
+        padding-left: 2.5em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .maincard #projectcontent {
+        width: 50%;
+        padding: 2em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .maincard #projectcontent {
+        width: 50%;
+        padding: 2em; } }
+    @media (min-width: 1820px) {
+      .maincard #projectcontent {
+        width: 50%;
+        padding: 2em; } }
+    .maincard #projectcontent #primarycontent {
+      font-size: 1em;
+      padding-bottom: 2em; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .maincard #projectcontent #primarycontent {
+          font-size: 1.2em; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        .maincard #projectcontent #primarycontent {
+          font-size: 1.2em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        .maincard #projectcontent #primarycontent {
+          font-size: 1.2em; } }
+      @media (min-width: 1820px) {
+        .maincard #projectcontent #primarycontent {
+          font-size: 1.2em; } }
+    .maincard #projectcontent #secondarycontent {
+      font-size: 0.8em;
+      color: #7E7E7E; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .maincard #projectcontent #secondarycontent {
+          font-size: 1em; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        .maincard #projectcontent #secondarycontent {
+          font-size: 1em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        .maincard #projectcontent #secondarycontent {
+          font-size: 1em; } }
+      @media (min-width: 1820px) {
+        .maincard #projectcontent #secondarycontent {
+          font-size: 1em; } }
+
+.maincard:hover {
+  box-shadow: 0 14px 96px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.4s all ease-in-out; }
+  .maincard:hover .projectdate {
+    visibility: visible; }
+
+#aboutsection {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 8em 0 4em; }
+  #aboutsection #hello {
+    font-family: georgia;
+    font-size: 3em; }
+  #aboutsection #aboutme {
+    width: 90%;
+    font-size: 1em;
+    line-height: 1.8em;
+    padding-top: 2em;
+    color: #7f7f7f; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #aboutsection #aboutme {
+        width: 85%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #aboutsection #aboutme {
+        width: 65%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #aboutsection #aboutme {
+        width: 65%; } }
+    @media (min-width: 1820px) {
+      #aboutsection #aboutme {
+        width: 55%; } }
+
+#contactsection {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 8em 0 4em; }
+  #contactsection #hello {
+    font-family: georgia;
+    font-size: 3em; }
+  #contactsection #contactflex {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    justify-content: space-between; }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #contactsection #contactflex {
+        width: 70%; } }
+    #contactsection #contactflex .contcontent {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      padding: 2em 0;
+      transition: 0.3s all ease-in-out; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #contactsection #contactflex .contcontent {
+          width: 50%;
+          padding: 2em 0; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #contactsection #contactflex .contcontent {
+          width: 50%;
+          padding: 2em 0; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #contactsection #contactflex .contcontent {
+          width: 25%; } }
+      @media (min-width: 1820px) {
+        #contactsection #contactflex .contcontent {
+          width: 25%; } }
+      #contactsection #contactflex .contcontent a {
+        color: black;
+        transition: 0.3s all ease-in-out; }
+      #contactsection #contactflex .contcontent .contline {
+        height: 4px;
+        width: 50px;
+        background-color: black;
+        border-radius: 2px;
+        position: relative;
+        top: 45%;
+        margin-right: 1.5em;
+        transition: 0.3s all ease-in-out; }
+    #contactsection #contactflex .contcontent:hover {
+      transition: 0.3s all ease-in-out;
+      cursor: pointer; }
+      #contactsection #contactflex .contcontent:hover a {
+        color: #F04B33;
+        transition: 0.3s all ease-in-out; }
+      #contactsection #contactflex .contcontent:hover .contline {
+        background-color: #F04B33;
+        transition: 0.3s all ease-in-out;
+        transform: translateX(6px); }
+
+#piupic {
+  width: 80%;
+  padding: 4em 0;
+  margin: 0 auto; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #piupic {
+      width: 70%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #piupic {
+      width: 40%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #piupic {
+      padding: 2em 0;
+      width: 20%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #piupic {
+      padding: 2em 0;
+      width: 20%; } }
+  @media (min-width: 1820px) {
+    #piupic {
+      padding: 2em 0;
+      width: 20%; } }
+  #piupic img {
+    width: 100%;
+    margin: 0 auto; }
+
+#premerapic {
+  width: 100%;
+  padding: 4em 0;
+  margin: 0 auto; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #premerapic {
+      width: 100%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #premerapic {
+      width: 90%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #premerapic {
+      padding: 2em 0;
+      width: 50%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #premerapic {
+      padding: 2em 0;
+      width: 45%; } }
+  @media (min-width: 1820px) {
+    #premerapic {
+      padding: 2em 0;
+      width: 50%; } }
+  #premerapic img {
+    width: 100%;
+    margin: 0 auto; }
+
+#uberpic {
+  width: 80%;
+  padding: 4em 0;
+  margin: 0 auto; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #uberpic {
+      width: 70%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #uberpic {
+      width: 40%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #uberpic {
+      padding: 2em 0;
+      width: 25%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #uberpic {
+      padding: 2em 0;
+      width: 25%; } }
+  @media (min-width: 1820px) {
+    #uberpic {
+      padding: 2em 0;
+      width: 25%; } }
+  #uberpic img {
+    width: 100%;
+    margin: 0 auto; }
+
+#expediapic {
+  width: 80%;
+  padding: 4em 0;
+  margin: 0 auto; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #expediapic {
+      width: 70%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #expediapic {
+      width: 45%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #expediapic {
+      padding: 2em 0;
+      width: 30%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #expediapic {
+      padding: 2em 0;
+      width: 30%; } }
+  @media (min-width: 1820px) {
+    #expediapic {
+      padding: 2em 0;
+      width: 30%; } }
+  #expediapic img {
+    width: 100%;
+    margin: 0 auto; }
+
+#actipic {
+  width: 90%;
+  padding: 4em 0;
+  margin: 0 auto; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #actipic {
+      width: 75%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #actipic {
+      width: 50%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #actipic {
+      padding: 2em 0;
+      width: 30%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #actipic {
+      padding: 2em 0;
+      width: 30%; } }
+  @media (min-width: 1820px) {
+    #actipic {
+      padding: 2em 0;
+      width: 30%; } }
+  #actipic img {
+    width: 100%;
+    margin: 0 auto; }
+
+#smarthomepic {
+  width: 100%;
+  padding: 4em 0;
+  margin: 0 auto; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #smarthomepic {
+      width: 100%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #smarthomepic {
+      width: 80%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #smarthomepic {
+      padding: 2em 0;
+      width: 50%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #smarthomepic {
+      padding: 2em 0;
+      width: 50%; } }
+  @media (min-width: 1820px) {
+    #smarthomepic {
+      padding: 2em 0;
+      width: 50%; } }
+  #smarthomepic img {
+    width: 100%;
+    margin: 0 auto; }
+
+.container,
+body,
+html {
+  height: 100%;
+  width: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
+
+.nav {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1000; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .nav {
+      justify-content: space-around; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .nav {
+      justify-content: flex-end; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  @media (min-width: 1820px) {
+    .nav {
+      justify-content: flex-end;
+      padding-right: 2em; } }
+  .nav .navitem {
+    padding: 1em 1.5em;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-align: center;
+    width: 33%; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .nav .navitem {
+        padding: 1.5em 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        width: 150px; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        width: 150px; } }
+    @media (min-width: 1820px) {
+      .nav .navitem {
+        padding: 1.5em 2em;
+        font-size: 1em;
+        width: 200px; } }
+  .nav .navitem:hover {
+    transition: all 0.30s ease-in-out;
+    cursor: pointer;
+    background-color: white;
+    color: #272727;
+    font-weight: 900; }
+  .nav a {
+    color: #F5F5F5; }
+
+.footernavcontainer {
+  display: flex;
+  justify-content: space-between; }
+  .footernavcontainer .navbutton {
+    width: 50%;
+    padding: 1em 0;
+    background-color: #C9EB91;
+    text-align: center; }
+  .footernavcontainer .esaurnxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage2/esaurbg.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .esaurnxt:hover .nextprojbig,
+    .footernavcontainer .esaurnxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer .piunxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage/piubg.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .piunxt:hover .nextprojbig,
+    .footernavcontainer .piunxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer .actinxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/actilist/herobg.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .actinxt:hover .nextprojbig,
+    .footernavcontainer .actinxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer .smarthomenxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/smarthome/homeimg2.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .smarthomenxt:hover .nextprojbig,
+    .footernavcontainer .smarthomenxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer .expedianxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage/hotel_room.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .expedianxt:hover .nextprojbig,
+    .footernavcontainer .expedianxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer .datescoutnxt:hover {
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+    background-color: #00936E;
+    background-image: url("img/homepage/dscoutcouplebg.png");
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+    .footernavcontainer .datescoutnxt:hover .nextprojbig,
+    .footernavcontainer .datescoutnxt:hover .nextprojsmall {
+      color: white;
+      font-weight: 700; }
+  .footernavcontainer a {
+    color: #424242; }
+  .footernavcontainer .nextprojsmall {
+    font-size: 0.8em; }
+  .footernavcontainer .nextprojbig {
+    font-size: 1em;
+    font-weight: 500; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 1820px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+
+.footerdiv {
+  background-color: #292929;
+  width: 100%; }
+
+.getintouch {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5em;
+  padding: 2em 0;
+  text-align: center; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    .getintouch {
+      font-size: 1.5em; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .getintouch {
+      font-size: 2em;
+      text-align: center; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .getintouch {
+      font-size: 2em; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .getintouch {
+      font-size: 2em; } }
+  @media (min-width: 1820px) {
+    .getintouch {
+      font-size: 2em; } }
+
+.iconsflex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 4em;
+  justify-content: center; }
+  .iconsflex .email {
+    font-size: 1.5em;
+    color: white; }
+  .iconsflex .icondiv {
+    width: 28px;
+    margin: 0 2em; }
+  .iconsflex .mail {
+    fill: #F5F5F5;
+    width: 28px;
+    padding-top: 0.57em; }
+  .iconsflex .in {
+    fill: #F5F5F5;
+    width: 28px; }
+  .iconsflex .mailicon:hover .mail {
+    transition: all 0.20s ease-in-out;
+    fill: #DC4638; }
+  .iconsflex .inicon:hover .in {
+    transition: all 0.20s ease-in-out;
+    fill: #0075B5; }
+
+.resumeline {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: 1em; }
+  .resumeline #resume {
+    color: #D92A1C; }
+
+.arrowup {
+  width: 50px;
+  margin: 0 auto;
+  padding: 2em 0 3em; }
+
+.copyrightdiv {
+  width: 100%;
+  background-color: #3E3E3E; }
+
+.copyright {
+  padding: 0.8em 0;
+  text-align: center;
+  color: #ABABAB;
+  font-size: 0.8em;
+  margin: 0 auto; }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .copyright {
+      padding: 0.8em 0 0.8em 10em;
+      text-align: left; } }
+
+/*# sourceMappingURL=homepage_2017.css.map */

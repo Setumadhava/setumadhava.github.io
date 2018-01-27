@@ -1,1178 +1,666 @@
-* {
-    transition: 0.3s all ease-in-out;
+body {
+    background-color: #F3f3f3;
 }
 
-p {
-    font-family: $roboto;
-}
+* {}
 
-#intro {
-    background-image: url("img/homepage/blackbg.png");
-    width: 100%;
-    display: block;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    height: 100%;
-    // box-shadow: 0 10px 10px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-.introcontent {
-    width: 80%;
-    padding-top: 8em;
-    padding-left: 2em;
-    @media #{$phablet} {
-        padding-top: 11em;
-        padding-left: 2em;
-    }
-    @media #{$tablet} {
-        padding-top: 11em;
-        padding-left: 5em;
-    }
-    @media #{$mac13} {
-        padding-top: 18em;
-        padding-left: 5em;
-    }
-    @media #{$mac15} {
-        padding-top: 14em;
-        padding-left: 8em;
-    }
-    @media #{$monitor} {
-        padding-top: 14em;
-        padding-left: 10em;
-
-        .introbody {
-            font-size: 1.3em;
-        }
-    }
-}
-
-#introtitle {
-    font-size: 2em;
-    color: white;
-    width: 20%;
-    font-family: $roboto-mono;
-    @media #{$tablet} {
-        font-size: 3em;
-    }
-    @media #{$mac13} {
-        font-size: 3em;
-        width: 100%;
-    }
-    @media #{$mac15} {
-        font-size: 3em;
-        width: 100%;
-    }
-    @media #{$monitor} {
-        font-size: 3em;
-        width: 100%;
-    }
-}
-
-.ixdtitle {
-    color: #B5B5B5;
-    font-size: 1.2em;
-    @media #{$tablet} {
-        font-size: 1.2em;
-    }
-    @media #{$mac13} {
-        font-size: 1.2em;
-    }
-    @media #{$mac15} {
-        font-size: 1.4em;
-    }
-    @media #{$monitor} {
-        font-size: 1.6em;
-    }
-}
-
-.introbody {
-    font-size: 1em;
-    color: $grey1;
-    line-height: 2em;
-    width: 95%;
-    padding-top: 3em;
-    @media #{$mac13} {
-        width: 35%;
-        padding-top: 3em;
-        font-size: 1em;
-    }
-    @media #{$tablet} {
-        width: 60%;
-        font-size: 1.1em;
-    }
-    @media #{$mac13} {
-        width: 45%;
-        font-size: 1.1em;
-    }
-    @media #{$mac15} {
-        width: 35%;
-        font-size: 1.1em;
-    }
-    @media #{$monitor} {
-        width: 35%;
-        font-size: 1.1em;
-        padding-top: 5em;
-    }
-}
-
-#setu {
-    color: #17DECB;
-}
-
-#projects {
-    position: absolute;
+.wrapper {
+    // max-width: 1000px;
     margin: 0 auto;
-    width: 40px;
-    bottom: 20px;
-    left: 44%;
-    transform: translateX(-50%);
-    animation-name: blinker;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+    width: 90%;
     @media #{$phablet} {
-        left: 45.5%;
+        width: 90%;
     }
     @media #{$tablet} {
-        left: 47.5%;
+        width: 80%;
     }
     @media #{$mac13} {
-        left: 48%;
+        max-width: 1000px;
     }
     @media #{$mac15} {
-        left: 48.65%;
+        max-width: 1000px;
     }
     @media #{$monitor} {
-        left: 49%;
-    }
-}
-@keyframes blinker {
-    0% {
-        transform: translateY(0px);
-    }
-
-    50% {
-        transform: translateY(-15px);
-    }
-
-    100% {
-        transform: translateY(0px);
+        max-width: 1000px;
     }
 }
 
-.arrowdowndiv:hover {
-    animation-play-state: paused;
-}
-
-.twoembottom {
-    margin-bottom: 2em;
-}
-
-.fourembottom {
-    margin-bottom: 4em;
-}
-
-.sixembottom {
-    padding-bottom: 6em;
-}
-////////////////////////// PROJECT SECTION ///////////////////
-
-#sectiontitle {
-    margin: 3em 0;
-    @media #{$monitor} {
-        margin: 6em 0;
-    }
-
-    p {
-        font-size: 4em;
-        text-align: center;
-        font-family: 'Rozha One', serif;
-        font-weight: 400;
-        color: $piublack;
-    }
-}
-
-#projectsection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 3em 0;
-    @media #{$monitor} {
-        width: 95%;
-        margin: 3em auto 6em;
-    }
-
-    .premeracontainer {
-        background-image: url("img/homepage2/premerabg.png");
-    }
-
-    .esaurcontainer {
-        background-image: url("img/homepage2/esaurbg.png");
-    }
-
-    .expediacontainer {
-        background-image: url("img/homepage2/expediabg.png");
-    }
-
-    .actilistcontainer {
-        background-image: url("img/homepage2/actibg.png");
-    }
-
-    .smarthomecontainer {
-        background-image: url("img/homepage2/smarthomebg.png");
-    }
-
-    .piucontainer {
-        background-image: url("img/homepage2/piubg.png");
-    }
-
-    .ubercontainer {
-        background-image: url("img/homepage2/uberbg.png");
-    }
-
-    .photogcontainer {
-        min-height: 500px;
-        background-image: url("img/homepage2/photogbg.png");
-    }
-
-    .projectcontainerbig {
-        display: block;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        height: 100%;
-        margin: 0.5em;
-        border-radius: 2px;
-        width: 95%;
-        @media #{$tablet} {
-            width: 90%;
-        }
-        @media #{$mac13} {
-            width: 90%;
-        }
-        @media #{$mac15} {
-            width: 94.5%;
-        }
-        @media #{$monitor} {
-            width: 83.5%;
-        }
-
-        .label {
-            background: rgba(129,129,129,0.5);
-            padding: 1em 2em;
-            position: relative;
-            width: 100%;
-            @media #{$phablet} {
-                width: auto;
-            }
-            @media #{$tablet} {
-                width: auto;
-            }
-            @media #{$mac13} {
-                width: auto;
-            }
-            @media #{$mac15} {
-                width: auto;
-            }
-            @media #{$monitor} {
-                width: auto;
-            }
-
-            .redunderline {
-                height: 3px;
-                background: rgba(255,0,0,0.5);
-                width: 100%;
-                position: absolute;
-                bottom: 0;
-                right: 50%;
-                transform: translateX(50%);
-            }
-        }
-
-        .projectflex {
-            display: flex;
-            flex-wrap: wrap;
-
-            .contenthalf {
-                padding: 1.5em;
-                width: 100%;
-                @media #{$tablet} {
-                    width: 50%;
-                    padding: 2.5em;
-                }
-                @media #{$mac13} {
-                    width: 50%;
-                    padding: 2.5em;
-                }
-                @media #{$mac15} {
-                    width: 50%;
-                    padding: 2.5em 12em;
-                }
-                @media #{$monitor} {
-                    width: 50%;
-                    padding: 5em 13em;
-                }
-
-                .title {
-                    font-size: 2em;
-                    color: white;
-                    margin-bottom: 0.2em;
-                }
-
-                .photogtitle {
-                    color: white;
-                }
-
-                .line {
-                    width: 80px;
-                    height: 3px;
-                }
-
-                .photogline {
-                    background-color: white;
-                    margin-bottom: 5em;
-                }
-
-                .tags {
-                    font-size: 0.9em;
-                    color: #d8d8d8;
-                }
-
-                .projdesc {
-                    width: 85%;
-                    color: white;
-                    line-height: 1.8em;
-                    font-size: 0.9em;
-                }
-
-                .photogdesc {
-                    color: $esaurblue;
-                }
-
-                .readmorebtn {
-                    width: 143px;
-                    height: 40px;
-                    text-align: center;
-                    border-radius: 50px;
-                    border: 1.5px solid white;
-                    color: white;
-                    font-size: 0.9em;
-
-                    a {
-                        color: white;
-                    }
-
-                    p {
-                        padding-top: 0.4em;
-                    }
-                }
-
-                .photogbtn {
-                    p {
-                        color: $esaurblue;
-                    }
-                }
-
-                .photogbtn:hover {
-                    background-color: $esaurblue;
-                    border: 1.5px solid white;
-                    cursor: pointer;
-
-                    p {
-                        color: white;
-                        font-weight: bold;
-                    }
-                }
-            }
-
-            .imagehalf {
-                width: 100%;
-                // margin: 2em 0;
-                position: relative;
-                @media #{$tablet} {
-                    width: 50%;
-                    position: relative;
-                }
-                @media #{$mac13} {
-                    width: 50%;
-                }
-                @media #{$mac15} {
-                    width: 50%;
-                    position: relative;
-                }
-                @media #{$monitor} {
-                    width: 50%;
-                    position: relative;
-                }
-            }
-        }
-    }
-
-    .projectcontainer {
-        display: block;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        height: 100%;
-        margin: 0.5em;
-        border-radius: 2px;
-        @media #{$tablet} {
-            width: 90%;
-            margin: 1em;
-        }
-        @media #{$mac13} {
-            width: 90%;
-            margin: 1em;
-        }
-        @media #{$mac15} {
-            width: 45%;
-            margin: 2em;
-            max-height: 440px;
-            min-height: 440px;
-        }
-        @media #{$monitor} {
-            width: 40%;
-            margin: 2em;
-            max-height: 440px;
-            min-height: 440px;
-        }
-
-        .label {
-            background: rgba(129,129,129,0.5);
-            padding: 1em 2em;
-            position: relative;
-
-            .redunderline {
-                height: 3px;
-                background: rgba(255,0,0,0.5);
-                width: 100%;
-                position: absolute;
-                bottom: 0;
-                right: 50%;
-                transform: translateX(50%);
-            }
-        }
-
-        .projectflex {
-            display: flex;
-            flex-wrap: wrap;
-            padding: 0.5em;
-
-            .contenthalf {
-                padding: 1em;
-                width: 100%;
-                @media #{$tablet} {
-                    width: 50%;
-                    padding: 2em;
-                }
-                @media #{$mac13} {
-                    width: 50%;
-                    padding: 2em;
-                }
-                @media #{$mac15} {
-                    width: 50%;
-                    padding: 2em;
-                }
-                @media #{$monitor} {
-                    width: 50%;
-                    padding: 2em;
-                }
-
-                .title {
-                    font-size: 2em;
-                    color: white;
-                    margin-bottom: 0.2em;
-                }
-
-                .ubertitle {
-                    font-size: 2em;
-                    color: white;
-                    margin-bottom: 0.2em;
-                    width: 100%;
-                    @media #{$tablet} {
-                        width: 120%;
-                    }
-                    @media #{$mac13} {
-                        width: 120%;
-                    }
-                    @media #{$mac15} {
-                        width: 120%;
-                    }
-                    @media #{$monitor} {
-                        width: 120%;
-                    }
-                }
-
-                .premeratitle {
-                    font-size: 2em;
-                    color: white;
-                    margin-bottom: 0.2em;
-                    width: 100%;
-                    @media #{$tablet} {
-                        width: 120%;
-                    }
-                    @media #{$mac13} {
-                        width: 120%;
-                    }
-                    @media #{$mac15} {
-                        width: 120%;
-                    }
-                    @media #{$monitor} {
-                        width: 120%;
-                    }
-                }
-
-                .line {
-                    width: 80px;
-                    height: 3px;
-                }
-
-                .premeraline {
-                    background-color: $premeracoral;
-                }
-
-                .uberline {
-                    background-color: $uberblue;
-                }
-
-                .piuline {
-                    background-color: $piudarkblue;
-                }
-
-                .esaurline {
-                    background-color: $esaurblue;
-                }
-
-                .expedialine {
-                    background-color: $expediayellow;
-                }
-
-                .actiline {
-                    background-color: $actigreen;
-                }
-
-                .smarthomeline {
-                    background-color: $smarthomepurple;
-                }
-
-                .tags {
-                    font-size: 0.9em;
-                    color: #d8d8d8;
-                }
-
-                .projdesc {
-                    width: 85%;
-                    color: white;
-                    line-height: 1.8em;
-                    font-size: 0.9em;
-                }
-
-                .readmorebtn {
-                    width: 143px;
-                    height: 40px;
-                    text-align: center;
-                    border-radius: 50px;
-                    border: 1.5px solid white;
-                    color: white;
-                    font-size: 0.9em;
-
-                    a {
-                        color: white;
-                    }
-
-                    p {
-                        padding-top: 0.4em;
-                    }
-                }
-
-                .premerabtn:hover {
-                    background-color: $premeracoral;
-                    border: 1.5px solid white;
-                    cursor: pointer;
-
-                    p {
-                        color: white;
-                        font-weight: bold;
-                    }
-                }
-
-                .esaurbtn:hover {
-                    background-color: $esaurblue;
-                    border: 1.5px solid white;
-                    cursor: pointer;
-
-                    p {
-                        color: white;
-                        font-weight: bold;
-                    }
-                }
-
-                .piubtn:hover {
-                    background-color: $piudarkblue;
-                    border: 1.5px solid white;
-                    cursor: pointer;
-
-                    p {
-                        color: white;
-                        font-weight: bold;
-                    }
-                }
-
-                .uberbtn:hover {
-                    background-color: $uberblue;
-                    border: 1.5px solid white;
-                    cursor: pointer;
-
-                    p {
-                        color: white;
-                        font-weight: bold;
-                    }
-                }
-
-                .expediabtn:hover {
-                    background-color: $expediayellow;
-                    border: 1.5px solid white;
-                    cursor: pointer;
-
-                    p {
-                        color: $expediablue;
-                        font-weight: bold;
-                    }
-                }
-
-                .actibtn:hover {
-                    background-color: $actigreen;
-                    border: 1.5px solid white;
-                    cursor: pointer;
-
-                    p {
-                        color: white;
-                        font-weight: bold;
-                    }
-                }
-
-                .smarthomebtn:hover {
-                    background-color: $smarthomepurple;
-                    border: 1.5px solid white;
-                    cursor: pointer;
-
-                    p {
-                        color: white;
-                        font-weight: bold;
-                    }
-                }
-            }
-
-            .imagehalf {
-                width: 100%;
-                margin: 2em 0;
-                position: relative;
-                @media #{$tablet} {
-                    width: 50%;
-                    position: relative;
-                }
-                @media #{$mac13} {
-                    width: 50%;
-                    position: relative;
-                }
-                @media #{$mac15} {
-                    width: 50%;
-                    position: relative;
-                }
-                @media #{$monitor} {
-                    width: 50%;
-                    position: relative;
-                }
-
-                img {
-                    width: 100%;
-                }
-
-                .piuimg {
-                    width: 90%;
-                    margin: 0 auto;
-                    max-width: 300px;
-                    @media #{$phablet} {
-                        width: 70%;
-                        margin: 1em auto;
-                    }
-                    @media #{$mac13} {
-                        width: 40%;
-                    }
-                    @media #{$mac15} {
-                        width: 50%;
-                    }
-                    @media #{$monitor} {
-                        width: 40%;
-                    }
-                }
-
-                .esaurimg {
-                    @media #{$tablet} {
-                        position: absolute;
-                        top: 50%;
-                        transform: translateY(-50%);
-                    }
-                    @media #{$mac13} {
-                        position: absolute;
-                        width: 80%;
-                        top: 40%;
-                        transform: translateY(-50%);
-                        right: 12%;
-                    }
-                    @media #{$mac15} {
-                        position: absolute;
-                        top: 50%;
-                        transform: translateY(-50%);
-                    }
-                    @media #{$monitor} {
-                        position: absolute;
-                        top: 50%;
-                        transform: translateY(-50%);
-                    }
-                }
-
-                .expediaimg {
-                    width: 60%;
-                    margin: 1em auto;
-                    @media #{$phablet} {
-                        width: 50%;
-                        margin: 1em auto;
-                    }
-                    @media #{$tablet} {
-                        position: absolute;
-                        max-width: 200px;
-                        top: 10%;
-                        transform: translateY(-50%);
-                        transform: translateX(50%);
-                    }
-                    @media #{$mac13} {
-                        max-width: 200px;
-                        position: absolute;
-                        top: 0;
-                        transform: translateY(-50%);
-                        transform: translateX(80%);
-                    }
-                    @media #{$mac15} {
-                        position: absolute;
-                        top: 15%;
-                        transform: translateY(-50%);
-                        transform: translateX(30%);
-                    }
-                    @media #{$monitor} {
-                        width: 50%;
-                        position: absolute;
-                        top: 15%;
-                        transform: translateY(-50%);
-                        transform: translateX(30%);
-                    }
-                }
-
-                .actiimg {
-                    width: 90%;
-                    margin: 0 auto;
-                    max-width: 300px;
-                    @media #{$phablet} {
-                        width: 70%;
-                        margin: 1em auto;
-                    }
-                    @media #{$mac13} {
-                        width: 50%;
-                    }
-                    @media #{$mac15} {
-                        max-width: 220px;
-                    }
-                    @media #{$monitor} {
-                        width: 60%;
-                    }
-                }
-            }
-        }
-    }
-    // .projectcontainer:hover {
-    //     box-shadow: 0 14px 28px rgba(0,0,0,0.55), 0 10px 10px rgba(0,0,0,0.22);
-    // }
-    //
-    // .projectcontainerbig:hover {
-    //     box-shadow: 0 14px 28px rgba(0,0,0,0.55), 0 10px 10px rgba(0,0,0,0.22);
-    // }
-}
-///////////////// NEW ABOUT ME ////////////////////////////
-
-#aboutsection {
-    background-image: url("img/homepage2/aboutbg.svg");
+#header {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 2em;
     width: 100%;
-    display: block;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    // height: 100%;
-    .biotitle {
-        padding-top: 6em;
 
-        p {
-            font-size: 4em;
-            text-align: center;
-            font-family: 'Rozha One', serif;
-            font-weight: 400;
-            color: $piublack;
-        }
-    }
-
-    .profileimgdiv {
-        width: 100%;
-        margin: 0 auto;
-        // background-color: red;
-        .profileimg {
-            max-width: 230px;
-            margin: 0 auto;
-            padding: 4em 0;
-            @media #{$tablet} {
-                max-width: 310px;
-            }
-            @media #{$mac13} {
-                max-width: 310px;
-            }
-            @media #{$mac15} {
-                max-width: 310px;
-            }
-            @media #{$monitor} {
-                max-width: 310px;
-            }
-
-            img {
-                width: 100%;
-            }
-        }
-    }
-
-    .biodiv {
-        width: 85%;
-        margin: 0 auto;
-
-        .biodesc {
-            font-size: 1.25em;
-            line-height: 1.9em;
-            text-align: center;
-            @media #{$tablet} {
-                width: 70%;
-                margin: 0 auto;
-                padding: 1em 0;
-            }
-            @media #{$mac13} {
-                width: 75%;
-                margin: 0 auto;
-                padding: 1.5em 0;
-            }
-            @media #{$mac15} {
-                width: 50%;
-                margin: 0 auto;
-                padding: 1.5em 0;
-            }
-            @media #{$monitor} {
-                width: 40%;
-                margin: 0 auto;
-                padding: 1.5em 0;
-            }
-        }
-    }
-
-    .designprocessdiv {
-        width: 85%;
-        margin: 0 auto;
-
-        .dptitle {
-            p {
-                font-weight: 600;
-                font-size: 2.2em;
-                text-align: center;
-            }
-        }
-
-        .designprocessdesc {
-            padding: 2em 0 4em;
-            width: 90%;
-            margin: 0 auto;
-
-            p {
-                font-weight: 400;
-                font-size: 1.25em;
-                line-height: 1.9em;
-            }
-            @media #{$mac13} {
-                width: 70%;
-                padding: 2em 0 4em;
-            }
-            @media #{$mac15} {
-                width: 50%;
-                padding: 2em 0 4em;
-            }
-            @media #{$monitor} {
-                width: 40%;
-                padding: 2em 0 6em;
-            }
-        }
-
-        .dpflex {
+    #headerflex {
+        @media #{$tablet} {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            margin: 0 auto;
-            @media #{$mac15} {
-                width: 80%;
-            }
-            @media #{$monitor} {
-                width: 70%;
-            }
-
-            .dpitemdiv {
-                width: 90%;
-                padding: 2em 0 0 1em;
-                @media #{$tablet} {
-                    width: 45%;
-                }
-                @media #{$mac13} {
-                    width: 30%;
-                    padding: 1.5em 1em;
-                }
-                @media #{$mac15} {
-                    width: 30%;
-                    padding: 1.5em 1em;
-                }
-                @media #{$monitor} {
-                    width: 30%;
-                    padding: 1.5em 1em;
-                }
-
-                .dptitle {
-                    font-weight: 400;
-                    font-size: 1.6em;
-                }
-
-                .dpdesc {
-                    font-size: 0.9em;
-                    line-height: 1.8em;
-                }
-            }
+            position: relative;
         }
-    }
+        @media #{$mac13} {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            position: relative;
+        }
+        @media #{$mac15} {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            position: relative;
+        }
+        @media #{$monitor} {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            position: relative;
+        }
 
-    .storydiv {
-        margin-bottom: 6em;
-
-        .storytitle {
-            padding: 4em 0;
+        .name {
+            transition: 0.3s all ease-in-out;
+            position: relative;
 
             p {
-                font-weight: 600;
-                font-size: 2.2em;
-                text-align: center;
+                font-family: georgia;
+                font-size: 1.5em;
             }
         }
 
-        .storyimgdiv {
-            width: 95%;
-            margin: 0 auto;
-            padding-bottom: 6em;
+        .name:hover {
+            transition: 0.3s all ease-in-out;
+            color: $setured;
+            cursor: pointer;
+        }
 
-            img {
-                width: 100%;
-            }
+        #navflex {
+            width: 80%;
+            padding-top: 1em;
             @media #{$tablet} {
-                width: 80%;
-                margin: 0 auto;
+                width: 40%;
+                justify-content: space-between;
+                padding-top: 0.7em;
             }
             @media #{$mac13} {
-                width: 60%;
-                margin: 3em auto;
+                width: 40%;
+                justify-content: space-between;
+                padding-top: 0.7em;
             }
             @media #{$mac15} {
                 width: 40%;
-                margin: 3em auto;
+                justify-content: space-between;
+                padding-top: 0.7em;
             }
             @media #{$monitor} {
-                width: 30%;
-                margin: 3em auto;
+                width: 40%;
+                justify-content: space-between;
+                padding-top: 0.7em;
+            }
+            display: flex;
+            justify-content: space-between;
+
+            .navitem {
+                a {
+                    transition: 0.3s all ease-in-out;
+                    color: black;
+                }
+                width: 20%;
+                text-align: left;
+                @media #{$mac13} {
+                    text-align: right;
+                }
+                @media #{$mac15} {
+                    text-align: right;
+                }
+                @media #{$monitor} {
+                    text-align: right;
+                }
+                transition: 0.3s all ease-in-out;
+
+                p {
+                    font-size: 0.9em;
+                    font-weight: 500;
+                }
+            }
+
+            .navitem:hover {
+                a {
+                    transition: 0.3s all ease-in-out;
+                    color: $setured;
+                }
+                font-weight: bolder;
+                cursor: pointer;
             }
         }
     }
 }
-///////////// NEW FOOTER /////////////////
-// #footersection {
-//     background-image: url("img/homepage2/footerimg.png");
-//     width: 100%;
-//     display: block;
-//     background-size: cover;
-//     background-position: center center;
-//     background-repeat: no-repeat;
-//     background-attachment: scroll;
-//     height: 1100px;
-// }
-////////////////////////// OLD ABOUT ME ///////////
-// .greybg {
-//     background-color: $grey1;
-// }
-//
-// #aboutsection {
-//     padding: 8em 0;
-//     @media #{$monitor} {
-//         width: 70%;
-//         margin: 0 auto;
-//     }
-//
-//     .abouttitle {
-//         font-size: 4em;
-//         text-align: center;
-//         font-family: 'Parisienne', cursive;
-//         font-weight: 400;
-//         color: $piublack;
-//         padding-bottom: 2em;
-//     }
-//
-//     .mushdiflex {
-//         display: flex;
-//         flex-wrap: wrap;
-//
-//         .mushdidiv {
-//             width: 90%;
-//             margin: 0 auto;
-//
-//             img {
-//                 width: 100%;
-//             }
-//             @media #{$tablet} {
-//                 width: 60%;
-//             }
-//             @media #{$mac13} {
-//                 width: 50%;
-//
-//                 .mushdibox {
-//                     width: 70%;
-//                     padding-top: 2em;
-//                     margin: 0 auto;
-//                 }
-//             }
-//             @media #{$mac15} {
-//                 width: 50%;
-//
-//                 .mushdibox {
-//                     width: 60%;
-//                     padding-top: 2em;
-//                     margin: 0 auto;
-//                 }
-//             }
-//             @media #{$monitor} {
-//                 width: 50%;
-//
-//                 .mushdibox {
-//                     width: 55%;
-//                     padding-top: 2em;
-//                     margin: 0 auto;
-//                 }
-//             }
-//         }
-//
-//         .aboutmediv {
-//             width: 90%;
-//             padding: 4em 0;
-//             margin: 0 auto;
-//
-//             p {
-//                 line-height: 2em;
-//             }
-//             @media #{$phablet} {
-//                 width: 80%;
-//             }
-//             @media #{$tablet} {
-//                 width: 60%;
-//             }
-//             @media #{$mac13} {
-//                 width: 50%;
-//
-//                 .aboutmebox {
-//                     width: 85%;
-//                     margin: 0 auto;
-//                 }
-//             }
-//             @media #{$mac15} {
-//                 width: 50%;
-//
-//                 .aboutmebox {
-//                     width: 65%;
-//                     margin: 0 auto;
-//                 }
-//             }
-//             @media #{$monitor} {
-//                 width: 50%;
-//
-//                 .aboutmebox {
-//                     width: 85%;
-//                     margin: 0 auto;
-//                 }
-//             }
-//         }
-//     }
-//
-//     .skillscontainer {
-//         .skillstitle {
-//             font-size: 2em;
-//             text-align: center;
-//             font-weight: 600;
-//             padding: 2em 0;
-//         }
-//
-//         .skillsflex {
-//             display: flex;
-//             flex-wrap: wrap;
-//             align-items: center;
-//
-//             .skilldiv {
-//                 width: 90%;
-//                 margin: 0 auto;
-//
-//                 .skillbox {
-//                     width: 70%;
-//                     margin: 0 auto;
-//                     padding: 4em 0;
-//
-//                     img {
-//                         width: 100%;
-//                     }
-//                 }
-//                 @media #{$tablet} {
-//                     width: 51%;
-//                 }
-//                 @media #{$mac13} {
-//                     width: 33%;
-//
-//                     .skillbox {
-//                         width: 55%;
-//                     }
-//                 }
-//                 @media #{$mac15} {
-//                     width: 33%;
-//
-//                     .skillbox {
-//                         width: 40%;
-//                     }
-//                 }
-//                 @media #{$monitor} {
-//                     width: 33%;
-//
-//                     .skillbox {
-//                         width: 55%;
-//                     }
-//                 }
-//
-//                 img {
-//                     width: 100%;
-//                 }
-//             }
-//         }
-//     }
-// }
+
+#intro {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 8em 0 2em;
+
+    #hello {
+        font-family: georgia;
+        font-size: 3em;
+    }
+
+    #shortintro {
+        width: 90%;
+        @media #{$tablet} {
+            width: 60%;
+        }
+        @media #{$mac13} {
+            width: 45%;
+        }
+        @media #{$mac15} {
+            width: 45%;
+        }
+        @media #{$monitor} {
+            width: 42%;
+        }
+        padding-top: 2em;
+        font-size: 1.2em;
+        color: $halfgrey;
+
+        #redtext {
+            color: $setured;
+        }
+    }
+
+    #factflex {
+        padding-top: 4em;
+        display: flex;
+        flex-wrap: wrap;
+
+        .factbox {
+            width: 100%;
+            padding-bottom: 2em;
+            margin: 0 auto;
+            @media #{$mac13} {
+                width: 33%;
+                padding: 0;
+            }
+            @media #{$mac15} {
+                width: 33%;
+                padding: 0;
+            }
+            @media #{$monitor} {
+                width: 33%;
+                padding: 0;
+            }
+
+            #facttitle {
+                font-size: 0.9em;
+                color: $halfgrey;
+
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+
+            #fact {
+                padding-top: 0.8em;
+            }
+        }
+
+        .lastfactbox {
+            padding-bottom: 0;
+        }
+    }
+}
+
+.breakline {
+    height: 1px;
+    position: relative;
+    margin-top: 8em;
+    width: 100%;
+    background-color: $grey2;
+}
+
+.breaklinetop {
+    margin: 4em 0;
+}
+
+.breaklineaboutme {
+    height: 1px;
+    position: relative;
+    top: 2em;
+    width: 100%;
+    background-color: $grey2;
+}
+
+.maincard {
+    background-color: white;
+    margin: 8em auto 0;
+    border-radius: 3px;
+    transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+    transition: 0.4s all ease-in-out;
+    position: relative;
+
+    #link {
+        color: black;
+    }
+
+    .cardcontents {
+        padding: 1em;
+        @media #{$tablet} {
+            padding: 2em;
+        }
+        @media #{$mac13} {
+            padding: 2em 4em;
+        }
+        @media #{$mac15} {
+            padding: 2em 4em;
+        }
+        @media #{$monitor} {
+            padding: 2em 4em;
+        }
+
+        .projectdate {
+            visibility: hidden;
+            position: relative;
+            color: $grey3;
+        }
+    }
+
+    #projecttitle {
+        font-family: georgia;
+        font-size: 2em;
+        font-weight: 600;
+        @media #{$tablet} {
+            padding: 1em 0 0 1em;
+        }
+        @media #{$mac13} {
+            font-size: 3em;
+        }
+        @media #{$mac15} {
+            font-size: 3em;
+        }
+        @media #{$monitor} {
+            font-size: 3em;
+        }
+    }
+
+    #blackline {
+        height: 4px;
+        background-color: black;
+        width: 100%;
+        @media #{$tablet} {
+            margin-left: 2em;
+            width: 60%;
+        }
+        @media #{$mac13} {
+            width: 70%;
+            margin-bottom: 2em;
+        }
+        @media #{$mac15} {
+            width: 70%;
+            margin-bottom: 2em;
+        }
+        @media #{$monitor} {
+            width: 60%;
+            margin-bottom: 2em;
+        }
+    }
+
+    #projectflex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ////////////// IMAGE CODE IS AT THE BOTTOM //////////////
+    #projectcontent {
+        width: 100%;
+        padding: 1em 0;
+        @media #{$tablet} {
+            width: 90%;
+            padding-left: 2.5em;
+        }
+        @media #{$mac13} {
+            width: 50%;
+            padding: 2em;
+        }
+        @media #{$mac15} {
+            width: 50%;
+            padding: 2em;
+        }
+        @media #{$monitor} {
+            width: 50%;
+            padding: 2em;
+        }
+
+        #primarycontent {
+            font-size: 1em;
+            padding-bottom: 2em;
+            @media #{$tablet} {
+                font-size: 1.2em;
+            }
+            @media #{$mac13} {
+                font-size: 1.2em;
+            }
+            @media #{$mac15} {
+                font-size: 1.2em;
+            }
+            @media #{$monitor} {
+                font-size: 1.2em;
+            }
+        }
+
+        #secondarycontent {
+            font-size: 0.8em;
+            color: $grey4;
+            @media #{$tablet} {
+                font-size: 1em;
+            }
+            @media #{$mac13} {
+                font-size: 1em;
+            }
+            @media #{$mac15} {
+                font-size: 1em;
+            }
+            @media #{$monitor} {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+.maincard:hover {
+    box-shadow: 0 14px 96px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);
+    cursor: pointer;
+    transition: 0.4s all ease-in-out;
+
+    .projectdate {
+        visibility: visible;
+    }
+}
+
+#aboutsection {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 8em 0 4em;
+
+    #hello {
+        font-family: georgia;
+        font-size: 3em;
+    }
+
+    #aboutme {
+        width: 90%;
+        font-size: 1em;
+        line-height: 1.8em;
+        @media #{$tablet} {
+            width: 85%;
+        }
+        @media #{$mac13} {
+            width: 65%;
+        }
+        @media #{$mac15} {
+            width: 65%;
+        }
+        @media #{$monitor} {
+            width: 55%;
+        }
+        padding-top: 2em;
+        color: $halfgrey;
+    }
+}
+
+#contactsection {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 8em 0 4em;
+
+    #hello {
+        font-family: georgia;
+        font-size: 3em;
+    }
+
+    #contactflex {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 2em;
+        justify-content: space-between;
+        @media #{$mac13} {
+            width: 70%;
+        }
+
+        .contcontent {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            padding: 2em 0;
+            transition: 0.3s all ease-in-out;
+            @media #{$tablet} {
+                width: 50%;
+                padding: 2em 0;
+            }
+            @media #{$mac13} {
+                width: 50%;
+                padding: 2em 0;
+            }
+            @media #{$mac15} {
+                width: 25%;
+            }
+            @media #{$monitor} {
+                width: 25%;
+            }
+
+            a {
+                color: black;
+                transition: 0.3s all ease-in-out;
+            }
+
+            .contact {}
+
+            .contline {
+                height: 4px;
+                width: 50px;
+                background-color: black;
+                border-radius: 2px;
+                position: relative;
+                top: 45%;
+                margin-right: 1.5em;
+                transition: 0.3s all ease-in-out;
+            }
+        }
+
+        .contcontent:hover {
+            transition: 0.3s all ease-in-out;
+            cursor: pointer;
+
+            a {
+                color: $setured;
+                transition: 0.3s all ease-in-out;
+            }
+
+            .contline {
+                background-color: $setured;
+                transition: 0.3s all ease-in-out;
+                transform: translateX(6px);
+            }
+        }
+    }
+}
+////////////// CARD SPECIFIC CODE //////////////
+///////// PIU /////////////
+
+#piupic {
+    width: 80%;
+    padding: 4em 0;
+    margin: 0 auto;
+    @media #{$phablet} {
+        width: 70%;
+    }
+    @media #{$tablet} {
+        width: 40%;
+    }
+    @media #{$mac13} {
+        padding: 2em 0;
+        width: 20%;
+    }
+    @media #{$mac15} {
+        padding: 2em 0;
+        width: 20%;
+    }
+    @media #{$monitor} {
+        padding: 2em 0;
+        width: 20%;
+    }
+
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+///////// PREMERA ///////////
+
+#premerapic {
+    width: 100%;
+    padding: 4em 0;
+    margin: 0 auto;
+    @media #{$phablet} {
+        width: 100%;
+    }
+    @media #{$tablet} {
+        width: 90%;
+    }
+    @media #{$mac13} {
+        padding: 2em 0;
+        width: 50%;
+    }
+    @media #{$mac15} {
+        padding: 2em 0;
+        width: 45%;
+    }
+    @media #{$monitor} {
+        padding: 2em 0;
+        width: 50%;
+    }
+
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+///////// UBER ///////////
+
+#uberpic {
+    width: 80%;
+    padding: 4em 0;
+    margin: 0 auto;
+    @media #{$phablet} {
+        width: 70%;
+    }
+    @media #{$tablet} {
+        width: 40%;
+    }
+    @media #{$mac13} {
+        padding: 2em 0;
+        width: 25%;
+    }
+    @media #{$mac15} {
+        padding: 2em 0;
+        width: 25%;
+    }
+    @media #{$monitor} {
+        padding: 2em 0;
+        width: 25%;
+    }
+
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+///////// EXPEDIA ///////////
+
+#expediapic {
+    width: 80%;
+    padding: 4em 0;
+    margin: 0 auto;
+    @media #{$phablet} {
+        width: 70%;
+    }
+    @media #{$tablet} {
+        width: 45%;
+    }
+    @media #{$mac13} {
+        padding: 2em 0;
+        width: 30%;
+    }
+    @media #{$mac15} {
+        padding: 2em 0;
+        width: 30%;
+    }
+    @media #{$monitor} {
+        padding: 2em 0;
+        width: 30%;
+    }
+
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+///////// ACTILIST ///////////
+
+#actipic {
+    width: 90%;
+    padding: 4em 0;
+    margin: 0 auto;
+    @media #{$phablet} {
+        width: 75%;
+    }
+    @media #{$tablet} {
+        width: 50%;
+    }
+    @media #{$mac13} {
+        padding: 2em 0;
+        width: 30%;
+    }
+    @media #{$mac15} {
+        padding: 2em 0;
+        width: 30%;
+    }
+    @media #{$monitor} {
+        padding: 2em 0;
+        width: 30%;
+    }
+
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+///////// SMARTHOME ///////////
+
+#smarthomepic {
+    width: 100%;
+    padding: 4em 0;
+    margin: 0 auto;
+    @media #{$phablet} {
+        width: 100%;
+    }
+    @media #{$tablet} {
+        width: 80%;
+    }
+    @media #{$mac13} {
+        padding: 2em 0;
+        width: 50%;
+    }
+    @media #{$mac15} {
+        padding: 2em 0;
+        width: 50%;
+    }
+    @media #{$monitor} {
+        padding: 2em 0;
+        width: 50%;
+    }
+
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

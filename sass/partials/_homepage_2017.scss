@@ -1,0 +1,1676 @@
+p {
+    font-family: $roboto;
+}
+
+#intro {
+    background-image: url("img/homepage/blackbg.png");
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100%;
+}
+
+.introcontent {
+    width: 80%;
+    padding-top: 8em;
+    padding-left: 2em;
+    @media #{$phablet} {
+        padding-top: 11em;
+        padding-left: 2em;
+    }
+    @media #{$tablet} {
+        padding-top: 11em;
+        padding-left: 5em;
+    }
+    @media #{$mac13} {
+        padding-top: 18em;
+        padding-left: 5em;
+    }
+    @media #{$mac15} {
+        padding-top: 14em;
+        padding-left: 8em;
+    }
+    @media #{$monitor} {
+        padding-top: 14em;
+        padding-left: 10em;
+
+        .introbody {
+            font-size: 1.3em;
+        }
+    }
+}
+
+#introtitle {
+    font-size: 2em;
+    color: white;
+    width: 20%;
+    font-family: $roboto-mono;
+    @media #{$tablet} {
+        font-size: 3em;
+    }
+    @media #{$mac13} {
+        font-size: 3em;
+        width: 100%;
+    }
+    @media #{$mac15} {
+        font-size: 3em;
+        width: 100%;
+    }
+    @media #{$monitor} {
+        font-size: 3em;
+        width: 100%;
+    }
+}
+
+.ixdtitle {
+    color: #B5B5B5;
+    font-size: 1.2em;
+    @media #{$tablet} {
+        font-size: 1.2em;
+    }
+    @media #{$mac13} {
+        font-size: 1.2em;
+    }
+    @media #{$mac15} {
+        font-size: 1.4em;
+    }
+    @media #{$monitor} {
+        font-size: 1.6em;
+    }
+}
+
+.introbody {
+    font-size: 1em;
+    color: white;
+    line-height: 2em;
+    width: 95%;
+    padding-top: 3em;
+    @media #{$mac13} {
+        width: 35%;
+        padding-top: 3em;
+        font-size: 1em;
+    }
+    @media #{$tablet} {
+        width: 50%;
+        font-size: 1.1em;
+    }
+    @media #{$mac15} {
+        width: 30%;
+        font-size: 1.1em;
+    }
+    @media #{$monitor} {
+        width: 27%;
+        font-size: 1.1em;
+        padding-top: 5em;
+    }
+}
+
+#setu {
+    color: #17DECB;
+}
+
+.arrowdowndiv {
+    position: absolute;
+    margin: 0 auto;
+    width: 40px;
+    bottom: 40px;
+    left: 45%;
+    transform: translateX(-50%);
+    animation-name: blinker;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    @media #{$tablet} {
+        left: 48.5%;
+    }
+    @media #{$mac13} {
+        left: 50%;
+    }
+    @media #{$mac15} {
+        left: 50%;
+    }
+    @media #{$monitor} {
+        left: 50%;
+    }
+}
+@keyframes blinker {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.arrowdowndiv:hover {
+    animation-play-state: paused;
+}
+/////////////////////////// PROJECT COMMON ///////////////////////
+//////////////////////////////////
+
+.projectsection {
+    width: 100%;
+    position: relative;
+}
+
+.projdescright {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3em;
+    @media #{$tablet} {
+        width: 40%;
+        float: right;
+        margin-right: 3em;
+        padding-top: 5em;
+    }
+    @media #{$mac13} {
+        width: 30%;
+        padding-top: 10em;
+        float: right;
+        margin-right: 8em;
+    }
+    @media #{$mac15} {
+        width: 20%;
+        padding-top: 10em;
+        float: right;
+        margin-right: 18em;
+    }
+    @media #{$monitor} {
+        width: 18%;
+        padding-top: 10em;
+        float: right;
+        margin-right: 25em;
+    }
+}
+
+.projdescleft {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3em;
+    @media #{$tablet} {
+        width: 40%;
+        margin-left: 3em;
+        float: left;
+        padding-top: 5em;
+    }
+    @media #{$mac13} {
+        width: 30%;
+        padding-top: 10em;
+        float: left;
+        margin-left: 8em;
+    }
+    @media #{$mac15} {
+        width: 20%;
+        padding-top: 10em;
+        float: left;
+        margin-left: 18em;
+    }
+    @media #{$monitor} {
+        width: 18%;
+        padding-top: 10em;
+        float: left;
+        margin-left: 25em;
+    }
+}
+
+.title {
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+.line {
+    width: 100px;
+    margin: 0 0 4em;
+    height: 5px;
+}
+
+.readmore {
+    display: none;
+    margin: 0;
+    @media #{$tablet} {
+        margin-top: 3em;
+        height: 50px;
+        display: block;
+        width: 140px;
+        text-align: center;
+        padding-top: 0.6em;
+    }
+    @media #{$mac13} {
+        margin-top: 3em;
+        height: 50px;
+        display: block;
+        width: 140px;
+        text-align: center;
+        padding-top: 0.6em;
+    }
+    @media #{$mac15} {
+        margin-top: 3em;
+        height: 50px;
+        display: block;
+        width: 140px;
+        text-align: center;
+        padding-top: 0.6em;
+    }
+    @media #{$monitor} {
+        margin-top: 3em;
+        height: 50px;
+        display: block;
+        width: 140px;
+        text-align: center;
+        padding-top: 0.6em;
+    }
+}
+
+.projcontent {
+    line-height: 1.8em;
+    font-size: 0.9em;
+    width: 80%;
+    @media #{$mac15} {
+        width: 100%;
+    }
+}
+
+.mobilelink {
+    cursor: text;
+}
+
+.projcontent,
+.readmore,
+.title {
+    color: white;
+}
+//////////////////////////// PUMP IT UP //////////////////////
+
+#piu {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    @media #{$mac13} {
+        height: 700px;
+    }
+    @media #{$mac15} {
+        min-height: 900px;
+    }
+    @media #{$monitor} {
+        min-height: 900px;
+    }
+
+    .contenthalf {
+        order: 1;
+        width: 100%;
+        margin: 0 auto;
+        background-image: url("img/homepage/piubgcolor.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        padding: 4em 0;
+        @media #{$tablet} {
+            width: 50%;
+            order: 3;
+        }
+        @media #{$mac13} {
+            width: 50%;
+            order: 3;
+        }
+        @media #{$mac15} {
+            width: 50%;
+            order: 3;
+        }
+        @media #{$monitor} {
+            width: 50%;
+            order: 3;
+        }
+
+        .contentdiv {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 4em;
+            position: relative;
+            @media #{$phablet} {
+                width: 90%;
+                padding: 4em 0 0 2em;
+            }
+            @media #{$tablet} {
+                width: 90%;
+                padding: 4em 0 0 2em;
+            }
+            @media #{$mac13} {
+                width: 90%;
+                padding: 6em 0 0 4em;
+            }
+            @media #{$mac15} {
+                width: 80%;
+                padding: 6em 0 0 4em;
+            }
+            @media #{$monitor} {
+                width: 60%;
+                padding: 6em 0 0 4em;
+
+                .title {
+                    font-size: 3em;
+                }
+
+                p {
+                    font-size: 1.3em;
+                }
+
+                .readmore {
+                    width: 190px;
+                    height: 60px;
+                }
+            }
+
+            .labelflex {
+                display: flex;
+                position: relative;
+            }
+
+            .labeldiv {
+                .piulabel {
+                    position: absolute;
+                    top: 130%;
+                    right: 72%;
+                    transform: translateX(50%);
+                    border-radius: 4px;
+                    width: 151px;
+                    height: 28px;
+                    opacity: 0.8;
+                    background-color: $grey3;
+                    font-size: 0.8em;
+                    text-align: center;
+                    @media #{$phablet} {
+                        top: 20%;
+                        right: 25%;
+                        // width: 125px;
+                        height: 28px;
+                    }
+                    @media #{$tablet} {
+                        top: 20%;
+                        right: 22%;
+                        // width: 125px;
+                        height: 28px;
+                    }
+                    @media #{$mac13} {
+                        top: 20%;
+                        right: 35%;
+                        // width: 125px;
+                        height: 28px;
+                    }
+                    @media #{$mac15} {
+                        top: 20%;
+                        right: 50%;
+                        // width: 125px;
+                        height: 28px;
+                    }
+                    @media #{$monitor} {
+                        top: 30%;
+                        right: 25%;
+                        // width: 125px;
+                        height: 28px;
+                    }
+                }
+
+                p {
+                    padding: 0.2em 1em;
+                    color: #484443;
+                    font-size: 1em;
+                    font-weight: 600;
+                }
+            }
+
+            .projcontent {
+                width: 100%;
+                @media #{$phablet} {
+                    width: 70%;
+                }
+                @media #{$mac13} {
+                    width: 70%;
+                }
+                @media #{$mac15} {
+                    width: 70%;
+                }
+                @media #{$monitor} {
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+    .imagehalf {
+        order: 2;
+        width: 100%;
+        background-image: url("img/homepage/piubg.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        height: 400px;
+        position: relative;
+        @media #{$tablet} {
+            width: 50%;
+            height: auto;
+        }
+        @media #{$mac13} {
+            width: 50%;
+            height: auto;
+        }
+        @media #{$mac15} {
+            width: 50%;
+            height: auto;
+        }
+        @media #{$monitor} {
+            width: 50%;
+            height: auto;
+        }
+
+        .imagediv {
+            width: 80%;
+            margin: 0 auto;
+            @media #{$phablet} {
+                width: 50%;
+            }
+            @media #{$tablet} {
+                width: 70%;
+            }
+            @media #{$mac13} {
+                width: 70%;
+            }
+            @media #{$mac15} {
+                width: 50%;
+            }
+            @media #{$monitor} {
+                width: 45%;
+            }
+
+            img {
+                width: 80%;
+                position: absolute;
+                bottom: 0;
+                // transform: translateY(-50%);
+                @media #{$phablet} {
+                    width: 55%;
+                }
+                @media #{$tablet} {
+                    width: 70%;
+                }
+                @media #{$mac13} {
+                    width: 70%;
+                }
+                @media #{$mac15} {
+                    width: 55%;
+                }
+                @media #{$monitor} {
+                    width: 45%;
+                }
+            }
+        }
+    }
+
+    .piuline {
+        background: $piublack;
+    }
+
+    .piutag {
+        color: $piublack;
+    }
+
+    .piucta {
+        border: 1px solid $piublack;
+        border-radius: 4px;
+    }
+
+    .piucta:hover {
+        transition: all 0.30s ease-in-out;
+        border: 1px solid white;
+        background: $piublack;
+        cursor: pointer;
+
+        .readmoretext {
+            color: $piugreylight;
+            font-weight: 800;
+        }
+    }
+
+    .checko {
+        background-color: red;
+    }
+}
+//////////////////////////// ACTILIST //////////////////////
+
+#zero {
+    background-image: url("img/actilist/herobg.png");
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    min-height: 700px;
+    @media #{$tab-monitor} {
+        margin-top: 0;
+    }
+
+    .projectcontainer {
+        padding: 4em 0;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        @media #{$tablet} {
+            flex-wrap: wrap;
+        }
+        @media #{$mac15} {
+            width: 90%;
+            margin: 0 auto;
+        }
+        @media #{$monitor} {
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+
+    .contenthalf {
+        width: 90%;
+        margin: 0 auto;
+
+        .labelflex {
+            display: flex;
+            position: relative;
+        }
+
+        .labeldiv {
+            .actilabel {
+                position: absolute;
+                top: 20%;
+                right: 35%;
+                transform: translateX(50%);
+                border-radius: 4px;
+                width: 125px;
+                height: 28px;
+                opacity: 0.8;
+                background-color: $grey3;
+                font-size: 0.8em;
+                text-align: center;
+                @media #{$tablet} {
+                    top: 20%;
+                    right: 30%;
+                    width: 125px;
+                    height: 28px;
+                }
+                @media #{$mac13} {
+                    top: 20%;
+                    right: 35%;
+                    width: 125px;
+                    height: 28px;
+                }
+                @media #{$mac15} {
+                    top: 20%;
+                    right: 50%;
+                    width: 125px;
+                    height: 28px;
+                }
+                @media #{$monitor} {
+                    top: 25%;
+                    right: 35%;
+                    width: 125px;
+                    height: 28px;
+                }
+            }
+
+            p {
+                padding: 0.2em 1em;
+                color: #484443;
+                font-size: 1em;
+                font-weight: 600;
+            }
+        }
+        @media #{$phablet} {
+            width: 90%;
+            padding: 4em 0 0 2em;
+        }
+        @media #{$tablet} {
+            width: 40%;
+            padding: 4em 0 0 2em;
+        }
+        @media #{$mac13} {
+            width: 40%;
+            padding: 6em 0 0 4em;
+        }
+        @media #{$mac15} {
+            width: 40%;
+            padding: 6em 0 0 4em;
+        }
+        @media #{$monitor} {
+            width: 40%;
+            padding: 6em 0 0 4em;
+
+            .title {
+                font-size: 3em;
+            }
+
+            p {
+                font-size: 1.2em;
+            }
+
+            .readmore {
+                width: 190px;
+                height: 56px;
+            }
+        }
+
+        .projcontent {
+            width: 100%;
+            @media #{$phablet} {
+                width: 70%;
+            }
+            @media #{$mac13} {
+                width: 70%;
+            }
+            @media #{$mac15} {
+                width: 70%;
+            }
+            @media #{$monitor} {
+                width: 70%;
+            }
+        }
+    }
+
+    .imagehalf {
+        width: 100%;
+        @media #{$phablet} {
+            width: 80%;
+            margin: 0 auto;
+        }
+        @media #{$tablet} {
+            width: 50%;
+        }
+        @media #{$mac13} {
+            width: 50%;
+        }
+        @media #{$mac15} {
+            width: 50%;
+        }
+        @media #{$monitor} {
+            width: 55%;
+        }
+
+        .imagediv {
+            width: 90%;
+            margin: 0 auto;
+            padding: 4em 0;
+
+            img {
+                width: 100%;
+            }
+            @media #{$phablet} {
+                width: 90%;
+                margin: 0 auto;
+            }
+            @media #{$tablet} {
+                width: 80%;
+            }
+            @media #{$mac13} {
+                width: 60%;
+            }
+            @media #{$mac15} {
+                width: 50%;
+            }
+            @media #{$monitor} {
+                width: 55%;
+            }
+        }
+    }
+
+    .actilistline {
+        background: $actigreen;
+    }
+
+    .actilisttag {
+        color: $actigreen;
+    }
+
+    .actilistcta {
+        border: 1px solid $actigreen;
+        border-radius: 4px;
+    }
+
+    .actilistcta:hover {
+        transition: all 0.30s ease-in-out;
+        border: 1px solid white;
+        background: $darkgreen;
+        cursor: pointer;
+
+        .readmoretext {
+            color: white;
+            font-weight: 800;
+        }
+    }
+}
+/////////////////////// NEW EXPEDIA///////////////////////
+
+#one {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    @media #{$mac13} {
+        height: 700px;
+    }
+    @media #{$mac15} {
+        min-height: 900px;
+    }
+    @media #{$monitor} {
+        min-height: 900px;
+    }
+
+    .contenthalf {
+        order: 1;
+        width: 100%;
+        margin: 0 auto;
+        background-image: url("img/homepage/expediabgtab.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        padding: 4em 0;
+        @media #{$tablet} {
+            width: 50%;
+            order: 3;
+        }
+        @media #{$mac13} {
+            width: 50%;
+            order: 3;
+        }
+        @media #{$mac15} {
+            width: 50%;
+            order: 3;
+        }
+        @media #{$monitor} {
+            width: 50%;
+            order: 3;
+        }
+
+        .contentdiv {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 4em;
+            position: relative;
+            @media #{$phablet} {
+                width: 90%;
+                padding: 4em 0 0 2em;
+            }
+            @media #{$tablet} {
+                width: 90%;
+                padding: 4em 0 0 2em;
+            }
+            @media #{$mac13} {
+                width: 90%;
+                padding: 6em 0 0 4em;
+            }
+            @media #{$mac15} {
+                width: 80%;
+                padding: 6em 0 0 4em;
+            }
+            @media #{$monitor} {
+                width: 60%;
+                padding: 6em 0 0 4em;
+
+                .title {
+                    font-size: 3em;
+                }
+
+                p {
+                    font-size: 1.3em;
+                }
+
+                .readmore {
+                    width: 190px;
+                    height: 60px;
+                }
+            }
+
+            .projcontent {
+                width: 100%;
+                @media #{$phablet} {
+                    width: 70%;
+                }
+                @media #{$mac13} {
+                    width: 70%;
+                }
+                @media #{$mac15} {
+                    width: 70%;
+                }
+                @media #{$monitor} {
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+    .imagehalf {
+        order: 2;
+        width: 100%;
+        background-image: url("img/homepage/hotel_room.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        height: 400px;
+        position: relative;
+        @media #{$tablet} {
+            width: 50%;
+            height: auto;
+        }
+        @media #{$mac13} {
+            width: 50%;
+            height: auto;
+        }
+        @media #{$mac15} {
+            width: 50%;
+            height: auto;
+        }
+        @media #{$monitor} {
+            width: 50%;
+            height: auto;
+        }
+
+        .imagediv {
+            width: 80%;
+            margin: 0 auto;
+            @media #{$phablet} {
+                width: 50%;
+            }
+            @media #{$tablet} {
+                width: 70%;
+            }
+            @media #{$mac13} {
+                width: 70%;
+            }
+            @media #{$mac15} {
+                width: 50%;
+            }
+            @media #{$monitor} {
+                width: 45%;
+            }
+
+            img {
+                width: 80%;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                @media #{$phablet} {
+                    width: 50%;
+                }
+                @media #{$tablet} {
+                    width: 70%;
+                }
+                @media #{$mac13} {
+                    width: 70%;
+                }
+                @media #{$mac15} {
+                    width: 50%;
+                }
+                @media #{$monitor} {
+                    width: 45%;
+                }
+            }
+        }
+    }
+
+    .expedialine {
+        background: $yellow;
+    }
+
+    .expediatag {
+        color: $yellow;
+    }
+
+    .expediacta {
+        border: 1px solid $yellow;
+        border-radius: 4px;
+    }
+
+    .expediacta:hover {
+        transition: all 0.30s ease-in-out;
+        border: 1px solid white;
+        background: $expediayellow;
+        cursor: pointer;
+
+        .readmoretext {
+            color: $expediablue;
+            font-weight: 800;
+        }
+    }
+}
+//////////////////// NEW DATESCOUT  //////////////////////////
+
+#two {
+    background-image: url("img/homepage/dscoutcouplebg.png");
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    min-height: 700px;
+    @media #{$tab-monitor} {
+        margin-top: 0;
+    }
+
+    .projectcontainer {
+        padding: 4em 0;
+        display: flex;
+        flex-wrap: wrap;
+        @media #{$tablet} {
+            flex-wrap: wrap;
+        }
+        @media #{$mac15} {
+            width: 90%;
+            margin: 0 auto;
+        }
+        @media #{$monitor} {
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+
+    .contenthalf {
+        width: 90%;
+        margin: 0 auto;
+        @media #{$phablet} {
+            width: 90%;
+            padding: 4em 0 0 2em;
+        }
+        @media #{$tablet} {
+            width: 40%;
+            padding: 4em 0 0 2em;
+        }
+        @media #{$mac13} {
+            width: 40%;
+            padding: 6em 0 0 4em;
+        }
+        @media #{$mac15} {
+            width: 40%;
+            padding: 6em 0 0 4em;
+        }
+        @media #{$monitor} {
+            width: 40%;
+            padding: 6em 0 0 4em;
+
+            .title {
+                font-size: 3em;
+            }
+
+            p {
+                font-size: 1.3em;
+            }
+
+            .readmore {
+                width: 190px;
+                height: 60px;
+            }
+        }
+
+        .projcontent {
+            width: 100%;
+            @media #{$phablet} {
+                width: 70%;
+            }
+            @media #{$mac13} {
+                width: 70%;
+            }
+            @media #{$mac15} {
+                width: 70%;
+            }
+            @media #{$monitor} {
+                width: 70%;
+            }
+        }
+    }
+
+    .imagehalf {
+        width: 80%;
+        margin: 0 auto;
+        @media #{$phablet} {
+            width: 60%;
+            margin: 0 auto;
+        }
+        @media #{$tablet} {
+            width: 35%;
+        }
+        @media #{$mac13} {
+            width: 40%;
+        }
+        @media #{$mac15} {
+            width: 35%;
+        }
+        @media #{$monitor} {
+            width: 40%;
+        }
+
+        .imagediv {
+            width: 90%;
+            margin: 0 auto;
+            padding: 4em 0;
+
+            img {
+                width: 100%;
+            }
+            @media #{$phablet} {
+                width: 90%;
+                margin: 0 auto;
+            }
+            @media #{$tablet} {
+                width: 80%;
+            }
+            @media #{$mac13} {
+                width: 60%;
+            }
+            @media #{$mac15} {
+                width: 50%;
+            }
+            @media #{$monitor} {
+                width: 50%;
+            }
+        }
+    }
+
+    .datescoutline {
+        background: $pink;
+    }
+
+    .datescouttag {
+        color: $pink;
+    }
+
+    .datescoutcta {
+        border: 1px solid $pink;
+        border-radius: 4px;
+    }
+
+    .datescoutcta:hover {
+        transition: all 0.30s ease-in-out;
+        border: 1px solid white;
+        background: $pink;
+        cursor: pointer;
+
+        .readmoretext {
+            color: white;
+            font-weight: 800;
+        }
+    }
+}
+// ################# SMARTHOME NEW #############
+
+#four {
+    display: flex;
+    flex-wrap: wrap;
+    @media #{$mac13} {
+        min-height: 900px;
+    }
+    @media #{$mac15} {
+        min-height: 900px;
+    }
+    @media #{$monitor} {
+        min-height: 900px;
+    }
+
+    .contenthalf {
+        order: 1;
+        width: 100%;
+        margin: 0 auto;
+        background-image: url("img/homepage/homebg.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        padding: 4em 0;
+        @media #{$tablet} {
+            width: 50%;
+            order: 3;
+        }
+        @media #{$mac13} {
+            width: 50%;
+            order: 3;
+        }
+        @media #{$mac15} {
+            width: 50%;
+            order: 3;
+        }
+        @media #{$monitor} {
+            width: 50%;
+            order: 3;
+        }
+
+        .contentdiv {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 4em;
+            @media #{$phablet} {
+                width: 90%;
+                padding: 4em 0 0 2em;
+            }
+            @media #{$tablet} {
+                width: 90%;
+                padding: 4em 0 0 2em;
+            }
+            @media #{$mac13} {
+                width: 90%;
+                padding: 6em 0 0 4em;
+            }
+            @media #{$mac15} {
+                width: 80%;
+                padding: 6em 0 0 4em;
+            }
+            @media #{$monitor} {
+                width: 60%;
+                padding: 6em 0 0 4em;
+
+                .title {
+                    font-size: 3em;
+                }
+
+                p {
+                    font-size: 1.3em;
+                }
+
+                .readmore {
+                    width: 190px;
+                    height: 60px;
+                }
+            }
+
+            .projcontent {
+                width: 100%;
+                @media #{$phablet} {
+                    width: 70%;
+                }
+                @media #{$mac13} {
+                    width: 70%;
+                }
+                @media #{$mac15} {
+                    width: 70%;
+                }
+                @media #{$monitor} {
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+    .imagehalf {
+        order: 2;
+        width: 100%;
+        background-image: url("img/homepage/homeimg3.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        height: 400px;
+        @media #{$tablet} {
+            width: 50%;
+            height: auto;
+        }
+        @media #{$mac13} {
+            width: 50%;
+            height: auto;
+        }
+        @media #{$mac15} {
+            width: 50%;
+            height: auto;
+        }
+        @media #{$monitor} {
+            width: 50%;
+            height: auto;
+        }
+    }
+
+    .homeline {
+        background: $yellow;
+    }
+
+    .hometag {
+        color: $yellow;
+    }
+
+    .homecta {
+        border: 1px solid $yellow;
+        border-radius: 4px;
+    }
+
+    .homecta:hover {
+        transition: all 0.30s ease-in-out;
+        border: 1px solid white;
+        background: $expediayellow;
+        cursor: pointer;
+
+        .readmoretext {
+            color: #085056;
+            font-weight: 800;
+        }
+    }
+}
+//////////////////// Photography  //////////////////////////
+
+#five {
+    .bgdiv {
+        background-image: url("img/photography/hero.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        height: 400px;
+        position: relative;
+        @media #{$phablet} {
+            height: 600px;
+        }
+        @media #{$tablet} {
+            height: 800px;
+        }
+        @media #{$mac13} {
+            height: 600px;
+        }
+        @media #{$mac15} {
+            height: 600px;
+        }
+        @media #{$monitor} {
+            height: 700px;
+        }
+
+        .readmorephotog {
+            display: none;
+            @media #{$tablet} {
+                margin-top: 3em;
+                height: 50px;
+                display: block;
+                width: 140px;
+                text-align: center;
+                padding-top: 0.6em;
+                color: white;
+                border: 1px solid $skyblue;
+                border-radius: 4px;
+                position: absolute;
+                top: 70%;
+                transform: translateY(50%);
+                right: 50%;
+                transform: translateX(50%);
+            }
+            @media #{$mac13} {
+                margin-top: 3em;
+                height: 50px;
+                display: block;
+                width: 140px;
+                text-align: center;
+                padding-top: 0.6em;
+                color: white;
+                border: 1px solid $skyblue;
+                border-radius: 4px;
+                position: absolute;
+                top: 60%;
+                transform: translateY(50%);
+                right: 50%;
+                transform: translateX(50%);
+            }
+            @media #{$mac15} {
+                margin-top: 3em;
+                height: 50px;
+                display: block;
+                width: 140px;
+                text-align: center;
+                padding-top: 0.6em;
+                color: white;
+                border: 1px solid $skyblue;
+                border-radius: 4px;
+                position: absolute;
+                top: 70%;
+                transform: translateY(50%);
+                right: 50%;
+                transform: translateX(50%);
+            }
+            @media #{$monitor} {
+                margin-top: 3em;
+                height: 50px;
+                display: block;
+                width: 140px;
+                text-align: center;
+                padding-top: 0.6em;
+                color: white;
+                border: 1px solid $skyblue;
+                border-radius: 4px;
+                position: absolute;
+                top: 70%;
+                transform: translateY(50%);
+                right: 50%;
+                transform: translateX(50%);
+            }
+        }
+
+        .readmorephotog:hover {
+            transition: all 0.30s ease-in-out;
+            border: 1px solid white;
+            background: $skyblue;
+            cursor: pointer;
+
+            .readmoretext {
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        .title {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            width: 100%;
+
+            .titletext {
+                font-family: $cursive;
+                color: white;
+                text-shadow: 2px 2px $textdark;
+                font-size: 2.2em;
+                @media #{$phablet} {
+                    font-size: 1.3em;
+                }
+                @media #{$tablet} {
+                    font-size: 2em;
+                }
+                @media #{$mac13} {
+                    font-size: 4em;
+                }
+                @media #{$mac15} {
+                    font-size: 4em;
+                }
+                @media #{$monitor} {
+                    font-size: 4em;
+                }
+            }
+
+            #desc {
+                font-family: $roboto;
+                font-size: 0.6em;
+                margin: 0;
+                padding: 0;
+                color: $grey2;
+                width: 90%;
+                margin: 0 auto;
+                @media #{$phablet} {
+                    font-size: 0.3em;
+                }
+                @media #{$tablet} {
+                    font-size: 0.5em;
+                }
+                @media #{$mac13} {
+                    font-size: 0.8em;
+                }
+                @media #{$mac15} {
+                    font-size: 0.8em;
+                }
+                @media #{$monitor} {
+                    font-size: 1em;
+                }
+            }
+            @media #{$phablet} {
+                font-size: 4em;
+            }
+            @media #{$tablet} {
+                top: 40%;
+            }
+            @media #{$mac13} {
+                top: 40%;
+            }
+            @media #{$mac15} {
+                top: 40%;
+            }
+            @media #{$monitor} {
+                top: 40%;
+            }
+        }
+    }
+}
+//////////////////////////// EVENTOSAUR  //////////////////////
+
+#three {
+    background-image: url("img/homepage/eventosaurbgmob.png");
+    @media #{$tablet} {
+        background-image: url("img/homepage/eventosaurbgtab.png");
+    }
+    @media #{$mac13} {
+        background-image: url("img/homepage/eventosaurbg.png");
+    }
+    @media #{$mac15} {
+        background-image: url("img/homepage/eventosaurbg.png");
+    }
+    @media #{$monitor} {
+        background-image: url("img/homepage/eventosaurbg.png");
+    }
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    min-height: 700px;
+    margin-top: -16px;
+    @media #{$tab-monitor} {
+        margin-top: 0;
+    }
+}
+
+#eventosaurdiv {
+    position: absolute;
+    z-index: 99;
+    width: 85%;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    @media #{$phablet} {
+        width: 80%;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    @media #{$tablet} {
+        width: 60%;
+        left: 5em;
+        bottom: 0;
+    }
+    @media #{$mac13} {
+        width: 45%;
+        bottom: -5%;
+        left: 18em;
+    }
+    @media #{$mac15} {
+        width: 45%;
+        bottom: -5%;
+        left: 25em;
+    }
+    @media #{$monitor} {
+        width: 30%;
+        bottom: 50%;
+        left: 18em;
+        transform: translateY(50%);
+    }
+}
+
+.eventosaurline {
+    background: $green;
+}
+
+.eventosaurtag {
+    color: $green;
+}
+
+.eventosaurcta {
+    border: 1px solid $green;
+}
+////////////////////////// ABOUT ME ////////////////////////////
+
+.greybg {
+    background-color: $grey1;
+}
+
+#aboutsection {
+    padding: 8em 0;
+    @media #{$monitor} {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .abouttitle {
+        font-size: 3em;
+        font-weight: 200;
+        padding-bottom: 2em;
+        text-align: center;
+        color: $bgblue;
+    }
+
+    .mushdiflex {
+        display: flex;
+        flex-wrap: wrap;
+
+        .mushdidiv {
+            width: 90%;
+            margin: 0 auto;
+
+            img {
+                width: 100%;
+            }
+            @media #{$tablet} {
+                width: 60%;
+            }
+            @media #{$mac13} {
+                width: 50%;
+
+                .mushdibox {
+                    width: 70%;
+                    padding-top: 2em;
+                    margin: 0 auto;
+                }
+            }
+            @media #{$mac15} {
+                width: 50%;
+
+                .mushdibox {
+                    width: 60%;
+                    padding-top: 2em;
+                    margin: 0 auto;
+                }
+            }
+            @media #{$monitor} {
+                width: 50%;
+
+                .mushdibox {
+                    width: 55%;
+                    padding-top: 2em;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        .aboutmediv {
+            width: 90%;
+            padding: 4em 0;
+            margin: 0 auto;
+
+            p {
+                line-height: 2em;
+            }
+            @media #{$phablet} {
+                width: 80%;
+            }
+            @media #{$tablet} {
+                width: 60%;
+            }
+            @media #{$mac13} {
+                width: 50%;
+
+                .aboutmebox {
+                    width: 85%;
+                    margin: 0 auto;
+                }
+            }
+            @media #{$mac15} {
+                width: 50%;
+
+                .aboutmebox {
+                    width: 65%;
+                    margin: 0 auto;
+                }
+            }
+            @media #{$monitor} {
+                width: 50%;
+
+                .aboutmebox {
+                    width: 85%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .skillscontainer {
+        .skillstitle {
+            font-size: 1.5em;
+            text-align: center;
+            font-weight: 600;
+            padding: 2em 0;
+        }
+
+        .skillsflex {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .skilldiv {
+                width: 90%;
+                margin: 0 auto;
+
+                .skillbox {
+                    width: 70%;
+                    margin: 0 auto;
+                    padding: 4em 0;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+                @media #{$tablet} {
+                    width: 51%;
+                }
+                @media #{$mac13} {
+                    width: 33%;
+
+                    .skillbox {
+                        width: 55%;
+                    }
+                }
+                @media #{$mac15} {
+                    width: 33%;
+
+                    .skillbox {
+                        width: 40%;
+                    }
+                }
+                @media #{$monitor} {
+                    width: 33%;
+
+                    .skillbox {
+                        width: 55%;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
