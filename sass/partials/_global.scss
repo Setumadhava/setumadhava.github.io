@@ -10,70 +10,268 @@ html {
     padding: 0;
     font-family: $roboto;
 }
-////////////////////////// HEADER  //////////////////////////////////
+/////////// NEW HEADER ////////////////
 
-.nav {
-    background-color: $navgrey;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
+#header {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 2em;
     width: 100%;
-    z-index: 1000;
-    @media #{$phablet} {
-        justify-content: space-around;
-    }
-    @media #{$tablet} {
-        justify-content: flex-end;
-    }
-    @media #{$mac13} {
-        justify-content: flex-end;
-        padding-right: 2em;
-    }
-    @media #{$mac15} {
-        justify-content: flex-end;
-        padding-right: 2em;
-    }
-    @media #{$monitor} {
-        justify-content: flex-end;
-        padding-right: 2em;
-    }
 
-    .navitem {
-        padding: 1em 1.5em;
-        font-size: 0.9em;
-        font-weight: 500;
-        text-align: center;
-        width: 33%;
+    #headerflex {
         @media #{$tablet} {
-            padding: 1.5em 2em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            position: relative;
         }
         @media #{$mac13} {
-            padding: 1.5em 2em;
-            width: 150px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            position: relative;
         }
         @media #{$mac15} {
-            padding: 1.5em 2em;
-            width: 150px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            position: relative;
         }
         @media #{$monitor} {
-            padding: 1.5em 2em;
-            font-size: 1em;
-            width: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .name {
+            transition: 0.3s all ease-in-out;
+            position: relative;
+
+            a {
+                color: black;
+                transition: 0.3s all ease-in-out;
+            }
+
+            p {
+                font-family: georgia;
+                font-size: 1.5em;
+            }
+        }
+
+        .name:hover {
+            transition: 0.3s all ease-in-out;
+            color: $setured;
+            cursor: pointer;
+
+            a {
+                color: $setured;
+                transition: 0.3s all ease-in-out;
+            }
+        }
+
+        #navflex {
+            width: 80%;
+            padding-top: 1em;
+            @media #{$tablet} {
+                width: 40%;
+                justify-content: space-between;
+                padding-top: 0.7em;
+            }
+            @media #{$mac13} {
+                width: 40%;
+                justify-content: space-between;
+                padding-top: 0.7em;
+            }
+            @media #{$mac15} {
+                width: 40%;
+                justify-content: space-between;
+                padding-top: 0.7em;
+            }
+            @media #{$monitor} {
+                width: 40%;
+                justify-content: space-between;
+                padding-top: 0.7em;
+            }
+            display: flex;
+            justify-content: space-between;
+
+            .navitem {
+                a {
+                    transition: 0.3s all ease-in-out;
+                    color: black;
+                }
+                width: 20%;
+                text-align: left;
+                @media #{$mac13} {
+                    text-align: right;
+                }
+                @media #{$mac15} {
+                    text-align: right;
+                }
+                @media #{$monitor} {
+                    text-align: right;
+                }
+                transition: 0.3s all ease-in-out;
+
+                p {
+                    font-size: 0.9em;
+                    font-weight: 500;
+                }
+            }
+
+            .navitem:hover {
+                a {
+                    transition: 0.3s all ease-in-out;
+                    color: $setured;
+                }
+                font-weight: bolder;
+                cursor: pointer;
+            }
         }
     }
+}
+/////////// NEW FOOTER //////////////////
 
-    .navitem:hover {
-        transition: all 0.30s ease-in-out;
-        cursor: pointer;
-        background-color: white;
-        color: $navgrey;
-        font-weight: 900;
+#footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 8em 0 4em;
+
+    #hello {
+        font-family: georgia;
+        font-size: 3em;
     }
 
-    a {
-        color: $grey1;
+    #contactflex {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 2em;
+        justify-content: space-between;
+        @media #{$mac13} {
+            width: 70%;
+        }
+
+        .contcontent {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            padding: 2em 0;
+            transition: 0.3s all ease-in-out;
+            @media #{$tablet} {
+                width: 50%;
+                padding: 2em 0;
+            }
+            @media #{$mac13} {
+                width: 50%;
+                padding: 2em 0;
+            }
+            @media #{$mac15} {
+                width: 25%;
+            }
+            @media #{$monitor} {
+                width: 25%;
+            }
+
+            a {
+                color: black;
+                transition: 0.3s all ease-in-out;
+            }
+
+            .contact {}
+
+            .contline {
+                height: 4px;
+                width: 50px;
+                background-color: black;
+                border-radius: 2px;
+                position: relative;
+                top: 10px;
+                margin-right: 1.5em;
+                transition: 0.3s all ease-in-out;
+            }
+        }
+
+        .contcontent:hover {
+            transition: 0.3s all ease-in-out;
+            cursor: pointer;
+
+            a {
+                color: $setured;
+                transition: 0.3s all ease-in-out;
+            }
+
+            .contline {
+                background-color: $setured;
+                transition: 0.3s all ease-in-out;
+                transform: translateX(6px);
+            }
+        }
     }
 }
+// ////////////////////////// HEADER  //////////////////////////////////
+// .nav {
+//     background-color: $navgrey;
+//     display: flex;
+//     justify-content: space-between;
+//     position: fixed;
+//     width: 100%;
+//     z-index: 1000;
+//     @media #{$phablet} {
+//         justify-content: space-around;
+//     }
+//     @media #{$tablet} {
+//         justify-content: flex-end;
+//     }
+//     @media #{$mac13} {
+//         justify-content: flex-end;
+//         padding-right: 2em;
+//     }
+//     @media #{$mac15} {
+//         justify-content: flex-end;
+//         padding-right: 2em;
+//     }
+//     @media #{$monitor} {
+//         justify-content: flex-end;
+//         padding-right: 2em;
+//     }
+//
+//     .navitem {
+//         padding: 1em 1.5em;
+//         font-size: 0.9em;
+//         font-weight: 500;
+//         text-align: center;
+//         width: 33%;
+//         @media #{$tablet} {
+//             padding: 1.5em 2em;
+//         }
+//         @media #{$mac13} {
+//             padding: 1.5em 2em;
+//             width: 150px;
+//         }
+//         @media #{$mac15} {
+//             padding: 1.5em 2em;
+//             width: 150px;
+//         }
+//         @media #{$monitor} {
+//             padding: 1.5em 2em;
+//             font-size: 1em;
+//             width: 200px;
+//         }
+//     }
+//
+//     .navitem:hover {
+//         transition: all 0.30s ease-in-out;
+//         cursor: pointer;
+//         background-color: white;
+//         color: $navgrey;
+//         font-weight: 900;
+//     }
+//
+//     a {
+//         color: $grey1;
+//     }
+// }
 ///////////////////// FOOTER NAV ///////////////////////////////
 
 .footernavcontainer {
@@ -83,7 +281,7 @@ html {
     .navbutton {
         width: 50%;
         padding: 1em 0;
-        background-color: #C9EB91;
+        background-color: $grey1;
         text-align: center;
     }
 
@@ -314,13 +512,16 @@ html {
 
 .copyrightdiv {
     width: 100%;
-    background-color: #3E3E3E;
+    max-width: 1000px;
+    border-radius: 3px 3px 0 0;
+    margin: 0 auto;
+    background-color: $grey1;
 }
 
 .copyright {
     padding: 0.8em 0;
     text-align: center;
-    color: #ABABAB;
+    color: $grey4;
     font-size: 0.8em;
     margin: 0 auto;
     @media #{$mac13} {

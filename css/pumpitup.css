@@ -1028,61 +1028,159 @@ html {
   padding: 0;
   font-family: "Roboto", sans-serif; }
 
-.nav {
-  background-color: #272727;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  width: 100%;
-  z-index: 1000; }
-  @media (min-width: 375px) and (max-width: 768px) {
-    .nav {
-      justify-content: space-around; } }
+#header {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 2em;
+  width: 100%; }
   @media (min-width: 768px) and (max-width: 1023px) {
-    .nav {
-      justify-content: flex-end; } }
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
   @media (min-width: 1024px) and (max-width: 1439px) {
-    .nav {
-      justify-content: flex-end;
-      padding-right: 2em; } }
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
   @media (min-width: 1440px) and (max-width: 1819px) {
-    .nav {
-      justify-content: flex-end;
-      padding-right: 2em; } }
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
   @media (min-width: 1820px) {
-    .nav {
-      justify-content: flex-end;
-      padding-right: 2em; } }
-  .nav .navitem {
-    padding: 1em 1.5em;
-    font-size: 0.9em;
-    font-weight: 500;
-    text-align: center;
-    width: 33%; }
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
+  #header #headerflex .name {
+    transition: 0.3s all ease-in-out;
+    position: relative; }
+    #header #headerflex .name a {
+      color: black;
+      transition: 0.3s all ease-in-out; }
+    #header #headerflex .name p {
+      font-family: georgia;
+      font-size: 1.5em; }
+  #header #headerflex .name:hover {
+    transition: 0.3s all ease-in-out;
+    color: #F04B33;
+    cursor: pointer; }
+    #header #headerflex .name:hover a {
+      color: #F04B33;
+      transition: 0.3s all ease-in-out; }
+  #header #headerflex #navflex {
+    width: 80%;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between; }
     @media (min-width: 768px) and (max-width: 1023px) {
-      .nav .navitem {
-        padding: 1.5em 2em; } }
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
-      .nav .navitem {
-        padding: 1.5em 2em;
-        width: 150px; } }
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
-      .nav .navitem {
-        padding: 1.5em 2em;
-        width: 150px; } }
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em; } }
     @media (min-width: 1820px) {
-      .nav .navitem {
-        padding: 1.5em 2em;
-        font-size: 1em;
-        width: 200px; } }
-  .nav .navitem:hover {
-    transition: all 0.30s ease-in-out;
-    cursor: pointer;
-    background-color: white;
-    color: #272727;
-    font-weight: 900; }
-  .nav a {
-    color: #F5F5F5; }
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em; } }
+    #header #headerflex #navflex .navitem {
+      width: 20%;
+      text-align: left;
+      transition: 0.3s all ease-in-out; }
+      #header #headerflex #navflex .navitem a {
+        transition: 0.3s all ease-in-out;
+        color: black; }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #header #headerflex #navflex .navitem {
+          text-align: right; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #header #headerflex #navflex .navitem {
+          text-align: right; } }
+      @media (min-width: 1820px) {
+        #header #headerflex #navflex .navitem {
+          text-align: right; } }
+      #header #headerflex #navflex .navitem p {
+        font-size: 0.9em;
+        font-weight: 500; }
+    #header #headerflex #navflex .navitem:hover {
+      font-weight: bolder;
+      cursor: pointer; }
+      #header #headerflex #navflex .navitem:hover a {
+        transition: 0.3s all ease-in-out;
+        color: #F04B33; }
+
+#footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 8em 0 4em; }
+  #footer #hello {
+    font-family: georgia;
+    font-size: 3em; }
+  #footer #contactflex {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    justify-content: space-between; }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #footer #contactflex {
+        width: 70%; } }
+    #footer #contactflex .contcontent {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      padding: 2em 0;
+      transition: 0.3s all ease-in-out; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #footer #contactflex .contcontent {
+          width: 50%;
+          padding: 2em 0; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #footer #contactflex .contcontent {
+          width: 50%;
+          padding: 2em 0; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #footer #contactflex .contcontent {
+          width: 25%; } }
+      @media (min-width: 1820px) {
+        #footer #contactflex .contcontent {
+          width: 25%; } }
+      #footer #contactflex .contcontent a {
+        color: black;
+        transition: 0.3s all ease-in-out; }
+      #footer #contactflex .contcontent .contline {
+        height: 4px;
+        width: 50px;
+        background-color: black;
+        border-radius: 2px;
+        position: relative;
+        top: 10px;
+        margin-right: 1.5em;
+        transition: 0.3s all ease-in-out; }
+    #footer #contactflex .contcontent:hover {
+      transition: 0.3s all ease-in-out;
+      cursor: pointer; }
+      #footer #contactflex .contcontent:hover a {
+        color: #F04B33;
+        transition: 0.3s all ease-in-out; }
+      #footer #contactflex .contcontent:hover .contline {
+        background-color: #F04B33;
+        transition: 0.3s all ease-in-out;
+        transform: translateX(6px); }
 
 .footernavcontainer {
   display: flex;
@@ -1090,7 +1188,7 @@ html {
   .footernavcontainer .navbutton {
     width: 50%;
     padding: 1em 0;
-    background-color: #C9EB91;
+    background-color: #F5F5F5;
     text-align: center; }
   .footernavcontainer .esaurnxt:hover {
     transition: all 0.20s ease-in-out;
@@ -1265,12 +1363,15 @@ html {
 
 .copyrightdiv {
   width: 100%;
-  background-color: #3E3E3E; }
+  max-width: 1000px;
+  border-radius: 3px 3px 0 0;
+  margin: 0 auto;
+  background-color: #F5F5F5; }
 
 .copyright {
   padding: 0.8em 0;
   text-align: center;
-  color: #ABABAB;
+  color: #7E7E7E;
   font-size: 0.8em;
   margin: 0 auto; }
   @media (min-width: 1024px) and (max-width: 1439px) {
