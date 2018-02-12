@@ -656,7 +656,7 @@ html {
     padding-left: 1em; }
     @media (min-width: 768px) and (max-width: 1023px) {
       #header #headerflex .innerpagename {
-        padding-left: 0; } }
+        padding-left: 2em; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #header #headerflex .innerpagename {
         padding-left: 0; } }
@@ -730,6 +730,9 @@ html {
   padding: 2.1em 1.1em 0 0;
   display: block;
   position: fixed; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #menuicon {
+      padding: 2.1em 2em 0 0; } }
   @media (min-width: 1024px) and (max-width: 1439px) {
     #menuicon {
       display: none; } }
@@ -755,19 +758,29 @@ html {
   -moz-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
   box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75); }
   #mobilemenuwrapper #menunameflex {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 2.05em;
+    padding-top: 2em;
     transition: 0.3s all ease-in-out; }
-    #mobilemenuwrapper #menunameflex a {
-      color: black; }
-    #mobilemenuwrapper #menunameflex #menuName {
+    @media (min-width: 375px) and (max-width: 768px) {
+      #mobilemenuwrapper #menunameflex #menuName {
+        padding-left: 0.32em; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #mobilemenuwrapper #menunameflex #menuName {
+        padding-left: 3.8em; } }
+    #mobilemenuwrapper #menunameflex #menuName a {
+      letter-spacing: normal;
       font-size: 1.5em;
-      font-family: georgia;
       transition: 0.3s all ease-in-out; }
+      #mobilemenuwrapper #menunameflex #menuName a p {
+        font-family: georgia;
+        color: black; }
+    #mobilemenuwrapper #menunameflex #menuxicon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 2.45em 1.5em 0 0; }
       @media (min-width: 768px) and (max-width: 1023px) {
-        #mobilemenuwrapper #menunameflex #menuName {
-          padding: 0 2.5em; } }
+        #mobilemenuwrapper #menunameflex #menuxicon {
+          padding: 2.45em 2.4em 0 0; } }
   #mobilemenuwrapper #menuline {
     height: 3px;
     background-color: black;
@@ -778,8 +791,8 @@ html {
     transition: 0.3s all ease-in-out; }
     @media (min-width: 768px) and (max-width: 1023px) {
       #mobilemenuwrapper #menuline {
-        margin: 1.7em 0 0 3.6em;
-        width: 87%; } }
+        margin: 1.2em 0 0 3.6em;
+        width: 85%; } }
   #mobilemenuwrapper ul {
     padding-top: 2em;
     transition: 0.3s all ease-in-out; }
