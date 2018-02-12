@@ -626,6 +626,18 @@ html {
       font-size: 1.5em; }
   #header #headerflex .innerpagename {
     padding-left: 1em; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #header #headerflex .innerpagename {
+        padding-left: 0; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      #header #headerflex .innerpagename {
+        padding-left: 0; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      #header #headerflex .innerpagename {
+        padding-left: 0; } }
+    @media (min-width: 1820px) {
+      #header #headerflex .innerpagename {
+        padding-left: 0; } }
   #header #headerflex .name:hover {
     transition: 0.3s all ease-in-out;
     color: #F04B33;

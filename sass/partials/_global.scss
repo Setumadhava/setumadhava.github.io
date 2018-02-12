@@ -61,6 +61,18 @@ html {
 
         .innerpagename {
             padding-left: 1em;
+            @media #{$tablet} {
+                padding-left: 0;
+            }
+            @media #{$mac13} {
+                padding-left: 0;
+            }
+            @media #{$mac15} {
+                padding-left: 0;
+            }
+            @media #{$monitor} {
+                padding-left: 0;
+            }
         }
 
         .name:hover {
