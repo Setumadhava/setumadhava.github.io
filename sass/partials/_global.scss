@@ -78,12 +78,6 @@ html {
             width: 80%;
             padding-top: 1em;
             display: none;
-            @media #{$tablet} {
-                width: 40%;
-                justify-content: space-between;
-                padding-top: 0.7em;
-                display: flex;
-            }
             @media #{$mac13} {
                 width: 40%;
                 justify-content: space-between;
@@ -148,9 +142,6 @@ html {
     padding: 2.1em 1.1em 0 0;
     display: block;
     position: fixed;
-    @media #{$tablet} {
-        display: none;
-    }
     @media #{$mac13} {
         display: none;
     }
@@ -164,6 +155,7 @@ html {
 
 #mobilemenuwrapper {
     opacity: 0;
+    z-index: -2;
     transition: 0.3s all ease-in-out;
     width: 100%;
     background-color: white;
@@ -186,6 +178,9 @@ html {
             font-size: 1.5em;
             font-family: georgia;
             transition: 0.3s all ease-in-out;
+            @media #{$tablet} {
+                padding: 0 2.5em;
+            }
         }
     }
 
@@ -197,11 +192,18 @@ html {
         position: absolute;
         margin-top: 1.2em;
         transition: 0.3s all ease-in-out;
+        @media #{$tablet} {
+            margin: 1.7em 0 0 3.6em;
+            width: 87%;
+        }
     }
 
     ul {
         padding-top: 2em;
         transition: 0.3s all ease-in-out;
+        @media #{$tablet} {
+            padding: 3em 0 0 2.5em;
+        }
 
         li {
             list-style: none;
