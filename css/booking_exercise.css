@@ -197,6 +197,8 @@ html {
     justify-content: space-between;
     padding-top: 2.05em;
     transition: 0.3s all ease-in-out; }
+    #mobilemenuwrapper #menunameflex a {
+      color: black; }
     #mobilemenuwrapper #menunameflex #menuName {
       font-size: 1.5em;
       font-family: georgia;
