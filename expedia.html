@@ -15,9 +15,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+<!-- HEADER START  -->
+
 <div id="header">
     <div id="headerflex">
-        <div class="name">
+        <div class="name innerpagename">
             <a href="index.html">
                 <p>Setu Kathawate</p>
             </a>
@@ -36,6 +38,28 @@
         </div>
     </div>
 </div>
+<div id="menuicon">
+    <img src="css/img/homepage2/menuicon.svg" alt="">
+</div>
+
+<!-- MOBILE MENU -->
+<div id="mobilemenuwrapper">
+    <div id="menunameflex">
+        <div id="menuName">Setu Kathawate</div>
+        <img id="menuxicon" src="css/img/homepage2/menuxicon.svg" alt="">
+    </div>
+
+    <div id="menuline">&nbsp</div>
+
+    <ul>
+        <li><a href="https://medium.com/@setumad">BLOG</a></li>
+        <li><a href="#aboutsection" target="_blank">ABOUT</a></li>
+        <li><a href="Setumadhava_G_Kathawate_Resume.pdf" target="_blank">RESUME</a></li>
+    </ul>
+</div>
+
+<!-- MOBILE MENU END -->
+<!-- HEADER END  -->
 
 <body>
 
@@ -394,7 +418,12 @@
             }
         }); // Set the user ID using signed-in user_id.
     </script>
+    <!-- /////////////// MOBILE MENU JS ///////////////// -->
 
+    <script src="menuDrawer.js">
+    </script>
+
+    <!-- /////////////// MOBILE MENU JS  END ///////////////// -->
 </body>
 
 </html>

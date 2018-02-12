@@ -1,4 +1,34 @@
-#content {
+#menuicon {
     font-size: 1.1em;
-    padding-top: 10em;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    top: 0;
+    padding: 1.6em 1em 0 0;
+}
+
+#mobilemenuwrapper {
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+    width: 100%;
+    background-color: white;
+    padding: 0 1.5em 0 1em;
+    position: absolute;
+
+    #menunameflex {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5em 0;
+
+        #menuName {
+            font-size: 1.5em;
+            font-family: georgia;
+            padding-left: 0.3em;
+        }
+    }
+
+    li {
+        list-style: none;
+        padding: 1.2em 0;
+    }
 }

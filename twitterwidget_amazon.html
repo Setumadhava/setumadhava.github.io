@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setu Kathawate - Portfolio</title>
+
+    <link rel="stylesheet" href="css/twitter.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+<body>
+
+    <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+
+    <div class="wrapper">
+        <button id="myButton">Fix it</button>
+        <div id="firstDiv">Some text</div>
+
+        <button id="textAppender">Append some text</button>
+        <div id="secondDiv">Javascript is.........</div>
+    </div>
+
+    <script type="text/javascript">
+        document.getElementById("myButton").onClick = function() {
+            alert("Hi!!");
+        }
+        document.getElementById("textAppender").onClick = function() {
+            document.getElementById("secondDiv").innerHTML = document.getElementById("secondDiv").innerHTML + " Great!";
+        }
+    </script>
+
+</body>
+
+</html>

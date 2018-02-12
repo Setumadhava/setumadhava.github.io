@@ -59,6 +59,10 @@ html {
             }
         }
 
+        .innerpagename {
+            padding-left: 1em;
+        }
+
         .name:hover {
             transition: 0.3s all ease-in-out;
             color: $setured;
@@ -73,28 +77,31 @@ html {
         #navflex {
             width: 80%;
             padding-top: 1em;
+            display: none;
             @media #{$tablet} {
                 width: 40%;
                 justify-content: space-between;
                 padding-top: 0.7em;
+                display: flex;
             }
             @media #{$mac13} {
                 width: 40%;
                 justify-content: space-between;
                 padding-top: 0.7em;
+                display: flex;
             }
             @media #{$mac15} {
                 width: 40%;
                 justify-content: space-between;
                 padding-top: 0.7em;
+                display: flex;
             }
             @media #{$monitor} {
                 width: 40%;
                 justify-content: space-between;
                 padding-top: 0.7em;
+                display: flex;
             }
-            display: flex;
-            justify-content: space-between;
 
             .navitem {
                 a {
@@ -131,6 +138,82 @@ html {
         }
     }
 }
+
+#menuicon {
+    font-size: 1.1em;
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    top: 0;
+    padding: 2.1em 1.1em 0 0;
+    display: block;
+    position: fixed;
+    @media #{$tablet} {
+        display: none;
+    }
+    @media #{$mac13} {
+        display: none;
+    }
+    @media #{$mac15} {
+        display: none;
+    }
+    @media #{$monitor} {
+        display: none;
+    }
+}
+
+#mobilemenuwrapper {
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+    width: 100%;
+    background-color: white;
+    padding: 0 1.5em 0 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    -webkit-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+    -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+    box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+
+    #menunameflex {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2.05em;
+        transition: 0.3s all ease-in-out;
+
+        #menuName {
+            font-size: 1.5em;
+            font-family: georgia;
+            transition: 0.3s all ease-in-out;
+        }
+    }
+
+    #menuline {
+        height: 3px;
+        background-color: black;
+        width: 90%;
+        margin: 0 auto;
+        position: absolute;
+        margin-top: 1.2em;
+        transition: 0.3s all ease-in-out;
+    }
+
+    ul {
+        padding-top: 2em;
+        transition: 0.3s all ease-in-out;
+
+        li {
+            list-style: none;
+            padding: 1.5em 0;
+
+            a {
+                color: black;
+            }
+        }
+    }
+}
+//////////////// HEADER END ///////////////
 /////////// NEW FOOTER //////////////////
 
 #footer {

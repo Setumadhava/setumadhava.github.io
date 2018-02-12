@@ -463,6 +463,8 @@ html {
     #header #headerflex .name p {
       font-family: georgia;
       font-size: 1.5em; }
+  #header #headerflex .innerpagename {
+    padding-left: 1em; }
   #header #headerflex .name:hover {
     transition: 0.3s all ease-in-out;
     color: #F04B33;
@@ -473,28 +475,31 @@ html {
   #header #headerflex #navflex {
     width: 80%;
     padding-top: 1em;
-    display: flex;
-    justify-content: space-between; }
+    display: none; }
     @media (min-width: 768px) and (max-width: 1023px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
-        padding-top: 0.7em; } }
+        padding-top: 0.7em;
+        display: flex; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
-        padding-top: 0.7em; } }
+        padding-top: 0.7em;
+        display: flex; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
-        padding-top: 0.7em; } }
+        padding-top: 0.7em;
+        display: flex; } }
     @media (min-width: 1820px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
-        padding-top: 0.7em; } }
+        padding-top: 0.7em;
+        display: flex; } }
     #header #headerflex #navflex .navitem {
       width: 20%;
       text-align: left;
@@ -520,6 +525,67 @@ html {
       #header #headerflex #navflex .navitem:hover a {
         transition: 0.3s all ease-in-out;
         color: #F04B33; }
+
+#menuicon {
+  font-size: 1.1em;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  top: 0;
+  padding: 2.1em 1.1em 0 0;
+  display: block;
+  position: fixed; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #menuicon {
+      display: none; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #menuicon {
+      display: none; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #menuicon {
+      display: none; } }
+  @media (min-width: 1820px) {
+    #menuicon {
+      display: none; } }
+
+#mobilemenuwrapper {
+  opacity: 0;
+  transition: 0.3s all ease-in-out;
+  width: 100%;
+  background-color: white;
+  padding: 0 1.5em 0 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  position: fixed;
+  -webkit-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
+  -moz-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
+  box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75); }
+  #mobilemenuwrapper #menunameflex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.05em;
+    transition: 0.3s all ease-in-out; }
+    #mobilemenuwrapper #menunameflex #menuName {
+      font-size: 1.5em;
+      font-family: georgia;
+      transition: 0.3s all ease-in-out; }
+  #mobilemenuwrapper #menuline {
+    height: 3px;
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 1.2em;
+    transition: 0.3s all ease-in-out; }
+  #mobilemenuwrapper ul {
+    padding-top: 2em;
+    transition: 0.3s all ease-in-out; }
+    #mobilemenuwrapper ul li {
+      list-style: none;
+      padding: 1.5em 0; }
+      #mobilemenuwrapper ul li a {
+        color: black; }
 
 #footer {
   max-width: 1000px;
