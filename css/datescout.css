@@ -762,7 +762,7 @@ html {
     transition: 0.3s all ease-in-out; }
     @media (min-width: 375px) and (max-width: 768px) {
       #mobilemenuwrapper #menunameflex #menuName {
-        padding-left: 0.32em; } }
+        padding-left: 0.17em; } }
     @media (min-width: 768px) and (max-width: 1023px) {
       #mobilemenuwrapper #menunameflex #menuName {
         padding-left: 3.8em; } }

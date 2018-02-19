@@ -10,7 +10,7 @@ html {
     padding: 0;
     font-family: $roboto;
 }
-/////////// NEW HEADER ////////////////
+////////////// NEW HEADER ////////////////
 
 #header {
     max-width: 1000px;
@@ -189,7 +189,7 @@ html {
 
         #menuName {
             @media #{$phablet} {
-                padding-left: 0.32em;
+                padding-left: 0.17em;
             }
             @media #{$tablet} {
                 padding-left: 3.8em;
