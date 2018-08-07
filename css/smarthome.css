@@ -680,7 +680,7 @@ html {
   .footernavcontainer .navbutton {
     width: 50%;
     padding: 1em 0;
-    background-color: #F5F5F5;
+    background-color: #F3F3F3;
     text-align: center; }
   .footernavcontainer .esaurnxt:hover {
     transition: all 0.20s ease-in-out;
