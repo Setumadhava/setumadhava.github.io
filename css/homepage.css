@@ -261,6 +261,32 @@ body {
       #aboutsection #aboutme {
         width: 55%; } }
 
+#thdpic {
+  width: 90%;
+  padding: 4em 0;
+  margin: 0 auto; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #thdpic {
+      width: 70%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #thdpic {
+      width: 60%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #thdpic {
+      padding: 2em 0;
+      width: 40%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #thdpic {
+      padding: 2em 0;
+      width: 35%; } }
+  @media (min-width: 1820px) {
+    #thdpic {
+      padding: 2em 0;
+      width: 30%; } }
+  #thdpic img {
+    width: 100%;
+    margin: 0 auto; }
+
 #piupic {
   width: 80%;
   padding: 4em 0;

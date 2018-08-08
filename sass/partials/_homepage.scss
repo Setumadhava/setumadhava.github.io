@@ -313,6 +313,36 @@ body {
     }
 }
 ////////////// CARD SPECIFIC CODE //////////////
+/////////THD/////////////
+
+#thdpic {
+    width: 90%;
+    padding: 4em 0;
+    margin: 0 auto;
+    @media #{$phablet} {
+        width: 70%;
+    }
+    @media #{$tablet} {
+        width: 60%;
+    }
+    @media #{$mac13} {
+        padding: 2em 0;
+        width: 40%;
+    }
+    @media #{$mac15} {
+        padding: 2em 0;
+        width: 35%;
+    }
+    @media #{$monitor} {
+        padding: 2em 0;
+        width: 30%;
+    }
+
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
 ///////// PIU /////////////
 
 #piupic {
