@@ -18,6 +18,23 @@ body {
     background-color: #F3F3F3;
 }
 
+#headercontainer {
+    width: 100%;
+    margin: 0 auto;
+    @media #{$mac13} {
+        width: 80%;
+    }
+    @media #{$mac15} {
+        width: 100%;
+    }
+    @media #{$monitor} {
+        width: 100%;
+    }
+    @media #{$fourk} {
+        width: 100%;
+    }
+}
+
 #supercontainer {
     width: 90%;
     @media #{$tablet} {
@@ -134,7 +151,7 @@ body {
                 margin-bottom: 3em;
             }
             @media #{$mac13} {
-                width: 50%;
+                width: 55%;
                 // position: absolute;
                 // bottom: 0;
             }
@@ -177,7 +194,7 @@ body {
                     width: 70%;
                 }
                 @media #{$mac13} {
-                    width: 55%;
+                    width: 95%;
                 }
                 @media #{$mac15} {
                     width: 98%;

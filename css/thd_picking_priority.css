@@ -9,6 +9,22 @@ p {
 body {
   background-color: #F3F3F3; }
 
+#headercontainer {
+  width: 100%;
+  margin: 0 auto; }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #headercontainer {
+      width: 80%; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #headercontainer {
+      width: 100%; } }
+  @media (min-width: 1820px) {
+    #headercontainer {
+      width: 100%; } }
+  @media (min-width: 2560) {
+    #headercontainer {
+      width: 100%; } }
+
 #supercontainer {
   width: 90%;
   margin: 0 auto; }
@@ -116,7 +132,7 @@ body {
           margin-bottom: 3em; } }
       @media (min-width: 1024px) and (max-width: 1439px) {
         #herosection .heroflex #hero_text {
-          width: 50%; } }
+          width: 55%; } }
       @media (min-width: 1440px) and (max-width: 1819px) {
         #herosection .heroflex #hero_text {
           width: 40%;
@@ -154,7 +170,7 @@ body {
             width: 70%; } }
         @media (min-width: 1024px) and (max-width: 1439px) {
           #herosection .heroflex #hero_text #herotextline {
-            width: 55%; } }
+            width: 95%; } }
         @media (min-width: 1440px) and (max-width: 1819px) {
           #herosection .heroflex #hero_text #herotextline {
             width: 98%; } }
@@ -431,7 +447,7 @@ html {
   font-family: "Roboto", sans-serif; }
 
 #header {
-  max-width: 1000px;
+  max-width: 1152px;
   margin: 0 auto;
   padding-top: 2em;
   width: 100%; }
@@ -635,7 +651,7 @@ html {
     justify-content: space-between; }
     @media (min-width: 1024px) and (max-width: 1439px) {
       #footer #contactflex {
-        width: 70%; } }
+        width: 100%; } }
     #footer #contactflex .contcontent {
       display: flex;
       flex-wrap: wrap;
@@ -648,7 +664,7 @@ html {
           padding: 2em 0; } }
       @media (min-width: 1024px) and (max-width: 1439px) {
         #footer #contactflex .contcontent {
-          width: 50%;
+          width: 25%;
           padding: 2em 0; } }
       @media (min-width: 1440px) and (max-width: 1819px) {
         #footer #contactflex .contcontent {
@@ -862,7 +878,7 @@ html {
   width: 100%;
   max-width: 1000px;
   border-radius: 3px 3px 0 0;
-  margin: 0 auto;
+  margin: 0 auto 2em;
   background-color: #F5F5F5; }
 
 .copyright {
@@ -871,9 +887,5 @@ html {
   color: #7E7E7E;
   font-size: 0.8em;
   margin: 0 auto; }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    .copyright {
-      padding: 0.8em 0 0.8em 10em;
-      text-align: left; } }
 
 /*# sourceMappingURL=thd_picking_priority.css.map */
