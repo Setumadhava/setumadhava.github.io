@@ -20,19 +20,7 @@ body {
 
 #headercontainer {
     width: 100%;
-    margin: 0 auto;
-    @media #{$mac13} {
-        width: 80%;
-    }
-    @media #{$mac15} {
-        width: 100%;
-    }
-    @media #{$monitor} {
-        width: 100%;
-    }
-    @media #{$fourk} {
-        width: 100%;
-    }
+    margin: 0 auto 2em;
 }
 
 #supercontainer {
@@ -106,7 +94,7 @@ body {
         height: 800px;
     }
     @media #{$fourk} {
-        height: 2800px;
+        height: 800px;
     }
 
     .heroflex {
@@ -126,16 +114,16 @@ body {
             width: 90%;
         }
         @media #{$mac13} {
-            width: 80%;
+            width: 90%;
         }
         @media #{$mac15} {
-            width: 80%;
+            width: 90%;
         }
         @media #{$monitor} {
-            width: 70%;
+            width: 85%;
         }
         @media #{$fourk} {
-            width: 60%;
+            width: 80%;
         }
 
         #hero_text {
@@ -156,17 +144,17 @@ body {
                 // bottom: 0;
             }
             @media #{$mac15} {
-                width: 40%;
+                width: 45%;
                 position: absolute;
                 bottom: 0;
             }
             @media #{$monitor} {
-                width: 40%;
+                width: 45%;
                 position: absolute;
                 bottom: 0;
             }
             @media #{$fourk} {
-                width: 40%;
+                width: 45%;
                 position: absolute;
                 bottom: 0;
             }
@@ -200,10 +188,10 @@ body {
                     width: 98%;
                 }
                 @media #{$monitor} {
-                    width: 98%;
+                    width: 85%;
                 }
                 @media #{$fourk} {
-                    width: 90%;
+                    width: 75%;
                 }
             }
 
@@ -242,11 +230,21 @@ body {
                     width: 90%;
                     position: absolute;
                     bottom: 0;
-                    right: -21em;
+                    right: -15em;
+                }
+            }
+            @media #{$monitor} {
+                width: 45%;
+
+                img {
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    right: -18em;
                 }
             }
             @media #{$fourk} {
-                width: 20%;
+                width: 50%;
 
                 img {
                     width: 90%;

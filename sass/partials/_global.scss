@@ -12,8 +12,13 @@ html {
 }
 ////////////// NEW HEADER ////////////////
 
+#headercontainer {
+    width: 100%;
+    margin: 0 auto 2em;
+}
+
 #header {
-    max-width: 1152px;
+    max-width: 1536px;
     margin: 0 auto;
     padding-top: 2em;
     width: 100%;
@@ -43,6 +48,12 @@ html {
             justify-content: space-between;
             position: relative;
         }
+        @media #{$fourk} {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            position: relative;
+        }
 
         .name {
             transition: 0.3s all ease-in-out;
@@ -56,22 +67,6 @@ html {
             p {
                 font-family: georgia;
                 font-size: 1.5em;
-            }
-        }
-
-        .innerpagename {
-            padding-left: 1em;
-            @media #{$tablet} {
-                padding-left: 2em;
-            }
-            @media #{$mac13} {
-                padding-left: 0;
-            }
-            @media #{$mac15} {
-                padding-left: 0;
-            }
-            @media #{$monitor} {
-                padding-left: 0;
             }
         }
 
@@ -108,6 +103,12 @@ html {
                 padding-top: 0.7em;
                 display: flex;
             }
+            @media #{$fourk} {
+                width: 40%;
+                justify-content: space-between;
+                padding-top: 0.7em;
+                display: flex;
+            }
 
             .navitem {
                 a {
@@ -123,6 +124,9 @@ html {
                     text-align: right;
                 }
                 @media #{$monitor} {
+                    text-align: right;
+                }
+                @media #{$fourk} {
                     text-align: right;
                 }
                 transition: 0.3s all ease-in-out;
@@ -164,6 +168,9 @@ html {
         display: none;
     }
     @media #{$monitor} {
+        display: none;
+    }
+    @media #{$fourk} {
         display: none;
     }
 }
@@ -289,6 +296,9 @@ html {
                 width: 25%;
             }
             @media #{$monitor} {
+                width: 25%;
+            }
+            @media #{$fourk} {
                 width: 25%;
             }
 
@@ -534,6 +544,9 @@ html {
         @media #{$monitor} {
             font-size: 2em;
         }
+        @media #{$fourk} {
+            font-size: 2em;
+        }
         font-weight: 500;
     }
 }
@@ -564,6 +577,9 @@ html {
         font-size: 2em;
     }
     @media #{$monitor} {
+        font-size: 2em;
+    }
+    @media #{$fourk} {
         font-size: 2em;
     }
 }

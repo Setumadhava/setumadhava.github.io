@@ -18,10 +18,10 @@ body {
   @media (min-width: 1440px) and (max-width: 1819px) {
     #headercontainer {
       width: 100%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #headercontainer {
       width: 100%; } }
-  @media (min-width: 2560) {
+  @media (min-width: 2560px) {
     #headercontainer {
       width: 100%; } }
 
@@ -37,10 +37,10 @@ body {
   @media (min-width: 1440px) and (max-width: 1819px) {
     #supercontainer {
       width: 80%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #supercontainer {
       width: 70%; } }
-  @media (min-width: 2560) {
+  @media (min-width: 2560px) {
     #supercontainer {
       width: 60%; } }
 
@@ -84,10 +84,10 @@ body {
   @media (min-width: 1440px) and (max-width: 1819px) {
     #herosection {
       height: 600px; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #herosection {
       height: 800px; } }
-  @media (min-width: 2560) {
+  @media (min-width: 2560px) {
     #herosection {
       height: 2800px; } }
   #herosection .heroflex {
@@ -112,10 +112,10 @@ body {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #herosection .heroflex {
         width: 80%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #herosection .heroflex {
         width: 70%; } }
-    @media (min-width: 2560) {
+    @media (min-width: 2560px) {
       #herosection .heroflex {
         width: 60%; } }
     #herosection .heroflex #hero_text {
@@ -138,12 +138,12 @@ body {
           width: 40%;
           position: absolute;
           bottom: 0; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         #herosection .heroflex #hero_text {
           width: 40%;
           position: absolute;
           bottom: 0; } }
-      @media (min-width: 2560) {
+      @media (min-width: 2560px) {
         #herosection .heroflex #hero_text {
           width: 40%;
           position: absolute;
@@ -155,10 +155,10 @@ body {
         @media (min-width: 1440px) and (max-width: 1819px) {
           #herosection .heroflex #hero_text #pp_title {
             font-size: 2.7em; } }
-        @media (min-width: 1820px) {
+        @media (min-width: 1820px) and (max-width: 2559px) {
           #herosection .heroflex #hero_text #pp_title {
             font-size: 2.7em; } }
-        @media (min-width: 2560) {
+        @media (min-width: 2560px) {
           #herosection .heroflex #hero_text #pp_title {
             font-size: 2.7em; } }
       #herosection .heroflex #hero_text #herotextline {
@@ -174,10 +174,10 @@ body {
         @media (min-width: 1440px) and (max-width: 1819px) {
           #herosection .heroflex #hero_text #herotextline {
             width: 98%; } }
-        @media (min-width: 1820px) {
+        @media (min-width: 1820px) and (max-width: 2559px) {
           #herosection .heroflex #hero_text #herotextline {
             width: 98%; } }
-        @media (min-width: 2560) {
+        @media (min-width: 2560px) {
           #herosection .heroflex #hero_text #herotextline {
             width: 90%; } }
       #herosection .heroflex #hero_text #hero_desc {
@@ -211,7 +211,7 @@ body {
             position: absolute;
             bottom: 0;
             right: -21em; } }
-      @media (min-width: 2560) {
+      @media (min-width: 2560px) {
         #herosection .heroflex #hero_img {
           width: 20%; }
           #herosection .heroflex #hero_img img {
@@ -240,8 +240,12 @@ html {
   padding: 0;
   font-family: "Roboto", sans-serif; }
 
+#headercontainer {
+  width: 100%;
+  margin: 0 auto 2em; }
+
 #header {
-  max-width: 1152px;
+  max-width: 1536px;
   margin: 0 auto;
   padding-top: 2em;
   width: 100%; }
@@ -263,7 +267,13 @@ html {
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
+  @media (min-width: 2560px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -278,20 +288,6 @@ html {
     #header #headerflex .name p {
       font-family: georgia;
       font-size: 1.5em; }
-  #header #headerflex .innerpagename {
-    padding-left: 1em; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      #header #headerflex .innerpagename {
-        padding-left: 2em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      #header #headerflex .innerpagename {
-        padding-left: 0; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      #header #headerflex .innerpagename {
-        padding-left: 0; } }
-    @media (min-width: 1820px) {
-      #header #headerflex .innerpagename {
-        padding-left: 0; } }
   #header #headerflex .name:hover {
     transition: 0.3s all ease-in-out;
     color: #F04B33;
@@ -315,7 +311,13 @@ html {
         justify-content: space-between;
         padding-top: 0.7em;
         display: flex; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em;
+        display: flex; } }
+    @media (min-width: 2560px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -334,7 +336,10 @@ html {
       @media (min-width: 1440px) and (max-width: 1819px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
+        #header #headerflex #navflex .navitem {
+          text-align: right; } }
+      @media (min-width: 2560px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       #header #headerflex #navflex .navitem p {
@@ -365,7 +370,10 @@ html {
   @media (min-width: 1440px) and (max-width: 1819px) {
     #menuicon {
       display: none; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    #menuicon {
+      display: none; } }
+  @media (min-width: 2560px) {
     #menuicon {
       display: none; } }
 
@@ -463,7 +471,10 @@ html {
       @media (min-width: 1440px) and (max-width: 1819px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
+        #footer #contactflex .contcontent {
+          width: 25%; } }
+      @media (min-width: 2560px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
       #footer #contactflex .contcontent a {
@@ -597,7 +608,10 @@ html {
     @media (min-width: 1440px) and (max-width: 1819px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 2560px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
 
@@ -624,7 +638,10 @@ html {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .getintouch {
       font-size: 2em; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    .getintouch {
+      font-size: 2em; } }
+  @media (min-width: 2560px) {
     .getintouch {
       font-size: 2em; } }
 

@@ -17,10 +17,10 @@
   @media (min-width: 1440px) and (max-width: 1819px) {
     .title {
       font-size: 3em; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .title {
       font-size: 3em; } }
-  @media (min-width: 2560) {
+  @media (min-width: 2560px) {
     .title {
       font-size: 3em; } }
 
@@ -53,7 +53,7 @@ ul {
     ul {
       width: 65%;
       margin: 0 auto; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .content,
     ul {
       width: 75%;
@@ -82,10 +82,10 @@ ul {
   @media (min-width: 1440px) and (max-width: 1819px) {
     #hero {
       height: 600px; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #hero {
       height: 800px; } }
-  @media (min-width: 2560) {
+  @media (min-width: 2560px) {
     #hero {
       height: 2800px; } }
   #hero #herooverlay {
@@ -114,10 +114,10 @@ ul {
   @media (min-width: 1440px) and (max-width: 1819px) {
     #herophonediv {
       width: 20%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #herophonediv {
       width: 17%; } }
-  @media (min-width: 2560) {
+  @media (min-width: 2560px) {
     #herophonediv {
       width: 5%; } }
 
@@ -147,7 +147,7 @@ ul {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .arrowdowndiv {
       left: 50%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .arrowdowndiv {
       left: 50%; } }
 
@@ -179,7 +179,7 @@ ul {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center; } }
-@media (min-width: 1820px) {
+@media (min-width: 1820px) and (max-width: 2559px) {
   .intro {
     display: flex;
     width: 70%;
@@ -207,7 +207,7 @@ ul {
       width: 265px;
       padding: 3em 0;
       position: relative; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .logodiv {
       width: 265px;
       padding: 3em 0;
@@ -235,7 +235,7 @@ ul {
       padding: 2em;
       margin: 10em 0;
       position: relative; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .blurbdiv {
       width: 50%;
       padding: 2em;
@@ -250,7 +250,7 @@ ul {
     #blurb {
       font-size: 2em;
       width: 80%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #blurb {
       font-size: 2em;
       width: 70%;
@@ -285,7 +285,7 @@ ul {
       width: 100%;
       justify-content: space-around;
       margin: 0 auto; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
@@ -312,7 +312,7 @@ ul {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .roletitle {
       width: 80%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .roletitle {
       width: 80%; } }
 
@@ -335,7 +335,7 @@ ul {
       font-size: 1.4em;
       width: 100%;
       margin: 1em auto; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .rolebody {
       font-size: 1.4em;
       width: 100%;
@@ -345,7 +345,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 4em; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .whatbox {
       width: 80%;
       margin: 0 auto; } }
@@ -361,7 +361,7 @@ ul {
     .whatcontentdiv {
       width: 50%;
       padding: 8em 0; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .whatcontentdiv {
       width: 50%;
       padding: 8em 0; } }
@@ -377,7 +377,7 @@ ul {
       .whatcontentdiv .contentdiv {
         width: 50%;
         margin: 0 auto; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .whatcontentdiv .contentdiv {
         width: 75%;
         margin: 0 auto; } }
@@ -390,7 +390,7 @@ ul {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .whatphonediv {
       width: 50%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .whatphonediv {
       width: 50%; } }
   .whatphonediv #phonediv {
@@ -416,7 +416,7 @@ ul {
         width: 45%;
         margin: 0 auto;
         padding: 12em 0 8em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .whatphonediv #phonediv {
         width: 45%;
         margin: 0 auto;
@@ -445,7 +445,7 @@ ul {
       .previewcontainer .title {
         font-size: 1.5em;
         text-align: left; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .previewcontainer .title {
         font-size: 1.5em;
         text-align: left; } }
@@ -461,7 +461,7 @@ ul {
     .previewgroup {
       padding: 0;
       width: 96%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .previewgroup {
       padding: 0;
       width: 70%;
@@ -489,7 +489,7 @@ ul {
       order: 2;
       width: 40%;
       margin: 0 auto; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .previewcontentdiv {
       order: 2;
       width: 30%;
@@ -514,7 +514,7 @@ ul {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .prevphonediv {
       width: 23%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .prevphonediv {
       width: 30%; } }
 
@@ -530,7 +530,7 @@ ul {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .followphone {
       width: 45%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .followphone {
       width: 55%; } }
 
@@ -561,7 +561,7 @@ ul {
     .previewcontent {
       width: 60%;
       margin: 0 auto; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .previewcontent {
       width: 90%;
       margin: 0 auto; } }
@@ -569,7 +569,7 @@ ul {
 #backcontainer {
   background-color: black;
   padding: 8em 0; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #backcontainer #backgroundbox {
       width: 70%;
       margin: 0 auto;
@@ -592,13 +592,13 @@ ul {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #backcontainer .contentdiv {
         width: 45%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #backcontainer .contentdiv {
         width: 65%; } }
 
 #earlyexplorationcontainer {
   padding: 8em 0; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #earlyexplorationcontainer {
       width: 70%;
       margin: 0 auto; } }
@@ -618,7 +618,7 @@ ul {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #earlyexplorationcontainer .contentdiv {
         width: 45%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #earlyexplorationcontainer .contentdiv {
         width: 55%;
         padding: 6em 0; } }
@@ -631,7 +631,7 @@ ul {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #earlyexplorationcontainer .initialsketchesdiv {
         width: 55%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #earlyexplorationcontainer .initialsketchesdiv {
         width: 65%; } }
     #earlyexplorationcontainer .initialsketchesdiv img {
@@ -643,7 +643,7 @@ ul {
 
 #researchbox {
   padding: 4em 0; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #researchbox {
       width: 70%;
       margin: 0 auto; } }
@@ -663,7 +663,7 @@ ul {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #researchbox .contentdiv {
         width: 45%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #researchbox .contentdiv {
         width: 55%; } }
   #researchbox .subheader {
@@ -678,7 +678,7 @@ ul {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #researchbox .subheader {
         width: 65%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #researchbox .subheader {
         width: 75%; } }
   #researchbox .personadiv {
@@ -710,7 +710,7 @@ ul {
         justify-content: space-between;
         padding: 4em 0;
         width: 70%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #researchbox #percentagediv {
         display: flex;
         flex-wrap: wrap;
@@ -742,7 +742,7 @@ ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #researchbox #quotediv {
         display: flex;
         flex-wrap: wrap;
@@ -760,7 +760,7 @@ ul {
       @media (min-width: 1440px) and (max-width: 1819px) {
         #researchbox #quotediv .quote {
           width: 30%; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         #researchbox #quotediv .quote {
           width: 30%;
           font-size: 2em; } }
@@ -786,7 +786,7 @@ ul {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .pencilbgdiv {
       height: 700px; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .pencilbgdiv {
       height: 700px; } }
   .pencilbgdiv .wireframescontentdiv {
@@ -807,7 +807,7 @@ ul {
       @media (min-width: 1440px) and (max-width: 1819px) {
         .pencilbgdiv .wireframescontentdiv .contentdiv {
           width: 45%; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         .pencilbgdiv .wireframescontentdiv .contentdiv {
           width: 45%; } }
 
@@ -816,14 +816,14 @@ ul {
 
 #wireframesbox {
   padding: 4em 0 8em; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #wireframesbox {
       width: 70%;
       margin: 0 auto; } }
   #wireframesbox #newsketchgroup {
     width: 100%;
     padding-bottom: 4em; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #wireframesbox #wireframegroupsmall {
       padding: 8em 0; } }
   #wireframesbox #wireframegroupsmall .wfdiv {
@@ -846,7 +846,7 @@ ul {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #wireframesbox .contentdiv {
         width: 45%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #wireframesbox .contentdiv {
         width: 55%; } }
   #wireframesbox #wireframegroupbig .wfgp {
@@ -868,7 +868,7 @@ ul {
         #wireframesbox #wireframegroupbig .wfgp .wfdiv {
           width: 20%;
           padding: 2em; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         #wireframesbox #wireframegroupbig .wfgp .wfdiv {
           width: 20%;
           padding: 2em; } }
@@ -883,7 +883,7 @@ ul {
       @media (min-width: 1440px) and (max-width: 1819px) {
         #wireframesbox #wireframegroupbig .wfgp .wffive {
           display: block; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         #wireframesbox #wireframegroupbig .wfgp .wffive {
           display: block; } }
 
@@ -892,7 +892,7 @@ ul {
 
 #visualbox {
   padding: 4em 0; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #visualbox {
       width: 70%;
       margin: 0 auto; } }
@@ -912,7 +912,7 @@ ul {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #visualbox .contentdiv {
         width: 45%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #visualbox .contentdiv {
         width: 55%; } }
   #visualbox #colorsdiv {
@@ -932,7 +932,7 @@ ul {
       #visualbox #colorsdiv {
         width: 608px;
         margin: 0 auto; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #visualbox #colorsdiv {
         width: 608px;
         margin: 0 auto; } }
@@ -955,7 +955,7 @@ ul {
       #visualbox .typobuttondiv {
         width: 608px;
         margin: 0 auto; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #visualbox .typobuttondiv {
         width: 608px;
         margin: 0 auto; } }
@@ -963,7 +963,7 @@ ul {
 .deschcontainer {
   background-color: #183161; }
 
-@media (min-width: 1820px) {
+@media (min-width: 1820px) and (max-width: 2559px) {
   .bluesection {
     width: 80%;
     margin: 0 auto; } }
@@ -973,7 +973,7 @@ ul {
 @media (min-width: 1440px) and (max-width: 1819px) {
   .bluesection .deschdiv {
     padding: 4em 0; } }
-@media (min-width: 1820px) {
+@media (min-width: 1820px) and (max-width: 2559px) {
   .bluesection .deschdiv {
     padding: 4em 0; } }
 .bluesection .deschdiv .hfgp2 {
@@ -991,7 +991,7 @@ ul {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .bluesection .deschdiv .hfgp2 {
       width: 45%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .bluesection .deschdiv .hfgp2 {
       width: 38%; } }
 .bluesection .deschdivtop {
@@ -1020,7 +1020,7 @@ ul {
     @media (min-width: 1440px) and (max-width: 1819px) {
       .hificontainer .contentdiv {
         width: 45%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .hificontainer .contentdiv {
         width: 40%; } }
   .hificontainer #hifimockgroupbox {
@@ -1085,7 +1085,7 @@ ul {
   #benefitscontainer #benefitsbox {
     display: flex;
     flex-wrap: wrap; } }
-@media (min-width: 1820px) {
+@media (min-width: 1820px) and (max-width: 2559px) {
   #benefitscontainer #benefitsbox {
     display: flex;
     flex-wrap: wrap; } }
@@ -1099,7 +1099,7 @@ ul {
   @media (min-width: 1440px) and (max-width: 1819px) {
     #benefitscontainer .colorcontentdiv {
       width: 50%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #benefitscontainer .colorcontentdiv {
       width: 50%;
       padding: 8em 0; } }
@@ -1119,7 +1119,7 @@ ul {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #benefitscontainer .colorcontentdiv .contentdiv {
         width: 75%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #benefitscontainer .colorcontentdiv .contentdiv {
         width: 75%; } }
 #benefitscontainer #benefitsimagediv {
@@ -1134,7 +1134,7 @@ ul {
     #benefitscontainer #benefitsimagediv {
       width: 50%;
       position: relative; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #benefitscontainer #benefitsimagediv {
       width: 50%;
       position: relative; } }
@@ -1152,7 +1152,7 @@ ul {
       position: absolute;
       top: 50%;
       transform: translateY(-30%); } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #benefitscontainer #benefitsimagediv .nakedscreendiv {
       position: absolute;
       top: 50%;
@@ -1161,7 +1161,7 @@ ul {
 
 #reflectioncontainer {
   padding: 4em 0 8em; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #reflectioncontainer {
       margin: 0 auto;
       width: 90%; } }
@@ -1181,7 +1181,7 @@ ul {
       #reflectioncontainer #blackphonebox {
         margin: 0 auto;
         width: 50%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #reflectioncontainer #blackphonebox {
         margin: 0 auto;
         width: 30%; } }
@@ -1208,7 +1208,7 @@ ul {
           margin: 0 auto;
           width: 50%;
           padding-top: 2em; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         #reflectioncontainer #blackphonebox #blackphonediv {
           margin: 0 auto;
           width: 70%;
@@ -1232,7 +1232,7 @@ ul {
       #reflectioncontainer .refcontentdiv {
         margin: 0 auto;
         width: 35%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #reflectioncontainer .refcontentdiv {
         margin: 0 auto;
         width: 40%; } }
@@ -1247,7 +1247,7 @@ ul {
       #reflectioncontainer .refcontent {
         margin: 0 auto;
         width: 75%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #reflectioncontainer .refcontent {
         margin: 0 auto;
         width: 75%; } }
@@ -1267,7 +1267,7 @@ ul {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #beyondcontainer .beyondcontentdiv {
         width: 50%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #beyondcontainer .beyondcontentdiv {
         width: 50%; } }
     #beyondcontainer .beyondcontentdiv .contentdiv {
@@ -1287,7 +1287,7 @@ ul {
       @media (min-width: 1440px) and (max-width: 1819px) {
         #beyondcontainer .beyondcontentdiv .contentdiv {
           width: 90%; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         #beyondcontainer .beyondcontentdiv .contentdiv {
           width: 75%; } }
   #beyondcontainer #benefitsimagediv {
@@ -1300,7 +1300,7 @@ ul {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #beyondcontainer #benefitsimagediv {
         width: 50%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #beyondcontainer #benefitsimagediv {
         width: 50%; } }
     #beyondcontainer #benefitsimagediv .nakedscreendiv {
@@ -1321,7 +1321,7 @@ ul {
         #beyondcontainer #benefitsimagediv .nakedscreendiv {
           padding: 6em 0;
           width: 50%; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         #beyondcontainer #benefitsimagediv .nakedscreendiv {
           padding: 6em 0;
           width: 30%; } }
@@ -1345,8 +1345,12 @@ html {
   padding: 0;
   font-family: "Roboto", sans-serif; }
 
+#headercontainer {
+  width: 100%;
+  margin: 0 auto 2em; }
+
 #header {
-  max-width: 1152px;
+  max-width: 1536px;
   margin: 0 auto;
   padding-top: 2em;
   width: 100%; }
@@ -1368,7 +1372,13 @@ html {
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
+  @media (min-width: 2560px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -1383,20 +1393,6 @@ html {
     #header #headerflex .name p {
       font-family: georgia;
       font-size: 1.5em; }
-  #header #headerflex .innerpagename {
-    padding-left: 1em; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      #header #headerflex .innerpagename {
-        padding-left: 2em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      #header #headerflex .innerpagename {
-        padding-left: 0; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      #header #headerflex .innerpagename {
-        padding-left: 0; } }
-    @media (min-width: 1820px) {
-      #header #headerflex .innerpagename {
-        padding-left: 0; } }
   #header #headerflex .name:hover {
     transition: 0.3s all ease-in-out;
     color: #F04B33;
@@ -1420,7 +1416,13 @@ html {
         justify-content: space-between;
         padding-top: 0.7em;
         display: flex; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em;
+        display: flex; } }
+    @media (min-width: 2560px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -1439,7 +1441,10 @@ html {
       @media (min-width: 1440px) and (max-width: 1819px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
+        #header #headerflex #navflex .navitem {
+          text-align: right; } }
+      @media (min-width: 2560px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       #header #headerflex #navflex .navitem p {
@@ -1470,7 +1475,10 @@ html {
   @media (min-width: 1440px) and (max-width: 1819px) {
     #menuicon {
       display: none; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    #menuicon {
+      display: none; } }
+  @media (min-width: 2560px) {
     #menuicon {
       display: none; } }
 
@@ -1568,7 +1576,10 @@ html {
       @media (min-width: 1440px) and (max-width: 1819px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
+        #footer #contactflex .contcontent {
+          width: 25%; } }
+      @media (min-width: 2560px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
       #footer #contactflex .contcontent a {
@@ -1702,7 +1713,10 @@ html {
     @media (min-width: 1440px) and (max-width: 1819px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 2560px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
 
@@ -1729,7 +1743,10 @@ html {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .getintouch {
       font-size: 2em; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    .getintouch {
+      font-size: 2em; } }
+  @media (min-width: 2560px) {
     .getintouch {
       font-size: 2em; } }
 

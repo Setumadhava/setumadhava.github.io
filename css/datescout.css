@@ -4,7 +4,7 @@
     text-align: center;
     font-size: 2em;
     color: #FF0068; }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .titlebar .sectionheader {
         font-size: 3em; } }
 
@@ -19,7 +19,7 @@
 
 .container {
   padding: 4em 0; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .container {
       max-width: 70%;
       margin: 0 auto; } }
@@ -51,7 +51,7 @@
   @media (min-width: 1440px) and (max-width: 1819px) {
     #ptitle {
       height: 600px; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #ptitle {
       height: 800px; } }
   #ptitle .logodiv {
@@ -74,7 +74,7 @@
         width: 30%;
         margin: 0 auto;
         padding-top: 15em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #ptitle .logodiv {
         padding-top: 20em;
         width: 25%;
@@ -93,7 +93,7 @@
 
 .introcontainer {
   padding: 4em 0; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .introcontainer {
       width: 70%;
       margin: 0 auto; } }
@@ -120,7 +120,7 @@
       .introcontainer #intropicdiv {
         width: 35%;
         margin: 0 auto; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .introcontainer #intropicdiv {
         width: 40%;
         margin: 0 auto; } }
@@ -151,7 +151,7 @@
         margin: 0 auto; }
         .introcontainer .contentbox p {
           font-size: 1.2em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .introcontainer .contentbox {
         width: 35%;
         margin: 0 auto;
@@ -192,7 +192,7 @@
       width: 100%;
       justify-content: space-around;
       margin: 0 auto; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
@@ -224,7 +224,7 @@
   @media (min-width: 1440px) and (max-width: 1819px) {
     .roletitle {
       width: 80%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .roletitle {
       width: 80%; } }
 
@@ -247,7 +247,7 @@
       font-size: 1.1em;
       width: 100%;
       margin: 1em auto; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .rolebody {
       font-size: 1.1em;
       width: 100%;
@@ -275,7 +275,7 @@
       .imagegrpcontainer .screengrpscrollmob .groupimagebox {
         width: 70%;
         margin: 0 auto; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .imagegrpcontainer .screengrpscrollmob {
       width: 50%; }
       .imagegrpcontainer .screengrpscrollmob .groupimagebox {
@@ -284,7 +284,7 @@
 
 .patternscontainer {
   padding: 4em 0; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .patternscontainer {
       width: 70%;
       margin: 0 auto; } }
@@ -313,7 +313,7 @@
         margin: 0 auto; }
         .patternscontainer .contentbox p {
           font-size: 1.2em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .patternscontainer .contentbox {
         width: 35%;
         margin: 0 auto;
@@ -328,7 +328,7 @@
   @media (min-width: 1440px) and (max-width: 1819px) {
     .patternscontainer .designpatternimagecontainer {
       padding: 4em 0; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .patternscontainer .designpatternimagecontainer {
       padding: 6em 0; } }
   .patternscontainer .designpatternimagecontainer .patternflex {
@@ -358,7 +358,7 @@
             width: 70%;
             margin: 0 auto;
             padding: 4em 0; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox {
           width: 50%; }
           .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox .patternimg {
@@ -393,7 +393,7 @@
         margin: 0 auto; }
         .sitemapcontainer .contentbox p {
           font-size: 1.2em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .sitemapcontainer .contentbox {
         width: 35%;
         margin: 0 auto;
@@ -415,12 +415,12 @@
     @media (min-width: 1440px) and (max-width: 1819px) {
       .sitemapcontainer .sitemapdiv {
         width: 35%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .sitemapcontainer .sitemapdiv {
         width: 30%;
         padding: 4em 0; } }
 
-@media (min-width: 1820px) {
+@media (min-width: 1820px) and (max-width: 2559px) {
   .slantimagecontainer {
     width: 70%;
     margin: 0 auto; } }
@@ -437,14 +437,14 @@
   @media (min-width: 1440px) and (max-width: 1819px) {
     .secondimagegroup {
       padding: 8em 0; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .secondimagegroup {
       padding: 8em 0;
       width: 90%; } }
 
 .personacontainer {
   padding: 4em 0; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .personacontainer {
       width: 70%;
       margin: 0 auto; } }
@@ -473,7 +473,7 @@
         margin: 0 auto; }
         .personacontainer .contentbox p {
           font-size: 1.2em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .personacontainer .contentbox {
         width: 35%;
         margin: 0 auto;
@@ -493,7 +493,7 @@
         width: 70%;
         margin: 0 auto;
         padding: 4em 0; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .personacontainer .personadiv {
         width: 70%;
         margin: 0 auto;
@@ -501,7 +501,7 @@
 
 .evolutioncontainer {
   padding: 4em 0; }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .evolutioncontainer {
       width: 70%;
       margin: 0 auto; } }
@@ -538,7 +538,7 @@
             top: 50%;
             left: 50%;
             transform: translateX(-50%); } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         .evolutioncontainer .evolutionflex .evolutionimgdiv {
           width: 50%;
           margin: 0 auto; }
@@ -573,7 +573,7 @@
           margin: 0 auto; }
           .evolutioncontainer .evolutionflex .contentbox p {
             font-size: 1.2em; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         .evolutioncontainer .evolutionflex .contentbox {
           width: 35%;
           margin: 0 auto;
@@ -597,7 +597,7 @@
         width: 40%;
         margin: 0 auto;
         padding: 8em 0; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .evolutioncontainer #oldideadiv {
         width: 50%;
         margin: 0 auto;
@@ -614,8 +614,12 @@ html {
   padding: 0;
   font-family: "Roboto", sans-serif; }
 
+#headercontainer {
+  width: 100%;
+  margin: 0 auto 2em; }
+
 #header {
-  max-width: 1152px;
+  max-width: 1536px;
   margin: 0 auto;
   padding-top: 2em;
   width: 100%; }
@@ -637,7 +641,13 @@ html {
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
+  @media (min-width: 2560px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -652,20 +662,6 @@ html {
     #header #headerflex .name p {
       font-family: georgia;
       font-size: 1.5em; }
-  #header #headerflex .innerpagename {
-    padding-left: 1em; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      #header #headerflex .innerpagename {
-        padding-left: 2em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      #header #headerflex .innerpagename {
-        padding-left: 0; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      #header #headerflex .innerpagename {
-        padding-left: 0; } }
-    @media (min-width: 1820px) {
-      #header #headerflex .innerpagename {
-        padding-left: 0; } }
   #header #headerflex .name:hover {
     transition: 0.3s all ease-in-out;
     color: #F04B33;
@@ -689,7 +685,13 @@ html {
         justify-content: space-between;
         padding-top: 0.7em;
         display: flex; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em;
+        display: flex; } }
+    @media (min-width: 2560px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -708,7 +710,10 @@ html {
       @media (min-width: 1440px) and (max-width: 1819px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
+        #header #headerflex #navflex .navitem {
+          text-align: right; } }
+      @media (min-width: 2560px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       #header #headerflex #navflex .navitem p {
@@ -739,7 +744,10 @@ html {
   @media (min-width: 1440px) and (max-width: 1819px) {
     #menuicon {
       display: none; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    #menuicon {
+      display: none; } }
+  @media (min-width: 2560px) {
     #menuicon {
       display: none; } }
 
@@ -837,7 +845,10 @@ html {
       @media (min-width: 1440px) and (max-width: 1819px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
+        #footer #contactflex .contcontent {
+          width: 25%; } }
+      @media (min-width: 2560px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
       #footer #contactflex .contcontent a {
@@ -971,7 +982,10 @@ html {
     @media (min-width: 1440px) and (max-width: 1819px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 2560px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
 
@@ -998,7 +1012,10 @@ html {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .getintouch {
       font-size: 2em; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    .getintouch {
+      font-size: 2em; } }
+  @media (min-width: 2560px) {
     .getintouch {
       font-size: 2em; } }
 

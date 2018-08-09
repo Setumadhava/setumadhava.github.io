@@ -16,7 +16,7 @@ body {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .wrapper {
       max-width: 1000px; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     .wrapper {
       max-width: 1000px; } }
 
@@ -41,7 +41,7 @@ body {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #intro #shortintro {
         width: 45%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #intro #shortintro {
         width: 42%; } }
     #intro #shortintro #redtext {
@@ -62,7 +62,7 @@ body {
         #intro #factflex .factbox {
           width: 33%;
           padding: 0; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         #intro #factflex .factbox {
           width: 33%;
           padding: 0; } }
@@ -114,7 +114,7 @@ body {
     @media (min-width: 1440px) and (max-width: 1819px) {
       .maincard .cardcontents {
         padding: 2em 4em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .maincard .cardcontents {
         padding: 2em 4em; } }
     .maincard .cardcontents .projectdate {
@@ -133,7 +133,7 @@ body {
           font-size: 1em;
           opacity: 0;
           transition: 0.4s all ease-in-out; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         .maincard .cardcontents .projectdate {
           font-size: 1em;
           opacity: 0;
@@ -151,7 +151,7 @@ body {
     @media (min-width: 1440px) and (max-width: 1819px) {
       .maincard #projecttitle {
         font-size: 3em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .maincard #projecttitle {
         font-size: 3em; } }
   .maincard #blackline {
@@ -170,7 +170,7 @@ body {
       .maincard #blackline {
         width: 70%;
         margin-bottom: 2em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .maincard #blackline {
         width: 60%;
         margin-bottom: 2em; } }
@@ -192,7 +192,7 @@ body {
       .maincard #projectcontent {
         width: 50%;
         padding: 2em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       .maincard #projectcontent {
         width: 50%;
         padding: 2em; } }
@@ -208,7 +208,7 @@ body {
       @media (min-width: 1440px) and (max-width: 1819px) {
         .maincard #projectcontent #primarycontent {
           font-size: 1.2em; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         .maincard #projectcontent #primarycontent {
           font-size: 1.2em; } }
     .maincard #projectcontent #secondarycontent {
@@ -223,7 +223,7 @@ body {
       @media (min-width: 1440px) and (max-width: 1819px) {
         .maincard #projectcontent #secondarycontent {
           font-size: 1em; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
         .maincard #projectcontent #secondarycontent {
           font-size: 1em; } }
 
@@ -257,7 +257,7 @@ body {
     @media (min-width: 1440px) and (max-width: 1819px) {
       #aboutsection #aboutme {
         width: 65%; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
       #aboutsection #aboutme {
         width: 55%; } }
 
@@ -279,7 +279,7 @@ body {
     #thdpic {
       padding: 2em 0;
       width: 35%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #thdpic {
       padding: 2em 0;
       width: 30%; } }
@@ -305,7 +305,7 @@ body {
     #piupic {
       padding: 2em 0;
       width: 20%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #piupic {
       padding: 2em 0;
       width: 20%; } }
@@ -331,7 +331,7 @@ body {
     #premerapic {
       padding: 2em 0;
       width: 45%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #premerapic {
       padding: 2em 0;
       width: 50%; } }
@@ -357,7 +357,7 @@ body {
     #uberpic {
       padding: 2em 0;
       width: 25%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #uberpic {
       padding: 2em 0;
       width: 25%; } }
@@ -383,7 +383,7 @@ body {
     #expediapic {
       padding: 2em 0;
       width: 30%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #expediapic {
       padding: 2em 0;
       width: 30%; } }
@@ -409,7 +409,7 @@ body {
     #actipic {
       padding: 2em 0;
       width: 30%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #actipic {
       padding: 2em 0;
       width: 30%; } }
@@ -435,7 +435,7 @@ body {
     #smarthomepic {
       padding: 2em 0;
       width: 50%; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
     #smarthomepic {
       padding: 2em 0;
       width: 50%; } }
@@ -454,8 +454,12 @@ html {
   padding: 0;
   font-family: "Roboto", sans-serif; }
 
+#headercontainer {
+  width: 100%;
+  margin: 0 auto 2em; }
+
 #header {
-  max-width: 1152px;
+  max-width: 1536px;
   margin: 0 auto;
   padding-top: 2em;
   width: 100%; }
@@ -477,7 +481,13 @@ html {
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
+  @media (min-width: 2560px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -492,20 +502,6 @@ html {
     #header #headerflex .name p {
       font-family: georgia;
       font-size: 1.5em; }
-  #header #headerflex .innerpagename {
-    padding-left: 1em; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      #header #headerflex .innerpagename {
-        padding-left: 2em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      #header #headerflex .innerpagename {
-        padding-left: 0; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      #header #headerflex .innerpagename {
-        padding-left: 0; } }
-    @media (min-width: 1820px) {
-      #header #headerflex .innerpagename {
-        padding-left: 0; } }
   #header #headerflex .name:hover {
     transition: 0.3s all ease-in-out;
     color: #F04B33;
@@ -529,7 +525,13 @@ html {
         justify-content: space-between;
         padding-top: 0.7em;
         display: flex; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em;
+        display: flex; } }
+    @media (min-width: 2560px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -548,7 +550,10 @@ html {
       @media (min-width: 1440px) and (max-width: 1819px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
+        #header #headerflex #navflex .navitem {
+          text-align: right; } }
+      @media (min-width: 2560px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       #header #headerflex #navflex .navitem p {
@@ -579,7 +584,10 @@ html {
   @media (min-width: 1440px) and (max-width: 1819px) {
     #menuicon {
       display: none; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    #menuicon {
+      display: none; } }
+  @media (min-width: 2560px) {
     #menuicon {
       display: none; } }
 
@@ -677,7 +685,10 @@ html {
       @media (min-width: 1440px) and (max-width: 1819px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
-      @media (min-width: 1820px) {
+      @media (min-width: 1820px) and (max-width: 2559px) {
+        #footer #contactflex .contcontent {
+          width: 25%; } }
+      @media (min-width: 2560px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
       #footer #contactflex .contcontent a {
@@ -811,7 +822,10 @@ html {
     @media (min-width: 1440px) and (max-width: 1819px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1820px) {
+    @media (min-width: 1820px) and (max-width: 2559px) {
+      .footernavcontainer .nextprojbig {
+        font-size: 2em; } }
+    @media (min-width: 2560px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
 
@@ -838,7 +852,10 @@ html {
   @media (min-width: 1440px) and (max-width: 1819px) {
     .getintouch {
       font-size: 2em; } }
-  @media (min-width: 1820px) {
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    .getintouch {
+      font-size: 2em; } }
+  @media (min-width: 2560px) {
     .getintouch {
       font-size: 2em; } }
 
