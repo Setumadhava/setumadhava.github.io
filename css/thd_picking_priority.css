@@ -9,10 +9,6 @@ p {
 body {
   background-color: #F3F3F3; }
 
-#headercontainer {
-  width: 100%;
-  margin: 0 auto 2em; }
-
 #supercontainer {
   width: 90%;
   margin: 0 auto; }
@@ -397,10 +393,10 @@ body {
         padding: 1em; } }
     @media (min-width: 1820px) and (max-width: 2559px) {
       .solutionimageflex .solution_img {
-        width: 70%; } }
+        width: 30%; } }
     @media (min-width: 2560px) {
       .solutionimageflex .solution_img {
-        width: 70%; } }
+        width: 30%; } }
 
 .centerimg {
   width: 100%;
