@@ -51,8 +51,12 @@ body {
         font-size: 1.2em;
         color: $halfgrey;
 
-        #redtext {
-            color: $setured;
+        a {
+            text-decoration: none;
+
+            span {
+                color: $setured;
+            }
         }
     }
 
@@ -293,6 +297,13 @@ body {
     }
 
     #aboutme {
+        a {
+            text-decoration: none;
+
+            span {
+                color: $setured;
+            }
+        }
         width: 90%;
         font-size: 1em;
         line-height: 1.8em;

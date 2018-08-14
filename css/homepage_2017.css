@@ -44,8 +44,10 @@ body {
     @media (min-width: 1820px) and (max-width: 2559px) {
       #intro #shortintro {
         width: 42%; } }
-    #intro #shortintro #redtext {
-      color: #F04B33; }
+    #intro #shortintro a {
+      text-decoration: none; }
+      #intro #shortintro a span {
+        color: #F04B33; }
   #intro #factflex {
     padding-top: 4em;
     display: flex;
@@ -248,6 +250,10 @@ body {
     line-height: 1.8em;
     padding-top: 2em;
     color: #414141; }
+    #aboutsection #aboutme a {
+      text-decoration: none; }
+      #aboutsection #aboutme a span {
+        color: #F04B33; }
     @media (min-width: 768px) and (max-width: 1023px) {
       #aboutsection #aboutme {
         width: 85%; } }

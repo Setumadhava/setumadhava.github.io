@@ -1,0 +1,577 @@
+* {
+    font-family: $roboto;
+    transition: 0.3s all ease-in-out;
+    color: $textdark;
+}
+
+p {
+    line-height: 1.8em;
+}
+@media #{$phablet} {}
+@media #{$tablet} {}
+@media #{$mac13} {}
+@media #{$mac15} {}
+@media #{$monitor} {}
+@media #{$fourk} {}
+
+body {
+    background-color: #F3F3F3;
+}
+
+#supercontainer {
+    width: 90%;
+    @media #{$tablet} {
+        width: 90%;
+    }
+    @media #{$mac13} {
+        width: 80%;
+    }
+    @media #{$mac15} {
+        width: 80%;
+    }
+    @media #{$monitor} {
+        width: 70%;
+    }
+    @media #{$fourk} {
+        width: 60%;
+    }
+    margin: 0 auto;
+}
+
+.sixembottom {
+    padding-bottom: 6em;
+}
+
+.fourembottom {
+    padding-bottom: 4em;
+}
+
+.fouremboth {
+    padding: 4em 0;
+}
+
+.sixemboth {
+    padding: 6em 0;
+}
+
+.subheader {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: $esaurgreen;
+}
+////////////////////////////////////////////////////////////////////
+
+#herosection {
+    // background-image: url("img/premera/herobg.png");
+    background-color: #D9CCE8;
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: auto;
+    position: relative;
+    height: 500px;
+    // @media #{$phablet} {
+    //     height: 700px;
+    // }
+    // @media #{$tablet} {
+    //     height: 800px;
+    // }
+    // @media #{$mac13} {
+    //     height: 450px;
+    // }
+    // @media #{$mac15} {
+    //     height: 600px;
+    // }
+    // @media #{$monitor} {
+    //     height: 800px;
+    // }
+    // @media #{$fourk} {
+    //     height: 800px;
+    // }
+    .heroflex {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        justify-content: space-between;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        margin: 0 auto;
+        @media #{$phablet} {
+            width: 90%;
+        }
+        @media #{$tablet} {
+            width: 90%;
+        }
+        @media #{$mac13} {
+            width: 90%;
+        }
+        @media #{$mac15} {
+            width: 90%;
+        }
+        @media #{$monitor} {
+            width: 85%;
+        }
+        @media #{$fourk} {
+            width: 80%;
+        }
+
+        #hero_text {
+            width: 100%;
+            padding: 1.5em;
+            margin-bottom: 3em;
+            @media #{$phablet} {
+                width: 90%;
+            }
+            @media #{$tablet} {
+                width: 90%;
+                padding-left: 8em;
+                margin-bottom: 3em;
+            }
+            @media #{$mac13} {
+                width: 55%;
+                // position: absolute;
+                // bottom: 0;
+            }
+            @media #{$mac15} {
+                width: 45%;
+                position: absolute;
+                bottom: 0;
+            }
+            @media #{$monitor} {
+                width: 45%;
+                position: absolute;
+                bottom: 0;
+            }
+            @media #{$fourk} {
+                width: 45%;
+                position: absolute;
+                bottom: 0;
+            }
+
+            #title {
+                font-family: georgia;
+                font-size: 2.5em;
+                color: #282828;
+                @media #{$mac15} {
+                    font-size: 3em;
+                }
+                @media #{$monitor} {
+                    font-size: 3em;
+                }
+                @media #{$fourk} {
+                    font-size: 3em;
+                }
+            }
+
+            #herotextline {
+                width: 90%;
+                height: 3px;
+                background-color: #282828;
+                margin-bottom: 2em;
+                @media #{$tablet} {
+                    width: 70%;
+                }
+                @media #{$mac13} {
+                    width: 95%;
+                }
+                @media #{$mac15} {
+                    width: 100%;
+                }
+                @media #{$monitor} {
+                    width: 100%;
+                }
+                @media #{$fourk} {
+                    width: 85%;
+                }
+            }
+
+            #hero_desc {
+                font-family: $roboto;
+                margin-top: 1em;
+                color: #5B5B5B;
+                line-height: 1.8em;
+            }
+        }
+    }
+}
+
+.centerimg {
+    width: 100%;
+    margin-bottom: 6em;
+
+    .caption {
+        text-align: center;
+        margin: 2em 0;
+        color: $grey4;
+    }
+
+    .appdesc {
+        width: 100%;
+        margin: 0 auto;
+        @media #{$tablet} {
+            width: 70%;
+        }
+        @media #{$mac13} {
+            width: 70%;
+        }
+        @media #{$mac15} {
+            width: 70%;
+        }
+        @media #{$monitor} {
+            width: 60%;
+        }
+        @media #{$fourk} {
+            width: 60%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .firstdesign {
+        width: 100%;
+        @media #{$tablet} {
+            width: 80%;
+        }
+        @media #{$mac13} {
+            width: 80%;
+        }
+        @media #{$mac15} {
+            width: 80%;
+        }
+        @media #{$monitor} {
+            width: 60%;
+        }
+        @media #{$fourk} {
+            width: 60%;
+        }
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .myuxskills {
+        width: 100%;
+        @media #{$tablet} {
+            width: 70%;
+        }
+        @media #{$mac13} {
+            width: 60%;
+        }
+        @media #{$mac15} {
+            width: 60%;
+        }
+        @media #{$monitor} {
+            width: 55%;
+        }
+        @media #{$fourk} {
+            width: 55%;
+        }
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .vendorsaas {
+        width: 100%;
+        @media #{$tablet} {
+            width: 70%;
+        }
+        @media #{$mac13} {
+            width: 80%;
+        }
+        @media #{$mac15} {
+            width: 80%;
+        }
+        @media #{$monitor} {
+            width: 80%;
+        }
+        @media #{$fourk} {
+            width: 65%;
+        }
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .actilist {
+        width: 100%;
+        @media #{$tablet} {
+            width: 70%;
+        }
+        @media #{$mac13} {
+            width: 40%;
+        }
+        @media #{$mac15} {
+            width: 35%;
+        }
+        @media #{$monitor} {
+            width: 30%;
+        }
+        @media #{$fourk} {
+            width: 25%;
+        }
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.contentsection {
+    width: 100%;
+    padding: 4em 0;
+    @media #{$tablet} {
+        width: 70%;
+    }
+    @media #{$mac13} {
+        width: 70%;
+        padding: 8em 0;
+    }
+    @media #{$mac15} {
+        width: 70%;
+        padding: 8em 0;
+    }
+    @media #{$monitor} {
+        width: 70%;
+        padding: 8em 0;
+    }
+    @media #{$fourk} {
+        width: 70%;
+        padding: 8em 0;
+    }
+
+    .sectiontitle {
+        margin-bottom: 2em;
+
+        p {
+            font-family: georgia;
+            font-size: 2em;
+        }
+    }
+
+    .sectioncontent {
+        p {
+            font-size: 1em;
+            line-height: 1.9em;
+            @media #{$mac13} {
+                font-size: 1.2em;
+            }
+            @media #{$mac15} {
+                font-size: 1.2em;
+            }
+            @media #{$monitor} {
+                font-size: 1.2em;
+            }
+            @media #{$fourk} {
+                font-size: 1.2em;
+            }
+        }
+
+        #quote {
+            font-style: italic;
+            font-family: georgia;
+            font-size: 1.8em;
+            line-height: 2em;
+            color: $setured;
+            margin-top: 3em;
+        }
+    }
+
+    #process_img {
+        margin: 8em auto;
+        width: 100%;
+        @media #{$tablet} {
+            width: 140%;
+        }
+        @media #{$mac13} {
+            width: 150%;
+        }
+        @media #{$mac15} {
+            width: 150%;
+        }
+        @media #{$monitor} {
+            width: 150%;
+        }
+        @media #{$fourk} {
+            width: 150%;
+        }
+    }
+}
+
+.subcontentsection {
+    width: 100%;
+    padding: 2em 0;
+    @media #{$tablet} {
+        width: 70%;
+    }
+    @media #{$mac13} {
+        width: 70%;
+        padding: 2em 0;
+    }
+    @media #{$mac15} {
+        width: 70%;
+        padding: 2em 0;
+    }
+    @media #{$monitor} {
+        width: 70%;
+        padding: 2em 0;
+    }
+    @media #{$fourk} {
+        width: 70%;
+        padding: 2em 0;
+    }
+
+    .sectiontitle {
+        margin-bottom: 2em;
+
+        p {
+            font-family: georgia;
+            font-size: 2em;
+        }
+    }
+
+    .sectioncontent {
+        p {
+            font-size: 1em;
+            line-height: 1.9em;
+            @media #{$mac13} {
+                font-size: 1.2em;
+            }
+            @media #{$mac15} {
+                font-size: 1.2em;
+            }
+            @media #{$monitor} {
+                font-size: 1.2em;
+            }
+            @media #{$fourk} {
+                font-size: 1.2em;
+            }
+        }
+
+        #quote {
+            font-style: italic;
+            font-family: georgia;
+            font-size: 1.8em;
+            line-height: 2em;
+            color: $setured;
+            margin-top: 3em;
+        }
+    }
+
+    #process_img {
+        margin: 8em auto;
+        width: 100%;
+        @media #{$tablet} {
+            width: 140%;
+        }
+        @media #{$mac13} {
+            width: 150%;
+        }
+        @media #{$mac15} {
+            width: 150%;
+        }
+        @media #{$monitor} {
+            width: 150%;
+        }
+        @media #{$fourk} {
+            width: 150%;
+        }
+    }
+}
+
+.sectionseparator {
+    width: 100%;
+    height: 1px;
+    background-color: $grey2;
+}
+
+.contentsectionflex {
+    padding: 8em 0;
+
+    .sectiontitle {
+        margin-bottom: 2em;
+
+        p {
+            font-family: georgia;
+            font-size: 2em;
+        }
+    }
+
+    .sectionflex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        #mobilespace {
+            padding-top: 4em;
+        }
+
+        .flexsectioncontent {
+            width: 100%;
+            font-size: 1em;
+            line-height: 1.9em;
+            @media #{$tablet} {
+                width: 70%;
+            }
+            @media #{$mac13} {
+                font-size: 1.2em;
+                width: 70%;
+            }
+            @media #{$mac15} {
+                font-size: 1.2em;
+                width: 70%;
+            }
+            @media #{$monitor} {
+                font-size: 1.2em;
+                width: 70%;
+            }
+            @media #{$fourk} {
+                font-size: 1.2em;
+                width: 70%;
+            }
+        }
+    }
+}
+
+.solutionimageflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .solution_img {
+        width: 100%;
+        padding: 2em 0;
+        @media #{$tablet} {
+            width: 70%;
+            margin: 0 auto;
+        }
+        @media #{$mac13} {
+            width: 70%;
+            margin: 0 auto;
+        }
+        @media #{$mac15} {
+            width: 33%;
+            padding: 1em;
+        }
+        @media #{$monitor} {
+            width: 30%;
+        }
+        @media #{$fourk} {
+            width: 30%;
+        }
+    }
+}
