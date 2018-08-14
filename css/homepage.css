@@ -78,6 +78,9 @@ body {
         padding-top: 0.8em; }
     #intro #factflex .lastfactbox {
       padding-bottom: 0; }
+  #intro #arrow {
+    margin: 3em auto;
+    width: 40px; }
 
 .breakline {
   height: 1px;
