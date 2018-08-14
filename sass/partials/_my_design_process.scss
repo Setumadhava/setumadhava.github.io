@@ -208,6 +208,7 @@ body {
         text-align: center;
         margin: 2em 0;
         color: $grey4;
+        font-size: 1em;
     }
 
     .appdesc {
@@ -285,19 +286,19 @@ body {
     .vendorsaas {
         width: 100%;
         @media #{$tablet} {
-            width: 70%;
+            width: 100%;
         }
         @media #{$mac13} {
-            width: 80%;
+            width: 90%;
         }
         @media #{$mac15} {
-            width: 80%;
+            width: 100%;
         }
         @media #{$monitor} {
             width: 80%;
         }
         @media #{$fourk} {
-            width: 65%;
+            width: 75%;
         }
         margin: 0 auto;
 
@@ -312,16 +313,16 @@ body {
             width: 70%;
         }
         @media #{$mac13} {
-            width: 40%;
+            width: 70%;
         }
         @media #{$mac15} {
-            width: 35%;
+            width: 90%;
         }
         @media #{$monitor} {
-            width: 30%;
+            width: 70%;
         }
         @media #{$fourk} {
-            width: 25%;
+            width: 65%;
         }
         margin: 0 auto;
 
@@ -374,10 +375,10 @@ body {
                 font-size: 1.2em;
             }
             @media #{$monitor} {
-                font-size: 1.2em;
+                font-size: 1.5em;
             }
             @media #{$fourk} {
-                font-size: 1.2em;
+                font-size: 1.8em;
             }
         }
 
@@ -388,6 +389,12 @@ body {
             line-height: 2em;
             color: $setured;
             margin-top: 3em;
+            @media #{$monitor} {
+                font-size: 2.5em;
+            }
+            @media #{$fourk} {
+                font-size: 2.5em;
+            }
         }
     }
 
@@ -455,10 +462,10 @@ body {
                 font-size: 1.2em;
             }
             @media #{$monitor} {
-                font-size: 1.2em;
+                font-size: 1.5em;
             }
             @media #{$fourk} {
-                font-size: 1.2em;
+                font-size: 1.8em;
             }
         }
 
@@ -469,6 +476,12 @@ body {
             line-height: 2em;
             color: $setured;
             margin-top: 3em;
+            @media #{$monitor} {
+                font-size: 2.5em;
+            }
+            @media #{$fourk} {
+                font-size: 2.5em;
+            }
         }
     }
 
