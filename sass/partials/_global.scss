@@ -24,15 +24,9 @@ html {
     @media #{$tablet} {
         width: 100%;
     }
-    @media #{$mac13} {
-        max-width: 1000px;
-    }
-    @media #{$mac15} {
-        max-width: 1000px;
-    }
-    @media #{$monitor} {
-        max-width: 1000px;
-    }
+    @media #{$mac13} {}
+    @media #{$mac15} {}
+    @media #{$monitor} {}
     @media #{$fourk} {
         max-width: 1550px;
     }
