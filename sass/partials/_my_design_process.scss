@@ -395,9 +395,6 @@ body {
             line-height: 2em;
             color: $setured;
             margin-top: 3em;
-            @media #{$monitor} {
-                font-size: 2.5em;
-            }
             @media #{$fourk} {
                 font-size: 2.5em;
             }
