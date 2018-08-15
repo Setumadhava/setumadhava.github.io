@@ -21,16 +21,21 @@ body {
     @media #{$monitor} {
         max-width: 1000px;
     }
+    @media #{$fourk} {
+        max-width: 1550px;
+    }
 }
 
 #intro {
-    max-width: 1000px;
     margin: 0 auto;
     padding: 8em 0 2em;
 
     #hello {
         font-family: georgia;
         font-size: 3em;
+        @media #{$fourk} {
+            font-size: 3.4em;
+        }
     }
 
     #shortintro {
@@ -46,6 +51,10 @@ body {
         }
         @media #{$monitor} {
             width: 42%;
+        }
+        @media #{$fourk} {
+            width: 42%;
+            font-size: 1.4em;
         }
         padding-top: 2em;
         font-size: 1.2em;
@@ -81,10 +90,17 @@ body {
                 width: 33%;
                 padding: 0;
             }
+            @media #{$fourk} {
+                width: 33%;
+                padding: 0;
+            }
 
             #facttitle {
                 font-size: 0.9em;
                 color: $halfgrey;
+                @media #{$fourk} {
+                    font-size: 1.2em;
+                }
 
                 p {
                     margin: 0;
@@ -94,6 +110,9 @@ body {
 
             #fact {
                 padding-top: 0.8em;
+                @media #{$fourk} {
+                    font-size: 1.4em;
+                }
             }
         }
 
@@ -103,9 +122,32 @@ body {
     }
 
     #arrow {
-        margin: 3em auto;
+        position: relative;
+        top: 2.5em;
+        margin: 1.5em auto;
         width: 40px;
+        animation-name: blinker;
+        animation-duration: 1.75s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
     }
+}
+@keyframes blinker {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.arrowdowndiv:hover {
+    animation-play-state: paused;
 }
 
 .breakline {
@@ -114,6 +156,14 @@ body {
     margin-top: 8em;
     width: 100%;
     background-color: $grey2;
+}
+
+#projectstitle {
+    font-family: georgia;
+    font-size: 3em;
+    @media #{$fourk} {
+        font-size: 3.4em;
+    }
 }
 
 .breaklinetop {
@@ -154,6 +204,9 @@ body {
         @media #{$monitor} {
             padding: 2em 4em;
         }
+        @media #{$fourk} {
+            padding: 2em 4em;
+        }
 
         .projectdate {
             opacity: 1;
@@ -171,6 +224,11 @@ body {
             }
             @media #{$monitor} {
                 font-size: 1em;
+                opacity: 0;
+                transition: 0.4s all ease-in-out;
+            }
+            @media #{$fourk} {
+                font-size: 1.4em;
                 opacity: 0;
                 transition: 0.4s all ease-in-out;
             }
@@ -195,6 +253,9 @@ body {
         @media #{$monitor} {
             font-size: 3em;
         }
+        @media #{$fourk} {
+            font-size: 3em;
+        }
     }
 
     #blackline {
@@ -215,6 +276,10 @@ body {
         }
         @media #{$monitor} {
             width: 60%;
+            margin-bottom: 2em;
+        }
+        @media #{$fourk} {
+            width: 70%;
             margin-bottom: 2em;
         }
     }
@@ -243,6 +308,10 @@ body {
             width: 50%;
             padding: 2em;
         }
+        @media #{$fourk} {
+            width: 50%;
+            padding: 2em;
+        }
 
         #primarycontent {
             font-size: 1em;
@@ -258,6 +327,9 @@ body {
             }
             @media #{$monitor} {
                 font-size: 1.2em;
+            }
+            @media #{$fourk} {
+                font-size: 1.6em;
             }
         }
 
@@ -276,6 +348,9 @@ body {
             @media #{$monitor} {
                 font-size: 1em;
             }
+            @media #{$fourk} {
+                font-size: 1.4em;
+            }
         }
     }
 }
@@ -292,13 +367,15 @@ body {
 }
 
 #aboutsection {
-    max-width: 1000px;
     margin: 0 auto;
     padding: 8em 0 4em;
 
     #hello {
         font-family: georgia;
         font-size: 3em;
+        @media #{$fourk} {
+            font-size: 3.4em;
+        }
     }
 
     #aboutme {
@@ -323,6 +400,10 @@ body {
         }
         @media #{$monitor} {
             width: 55%;
+        }
+        @media #{$fourk} {
+            width: 65%;
+            font-size: 1.6em;
         }
         padding-top: 2em;
         color: $textdark;
@@ -350,6 +431,10 @@ body {
         width: 35%;
     }
     @media #{$monitor} {
+        padding: 2em 0;
+        width: 30%;
+    }
+    @media #{$fourk} {
         padding: 2em 0;
         width: 30%;
     }
@@ -383,6 +468,10 @@ body {
         padding: 2em 0;
         width: 20%;
     }
+    @media #{$fourk} {
+        padding: 2em 0;
+        width: 20%;
+    }
 
     img {
         width: 100%;
@@ -410,6 +499,10 @@ body {
         width: 45%;
     }
     @media #{$monitor} {
+        padding: 2em 0;
+        width: 50%;
+    }
+    @media #{$fourk} {
         padding: 2em 0;
         width: 50%;
     }
@@ -443,6 +536,10 @@ body {
         padding: 2em 0;
         width: 25%;
     }
+    @media #{$fourk} {
+        padding: 2em 0;
+        width: 25%;
+    }
 
     img {
         width: 100%;
@@ -470,6 +567,10 @@ body {
         width: 30%;
     }
     @media #{$monitor} {
+        padding: 2em 0;
+        width: 30%;
+    }
+    @media #{$fourk} {
         padding: 2em 0;
         width: 30%;
     }
@@ -503,6 +604,10 @@ body {
         padding: 2em 0;
         width: 30%;
     }
+    @media #{$fourk} {
+        padding: 2em 0;
+        width: 30%;
+    }
 
     img {
         width: 100%;
@@ -530,6 +635,10 @@ body {
         width: 50%;
     }
     @media #{$monitor} {
+        padding: 2em 0;
+        width: 50%;
+    }
+    @media #{$fourk} {
         padding: 2em 0;
         width: 50%;
     }

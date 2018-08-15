@@ -1033,10 +1033,27 @@ html {
   margin: 0 auto 2em; }
 
 #header {
-  max-width: 1536px;
   margin: 0 auto;
   padding-top: 2em;
   width: 100%; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #header {
+      width: 100%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #header {
+      width: 100%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #header {
+      max-width: 1000px; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #header {
+      max-width: 1000px; } }
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    #header {
+      max-width: 1000px; } }
+  @media (min-width: 2560px) {
+    #header {
+      max-width: 1550px; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     #header #headerflex {
       display: flex;
@@ -1076,6 +1093,9 @@ html {
     #header #headerflex .name p {
       font-family: georgia;
       font-size: 1.5em; }
+      @media (min-width: 2560px) {
+        #header #headerflex .name p {
+          font-size: 1.9em; } }
   #header #headerflex .name:hover {
     transition: 0.3s all ease-in-out;
     color: #F04B33;
@@ -1129,7 +1149,8 @@ html {
           text-align: right; } }
       @media (min-width: 2560px) {
         #header #headerflex #navflex .navitem {
-          text-align: right; } }
+          text-align: right;
+          font-size: 1.4em; } }
       #header #headerflex #navflex .navitem p {
         font-size: 0.9em;
         font-weight: 500; }
@@ -1228,7 +1249,6 @@ html {
         color: black; }
 
 #footer {
-  max-width: 1000px;
   margin: 0 auto;
   padding: 8em 0 4em; }
   #footer #hello {
@@ -1268,6 +1288,9 @@ html {
       #footer #contactflex .contcontent a {
         color: black;
         transition: 0.3s all ease-in-out; }
+        @media (min-width: 2560px) {
+          #footer #contactflex .contcontent a {
+            font-size: 1.6em; } }
       #footer #contactflex .contcontent .contline {
         height: 4px;
         width: 50px;
@@ -1277,6 +1300,9 @@ html {
         top: 10px;
         margin-right: 1.5em;
         transition: 0.3s all ease-in-out; }
+        @media (min-width: 2560px) {
+          #footer #contactflex .contcontent .contline {
+            top: 20px; } }
     #footer #contactflex .contcontent:hover {
       transition: 0.3s all ease-in-out;
       cursor: pointer; }
@@ -1475,7 +1501,6 @@ html {
 
 .copyrightdiv {
   width: 100%;
-  max-width: 1000px;
   border-radius: 3px 3px 0 0;
   margin: 0 auto 2em;
   background-color: #F5F5F5; }
@@ -1484,7 +1509,10 @@ html {
   padding: 0.8em 0;
   text-align: center;
   color: #7E7E7E;
-  font-size: 0.8em;
+  font-size: 1em;
   margin: 0 auto; }
+  @media (min-width: 2560px) {
+    .copyright {
+      font-size: 1.4em; } }
 
 /*# sourceMappingURL=pumpitup.css.map */

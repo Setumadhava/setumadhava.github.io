@@ -19,14 +19,19 @@ body {
   @media (min-width: 1820px) and (max-width: 2559px) {
     .wrapper {
       max-width: 1000px; } }
+  @media (min-width: 2560px) {
+    .wrapper {
+      max-width: 1550px; } }
 
 #intro {
-  max-width: 1000px;
   margin: 0 auto;
   padding: 8em 0 2em; }
   #intro #hello {
     font-family: georgia;
     font-size: 3em; }
+    @media (min-width: 2560px) {
+      #intro #hello {
+        font-size: 3.4em; } }
   #intro #shortintro {
     width: 90%;
     padding-top: 2em;
@@ -44,6 +49,10 @@ body {
     @media (min-width: 1820px) and (max-width: 2559px) {
       #intro #shortintro {
         width: 42%; } }
+    @media (min-width: 2560px) {
+      #intro #shortintro {
+        width: 42%;
+        font-size: 1.4em; } }
     #intro #shortintro a {
       text-decoration: none; }
       #intro #shortintro a span {
@@ -68,19 +77,45 @@ body {
         #intro #factflex .factbox {
           width: 33%;
           padding: 0; } }
+      @media (min-width: 2560px) {
+        #intro #factflex .factbox {
+          width: 33%;
+          padding: 0; } }
       #intro #factflex .factbox #facttitle {
         font-size: 0.9em;
         color: #7f7f7f; }
+        @media (min-width: 2560px) {
+          #intro #factflex .factbox #facttitle {
+            font-size: 1.2em; } }
         #intro #factflex .factbox #facttitle p {
           margin: 0;
           padding: 0; }
       #intro #factflex .factbox #fact {
         padding-top: 0.8em; }
+        @media (min-width: 2560px) {
+          #intro #factflex .factbox #fact {
+            font-size: 1.4em; } }
     #intro #factflex .lastfactbox {
       padding-bottom: 0; }
   #intro #arrow {
-    margin: 3em auto;
-    width: 40px; }
+    position: relative;
+    top: 2.5em;
+    margin: 1.5em auto;
+    width: 40px;
+    animation-name: blinker;
+    animation-duration: 1.75s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; }
+
+@keyframes blinker {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-15px); }
+  100% {
+    transform: translateY(0px); } }
+.arrowdowndiv:hover {
+  animation-play-state: paused; }
 
 .breakline {
   height: 1px;
@@ -88,6 +123,13 @@ body {
   margin-top: 8em;
   width: 100%;
   background-color: #D5D5D5; }
+
+#projectstitle {
+  font-family: georgia;
+  font-size: 3em; }
+  @media (min-width: 2560px) {
+    #projectstitle {
+      font-size: 3.4em; } }
 
 .breaklinetop {
   margin: 4em 0; }
@@ -122,6 +164,9 @@ body {
     @media (min-width: 1820px) and (max-width: 2559px) {
       .maincard .cardcontents {
         padding: 2em 4em; } }
+    @media (min-width: 2560px) {
+      .maincard .cardcontents {
+        padding: 2em 4em; } }
     .maincard .cardcontents .projectdate {
       opacity: 1;
       transition: 0.4s all ease-in-out;
@@ -143,6 +188,11 @@ body {
           font-size: 1em;
           opacity: 0;
           transition: 0.4s all ease-in-out; } }
+      @media (min-width: 2560px) {
+        .maincard .cardcontents .projectdate {
+          font-size: 1.4em;
+          opacity: 0;
+          transition: 0.4s all ease-in-out; } }
   .maincard #projecttitle {
     font-family: georgia;
     font-size: 2em;
@@ -157,6 +207,9 @@ body {
       .maincard #projecttitle {
         font-size: 3em; } }
     @media (min-width: 1820px) and (max-width: 2559px) {
+      .maincard #projecttitle {
+        font-size: 3em; } }
+    @media (min-width: 2560px) {
       .maincard #projecttitle {
         font-size: 3em; } }
   .maincard #blackline {
@@ -178,6 +231,10 @@ body {
     @media (min-width: 1820px) and (max-width: 2559px) {
       .maincard #blackline {
         width: 60%;
+        margin-bottom: 2em; } }
+    @media (min-width: 2560px) {
+      .maincard #blackline {
+        width: 70%;
         margin-bottom: 2em; } }
   .maincard #projectflex {
     display: flex;
@@ -201,6 +258,10 @@ body {
       .maincard #projectcontent {
         width: 50%;
         padding: 2em; } }
+    @media (min-width: 2560px) {
+      .maincard #projectcontent {
+        width: 50%;
+        padding: 2em; } }
     .maincard #projectcontent #primarycontent {
       font-size: 1em;
       padding-bottom: 2em; }
@@ -216,6 +277,9 @@ body {
       @media (min-width: 1820px) and (max-width: 2559px) {
         .maincard #projectcontent #primarycontent {
           font-size: 1.2em; } }
+      @media (min-width: 2560px) {
+        .maincard #projectcontent #primarycontent {
+          font-size: 1.6em; } }
     .maincard #projectcontent #secondarycontent {
       font-size: 0.8em;
       color: #7E7E7E; }
@@ -231,6 +295,9 @@ body {
       @media (min-width: 1820px) and (max-width: 2559px) {
         .maincard #projectcontent #secondarycontent {
           font-size: 1em; } }
+      @media (min-width: 2560px) {
+        .maincard #projectcontent #secondarycontent {
+          font-size: 1.4em; } }
 
 .maincard:hover {
   box-shadow: 0 14px 96px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
@@ -241,12 +308,14 @@ body {
     opacity: 1; }
 
 #aboutsection {
-  max-width: 1000px;
   margin: 0 auto;
   padding: 8em 0 4em; }
   #aboutsection #hello {
     font-family: georgia;
     font-size: 3em; }
+    @media (min-width: 2560px) {
+      #aboutsection #hello {
+        font-size: 3.4em; } }
   #aboutsection #aboutme {
     width: 90%;
     font-size: 1em;
@@ -269,6 +338,10 @@ body {
     @media (min-width: 1820px) and (max-width: 2559px) {
       #aboutsection #aboutme {
         width: 55%; } }
+    @media (min-width: 2560px) {
+      #aboutsection #aboutme {
+        width: 65%;
+        font-size: 1.6em; } }
 
 #thdpic {
   width: 90%;
@@ -289,6 +362,10 @@ body {
       padding: 2em 0;
       width: 35%; } }
   @media (min-width: 1820px) and (max-width: 2559px) {
+    #thdpic {
+      padding: 2em 0;
+      width: 30%; } }
+  @media (min-width: 2560px) {
     #thdpic {
       padding: 2em 0;
       width: 30%; } }
@@ -318,6 +395,10 @@ body {
     #piupic {
       padding: 2em 0;
       width: 20%; } }
+  @media (min-width: 2560px) {
+    #piupic {
+      padding: 2em 0;
+      width: 20%; } }
   #piupic img {
     width: 100%;
     margin: 0 auto; }
@@ -341,6 +422,10 @@ body {
       padding: 2em 0;
       width: 45%; } }
   @media (min-width: 1820px) and (max-width: 2559px) {
+    #premerapic {
+      padding: 2em 0;
+      width: 50%; } }
+  @media (min-width: 2560px) {
     #premerapic {
       padding: 2em 0;
       width: 50%; } }
@@ -370,6 +455,10 @@ body {
     #uberpic {
       padding: 2em 0;
       width: 25%; } }
+  @media (min-width: 2560px) {
+    #uberpic {
+      padding: 2em 0;
+      width: 25%; } }
   #uberpic img {
     width: 100%;
     margin: 0 auto; }
@@ -393,6 +482,10 @@ body {
       padding: 2em 0;
       width: 30%; } }
   @media (min-width: 1820px) and (max-width: 2559px) {
+    #expediapic {
+      padding: 2em 0;
+      width: 30%; } }
+  @media (min-width: 2560px) {
     #expediapic {
       padding: 2em 0;
       width: 30%; } }
@@ -422,6 +515,10 @@ body {
     #actipic {
       padding: 2em 0;
       width: 30%; } }
+  @media (min-width: 2560px) {
+    #actipic {
+      padding: 2em 0;
+      width: 30%; } }
   #actipic img {
     width: 100%;
     margin: 0 auto; }
@@ -448,6 +545,10 @@ body {
     #smarthomepic {
       padding: 2em 0;
       width: 50%; } }
+  @media (min-width: 2560px) {
+    #smarthomepic {
+      padding: 2em 0;
+      width: 50%; } }
   #smarthomepic img {
     width: 100%;
     margin: 0 auto; }
@@ -468,10 +569,27 @@ html {
   margin: 0 auto 2em; }
 
 #header {
-  max-width: 1536px;
   margin: 0 auto;
   padding-top: 2em;
   width: 100%; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #header {
+      width: 100%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #header {
+      width: 100%; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #header {
+      max-width: 1000px; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #header {
+      max-width: 1000px; } }
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    #header {
+      max-width: 1000px; } }
+  @media (min-width: 2560px) {
+    #header {
+      max-width: 1550px; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     #header #headerflex {
       display: flex;
@@ -511,6 +629,9 @@ html {
     #header #headerflex .name p {
       font-family: georgia;
       font-size: 1.5em; }
+      @media (min-width: 2560px) {
+        #header #headerflex .name p {
+          font-size: 1.9em; } }
   #header #headerflex .name:hover {
     transition: 0.3s all ease-in-out;
     color: #F04B33;
@@ -564,7 +685,8 @@ html {
           text-align: right; } }
       @media (min-width: 2560px) {
         #header #headerflex #navflex .navitem {
-          text-align: right; } }
+          text-align: right;
+          font-size: 1.4em; } }
       #header #headerflex #navflex .navitem p {
         font-size: 0.9em;
         font-weight: 500; }
@@ -663,7 +785,6 @@ html {
         color: black; }
 
 #footer {
-  max-width: 1000px;
   margin: 0 auto;
   padding: 8em 0 4em; }
   #footer #hello {
@@ -703,6 +824,9 @@ html {
       #footer #contactflex .contcontent a {
         color: black;
         transition: 0.3s all ease-in-out; }
+        @media (min-width: 2560px) {
+          #footer #contactflex .contcontent a {
+            font-size: 1.6em; } }
       #footer #contactflex .contcontent .contline {
         height: 4px;
         width: 50px;
@@ -712,6 +836,9 @@ html {
         top: 10px;
         margin-right: 1.5em;
         transition: 0.3s all ease-in-out; }
+        @media (min-width: 2560px) {
+          #footer #contactflex .contcontent .contline {
+            top: 20px; } }
     #footer #contactflex .contcontent:hover {
       transition: 0.3s all ease-in-out;
       cursor: pointer; }
@@ -910,7 +1037,6 @@ html {
 
 .copyrightdiv {
   width: 100%;
-  max-width: 1000px;
   border-radius: 3px 3px 0 0;
   margin: 0 auto 2em;
   background-color: #F5F5F5; }
@@ -919,7 +1045,10 @@ html {
   padding: 0.8em 0;
   text-align: center;
   color: #7E7E7E;
-  font-size: 0.8em;
+  font-size: 1em;
   margin: 0 auto; }
+  @media (min-width: 2560px) {
+    .copyright {
+      font-size: 1.4em; } }
 
 /*# sourceMappingURL=homepage_2017.css.map */
