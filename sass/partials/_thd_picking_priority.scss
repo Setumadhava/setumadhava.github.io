@@ -262,17 +262,21 @@ body {
         flex-wrap: wrap;
         border-radius: 8em;
         padding: 1em;
+        justify-content: space-around;
 
         .roleitem {
             width: 100%;
+            @media #{$mac13} {
+                // width: 25%;
+            }
             @media #{$mac15} {
-                width: 33%;
+                width: 22%;
             }
             @media #{$monitor} {
-                width: 33%;
+                width: 23%;
             }
             @media #{$fourk} {
-                width: 33%;
+                width: 23%;
             }
 
             .itemtitle {

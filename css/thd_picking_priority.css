@@ -220,18 +220,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     border-radius: 8em;
-    padding: 1em; }
+    padding: 1em;
+    justify-content: space-around; }
     .rolecontainer .roleflex .roleitem {
       width: 100%; }
       @media (min-width: 1440px) and (max-width: 1819px) {
         .rolecontainer .roleflex .roleitem {
-          width: 33%; } }
+          width: 22%; } }
       @media (min-width: 1820px) and (max-width: 2559px) {
         .rolecontainer .roleflex .roleitem {
-          width: 33%; } }
+          width: 23%; } }
       @media (min-width: 2560px) {
         .rolecontainer .roleflex .roleitem {
-          width: 33%; } }
+          width: 23%; } }
       .rolecontainer .roleflex .roleitem .itemtitle {
         font-size: 0.8em;
         color: #7E7E7E; }
