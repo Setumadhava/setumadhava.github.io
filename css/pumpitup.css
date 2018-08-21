@@ -1279,6 +1279,9 @@ html {
       #footer #contactflex .contcontent a {
         color: black;
         transition: 0.3s all ease-in-out; }
+        @media (min-width: 1820px) and (max-width: 2559px) {
+          #footer #contactflex .contcontent a {
+            font-size: 1.4em; } }
         @media (min-width: 2560px) {
           #footer #contactflex .contcontent a {
             font-size: 1.6em; } }
@@ -1316,7 +1319,6 @@ html {
   .footernavcontainer .esaurnxt:hover {
     transition: all 0.20s ease-in-out;
     cursor: pointer;
-    background-color: #00936E;
     background-image: url("img/homepage2/esaurbg.png");
     width: 70%;
     background-size: cover;
@@ -1330,7 +1332,6 @@ html {
   .footernavcontainer .piunxt:hover {
     transition: all 0.20s ease-in-out;
     cursor: pointer;
-    background-color: #00936E;
     background-image: url("img/homepage/piubg.png");
     width: 70%;
     background-size: cover;
@@ -1344,7 +1345,6 @@ html {
   .footernavcontainer .actinxt:hover {
     transition: all 0.20s ease-in-out;
     cursor: pointer;
-    background-color: #00936E;
     background-image: url("img/actilist/herobg.png");
     width: 70%;
     background-size: cover;
@@ -1358,7 +1358,6 @@ html {
   .footernavcontainer .smarthomenxt:hover {
     transition: all 0.20s ease-in-out;
     cursor: pointer;
-    background-color: #00936E;
     background-image: url("img/smarthome/homeimg2.png");
     width: 70%;
     background-size: cover;
@@ -1372,7 +1371,6 @@ html {
   .footernavcontainer .expedianxt:hover {
     transition: all 0.20s ease-in-out;
     cursor: pointer;
-    background-color: #00936E;
     background-image: url("img/homepage/hotel_room.png");
     width: 70%;
     background-size: cover;
@@ -1386,7 +1384,6 @@ html {
   .footernavcontainer .datescoutnxt:hover {
     transition: all 0.20s ease-in-out;
     cursor: pointer;
-    background-color: #00936E;
     background-image: url("img/homepage/dscoutcouplebg.png");
     width: 70%;
     background-size: cover;
@@ -1400,7 +1397,10 @@ html {
   .footernavcontainer a {
     color: #424242; }
   .footernavcontainer .nextprojsmall {
-    font-size: 0.8em; }
+    font-size: 1em; }
+    @media (min-width: 2560px) {
+      .footernavcontainer .nextprojsmall {
+        font-size: 1.4em; } }
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
@@ -1418,7 +1418,7 @@ html {
         font-size: 2em; } }
     @media (min-width: 2560px) {
       .footernavcontainer .nextprojbig {
-        font-size: 2em; } }
+        font-size: 2.4em; } }
 
 .footerdiv {
   background-color: #292929;

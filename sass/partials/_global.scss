@@ -319,6 +319,9 @@ html {
             a {
                 color: black;
                 transition: 0.3s all ease-in-out;
+                @media #{$monitor} {
+                    font-size: 1.4em;
+                }
                 @media #{$fourk} {
                     font-size: 1.6em;
                 }
@@ -437,7 +440,6 @@ html {
     .esaurnxt:hover {
         transition: all 0.20s ease-in-out;
         cursor: pointer;
-        background-color: $darkgreen;
         background-image: url("img/homepage2/esaurbg.png");
         width: 70%;
         background-size: cover;
@@ -455,7 +457,6 @@ html {
     .piunxt:hover {
         transition: all 0.20s ease-in-out;
         cursor: pointer;
-        background-color: $darkgreen;
         background-image: url("img/homepage/piubg.png");
         width: 70%;
         background-size: cover;
@@ -473,7 +474,6 @@ html {
     .actinxt:hover {
         transition: all 0.20s ease-in-out;
         cursor: pointer;
-        background-color: $darkgreen;
         background-image: url("img/actilist/herobg.png");
         width: 70%;
         background-size: cover;
@@ -491,7 +491,6 @@ html {
     .smarthomenxt:hover {
         transition: all 0.20s ease-in-out;
         cursor: pointer;
-        background-color: $darkgreen;
         background-image: url("img/smarthome/homeimg2.png");
         width: 70%;
         background-size: cover;
@@ -509,7 +508,6 @@ html {
     .expedianxt:hover {
         transition: all 0.20s ease-in-out;
         cursor: pointer;
-        background-color: $darkgreen;
         background-image: url("img/homepage/hotel_room.png");
         width: 70%;
         background-size: cover;
@@ -527,7 +525,6 @@ html {
     .datescoutnxt:hover {
         transition: all 0.20s ease-in-out;
         cursor: pointer;
-        background-color: $darkgreen;
         background-image: url("img/homepage/dscoutcouplebg.png");
         width: 70%;
         background-size: cover;
@@ -547,7 +544,10 @@ html {
     }
 
     .nextprojsmall {
-        font-size: 0.8em;
+        font-size: 1em;
+        @media #{$fourk} {
+            font-size: 1.4em;
+        }
     }
 
     .nextprojbig {
@@ -565,7 +565,7 @@ html {
             font-size: 2em;
         }
         @media #{$fourk} {
-            font-size: 2em;
+            font-size: 2.4em;
         }
         font-weight: 500;
     }
