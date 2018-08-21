@@ -46,7 +46,7 @@ body {
   color: #00BFA0; }
 
 #herosection {
-  background-color: #D9CCE8;
+  background-color: #A5E7E5;
   width: 100%;
   display: block;
   background-size: cover;
@@ -55,7 +55,25 @@ body {
   background-attachment: scroll;
   height: auto;
   position: relative;
-  height: 500px; }
+  height: 700px; }
+  @media (min-width: 375px) and (max-width: 768px) {
+    #herosection {
+      height: 700px; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #herosection {
+      height: 800px; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    #herosection {
+      height: 450px; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    #herosection {
+      height: 600px; } }
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    #herosection {
+      height: 800px; } }
+  @media (min-width: 2560px) {
+    #herosection {
+      height: 800px; } }
   #herosection .heroflex {
     display: flex;
     flex-wrap: wrap;
@@ -80,10 +98,10 @@ body {
         width: 90%; } }
     @media (min-width: 1820px) and (max-width: 2559px) {
       #herosection .heroflex {
-        width: 90%; } }
+        width: 85%; } }
     @media (min-width: 2560px) {
       #herosection .heroflex {
-        width: 80%; } }
+        width: 90%; } }
     #herosection .heroflex #hero_text {
       width: 100%;
       padding: 1.5em;
@@ -94,7 +112,7 @@ body {
       @media (min-width: 768px) and (max-width: 1023px) {
         #herosection .heroflex #hero_text {
           width: 90%;
-          padding-left: 8em;
+          padding-left: 5em;
           margin-bottom: 3em; } }
       @media (min-width: 1024px) and (max-width: 1439px) {
         #herosection .heroflex #hero_text {
@@ -114,24 +132,23 @@ body {
           width: 45%;
           position: absolute;
           bottom: 0; } }
-      #herosection .heroflex #hero_text #title {
+      #herosection .heroflex #hero_text #pp_title {
         font-family: georgia;
-        font-size: 2.5em;
+        font-size: 2em;
         color: #282828; }
         @media (min-width: 1440px) and (max-width: 1819px) {
-          #herosection .heroflex #hero_text #title {
-            font-size: 3em; } }
+          #herosection .heroflex #hero_text #pp_title {
+            font-size: 2.7em; } }
         @media (min-width: 1820px) and (max-width: 2559px) {
-          #herosection .heroflex #hero_text #title {
-            font-size: 3em; } }
+          #herosection .heroflex #hero_text #pp_title {
+            font-size: 2.7em; } }
         @media (min-width: 2560px) {
-          #herosection .heroflex #hero_text #title {
-            font-size: 3.4em; } }
+          #herosection .heroflex #hero_text #pp_title {
+            font-size: 3.2em; } }
       #herosection .heroflex #hero_text #herotextline {
         width: 90%;
         height: 3px;
-        background-color: #282828;
-        margin-bottom: 2em; }
+        background-color: #282828; }
         @media (min-width: 768px) and (max-width: 1023px) {
           #herosection .heroflex #hero_text #herotextline {
             width: 70%; } }
@@ -140,13 +157,13 @@ body {
             width: 95%; } }
         @media (min-width: 1440px) and (max-width: 1819px) {
           #herosection .heroflex #hero_text #herotextline {
-            width: 100%; } }
+            width: 98%; } }
         @media (min-width: 1820px) and (max-width: 2559px) {
           #herosection .heroflex #hero_text #herotextline {
-            width: 100%; } }
+            width: 85%; } }
         @media (min-width: 2560px) {
           #herosection .heroflex #hero_text #herotextline {
-            width: 90%; } }
+            width: 95%; } }
       #herosection .heroflex #hero_text #hero_desc {
         font-family: "Roboto", sans-serif;
         margin-top: 1em;
@@ -155,118 +172,98 @@ body {
         @media (min-width: 2560px) {
           #herosection .heroflex #hero_text #hero_desc {
             font-size: 1.4em; } }
+    #herosection .heroflex #hero_img {
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 2em; }
+      @media (min-width: 375px) and (max-width: 768px) {
+        #herosection .heroflex #hero_img {
+          width: 90%; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        #herosection .heroflex #hero_img {
+          width: 80%; } }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        #herosection .heroflex #hero_img {
+          width: 45%;
+          padding-top: 2em; } }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        #herosection .heroflex #hero_img {
+          width: 45%;
+          padding-top: 2em; }
+          #herosection .heroflex #hero_img img {
+            width: 50%;
+            position: absolute;
+            bottom: 5em;
+            right: 0; } }
+      @media (min-width: 1820px) and (max-width: 2559px) {
+        #herosection .heroflex #hero_img {
+          width: 45%;
+          padding-top: 2em; }
+          #herosection .heroflex #hero_img img {
+            width: 50%;
+            position: absolute;
+            bottom: 5em;
+            right: 0; } }
+      @media (min-width: 2560px) {
+        #herosection .heroflex #hero_img {
+          width: 45%;
+          padding-top: 2em; }
+          #herosection .heroflex #hero_img img {
+            width: 50%;
+            position: absolute;
+            bottom: 5em;
+            right: 0; } }
 
-.centerimg {
-  width: 100%;
-  margin-bottom: 6em; }
-  .centerimg .caption {
-    text-align: center;
-    margin: 2em 0;
-    color: #7E7E7E;
-    font-size: 1em; }
-    @media (min-width: 2560px) {
-      .centerimg .caption {
-        font-size: 1.4em; } }
-  .centerimg .appdesc {
-    width: 100%;
-    margin: 0 auto; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      .centerimg .appdesc {
-        width: 70%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      .centerimg .appdesc {
-        width: 70%; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      .centerimg .appdesc {
-        width: 70%; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
-      .centerimg .appdesc {
-        width: 60%; } }
-    @media (min-width: 2560px) {
-      .centerimg .appdesc {
-        width: 60%; } }
-    .centerimg .appdesc img {
+.rolecontainer {
+  background-color: #EAEAEA;
+  margin: 6em 0 0;
+  border-radius: 8px; }
+  .rolecontainer .roleflex {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8em;
+    padding: 1em;
+    justify-content: space-around; }
+    .rolecontainer .roleflex .roleitem {
       width: 100%; }
-  .centerimg .firstdesign {
-    width: 100%;
-    margin: 0 auto; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      .centerimg .firstdesign {
-        width: 80%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      .centerimg .firstdesign {
-        width: 80%; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      .centerimg .firstdesign {
-        width: 80%; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
-      .centerimg .firstdesign {
-        width: 60%; } }
-    @media (min-width: 2560px) {
-      .centerimg .firstdesign {
-        width: 60%; } }
-    .centerimg .firstdesign img {
-      width: 100%; }
-  .centerimg .myuxskills {
-    width: 100%;
-    margin: 0 auto; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      .centerimg .myuxskills {
-        width: 70%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      .centerimg .myuxskills {
-        width: 60%; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      .centerimg .myuxskills {
-        width: 60%; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
-      .centerimg .myuxskills {
-        width: 55%; } }
-    @media (min-width: 2560px) {
-      .centerimg .myuxskills {
-        width: 55%; } }
-    .centerimg .myuxskills img {
-      width: 100%; }
-  .centerimg .vendorsaas {
-    width: 100%;
-    margin: 0 auto; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      .centerimg .vendorsaas {
-        width: 100%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      .centerimg .vendorsaas {
-        width: 90%; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      .centerimg .vendorsaas {
-        width: 100%; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
-      .centerimg .vendorsaas {
-        width: 80%; } }
-    @media (min-width: 2560px) {
-      .centerimg .vendorsaas {
-        width: 95%; } }
-    .centerimg .vendorsaas img {
-      width: 100%; }
-  .centerimg .actilist {
-    width: 100%;
-    margin: 0 auto; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      .centerimg .actilist {
-        width: 70%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      .centerimg .actilist {
-        width: 70%; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      .centerimg .actilist {
-        width: 90%; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
-      .centerimg .actilist {
-        width: 70%; } }
-    @media (min-width: 2560px) {
-      .centerimg .actilist {
-        width: 65%; } }
-    .centerimg .actilist img {
-      width: 100%; }
+      @media (min-width: 1440px) and (max-width: 1819px) {
+        .rolecontainer .roleflex .roleitem {
+          width: 22%; } }
+      @media (min-width: 1820px) and (max-width: 2559px) {
+        .rolecontainer .roleflex .roleitem {
+          width: 23%; } }
+      @media (min-width: 2560px) {
+        .rolecontainer .roleflex .roleitem {
+          width: 23%; } }
+      .rolecontainer .roleflex .roleitem .itemtitle {
+        font-size: 0.8em;
+        color: #7E7E7E; }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          .rolecontainer .roleflex .roleitem .itemtitle {
+            font-size: 1em; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          .rolecontainer .roleflex .roleitem .itemtitle {
+            font-size: 1em; } }
+        @media (min-width: 1820px) and (max-width: 2559px) {
+          .rolecontainer .roleflex .roleitem .itemtitle {
+            font-size: 1em; } }
+        @media (min-width: 2560px) {
+          .rolecontainer .roleflex .roleitem .itemtitle {
+            font-size: 1em; } }
+      .rolecontainer .roleflex .roleitem .itemcontent {
+        font-size: 1em; }
+        @media (min-width: 1024px) and (max-width: 1439px) {
+          .rolecontainer .roleflex .roleitem .itemcontent {
+            font-size: 1.2em; } }
+        @media (min-width: 1440px) and (max-width: 1819px) {
+          .rolecontainer .roleflex .roleitem .itemcontent {
+            font-size: 1.2em; } }
+        @media (min-width: 1820px) and (max-width: 2559px) {
+          .rolecontainer .roleflex .roleitem .itemcontent {
+            font-size: 1.2em; } }
+        @media (min-width: 2560px) {
+          .rolecontainer .roleflex .roleitem .itemcontent {
+            font-size: 1.2em; } }
 
 .contentsection {
   width: 100%;
@@ -314,16 +311,13 @@ body {
     @media (min-width: 2560px) {
       .contentsection .sectioncontent p {
         font-size: 1.8em; } }
-  .contentsection .sectioncontent #quote {
+  .contentsection .sectioncontent #probstatement {
     font-style: italic;
     font-family: georgia;
     font-size: 1.8em;
     line-height: 2em;
     color: #F04B33;
     margin-top: 3em; }
-    @media (min-width: 2560px) {
-      .contentsection .sectioncontent #quote {
-        font-size: 2.5em; } }
   .contentsection #process_img {
     margin: 8em auto;
     width: 100%; }
@@ -341,77 +335,6 @@ body {
         width: 150%; } }
     @media (min-width: 2560px) {
       .contentsection #process_img {
-        width: 150%; } }
-
-.subcontentsection {
-  width: 100%;
-  padding: 2em 0; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .subcontentsection {
-      width: 70%; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    .subcontentsection {
-      width: 70%;
-      padding: 2em 0; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
-    .subcontentsection {
-      width: 70%;
-      padding: 2em 0; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
-    .subcontentsection {
-      width: 70%;
-      padding: 2em 0; } }
-  @media (min-width: 2560px) {
-    .subcontentsection {
-      width: 70%;
-      padding: 2em 0; } }
-  .subcontentsection .sectiontitle {
-    margin-bottom: 2em; }
-    .subcontentsection .sectiontitle p {
-      font-family: georgia;
-      font-size: 2em; }
-  .subcontentsection .sectioncontent p {
-    font-size: 1em;
-    line-height: 1.9em; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      .subcontentsection .sectioncontent p {
-        font-size: 1.2em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      .subcontentsection .sectioncontent p {
-        font-size: 1.2em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
-      .subcontentsection .sectioncontent p {
-        font-size: 1.2em; } }
-    @media (min-width: 2560px) {
-      .subcontentsection .sectioncontent p {
-        font-size: 1.8em; } }
-  .subcontentsection .sectioncontent #quote {
-    font-style: italic;
-    font-family: georgia;
-    font-size: 1.8em;
-    line-height: 2em;
-    color: #F04B33;
-    margin-top: 3em; }
-    @media (min-width: 2560px) {
-      .subcontentsection .sectioncontent #quote {
-        font-size: 2.5em; } }
-  .subcontentsection #process_img {
-    margin: 8em auto;
-    width: 100%; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      .subcontentsection #process_img {
-        width: 140%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      .subcontentsection #process_img {
-        width: 150%; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
-      .subcontentsection #process_img {
-        width: 150%; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
-      .subcontentsection #process_img {
-        width: 150%; } }
-    @media (min-width: 2560px) {
-      .subcontentsection #process_img {
         width: 150%; } }
 
 .sectionseparator {
@@ -456,31 +379,90 @@ body {
           font-size: 1.2em;
           width: 70%; } }
 
-.solutionimageflex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-  .solutionimageflex .solution_img {
+.solution_img {
+  width: 100%;
+  padding: 5em 0; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .solution_img {
+      width: 85%;
+      margin: 0 auto; } }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .solution_img {
+      width: 85%;
+      margin: 0 auto; } }
+  @media (min-width: 1440px) and (max-width: 1819px) {
+    .solution_img {
+      width: 70%;
+      margin: 0 auto; } }
+  @media (min-width: 1820px) and (max-width: 2559px) {
+    .solution_img {
+      width: 70%;
+      margin: 0 auto; } }
+  @media (min-width: 2560px) {
+    .solution_img {
+      width: 70%;
+      margin: 0 auto; } }
+  .solution_img .solncaption {
+    position: relative;
+    top: -0.5em;
+    font-size: 1em;
+    color: #7E7E7E;
+    text-align: center; }
+
+.caption {
+  font-size: 1em;
+  color: #7E7E7E;
+  text-align: center;
+  margin-top: 1.5em; }
+
+.centerimg {
+  width: 100%;
+  margin-bottom: 12em; }
+  .centerimg .appdesc {
     width: 100%;
-    padding: 2em 0; }
+    margin: 0 auto; }
     @media (min-width: 768px) and (max-width: 1023px) {
-      .solutionimageflex .solution_img {
-        width: 70%;
-        margin: 0 auto; } }
+      .centerimg .appdesc {
+        width: 90%; } }
     @media (min-width: 1024px) and (max-width: 1439px) {
-      .solutionimageflex .solution_img {
-        width: 70%;
-        margin: 0 auto; } }
+      .centerimg .appdesc {
+        width: 100%; } }
     @media (min-width: 1440px) and (max-width: 1819px) {
-      .solutionimageflex .solution_img {
-        width: 33%;
-        padding: 1em; } }
+      .centerimg .appdesc {
+        width: 90%; } }
     @media (min-width: 1820px) and (max-width: 2559px) {
-      .solutionimageflex .solution_img {
-        width: 30%; } }
+      .centerimg .appdesc {
+        width: 90%; } }
     @media (min-width: 2560px) {
-      .solutionimageflex .solution_img {
-        width: 30%; } }
+      .centerimg .appdesc {
+        width: 80%; } }
+    .centerimg .appdesc img {
+      width: 100%; }
+  .centerimg .prototype {
+    width: 100%;
+    margin: 0 auto; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .centerimg .prototype {
+        width: 60%; } }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .centerimg .prototype {
+        width: 60%; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .centerimg .prototype {
+        width: 50%; } }
+    @media (min-width: 1820px) and (max-width: 2559px) {
+      .centerimg .prototype {
+        width: 50%; } }
+    @media (min-width: 2560px) {
+      .centerimg .prototype {
+        width: 50%; } }
+    .centerimg .prototype img {
+      width: 100%; }
+  .centerimg .appflow {
+    width: 100%;
+    margin: 0 auto; }
+    .centerimg .appflow img {
+      width: 100%; }
 
 .container,
 body,
@@ -971,4 +953,4 @@ html {
     .copyright {
       font-size: 1.4em; } }
 
-/*# sourceMappingURL=my_design_process.css.map */
+/*# sourceMappingURL=thd_unload_planner.css.map */

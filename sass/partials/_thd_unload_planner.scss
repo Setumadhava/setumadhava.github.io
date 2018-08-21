@@ -63,7 +63,7 @@ body {
 
 #herosection {
     // background-image: url("img/premera/herobg.png");
-    background-color: #D9CCE8;
+    background-color: #A5E7E5;
     width: 100%;
     display: block;
     background-size: cover;
@@ -72,25 +72,26 @@ body {
     background-attachment: scroll;
     height: auto;
     position: relative;
-    height: 500px;
-    // @media #{$phablet} {
-    //     height: 700px;
-    // }
-    // @media #{$tablet} {
-    //     height: 800px;
-    // }
-    // @media #{$mac13} {
-    //     height: 450px;
-    // }
-    // @media #{$mac15} {
-    //     height: 600px;
-    // }
-    // @media #{$monitor} {
-    //     height: 800px;
-    // }
-    // @media #{$fourk} {
-    //     height: 800px;
-    // }
+    height: 700px;
+    @media #{$phablet} {
+        height: 700px;
+    }
+    @media #{$tablet} {
+        height: 800px;
+    }
+    @media #{$mac13} {
+        height: 450px;
+    }
+    @media #{$mac15} {
+        height: 600px;
+    }
+    @media #{$monitor} {
+        height: 800px;
+    }
+    @media #{$fourk} {
+        height: 800px;
+    }
+
     .heroflex {
         display: flex;
         flex-wrap: wrap;
@@ -114,10 +115,10 @@ body {
             width: 90%;
         }
         @media #{$monitor} {
-            width: 90%;
+            width: 85%;
         }
         @media #{$fourk} {
-            width: 80%;
+            width: 90%;
         }
 
         #hero_text {
@@ -129,7 +130,7 @@ body {
             }
             @media #{$tablet} {
                 width: 90%;
-                padding-left: 8em;
+                padding-left: 5em;
                 margin-bottom: 3em;
             }
             @media #{$mac13} {
@@ -153,18 +154,18 @@ body {
                 bottom: 0;
             }
 
-            #title {
+            #pp_title {
                 font-family: georgia;
-                font-size: 2.5em;
+                font-size: 2em;
                 color: #282828;
                 @media #{$mac15} {
-                    font-size: 3em;
+                    font-size: 2.7em;
                 }
                 @media #{$monitor} {
-                    font-size: 3em;
+                    font-size: 2.7em;
                 }
                 @media #{$fourk} {
-                    font-size: 3.4em;
+                    font-size: 3.2em;
                 }
             }
 
@@ -172,7 +173,6 @@ body {
                 width: 90%;
                 height: 3px;
                 background-color: #282828;
-                margin-bottom: 2em;
                 @media #{$tablet} {
                     width: 70%;
                 }
@@ -180,13 +180,13 @@ body {
                     width: 95%;
                 }
                 @media #{$mac15} {
-                    width: 100%;
+                    width: 98%;
                 }
                 @media #{$monitor} {
-                    width: 100%;
+                    width: 85%;
                 }
                 @media #{$fourk} {
-                    width: 90%;
+                    width: 95%;
                 }
             }
 
@@ -200,143 +200,121 @@ body {
                 }
             }
         }
+
+        #hero_img {
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 2em;
+            @media #{$phablet} {
+                width: 90%;
+            }
+            @media #{$tablet} {
+                width: 80%;
+            }
+            @media #{$mac13} {
+                width: 45%;
+                padding-top: 2em;
+            }
+            @media #{$mac15} {
+                width: 45%;
+                padding-top: 2em;
+
+                img {
+                    width: 50%;
+                    position: absolute;
+                    bottom: 5em;
+                    right: 0;
+                }
+            }
+            @media #{$monitor} {
+                width: 45%;
+                padding-top: 2em;
+
+                img {
+                    width: 50%;
+                    position: absolute;
+                    bottom: 5em;
+                    right: 0;
+                }
+            }
+            @media #{$fourk} {
+                width: 45%;
+                padding-top: 2em;
+
+                img {
+                    width: 50%;
+                    position: absolute;
+                    bottom: 5em;
+                    right: 0;
+                }
+            }
+        }
     }
 }
 
-.centerimg {
-    width: 100%;
-    margin-bottom: 6em;
+.rolecontainer {
+    background-color: #EAEAEA;
+    margin: 6em 0 0;
+    border-radius: 8px;
 
-    .caption {
-        text-align: center;
-        margin: 2em 0;
-        color: $grey4;
-        font-size: 1em;
-        @media #{$fourk} {
-            font-size: 1.4em;
-        }
-    }
+    .roleflex {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 8em;
+        padding: 1em;
+        justify-content: space-around;
 
-    .appdesc {
-        width: 100%;
-        margin: 0 auto;
-        @media #{$tablet} {
-            width: 70%;
-        }
-        @media #{$mac13} {
-            width: 70%;
-        }
-        @media #{$mac15} {
-            width: 70%;
-        }
-        @media #{$monitor} {
-            width: 60%;
-        }
-        @media #{$fourk} {
-            width: 60%;
-        }
-
-        img {
+        .roleitem {
             width: 100%;
-        }
-    }
+            @media #{$mac13} {
+                // width: 25%;
+            }
+            @media #{$mac15} {
+                width: 22%;
+            }
+            @media #{$monitor} {
+                width: 23%;
+            }
+            @media #{$fourk} {
+                width: 23%;
+            }
 
-    .firstdesign {
-        width: 100%;
-        @media #{$tablet} {
-            width: 80%;
-        }
-        @media #{$mac13} {
-            width: 80%;
-        }
-        @media #{$mac15} {
-            width: 80%;
-        }
-        @media #{$monitor} {
-            width: 60%;
-        }
-        @media #{$fourk} {
-            width: 60%;
-        }
-        margin: 0 auto;
+            .itemtitle {
+                font-size: 0.8em;
+                color: #7E7E7E;
+                @media #{$mac13} {
+                    font-size: 1em;
+                }
+                @media #{$mac15} {
+                    font-size: 1em;
+                }
+                @media #{$monitor} {
+                    font-size: 1em;
+                }
+                @media #{$fourk} {
+                    font-size: 1em;
+                }
+            }
 
-        img {
-            width: 100%;
-        }
-    }
-
-    .myuxskills {
-        width: 100%;
-        @media #{$tablet} {
-            width: 70%;
-        }
-        @media #{$mac13} {
-            width: 60%;
-        }
-        @media #{$mac15} {
-            width: 60%;
-        }
-        @media #{$monitor} {
-            width: 55%;
-        }
-        @media #{$fourk} {
-            width: 55%;
-        }
-        margin: 0 auto;
-
-        img {
-            width: 100%;
-        }
-    }
-
-    .vendorsaas {
-        width: 100%;
-        @media #{$tablet} {
-            width: 100%;
-        }
-        @media #{$mac13} {
-            width: 90%;
-        }
-        @media #{$mac15} {
-            width: 100%;
-        }
-        @media #{$monitor} {
-            width: 80%;
-        }
-        @media #{$fourk} {
-            width: 95%;
-        }
-        margin: 0 auto;
-
-        img {
-            width: 100%;
-        }
-    }
-
-    .actilist {
-        width: 100%;
-        @media #{$tablet} {
-            width: 70%;
-        }
-        @media #{$mac13} {
-            width: 70%;
-        }
-        @media #{$mac15} {
-            width: 90%;
-        }
-        @media #{$monitor} {
-            width: 70%;
-        }
-        @media #{$fourk} {
-            width: 65%;
-        }
-        margin: 0 auto;
-
-        img {
-            width: 100%;
+            .itemcontent {
+                font-size: 1em;
+                @media #{$mac13} {
+                    font-size: 1.2em;
+                }
+                @media #{$mac15} {
+                    font-size: 1.2em;
+                }
+                @media #{$monitor} {
+                    font-size: 1.2em;
+                }
+                @media #{$fourk} {
+                    font-size: 1.2em;
+                }
+            }
         }
     }
 }
+///////////////////////////// ROLE END /////////////////////////////
 
 .contentsection {
     width: 100%;
@@ -392,100 +370,13 @@ body {
             }
         }
 
-        #quote {
+        #probstatement {
             font-style: italic;
             font-family: georgia;
             font-size: 1.8em;
             line-height: 2em;
             color: $setured;
             margin-top: 3em;
-            @media #{$fourk} {
-                font-size: 2.5em;
-            }
-        }
-    }
-
-    #process_img {
-        margin: 8em auto;
-        width: 100%;
-        @media #{$tablet} {
-            width: 140%;
-        }
-        @media #{$mac13} {
-            width: 150%;
-        }
-        @media #{$mac15} {
-            width: 150%;
-        }
-        @media #{$monitor} {
-            width: 150%;
-        }
-        @media #{$fourk} {
-            width: 150%;
-        }
-    }
-}
-
-.subcontentsection {
-    width: 100%;
-    padding: 2em 0;
-    @media #{$tablet} {
-        width: 70%;
-    }
-    @media #{$mac13} {
-        width: 70%;
-        padding: 2em 0;
-    }
-    @media #{$mac15} {
-        width: 70%;
-        padding: 2em 0;
-    }
-    @media #{$monitor} {
-        width: 70%;
-        padding: 2em 0;
-    }
-    @media #{$fourk} {
-        width: 70%;
-        padding: 2em 0;
-    }
-
-    .sectiontitle {
-        margin-bottom: 2em;
-
-        p {
-            font-family: georgia;
-            font-size: 2em;
-        }
-    }
-
-    .sectioncontent {
-        p {
-            font-size: 1em;
-            line-height: 1.9em;
-            @media #{$mac13} {
-                font-size: 1.2em;
-            }
-            @media #{$mac15} {
-                font-size: 1.2em;
-            }
-            @media #{$monitor} {
-                font-size: 1.2em;
-            }
-            @media #{$fourk} {
-                font-size: 1.8em;
-            }
-        }
-
-        #quote {
-            font-style: italic;
-            font-family: georgia;
-            font-size: 1.8em;
-            line-height: 2em;
-            color: $setured;
-            margin-top: 3em;
-            @media #{$fourk} {
-                font-size: 2.5em;
-            }
         }
     }
 
@@ -564,31 +455,104 @@ body {
     }
 }
 
-.solutionimageflex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.solution_img {
+    width: 100%;
+    padding: 5em 0;
+    @media #{$tablet} {
+        width: 85%;
+        margin: 0 auto;
+    }
+    @media #{$mac13} {
+        width: 85%;
+        margin: 0 auto;
+    }
+    @media #{$mac15} {
+        width: 70%;
+        margin: 0 auto;
+    }
+    @media #{$monitor} {
+        width: 70%;
+        margin: 0 auto;
+    }
+    @media #{$fourk} {
+        width: 70%;
+        margin: 0 auto;
+    }
 
-    .solution_img {
+    .solncaption {
+        position: relative;
+        top: -0.5em;
+        font-size: 1em;
+        color: $grey4;
+        text-align: center;
+    }
+}
+
+.caption {
+    font-size: 1em;
+    color: $grey4;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.centerimg {
+    width: 100%;
+    margin-bottom: 12em;
+
+    .appdesc {
         width: 100%;
-        padding: 2em 0;
+        margin: 0 auto;
         @media #{$tablet} {
-            width: 70%;
-            margin: 0 auto;
+            width: 90%;
         }
         @media #{$mac13} {
-            width: 70%;
-            margin: 0 auto;
+            width: 100%;
         }
         @media #{$mac15} {
-            width: 33%;
-            padding: 1em;
+            width: 90%;
         }
         @media #{$monitor} {
-            width: 30%;
+            width: 90%;
         }
         @media #{$fourk} {
-            width: 30%;
+            width: 80%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .prototype {
+        width: 100%;
+        margin: 0 auto;
+        @media #{$tablet} {
+            width: 60%;
+        }
+        @media #{$mac13} {
+            width: 60%;
+        }
+        @media #{$mac15} {
+            width: 50%;
+        }
+        @media #{$monitor} {
+            width: 50%;
+        }
+        @media #{$fourk} {
+            width: 50%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .appflow {
+        width: 100%;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
         }
     }
 }
