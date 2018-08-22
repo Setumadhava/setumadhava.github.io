@@ -18,8 +18,8 @@
                 <text id="(Week-3-4)" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#282828" fill-opacity="0.6">
                     <tspan x="801.347656" y="266">(Week 3-4)</tspan>
                 </text>
-                <text id="Day-5" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#282828" fill-opacity="0.376500226">
-                    <tspan x="1086.31641" y="328">Day 5</tspan>
+                <text id="Week-5" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#282828" fill-opacity="0.376500226">
+                    <tspan x="1080.37891" y="328">Week 5</tspan>
                 </text>
                 <text id="Interviews" transform="translate(206.183766, 137.183766) rotate(-45.000000) translate(-206.183766, -137.183766) " font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#282828">
                     <tspan x="164.183766" y="144.183766">Interviews</tspan>
