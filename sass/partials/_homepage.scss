@@ -410,7 +410,41 @@ body {
     }
 }
 ////////////// CARD SPECIFIC CODE //////////////
-/////////THD/////////////
+/////////THD - Unload Planner/////////////
+
+#thduppic {
+    width: 100%;
+    padding: 4em 0;
+    margin: 0 auto;
+    @media #{$phablet} {
+        width: 100%;
+    }
+    @media #{$tablet} {
+        width: 90%;
+    }
+    @media #{$mac13} {
+        padding: 2em 0;
+        width: 50%;
+    }
+    @media #{$mac15} {
+        padding: 2em 0;
+        width: 50%;
+    }
+    @media #{$monitor} {
+        padding: 2em 0;
+        width: 50%;
+    }
+    @media #{$fourk} {
+        padding: 2em 0;
+        width: 50%;
+    }
+
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+/////////THD - Picking Priority/////////////
 
 #thdpic {
     width: 90%;
