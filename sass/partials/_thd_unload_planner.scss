@@ -485,7 +485,6 @@ body {
 
     .solncaption {
         position: relative;
-        top: -0.5em;
         font-size: 1em;
         color: $grey4;
         text-align: center;
@@ -498,11 +497,10 @@ body {
 .solution_img_flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 
     .solncaption {
         position: relative;
-        top: -0.5em;
         font-size: 1em;
         color: $grey4;
         text-align: center;
@@ -512,6 +510,7 @@ body {
     }
 
     .solnimgdiv {
+        margin-top: 3em;
         @media #{$mac13} {
             width: 45%;
             margin: 0 auto;
