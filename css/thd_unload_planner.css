@@ -55,7 +55,8 @@ body {
   background-attachment: scroll;
   height: auto;
   position: relative;
-  height: 700px; }
+  height: 700px;
+  border-radius: 4px; }
   @media (min-width: 375px) and (max-width: 768px) {
     #herosection {
       height: 700px; } }

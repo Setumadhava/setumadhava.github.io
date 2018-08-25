@@ -10,118 +10,103 @@
     <link rel="stylesheet" href="css/thd_wall.css">
 </head>
 
+<!-- <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+</script> -->
 
-<div id="headercontainer">
-    <!-- HEADER START  -->
 
-    <div id="header">
-        <div id="headerflex">
-            <div class="name innerpagename">
-                <a href="index.html">
-                    <p>Setu Kathawate</p>
-                </a>
-            </div>
 
-            <div id="navflex">
-                <div class="navitem">
-                    <p><a href="index.html#projectstartsection">PROJECTS</a></p>
-                </div>
-                <div class="navitem">
-                    <p><a href="https://medium.com/@setumad" target="_blank">BLOG</a></p>
-                </div>
-                <div class="navitem">
-                    <p><a href="index.html#aboutsection">ABOUT</a></p>
-                </div>
-                <div class="navitem">
-                    <p><a href="Setumadhava_G_Kathawate_Resume.pdf" target="_blank">RESUME</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="menuicon">
-        <img src="css/img/homepage2/menuicon.svg" alt="">
-    </div>
-
-    <!-- MOBILE MENU -->
-    <div id="mobilemenuwrapper">
-        <div id="menunameflex">
-            <div id="menuName">
-                <a href="index.html">
-                    <p>Setu Kathawate</p>
-                </a>
-            </div>
-            <img id="menuxicon" src="css/img/homepage2/menuxicon.svg" alt="">
-        </div>
-
-        <div id="menuline">&nbsp</div>
-
-        <ul>
-            <li><a href="index.html#projectstartsection">PROJECTS</a></li>
-            <li><a href="https://medium.com/@setumad" target="_blank">BLOG</a></li>
-            <li><a href="index.html#aboutsection">ABOUT</a></li>
-            <li><a href="Setumadhava_G_Kathawate_Resume.pdf" target="_blank">RESUME</a></li>
-        </ul>
-    </div>
-
-    <!-- MOBILE MENU END -->
-    <!-- HEADER END  -->
-</div>
 
 <article id="supercontainer">
 
+    <div id="headercontainer">
+        <!-- HEADER START  -->
+
+        <div id="header">
+            <div id="headerflex">
+                <div class="name innerpagename">
+                    <a href="index.html">
+                        <p>Setu Kathawate</p>
+                    </a>
+                </div>
+
+                <div id="navflex">
+                    <div class="navitem">
+                        <p><a href="index.html#projectstartsection">PROJECTS</a></p>
+                    </div>
+                    <div class="navitem">
+                        <p><a href="https://medium.com/@setumad" target="_blank">BLOG</a></p>
+                    </div>
+                    <div class="navitem">
+                        <p><a href="index.html#aboutsection">ABOUT</a></p>
+                    </div>
+                    <div class="navitem">
+                        <p><a href="Setumadhava_G_Kathawate_Resume.pdf" target="_blank">RESUME</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menuicon">
+            <img src="css/img/homepage2/menuicon.svg" alt="">
+        </div>
+
+        <!-- MOBILE MENU -->
+        <div id="mobilemenuwrapper">
+            <div id="menunameflex">
+                <div id="menuName">
+                    <a href="index.html">
+                        <p>Setu Kathawate</p>
+                    </a>
+                </div>
+                <img id="menuxicon" src="css/img/homepage2/menuxicon.svg" alt="">
+            </div>
+
+            <div id="menuline">&nbsp</div>
+
+            <ul>
+                <li><a href="index.html#projectstartsection">PROJECTS</a></li>
+                <li><a href="https://medium.com/@setumad" target="_blank">BLOG</a></li>
+                <li><a href="index.html#aboutsection">ABOUT</a></li>
+                <li><a href="Setumadhava_G_Kathawate_Resume.pdf" target="_blank">RESUME</a></li>
+            </ul>
+        </div>
+
+        <!-- MOBILE MENU END -->
+        <!-- HEADER END  -->
+    </div>
+
     <body>
-
-
-        <!-- ///////////////////////// HERO ///////////////////// -->
-
 
 
         <div id="herosection">
             <div class="heroflex">
                 <div id="hero_text">
-                    <div id="pp_title">Picking Priority App</div>
+                    <div id="pp_title">Trailer Unload Planner </div>
                     <div id="herotextline">&nbsp;</div>
-                    <div id="hero_desc">An app to help Home Depot’s Warehouse leaders make better decisions on where to prioritize picking based on demand and business logic.</div>
+                    <div id="hero_desc">An app to help Home Depot’s Warehouse leaders create efficient plan to unload trailers waiting in the yard based on building capacity and labor available.</div>
                 </div>
                 <div id="hero_img">
-                    <img src="css/img/thd_pp/hero_img.png">
+                    <img src="css/img/thd_up/hero_macbook.png">
                 </div>
             </div>
         </div>
 
+        <!-- ///////////////////// ROLE ///////////////// -->
 
-        <div class="passwordtext">
-            <p><i>This project is password protected. </i></p>
+        <div class="rolecontainer">
+
+            <p>This project hasn't been made public since it is currently under development. <a href="mailto:setugk8@gmail.com?subject=Access to view Unload Planner Project">Click here </a> to request access to view the project.</p>
+
         </div>
+
+        <!-- ///////////////////// ROLE END ///////////////// -->
+
+
+
 
         <!-- ///////////////////////// HERO END ///////////////////// -->
 
-        <SCRIPT>
-            function passWord() {
-                var testV = 1;
-                var pass1 = prompt('Please Enter Your Password', ' ');
-                while (testV < 3) {
-                    if (!pass1)
-                        history.go(-1);
-                    if (pass1.toLowerCase() == "letmein") {
-                        window.open('thd_picking_priority.html');
-                        break;
-                    }
-                    testV += 1;
-                    var pass1 =
-                        prompt('Access Denied - Password Incorrect, Please Try Again.', 'Password');
-                }
-                if (pass1.toLowerCase() != "password" & testV == 3)
-                    history.go(-1);
-                return " ";
-            }
-        </SCRIPT>
-        <CENTER>
-            <FORM>
-                <input type="button" value="Enter Password" onClick="passWord()">
-            </FORM>
 
-        </CENTER>
 
 
     </body>

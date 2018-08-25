@@ -73,6 +73,7 @@ body {
     height: auto;
     position: relative;
     height: 700px;
+    border-radius: 4px;
     @media #{$phablet} {
         height: 700px;
     }
