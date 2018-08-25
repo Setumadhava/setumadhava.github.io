@@ -67,19 +67,19 @@ body {
       margin: 0 auto; }
       @media (min-width: 1024px) and (max-width: 1439px) {
         #intro #factflex .factbox {
-          width: 33%;
+          width: 50%;
           padding: 0; } }
       @media (min-width: 1440px) and (max-width: 1819px) {
         #intro #factflex .factbox {
-          width: 33%;
+          width: 50%;
           padding: 0; } }
       @media (min-width: 1820px) and (max-width: 2559px) {
         #intro #factflex .factbox {
-          width: 33%;
+          width: 50%;
           padding: 0; } }
       @media (min-width: 2560px) {
         #intro #factflex .factbox {
-          width: 33%;
+          width: 50%;
           padding: 0; } }
       #intro #factflex .factbox #facttitle {
         font-size: 0.9em;
