@@ -302,6 +302,22 @@ body {
         .contentsection .sectiontitle p {
           font-size: 3.2em;
           padding-bottom: 0.75em; } }
+  .contentsection .sectioncontent .subheadaar {
+    font-family: georgia;
+    font-size: 1.2em;
+    font-weight: 600; }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .contentsection .sectioncontent .subheadaar {
+        font-size: 1.2em; } }
+    @media (min-width: 1440px) and (max-width: 1819px) {
+      .contentsection .sectioncontent .subheadaar {
+        font-size: 1.2em; } }
+    @media (min-width: 1820px) and (max-width: 2559px) {
+      .contentsection .sectioncontent .subheadaar {
+        font-size: 1.2em; } }
+    @media (min-width: 2560px) {
+      .contentsection .sectioncontent .subheadaar {
+        font-size: 1.6em; } }
   .contentsection .sectioncontent p {
     font-size: 1em;
     line-height: 1.9em; }

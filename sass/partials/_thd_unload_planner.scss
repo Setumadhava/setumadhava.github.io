@@ -357,6 +357,24 @@ body {
     }
 
     .sectioncontent {
+        .subheadaar {
+            font-family: georgia;
+            font-size: 1.2em;
+            font-weight: 600;
+            @media #{$mac13} {
+                font-size: 1.2em;
+            }
+            @media #{$mac15} {
+                font-size: 1.2em;
+            }
+            @media #{$monitor} {
+                font-size: 1.2em;
+            }
+            @media #{$fourk} {
+                font-size: 1.6em;
+            }
+        }
+
         p {
             font-size: 1em;
             line-height: 1.9em;
