@@ -110,6 +110,10 @@ body {
 
             #fact {
                 padding-top: 0.8em;
+
+                .slightlyboldtext {
+                    font-weight: 500;
+                }
                 @media #{$fourk} {
                     font-size: 1.4em;
                 }

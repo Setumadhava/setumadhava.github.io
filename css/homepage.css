@@ -92,6 +92,8 @@ body {
           padding: 0; }
       #intro #factflex .factbox #fact {
         padding-top: 0.8em; }
+        #intro #factflex .factbox #fact .slightlyboldtext {
+          font-weight: 500; }
         @media (min-width: 2560px) {
           #intro #factflex .factbox #fact {
             font-size: 1.4em; } }
