@@ -146,6 +146,18 @@ body {
   width: 100%;
   background-color: #D5D5D5; }
 
+.ndadiv {
+  width: 100%;
+  background-color: white;
+  margin: 5em 0 2em;
+  border-radius: 5px; }
+  .ndadiv p {
+    padding: 1em 2em;
+    font-size: 1em;
+    color: #7E7E7E; }
+    .ndadiv p a {
+      color: #F04B33; }
+
 .maincard {
   background-color: white;
   margin: 8em auto 0;

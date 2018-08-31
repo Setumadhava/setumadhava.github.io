@@ -185,6 +185,24 @@ body {
     background-color: $grey2;
 }
 
+.ndadiv {
+    width: 100%;
+    background-color: white;
+    // height: 50px;
+    margin: 5em 0 2em;
+    border-radius: 5px;
+
+    p {
+        padding: 1em 2em;
+        font-size: 1em;
+        color: $grey4;
+
+        a {
+            color: $setured;
+        }
+    }
+}
+
 .maincard {
     background-color: white;
     margin: 8em auto 0;
