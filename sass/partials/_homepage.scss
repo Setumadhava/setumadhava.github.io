@@ -188,9 +188,17 @@ body {
 .ndadiv {
     width: 100%;
     background-color: white;
-    // height: 50px;
+    position: relative;
     margin: 5em 0 2em;
     border-radius: 5px;
+
+    #statusbar {
+        position: absolute;
+        width: 8px;
+        background-color: $setured;
+        height: 100%;
+        border-radius: 5px 0 0 5px;
+    }
 
     p {
         padding: 1em 2em;
