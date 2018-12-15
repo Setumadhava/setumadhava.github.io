@@ -12,27 +12,31 @@ html {
 }
 ////////////// NEW HEADER ////////////////
 
-#headercontainer {
-    width: 100%;
-    margin: 0 auto 2em;
-}
-
 #header {
+    padding: 2em;
+    margin: 0 auto;
+    width: 100%;
     @media #{$phablet} {
         width: 100%;
     }
     @media #{$tablet} {
-        width: 100%;
+        padding: 2em;
     }
-    @media #{$mac13} {}
-    @media #{$mac15} {}
-    @media #{$monitor} {}
+    @media #{$mac13} {
+        max-width: 1000px;
+        padding: 2em;
+    }
+    @media #{$mac15} {
+        max-width: 1000px;
+        padding: 2em;
+    }
+    @media #{$monitor} {
+        max-width: 1000px;
+        padding: 2em;
+    }
     @media #{$fourk} {
         max-width: 1550px;
     }
-    margin: 0 auto;
-    padding-top: 2em;
-    width: 100%;
 
     #headerflex {
         @media #{$tablet} {
@@ -78,6 +82,7 @@ html {
             p {
                 font-family: georgia;
                 font-size: 1.5em;
+                margin: 0;
                 @media #{$fourk} {
                     font-size: 1.9em;
                 }
@@ -170,11 +175,11 @@ html {
     right: 0;
     z-index: 100;
     top: 0;
-    padding: 2.1em 1.1em 0 0;
+    padding: 2em 1em;
     display: block;
     position: fixed;
     @media #{$tablet} {
-        padding: 2.1em 2em 0 0;
+        padding: 2em;
     }
     @media #{$mac13} {
         display: none;
@@ -206,17 +211,10 @@ html {
     box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
 
     #menunameflex {
-        padding-top: 2em;
+        padding: 2em 0 0 1em;
         transition: 0.3s all ease-in-out;
 
         #menuName {
-            @media #{$phablet} {
-                padding-left: 0.17em;
-            }
-            @media #{$tablet} {
-                padding-left: 3.8em;
-            }
-
             a {
                 letter-spacing: normal;
                 font-size: 1.5em;
@@ -243,23 +241,15 @@ html {
     #menuline {
         height: 3px;
         background-color: black;
-        width: 90%;
         margin: 0 auto;
-        position: absolute;
-        margin-top: 1.2em;
+        width: 95%;
+        margin-top: 2em;
         transition: 0.3s all ease-in-out;
-        @media #{$tablet} {
-            margin: 1.2em 0 0 3.6em;
-            width: 85%;
-        }
     }
 
     ul {
-        padding-top: 2em;
+        padding: 1em 0;
         transition: 0.3s all ease-in-out;
-        @media #{$tablet} {
-            padding: 3em 0 0 2.5em;
-        }
 
         li {
             list-style: none;
