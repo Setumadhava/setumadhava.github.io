@@ -93,10 +93,12 @@ body {
 
             p {
                 font-family: georgia;
+                width: 180px;
                 font-size: 1.5em;
                 margin: 0;
                 @media #{$fourk} {
                     font-size: 1.9em;
+                    width: 280px;
                 }
             }
         }
@@ -235,6 +237,7 @@ body {
                 font-size: 1.5em;
 
                 p {
+                    width: 180px;
                     font-family: georgia;
                     color: black;
                 }
