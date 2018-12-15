@@ -3,16 +3,13 @@
   transition: 0.3s all ease-in-out;
   color: #414141; }
 
-#headerwrapper {
-  width: 90%; }
-
 #header {
-  padding: 2em 1em;
+  padding: 2em 0;
   margin: 0 auto;
   width: 100%; }
   @media (min-width: 768px) and (max-width: 1023px) {
     #header {
-      padding: 2em; } }
+      padding: 2em 0; } }
   @media (min-width: 1024px) and (max-width: 1439px) {
     #header {
       padding: 2em 0; } }
@@ -63,11 +60,13 @@
       transition: 0.3s all ease-in-out; }
     #header #headerflex .name p {
       font-family: georgia;
+      width: 180px;
       font-size: 1.5em;
       margin: 0; }
       @media (min-width: 2560px) {
         #header #headerflex .name p {
-          font-size: 1.9em; } }
+          font-size: 1.9em;
+          width: 280px; } }
   #header #headerflex .name:hover {
     transition: 0.3s all ease-in-out;
     color: #F04B33;
@@ -183,6 +182,7 @@
       font-size: 1.5em;
       transition: 0.3s all ease-in-out; }
       #mobilemenuwrapper #menunameflex #menuName a p {
+        width: 180px;
         font-family: georgia;
         color: black; }
     #mobilemenuwrapper #menunameflex #menuxicon {

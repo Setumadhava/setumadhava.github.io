@@ -8,16 +8,13 @@
 @media #{$monitor} {}
 @media #{$fourk} {}
 ////////////// NEW HEADER ////////////////
-#headerwrapper {
-    width: 90%;
-}
 
 #header {
-    padding: 2em 1em;
+    padding: 2em 0;
     margin: 0 auto;
     width: 100%;
     @media #{$tablet} {
-        padding: 2em;
+        padding: 2em 0;
     }
     @media #{$mac13} {
         // max-width: 1000px;
@@ -78,10 +75,12 @@
 
             p {
                 font-family: georgia;
+                width: 180px;
                 font-size: 1.5em;
                 margin: 0;
                 @media #{$fourk} {
                     font-size: 1.9em;
+                    width: 280px;
                 }
             }
         }
@@ -220,6 +219,7 @@
                 font-size: 1.5em;
 
                 p {
+                    width: 180px;
                     font-family: georgia;
                     color: black;
                 }
