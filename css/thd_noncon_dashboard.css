@@ -10,7 +10,7 @@
   @media (min-width: 767px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 1440px) {
@@ -25,7 +25,7 @@
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -69,7 +69,7 @@
     width: 80%;
     padding-top: 1em;
     display: none; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -94,7 +94,7 @@
       #header #headerflex #navflex .navitem a {
         transition: 0.3s all ease-in-out;
         color: black; }
-      @media (min-width: 1024px) {
+      @media (min-width: 1023px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       @media (min-width: 1440px) {
@@ -126,7 +126,7 @@
   @media (min-width: 767px) {
     #menuicon {
       padding: 2em; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #menuicon {
       display: none; } }
   @media (min-width: 1440px) {
@@ -204,7 +204,7 @@ p {
   @media (min-width: 767px) {
     #supercontainer {
       width: 90%; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #supercontainer {
       width: 80%; } }
   @media (min-width: 1440px) {
@@ -249,7 +249,7 @@ p {
   @media (min-width: 767px) {
     #herosection {
       height: 460px; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #herosection {
       border-radius: 15px;
       height: 550px;
@@ -268,7 +268,7 @@ p {
         #herosection #heroimg .imgdiv {
           width: 80%;
           margin: 0 auto; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       #herosection #heroimg {
         position: absolute;
         top: 15%; }
@@ -288,7 +288,7 @@ p {
     #herotitle p {
       max-width: 600px;
       font-size: 2em; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #herotitle p {
       max-width: 650px;
       font-size: 2.5em; } }
@@ -299,7 +299,7 @@ p {
   @media (min-width: 767px) {
     .sectiontitle {
       max-width: 600px; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .sectiontitle {
       max-width: 650px; } }
   .sectiontitle p {
@@ -317,7 +317,7 @@ p {
   @media (min-width: 767px) {
     .subtitle {
       max-width: 600px; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .subtitle {
       max-width: 650px; } }
   .subtitle p {
@@ -333,7 +333,7 @@ p {
   @media (min-width: 767px) {
     .contentsection {
       max-width: 600px; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .contentsection {
       max-width: 650px; } }
   .contentsection p {
@@ -350,7 +350,7 @@ p {
   @media (min-width: 767px) {
     .imgdesc p {
       max-width: 600px; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .imgdesc p {
       max-width: 1250px; } }
 
@@ -362,7 +362,7 @@ p {
   @media (min-width: 767px) {
     #emphasisflex {
       max-width: 600px; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #emphasisflex {
       max-width: 650px; } }
   #emphasisflex .empline {
@@ -396,7 +396,7 @@ p {
     @media (min-width: 767px) {
       #roleflex .roleitem {
         width: 33%; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       #roleflex .roleitem {
         width: 33%; } }
     #roleflex .roleitem .roletitle {
@@ -414,7 +414,7 @@ p {
     .findingsflex {
       max-width: 800px;
       justify-content: space-around; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .findingsflex {
       max-width: 1050px;
       justify-content: space-between; } }
@@ -423,14 +423,14 @@ p {
     padding: 1em;
     border-radius: 10px;
     margin-bottom: 2em; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       .findingsflex .findingsbox {
         width: 42%;
         margin: 2em; } }
     .findingsflex .findingsbox .findingstitle p {
       font-weight: bold; }
 
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
   .centerimg {
     max-width: 1250px;
     margin: 0 auto; } }
@@ -438,7 +438,7 @@ p {
 #footer {
   width: 85%;
   margin: 0 auto; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #footer {
       max-width: 1250px;
       margin: 0 auto; }
@@ -454,7 +454,7 @@ p {
     #header {
       max-width: 600px;
       margin: 0 auto; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #header {
       max-width: 950px;
       margin: 0 auto; } }
@@ -492,7 +492,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2em;
     justify-content: space-between; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       #footer #contactflex {
         width: 100%; } }
     #footer #contactflex .contcontent {
@@ -505,7 +505,7 @@ html {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
-      @media (min-width: 1024px) {
+      @media (min-width: 1023px) {
         #footer #contactflex .contcontent {
           width: 25%;
           padding: 2em 0; } }
@@ -649,7 +649,7 @@ html {
     @media (min-width: 767px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1440px) {
@@ -679,7 +679,7 @@ html {
     .getintouch {
       font-size: 2em;
       text-align: center; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .getintouch {
       font-size: 2em; } }
   @media (min-width: 1440px) {

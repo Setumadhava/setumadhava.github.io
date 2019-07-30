@@ -5,7 +5,7 @@
   @media (min-width: 767px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 1440px) {
@@ -23,7 +23,7 @@
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -73,7 +73,7 @@
     width: 80%;
     padding-top: 1em;
     display: none; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -104,7 +104,7 @@
       #header #headerflex #navflex .navitem a {
         transition: 0.3s all ease-in-out;
         color: black; }
-      @media (min-width: 1024px) {
+      @media (min-width: 1023px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       @media (min-width: 1440px) {
@@ -139,7 +139,7 @@
   @media (min-width: 767px) {
     #menuicon {
       padding: 2em; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #menuicon {
       display: none; } }
   @media (min-width: 1440px) {
@@ -258,7 +258,7 @@
   @media (min-width: 767px) {
     #ptitle {
       height: 700px; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     #ptitle {
       height: 600px; } }
   @media (min-width: 1440px) {
@@ -277,7 +277,7 @@
       #ptitle .logodiv {
         width: 50%;
         margin: 0 auto; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       #ptitle .logodiv {
         width: 35%;
         margin: 0 auto;
@@ -325,7 +325,7 @@
       .introcontainer #intropicdiv {
         width: 50%;
         margin: 0 auto; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       .introcontainer #intropicdiv {
         width: 50%;
         margin: 0 auto; } }
@@ -352,7 +352,7 @@
         width: 50%;
         margin: 0 auto;
         padding-left: 3em; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       .introcontainer .contentbox {
         width: 40%;
         margin: 0 auto;
@@ -391,7 +391,7 @@
       width: 100%;
       justify-content: space-around;
       margin: 0 auto; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
@@ -417,7 +417,7 @@
   .roleitem {
     width: 50%;
     margin: 2em 0; } }
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
   .roleitem {
     width: 50%;
     margin: 2em 0; } }
@@ -430,7 +430,7 @@
     .roletitle {
       width: 80%;
       margin: 0 auto; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .roletitle {
       width: 80%;
       margin: 0 auto; } }
@@ -450,7 +450,7 @@
       font-size: 1.1em;
       width: 80%;
       margin: 1em auto; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .rolebody {
       font-size: 1.1em;
       width: 80%;
@@ -476,7 +476,7 @@
   @media (min-width: 767px) {
     .imagegrpcontainer .screengrpscrollmob {
       width: 70%; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .imagegrpcontainer .screengrpscrollmob {
       width: 50%; }
       .imagegrpcontainer .screengrpscrollmob .groupimagebox {
@@ -514,7 +514,7 @@
         width: 50%;
         margin: 0 auto;
         padding-left: 3em; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       .patternscontainer .contentbox {
         width: 40%;
         margin: 0 auto;
@@ -535,7 +535,7 @@
           font-size: 1.2em; } }
     .patternscontainer .contentbox .subtitle {
       padding-bottom: 1em; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .patternscontainer .designpatternimagecontainer {
       padding: 4em 0; } }
   @media (min-width: 1440px) {
@@ -557,7 +557,7 @@
         .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox {
           width: 60%;
           padding: 4em 0; } }
-      @media (min-width: 1024px) {
+      @media (min-width: 1023px) {
         .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox {
           width: 50%; }
           .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox .patternimg {
@@ -594,7 +594,7 @@
         width: 50%;
         margin: 0 auto;
         padding-left: 3em; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       .sitemapcontainer .contentbox {
         width: 40%;
         margin: 0 auto;
@@ -622,7 +622,7 @@
     @media (min-width: 767px) {
       .sitemapcontainer .sitemapdiv {
         width: 60%; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       .sitemapcontainer .sitemapdiv {
         width: 50%; } }
     @media (min-width: 1440px) {
@@ -644,7 +644,7 @@
   padding: 4em 0; }
   .secondimagegroup img {
     width: 100%; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .secondimagegroup {
       padding: 8em 0; } }
   @media (min-width: 1440px) {
@@ -674,7 +674,7 @@
         width: 50%;
         margin: 0 auto;
         padding-left: 3em; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       .personacontainer .contentbox {
         width: 40%;
         margin: 0 auto;
@@ -696,7 +696,7 @@
   .personacontainer .personadiv {
     width: 100%;
     margin: 0 auto; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       .personacontainer .personadiv {
         width: 70%;
         margin: 0 auto;
@@ -731,7 +731,7 @@
         .evolutioncontainer .evolutionflex .evolutionimgdiv {
           width: 55%;
           margin: 0 auto; } }
-      @media (min-width: 1024px) {
+      @media (min-width: 1023px) {
         .evolutioncontainer .evolutionflex .evolutionimgdiv {
           width: 50%;
           margin: 0 auto; }
@@ -774,7 +774,7 @@
           width: 50%;
           margin: 0 auto;
           padding-left: 3em; } }
-      @media (min-width: 1024px) {
+      @media (min-width: 1023px) {
         .evolutioncontainer .evolutionflex .contentbox {
           width: 40%;
           margin: 0 auto;
@@ -801,7 +801,7 @@
       .evolutioncontainer #oldideadiv {
         width: 60%;
         margin: 0 auto; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       .evolutioncontainer #oldideadiv {
         width: 60%;
         margin: 0 auto; } }
@@ -838,7 +838,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2em;
     justify-content: space-between; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       #footer #contactflex {
         width: 100%; } }
     #footer #contactflex .contcontent {
@@ -851,7 +851,7 @@ html {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
-      @media (min-width: 1024px) {
+      @media (min-width: 1023px) {
         #footer #contactflex .contcontent {
           width: 25%;
           padding: 2em 0; } }
@@ -995,7 +995,7 @@ html {
     @media (min-width: 767px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1440px) {
@@ -1025,7 +1025,7 @@ html {
     .getintouch {
       font-size: 2em;
       text-align: center; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     .getintouch {
       font-size: 2em; } }
   @media (min-width: 1440px) {
