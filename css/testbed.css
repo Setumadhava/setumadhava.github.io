@@ -47,7 +47,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2em;
     justify-content: space-between; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       #footer #contactflex {
         width: 100%; } }
     #footer #contactflex .contcontent {
@@ -56,18 +56,18 @@ html {
       width: 90%;
       padding: 2em 0;
       transition: 0.3s all ease-in-out; }
-      @media (min-width: 768px) and (max-width: 1023px) {
+      @media (min-width: 767px) {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
-      @media (min-width: 1024px) and (max-width: 1439px) {
+      @media (min-width: 1024px) {
         #footer #contactflex .contcontent {
           width: 25%;
           padding: 2em 0; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
+      @media (min-width: 1440px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
-      @media (min-width: 1820px) and (max-width: 2559px) {
+      @media (min-width: 18200px) and (max-width: 25590px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
       @media (min-width: 2560px) {
@@ -76,7 +76,7 @@ html {
       #footer #contactflex .contcontent a {
         color: black;
         transition: 0.3s all ease-in-out; }
-        @media (min-width: 1820px) and (max-width: 2559px) {
+        @media (min-width: 18200px) and (max-width: 25590px) {
           #footer #contactflex .contcontent a {
             font-size: 1.4em; } }
         @media (min-width: 2560px) {
@@ -201,16 +201,16 @@ html {
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 2560px) {
@@ -227,20 +227,20 @@ html {
   font-size: 1.5em;
   padding: 2em 0;
   text-align: center; }
-  @media (min-width: 375px) and (max-width: 768px) {
+  @media (min-width: 0px) {
     .getintouch {
       font-size: 1.5em; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .getintouch {
       font-size: 2em;
       text-align: center; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .getintouch {
       font-size: 2em; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .getintouch {
       font-size: 2em; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .getintouch {
       font-size: 2em; } }
   @media (min-width: 2560px) {

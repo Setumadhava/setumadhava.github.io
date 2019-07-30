@@ -2,40 +2,40 @@
   padding: 2em 0;
   margin: 0 auto;
   width: 100%; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 2560px) {
     #header {
       max-width: 1550px; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -73,19 +73,19 @@
     width: 80%;
     padding-top: 1em;
     display: none; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
         padding-top: 0.7em;
         display: flex; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
         padding-top: 0.7em;
         display: flex; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -104,13 +104,13 @@
       #header #headerflex #navflex .navitem a {
         transition: 0.3s all ease-in-out;
         color: black; }
-      @media (min-width: 1024px) and (max-width: 1439px) {
+      @media (min-width: 1024px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
+      @media (min-width: 1440px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
-      @media (min-width: 1820px) and (max-width: 2559px) {
+      @media (min-width: 18200px) and (max-width: 25590px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       @media (min-width: 2560px) {
@@ -136,16 +136,16 @@
   padding: 2em 1em;
   display: block;
   position: fixed; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     #menuicon {
       padding: 2em; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     #menuicon {
       display: none; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     #menuicon {
       display: none; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     #menuicon {
       display: none; } }
   @media (min-width: 2560px) {
@@ -169,7 +169,7 @@
   #mobilemenuwrapper #menunameflex {
     padding: 2em 0 0;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #mobilemenuwrapper #menunameflex {
         padding: 2em 0 0 1em; } }
     #mobilemenuwrapper #menunameflex #menuName a {
@@ -185,7 +185,7 @@
       top: 0;
       right: 0;
       padding: 2.45em 1.5em 0 0; }
-      @media (min-width: 768px) and (max-width: 1023px) {
+      @media (min-width: 767px) {
         #mobilemenuwrapper #menunameflex #menuxicon {
           padding: 2.45em 2.4em 0 0; } }
   #mobilemenuwrapper #menuline {
@@ -195,14 +195,14 @@
     width: 100%;
     margin-top: 2em;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #mobilemenuwrapper #menuline {
         width: 95%; } }
   #mobilemenuwrapper ul {
     padding: 1em 0;
     transition: 0.3s all ease-in-out;
     margin: 0; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #mobilemenuwrapper ul {
         margin-left: 1.25em; } }
     #mobilemenuwrapper ul li {
@@ -217,7 +217,7 @@
     text-align: center;
     font-size: 2em;
     color: #033260; }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .titlebar .sectionheader {
         font-size: 3em; } }
 
@@ -228,7 +228,7 @@
 
 .container {
   padding: 4em 0; }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .container {
       max-width: 70%;
       margin: 0 auto; } }
@@ -247,19 +247,19 @@
   background-attachment: scroll;
   height: 500px;
   position: relative; }
-  @media (min-width: 375px) and (max-width: 768px) {
+  @media (min-width: 0px) {
     #ptitle {
       height: 600px; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     #ptitle {
       height: 700px; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     #ptitle {
       height: 600px; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     #ptitle {
       height: 600px; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     #ptitle {
       height: 800px; } }
   #ptitle .projecttitle {
@@ -268,16 +268,16 @@
     color: #F5F5F5;
     margin: 0 auto;
     padding-top: 2.8em; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #ptitle .projecttitle {
         font-size: 4em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       #ptitle .projecttitle {
         font-size: 4em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       #ptitle .projecttitle {
         font-size: 5em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       #ptitle .projecttitle {
         font-size: 5em; } }
   #ptitle .headintro {
@@ -289,22 +289,22 @@
     line-height: 1.5em;
     padding-top: 5em;
     padding-bottom: 1.5em; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #ptitle .headintro {
         font-size: 1.2em;
         width: 50%;
         line-height: 2.4em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       #ptitle .headintro {
         font-size: 1.2em;
         width: 40%;
         line-height: 2.4em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       #ptitle .headintro {
         font-size: 1.2em;
         width: 30%;
         line-height: 2.4em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       #ptitle .headintro {
         font-size: 1.5em;
         width: 30%;
@@ -324,16 +324,16 @@
   padding: 3em 0; }
   .introcontentcenter p {
     line-height: 2em; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .introcontentcenter {
       width: 70%; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .introcontentcenter {
       width: 60%; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .introcontentcenter {
       width: 40%; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .introcontentcenter {
       width: 40%; } }
 
@@ -348,22 +348,22 @@
     .contentbox .introcontent p {
       line-height: 2em;
       font-weight: 600; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .contentbox .introcontent {
         width: 65%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .contentbox .introcontent {
         width: 50%; }
         .contentbox .introcontent p {
           padding: 8em 3em;
           font-size: 1.1em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .contentbox .introcontent {
         width: 50%; }
         .contentbox .introcontent p {
           padding: 7em 5em;
           font-size: 1.2em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .contentbox .introcontent {
         width: 50%; }
         .contentbox .introcontent p {
@@ -375,22 +375,22 @@
     padding: 4em 0; }
     .contentbox #intropicdiv #intro_pic {
       width: 100%; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .contentbox #intropicdiv {
         width: 70%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .contentbox #intropicdiv {
         width: 50%; }
         .contentbox #intropicdiv .introbox {
           width: 90%;
           margin: 0 auto; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .contentbox #intropicdiv {
         width: 50%; }
         .contentbox #intropicdiv .introbox {
           width: 70%;
           margin: 0 auto; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .contentbox #intropicdiv {
         width: 50%; }
         .contentbox #intropicdiv .introbox {
@@ -403,26 +403,26 @@
   flex-wrap: wrap; }
   .processflex .subtitle {
     padding-bottom: 1em; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .processflex .subtitle {
         padding: 0; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .processflex .subtitle {
         padding: 0; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .processflex .subtitle {
         padding: 0; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .processflex .subtitle {
         padding: 0; } }
   .processflex .processitem {
     width: 90%;
     margin: 0 auto;
     padding: 2em 0; }
-    @media (min-width: 375px) and (max-width: 768px) {
+    @media (min-width: 0px) {
       .processflex .processitem {
         padding: 2em; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .processflex .processitem {
         width: 70%; }
         .processflex .processitem .processbox {
@@ -438,7 +438,7 @@
             display: flex; }
             .processflex .processitem .processbox .processcontent1 p {
               padding: 1em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .processflex .processitem {
         width: 51%; }
         .processflex .processitem .processbox {
@@ -454,7 +454,7 @@
             display: flex; }
             .processflex .processitem .processbox .processcontent1 p {
               padding: 1em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .processflex .processitem {
         width: 33%;
         padding: 6em 0 0 8em; }
@@ -466,7 +466,7 @@
             padding: 0 1em; }
           .processflex .processitem .processcontent1 #researchtext {
             padding-left: 0; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .processflex .processitem {
         width: 33%;
         padding: 6em 0 0 8em; }
@@ -483,23 +483,23 @@
   width: 90%;
   margin: 0 auto;
   padding: 4em 0; }
-  @media (min-width: 375px) and (max-width: 768px) {
+  @media (min-width: 0px) {
     .problemcontainer .contentbox {
       width: 75%;
       margin: 0 auto; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .problemcontainer .contentbox {
       width: 50%;
       margin: 0 auto; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .problemcontainer .contentbox {
       width: 40%;
       margin: 0 auto; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .problemcontainer .contentbox {
       width: 30%;
       margin: 0 auto; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .problemcontainer .contentbox {
       width: 35%;
       margin: 0 auto; } }
@@ -512,21 +512,21 @@
     width: 80%;
     margin: 0 auto;
     padding-bottom: 6em; }
-    @media (min-width: 375px) and (max-width: 768px) {
+    @media (min-width: 0px) {
       .problemcontainer .existingproblems .probpicdiv {
         width: 65%; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .problemcontainer .existingproblems .probpicdiv {
         width: 35%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .problemcontainer .existingproblems .probpicdiv {
         width: 28%;
         padding: 4em 0 6em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .problemcontainer .existingproblems .probpicdiv {
         width: 18%;
         padding: 4em 0 6em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .problemcontainer .existingproblems .probpicdiv {
         width: 25%;
         padding: 4em 0 6em; } }
@@ -539,38 +539,38 @@
     margin: 0 auto; }
     .proposedcontainerr .contentbox p {
       line-height: 2em; }
-    @media (min-width: 375px) and (max-width: 768px) {
+    @media (min-width: 0px) {
       .proposedcontainerr .contentbox {
         width: 75%;
         margin: 0 auto; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .proposedcontainerr .contentbox {
         width: 60%;
         margin: 0 auto; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .proposedcontainerr .contentbox {
         width: 40%;
         margin: 0 auto; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .proposedcontainerr .contentbox {
         width: 30%;
         margin: 0 auto; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .proposedcontainerr .contentbox {
         width: 35%;
         margin: 0 auto; } }
   .proposedcontainerr #finaldesigndiv {
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .proposedcontainerr #finaldesigndiv {
         width: 70%;
         margin: 0 auto; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .proposedcontainerr #finaldesigndiv {
         width: 60%;
         margin: 0 auto; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .proposedcontainerr #finaldesigndiv {
         width: 50%;
         margin: 0 auto; } }
@@ -581,23 +581,23 @@
   margin: 0 auto; }
   .researchcontainer .contentbox p {
     line-height: 2em; }
-  @media (min-width: 375px) and (max-width: 768px) {
+  @media (min-width: 0px) {
     .researchcontainer .contentbox {
       width: 75%;
       margin: 0 auto; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .researchcontainer .contentbox {
       width: 60%;
       margin: 0 auto; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .researchcontainer .contentbox {
       width: 40%;
       margin: 0 auto; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .researchcontainer .contentbox {
       width: 30%;
       margin: 0 auto; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .researchcontainer .contentbox {
       width: 35%;
       margin: 0 auto; } }
@@ -605,11 +605,11 @@
   width: 90%;
   margin: 0 auto;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .researchcontainer #companalysis {
       width: 70%;
       margin: 0 auto; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .researchcontainer #companalysis {
       width: 75%;
       margin: 0 auto; } }
@@ -622,14 +622,14 @@
   padding: 2em 0; }
   .ideationcontainer .freemancontainer #freeman {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .ideationcontainer .freemancontainer {
       margin: 4em auto; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .ideationcontainer .freemancontainer {
       width: 70%;
       padding: 4em 0; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .ideationcontainer .freemancontainer {
       width: 70%;
       padding: 4em 0; } }
@@ -638,20 +638,20 @@
   margin: 0 auto; }
   .ideationcontainer .earlydesigns .variantpicdiv1 {
     padding: 4em 0; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .ideationcontainer .earlydesigns {
       width: 70%; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .ideationcontainer .earlydesigns {
       width: 60%; }
       .ideationcontainer .earlydesigns .variantpicdiv1 {
         padding: 6em 0; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .ideationcontainer .earlydesigns {
       width: 45%; }
       .ideationcontainer .earlydesigns .variantpicdiv1 {
         padding: 8em 0; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .ideationcontainer .earlydesigns {
       width: 50%; }
       .ideationcontainer .earlydesigns .variantpicdiv1 {
@@ -660,25 +660,25 @@
 .takeawaycontainer .contentbox {
   width: 90%;
   margin: 0 auto; }
-  @media (min-width: 375px) and (max-width: 768px) {
+  @media (min-width: 0px) {
     .takeawaycontainer .contentbox {
       width: 75%;
       margin: 0 auto; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .takeawaycontainer .contentbox {
       width: 60%;
       margin: 0 auto; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .takeawaycontainer .contentbox {
       width: 40%;
       margin: 0 auto;
       padding: 2em 0; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .takeawaycontainer .contentbox {
       width: 30%;
       margin: 0 auto;
       padding: 4em 0; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .takeawaycontainer .contentbox {
       width: 35%;
       margin: 0 auto;
@@ -706,7 +706,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2em;
     justify-content: space-between; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       #footer #contactflex {
         width: 100%; } }
     #footer #contactflex .contcontent {
@@ -715,18 +715,18 @@ html {
       width: 90%;
       padding: 2em 0;
       transition: 0.3s all ease-in-out; }
-      @media (min-width: 768px) and (max-width: 1023px) {
+      @media (min-width: 767px) {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
-      @media (min-width: 1024px) and (max-width: 1439px) {
+      @media (min-width: 1024px) {
         #footer #contactflex .contcontent {
           width: 25%;
           padding: 2em 0; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
+      @media (min-width: 1440px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
-      @media (min-width: 1820px) and (max-width: 2559px) {
+      @media (min-width: 18200px) and (max-width: 25590px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
       @media (min-width: 2560px) {
@@ -735,7 +735,7 @@ html {
       #footer #contactflex .contcontent a {
         color: black;
         transition: 0.3s all ease-in-out; }
-        @media (min-width: 1820px) and (max-width: 2559px) {
+        @media (min-width: 18200px) and (max-width: 25590px) {
           #footer #contactflex .contcontent a {
             font-size: 1.4em; } }
         @media (min-width: 2560px) {
@@ -860,16 +860,16 @@ html {
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 2560px) {
@@ -886,20 +886,20 @@ html {
   font-size: 1.5em;
   padding: 2em 0;
   text-align: center; }
-  @media (min-width: 375px) and (max-width: 768px) {
+  @media (min-width: 0px) {
     .getintouch {
       font-size: 1.5em; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .getintouch {
       font-size: 2em;
       text-align: center; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .getintouch {
       font-size: 2em; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .getintouch {
       font-size: 2em; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .getintouch {
       font-size: 2em; } }
   @media (min-width: 2560px) {

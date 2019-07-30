@@ -20,10 +20,9 @@
         // max-width: 1000px;
         padding: 2em 0;
     }
-    @media #{$monitor} {
-        // max-width: 1000px;
-        padding: 2em 0;
-    }
+    // @media #{$monitor} {
+    //     padding: 2em 0;
+    // }
     @media #{$fourk} {
         max-width: 1550px;
     }
@@ -47,12 +46,12 @@
             justify-content: space-between;
             position: relative;
         }
-        @media #{$monitor} {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            position: relative;
-        }
+        // @media #{$monitor} {
+        //     display: flex;
+        //     flex-wrap: wrap;
+        //     justify-content: space-between;
+        //     position: relative;
+        // }
         @media #{$fourk} {
             display: flex;
             flex-wrap: wrap;
@@ -108,12 +107,12 @@
                 padding-top: 0.7em;
                 display: flex;
             }
-            @media #{$monitor} {
-                width: 40%;
-                justify-content: space-between;
-                padding-top: 0.7em;
-                display: flex;
-            }
+            // @media #{$monitor} {
+            //     width: 40%;
+            //     justify-content: space-between;
+            //     padding-top: 0.7em;
+            //     display: flex;
+            // }
             @media #{$fourk} {
                 width: 40%;
                 justify-content: space-between;
@@ -134,9 +133,9 @@
                 @media #{$mac15} {
                     text-align: right;
                 }
-                @media #{$monitor} {
-                    text-align: right;
-                }
+                // @media #{$monitor} {
+                //     text-align: right;
+                // }
                 @media #{$fourk} {
                     text-align: right;
                     font-size: 1.4em;
@@ -179,9 +178,9 @@
     @media #{$mac15} {
         display: none;
     }
-    @media #{$monitor} {
-        display: none;
-    }
+    // @media #{$monitor} {
+    //     display: none;
+    // }
     @media #{$fourk} {
         display: none;
     }
@@ -273,8 +272,8 @@ p {
 @media #{$tablet} {}
 @media #{$mac13} {}
 @media #{$mac15} {}
-@media #{$monitor} {}
-@media #{$fourk} {}
+// @media #{$monitor} {}
+// @media #{$fourk} {}
 
 #supercontainer {
     width: 90%;
@@ -287,9 +286,9 @@ p {
     @media #{$mac15} {
         width: 80%;
     }
-    @media #{$monitor} {
-        width: 70%;
-    }
+    // @media #{$monitor} {
+    //     width: 70%;
+    // }
     @media #{$fourk} {
         width: 60%;
     }
@@ -326,7 +325,6 @@ p {
 ////////////////////////////////////////////////////////////////////
 
 #herosection {
-    height: 500px;
     // background-color: #A2E3B3;
     background-image: url("img/thd_ncv/hero-bg-green.svg");
     display: block;
@@ -335,58 +333,115 @@ p {
     background-repeat: no-repeat;
     background-attachment: scroll;
     position: relative;
-    border-radius: 15px;
+    border-radius: 0;
     margin: 0 auto;
+    height: 350px;
+    @media #{$tablet} {
+        height: 460px;
+    }
+    @media #{$mac13} {
+        border-radius: 15px;
+        height: 550px;
+        max-width: 950px;
+    }
 
     #heroimg {
-        width: 60%;
         position: absolute;
-        top: 10%;
-        transform: translateX(35%);
+        top: 25%;
+        transform: translateX(0%);
+
+        .imgdiv {
+            width: 90%;
+            margin: 0 auto;
+        }
+        @media #{$tablet} {
+            .imgdiv {
+                width: 80%;
+                margin: 0 auto;
+            }
+            position: absolute;
+            top: 15%;
+        }
+        @media #{$mac13} {
+            .imgdiv {
+                width: 70%;
+                margin: 0 auto;
+            }
+            position: absolute;
+            top: 15%;
+        }
     }
 }
 
 #herotitle {
     p {
         font-weight: 600;
-        font-size: 2.5em;
+        font-size: 1.6em;
         padding-top: 1em;
-        width: 60%;
+        width: 85%;
         margin: 0 auto;
         font-family: $poppins;
         letter-spacing: 2px;
+        @media #{$tablet} {
+            max-width: 600px;
+            font-size: 2em;
+        }
+        @media #{$mac13} {
+            max-width: 650px;
+            font-size: 2.5em;
+        }
     }
 }
 
 .sectiontitle {
-    width: 60%;
+    width: 85%;
     margin: 0 auto;
-    max-width: 650px;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
 
     p {
+        font-size: 1.4em;
         font-weight: 500;
-        font-size: 1.8em;
         font-family: $poppins;
         letter-spacing: 2px;
+        @media #{$tablet} {
+            font-size: 1.8em;
+        }
     }
 }
 
 .subtitle {
-    width: 60%;
+    width: 85%;
     margin: 0 auto;
-    max-width: 650px;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
 
     p {
-        font-weight: 800;
         font-size: 1.1em;
+        font-weight: 800;
         font-family: $ubuntu;
+        letter-spacing: 2px;
     }
 }
 
 .contentsection {
-    width: 60%;
+    width: 85%;
     max-width: 650px;
     margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
 
     p {
         font-size: 18px;
@@ -396,42 +451,32 @@ p {
 
 .imgdesc {
     p {
+        width: 85%;
+        margin: 0 auto;
         font-style: italic;
         text-align: center;
         color: $grey4;
         font-family: $ubuntu;
-    }
-}
-
-#roleflex {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: $grey1;
-    border-radius: 10px;
-    // justify-content: space-around;
-    width: 75%;
-    max-width: 950px;
-    margin: 0 auto;
-
-    .roleitem {
-        width: 33%;
-        padding: 2em;
-
-        .roletitle {
-            font-size: 0.8em;
+        @media #{$tablet} {
+            max-width: 600px;
         }
-
-        .rolecontent {
-            font-size: 1.1em;
+        @media #{$mac13} {
+            max-width: 1250px;
         }
     }
 }
 
 #emphasisflex {
     display: flex;
-    width: 60%;
+    width: 85%;
     margin: 0 auto;
     max-width: 800px;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
 
     .empline {
         width: 27%;
@@ -444,9 +489,43 @@ p {
         margin: 0.5em 0 0 2em;
 
         p {
-            font-size: 2em;
+            font-size: 1.6em;
             font-weight: 200;
             color: $thdorange;
+            @media #{$tablet} {
+                font-size: 2em;
+            }
+        }
+    }
+}
+
+#roleflex {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $grey1;
+    border-radius: 10px;
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 950px;
+    }
+
+    .roleitem {
+        width: 100%;
+        padding: 2em;
+        @media #{$tablet} {
+            width: 33%;
+        }
+        @media #{$mac13} {
+            width: 33%;
+        }
+
+        .roletitle {
+            font-size: 0.8em;
+        }
+
+        .rolecontent {
+            font-size: 1.1em;
         }
     }
 }
@@ -454,21 +533,85 @@ p {
 .findingsflex {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
     margin: 0 auto;
     justify-content: center;
+    width: 85%;
+    @media #{$tablet} {
+        max-width: 800px;
+        justify-content: space-around;
+    }
+    @media #{$mac13} {
+        max-width: 1050px;
+        justify-content: space-between;
+    }
 
     .findingsbox {
         background-color: $grey1;
-        width: 40%;
         padding: 1em;
         border-radius: 10px;
-        margin: 2em;
+        margin-bottom: 2em;
+        @media #{$mac13} {
+            width: 42%;
+            margin: 2em;
+        }
 
         .findingstitle {
             p {
                 font-weight: bold;
             }
+        }
+    }
+}
+
+.centerimg {
+    @media #{$mac13} {
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+}
+
+#footer {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$mac13} {
+        max-width: 1250px;
+        margin: 0 auto;
+
+        #hello {
+            margin-left: 1em;
+        }
+
+        #contactflex {
+            margin-left: 3em;
+        }
+    }
+}
+
+#header {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    @media #{$mac13} {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+}
+
+#mobilemenuwrapper {
+    #menuName {
+        margin-left: 0.5em;
+        @media #{$tablet} {
+            margin-left: 3.25em;
+        }
+    }
+
+    ul {
+        margin-left: 0.5em;
+        @media #{$tablet} {
+            margin-left: 4.25em;
         }
     }
 }

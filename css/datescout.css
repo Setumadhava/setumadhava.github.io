@@ -2,40 +2,40 @@
   padding: 2em 0;
   margin: 0 auto;
   width: 100%; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 2560px) {
     #header {
       max-width: 1550px; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -73,19 +73,19 @@
     width: 80%;
     padding-top: 1em;
     display: none; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
         padding-top: 0.7em;
         display: flex; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
         padding-top: 0.7em;
         display: flex; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -104,13 +104,13 @@
       #header #headerflex #navflex .navitem a {
         transition: 0.3s all ease-in-out;
         color: black; }
-      @media (min-width: 1024px) and (max-width: 1439px) {
+      @media (min-width: 1024px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
+      @media (min-width: 1440px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
-      @media (min-width: 1820px) and (max-width: 2559px) {
+      @media (min-width: 18200px) and (max-width: 25590px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       @media (min-width: 2560px) {
@@ -136,16 +136,16 @@
   padding: 2em 1em;
   display: block;
   position: fixed; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     #menuicon {
       padding: 2em; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     #menuicon {
       display: none; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     #menuicon {
       display: none; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     #menuicon {
       display: none; } }
   @media (min-width: 2560px) {
@@ -169,7 +169,7 @@
   #mobilemenuwrapper #menunameflex {
     padding: 2em 0 0;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #mobilemenuwrapper #menunameflex {
         padding: 2em 0 0 1em; } }
     #mobilemenuwrapper #menunameflex #menuName a {
@@ -185,7 +185,7 @@
       top: 0;
       right: 0;
       padding: 2.45em 1.5em 0 0; }
-      @media (min-width: 768px) and (max-width: 1023px) {
+      @media (min-width: 767px) {
         #mobilemenuwrapper #menunameflex #menuxicon {
           padding: 2.45em 2.4em 0 0; } }
   #mobilemenuwrapper #menuline {
@@ -195,14 +195,14 @@
     width: 100%;
     margin-top: 2em;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #mobilemenuwrapper #menuline {
         width: 95%; } }
   #mobilemenuwrapper ul {
     padding: 1em 0;
     transition: 0.3s all ease-in-out;
     margin: 0; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #mobilemenuwrapper ul {
         margin-left: 1.25em; } }
     #mobilemenuwrapper ul li {
@@ -217,7 +217,7 @@
     text-align: center;
     font-size: 2em;
     color: #FF0068; }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .titlebar .sectionheader {
         font-size: 3em; } }
 
@@ -232,7 +232,7 @@
 
 .container {
   padding: 4em 0; }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .container {
       max-width: 70%;
       margin: 0 auto; } }
@@ -252,19 +252,19 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   height: 500px; }
-  @media (min-width: 375px) and (max-width: 768px) {
+  @media (min-width: 0px) {
     #ptitle {
       height: 600px; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     #ptitle {
       height: 700px; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     #ptitle {
       height: 600px; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     #ptitle {
       height: 600px; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     #ptitle {
       height: 800px; } }
   #ptitle .logodiv {
@@ -273,21 +273,21 @@
     margin: 0 auto; }
     #ptitle .logodiv img {
       width: 100%; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #ptitle .logodiv {
         width: 50%;
         margin: 0 auto; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       #ptitle .logodiv {
         width: 35%;
         margin: 0 auto;
         padding-top: 13em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       #ptitle .logodiv {
         width: 30%;
         margin: 0 auto;
         padding-top: 15em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       #ptitle .logodiv {
         padding-top: 20em;
         width: 25%;
@@ -299,14 +299,14 @@
     margin: 0 auto;
     padding-top: 4em;
     font-size: 1.2em; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #ptitle .headintro {
         width: 40%;
         font-size: 1.4em; } }
 
 .introcontainer {
   padding: 4em 0; }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .introcontainer {
       width: 70%;
       margin: 0 auto; } }
@@ -314,26 +314,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .introcontainer .introbox {
         width: 90%;
         margin: 0 auto; } }
   .introcontainer #intropicdiv {
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .introcontainer #intropicdiv {
         width: 50%;
         margin: 0 auto; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .introcontainer #intropicdiv {
         width: 50%;
         margin: 0 auto; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .introcontainer #intropicdiv {
         width: 35%;
         margin: 0 auto; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .introcontainer #intropicdiv {
         width: 40%;
         margin: 0 auto; } }
@@ -343,28 +343,28 @@
     width: 90%;
     margin: 0 auto;
     padding: 4em 0; }
-    @media (min-width: 375px) and (max-width: 768px) {
+    @media (min-width: 0px) {
       .introcontainer .contentbox {
         width: 75%;
         margin: 0 auto; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .introcontainer .contentbox {
         width: 50%;
         margin: 0 auto;
         padding-left: 3em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .introcontainer .contentbox {
         width: 40%;
         margin: 0 auto;
         padding: 5em 0 0 3em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .introcontainer .contentbox {
         width: 30%;
         padding: 6em 0 0 3em;
         margin: 0 auto; }
         .introcontainer .contentbox p {
           font-size: 1.2em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .introcontainer .contentbox {
         width: 35%;
         margin: 0 auto;
@@ -381,31 +381,31 @@
 
 .roleflex {
   padding: 2em 0 4em 1em; }
-  @media (min-width: 375px) and (max-width: 768px) {
+  @media (min-width: 0px) {
     .roleflex {
       padding: 2em 0 4em 2em; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
       justify-content: space-around;
       margin: 0 auto; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
       justify-content: space-around;
       margin: 0 auto; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
       justify-content: space-around;
       margin: 0 auto; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
@@ -413,11 +413,11 @@
       justify-content: space-around;
       margin: 0 auto; } }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 767px) {
   .roleitem {
     width: 50%;
     margin: 2em 0; } }
-@media (min-width: 1024px) and (max-width: 1439px) {
+@media (min-width: 1024px) {
   .roleitem {
     width: 50%;
     margin: 2em 0; } }
@@ -426,18 +426,18 @@
   color: #BCBCBC;
   padding-top: 2em;
   font-weight: 600; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .roletitle {
       width: 80%;
       margin: 0 auto; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .roletitle {
       width: 80%;
       margin: 0 auto; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .roletitle {
       width: 80%; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .roletitle {
       width: 80%; } }
 
@@ -445,22 +445,22 @@
   color: #ECECEC;
   font-size: 1.1em;
   width: 90%; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .rolebody {
       font-size: 1.1em;
       width: 80%;
       margin: 1em auto; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .rolebody {
       font-size: 1.1em;
       width: 80%;
       margin: 1em auto; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .rolebody {
       font-size: 1.1em;
       width: 100%;
       margin: 1em auto; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .rolebody {
       font-size: 1.1em;
       width: 100%;
@@ -473,22 +473,22 @@
   width: 90%;
   margin: 0 auto;
   padding: 4em 0; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .imagegrpcontainer .screengrpscrollmob {
       width: 70%; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .imagegrpcontainer .screengrpscrollmob {
       width: 50%; }
       .imagegrpcontainer .screengrpscrollmob .groupimagebox {
         width: 80%;
         margin: 0 auto; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .imagegrpcontainer .screengrpscrollmob {
       width: 50%; }
       .imagegrpcontainer .screengrpscrollmob .groupimagebox {
         width: 70%;
         margin: 0 auto; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .imagegrpcontainer .screengrpscrollmob {
       width: 50%; }
       .imagegrpcontainer .screengrpscrollmob .groupimagebox {
@@ -497,7 +497,7 @@
 
 .patternscontainer {
   padding: 4em 0; }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .patternscontainer {
       width: 70%;
       margin: 0 auto; } }
@@ -505,28 +505,28 @@
     width: 90%;
     margin: 0 auto;
     padding: 4em 0; }
-    @media (min-width: 375px) and (max-width: 768px) {
+    @media (min-width: 0px) {
       .patternscontainer .contentbox {
         width: 75%;
         margin: 0 auto; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .patternscontainer .contentbox {
         width: 50%;
         margin: 0 auto;
         padding-left: 3em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .patternscontainer .contentbox {
         width: 40%;
         margin: 0 auto;
         padding: 5em 0 0 3em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .patternscontainer .contentbox {
         width: 30%;
         padding: 6em 0 0 3em;
         margin: 0 auto; }
         .patternscontainer .contentbox p {
           font-size: 1.2em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .patternscontainer .contentbox {
         width: 35%;
         margin: 0 auto;
@@ -535,13 +535,13 @@
           font-size: 1.2em; } }
     .patternscontainer .contentbox .subtitle {
       padding-bottom: 1em; }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .patternscontainer .designpatternimagecontainer {
       padding: 4em 0; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .patternscontainer .designpatternimagecontainer {
       padding: 4em 0; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .patternscontainer .designpatternimagecontainer {
       padding: 6em 0; } }
   .patternscontainer .designpatternimagecontainer .patternflex {
@@ -553,25 +553,25 @@
       padding: 2em 0; }
       .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox img {
         width: 100%; }
-      @media (min-width: 768px) and (max-width: 1023px) {
+      @media (min-width: 767px) {
         .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox {
           width: 60%;
           padding: 4em 0; } }
-      @media (min-width: 1024px) and (max-width: 1439px) {
+      @media (min-width: 1024px) {
         .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox {
           width: 50%; }
           .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox .patternimg {
             width: 70%;
             margin: 0 auto;
             padding: 2em 0; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
+      @media (min-width: 1440px) {
         .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox {
           width: 50%; }
           .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox .patternimg {
             width: 70%;
             margin: 0 auto;
             padding: 4em 0; } }
-      @media (min-width: 1820px) and (max-width: 2559px) {
+      @media (min-width: 18200px) and (max-width: 25590px) {
         .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox {
           width: 50%; }
           .patternscontainer .designpatternimagecontainer .patternflex .designpatternbox .patternimg {
@@ -585,28 +585,28 @@
     width: 90%;
     margin: 0 auto;
     padding: 4em 0; }
-    @media (min-width: 375px) and (max-width: 768px) {
+    @media (min-width: 0px) {
       .sitemapcontainer .contentbox {
         width: 75%;
         margin: 0 auto; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .sitemapcontainer .contentbox {
         width: 50%;
         margin: 0 auto;
         padding-left: 3em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .sitemapcontainer .contentbox {
         width: 40%;
         margin: 0 auto;
         padding: 5em 0 0 3em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .sitemapcontainer .contentbox {
         width: 30%;
         padding: 6em 0 0 3em;
         margin: 0 auto; }
         .sitemapcontainer .contentbox p {
           font-size: 1.2em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .sitemapcontainer .contentbox {
         width: 35%;
         margin: 0 auto;
@@ -619,21 +619,21 @@
     padding: 4em 0;
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .sitemapcontainer .sitemapdiv {
         width: 60%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .sitemapcontainer .sitemapdiv {
         width: 50%; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .sitemapcontainer .sitemapdiv {
         width: 35%; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .sitemapcontainer .sitemapdiv {
         width: 30%;
         padding: 4em 0; } }
 
-@media (min-width: 1820px) and (max-width: 2559px) {
+@media (min-width: 18200px) and (max-width: 25590px) {
   .slantimagecontainer {
     width: 70%;
     margin: 0 auto; } }
@@ -644,20 +644,20 @@
   padding: 4em 0; }
   .secondimagegroup img {
     width: 100%; }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .secondimagegroup {
       padding: 8em 0; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .secondimagegroup {
       padding: 8em 0; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .secondimagegroup {
       padding: 8em 0;
       width: 90%; } }
 
 .personacontainer {
   padding: 4em 0; }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .personacontainer {
       width: 70%;
       margin: 0 auto; } }
@@ -665,28 +665,28 @@
     width: 90%;
     margin: 0 auto;
     padding: 4em 0; }
-    @media (min-width: 375px) and (max-width: 768px) {
+    @media (min-width: 0px) {
       .personacontainer .contentbox {
         width: 75%;
         margin: 0 auto; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .personacontainer .contentbox {
         width: 50%;
         margin: 0 auto;
         padding-left: 3em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .personacontainer .contentbox {
         width: 40%;
         margin: 0 auto;
         padding: 5em 0 0 3em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .personacontainer .contentbox {
         width: 30%;
         padding: 6em 0 0 3em;
         margin: 0 auto; }
         .personacontainer .contentbox p {
           font-size: 1.2em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .personacontainer .contentbox {
         width: 35%;
         margin: 0 auto;
@@ -696,17 +696,17 @@
   .personacontainer .personadiv {
     width: 100%;
     margin: 0 auto; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .personacontainer .personadiv {
         width: 70%;
         margin: 0 auto;
         padding: 4em 0; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .personacontainer .personadiv {
         width: 70%;
         margin: 0 auto;
         padding: 4em 0; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .personacontainer .personadiv {
         width: 70%;
         margin: 0 auto;
@@ -714,7 +714,7 @@
 
 .evolutioncontainer {
   padding: 4em 0; }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .evolutioncontainer {
       width: 70%;
       margin: 0 auto; } }
@@ -727,11 +727,11 @@
       position: relative; }
       .evolutioncontainer .evolutionflex .evolutionimgdiv img {
         width: 100%; }
-      @media (min-width: 768px) and (max-width: 1023px) {
+      @media (min-width: 767px) {
         .evolutioncontainer .evolutionflex .evolutionimgdiv {
           width: 55%;
           margin: 0 auto; } }
-      @media (min-width: 1024px) and (max-width: 1439px) {
+      @media (min-width: 1024px) {
         .evolutioncontainer .evolutionflex .evolutionimgdiv {
           width: 50%;
           margin: 0 auto; }
@@ -741,7 +741,7 @@
             top: 50%;
             left: 50%;
             transform: translateX(-50%); } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
+      @media (min-width: 1440px) {
         .evolutioncontainer .evolutionflex .evolutionimgdiv {
           width: 50%;
           margin: 0 auto; }
@@ -751,7 +751,7 @@
             top: 50%;
             left: 50%;
             transform: translateX(-50%); } }
-      @media (min-width: 1820px) and (max-width: 2559px) {
+      @media (min-width: 18200px) and (max-width: 25590px) {
         .evolutioncontainer .evolutionflex .evolutionimgdiv {
           width: 50%;
           margin: 0 auto; }
@@ -765,28 +765,28 @@
       width: 90%;
       margin: 0 auto;
       padding: 4em 0; }
-      @media (min-width: 375px) and (max-width: 768px) {
+      @media (min-width: 0px) {
         .evolutioncontainer .evolutionflex .contentbox {
           width: 75%;
           margin: 0 auto; } }
-      @media (min-width: 768px) and (max-width: 1023px) {
+      @media (min-width: 767px) {
         .evolutioncontainer .evolutionflex .contentbox {
           width: 50%;
           margin: 0 auto;
           padding-left: 3em; } }
-      @media (min-width: 1024px) and (max-width: 1439px) {
+      @media (min-width: 1024px) {
         .evolutioncontainer .evolutionflex .contentbox {
           width: 40%;
           margin: 0 auto;
           padding: 5em 0 0 3em; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
+      @media (min-width: 1440px) {
         .evolutioncontainer .evolutionflex .contentbox {
           width: 30%;
           padding: 6em 0 0 3em;
           margin: 0 auto; }
           .evolutioncontainer .evolutionflex .contentbox p {
             font-size: 1.2em; } }
-      @media (min-width: 1820px) and (max-width: 2559px) {
+      @media (min-width: 18200px) and (max-width: 25590px) {
         .evolutioncontainer .evolutionflex .contentbox {
           width: 35%;
           margin: 0 auto;
@@ -797,20 +797,20 @@
     width: 90%;
     padding: 4em 0;
     margin: 0 auto; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .evolutioncontainer #oldideadiv {
         width: 60%;
         margin: 0 auto; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .evolutioncontainer #oldideadiv {
         width: 60%;
         margin: 0 auto; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .evolutioncontainer #oldideadiv {
         width: 40%;
         margin: 0 auto;
         padding: 8em 0; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .evolutioncontainer #oldideadiv {
         width: 50%;
         margin: 0 auto;
@@ -838,7 +838,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2em;
     justify-content: space-between; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       #footer #contactflex {
         width: 100%; } }
     #footer #contactflex .contcontent {
@@ -847,18 +847,18 @@ html {
       width: 90%;
       padding: 2em 0;
       transition: 0.3s all ease-in-out; }
-      @media (min-width: 768px) and (max-width: 1023px) {
+      @media (min-width: 767px) {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
-      @media (min-width: 1024px) and (max-width: 1439px) {
+      @media (min-width: 1024px) {
         #footer #contactflex .contcontent {
           width: 25%;
           padding: 2em 0; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
+      @media (min-width: 1440px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
-      @media (min-width: 1820px) and (max-width: 2559px) {
+      @media (min-width: 18200px) and (max-width: 25590px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
       @media (min-width: 2560px) {
@@ -867,7 +867,7 @@ html {
       #footer #contactflex .contcontent a {
         color: black;
         transition: 0.3s all ease-in-out; }
-        @media (min-width: 1820px) and (max-width: 2559px) {
+        @media (min-width: 18200px) and (max-width: 25590px) {
           #footer #contactflex .contcontent a {
             font-size: 1.4em; } }
         @media (min-width: 2560px) {
@@ -992,16 +992,16 @@ html {
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 2560px) {
@@ -1018,20 +1018,20 @@ html {
   font-size: 1.5em;
   padding: 2em 0;
   text-align: center; }
-  @media (min-width: 375px) and (max-width: 768px) {
+  @media (min-width: 0px) {
     .getintouch {
       font-size: 1.5em; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .getintouch {
       font-size: 2em;
       text-align: center; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .getintouch {
       font-size: 2em; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .getintouch {
       font-size: 2em; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .getintouch {
       font-size: 2em; } }
   @media (min-width: 2560px) {

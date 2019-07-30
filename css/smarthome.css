@@ -2,40 +2,40 @@
   padding: 2em 0;
   margin: 0 auto;
   width: 100%; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 2560px) {
     #header {
       max-width: 1550px; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -73,19 +73,19 @@
     width: 80%;
     padding-top: 1em;
     display: none; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
         padding-top: 0.7em;
         display: flex; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
         padding-top: 0.7em;
         display: flex; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -104,13 +104,13 @@
       #header #headerflex #navflex .navitem a {
         transition: 0.3s all ease-in-out;
         color: black; }
-      @media (min-width: 1024px) and (max-width: 1439px) {
+      @media (min-width: 1024px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
+      @media (min-width: 1440px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
-      @media (min-width: 1820px) and (max-width: 2559px) {
+      @media (min-width: 18200px) and (max-width: 25590px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       @media (min-width: 2560px) {
@@ -136,16 +136,16 @@
   padding: 2em 1em;
   display: block;
   position: fixed; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     #menuicon {
       padding: 2em; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     #menuicon {
       display: none; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     #menuicon {
       display: none; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     #menuicon {
       display: none; } }
   @media (min-width: 2560px) {
@@ -169,7 +169,7 @@
   #mobilemenuwrapper #menunameflex {
     padding: 2em 0 0;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #mobilemenuwrapper #menunameflex {
         padding: 2em 0 0 1em; } }
     #mobilemenuwrapper #menunameflex #menuName a {
@@ -185,7 +185,7 @@
       top: 0;
       right: 0;
       padding: 2.45em 1.5em 0 0; }
-      @media (min-width: 768px) and (max-width: 1023px) {
+      @media (min-width: 767px) {
         #mobilemenuwrapper #menunameflex #menuxicon {
           padding: 2.45em 2.4em 0 0; } }
   #mobilemenuwrapper #menuline {
@@ -195,14 +195,14 @@
     width: 100%;
     margin-top: 2em;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #mobilemenuwrapper #menuline {
         width: 95%; } }
   #mobilemenuwrapper ul {
     padding: 1em 0;
     transition: 0.3s all ease-in-out;
     margin: 0; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #mobilemenuwrapper ul {
         margin-left: 1.25em; } }
     #mobilemenuwrapper ul li {
@@ -220,7 +220,7 @@ p {
 .darkcontainer {
   background-color: #414141; }
 
-@media (min-width: 1820px) and (max-width: 2559px) {
+@media (min-width: 18200px) and (max-width: 25590px) {
   .xlcontainer {
     width: 70%;
     margin: 0 auto; } }
@@ -234,7 +234,7 @@ p {
   text-align: center;
   font-size: 2em;
   color: #085056; }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .sectionheader {
       font-size: 3em; } }
 
@@ -248,19 +248,19 @@ p {
   background-attachment: scroll;
   height: 500px;
   position: relative; }
-  @media (min-width: 375px) and (max-width: 768px) {
+  @media (min-width: 0px) {
     #ptitle {
       height: 600px; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     #ptitle {
       height: 700px; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     #ptitle {
       height: 600px; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     #ptitle {
       height: 600px; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     #ptitle {
       height: 800px; } }
   #ptitle .projecttitle {
@@ -269,16 +269,16 @@ p {
     color: #F5F5F5;
     margin: 0 auto;
     padding-top: 2.8em; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       #ptitle .projecttitle {
         font-size: 4em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       #ptitle .projecttitle {
         font-size: 4em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       #ptitle .projecttitle {
         font-size: 5em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       #ptitle .projecttitle {
         font-size: 5em; } }
 
@@ -287,16 +287,16 @@ p {
   flex-wrap: wrap; }
   .intro .smarthomediv {
     width: 100%; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .intro .smarthomediv {
         width: 50%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .intro .smarthomediv {
         width: 50%; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .intro .smarthomediv {
         width: 50%; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .intro .smarthomediv {
         width: 50%; } }
   .intro .headintro {
@@ -304,21 +304,21 @@ p {
     margin: 0 auto;
     padding: 2em 0;
     color: white; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .intro .headintro {
         width: 50%;
         padding-top: 4em; }
         .intro .headintro p {
           width: 70%;
           margin: 0 auto; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .intro .headintro {
         width: 50%;
         padding-top: 4em; }
         .intro .headintro p {
           width: 70%;
           margin: 0 auto; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .intro .headintro {
         width: 50%;
         padding-top: 6em; }
@@ -326,7 +326,7 @@ p {
           width: 40%;
           margin: 0 auto;
           font-size: 1.8em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .intro .headintro {
         width: 50%;
         padding-top: 4em; }
@@ -340,31 +340,31 @@ p {
 
 .roleflex {
   padding: 2em 0 4em 1em; }
-  @media (min-width: 375px) and (max-width: 768px) {
+  @media (min-width: 0px) {
     .roleflex {
       padding: 2em 0 4em 2em; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
       justify-content: space-around;
       margin: 0 auto; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
       justify-content: space-around;
       margin: 0 auto; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
       justify-content: space-around;
       margin: 0 auto; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
@@ -372,11 +372,11 @@ p {
       justify-content: space-around;
       margin: 0 auto; } }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 767px) {
   .roleitem {
     width: 50%;
     margin: 2em 0; } }
-@media (min-width: 1024px) and (max-width: 1439px) {
+@media (min-width: 1024px) {
   .roleitem {
     width: 50%;
     margin: 2em 0; } }
@@ -384,18 +384,18 @@ p {
 .roletitle {
   color: #A0A0A0;
   padding-top: 2em; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .roletitle {
       width: 80%;
       margin: 0 auto; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .roletitle {
       width: 80%;
       margin: 0 auto; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .roletitle {
       width: 80%; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .roletitle {
       width: 80%; } }
 
@@ -403,22 +403,22 @@ p {
   color: #ECECEC;
   font-size: 1.1em;
   width: 90%; }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .rolebody {
       font-size: 1.1em;
       width: 80%;
       margin: 1em auto; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .rolebody {
       font-size: 1.1em;
       width: 80%;
       margin: 1em auto; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .rolebody {
       font-size: 1.1em;
       width: 100%;
       margin: 1em auto; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .rolebody {
       font-size: 1.1em;
       width: 100%;
@@ -430,38 +430,38 @@ p {
     width: 90%;
     margin: 0 auto;
     padding: 2em 0; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .introcontainer .contentbox {
         width: 60%;
         padding: 4em 0; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .introcontainer .contentbox {
         width: 55%;
         padding: 4em 0; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .introcontainer .contentbox {
         width: 35%;
         padding: 4em 0; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .introcontainer .contentbox {
         width: 28%;
         padding: 4em 0; } }
   .introcontainer #iframe {
     height: 245px; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .introcontainer #iframe {
         height: 400px; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .introcontainer #iframe {
         height: 400px;
         width: 800px;
         margin: 0 auto; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .introcontainer #iframe {
         height: 600px;
         width: 1200px;
         margin: 0 auto; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .introcontainer #iframe {
         height: 600px;
         width: 1200px;
@@ -479,19 +479,19 @@ p {
   .featurescontainer .contentbox {
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 375px) and (max-width: 768px) {
+    @media (min-width: 0px) {
       .featurescontainer .contentbox {
         width: 80%; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .featurescontainer .contentbox {
         width: 55%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .featurescontainer .contentbox {
         width: 50%; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .featurescontainer .contentbox {
         width: 35%; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .featurescontainer .contentbox {
         width: 100%;
         display: flex;
@@ -509,30 +509,30 @@ p {
   .ideationcontainer .contentbox {
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 375px) and (max-width: 768px) {
+    @media (min-width: 0px) {
       .ideationcontainer .contentbox {
         width: 80%; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .ideationcontainer .contentbox {
         width: 55%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .ideationcontainer .contentbox {
         width: 50%; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .ideationcontainer .contentbox {
         width: 35%; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .ideationcontainer .contentbox {
         width: 35%; } }
   .ideationcontainer .diagramdiv {
     padding: 4em 0; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .ideationcontainer .diagramdiv {
         display: flex; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .ideationcontainer .diagramdiv {
         display: flex; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .ideationcontainer .diagramdiv {
         display: flex; } }
     .ideationcontainer .diagramdiv .diagrams {
@@ -542,27 +542,27 @@ p {
       .ideationcontainer .diagramdiv .diagrams .subtitle {
         padding-bottom: 2em;
         text-align: center; }
-      @media (min-width: 768px) and (max-width: 1023px) {
+      @media (min-width: 767px) {
         .ideationcontainer .diagramdiv .diagrams {
           width: 55%; } }
-      @media (min-width: 1024px) and (max-width: 1439px) {
+      @media (min-width: 1024px) {
         .ideationcontainer .diagramdiv .diagrams {
           width: 40%; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
+      @media (min-width: 1440px) {
         .ideationcontainer .diagramdiv .diagrams {
           width: 30%; } }
-      @media (min-width: 1820px) and (max-width: 2559px) {
+      @media (min-width: 18200px) and (max-width: 25590px) {
         .ideationcontainer .diagramdiv .diagrams {
           width: 30%; } }
       .ideationcontainer .diagramdiv .diagrams img {
         width: 100%; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .ideationcontainer .diagramdiv .cktdiagram {
         width: 30%; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .ideationcontainer .diagramdiv .cktdiagram {
         width: 25%; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .ideationcontainer .diagramdiv .cktdiagram {
         width: 25%; } }
 
@@ -571,36 +571,36 @@ p {
   padding: 4em 0; }
   .extradarkcontainer #photosbig {
     display: none; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .extradarkcontainer #photosbig {
         display: block; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .extradarkcontainer #photosbig {
         display: block;
         width: 900px;
         margin: 0 auto; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .extradarkcontainer #photosbig {
         display: block;
         width: 1000px;
         margin: 0 auto; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .extradarkcontainer #photosbig {
         display: block;
         width: 1000px;
         margin: 0 auto; } }
   .extradarkcontainer #photosmob {
     display: block; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .extradarkcontainer #photosmob {
         display: none; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .extradarkcontainer #photosmob {
         display: none; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .extradarkcontainer #photosmob {
         display: none; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .extradarkcontainer #photosmob {
         display: none; } }
 
@@ -611,19 +611,19 @@ p {
   .takeawaycontainer .contentbox {
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 375px) and (max-width: 768px) {
+    @media (min-width: 0px) {
       .takeawaycontainer .contentbox {
         width: 80%; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .takeawaycontainer .contentbox {
         width: 55%; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .takeawaycontainer .contentbox {
         width: 50%; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .takeawaycontainer .contentbox {
         width: 35%; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .takeawaycontainer .contentbox {
         width: 28%; } }
 
@@ -649,7 +649,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2em;
     justify-content: space-between; }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       #footer #contactflex {
         width: 100%; } }
     #footer #contactflex .contcontent {
@@ -658,18 +658,18 @@ html {
       width: 90%;
       padding: 2em 0;
       transition: 0.3s all ease-in-out; }
-      @media (min-width: 768px) and (max-width: 1023px) {
+      @media (min-width: 767px) {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
-      @media (min-width: 1024px) and (max-width: 1439px) {
+      @media (min-width: 1024px) {
         #footer #contactflex .contcontent {
           width: 25%;
           padding: 2em 0; } }
-      @media (min-width: 1440px) and (max-width: 1819px) {
+      @media (min-width: 1440px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
-      @media (min-width: 1820px) and (max-width: 2559px) {
+      @media (min-width: 18200px) and (max-width: 25590px) {
         #footer #contactflex .contcontent {
           width: 25%; } }
       @media (min-width: 2560px) {
@@ -678,7 +678,7 @@ html {
       #footer #contactflex .contcontent a {
         color: black;
         transition: 0.3s all ease-in-out; }
-        @media (min-width: 1820px) and (max-width: 2559px) {
+        @media (min-width: 18200px) and (max-width: 25590px) {
           #footer #contactflex .contcontent a {
             font-size: 1.4em; } }
         @media (min-width: 2560px) {
@@ -803,16 +803,16 @@ html {
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 767px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1024px) and (max-width: 1439px) {
+    @media (min-width: 1024px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1440px) and (max-width: 1819px) {
+    @media (min-width: 1440px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1820px) and (max-width: 2559px) {
+    @media (min-width: 18200px) and (max-width: 25590px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 2560px) {
@@ -829,20 +829,20 @@ html {
   font-size: 1.5em;
   padding: 2em 0;
   text-align: center; }
-  @media (min-width: 375px) and (max-width: 768px) {
+  @media (min-width: 0px) {
     .getintouch {
       font-size: 1.5em; } }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     .getintouch {
       font-size: 2em;
       text-align: center; } }
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) {
     .getintouch {
       font-size: 2em; } }
-  @media (min-width: 1440px) and (max-width: 1819px) {
+  @media (min-width: 1440px) {
     .getintouch {
       font-size: 2em; } }
-  @media (min-width: 1820px) and (max-width: 2559px) {
+  @media (min-width: 18200px) and (max-width: 25590px) {
     .getintouch {
       font-size: 2em; } }
   @media (min-width: 2560px) {
