@@ -615,3 +615,22 @@ p {
         }
     }
 }
+
+#statflex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    @media #{$tablet} {
+        max-width: 800px;
+    }
+
+    .statdiv {
+        width: 55%;
+        margin: 2em auto;
+        @media #{$tablet} {
+            width: 20%;
+        }
+    }
+}

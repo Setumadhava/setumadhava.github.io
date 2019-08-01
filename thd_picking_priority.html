@@ -17,9 +17,9 @@
 
 
 
-<!-- <script>
+<script>
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-</script> -->
+</script>
 
 
 <!-- Supercontainer -->
@@ -143,7 +143,8 @@
                 <p>Overview</p>
             </div>
             <div class="sectioncontent">
-                <p>Home Depot’s Direct Fulfillment Centers (DFC) require efficient picking and packing to deliver customers’ orders on-time. The Outbound Leader Dashboard provides the leaders visibility to critical information needed to make decision on
+                <p>Home Depot’s Direct Fulfillment Centers (DFC) require efficient picking and packing to deliver customers’ orders on-time. The Outbound Leader Dashboard provides the leaders visibility to critical information needed to make
+                    decision on
                     where to send the floor associates to pick customers’ orders.</p>
             </div>
         </div>
@@ -158,11 +159,15 @@
             </div>
             <div class="sectioncontent">
                 <p>
-                    When customers place orders with multiple items, the most efficient way to fulfill those orders is by packing all the items within the order in a single box and shipping them together. The items are placed in different regions depending on the size and
-                    type of the item and pickers are usually picking within a single region to reduce their travel time. The problem occurs when one item within a customer order is picked and sent for packing but the others are not. Items that are picked
+                    When customers place orders with multiple items, the most efficient way to fulfill those orders is by packing all the items within the order in a single box and shipping them together. The items are placed in different regions
+                    depending on the size and
+                    type of the item and pickers are usually picking within a single region to reduce their travel time. The problem occurs when one item within a customer order is picked and sent for packing but the others are not. Items that are
+                    picked
                     occupy packing area space waiting for other items to arrive and this causes huge delay and slows down the entire supplychain.<br><br><br><br>
-                    <b>Hypothesis</b><br>It was observed that, using the current process, The Home Depot's Direct Fulfillment Center's floor leaders were not able to effectively direct the floor associates (pickers) to various regions to pick the items
-                    in order to achieve the picking, packing & shipping goals. We believed, they were facing these issues because the excel spreadsheets they were using did not provide them visibility to critical information needed to make effective decisions
+                    <b>Hypothesis</b><br>It was observed that, using the current process, The Home Depot's Direct Fulfillment Center's floor leaders were not able to effectively direct the floor associates (pickers) to various regions to pick the
+                    items
+                    in order to achieve the picking, packing & shipping goals. We believed, they were facing these issues because the excel spreadsheets they were using did not provide them visibility to critical information needed to make effective
+                    decisions
                     on picking priority.<br><br>
                 </p>
                 <p id="probstatement">"How might we help the floor leaders visualize the relative priority and completion status of picks by flow so that they are able to direct pickers to the right region?"</p>
@@ -177,11 +182,13 @@
                 <p>Business & User Goals</p>
             </div>
             <div class="sectioncontent">
-                <p><b>Business Goal</b><br> The business' goal to reduce the time gap between when the first item and the last item within a single customer order would be picked so that they could be packed and shipped faster. This efficiency would reduce
+                <p><b>Business Goal</b><br> The business' goal to reduce the time gap between when the first item and the last item within a single customer order would be picked so that they could be packed and shipped faster. This efficiency would
+                    reduce
                     delays in shipping, shipping costs and can ultimately improve the overall customer experience.
                 </p>
                 <div class="fourembottom"></div>
-                <p><b>User Goal</b><br> The outbound leaders' goal was to be able to get visibility to how many items needs to picked from which regions within the fulfillment center, see which regions need replenishment, where their pickers currently are
+                <p><b>User Goal</b><br> The outbound leaders' goal was to be able to get visibility to how many items needs to picked from which regions within the fulfillment center, see which regions need replenishment, where their pickers
+                    currently are
                     and direct pickers to the right region for picking customer orders.
                 </p>
 
@@ -197,8 +204,10 @@
                 <p>Process</p>
             </div>
             <div class="sectioncontent">
-                <p>Because of time constraints, we had two week to deliver the mockups. Because of this, we prioritized on a specific function of the outbound process - Picking priority. We traveled to one of the fulfillment centers and spent a week talking
-                    to the users and learned about the picking process and the problems they were facing before designing solutions to address their concerns. We used a compressed version of The Home Depot’s ‘Discovery and Framing’ process to learn about
+                <p>Because of time constraints, we had two week to deliver the mockups. Because of this, we prioritized on a specific function of the outbound process - Picking priority. We traveled to one of the fulfillment centers and spent a week
+                    talking
+                    to the users and learned about the picking process and the problems they were facing before designing solutions to address their concerns. We used a compressed version of The Home Depot’s ‘Discovery and Framing’ process to learn
+                    about
                     the problem and design solutions.</p>
             </div>
             <div id="process_img">
@@ -207,8 +216,10 @@
 
             <div class="sectioncontent">
                 <p>
-                    Talking to users and asking the right questions is very important to understand their behavior and needs. Some of the areas we focused on during the interview are:<br><br>■ &nbsp;Understand their goals and the metrics they are looking
-                    to hit everyday. <br><br>■ &nbsp; The decisions they make to achieve their goals. <br><br>■ &nbsp; How they currently make those decisions. <br><br>■ &nbsp; The critical information that help them make those decisions. <br><br>■ &nbsp;
+                    Talking to users and asking the right questions is very important to understand their behavior and needs. Some of the areas we focused on during the interview are:<br><br>■ &nbsp;Understand their goals and the metrics they are
+                    looking
+                    to hit everyday. <br><br>■ &nbsp; The decisions they make to achieve their goals. <br><br>■ &nbsp; How they currently make those decisions. <br><br>■ &nbsp; The critical information that help them make those decisions. <br><br>■
+                    &nbsp;
                     The issues and bottlenecks in their workflow.
                 </p>
             </div>
@@ -226,7 +237,8 @@
             <div class="sectionflex">
                 <div class="flexsectioncontent">After we synthesized the research data, we had a bunch of findings some of which validated our hypothesis and some which invalidated. Some of the main findings are:
                     <br><br>■ &nbsp; They needed visibility to much more information than what they excel sheets were providing.
-                    <br><br>■ &nbsp; While the spreadsheet provided them some of the necessary information, they were slow to update and required manual update every time. The leaders wanted something that would updated faster than the spreadsheets, automatically.
+                    <br><br>■ &nbsp; While the spreadsheet provided them some of the necessary information, they were slow to update and required manual update every time. The leaders wanted something that would updated faster than the spreadsheets,
+                    automatically.
                     <br><br>■ &nbsp; Not every information from the spreadsheet was equally valuable.
                     <br><br>■ &nbsp;Leaders often move around the floor and need the information at all times. </div>
 
@@ -249,7 +261,8 @@
                 <p>The Solution</p>
             </div>
             <div class="sectioncontent">
-                <p>We created paper prototypes to explore ways to provide them the information that was necessary to make decisions. By involving the stakeholders and users in the sketching process helped us validate and narrow down quickly. We encouraged
+                <p>We created paper prototypes to explore ways to provide them the information that was necessary to make decisions. By involving the stakeholders and users in the sketching process helped us validate and narrow down quickly. We
+                    encouraged
                     everyone to sketch their idea of presenting the necessary information and used dot voting to narrow down to the best solution. </p>
             </div>
         </div>
@@ -274,7 +287,8 @@
 
         <div class="contentsection">
             <div class="sectioncontent">
-                <p>We designed for a tablet to afford the mobility. Once we knew what information they needed and the priority of it, I quickly created a functional prototype. We ran 4 usability studies with the users to identify its usability of the interface
+                <p>We designed for a tablet to afford the mobility. Once we knew what information they needed and the priority of it, I quickly created a functional prototype. We ran 4 usability studies with the users to identify its usability of
+                    the interface
                     and its effectiveness in providing users the information they need to make decisions. </p>
             </div>
         </div>
@@ -306,7 +320,8 @@
                 <p>Why This Solution Matters</p>
             </div>
             <div class="sectioncontent">
-                <p>This app was particularly important to the business and the fulfillment center leaders because by making the picking and packing process more efficient, customer orders could be shipped out faster without any being left behind, especially
+                <p>This app was particularly important to the business and the fulfillment center leaders because by making the picking and packing process more efficient, customer orders could be shipped out faster without any being left behind,
+                    especially
                     in case of orders with multiple items. This would reduce the delay in shipping and save money for the business. </p>
             </div>
         </div>
@@ -321,7 +336,8 @@
             <div class="sectioncontent">
                 <p>Since we only had a week at the site and the users' availability was not always guaranteed, we had to work within very tight time constraints. We were able to move forward with clear scheduling and prioritization.
 
-                    <br><br>Working with business partners who were unfamiliar with the UCD process was another challenge. There was some relunctance and resistance in spending time on research and as a result we were only given one week time. However,
+                    <br><br>Working with business partners who were unfamiliar with the UCD process was another challenge. There was some relunctance and resistance in spending time on research and as a result we were only given one week time.
+                    However,
                     when they realized that the learnings and the outcome were much different than what they assumed, they were able to see the value in talking to users and incorporating the user centered design process. </p>
             </div>
         </div>
@@ -333,11 +349,15 @@
                 <p>Next Steps & Learnings</p>
             </div>
             <div class="sectioncontent">
-                <p>Pardon the cliché when I say 'The design is never done'. This was just the MVP that we were able to design in a week. In this iteration we were only able to provide them the most critical information and not all the information they needed.
-                    The next steps is to observe how this new app is helping the users and determine the best way to scale it. <br><br>I had some very valuable learnings from this project. <br><br>■ &nbsp; Identifying assumptions, risks and hypothesis
-                    before research helps us be better aware of the problem. <br><br>■ &nbsp; Asking the right questions begets the right insights. Being curious, not asking leading questions and asking multiple 'Why's are some of the ways to gather good
+                <p>Pardon the cliché when I say 'The design is never done'. This was just the MVP that we were able to design in a week. In this iteration we were only able to provide them the most critical information and not all the information
+                    they needed.
+                    The next steps is to observe how this new app is helping the users and determine the best way to scale it. <br><br>I had some very valuable learnings from this project. <br><br>■ &nbsp; Identifying assumptions, risks and
+                    hypothesis
+                    before research helps us be better aware of the problem. <br><br>■ &nbsp; Asking the right questions begets the right insights. Being curious, not asking leading questions and asking multiple 'Why's are some of the ways to gather
+                    good
                     insights.
-                    <br><br>■ &nbsp; When working with partners who aren't sure about the design process, It's important to build strong relationships and not just tell, but show them the value research & design adds to the solution. One way to build
+                    <br><br>■ &nbsp; When working with partners who aren't sure about the design process, It's important to build strong relationships and not just tell, but show them the value research & design adds to the solution. One way to
+                    build
                     trust and get buy-in is by involving them in the research & design process (interviews, synthesis, design studios etc). </p>
             </div>
         </div>

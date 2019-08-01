@@ -470,6 +470,22 @@ p {
     #mobilemenuwrapper ul {
       margin-left: 4.25em; } }
 
+#statflex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between; }
+  @media (min-width: 767px) {
+    #statflex {
+      max-width: 800px; } }
+  #statflex .statdiv {
+    width: 55%;
+    margin: 2em auto; }
+    @media (min-width: 767px) {
+      #statflex .statdiv {
+        width: 20%; } }
+
 .container,
 body,
 html {
