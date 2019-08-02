@@ -5,7 +5,7 @@
   padding: 2em 0;
   margin: 0 auto;
   width: 100%; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 1023px) {
@@ -20,7 +20,7 @@
   @media (min-width: 2560px) {
     #header {
       max-width: 1550px; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -139,7 +139,7 @@
   padding: 2em 1em;
   display: block;
   position: fixed; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #menuicon {
       padding: 2em; } }
   @media (min-width: 1023px) {
@@ -172,7 +172,7 @@
   #mobilemenuwrapper #menunameflex {
     padding: 2em 0 0;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper #menunameflex {
         padding: 2em 0 0 1em; } }
     #mobilemenuwrapper #menunameflex #menuName a {
@@ -188,7 +188,7 @@
       top: 0;
       right: 0;
       padding: 2.45em 1.5em 0 0; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #mobilemenuwrapper #menunameflex #menuxicon {
           padding: 2.45em 2.4em 0 0; } }
   #mobilemenuwrapper #menuline {
@@ -198,14 +198,14 @@
     width: 100%;
     margin-top: 2em;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper #menuline {
         width: 95%; } }
   #mobilemenuwrapper ul {
     padding: 1em 0;
     transition: 0.3s all ease-in-out;
     margin: 0; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper ul {
         margin-left: 1.25em; } }
     #mobilemenuwrapper ul li {
@@ -250,7 +250,7 @@
     font-weight: bold;
     font-size: 1.2em;
     color: #026F8B; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .centerdesc {
       width: 65%; } }
   @media (min-width: 1023px) {
@@ -279,7 +279,7 @@
   @media (min-width: 0px) {
     #herosection {
       height: 600px; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #herosection {
       height: 800px; } }
   @media (min-width: 1023px) {
@@ -310,7 +310,7 @@
         transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%); } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #herosection #piulogodiv {
         width: 50%;
         top: 30%;
@@ -385,7 +385,7 @@
   #processsection .roleitem {
     width: 50%;
     padding-bottom: 4em; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #processsection .roleitem {
         width: 50%;
         margin: 0 auto; } }
@@ -401,7 +401,7 @@
         width: 25%; } }
   #processsection .roletitle {
     color: #A0A0A0; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #processsection .roletitle {
         width: 80%;
         margin: 0 auto; } }
@@ -419,7 +419,7 @@
     color: #032A2F;
     font-size: 1em;
     width: 90%; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #processsection .rolebody {
         font-size: 1.2em;
         width: 80%;
@@ -445,7 +445,7 @@
     padding: 4em 0 8em; }
     #processsection .processimgdiv #processimg {
       width: 100%; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #processsection .processimgdiv {
         width: 70%; } }
     @media (min-width: 1023px) {
@@ -467,7 +467,7 @@
   width: 90%;
   margin: 0 auto;
   padding: 2em 0; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #problemsection .centerdesc {
       width: 65%; } }
   @media (min-width: 1023px) {
@@ -495,7 +495,7 @@
     @media (min-width: 0px) {
       #problemsection .problemflex .homediv {
         width: 90%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #problemsection .problemflex .homediv {
         width: 65%; } }
     @media (min-width: 1023px) {
@@ -519,7 +519,7 @@
         width: 80%;
         margin-left: 0;
         padding-top: 4em; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #problemsection .problemflex .issuehalf {
         width: 50%;
         margin-left: 0;
@@ -570,7 +570,7 @@
       width: 30%;
       padding: 2em 0;
       margin: 0 auto; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #researchsection .researchiconsflex .icondiv {
           width: 15%; } }
       @media (min-width: 1023px) {
@@ -594,7 +594,7 @@
   @media (min-width: 0px) {
     .researchcontentsection .journeymapdiv {
       width: 95%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .researchcontentsection .journeymapdiv {
       width: 85%; } }
   @media (min-width: 1023px) {
@@ -626,7 +626,7 @@
     @media (min-width: 0px) {
       .researchcontentsection .keyfindingflex .keyfindingdiv {
         width: 90%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .researchcontentsection .keyfindingflex .keyfindingdiv {
         width: 50%; } }
     @media (min-width: 1023px) {
@@ -656,7 +656,7 @@
     #ideationsection .ideaiconsflex .icondiv {
       width: 30%;
       margin: 0 auto; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #ideationsection .ideaiconsflex .icondiv {
           width: 15%; } }
       @media (min-width: 1023px) {
@@ -706,7 +706,7 @@
 .ideacontentsection .conceptdiv {
   width: 90%;
   margin: 0 auto; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .ideacontentsection .conceptdiv {
       width: 75%; } }
   @media (min-width: 1023px) {
@@ -727,7 +727,7 @@
     width: 90%;
     margin: 0 auto;
     padding: 2em 0; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .ideacontentsection .sketchesflex .sketchdiv {
         width: 65%; } }
     @media (min-width: 1023px) {
@@ -757,7 +757,7 @@
     #lowfidsection .ideaiconsflex .icondiv {
       width: 30%;
       margin: 0 auto; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #lowfidsection .ideaiconsflex .icondiv {
           width: 15%; } }
       @media (min-width: 1023px) {
@@ -791,7 +791,7 @@
     .lowfidcontentsection .changeflex .changediv .changepic {
       width: 90%;
       margin: 0 auto; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         .lowfidcontentsection .changeflex .changediv .changepic {
           width: 60%; } }
       @media (min-width: 18200px) and (max-width: 25590px) {
@@ -817,7 +817,7 @@
     .lowfidcontentsection .lowfidflex .lowfiddiv .lowfid {
       width: 100%;
       margin: 0 auto; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         .lowfidcontentsection .lowfidflex .lowfiddiv .lowfid {
           width: 75%; } }
       @media (min-width: 1023px) {
@@ -850,7 +850,7 @@
       @media (min-width: 0px) {
         .lowfidcontentsection .lowfidflex .lowfidtaskdiv .lowfidtask {
           width: 75%; } }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         .lowfidcontentsection .lowfidflex .lowfidtaskdiv .lowfidtask {
           width: 50%; } }
       @media (min-width: 1023px) {
@@ -889,7 +889,7 @@
 #highfidcontentsection .hfsec {
   width: 90%;
   margin: 0 auto; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #highfidcontentsection .hfsec {
       width: 90%; } }
   @media (min-width: 1023px) {
@@ -905,7 +905,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddiv {
       width: 50%; } }
   @media (min-width: 1023px) {
@@ -937,7 +937,7 @@
         #highfidcontentsection .hfsecuserneedflex .hfsecuserneediconflex .userneedicon {
           width: 100%;
           padding-bottom: 1.5em; } }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #highfidcontentsection .hfsecuserneedflex .hfsecuserneediconflex .userneedicon {
           width: 90%;
           padding-bottom: 1.5em; } }
@@ -958,7 +958,7 @@
     @media (min-width: 0px) {
       #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddesc {
         width: 95%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #highfidcontentsection .hfsecuserneedflex .hfsecuserneeddesc {
         width: 50%; } }
     @media (min-width: 1023px) {
@@ -983,7 +983,7 @@
     @media (min-width: 0px) {
       #highfidcontentsection .hfimgsection .hfimgdiv {
         padding: 1em 0.5em; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #highfidcontentsection .hfimgsection .hfimgdiv {
         width: 80%;
         padding: 2em 1em; } }
@@ -1007,7 +1007,7 @@
     @media (min-width: 0px) {
       #highfidcontentsection .hfimgsection .hfimgdiv2 {
         padding: 1em 0.5em; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #highfidcontentsection .hfimgsection .hfimgdiv2 {
         width: 80%;
         padding: 2em 1em; } }
@@ -1033,7 +1033,7 @@
     padding: 4em 1em 1em; }
     #highfidcontentsection .hfimgsectionflex .hfimgdiv img {
       width: 100%; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #highfidcontentsection .hfimgsectionflex .hfimgdiv {
         width: 70%;
         padding: 4em 1em; } }
@@ -1063,7 +1063,7 @@
       padding: 4em 0; }
       #highfidcontentsection .hfimgsectionflex .hifiimgannotationsdiv .hifiimgannotations img {
         width: 100%; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #highfidcontentsection .hfimgsectionflex .hifiimgannotationsdiv .hifiimgannotations {
           width: 80%;
           padding: 2em 1em; } }
@@ -1107,7 +1107,7 @@
     @media (min-width: 0px) {
       .reactioncontent .reactionflex .reactionbox {
         width: 45%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .reactioncontent .reactionflex .reactionbox {
         width: 35%; } }
     @media (min-width: 1023px) {
@@ -1147,7 +1147,7 @@
       font-size: 1em; }
     #reflectionsection .futureflex .futurediv {
       padding-bottom: 2em; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #reflectionsection .futureflex .futurediv {
           width: 50%;
           padding: 2em 1em; } }
@@ -1180,7 +1180,7 @@
       line-height: 1.8em; }
     #reflectionsection .reflectionflex .reflectiondiv {
       padding-bottom: 2em; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #reflectionsection .reflectionflex .reflectiondiv {
           width: 70%;
           padding: 2em 1em; } }
@@ -1205,7 +1205,7 @@
         height: 445px;
         width: 375px;
         margin: 0 auto; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #reflectionsection #iframe {
         height: 550px;
         width: 600px;
@@ -1261,7 +1261,7 @@ html {
       width: 90%;
       padding: 2em 0;
       transition: 0.3s all ease-in-out; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
@@ -1406,7 +1406,7 @@ html {
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1023px) {
@@ -1435,7 +1435,7 @@ html {
   @media (min-width: 0px) {
     .getintouch {
       font-size: 1.5em; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .getintouch {
       font-size: 2em;
       text-align: center; } }

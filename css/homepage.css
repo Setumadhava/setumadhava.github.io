@@ -7,7 +7,7 @@ body {
   @media (min-width: 0px) {
     .wrapper {
       width: 90%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .wrapper {
       width: 80%; } }
   @media (min-width: 1023px) {
@@ -27,7 +27,7 @@ body {
   padding: 2em 0;
   margin: 0 auto;
   width: 100%; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 1023px) {
@@ -42,7 +42,7 @@ body {
   @media (min-width: 2560px) {
     #header {
       max-width: 1550px; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -161,7 +161,7 @@ body {
   padding: 2em 1em;
   display: block;
   position: fixed; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #menuicon {
       padding: 2em; } }
   @media (min-width: 1023px) {
@@ -194,7 +194,7 @@ body {
   #mobilemenuwrapper #menunameflex {
     padding: 2em 0 0;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper #menunameflex {
         padding: 2em 0 0 1em; } }
     #mobilemenuwrapper #menunameflex #menuName a {
@@ -210,7 +210,7 @@ body {
       top: 0;
       right: 0;
       padding: 2.45em 1.5em 0 0; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #mobilemenuwrapper #menunameflex #menuxicon {
           padding: 2.45em 2.4em 0 0; } }
   #mobilemenuwrapper #menuline {
@@ -220,14 +220,14 @@ body {
     width: 100%;
     margin-top: 2em;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper #menuline {
         width: 95%; } }
   #mobilemenuwrapper ul {
     padding: 1em 0;
     transition: 0.3s all ease-in-out;
     margin: 0; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper ul {
         margin-left: 1.25em; } }
     #mobilemenuwrapper ul li {
@@ -250,7 +250,7 @@ body {
     padding-top: 2em;
     font-size: 1.2em;
     color: #7f7f7f; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #intro #shortintro {
         width: 60%; } }
     @media (min-width: 1023px) {
@@ -389,7 +389,7 @@ body {
     color: black; }
   .maincard .cardcontents {
     padding: 1em; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .maincard .cardcontents {
         padding: 2em; } }
     @media (min-width: 1023px) {
@@ -434,7 +434,7 @@ body {
     font-family: georgia;
     font-size: 2em;
     font-weight: 600; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .maincard #projecttitle {
         padding: 1em 0 0 1em; } }
     @media (min-width: 1023px) {
@@ -453,7 +453,7 @@ body {
     height: 4px;
     background-color: black;
     width: 100%; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .maincard #blackline {
         margin-left: 2em;
         width: 60%; } }
@@ -479,7 +479,7 @@ body {
   .maincard #projectcontent {
     width: 100%;
     padding: 1em 0; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .maincard #projectcontent {
         width: 90%;
         padding-left: 2.5em; } }
@@ -502,7 +502,7 @@ body {
     .maincard #projectcontent #primarycontent {
       font-size: 1em;
       padding-bottom: 2em; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         .maincard #projectcontent #primarycontent {
           font-size: 1.2em; } }
       @media (min-width: 1023px) {
@@ -520,7 +520,7 @@ body {
     .maincard #projectcontent #secondarycontent {
       font-size: 0.8em;
       color: #7E7E7E; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         .maincard #projectcontent #secondarycontent {
           font-size: 1em; } }
       @media (min-width: 1023px) {
@@ -563,7 +563,7 @@ body {
       text-decoration: none; }
       #aboutsection #aboutme a span {
         color: #F04B33; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #aboutsection #aboutme {
         width: 85%; } }
     @media (min-width: 1023px) {
@@ -587,7 +587,7 @@ body {
   @media (min-width: 0px) {
     #thduppic {
       width: 100%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #thduppic {
       width: 90%; } }
   @media (min-width: 1023px) {
@@ -617,7 +617,7 @@ body {
   @media (min-width: 0px) {
     #thdpic {
       width: 70%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #thdpic {
       width: 60%; } }
   @media (min-width: 1023px) {
@@ -647,7 +647,7 @@ body {
   @media (min-width: 0px) {
     #piupic {
       width: 70%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #piupic {
       width: 40%; } }
   @media (min-width: 1023px) {
@@ -677,7 +677,7 @@ body {
   @media (min-width: 0px) {
     #premerapic {
       width: 100%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #premerapic {
       width: 90%; } }
   @media (min-width: 1023px) {
@@ -707,7 +707,7 @@ body {
   @media (min-width: 0px) {
     #uberpic {
       width: 70%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #uberpic {
       width: 40%; } }
   @media (min-width: 1023px) {
@@ -737,7 +737,7 @@ body {
   @media (min-width: 0px) {
     #expediapic {
       width: 70%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #expediapic {
       width: 45%; } }
   @media (min-width: 1023px) {
@@ -767,7 +767,7 @@ body {
   @media (min-width: 0px) {
     #actipic {
       width: 75%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #actipic {
       width: 50%; } }
   @media (min-width: 1023px) {
@@ -797,7 +797,7 @@ body {
   @media (min-width: 0px) {
     #smarthomepic {
       width: 100%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #smarthomepic {
       width: 80%; } }
   @media (min-width: 1023px) {
@@ -851,7 +851,7 @@ html {
       width: 90%;
       padding: 2em 0;
       transition: 0.3s all ease-in-out; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
@@ -996,7 +996,7 @@ html {
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1023px) {
@@ -1025,7 +1025,7 @@ html {
   @media (min-width: 0px) {
     .getintouch {
       font-size: 1.5em; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .getintouch {
       font-size: 2em;
       text-align: center; } }

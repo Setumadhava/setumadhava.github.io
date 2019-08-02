@@ -84,7 +84,7 @@ html {
       width: 90%;
       padding: 2em 0;
       transition: 0.3s all ease-in-out; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
@@ -229,7 +229,7 @@ html {
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1023px) {
@@ -258,7 +258,7 @@ html {
   @media (min-width: 0px) {
     .getintouch {
       font-size: 1.5em; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .getintouch {
       font-size: 2em;
       text-align: center; } }

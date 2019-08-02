@@ -5,7 +5,7 @@
   padding: 2em 0;
   margin: 0 auto;
   width: 100%; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 1023px) {
@@ -20,7 +20,7 @@
   @media (min-width: 2560px) {
     #header {
       max-width: 1550px; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -139,7 +139,7 @@
   padding: 2em 1em;
   display: block;
   position: fixed; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #menuicon {
       padding: 2em; } }
   @media (min-width: 1023px) {
@@ -172,7 +172,7 @@
   #mobilemenuwrapper #menunameflex {
     padding: 2em 0 0;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper #menunameflex {
         padding: 2em 0 0 1em; } }
     #mobilemenuwrapper #menunameflex #menuName a {
@@ -188,7 +188,7 @@
       top: 0;
       right: 0;
       padding: 2.45em 1.5em 0 0; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #mobilemenuwrapper #menunameflex #menuxicon {
           padding: 2.45em 2.4em 0 0; } }
   #mobilemenuwrapper #menuline {
@@ -198,14 +198,14 @@
     width: 100%;
     margin-top: 2em;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper #menuline {
         width: 95%; } }
   #mobilemenuwrapper ul {
     padding: 1em 0;
     transition: 0.3s all ease-in-out;
     margin: 0; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper ul {
         margin-left: 1.25em; } }
     #mobilemenuwrapper ul li {
@@ -221,7 +221,7 @@
   @media (min-width: 0px) {
     .title {
       font-size: 2.5em; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .title {
       font-size: 3em; } }
   @media (min-width: 1023px) {
@@ -252,7 +252,7 @@ ul {
     .content,
     ul {
       width: 100%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .content,
     ul {
       width: 100%; } }
@@ -286,7 +286,7 @@ ul {
   @media (min-width: 0px) {
     #hero {
       height: 600px; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #hero {
       height: 800px; } }
   @media (min-width: 1023px) {
@@ -318,7 +318,7 @@ ul {
   @media (min-width: 0px) {
     #herophonediv {
       width: 65%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #herophonediv {
       width: 40%; } }
   @media (min-width: 1023px) {
@@ -351,7 +351,7 @@ ul {
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .arrowdowndiv {
       left: 48.5%; } }
   @media (min-width: 1023px) {
@@ -374,7 +374,7 @@ ul {
 .arrowdowndiv:hover {
   animation-play-state: paused; }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .intro {
     display: flex;
     justify-content: space-around;
@@ -405,7 +405,7 @@ ul {
   width: 265px;
   margin: 0 auto;
   padding-top: 4em; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .logodiv {
       width: 265px;
       padding: 3em 0;
@@ -430,7 +430,7 @@ ul {
   width: 90%;
   padding: 8em 0;
   margin: 0 auto; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .blurbdiv {
       width: 50%;
       padding: 2em;
@@ -477,7 +477,7 @@ ul {
   @media (min-width: 0px) {
     .roleflex {
       padding: 2em 0 4em 2em; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
@@ -506,7 +506,7 @@ ul {
       justify-content: space-around;
       margin: 0 auto; } }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .roleitem {
     width: 33%;
     margin: 2em 0; } }
@@ -514,7 +514,7 @@ ul {
 .roletitle {
   color: #A0A0A0;
   padding-top: 2em; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .roletitle {
       width: 80%;
       margin: 0 auto; } }
@@ -533,7 +533,7 @@ ul {
   color: #ECECEC;
   font-size: 1.4em;
   width: 90%; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .rolebody {
       font-size: 1.4em;
       width: 80%;
@@ -586,7 +586,7 @@ ul {
       .whatcontentdiv .contentdiv {
         width: 70%;
         margin: 0 auto; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .whatcontentdiv .contentdiv {
         width: 50%;
         margin: 0 auto; } }
@@ -615,7 +615,7 @@ ul {
       .whatphonediv #phonediv {
         width: 75%;
         margin: 0 auto; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .whatphonediv #phonediv {
         width: 40%;
         margin: 0 auto; } }
@@ -647,7 +647,7 @@ ul {
   .previewcontainer .title {
     text-align: left;
     color: white; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .previewcontainer .title {
         font-size: 1.5em; } }
     @media (min-width: 1023px) {
@@ -670,7 +670,7 @@ ul {
   align-items: center;
   padding: 4em 0;
   margin: 0 auto; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .previewgroup {
       padding: 0;
       width: 96%; } }
@@ -687,7 +687,7 @@ ul {
   border-width: 1px;
   border-style: solid;
   border-image: linear-gradient(to bottom, white, transparent) 0.5 0.5%; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .previewcontentdiv {
       order: 2;
       width: 40%;
@@ -718,7 +718,7 @@ ul {
   @media (min-width: 0px) {
     .prevphonediv {
       width: 70%; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .prevphonediv {
       width: 35%; } }
   @media (min-width: 1023px) {
@@ -734,7 +734,7 @@ ul {
 .followphone {
   width: 90%;
   margin: 0 auto; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .followphone {
       width: 50%; } }
   @media (min-width: 1023px) {
@@ -763,7 +763,7 @@ ul {
 .previewcontent {
   margin: 0 auto;
   width: 90%; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .previewcontent {
       width: 90%;
       margin: 0 auto; } }
@@ -796,7 +796,7 @@ ul {
     @media (min-width: 0px) {
       #backcontainer .contentdiv {
         width: 75%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #backcontainer .contentdiv {
         width: 55%; } }
     @media (min-width: 1023px) {
@@ -822,7 +822,7 @@ ul {
     @media (min-width: 0px) {
       #earlyexplorationcontainer .contentdiv {
         width: 75%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #earlyexplorationcontainer .contentdiv {
         width: 60%; } }
     @media (min-width: 1023px) {
@@ -867,7 +867,7 @@ ul {
     @media (min-width: 0px) {
       #researchbox .contentdiv {
         width: 75%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #researchbox .contentdiv {
         width: 60%; } }
     @media (min-width: 1023px) {
@@ -902,7 +902,7 @@ ul {
     width: 50%;
     margin: 0 auto;
     padding: 4em 0; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #researchbox #percentagediv {
         display: flex;
         flex-wrap: wrap;
@@ -932,7 +932,7 @@ ul {
         width: 70%; } }
     #researchbox #percentagediv .percentageimg {
       padding: 2em 0; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #researchbox #percentagediv .percentageimg {
           width: 23%;
           margin: 0 auto; } }
@@ -941,7 +941,7 @@ ul {
   #researchbox #quotediv {
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #researchbox #quotediv {
         width: 65%;
         margin: 0 auto; } }
@@ -990,7 +990,7 @@ ul {
   @media (min-width: 0px) {
     .pencilbgdiv {
       height: 800px; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .pencilbgdiv {
       height: 700px; } }
   @media (min-width: 1023px) {
@@ -1011,7 +1011,7 @@ ul {
       @media (min-width: 0px) {
         .pencilbgdiv .wireframescontentdiv .contentdiv {
           width: 75%; } }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         .pencilbgdiv .wireframescontentdiv .contentdiv {
           width: 60%; } }
       @media (min-width: 1023px) {
@@ -1050,7 +1050,7 @@ ul {
     @media (min-width: 0px) {
       #wireframesbox .contentdiv {
         width: 75%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #wireframesbox .contentdiv {
         width: 60%; } }
     @media (min-width: 1023px) {
@@ -1069,7 +1069,7 @@ ul {
     #wireframesbox #wireframegroupbig .wfgp .wfdiv {
       width: 45%;
       padding: 1em; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #wireframesbox #wireframegroupbig .wfgp .wfdiv {
           width: 30%;
           padding: 2em; } }
@@ -1087,7 +1087,7 @@ ul {
           padding: 2em; } }
     #wireframesbox #wireframegroupbig .wfgp .wffive {
       display: none; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #wireframesbox #wireframegroupbig .wfgp .wffive {
           display: block; } }
       @media (min-width: 1023px) {
@@ -1116,7 +1116,7 @@ ul {
     @media (min-width: 0px) {
       #visualbox .contentdiv {
         width: 75%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #visualbox .contentdiv {
         width: 60%; } }
     @media (min-width: 1023px) {
@@ -1132,7 +1132,7 @@ ul {
     width: 90%;
     margin: 0 auto;
     padding: 4em 0; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #visualbox #colorsdiv {
         width: 70%;
         padding-bottom: 8em;
@@ -1155,7 +1155,7 @@ ul {
     padding: 4em 0; }
     #visualbox .typobuttondiv img {
       width: 100%; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #visualbox .typobuttondiv {
         width: 70%;
         padding-bottom: 8em;
@@ -1195,7 +1195,7 @@ ul {
   margin: 0 auto; }
   .bluesection .deschdiv .hfgp2 img {
     width: 100%; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .bluesection .deschdiv .hfgp2 {
       width: 80%; } }
   @media (min-width: 1023px) {
@@ -1224,7 +1224,7 @@ ul {
     @media (min-width: 0px) {
       .hificontainer .contentdiv {
         width: 75%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .hificontainer .contentdiv {
         width: 60%; } }
     @media (min-width: 1023px) {
@@ -1323,7 +1323,7 @@ ul {
     @media (min-width: 0px) {
       #benefitscontainer .colorcontentdiv .contentdiv {
         width: 75%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #benefitscontainer .colorcontentdiv .contentdiv {
         width: 60%; } }
     @media (min-width: 1023px) {
@@ -1351,7 +1351,7 @@ ul {
     #benefitscontainer #benefitsimagediv {
       width: 50%;
       position: relative; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #benefitscontainer #benefitsimagediv .nakedscreendiv {
       width: 70%;
       margin: 0 auto; } }
@@ -1407,7 +1407,7 @@ ul {
         #reflectioncontainer #blackphonebox #blackphonediv {
           margin: 0 auto;
           width: 70%; } }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #reflectioncontainer #blackphonebox #blackphonediv {
           margin: 0 auto;
           width: 50%; } }
@@ -1433,7 +1433,7 @@ ul {
       #reflectioncontainer .refcontentdiv {
         margin: 0 auto;
         width: 80%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #reflectioncontainer .refcontentdiv {
         margin: 0 auto;
         width: 60%; } }
@@ -1490,7 +1490,7 @@ ul {
       @media (min-width: 0px) {
         #beyondcontainer .beyondcontentdiv .contentdiv {
           width: 80%; } }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #beyondcontainer .beyondcontentdiv .contentdiv {
           width: 60%; } }
       @media (min-width: 1023px) {
@@ -1522,7 +1522,7 @@ ul {
       @media (min-width: 0px) {
         #beyondcontainer #benefitsimagediv .nakedscreendiv {
           width: 70%; } }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #beyondcontainer #benefitsimagediv .nakedscreendiv {
           padding: 6em 0;
           width: 40%; } }
@@ -1578,7 +1578,7 @@ html {
       width: 90%;
       padding: 2em 0;
       transition: 0.3s all ease-in-out; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
@@ -1723,7 +1723,7 @@ html {
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1023px) {
@@ -1752,7 +1752,7 @@ html {
   @media (min-width: 0px) {
     .getintouch {
       font-size: 1.5em; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .getintouch {
       font-size: 2em;
       text-align: center; } }

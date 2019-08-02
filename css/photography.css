@@ -5,7 +5,7 @@
   padding: 2em 0;
   margin: 0 auto;
   width: 100%; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 1023px) {
@@ -20,7 +20,7 @@
   @media (min-width: 2560px) {
     #header {
       max-width: 1550px; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -139,7 +139,7 @@
   padding: 2em 1em;
   display: block;
   position: fixed; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #menuicon {
       padding: 2em; } }
   @media (min-width: 1023px) {
@@ -172,7 +172,7 @@
   #mobilemenuwrapper #menunameflex {
     padding: 2em 0 0;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper #menunameflex {
         padding: 2em 0 0 1em; } }
     #mobilemenuwrapper #menunameflex #menuName a {
@@ -188,7 +188,7 @@
       top: 0;
       right: 0;
       padding: 2.45em 1.5em 0 0; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #mobilemenuwrapper #menunameflex #menuxicon {
           padding: 2.45em 2.4em 0 0; } }
   #mobilemenuwrapper #menuline {
@@ -198,14 +198,14 @@
     width: 100%;
     margin-top: 2em;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper #menuline {
         width: 95%; } }
   #mobilemenuwrapper ul {
     padding: 1em 0;
     transition: 0.3s all ease-in-out;
     margin: 0; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper ul {
         margin-left: 1.25em; } }
     #mobilemenuwrapper ul li {
@@ -227,7 +227,7 @@
   @media (min-width: 0px) {
     #hero {
       height: 600px; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #hero {
       height: 800px; } }
   @media (min-width: 1023px) {
@@ -252,7 +252,7 @@
     @media (min-width: 0px) {
       #hero .title {
         font-size: 4em; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #hero .title {
         font-size: 6em; } }
     @media (min-width: 1023px) {
@@ -278,7 +278,7 @@
       color: #D5D5D5;
       line-height: 2em;
       margin: 0 auto; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         .outercontainer .descriptioncontainer .contentbox {
           width: 70%;
           margin: 0 auto; } }
@@ -375,7 +375,7 @@ html {
       width: 90%;
       padding: 2em 0;
       transition: 0.3s all ease-in-out; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
@@ -520,7 +520,7 @@ html {
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1023px) {
@@ -549,7 +549,7 @@ html {
   @media (min-width: 0px) {
     .getintouch {
       font-size: 1.5em; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .getintouch {
       font-size: 2em;
       text-align: center; } }

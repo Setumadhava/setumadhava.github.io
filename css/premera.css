@@ -6,7 +6,7 @@
   padding: 2em 0;
   margin: 0 auto;
   width: 100%; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 1023px) {
@@ -21,7 +21,7 @@
   @media (min-width: 2560px) {
     #header {
       max-width: 1550px; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -140,7 +140,7 @@
   padding: 2em 1em;
   display: block;
   position: fixed; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #menuicon {
       padding: 2em; } }
   @media (min-width: 1023px) {
@@ -173,7 +173,7 @@
   #mobilemenuwrapper #menunameflex {
     padding: 2em 0 0;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper #menunameflex {
         padding: 2em 0 0 1em; } }
     #mobilemenuwrapper #menunameflex #menuName a {
@@ -189,7 +189,7 @@
       top: 0;
       right: 0;
       padding: 2.45em 1.5em 0 0; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #mobilemenuwrapper #menunameflex #menuxicon {
           padding: 2.45em 2.4em 0 0; } }
   #mobilemenuwrapper #menuline {
@@ -199,14 +199,14 @@
     width: 100%;
     margin-top: 2em;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper #menuline {
         width: 95%; } }
   #mobilemenuwrapper ul {
     padding: 1em 0;
     transition: 0.3s all ease-in-out;
     margin: 0; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper ul {
         margin-left: 1.25em; } }
     #mobilemenuwrapper ul li {
@@ -280,7 +280,7 @@ p {
 .centerdesc {
   margin: 0 auto;
   line-height: 2em; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .centerdesc {
       width: 65%;
       text-align: left;
@@ -325,7 +325,7 @@ p {
   @media (min-width: 0px) {
     #herosection {
       height: 600px; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #herosection {
       height: 650px; } }
   @media (min-width: 1023px) {
@@ -348,7 +348,7 @@ p {
       color: white;
       font-weight: 500;
       text-align: center; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #herosection #herotagline {
         padding: 0; } }
     @media (min-width: 1023px) {
@@ -379,7 +379,7 @@ p {
     width: 80%;
     margin: 0 auto;
     padding: 6em 0 3em; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #herosection .logodiv {
         width: 35%;
         margin: 0 auto;
@@ -412,7 +412,7 @@ p {
       #herosection .macdiv {
         width: 90%;
         max-width: 450px; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #herosection .macdiv {
         width: 75%;
         max-width: 520px;
@@ -446,7 +446,7 @@ p {
     padding: 2em 0;
     margin: 0 auto;
     font-size: 1.2em; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #herosection .storytitle {
         font-size: 1em;
         position: absolute;
@@ -501,7 +501,7 @@ p {
       font-size: 1.8em;
       color: white;
       font-weight: bold; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #rolesection .roleflex .roletitle .roletitletext {
           position: absolute;
           top: 40%;
@@ -530,7 +530,7 @@ p {
           transform: translateY(-50%);
           right: 50%;
           transform: translateX(40%); } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #rolesection .roleflex .roletitle {
         width: 25%;
         margin: 1em auto; } }
@@ -551,7 +551,7 @@ p {
     text-align: center;
     width: 90%;
     margin: 0 auto 1em; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #rolesection .roleflex .rolecontent {
         width: 100%;
         margin: 1em auto; } }
@@ -583,7 +583,7 @@ p {
       font-size: 1.1em;
       text-align: center;
       margin: 0 auto; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #rolesection .roleflex .rolecontent .rolecontenttext {
           width: 100%;
           padding: 2em; } }
@@ -599,7 +599,7 @@ p {
         #rolesection .roleflex .rolecontent .rolecontenttext {
           width: 50%;
           padding: 3em; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #rolesection .roleflex .rolecontent {
         width: 73%; } }
     @media (min-width: 1023px) {
@@ -638,7 +638,7 @@ p {
 
 .pretestimg {
   padding-bottom: 5em; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .pretestimg {
       width: 80%;
       margin: 0 auto; } }
@@ -655,7 +655,7 @@ p {
       width: 90%;
       margin: 0 auto; } }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .premera_listens {
     width: 70%; } }
 @media (min-width: 1023px) {
@@ -702,7 +702,7 @@ html {
       width: 90%;
       padding: 2em 0;
       transition: 0.3s all ease-in-out; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
@@ -847,7 +847,7 @@ html {
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1023px) {
@@ -876,7 +876,7 @@ html {
   @media (min-width: 0px) {
     .getintouch {
       font-size: 1.5em; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .getintouch {
       font-size: 2em;
       text-align: center; } }

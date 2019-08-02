@@ -2,7 +2,7 @@
   padding: 2em 0;
   margin: 0 auto;
   width: 100%; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 1023px) {
@@ -17,7 +17,7 @@
   @media (min-width: 2560px) {
     #header {
       max-width: 1550px; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -136,7 +136,7 @@
   padding: 2em 1em;
   display: block;
   position: fixed; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #menuicon {
       padding: 2em; } }
   @media (min-width: 1023px) {
@@ -169,7 +169,7 @@
   #mobilemenuwrapper #menunameflex {
     padding: 2em 0 0;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper #menunameflex {
         padding: 2em 0 0 1em; } }
     #mobilemenuwrapper #menunameflex #menuName a {
@@ -185,7 +185,7 @@
       top: 0;
       right: 0;
       padding: 2.45em 1.5em 0 0; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #mobilemenuwrapper #menunameflex #menuxicon {
           padding: 2.45em 2.4em 0 0; } }
   #mobilemenuwrapper #menuline {
@@ -195,14 +195,14 @@
     width: 100%;
     margin-top: 2em;
     transition: 0.3s all ease-in-out; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper #menuline {
         width: 95%; } }
   #mobilemenuwrapper ul {
     padding: 1em 0;
     transition: 0.3s all ease-in-out;
     margin: 0; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #mobilemenuwrapper ul {
         margin-left: 1.25em; } }
     #mobilemenuwrapper ul li {
@@ -250,7 +250,7 @@
   @media (min-width: 0px) {
     #ptitle {
       height: 600px; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     #ptitle {
       height: 700px; } }
   @media (min-width: 1023px) {
@@ -268,7 +268,7 @@
     color: #F5F5F5;
     margin: 0 auto;
     padding-top: 2.8em; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #ptitle .projecttitle {
         font-size: 4em; } }
     @media (min-width: 1023px) {
@@ -289,7 +289,7 @@
     line-height: 1.5em;
     padding-top: 5em;
     padding-bottom: 1.5em; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       #ptitle .headintro {
         font-size: 1.2em;
         width: 50%;
@@ -324,7 +324,7 @@
   padding: 3em 0; }
   .introcontentcenter p {
     line-height: 2em; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .introcontentcenter {
       width: 70%; } }
   @media (min-width: 1023px) {
@@ -348,7 +348,7 @@
     .contentbox .introcontent p {
       line-height: 2em;
       font-weight: 600; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .contentbox .introcontent {
         width: 65%; } }
     @media (min-width: 1023px) {
@@ -375,7 +375,7 @@
     padding: 4em 0; }
     .contentbox #intropicdiv #intro_pic {
       width: 100%; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .contentbox #intropicdiv {
         width: 70%; } }
     @media (min-width: 1023px) {
@@ -403,7 +403,7 @@
   flex-wrap: wrap; }
   .processflex .subtitle {
     padding-bottom: 1em; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .processflex .subtitle {
         padding: 0; } }
     @media (min-width: 1023px) {
@@ -422,7 +422,7 @@
     @media (min-width: 0px) {
       .processflex .processitem {
         padding: 2em; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .processflex .processitem {
         width: 70%; }
         .processflex .processitem .processbox {
@@ -487,7 +487,7 @@
     .problemcontainer .contentbox {
       width: 75%;
       margin: 0 auto; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .problemcontainer .contentbox {
       width: 50%;
       margin: 0 auto; } }
@@ -515,7 +515,7 @@
     @media (min-width: 0px) {
       .problemcontainer .existingproblems .probpicdiv {
         width: 65%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .problemcontainer .existingproblems .probpicdiv {
         width: 35%; } }
     @media (min-width: 1023px) {
@@ -543,7 +543,7 @@
       .proposedcontainerr .contentbox {
         width: 75%;
         margin: 0 auto; } }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .proposedcontainerr .contentbox {
         width: 60%;
         margin: 0 auto; } }
@@ -585,7 +585,7 @@
     .researchcontainer .contentbox {
       width: 75%;
       margin: 0 auto; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .researchcontainer .contentbox {
       width: 60%;
       margin: 0 auto; } }
@@ -638,7 +638,7 @@
   margin: 0 auto; }
   .ideationcontainer .earlydesigns .variantpicdiv1 {
     padding: 4em 0; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .ideationcontainer .earlydesigns {
       width: 70%; } }
   @media (min-width: 1023px) {
@@ -664,7 +664,7 @@
     .takeawaycontainer .contentbox {
       width: 75%;
       margin: 0 auto; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .takeawaycontainer .contentbox {
       width: 60%;
       margin: 0 auto; } }
@@ -715,7 +715,7 @@ html {
       width: 90%;
       padding: 2em 0;
       transition: 0.3s all ease-in-out; }
-      @media (min-width: 767px) {
+      @media (min-width: 768px) {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
@@ -860,7 +860,7 @@ html {
   .footernavcontainer .nextprojbig {
     font-size: 1em;
     font-weight: 500; }
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1023px) {
@@ -889,7 +889,7 @@ html {
   @media (min-width: 0px) {
     .getintouch {
       font-size: 1.5em; } }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .getintouch {
       font-size: 2em;
       text-align: center; } }

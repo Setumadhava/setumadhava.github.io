@@ -1,29 +1,141 @@
-#menuicon {
-  font-size: 1.1em;
-  position: absolute;
-  right: 0;
-  z-index: 1;
-  top: 0;
-  padding: 1.6em 1em 0 0; }
+* {
+  transition: 0.4s all ease-in-out; }
 
-#mobilemenuwrapper {
-  opacity: 0;
-  transition: 0.3s all ease-in-out;
-  width: 100%;
-  background-color: white;
-  padding: 0 1.5em 0 1em;
-  position: absolute; }
-  #mobilemenuwrapper #menunameflex {
+#wrapper {
+  width: 90%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    #wrapper {
+      max-width: 650px; } }
+  @media (min-width: 768px) {
+    #wrapper {
+      max-width: 1000px; } }
+
+.twoemboth {
+  padding: 2em 0; }
+
+.threeemboth {
+  padding: 3em 0; }
+
+.fouremboth {
+  padding: 4em 0; }
+
+.oneemboth {
+  padding: 1em 0; }
+
+#newheader {
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    #newheader {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; } }
+  @media (min-width: 1023px) {
+    #newheader {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; } }
+  #newheader .logodiv {
+    width: 60px; }
+  #newheader #newnavflex {
     display: flex;
-    justify-content: space-between;
-    padding: 1.5em 0; }
-    #mobilemenuwrapper #menunameflex #menuName {
-      font-size: 1.5em;
-      font-family: georgia;
-      padding-left: 0.3em; }
-  #mobilemenuwrapper li {
-    list-style: none;
-    padding: 1.2em 0; }
+    flex-wrap: wrap;
+    padding-top: 2em; }
+    @media (min-width: 768px) {
+      #newheader #newnavflex {
+        width: 40%;
+        padding-top: 0; } }
+    @media (min-width: 1023px) {
+      #newheader #newnavflex {
+        width: 35%;
+        padding-top: 0; } }
+    #newheader #newnavflex .newnavitem {
+      width: 33%; }
+      #newheader #newnavflex .newnavitem p {
+        font-family: "Ubuntu", sans-serif;
+        font-size: 1em; }
+        @media (min-width: 768px) {
+          #newheader #newnavflex .newnavitem p {
+            font-size: 0.9em; } }
+    #newheader #newnavflex .navitemcenter {
+      text-align: center; }
+    #newheader #newnavflex .navitemright {
+      text-align: right; }
+
+#firstfold {
+  margin: 0 auto; }
+
+#helloline p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #25334A; }
+  @media (min-width: 768px) {
+    #helloline p {
+      font-size: 1.8em; } }
+  #helloline p span {
+    color: red; }
+
+#whatido p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.1em;
+  color: #25334A; }
+@media (min-width: 768px) {
+  #whatido {
+    max-width: 500px; } }
+@media (min-width: 1023px) {
+  #whatido {
+    max-width: 600px; } }
+
+.projectcard {
+  background-color: White;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse; }
+  @media (min-width: 768px) {
+    .projectcard {
+      margin: 0 auto;
+      border-radius: 10px; } }
+  @media (min-width: 1023px) {
+    .projectcard {
+      margin: 0 auto;
+      border-radius: 10px;
+      flex-direction: row; } }
+  .projectcard .projectimgdiv {
+    width: 90%;
+    margin: 0 auto; }
+    @media (min-width: 1023px) {
+      .projectcard .projectimgdiv {
+        width: 40%;
+        padding-top: 4em; } }
+  .projectcard .projectcontentdiv {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3em 0; }
+    @media (min-width: 1023px) {
+      .projectcard .projectcontentdiv {
+        width: 40%;
+        padding-top: 4em; } }
+    .projectcard .projectcontentdiv .organization p {
+      font-size: 0.8em;
+      font-weight: bolder;
+      font-family: "Ubuntu", sans-serif;
+      color: #9097A2;
+      letter-spacing: 2px; }
+    .projectcard .projectcontentdiv .projecttitle p {
+      font-family: "Poppins", sans-serif;
+      color: #25334A;
+      font-size: 1.3em;
+      font-weight: 800; }
+    .projectcard .projectcontentdiv .projectdesc p {
+      font-size: 1em;
+      font-family: "Ubuntu", sans-serif;
+      color: #25334A;
+      line-height: 28px; }
+
+.projectcard:hover {
+  box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
+  transition: 0.4s all ease-in-out; }
 
 .container,
 body,
@@ -303,4 +415,4 @@ html {
     .copyright {
       font-size: 1.4em; } }
 
-/*# sourceMappingURL=testbed.css.map */
+/*# sourceMappingURL=index19.css.map */
