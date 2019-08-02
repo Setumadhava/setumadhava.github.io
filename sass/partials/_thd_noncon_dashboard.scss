@@ -427,7 +427,7 @@ p {
     p {
         font-size: 1.1em;
         font-weight: 800;
-        font-family: $ubuntu;
+        font-family: $opensans;
         letter-spacing: 2px;
     }
 }
@@ -445,7 +445,7 @@ p {
 
     p {
         font-size: 18px;
-        font-family: $ubuntu;
+        font-family: $opensans;
     }
 }
 
@@ -456,7 +456,7 @@ p {
         font-style: italic;
         text-align: center;
         color: $grey4;
-        font-family: $ubuntu;
+        font-family: $opensans;
         @media #{$tablet} {
             max-width: 600px;
         }

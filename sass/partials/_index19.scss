@@ -29,6 +29,12 @@
     padding: 1em 0;
 }
 
+.navplaceholder {
+    height: 80px;
+    width: 100%;
+    background-color: $grey2;
+}
+
 #newheader {
     margin: 0 auto;
     @media #{$tablet} {
@@ -63,7 +69,7 @@
             width: 33%;
 
             p {
-                font-family: $ubuntu;
+                font-family: $opensans;
                 font-size: 1em;
                 @media #{$tablet} {
                     font-size: 0.9em;
@@ -83,78 +89,90 @@
 
 #firstfold {
     margin: 0 auto;
+    padding: 8em 0;
+    @media #{$mac13} {
+        padding: 14em 0;
+    }
 }
 
 #helloline {
     p {
         font-family: $poppins;
-        font-size: 1.3em;
-        font-weight: 500;
+        font-size: 1.7em;
+        font-weight: 300;
         color: #25334A;
-        @media #{$tablet} {
-            font-size: 1.8em;
-        }
+    }
 
-        span {
-            color: red;
-        }
+    span {
+        font-weight: 400;
+        color: $setured;
     }
 }
 
 #whatido {
     p {
-        font-family: $ubuntu;
-        font-size: 1.1em;
+        font-family: $opensans;
+        font-size: 1em;
         color: #25334A;
     }
     @media #{$tablet} {
         max-width: 500px;
     }
     @media #{$mac13} {
-        max-width: 600px;
+        max-width: 500px;
     }
 }
 
 .projectcard {
-    background-color: White;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column-reverse;
-    @media #{$tablet} {
-        margin: 0 auto;
-        border-radius: 10px;
-    }
+    margin-bottom: 8em;
     @media #{$mac13} {
-        margin: 0 auto;
-        border-radius: 10px;
-        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 12em;
     }
 
     .projectimgdiv {
-        width: 90%;
-        margin: 0 auto;
+        background-color: #A2E3B3;
+        padding: 2em 0;
+        border-radius: 8px;
         @media #{$mac13} {
             width: 40%;
-            padding-top: 4em;
+            border-radius: 10px;
+            margin: 0;
+        }
+
+        .projectimg {
+            position: relative;
+            top: 10%;
+            width: 90%;
+            margin: 0 auto;
+            @media #{$tablet} {
+                width: 60%;
+            }
+            @media #{$mac13} {
+                width: 80%;
+            }
         }
     }
 
     .projectcontentdiv {
         width: 90%;
         margin: 0 auto;
-        padding: 3em 0;
+        padding-top: 2em;
         @media #{$mac13} {
             width: 40%;
             padding-top: 4em;
+            margin: 0;
         }
 
         .organization {
             p {
                 font-size: 0.8em;
-                font-weight: bolder;
-                font-family: $ubuntu;
-                color: #9097A2;
-                letter-spacing: 2px;
+                font-weight: 800;
+                font-family: $opensans;
+                color: #A3a3a3;
+                letter-spacing: 1px;
             }
         }
 
@@ -162,23 +180,27 @@
             p {
                 font-family: $poppins;
                 color: #25334A;
-                font-size: 1.3em;
+                font-size: 1.4em;
                 font-weight: 800;
+                letter-spacing: 1px;
+                text-decoration: none;
             }
         }
 
         .projectdesc {
             p {
                 font-size: 1em;
-                font-family: $ubuntu;
+                font-family: $opensans;
                 color: #25334A;
                 line-height: 28px;
+                max-width: 300px;
             }
         }
     }
 }
 
 .projectcard:hover {
-    box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
-    transition: 0.4s all ease-in-out;
+    .projectimgdiv {
+        background-color: #6CD387;
+    }
 }
