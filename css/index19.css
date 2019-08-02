@@ -1,5 +1,132 @@
-* {
-  transition: 0.4s all ease-in-out; }
+#header {
+  margin: 2em auto;
+  width: 100%; }
+  @media (min-width: 768px) {
+    #header {
+      margin: 4em auto; } }
+  @media (min-width: 1023px) {
+    #header #headerflex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative; } }
+  #header #headerflex .name {
+    transition: 0.25s all ease-in-out;
+    position: relative; }
+    #header #headerflex .name a {
+      color: black;
+      transition: 0.25s all ease-in-out; }
+    #header #headerflex .name p {
+      font-family: "Poppins", sans-serif;
+      width: 240px;
+      font-size: 1.5em;
+      margin: 0;
+      color: #25334A; }
+  #header #headerflex .name:hover {
+    transition: 0.25s all ease-in-out; }
+    #header #headerflex .name:hover a {
+      color: #F04B33;
+      transition: 0.25s all ease-in-out; }
+  #header #headerflex #navflex {
+    width: 80%;
+    padding-top: 1em;
+    display: none; }
+    @media (min-width: 1023px) {
+      #header #headerflex #navflex {
+        width: 40%;
+        justify-content: space-between;
+        padding-top: 0.7em;
+        display: flex; } }
+    #header #headerflex #navflex .navitem {
+      width: 20%;
+      text-align: left;
+      transition: 0.25s all ease-in-out; }
+      #header #headerflex #navflex .navitem a {
+        transition: 0.25s all ease-in-out;
+        color: black; }
+      @media (min-width: 1023px) {
+        #header #headerflex #navflex .navitem {
+          text-align: right; } }
+      #header #headerflex #navflex .navitem p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.9em;
+        font-weight: 400;
+        letter-spacing: 1px; }
+    #header #headerflex #navflex .navitem:hover a {
+      transition: 0.25s all ease-in-out;
+      color: #F04B33;
+      font-weight: 600; }
+
+#menuicon {
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  top: 0;
+  padding: 2.25em 1em;
+  display: block;
+  position: fixed; }
+  @media (min-width: 768px) {
+    #menuicon {
+      padding: 4.25em; } }
+  @media (min-width: 1023px) {
+    #menuicon {
+      display: none; } }
+
+#mobilemenuwrapper {
+  opacity: 0;
+  z-index: -2;
+  transition: 0.25s all ease-in-out;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+  position: fixed;
+  -webkit-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
+  -moz-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
+  box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75); }
+  #mobilemenuwrapper .mobilemenucontent {
+    width: 90%;
+    margin: 0 auto; }
+  #mobilemenuwrapper #menunameflex {
+    padding: 2em 0 0;
+    transition: 0.25s all ease-in-out; }
+    #mobilemenuwrapper #menunameflex #menuName a {
+      font-size: 1.5em;
+      transition: 0.25s all ease-in-out; }
+      #mobilemenuwrapper #menunameflex #menuName a p {
+        font-family: "Poppins", sans-serif;
+        width: 240px;
+        font-size: 1em;
+        margin: 0;
+        color: #25334A; }
+    @media (min-width: 768px) {
+      #mobilemenuwrapper #menunameflex #menuName {
+        margin-top: 2em; } }
+    #mobilemenuwrapper #menunameflex #menuxicon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 2.45em 1.5em 0 0; }
+      @media (min-width: 768px) {
+        #mobilemenuwrapper #menunameflex #menuxicon {
+          padding: 4.25em 4.5em; } }
+      @media (min-width: 1023px) {
+        #mobilemenuwrapper #menunameflex #menuxicon {
+          padding: 4.5em 3.3em; } }
+  #mobilemenuwrapper ul {
+    padding: 1em 0;
+    transition: 0.3s all ease-in-out;
+    margin: 0; }
+    #mobilemenuwrapper ul li {
+      list-style: none;
+      padding: 1.5em 0; }
+      #mobilemenuwrapper ul li a {
+        color: #25334A;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.9em;
+        font-weight: 400;
+        letter-spacing: 1px; }
 
 #wrapper {
   width: 90%;

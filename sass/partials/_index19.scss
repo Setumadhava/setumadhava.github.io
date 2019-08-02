@@ -1,6 +1,188 @@
 * {
-    transition: 0.4s all ease-in-out;
+    // transition: 0.4s all ease-in-out;
 }
+/////////////////////  HEADER START /////////////////////
+
+#header {
+    margin: 2em auto;
+    width: 100%;
+    @media #{$tablet} {
+        margin: 4em auto;
+    }
+
+    #headerflex {
+        @media #{$mac13} {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .name {
+            transition: 0.25s all ease-in-out;
+            position: relative;
+
+            a {
+                color: black;
+                transition: 0.25s all ease-in-out;
+            }
+
+            p {
+                font-family: $poppins;
+                width: 240px;
+                font-size: 1.5em;
+                margin: 0;
+                color: #25334A;
+            }
+        }
+
+        .name:hover {
+            transition: 0.25s all ease-in-out;
+
+            a {
+                color: $setured;
+                transition: 0.25s all ease-in-out;
+            }
+        }
+
+        #navflex {
+            width: 80%;
+            padding-top: 1em;
+            display: none;
+            @media #{$mac13} {
+                width: 40%;
+                justify-content: space-between;
+                padding-top: 0.7em;
+                display: flex;
+            }
+
+            .navitem {
+                a {
+                    transition: 0.25s all ease-in-out;
+                    color: black;
+                }
+                width: 20%;
+                text-align: left;
+                @media #{$mac13} {
+                    text-align: right;
+                }
+                transition: 0.25s all ease-in-out;
+
+                p {
+                    font-family: $opensans;
+                    font-size: 0.9em;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                }
+            }
+
+            .navitem:hover {
+                a {
+                    transition: 0.25s all ease-in-out;
+                    color: $setured;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+#menuicon {
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    top: 0;
+    padding: 2.25em 1em;
+    display: block;
+    position: fixed;
+    @media #{$tablet} {
+        padding: 4.25em;
+    }
+    @media #{$mac13} {
+        display: none;
+        // padding: 4.5em 3em;
+    }
+}
+
+#mobilemenuwrapper {
+    opacity: 0;
+    z-index: -2;
+    transition: 0.25s all ease-in-out;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    position: fixed;
+    -webkit-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+    -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+    box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+
+    .mobilemenucontent {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #menunameflex {
+        padding: 2em 0 0;
+        @media #{$tablet} {
+            // padding: 2em 0 0 1em;
+        }
+        transition: 0.25s all ease-in-out;
+
+        #menuName {
+            a {
+                font-size: 1.5em;
+
+                p {
+                    font-family: $poppins;
+                    width: 240px;
+                    font-size: 1em;
+                    margin: 0;
+                    color: #25334A;
+                }
+                transition: 0.25s all ease-in-out;
+            }
+            @media #{$tablet} {
+                margin-top: 2em;
+            }
+        }
+
+        #menuxicon {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 2.45em 1.5em 0 0;
+            @media #{$tablet} {
+                padding: 4.25em 4.5em;
+            }
+            @media #{$mac13} {
+                // display: none;
+                padding: 4.5em 3.3em;
+            }
+        }
+    }
+
+    ul {
+        padding: 1em 0;
+        transition: 0.3s all ease-in-out;
+        margin: 0;
+
+        li {
+            list-style: none;
+            padding: 1.5em 0;
+
+            a {
+                color: #25334A;
+                font-family: $opensans;
+                font-size: 0.9em;
+                font-weight: 400;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}
+//////////////// HEADER END ///////////////
 
 #wrapper {
     width: 90%;
