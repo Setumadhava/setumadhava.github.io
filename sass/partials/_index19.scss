@@ -4,10 +4,10 @@
 /////////////////////  HEADER START /////////////////////
 
 #hpheader {
-    margin: 2em auto;
+    margin: 2.1em auto;
     width: 100%;
     @media #{$tablet} {
-        margin: 4em auto;
+        margin: 4.1em auto;
     }
 
     #hpheaderflex {
@@ -71,7 +71,7 @@
                 list-style: none;
                 padding: 1.5em 0;
                 @media #{$mac13} {
-                    padding: 0.3em 1.5em;
+                    padding: 0.45em 1.5em;
                 }
 
                 a {
@@ -97,11 +97,11 @@
     right: 0;
     z-index: 100;
     top: 0;
-    padding: 2.25em 1em;
+    padding: 2.5em 1em;
     display: block;
     position: fixed;
     @media #{$tablet} {
-        padding: 4.25em;
+        padding: 4em 3em;
     }
     @media #{$mac13} {
         display: none;
@@ -133,7 +133,7 @@
     }
 
     #hpmenunameflex {
-        padding: 2em 0 0;
+        padding: 2.1em 0 0;
         transition: 0.25s all ease-in-out;
 
         #hpmenuName {
@@ -168,9 +168,9 @@
             position: absolute;
             top: 0;
             right: 0;
-            padding: 2.4em 1.25em 0 0;
+            padding: 2.5em 1.25em 0 0;
             @media #{$tablet} {
-                padding: 4.5em 3.3em;
+                padding: 4em 3em;
             }
             @media #{$mac13} {
                 // display: none;

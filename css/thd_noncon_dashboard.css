@@ -16,7 +16,7 @@
   position: fixed; }
   @media (min-width: 768px) {
     #ppheadercontainer #ppmenuicon {
-      padding: 4em 3em; } }
+      padding: 4.5em 3em; } }
   @media (min-width: 1024px) {
     #ppheadercontainer #ppmenuicon {
       padding: 4.5em 6em; } }
