@@ -1,16 +1,16 @@
-document.getElementById("menuicon").onclick = function() {
-    document.getElementById("menuicon").style.opacity = 0;
-    document.getElementById("menuicon").style.zIndex = -2;
-    document.getElementById("mobilemenuwrapper").style.opacity = 01;
-    document.getElementById("mobilemenuwrapper").style.zIndex = 2;
+document.getElementById("hpmenuicon").onclick = function() {
+    document.getElementById("hpmenuicon").style.opacity = 0;
+    document.getElementById("hpmenuicon").style.zIndex = -2;
+    document.getElementById("hpmobilemenuwrapper").style.opacity = 01;
+    document.getElementById("hpmobilemenuwrapper").style.zIndex = 2;
 }
-document.getElementById('menuxicon').onclick = function() {
+document.getElementById('hpmenuxicon').onclick = function() {
 
-    document.getElementById("mobilemenuwrapper").style.opacity = 0;
-    document.getElementById("mobilemenuwrapper").style.zIndex = -2;
+    document.getElementById("hpmobilemenuwrapper").style.opacity = 0;
+    document.getElementById("hpmobilemenuwrapper").style.zIndex = -2;
     setTimeout(function() {
-        document.getElementById("menuicon").style.opacity = 1;
-        document.getElementById("menuicon").style.zIndex = 2;
+        document.getElementById("hpmenuicon").style.opacity = 1;
+        document.getElementById("hpmenuicon").style.zIndex = 2;
     }, 150);
 
 }

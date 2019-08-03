@@ -4,7 +4,7 @@ document.getElementById("ppmenuicon").onclick = function() {
     document.getElementById("ppmobilemenuwrapper").style.opacity = 1;
     document.getElementById("ppmobilemenuwrapper").style.zIndex = 2;
 }
-document.getElementById('menuxicon').onclick = function() {
+document.getElementById('ppmenuxicon').onclick = function() {
 
     document.getElementById("ppmobilemenuwrapper").style.opacity = 0;
     document.getElementById("ppmobilemenuwrapper").style.zIndex = -2;

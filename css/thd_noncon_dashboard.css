@@ -3,7 +3,7 @@
   color: #414141;
   line-height: 1.8em; }
 
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   #ppheadercontainer {
     height: 180px; } }
 #ppheadercontainer #ppmenuicon {
@@ -17,9 +17,11 @@
   @media (min-width: 768px) {
     #ppheadercontainer #ppmenuicon {
       padding: 4em 3em; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #ppheadercontainer #ppmenuicon {
       padding: 4.5em 6em; } }
+  #ppheadercontainer #ppmenuicon img:hover {
+    cursor: pointer; }
 #ppheadercontainer #ppmobilemenuwrapper {
   opacity: 0;
   z-index: -2;
@@ -33,63 +35,73 @@
   -webkit-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
   -moz-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
   box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75); }
-  #ppheadercontainer #ppmobilemenuwrapper .mobilemenucontent {
+  #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent {
     width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; }
-    @media (min-width: 1023px) {
-      #ppheadercontainer #ppmobilemenuwrapper .mobilemenucontent {
-        max-width: 1000px; } }
-    #ppheadercontainer #ppmobilemenuwrapper .mobilemenucontent ul li {
-      padding: 3.5em 1.5em; }
-#ppheadercontainer #menunameflex {
-  padding: 2em 0 0;
-  transition: 0.25s all ease-in-out; }
-  #ppheadercontainer #menunameflex #menuName a {
-    font-size: 1.5em;
-    transition: 0.25s all ease-in-out; }
-    #ppheadercontainer #menunameflex #menuName a p {
-      font-family: "Poppins", sans-serif;
-      width: 240px;
-      font-size: 1em;
-      margin: 0;
-      color: #25334A; }
-  @media (min-width: 768px) {
-    #ppheadercontainer #menunameflex #menuName {
-      margin-top: 2em; } }
-  #ppheadercontainer #menunameflex #menuxicon {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 2.45em 1.25em 0 0; }
-    @media (min-width: 768px) {
-      #ppheadercontainer #menunameflex #menuxicon {
-        padding: 4.25em 3.3em; } }
-    @media (min-width: 1023px) {
-      #ppheadercontainer #menunameflex #menuxicon {
-        padding: 4.75em 6.2em; } }
-#ppheadercontainer ul {
-  padding: 1em 0;
-  transition: 0.3s all ease-in-out;
-  margin: 0; }
-  @media (min-width: 1023px) {
-    #ppheadercontainer ul {
-      display: flex;
-      flex-wrap: wrap; }
-      #ppheadercontainer ul li {
+    margin: 0 auto; }
+    @media (min-width: 1440px) {
+      #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent {
+        max-width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; } }
+    #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex {
+      padding: 2em 0 0;
+      transition: 0.25s all ease-in-out; }
+      #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a {
+        font-size: 1.5em; }
+        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a p {
+          font-family: "Poppins", sans-serif;
+          width: 240px;
+          font-size: 1em;
+          margin: 0;
+          color: #25334A; }
+          #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a p span {
+            transition: 0.25s all ease-in-out; }
+        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a p:hover span {
+          color: #F04B33;
+          transition: 0.25s all ease-in-out; }
+      @media (min-width: 768px) {
+        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName {
+          margin-top: 2em; } }
+      #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 2.4em 1.25em 0 0; }
+        @media (min-width: 768px) {
+          #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicon {
+            padding: 4.5em 3.3em; } }
+        @media (min-width: 1024px) {
+          #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicon {
+            padding: 4.5em 6.2em; } }
+        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicon img:hover {
+          cursor: pointer; }
+    #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul {
+      padding: 1em 0;
+      transition: 0.3s all ease-in-out;
+      margin: 0; }
+      @media (min-width: 1440px) {
+        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul {
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 2em; } }
+      #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul li {
         list-style: none;
         padding: 1.5em 0; }
-        #ppheadercontainer ul li a {
+        @media (min-width: 1440px) {
+          #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul li {
+            padding: 1.5em;
+            margin-bottom: 2em; } }
+        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul li a {
           color: #25334A;
           font-family: "Open Sans", sans-serif;
           font-size: 0.9em;
           font-weight: 400;
-          letter-spacing: 1px; }
-      #ppheadercontainer ul li:hover a {
-        color: #F04B33;
-        font-weight: 600; } }
+          letter-spacing: 1px;
+          transition: 0.25s all ease-in-out; }
+        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul li a:hover {
+          color: #F04B33;
+          transition: 0.25s all ease-in-out; }
 
 p {
   line-height: 1.8em; }
@@ -100,7 +112,7 @@ p {
   @media (min-width: 768px) {
     #supercontainer {
       width: 90%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #supercontainer {
       width: 80%; } }
   @media (min-width: 1440px) {
@@ -145,7 +157,7 @@ p {
   @media (min-width: 768px) {
     #herosection {
       height: 460px; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #herosection {
       border-radius: 15px;
       height: 550px;
@@ -164,7 +176,7 @@ p {
         #herosection #heroimg .imgdiv {
           width: 80%;
           margin: 0 auto; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #herosection #heroimg {
         position: absolute;
         top: 15%; }
@@ -184,7 +196,7 @@ p {
     #herotitle p {
       max-width: 600px;
       font-size: 2em; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #herotitle p {
       max-width: 650px;
       font-size: 2.5em; } }
@@ -195,7 +207,7 @@ p {
   @media (min-width: 768px) {
     .sectiontitle {
       max-width: 600px; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .sectiontitle {
       max-width: 650px; } }
   .sectiontitle p {
@@ -213,7 +225,7 @@ p {
   @media (min-width: 768px) {
     .subtitle {
       max-width: 600px; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .subtitle {
       max-width: 650px; } }
   .subtitle p {
@@ -229,7 +241,7 @@ p {
   @media (min-width: 768px) {
     .contentsection {
       max-width: 600px; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .contentsection {
       max-width: 650px; } }
   .contentsection p {
@@ -246,7 +258,7 @@ p {
   @media (min-width: 768px) {
     .imgdesc p {
       max-width: 600px; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .imgdesc p {
       max-width: 1250px; } }
 
@@ -258,7 +270,7 @@ p {
   @media (min-width: 768px) {
     #emphasisflex {
       max-width: 600px; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #emphasisflex {
       max-width: 650px; } }
   #emphasisflex .empline {
@@ -292,7 +304,7 @@ p {
     @media (min-width: 768px) {
       #roleflex .roleitem {
         width: 33%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #roleflex .roleitem {
         width: 33%; } }
     #roleflex .roleitem .roletitle {
@@ -310,7 +322,7 @@ p {
     .findingsflex {
       max-width: 800px;
       justify-content: space-around; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .findingsflex {
       max-width: 1050px;
       justify-content: space-between; } }
@@ -319,14 +331,14 @@ p {
     padding: 1em;
     border-radius: 10px;
     margin-bottom: 2em; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .findingsflex .findingsbox {
         width: 42%;
         margin: 2em; } }
     .findingsflex .findingsbox .findingstitle p {
       font-weight: bold; }
 
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   .centerimg {
     max-width: 1250px;
     margin: 0 auto; } }
@@ -334,7 +346,7 @@ p {
 #footer {
   width: 85%;
   margin: 0 auto; }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #footer {
       max-width: 1250px;
       margin: 0 auto; }
@@ -350,7 +362,7 @@ p {
     #header {
       max-width: 600px;
       margin: 0 auto; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #header {
       max-width: 950px;
       margin: 0 auto; } }
@@ -403,7 +415,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2em;
     justify-content: space-between; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #footer #contactflex {
         width: 100%; } }
     #footer #contactflex .contcontent {
@@ -416,7 +428,7 @@ html {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #footer #contactflex .contcontent {
           width: 25%;
           padding: 2em 0; } }
@@ -560,7 +572,7 @@ html {
     @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1440px) {
@@ -590,7 +602,7 @@ html {
     .getintouch {
       font-size: 2em;
       text-align: center; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .getintouch {
       font-size: 2em; } }
   @media (min-width: 1440px) {

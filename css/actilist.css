@@ -8,7 +8,7 @@
   @media (min-width: 768px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 1440px) {
@@ -26,7 +26,7 @@
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -76,7 +76,7 @@
     width: 80%;
     padding-top: 1em;
     display: none; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -107,7 +107,7 @@
       #header #headerflex #navflex .navitem a {
         transition: 0.3s all ease-in-out;
         color: black; }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       @media (min-width: 1440px) {
@@ -142,7 +142,7 @@
   @media (min-width: 768px) {
     #menuicon {
       padding: 2em; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #menuicon {
       display: none; } }
   @media (min-width: 1440px) {
@@ -224,7 +224,7 @@
   @media (min-width: 768px) {
     .title {
       font-size: 3em; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .title {
       font-size: 3em; } }
   @media (min-width: 1440px) {
@@ -256,7 +256,7 @@ ul {
     .content,
     ul {
       width: 100%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .content,
     ul {
       width: 70%;
@@ -289,7 +289,7 @@ ul {
   @media (min-width: 768px) {
     #hero {
       height: 800px; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #hero {
       height: 600px; } }
   @media (min-width: 1440px) {
@@ -321,7 +321,7 @@ ul {
   @media (min-width: 768px) {
     #herophonediv {
       width: 40%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #herophonediv {
       width: 25%; } }
   @media (min-width: 1440px) {
@@ -354,7 +354,7 @@ ul {
   @media (min-width: 768px) {
     .arrowdowndiv {
       left: 48.5%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .arrowdowndiv {
       left: 50%; } }
   @media (min-width: 1440px) {
@@ -380,7 +380,7 @@ ul {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center; } }
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   .intro {
     display: flex;
     justify-content: space-around;
@@ -410,7 +410,7 @@ ul {
       width: 265px;
       padding: 3em 0;
       position: relative; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .logodiv {
       width: 265px;
       padding: 3em 0;
@@ -436,7 +436,7 @@ ul {
       padding: 2em;
       margin: 10em 0;
       position: relative; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .blurbdiv {
       width: 50%;
       padding: 2em;
@@ -484,7 +484,7 @@ ul {
       width: 100%;
       justify-content: space-around;
       margin: 0 auto; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .roleflex {
       display: flex;
       flex-wrap: wrap;
@@ -518,7 +518,7 @@ ul {
     .roletitle {
       width: 80%;
       margin: 0 auto; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .roletitle {
       width: 80%;
       margin: 0 auto; } }
@@ -538,7 +538,7 @@ ul {
       font-size: 1.4em;
       width: 80%;
       margin: 1em auto; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .rolebody {
       font-size: 1.4em;
       width: 80%;
@@ -566,7 +566,7 @@ ul {
 .whatcontentdiv {
   width: 100%;
   padding: 4em 0; }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .whatcontentdiv {
       width: 50%;
       padding: 8em 0; } }
@@ -597,7 +597,7 @@ ul {
 
 .whatphonediv {
   width: 100%; }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .whatphonediv {
       width: 50%; } }
   @media (min-width: 1440px) {
@@ -619,7 +619,7 @@ ul {
       .whatphonediv #phonediv {
         width: 40%;
         margin: 0 auto; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .whatphonediv #phonediv {
         width: 60%;
         margin: 0 auto;
@@ -650,7 +650,7 @@ ul {
     @media (min-width: 768px) {
       .previewcontainer .title {
         font-size: 1.5em; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .previewcontainer .title {
         font-size: 1.5em;
         text-align: left; } }
@@ -692,7 +692,7 @@ ul {
       order: 2;
       width: 40%;
       margin: 0 auto; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .previewcontentdiv {
       order: 2;
       width: 40%;
@@ -721,7 +721,7 @@ ul {
   @media (min-width: 768px) {
     .prevphonediv {
       width: 35%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .prevphonediv {
       width: 30%; } }
   @media (min-width: 1440px) {
@@ -737,7 +737,7 @@ ul {
   @media (min-width: 768px) {
     .followphone {
       width: 50%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .followphone {
       width: 50%; } }
   @media (min-width: 1440px) {
@@ -752,7 +752,7 @@ ul {
   padding: 2em 0;
   margin: 0 auto;
   font-weight: 600; }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .previewtitle {
       width: 75%; } }
   @media (min-width: 1440px) {
@@ -767,7 +767,7 @@ ul {
     .previewcontent {
       width: 90%;
       margin: 0 auto; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .previewcontent {
       width: 75%; } }
   @media (min-width: 1440px) {
@@ -799,7 +799,7 @@ ul {
     @media (min-width: 768px) {
       #backcontainer .contentdiv {
         width: 55%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #backcontainer .contentdiv {
         width: 55%; } }
     @media (min-width: 1440px) {
@@ -825,7 +825,7 @@ ul {
     @media (min-width: 768px) {
       #earlyexplorationcontainer .contentdiv {
         width: 60%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #earlyexplorationcontainer .contentdiv {
         width: 55%; } }
     @media (min-width: 1440px) {
@@ -838,7 +838,7 @@ ul {
   #earlyexplorationcontainer .initialsketchesdiv {
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #earlyexplorationcontainer .initialsketchesdiv {
         width: 70%; } }
     @media (min-width: 1440px) {
@@ -870,7 +870,7 @@ ul {
     @media (min-width: 768px) {
       #researchbox .contentdiv {
         width: 60%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #researchbox .contentdiv {
         width: 55%; } }
     @media (min-width: 1440px) {
@@ -885,7 +885,7 @@ ul {
     margin: 0 auto;
     font-size: 1.6em;
     width: 100%; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #researchbox .subheader {
         width: 70%; } }
     @media (min-width: 1440px) {
@@ -909,7 +909,7 @@ ul {
         justify-content: space-between;
         padding: 4em 0;
         width: 90%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #researchbox #percentagediv {
         display: flex;
         flex-wrap: wrap;
@@ -945,7 +945,7 @@ ul {
       #researchbox #quotediv {
         width: 65%;
         margin: 0 auto; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #researchbox #quotediv {
         display: flex;
         flex-wrap: wrap;
@@ -967,7 +967,7 @@ ul {
       color: #00936E;
       padding: 4em 0;
       text-align: center; }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #researchbox #quotediv .quote {
           width: 40%; } }
       @media (min-width: 1440px) {
@@ -993,7 +993,7 @@ ul {
   @media (min-width: 768px) {
     .pencilbgdiv {
       height: 700px; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .pencilbgdiv {
       height: 700px; } }
   @media (min-width: 1440px) {
@@ -1014,7 +1014,7 @@ ul {
       @media (min-width: 768px) {
         .pencilbgdiv .wireframescontentdiv .contentdiv {
           width: 60%; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         .pencilbgdiv .wireframescontentdiv .contentdiv {
           width: 60%; } }
       @media (min-width: 1440px) {
@@ -1053,7 +1053,7 @@ ul {
     @media (min-width: 768px) {
       #wireframesbox .contentdiv {
         width: 60%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #wireframesbox .contentdiv {
         width: 55%; } }
     @media (min-width: 1440px) {
@@ -1073,7 +1073,7 @@ ul {
         #wireframesbox #wireframegroupbig .wfgp .wfdiv {
           width: 30%;
           padding: 2em; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #wireframesbox #wireframegroupbig .wfgp .wfdiv {
           width: 20%;
           padding: 2em; } }
@@ -1090,7 +1090,7 @@ ul {
       @media (min-width: 768px) {
         #wireframesbox #wireframegroupbig .wfgp .wffive {
           display: block; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #wireframesbox #wireframegroupbig .wfgp .wffive {
           display: block; } }
       @media (min-width: 1440px) {
@@ -1119,7 +1119,7 @@ ul {
     @media (min-width: 768px) {
       #visualbox .contentdiv {
         width: 60%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #visualbox .contentdiv {
         width: 55%; } }
     @media (min-width: 1440px) {
@@ -1137,7 +1137,7 @@ ul {
         width: 70%;
         padding-bottom: 8em;
         margin: 0 auto; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #visualbox #colorsdiv {
         width: 50%;
         margin: 0 auto; } }
@@ -1160,7 +1160,7 @@ ul {
         width: 70%;
         padding-bottom: 8em;
         margin: 0 auto; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #visualbox .typobuttondiv {
         width: 50%;
         margin: 0 auto; } }
@@ -1180,7 +1180,7 @@ ul {
   .bluesection {
     width: 80%;
     margin: 0 auto; } }
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   .bluesection .deschdiv {
     padding: 4em 0; } }
 @media (min-width: 1440px) {
@@ -1198,7 +1198,7 @@ ul {
   @media (min-width: 768px) {
     .bluesection .deschdiv .hfgp2 {
       width: 80%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .bluesection .deschdiv .hfgp2 {
       width: 45%; } }
   @media (min-width: 1440px) {
@@ -1227,7 +1227,7 @@ ul {
     @media (min-width: 768px) {
       .hificontainer .contentdiv {
         width: 60%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .hificontainer .contentdiv {
         width: 55%; } }
     @media (min-width: 1440px) {
@@ -1254,7 +1254,7 @@ ul {
     justify-content: center; }
     .hificontainer .hifigroupdiv .hfgp {
       padding: 2em; }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         .hificontainer .hifigroupdiv .hfgp {
           width: 50%; } }
   .hificontainer .redbtn {
@@ -1290,7 +1290,7 @@ ul {
     color: #183161;
     transition: all 0.30s ease-in-out; }
 
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   #benefitscontainer #benefitsbox {
     display: flex;
     flex-wrap: wrap; } }
@@ -1306,7 +1306,7 @@ ul {
   padding: 4em 0;
   background-color: #FFFABC;
   width: 100%; }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #benefitscontainer .colorcontentdiv {
       width: 50%; } }
   @media (min-width: 1440px) {
@@ -1326,7 +1326,7 @@ ul {
     @media (min-width: 768px) {
       #benefitscontainer .colorcontentdiv .contentdiv {
         width: 60%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #benefitscontainer .colorcontentdiv .contentdiv {
         width: 90%; } }
     @media (min-width: 1440px) {
@@ -1339,7 +1339,7 @@ ul {
   background-color: #F5F5F5;
   width: 100%;
   padding: 4em 0; }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #benefitscontainer #benefitsimagediv {
       width: 50%;
       position: relative; } }
@@ -1355,7 +1355,7 @@ ul {
     #benefitscontainer #benefitsimagediv .nakedscreendiv {
       width: 70%;
       margin: 0 auto; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #benefitscontainer #benefitsimagediv .nakedscreendiv {
       position: absolute;
       top: 50%;
@@ -1386,7 +1386,7 @@ ul {
   #reflectioncontainer #blackphonebox {
     width: 100%;
     margin: 0 auto; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #reflectioncontainer #blackphonebox {
         margin: 0 auto;
         width: 50%; } }
@@ -1411,7 +1411,7 @@ ul {
         #reflectioncontainer #blackphonebox #blackphonediv {
           margin: 0 auto;
           width: 50%; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #reflectioncontainer #blackphonebox #blackphonediv {
           margin: 0 auto;
           width: 70%;
@@ -1437,7 +1437,7 @@ ul {
       #reflectioncontainer .refcontentdiv {
         margin: 0 auto;
         width: 60%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #reflectioncontainer .refcontentdiv {
         margin: 0 auto;
         width: 50%; } }
@@ -1452,7 +1452,7 @@ ul {
   #reflectioncontainer .refcontent {
     width: 90%;
     margin: 0 auto; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #reflectioncontainer .refcontent {
         margin: 0 auto;
         width: 75%; } }
@@ -1474,7 +1474,7 @@ ul {
     padding-top: 4em;
     background-color: #3F97F9;
     width: 100%; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #beyondcontainer .beyondcontentdiv {
         width: 50%; } }
     @media (min-width: 1440px) {
@@ -1493,7 +1493,7 @@ ul {
       @media (min-width: 768px) {
         #beyondcontainer .beyondcontentdiv .contentdiv {
           width: 60%; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #beyondcontainer .beyondcontentdiv .contentdiv {
           width: 100%;
           padding: 8em 0; } }
@@ -1507,7 +1507,7 @@ ul {
     width: 100%;
     background-color: black;
     padding: 4em 0; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #beyondcontainer #benefitsimagediv {
         width: 50%; } }
     @media (min-width: 1440px) {
@@ -1526,7 +1526,7 @@ ul {
         #beyondcontainer #benefitsimagediv .nakedscreendiv {
           padding: 6em 0;
           width: 40%; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #beyondcontainer #benefitsimagediv .nakedscreendiv {
           padding: 6em 0;
           width: 40%; } }
@@ -1540,7 +1540,7 @@ ul {
           width: 30%; } }
       #beyondcontainer #benefitsimagediv .nakedscreendiv img {
         width: 100%; }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #beyondcontainer #benefitsimagediv .nakedscreendiv {
           position: relative;
           margin: 0 auto;
@@ -1569,7 +1569,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2em;
     justify-content: space-between; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #footer #contactflex {
         width: 100%; } }
     #footer #contactflex .contcontent {
@@ -1582,7 +1582,7 @@ html {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #footer #contactflex .contcontent {
           width: 25%;
           padding: 2em 0; } }
@@ -1726,7 +1726,7 @@ html {
     @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1440px) {
@@ -1756,7 +1756,7 @@ html {
     .getintouch {
       font-size: 2em;
       text-align: center; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .getintouch {
       font-size: 2em; } }
   @media (min-width: 1440px) {

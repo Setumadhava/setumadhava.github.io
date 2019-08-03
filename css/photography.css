@@ -8,7 +8,7 @@
   @media (min-width: 768px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 1440px) {
@@ -26,7 +26,7 @@
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -76,7 +76,7 @@
     width: 80%;
     padding-top: 1em;
     display: none; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -107,7 +107,7 @@
       #header #headerflex #navflex .navitem a {
         transition: 0.3s all ease-in-out;
         color: black; }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       @media (min-width: 1440px) {
@@ -142,7 +142,7 @@
   @media (min-width: 768px) {
     #menuicon {
       padding: 2em; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #menuicon {
       display: none; } }
   @media (min-width: 1440px) {
@@ -230,7 +230,7 @@
   @media (min-width: 768px) {
     #hero {
       height: 800px; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #hero {
       height: 600px; } }
   @media (min-width: 1440px) {
@@ -255,7 +255,7 @@
     @media (min-width: 768px) {
       #hero .title {
         font-size: 6em; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #hero .title {
         font-size: 6em; } }
     @media (min-width: 1440px) {
@@ -282,7 +282,7 @@
         .outercontainer .descriptioncontainer .contentbox {
           width: 70%;
           margin: 0 auto; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         .outercontainer .descriptioncontainer .contentbox {
           width: 70%;
           margin: 0 auto; } }
@@ -306,7 +306,7 @@
       width: 100%;
       padding: 2em 0;
       margin: 0 auto; }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         .photographybody .imagediv .imgwide {
           padding: 4em 2em; } }
       @media (min-width: 1440px) {
@@ -319,7 +319,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center; }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         .photographybody .imagediv .imageflex {
           padding-bottom: 4em; } }
       @media (min-width: 1440px) {
@@ -331,7 +331,7 @@
       .photographybody .imagediv .imageflex .imghalf {
         width: 100%;
         padding: 2em 0; }
-        @media (min-width: 1023px) {
+        @media (min-width: 1024px) {
           .photographybody .imagediv .imageflex .imghalf {
             width: 50%;
             padding: 2em; } }
@@ -366,7 +366,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2em;
     justify-content: space-between; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #footer #contactflex {
         width: 100%; } }
     #footer #contactflex .contcontent {
@@ -379,7 +379,7 @@ html {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #footer #contactflex .contcontent {
           width: 25%;
           padding: 2em 0; } }
@@ -523,7 +523,7 @@ html {
     @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1440px) {
@@ -553,7 +553,7 @@ html {
     .getintouch {
       font-size: 2em;
       text-align: center; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .getintouch {
       font-size: 2em; } }
   @media (min-width: 1440px) {

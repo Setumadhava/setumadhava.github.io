@@ -1,63 +1,65 @@
-#header {
+#hpheader {
   margin: 2em auto;
   width: 100%; }
   @media (min-width: 768px) {
-    #header {
+    #hpheader {
       margin: 4em auto; } }
-  @media (min-width: 1023px) {
-    #header #headerflex {
+  @media (min-width: 1024px) {
+    #hpheader #hpheaderflex {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  #header #headerflex .name {
+  #hpheader #hpheaderflex .name {
     transition: 0.25s all ease-in-out;
     position: relative; }
-    #header #headerflex .name a {
+    #hpheader #hpheaderflex .name a {
       color: black;
       transition: 0.25s all ease-in-out; }
-    #header #headerflex .name p {
+    #hpheader #hpheaderflex .name p {
       font-family: "Poppins", sans-serif;
       width: 240px;
       font-size: 1.5em;
       margin: 0;
-      color: #25334A; }
-  #header #headerflex .name:hover {
+      color: #25334A;
+      transition: 0.25s all ease-in-out; }
+      #hpheader #hpheaderflex .name p span {
+        transition: 0.25s all ease-in-out; }
+    #hpheader #hpheaderflex .name p:hover span {
+      transition: 0.25s all ease-in-out;
+      color: #F04B33; }
+  #hpheader #hpheaderflex .name:hover {
     transition: 0.25s all ease-in-out; }
-    #header #headerflex .name:hover a {
+    #hpheader #hpheaderflex .name:hover a {
       color: #F04B33;
       transition: 0.25s all ease-in-out; }
-  #header #headerflex #navflex {
-    width: 80%;
-    padding-top: 1em;
+  #hpheader #hpheaderflex ul {
+    padding: 1em 0;
+    transition: 0.25s all ease-in-out;
     display: none; }
-    @media (min-width: 1023px) {
-      #header #headerflex #navflex {
-        width: 40%;
-        justify-content: space-between;
-        padding-top: 0.7em;
-        display: flex; } }
-    #header #headerflex #navflex .navitem {
-      width: 20%;
-      text-align: left;
-      transition: 0.25s all ease-in-out; }
-      #header #headerflex #navflex .navitem a {
-        transition: 0.25s all ease-in-out;
-        color: black; }
-      @media (min-width: 1023px) {
-        #header #headerflex #navflex .navitem {
-          text-align: right; } }
-      #header #headerflex #navflex .navitem p {
+    @media (min-width: 1024px) {
+      #hpheader #hpheaderflex ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0; } }
+    #hpheader #hpheaderflex ul li {
+      list-style: none;
+      padding: 1.5em 0; }
+      @media (min-width: 1024px) {
+        #hpheader #hpheaderflex ul li {
+          padding: 0.3em 1.5em; } }
+      #hpheader #hpheaderflex ul li a {
+        color: #25334A;
         font-family: "Open Sans", sans-serif;
         font-size: 0.9em;
         font-weight: 400;
-        letter-spacing: 1px; }
-    #header #headerflex #navflex .navitem:hover a {
-      transition: 0.25s all ease-in-out;
-      color: #F04B33;
-      font-weight: 600; }
+        letter-spacing: 1px;
+        transition: 0.25s all ease-in-out; }
+      #hpheader #hpheaderflex ul li a:hover {
+        transition: 0.25s all ease-in-out;
+        color: #F04B33; }
 
-#menuicon {
+#hpmenuicon {
   position: absolute;
   right: 0;
   z-index: 100;
@@ -66,13 +68,15 @@
   display: block;
   position: fixed; }
   @media (min-width: 768px) {
-    #menuicon {
+    #hpmenuicon {
       padding: 4.25em; } }
-  @media (min-width: 1023px) {
-    #menuicon {
+  @media (min-width: 1024px) {
+    #hpmenuicon {
       display: none; } }
+  #hpmenuicon img:hover {
+    cursor: pointer; }
 
-#mobilemenuwrapper {
+#hpmobilemenuwrapper {
   opacity: 0;
   z-index: -2;
   transition: 0.25s all ease-in-out;
@@ -85,48 +89,57 @@
   -webkit-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
   -moz-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
   box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75); }
-  #mobilemenuwrapper .mobilemenucontent {
+  #hpmobilemenuwrapper .hpmobilemenucontent {
     width: 90%;
     margin: 0 auto; }
-  #mobilemenuwrapper #menunameflex {
+  #hpmobilemenuwrapper #hpmenunameflex {
     padding: 2em 0 0;
     transition: 0.25s all ease-in-out; }
-    #mobilemenuwrapper #menunameflex #menuName a {
-      font-size: 1.5em;
-      transition: 0.25s all ease-in-out; }
-      #mobilemenuwrapper #menunameflex #menuName a p {
+    #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a {
+      font-size: 1.5em; }
+      #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p {
         font-family: "Poppins", sans-serif;
         width: 240px;
         font-size: 1em;
         margin: 0;
         color: #25334A; }
+        #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p span {
+          transition: 0.25s all ease-in-out; }
+      #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p:hover span {
+        transition: 0.25s all ease-in-out;
+        color: #F04B33; }
     @media (min-width: 768px) {
-      #mobilemenuwrapper #menunameflex #menuName {
+      #hpmobilemenuwrapper #hpmenunameflex #hpmenuName {
         margin-top: 2em; } }
-    #mobilemenuwrapper #menunameflex #menuxicon {
+    #hpmobilemenuwrapper #hpmenunameflex #hpmenuxicon {
       position: absolute;
       top: 0;
       right: 0;
-      padding: 2.45em 1.5em 0 0; }
+      padding: 2.4em 1.25em 0 0; }
       @media (min-width: 768px) {
-        #mobilemenuwrapper #menunameflex #menuxicon {
-          padding: 4.25em 4.5em; } }
-      @media (min-width: 1023px) {
-        #mobilemenuwrapper #menunameflex #menuxicon {
+        #hpmobilemenuwrapper #hpmenunameflex #hpmenuxicon {
           padding: 4.5em 3.3em; } }
-  #mobilemenuwrapper ul {
+      @media (min-width: 1024px) {
+        #hpmobilemenuwrapper #hpmenunameflex #hpmenuxicon {
+          padding: 4.5em 6.2em; } }
+      #hpmobilemenuwrapper #hpmenunameflex #hpmenuxicon img:hover {
+        cursor: pointer; }
+  #hpmobilemenuwrapper ul {
     padding: 1em 0;
     transition: 0.3s all ease-in-out;
     margin: 0; }
-    #mobilemenuwrapper ul li {
+    #hpmobilemenuwrapper ul li {
       list-style: none;
       padding: 1.5em 0; }
-      #mobilemenuwrapper ul li a {
+      #hpmobilemenuwrapper ul li a {
         color: #25334A;
         font-family: "Open Sans", sans-serif;
         font-size: 0.9em;
         font-weight: 400;
         letter-spacing: 1px; }
+      #hpmobilemenuwrapper ul li a:hover {
+        color: #F04B33;
+        transition: 0.25s all ease-in-out; }
 
 #wrapper {
   width: 90%;
@@ -162,7 +175,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #newheader {
       display: flex;
       flex-wrap: wrap;
@@ -177,7 +190,7 @@
       #newheader #newnavflex {
         width: 40%;
         padding-top: 0; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #newheader #newnavflex {
         width: 35%;
         padding-top: 0; } }
@@ -197,7 +210,7 @@
 #firstfold {
   margin: 0 auto;
   padding: 8em 0; }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #firstfold {
       padding: 14em 0; } }
 
@@ -217,7 +230,7 @@
 @media (min-width: 768px) {
   #whatido {
     max-width: 500px; } }
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   #whatido {
     max-width: 500px; } }
 
@@ -225,7 +238,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 8em; }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .projectcard {
       justify-content: space-between;
       margin-bottom: 12em; } }
@@ -233,7 +246,7 @@
     background-color: #A2E3B3;
     padding: 2em 0;
     border-radius: 8px; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .projectcard .projectimgdiv {
         width: 40%;
         border-radius: 10px;
@@ -246,14 +259,14 @@
       @media (min-width: 768px) {
         .projectcard .projectimgdiv .projectimg {
           width: 60%; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         .projectcard .projectimgdiv .projectimg {
           width: 80%; } }
   .projectcard .projectcontentdiv {
     width: 90%;
     margin: 0 auto;
     padding-top: 2em; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .projectcard .projectcontentdiv {
         width: 40%;
         padding-top: 4em;
@@ -303,7 +316,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2em;
     justify-content: space-between; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #footer #contactflex {
         width: 100%; } }
     #footer #contactflex .contcontent {
@@ -316,7 +329,7 @@ html {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #footer #contactflex .contcontent {
           width: 25%;
           padding: 2em 0; } }
@@ -460,7 +473,7 @@ html {
     @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1440px) {
@@ -490,7 +503,7 @@ html {
     .getintouch {
       font-size: 2em;
       text-align: center; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .getintouch {
       font-size: 2em; } }
   @media (min-width: 1440px) {

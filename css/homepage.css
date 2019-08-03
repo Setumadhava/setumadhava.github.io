@@ -10,7 +10,7 @@ body {
   @media (min-width: 768px) {
     .wrapper {
       width: 80%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .wrapper {
       max-width: 1000px; } }
   @media (min-width: 1440px) {
@@ -30,7 +30,7 @@ body {
   @media (min-width: 768px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 1440px) {
@@ -48,7 +48,7 @@ body {
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -98,7 +98,7 @@ body {
     width: 80%;
     padding-top: 1em;
     display: none; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -129,7 +129,7 @@ body {
       #header #headerflex #navflex .navitem a {
         transition: 0.3s all ease-in-out;
         color: black; }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       @media (min-width: 1440px) {
@@ -164,7 +164,7 @@ body {
   @media (min-width: 768px) {
     #menuicon {
       padding: 2em; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #menuicon {
       display: none; } }
   @media (min-width: 1440px) {
@@ -253,7 +253,7 @@ body {
     @media (min-width: 768px) {
       #intro #shortintro {
         width: 60%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #intro #shortintro {
         width: 45%; } }
     @media (min-width: 1440px) {
@@ -278,7 +278,7 @@ body {
       width: 100%;
       padding-bottom: 2em;
       margin: 0 auto; }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #intro #factflex .factbox {
           width: 50%;
           padding: 0; } }
@@ -392,7 +392,7 @@ body {
     @media (min-width: 768px) {
       .maincard .cardcontents {
         padding: 2em; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .maincard .cardcontents {
         padding: 2em 4em; } }
     @media (min-width: 1440px) {
@@ -410,7 +410,7 @@ body {
       font-size: 0.7em;
       position: relative;
       color: #7f7f7f; }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         .maincard .cardcontents .projectdate {
           font-size: 1em;
           opacity: 0;
@@ -437,7 +437,7 @@ body {
     @media (min-width: 768px) {
       .maincard #projecttitle {
         padding: 1em 0 0 1em; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .maincard #projecttitle {
         font-size: 3em; } }
     @media (min-width: 1440px) {
@@ -457,7 +457,7 @@ body {
       .maincard #blackline {
         margin-left: 2em;
         width: 60%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .maincard #blackline {
         width: 70%;
         margin-bottom: 2em; } }
@@ -483,7 +483,7 @@ body {
       .maincard #projectcontent {
         width: 90%;
         padding-left: 2.5em; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .maincard #projectcontent {
         width: 50%;
         padding: 2em; } }
@@ -505,7 +505,7 @@ body {
       @media (min-width: 768px) {
         .maincard #projectcontent #primarycontent {
           font-size: 1.2em; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         .maincard #projectcontent #primarycontent {
           font-size: 1.2em; } }
       @media (min-width: 1440px) {
@@ -523,7 +523,7 @@ body {
       @media (min-width: 768px) {
         .maincard #projectcontent #secondarycontent {
           font-size: 1em; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         .maincard #projectcontent #secondarycontent {
           font-size: 1em; } }
       @media (min-width: 1440px) {
@@ -566,7 +566,7 @@ body {
     @media (min-width: 768px) {
       #aboutsection #aboutme {
         width: 85%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #aboutsection #aboutme {
         width: 65%; } }
     @media (min-width: 1440px) {
@@ -590,7 +590,7 @@ body {
   @media (min-width: 768px) {
     #thduppic {
       width: 90%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #thduppic {
       padding: 2em 0;
       width: 50%; } }
@@ -620,7 +620,7 @@ body {
   @media (min-width: 768px) {
     #thdpic {
       width: 60%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #thdpic {
       padding: 2em 0;
       width: 40%; } }
@@ -650,7 +650,7 @@ body {
   @media (min-width: 768px) {
     #piupic {
       width: 40%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #piupic {
       padding: 2em 0;
       width: 20%; } }
@@ -680,7 +680,7 @@ body {
   @media (min-width: 768px) {
     #premerapic {
       width: 90%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #premerapic {
       padding: 2em 0;
       width: 50%; } }
@@ -710,7 +710,7 @@ body {
   @media (min-width: 768px) {
     #uberpic {
       width: 40%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #uberpic {
       padding: 2em 0;
       width: 25%; } }
@@ -740,7 +740,7 @@ body {
   @media (min-width: 768px) {
     #expediapic {
       width: 45%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #expediapic {
       padding: 2em 0;
       width: 30%; } }
@@ -770,7 +770,7 @@ body {
   @media (min-width: 768px) {
     #actipic {
       width: 50%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #actipic {
       padding: 2em 0;
       width: 30%; } }
@@ -800,7 +800,7 @@ body {
   @media (min-width: 768px) {
     #smarthomepic {
       width: 80%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #smarthomepic {
       padding: 2em 0;
       width: 50%; } }
@@ -842,7 +842,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2em;
     justify-content: space-between; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #footer #contactflex {
         width: 100%; } }
     #footer #contactflex .contcontent {
@@ -855,7 +855,7 @@ html {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #footer #contactflex .contcontent {
           width: 25%;
           padding: 2em 0; } }
@@ -999,7 +999,7 @@ html {
     @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1440px) {
@@ -1029,7 +1029,7 @@ html {
     .getintouch {
       font-size: 2em;
       text-align: center; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .getintouch {
       font-size: 2em; } }
   @media (min-width: 1440px) {

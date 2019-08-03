@@ -10,7 +10,7 @@
   @media (min-width: 768px) {
     #header {
       padding: 2em 0; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #header {
       padding: 2em 0; } }
   @media (min-width: 1440px) {
@@ -28,7 +28,7 @@
       flex-wrap: wrap;
       justify-content: space-between;
       position: relative; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #header #headerflex {
       display: flex;
       flex-wrap: wrap;
@@ -78,7 +78,7 @@
     width: 80%;
     padding-top: 1em;
     display: none; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #header #headerflex #navflex {
         width: 40%;
         justify-content: space-between;
@@ -109,7 +109,7 @@
       #header #headerflex #navflex .navitem a {
         transition: 0.3s all ease-in-out;
         color: black; }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #header #headerflex #navflex .navitem {
           text-align: right; } }
       @media (min-width: 1440px) {
@@ -144,7 +144,7 @@
   @media (min-width: 768px) {
     #menuicon {
       padding: 2em; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #menuicon {
       display: none; } }
   @media (min-width: 1440px) {
@@ -228,7 +228,7 @@ body {
   @media (min-width: 768px) {
     #supercontainer {
       width: 90%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #supercontainer {
       width: 80%; } }
   @media (min-width: 1440px) {
@@ -276,7 +276,7 @@ body {
   @media (min-width: 768px) {
     #herosection {
       height: 700px; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     #herosection {
       height: 450px; } }
   @media (min-width: 1440px) {
@@ -304,7 +304,7 @@ body {
     @media (min-width: 768px) {
       #herosection .heroflex {
         width: 90%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #herosection .heroflex {
         width: 90%; } }
     @media (min-width: 1440px) {
@@ -327,7 +327,7 @@ body {
         #herosection .heroflex #hero_text {
           width: 90%;
           margin-bottom: 3em; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #herosection .heroflex #hero_text {
           width: 55%; } }
       @media (min-width: 1440px) {
@@ -365,7 +365,7 @@ body {
         @media (min-width: 768px) {
           #herosection .heroflex #hero_text #herotextline {
             width: 70%; } }
-        @media (min-width: 1023px) {
+        @media (min-width: 1024px) {
           #herosection .heroflex #hero_text #herotextline {
             width: 95%; } }
         @media (min-width: 1440px) {
@@ -395,7 +395,7 @@ body {
       @media (min-width: 768px) {
         #herosection .heroflex #hero_img {
           width: 80%; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #herosection .heroflex #hero_img {
           width: 45%;
           padding-top: 2em; } }
@@ -442,7 +442,7 @@ body {
       @media (min-width: 768px) {
         .rolecontainer .roleflex .roleitem {
           padding: 1em; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         .rolecontainer .roleflex .roleitem {
           padding: 1em; } }
       @media (min-width: 1440px) {
@@ -457,7 +457,7 @@ body {
       .rolecontainer .roleflex .roleitem .itemtitle {
         font-size: 0.8em;
         color: #7E7E7E; }
-        @media (min-width: 1023px) {
+        @media (min-width: 1024px) {
           .rolecontainer .roleflex .roleitem .itemtitle {
             font-size: 1em; } }
         @media (min-width: 1440px) {
@@ -471,7 +471,7 @@ body {
             font-size: 1.4em; } }
       .rolecontainer .roleflex .roleitem .itemcontent {
         font-size: 1em; }
-        @media (min-width: 1023px) {
+        @media (min-width: 1024px) {
           .rolecontainer .roleflex .roleitem .itemcontent {
             font-size: 1.2em; } }
         @media (min-width: 1440px) {
@@ -490,7 +490,7 @@ body {
   @media (min-width: 768px) {
     .contentsection {
       width: 70%; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .contentsection {
       width: 70%;
       padding: 8em 0; } }
@@ -519,7 +519,7 @@ body {
     font-family: georgia;
     font-size: 1.2em;
     font-weight: 600; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .contentsection .sectioncontent .subheadaar {
         font-size: 1.2em; } }
     @media (min-width: 1440px) {
@@ -534,7 +534,7 @@ body {
   .contentsection .sectioncontent p {
     font-size: 1em;
     line-height: 1.9em; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .contentsection .sectioncontent p {
         font-size: 1.2em; } }
     @media (min-width: 1440px) {
@@ -559,7 +559,7 @@ body {
     @media (min-width: 768px) {
       .contentsection #process_img {
         width: 140%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .contentsection #process_img {
         width: 150%; } }
     @media (min-width: 1440px) {
@@ -597,7 +597,7 @@ body {
       @media (min-width: 768px) {
         .contentsectionflex .sectionflex .flexsectioncontent {
           width: 70%; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         .contentsectionflex .sectionflex .flexsectioncontent {
           font-size: 1.2em;
           width: 70%; } }
@@ -621,7 +621,7 @@ body {
     .solution_img {
       width: 90%;
       margin: 0 auto; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .solution_img {
       width: 85%;
       margin: 0 auto; } }
@@ -661,7 +661,7 @@ body {
         font-size: 1.4em; } }
   .solution_img_flex .solnimgdiv {
     margin-top: 3em; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .solution_img_flex .solnimgdiv {
         width: 45%;
         margin: 0 auto; } }
@@ -696,7 +696,7 @@ body {
     @media (min-width: 768px) {
       .centerimg .appdesc {
         width: 90%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .centerimg .appdesc {
         width: 100%; } }
     @media (min-width: 1440px) {
@@ -716,7 +716,7 @@ body {
     @media (min-width: 768px) {
       .centerimg .prototype {
         width: 60%; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .centerimg .prototype {
         width: 60%; } }
     @media (min-width: 1440px) {
@@ -758,7 +758,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2em;
     justify-content: space-between; }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       #footer #contactflex {
         width: 100%; } }
     #footer #contactflex .contcontent {
@@ -771,7 +771,7 @@ html {
         #footer #contactflex .contcontent {
           width: 50%;
           padding: 2em 0; } }
-      @media (min-width: 1023px) {
+      @media (min-width: 1024px) {
         #footer #contactflex .contcontent {
           width: 25%;
           padding: 2em 0; } }
@@ -915,7 +915,7 @@ html {
     @media (min-width: 768px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
-    @media (min-width: 1023px) {
+    @media (min-width: 1024px) {
       .footernavcontainer .nextprojbig {
         font-size: 2em; } }
     @media (min-width: 1440px) {
@@ -945,7 +945,7 @@ html {
     .getintouch {
       font-size: 2em;
       text-align: center; } }
-  @media (min-width: 1023px) {
+  @media (min-width: 1024px) {
     .getintouch {
       font-size: 2em; } }
   @media (min-width: 1440px) {

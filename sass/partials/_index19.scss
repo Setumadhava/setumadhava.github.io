@@ -3,14 +3,14 @@
 }
 /////////////////////  HEADER START /////////////////////
 
-#header {
+#hpheader {
     margin: 2em auto;
     width: 100%;
     @media #{$tablet} {
         margin: 4em auto;
     }
 
-    #headerflex {
+    #hpheaderflex {
         @media #{$mac13} {
             display: flex;
             flex-wrap: wrap;
@@ -33,6 +33,18 @@
                 font-size: 1.5em;
                 margin: 0;
                 color: #25334A;
+                transition: 0.25s all ease-in-out;
+
+                span {
+                    transition: 0.25s all ease-in-out;
+                }
+            }
+
+            p:hover {
+                span {
+                    transition: 0.25s all ease-in-out;
+                    color: $setured;
+                }
             }
         }
 
@@ -45,49 +57,42 @@
             }
         }
 
-        #navflex {
-            width: 80%;
-            padding-top: 1em;
+        ul {
+            padding: 1em 0;
+            transition: 0.25s all ease-in-out;
             display: none;
             @media #{$mac13} {
-                width: 40%;
-                justify-content: space-between;
-                padding-top: 0.7em;
                 display: flex;
+                flex-wrap: wrap;
+                padding: 0;
             }
 
-            .navitem {
-                a {
-                    transition: 0.25s all ease-in-out;
-                    color: black;
-                }
-                width: 20%;
-                text-align: left;
+            li {
+                list-style: none;
+                padding: 1.5em 0;
                 @media #{$mac13} {
-                    text-align: right;
+                    padding: 0.3em 1.5em;
                 }
-                transition: 0.25s all ease-in-out;
 
-                p {
+                a {
+                    color: #25334A;
                     font-family: $opensans;
                     font-size: 0.9em;
                     font-weight: 400;
                     letter-spacing: 1px;
+                    transition: 0.25s all ease-in-out;
                 }
-            }
 
-            .navitem:hover {
-                a {
+                a:hover {
                     transition: 0.25s all ease-in-out;
                     color: $setured;
-                    font-weight: 600;
                 }
             }
         }
     }
 }
 
-#menuicon {
+#hpmenuicon {
     position: absolute;
     right: 0;
     z-index: 100;
@@ -102,9 +107,13 @@
         display: none;
         // padding: 4.5em 3em;
     }
+
+    img:hover {
+        cursor: pointer;
+    }
 }
 
-#mobilemenuwrapper {
+#hpmobilemenuwrapper {
     opacity: 0;
     z-index: -2;
     transition: 0.25s all ease-in-out;
@@ -118,19 +127,16 @@
     -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
     box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
 
-    .mobilemenucontent {
+    .hpmobilemenucontent {
         width: 90%;
         margin: 0 auto;
     }
 
-    #menunameflex {
+    #hpmenunameflex {
         padding: 2em 0 0;
-        @media #{$tablet} {
-            // padding: 2em 0 0 1em;
-        }
         transition: 0.25s all ease-in-out;
 
-        #menuName {
+        #hpmenuName {
             a {
                 font-size: 1.5em;
 
@@ -140,25 +146,39 @@
                     font-size: 1em;
                     margin: 0;
                     color: #25334A;
+
+                    span {
+                        transition: 0.25s all ease-in-out;
+                    }
                 }
-                transition: 0.25s all ease-in-out;
+
+                p:hover {
+                    span {
+                        transition: 0.25s all ease-in-out;
+                        color: $setured;
+                    }
+                }
             }
             @media #{$tablet} {
                 margin-top: 2em;
             }
         }
 
-        #menuxicon {
+        #hpmenuxicon {
             position: absolute;
             top: 0;
             right: 0;
-            padding: 2.45em 1.5em 0 0;
+            padding: 2.4em 1.25em 0 0;
             @media #{$tablet} {
-                padding: 4.25em 4.5em;
+                padding: 4.5em 3.3em;
             }
             @media #{$mac13} {
                 // display: none;
-                padding: 4.5em 3.3em;
+                padding: 4.5em 6.2em;
+            }
+
+            img:hover {
+                cursor: pointer;
             }
         }
     }
@@ -178,6 +198,11 @@
                 font-size: 0.9em;
                 font-weight: 400;
                 letter-spacing: 1px;
+            }
+
+            a:hover {
+                color: $setured;
+                transition: 0.25s all ease-in-out;
             }
         }
     }

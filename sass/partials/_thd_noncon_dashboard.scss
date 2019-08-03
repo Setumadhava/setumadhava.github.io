@@ -3,7 +3,7 @@
     color: $textdark;
     line-height: 1.8em;
 }
-//////////////// PROJECT HEADER START ///////////////
+/////////////////////  HEADER START /////////////////////
 
 #ppheadercontainer {
     @media #{$mac13} {
@@ -24,6 +24,10 @@
         @media #{$mac13} {
             padding: 4.5em 6em;
         }
+
+        img:hover {
+            cursor: pointer;
+        }
     }
 
     #ppmobilemenuwrapper {
@@ -40,95 +44,105 @@
         -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
         box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
 
-        .mobilemenucontent {
+        .ppmobilemenucontent {
             width: 90%;
             margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            @media #{$mac13} {
+            @media #{$mac15} {
                 max-width: 1000px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            #ppmenunameflex {
+                padding: 2em 0 0;
+                transition: 0.25s all ease-in-out;
+
+                #ppmenuName {
+                    a {
+                        font-size: 1.5em;
+
+                        p {
+                            font-family: $poppins;
+                            width: 240px;
+                            font-size: 1em;
+                            margin: 0;
+                            color: #25334A;
+
+                            span {
+                                transition: 0.25s all ease-in-out;
+                            }
+                        }
+
+                        p:hover {
+                            span {
+                                color: $setured;
+                                transition: 0.25s all ease-in-out;
+                            }
+                        }
+                    }
+                    @media #{$tablet} {
+                        margin-top: 2em;
+                    }
+                }
+
+                #ppmenuxicon {
+                    // background-color: red;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 2.4em 1.25em 0 0;
+                    @media #{$tablet} {
+                        padding: 4.5em 3.3em;
+                    }
+                    @media #{$mac13} {
+                        // display: none;
+                        padding: 4.5em 6.2em;
+                    }
+
+                    img:hover {
+                        cursor: pointer;
+                    }
+                }
             }
 
             ul {
+                padding: 1em 0;
+                transition: 0.3s all ease-in-out;
+                margin: 0;
+                @media #{$mac15} {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 2em;
+                }
+
                 li {
-                    padding: 3.5em 1.5em;
-                }
-            }
-        }
-    }
+                    list-style: none;
+                    padding: 1.5em 0;
+                    @media #{$mac15} {
+                        padding: 1.5em;
+                        margin-bottom: 2em;
+                    }
 
-    #menunameflex {
-        padding: 2em 0 0;
-        @media #{$tablet} {
-            // padding: 2em 0 0 1em;
-        }
-        transition: 0.25s all ease-in-out;
+                    a {
+                        color: #25334A;
+                        font-family: $opensans;
+                        font-size: 0.9em;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                        transition: 0.25s all ease-in-out;
+                    }
 
-        #menuName {
-            a {
-                font-size: 1.5em;
-
-                p {
-                    font-family: $poppins;
-                    width: 240px;
-                    font-size: 1em;
-                    margin: 0;
-                    color: #25334A;
-                }
-                transition: 0.25s all ease-in-out;
-            }
-            @media #{$tablet} {
-                margin-top: 2em;
-            }
-        }
-
-        #menuxicon {
-            position: absolute;
-            top: 0;
-            right: 0;
-            padding: 2.45em 1.25em 0 0;
-            @media #{$tablet} {
-                padding: 4.25em 3.3em;
-            }
-            @media #{$mac13} {
-                // display: none;
-                padding: 4.75em 6.2em;
-            }
-        }
-    }
-
-    ul {
-        padding: 1em 0;
-        transition: 0.3s all ease-in-out;
-        margin: 0;
-        @media #{$mac13} {
-            display: flex;
-            flex-wrap: wrap;
-
-            li {
-                list-style: none;
-                padding: 1.5em 0;
-
-                a {
-                    color: #25334A;
-                    font-family: $opensans;
-                    font-size: 0.9em;
-                    font-weight: 400;
-                    letter-spacing: 1px;
-                }
-            }
-
-            li:hover {
-                a {
-                    color: $setured;
-                    font-weight: 600;
+                    a:hover {
+                        color: $setured;
+                        transition: 0.25s all ease-in-out;
+                    }
                 }
             }
         }
     }
 }
-//////////////// PROJECT HEADER END ///////////////
+//////////////// HEADER END ///////////////
 
 p {
     line-height: 1.8em;
