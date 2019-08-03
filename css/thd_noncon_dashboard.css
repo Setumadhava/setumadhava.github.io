@@ -6,7 +6,7 @@
 @media (min-width: 1024px) {
   #ppheadercontainer {
     height: 180px; } }
-#ppheadercontainer #ppmenuicon {
+#ppheadercontainer #ppmenuicondiv {
   position: absolute;
   right: 0;
   z-index: 100;
@@ -15,12 +15,12 @@
   display: block;
   position: fixed; }
   @media (min-width: 768px) {
-    #ppheadercontainer #ppmenuicon {
+    #ppheadercontainer #ppmenuicondiv {
       padding: 4.5em 3em; } }
   @media (min-width: 1024px) {
-    #ppheadercontainer #ppmenuicon {
+    #ppheadercontainer #ppmenuicondiv {
       padding: 4.5em 6em; } }
-  #ppheadercontainer #ppmenuicon img:hover {
+  #ppheadercontainer #ppmenuicondiv img:hover {
     cursor: pointer; }
 #ppheadercontainer #ppmobilemenuwrapper {
   opacity: 0;
@@ -50,34 +50,36 @@
     #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex {
       padding: 2em 0 0;
       transition: 0.25s all ease-in-out; }
-      #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a {
-        font-size: 1.5em; }
-        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a p {
-          font-family: "Poppins", sans-serif;
-          width: 240px;
-          font-size: 1em;
-          margin: 0;
-          color: #25334A; }
-          #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a p span {
+      #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName {
+        max-width: 200px; }
+        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a {
+          font-size: 1.5em; }
+          #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a p {
+            font-family: "Poppins", sans-serif;
+            width: 240px;
+            font-size: 1em;
+            margin: 0;
+            color: #25334A; }
+            #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a p span {
+              transition: 0.25s all ease-in-out; }
+          #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a p:hover span {
+            color: #F04B33;
             transition: 0.25s all ease-in-out; }
-        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a p:hover span {
-          color: #F04B33;
-          transition: 0.25s all ease-in-out; }
-      @media (min-width: 768px) {
-        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName {
-          margin-top: 2em; } }
-      #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicon {
+        @media (min-width: 768px) {
+          #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName {
+            margin-top: 2em; } }
+      #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicondiv {
         position: absolute;
         top: 0;
         right: 0;
         padding: 2.4em 1.25em 0 0; }
         @media (min-width: 768px) {
-          #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicon {
+          #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicondiv {
             padding: 4.5em 3.3em; } }
         @media (min-width: 1024px) {
-          #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicon {
+          #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicondiv {
             padding: 4.5em 6.2em; } }
-        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicon img:hover {
+        #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicondiv img:hover {
           cursor: pointer; }
     #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul {
       padding: 1em 0;
@@ -411,7 +413,25 @@ p {
       max-width: 600px; } }
   @media (min-width: 1024px) {
     #OWline {
-      max-width: 650px; } }
+      max-width: 1000px; } }
+
+#owsectiontitle {
+  width: 85%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    #owsectiontitle {
+      max-width: 600px; } }
+  @media (min-width: 1024px) {
+    #owsectiontitle {
+      max-width: 1000px; } }
+  #owsectiontitle p {
+    font-size: 1.4em;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px; }
+    @media (min-width: 768px) {
+      #owsectiontitle p {
+        font-size: 1.8em; } }
 
 .otherworksflex {
   display: flex;
@@ -423,7 +443,7 @@ p {
       max-width: 600px; } }
   @media (min-width: 1024px) {
     .otherworksflex {
-      max-width: 650px; } }
+      max-width: 1000px; } }
   .otherworksflex .owdiv {
     margin: 2em auto;
     width: 90%;
@@ -445,12 +465,13 @@ p {
       padding: 1em 0; }
       .otherworksflex .owdiv .otherprojname p {
         font-size: 1.2em;
+        font-weight: 600;
+        letter-spacing: 1px;
         font-family: "Poppins", sans-serif;
         color: #25334A; }
   .otherworksflex .owdiv:hover .otherprojimgdiv {
     background-color: #6CD387;
-    transition: 0.25s all ease-in-out;
-    cursor: pointer; }
+    transition: 0.25s all ease-in-out; }
 
 .threeemboth {
   background-color: white; }

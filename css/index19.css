@@ -59,7 +59,7 @@
         transition: 0.25s all ease-in-out;
         color: #F04B33; }
 
-#hpmenuicon {
+#hpmenuicondiv {
   position: absolute;
   right: 0;
   z-index: 100;
@@ -68,12 +68,12 @@
   display: block;
   position: fixed; }
   @media (min-width: 768px) {
-    #hpmenuicon {
+    #hpmenuicondiv {
       padding: 4em 3em; } }
   @media (min-width: 1024px) {
-    #hpmenuicon {
+    #hpmenuicondiv {
       display: none; } }
-  #hpmenuicon img:hover {
+  #hpmenuicondiv img:hover {
     cursor: pointer; }
 
 #hpmobilemenuwrapper {
@@ -95,34 +95,36 @@
   #hpmobilemenuwrapper #hpmenunameflex {
     padding: 2.1em 0 0;
     transition: 0.25s all ease-in-out; }
-    #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a {
-      font-size: 1.5em; }
-      #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p {
-        font-family: "Poppins", sans-serif;
-        width: 240px;
-        font-size: 1em;
-        margin: 0;
-        color: #25334A; }
-        #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p span {
-          transition: 0.25s all ease-in-out; }
-      #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p:hover span {
-        transition: 0.25s all ease-in-out;
-        color: #F04B33; }
-    @media (min-width: 768px) {
-      #hpmobilemenuwrapper #hpmenunameflex #hpmenuName {
-        margin-top: 2em; } }
-    #hpmobilemenuwrapper #hpmenunameflex #hpmenuxicon {
+    #hpmobilemenuwrapper #hpmenunameflex #hpmenuName {
+      max-width: 200px; }
+      #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a {
+        font-size: 1.5em; }
+        #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p {
+          font-family: "Poppins", sans-serif;
+          width: 240px;
+          font-size: 1em;
+          margin: 0;
+          color: #25334A; }
+          #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p span {
+            transition: 0.25s all ease-in-out; }
+        #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p:hover span {
+          transition: 0.25s all ease-in-out;
+          color: #F04B33; }
+      @media (min-width: 768px) {
+        #hpmobilemenuwrapper #hpmenunameflex #hpmenuName {
+          margin-top: 2em; } }
+    #hpmobilemenuwrapper #hpmenunameflex #hpmenuxicondiv {
       position: absolute;
       top: 0;
       right: 0;
       padding: 2.5em 1.25em 0 0; }
       @media (min-width: 768px) {
-        #hpmobilemenuwrapper #hpmenunameflex #hpmenuxicon {
+        #hpmobilemenuwrapper #hpmenunameflex #hpmenuxicondiv {
           padding: 4em 3em; } }
       @media (min-width: 1024px) {
-        #hpmobilemenuwrapper #hpmenunameflex #hpmenuxicon {
+        #hpmobilemenuwrapper #hpmenunameflex #hpmenuxicondiv {
           padding: 4.5em 6.2em; } }
-      #hpmobilemenuwrapper #hpmenunameflex #hpmenuxicon img:hover {
+      #hpmobilemenuwrapper #hpmenunameflex #hpmenuxicondiv img:hover {
         cursor: pointer; }
   #hpmobilemenuwrapper ul {
     padding: 1em 0;
