@@ -348,7 +348,8 @@
         border-radius: 8px;
         transition: 0.25s all ease-in-out;
         @media #{$mac13} {
-            width: 40%;
+            width: 50%;
+            max-height: 325px;
             border-radius: 10px;
             margin: 0;
         }
@@ -359,10 +360,7 @@
             width: 90%;
             margin: 0 auto;
             @media #{$tablet} {
-                width: 60%;
-            }
-            @media #{$mac13} {
-                width: 80%;
+                width: 70%;
             }
         }
     }
