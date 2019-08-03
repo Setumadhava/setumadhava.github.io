@@ -343,6 +343,7 @@
         background-color: #A2E3B3;
         padding: 2em 0;
         border-radius: 8px;
+        transition: 0.25s all ease-in-out;
         @media #{$mac13} {
             width: 40%;
             border-radius: 10px;
@@ -409,5 +410,6 @@
 .projectcard:hover {
     .projectimgdiv {
         background-color: #6CD387;
+        transition: 0.25s all ease-in-out;
     }
 }

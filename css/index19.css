@@ -245,7 +245,8 @@
   .projectcard .projectimgdiv {
     background-color: #A2E3B3;
     padding: 2em 0;
-    border-radius: 8px; }
+    border-radius: 8px;
+    transition: 0.25s all ease-in-out; }
     @media (min-width: 1024px) {
       .projectcard .projectimgdiv {
         width: 40%;
@@ -292,7 +293,8 @@
       max-width: 300px; }
 
 .projectcard:hover .projectimgdiv {
-  background-color: #6CD387; }
+  background-color: #6CD387;
+  transition: 0.25s all ease-in-out; }
 
 .container,
 body,
