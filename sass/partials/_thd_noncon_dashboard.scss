@@ -4,6 +4,7 @@
     line-height: 1.8em;
 }
 /////////////////////  HEADER START /////////////////////
+
 #ppheadercontainer {
     @media #{$mac13} {
         height: 180px;
@@ -46,6 +47,9 @@
         .ppmobilemenucontent {
             width: 90%;
             margin: 0 auto;
+            @media #{$mac13} {
+                max-width: 1000px;
+            }
             @media #{$mac15} {
                 max-width: 1000px;
                 display: flex;

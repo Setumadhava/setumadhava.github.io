@@ -38,6 +38,9 @@
   #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent {
     width: 90%;
     margin: 0 auto; }
+    @media (min-width: 1024px) {
+      #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent {
+        max-width: 1000px; } }
     @media (min-width: 1440px) {
       #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent {
         max-width: 1000px;
