@@ -234,7 +234,7 @@ a {
         width: 116px;
         background-color: #25334A;
         transition: 0.1s all ease-in-out;
-        border-radius: 8px; }
+        border-radius: 7px; }
       #passwordwrapper #formflex #buttondiv:hover #Group_240 {
         stroke: white;
         transition: 0.25s all ease-in-out; }
