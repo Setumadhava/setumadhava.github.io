@@ -1,5 +1,16 @@
-* {
-    // transition: 0.4s all ease-in-out;
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 650px;
+    }
+    @media #{$tablet} {
+        max-width: 1000px;
+    }
 }
 /////////////////////  HOMEPAGE HEADER START /////////////////////
 
@@ -211,208 +222,142 @@
 }
 //////////////// HOMEPAGE HEADER END ///////////////
 
-#wrapper {
-    width: 90%;
-    margin: 0 auto;
-    @media #{$tablet} {
-        max-width: 650px;
-    }
-    @media #{$tablet} {
-        max-width: 1000px;
-    }
-}
+#passwordwrapper {
+    margin-top: 8em;
 
-.twoemboth {
-    padding: 2em 0;
-}
-
-.threeemboth {
-    padding: 3em 0;
-}
-
-.fouremboth {
-    padding: 4em 0;
-}
-
-.oneemboth {
-    padding: 1em 0;
-}
-
-.navplaceholder {
-    height: 80px;
-    width: 100%;
-    background-color: $grey2;
-}
-
-#newheader {
-    margin: 0 auto;
-    @media #{$tablet} {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    @media #{$mac13} {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+    #lockicondiv {
+        max-width: 65px;
+        margin: 0 auto;
     }
 
-    .logodiv {
-        width: 60px;
+    #passtextdiv {
+        margin: 4em 0 0;
+
+        p {
+            font-family: $opensans;
+            font-weight: 400;
+            color: #25334A;
+            text-align: center;
+            line-height: 1.9em;
+            font-size: 1.5em;
+        }
     }
 
-    #newnavflex {
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 2em;
+    #worngpwdiv {
+        position: relative;
+        top: 10px;
+        visibility: hidden;
+        max-width: 310px;
+        margin: 0 auto;
         @media #{$tablet} {
-            width: 40%;
-            padding-top: 0;
-        }
-        @media #{$mac13} {
-            width: 35%;
-            padding-top: 0;
+            max-width: 450px;
         }
 
-        .newnavitem {
-            width: 33%;
+        p {
+            font-family: $opensans;
+            font-weight: 400;
+            color: red;
+            font-size: 0.8em;
+        }
+    }
 
-            p {
-                font-family: $opensans;
-                font-size: 1em;
-                @media #{$tablet} {
-                    font-size: 0.9em;
+    #formflex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 500px;
+        margin: 0 auto;
+
+        #inputBox {
+            height: 50px;
+            border-radius: 10px;
+            border: 1px solid $grey4;
+            width: 100%;
+            max-width: 330px;
+            margin: 0 auto 1em;
+            @media #{$tablet} {
+                margin: 0 1em;
+            }
+        }
+
+        #buttondiv {
+            width: 120px;
+            border: 2px solid #25334A;
+            height: 50px;
+            border-radius: 10px;
+            margin: 0 auto;
+            position: relative;
+            @media #{$tablet} {
+                margin: 0;
+            }
+
+            #hoverdiv {
+                height: 46px;
+                width: 0;
+                transition: 0.1s all ease-in-out;
+                position: absolute;
+                border-radius: 3px;
+                background-color: #25334A;
+            }
+
+            #buttonimg {
+                width: 31.38px;
+                margin: 0.6em auto 0;
+                position: absolute;
+                left: 35%;
+                z-index: 100;
+
+                #btn {
+                    transition: 0.5s all ease-in-out;
+                    stroke: #25334A;
+                    width: 33px;
+                    height: 28px;
                 }
             }
         }
 
-        .navitemcenter {
+        #buttondiv:hover {
+            cursor: pointer;
+
+            #hoverdiv {
+                width: 116px;
+                background-color: #25334A;
+                transition: 0.1s all ease-in-out;
+                border-radius: 8px;
+            }
+
+            #Group_240 {
+                stroke: white;
+                transition: 0.25s all ease-in-out;
+            }
+        }
+    }
+
+    #reachoutdiv {
+        margin: 2em 0 0;
+
+        p {
             text-align: center;
-        }
+            color: $grey4;
+            font-family: $opensans;
+            font-size: 1em;
+            line-height: 1.9em;
 
-        .navitemright {
-            text-align: right;
-        }
-    }
-}
+            span {
+                a {
+                    font-weight: 600;
+                    color: $grey4;
+                }
 
-#firstfold {
-    margin: 0 auto;
-    padding: 8em 0;
-    @media #{$mac13} {
-        padding: 14em 0;
-    }
-}
-
-#helloline {
-    p {
-        font-family: $poppins;
-        font-size: 1.7em;
-        font-weight: 300;
-        color: #25334A;
-    }
-
-    span {
-        font-weight: 400;
-        color: $setured;
-    }
-}
-
-#whatido {
-    p {
-        font-family: $opensans;
-        font-size: 1em;
-        color: #25334A;
-        line-height: 28px;
-    }
-    @media #{$tablet} {
-        max-width: 500px;
-    }
-    @media #{$mac13} {
-        max-width: 500px;
-    }
-}
-
-.projectcard {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 8em;
-    @media #{$mac13} {
-        justify-content: space-between;
-        margin-bottom: 12em;
-    }
-
-    .projectimgdiv {
-        background-color: #A2E3B3;
-        padding: 2em 0;
-        border-radius: 8px;
-        transition: 0.25s all ease-in-out;
-        @media #{$mac13} {
-            width: 40%;
-            border-radius: 10px;
-            margin: 0;
-        }
-
-        .projectimg {
-            position: relative;
-            top: 10%;
-            width: 90%;
-            margin: 0 auto;
-            @media #{$tablet} {
-                width: 60%;
-            }
-            @media #{$mac13} {
-                width: 80%;
-            }
-        }
-    }
-
-    .projectcontentdiv {
-        width: 90%;
-        margin: 0 auto;
-        padding-top: 2em;
-        @media #{$mac13} {
-            width: 40%;
-            padding-top: 4em;
-            margin: 0;
-        }
-
-        .organization {
-            p {
-                font-size: 0.8em;
-                font-weight: 800;
-                font-family: $opensans;
-                color: #A3a3a3;
-                letter-spacing: 1px;
-            }
-        }
-
-        .projecttitle {
-            p {
-                font-family: $poppins;
-                color: #25334A;
-                font-size: 1.4em;
-                font-weight: 800;
-                letter-spacing: 1px;
-                text-decoration: none;
-            }
-        }
-
-        .projectdesc {
-            p {
-                font-size: 1em;
-                font-family: $opensans;
-                color: #25334A;
-                line-height: 28px;
-                max-width: 300px;
+                a:hover {
+                    cursor: pointer;
+                    color: $setured;
+                    border-bottom: 1px solid $setured;
+                    border-bottom-style: dotted;
+                    padding-bottom: 2px;
+                }
             }
         }
     }
 }
-
-.projectcard:hover {
-    .projectimgdiv {
-        background-color: #6CD387;
-        transition: 0.25s all ease-in-out;
-    }
-}
+////////////////// STOP ////////////////////
