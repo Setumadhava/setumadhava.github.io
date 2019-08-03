@@ -226,7 +226,8 @@
 #whatido p {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
-  color: #25334A; }
+  color: #25334A;
+  line-height: 28px; }
 @media (min-width: 768px) {
   #whatido {
     max-width: 500px; } }

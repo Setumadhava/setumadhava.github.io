@@ -233,9 +233,8 @@ p {
       max-width: 650px; } }
   .subtitle p {
     font-size: 1.1em;
-    font-weight: 800;
-    font-family: "Open Sans", sans-serif;
-    letter-spacing: 2px; }
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif; }
 
 .contentsection {
   width: 85%;
@@ -284,8 +283,9 @@ p {
   #emphasisflex .empcontent {
     margin: 0.5em 0 0 2em; }
     #emphasisflex .empcontent p {
+      font-family: "Open Sans", sans-serif;
       font-size: 1.6em;
-      font-weight: 200;
+      font-weight: 300;
       color: #F96301; }
       @media (min-width: 768px) {
         #emphasisflex .empcontent p {
@@ -339,7 +339,12 @@ p {
         width: 42%;
         margin: 2em; } }
     .findingsflex .findingsbox .findingstitle p {
-      font-weight: bold; }
+      font-weight: 700;
+      font-size: 18px;
+      font-family: "Open Sans", sans-serif; }
+    .findingsflex .findingsbox .findingscontent p {
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif; }
 
 @media (min-width: 1024px) {
   .centerimg {
@@ -395,6 +400,60 @@ p {
     @media (min-width: 768px) {
       #statflex .statdiv {
         width: 20%; } }
+
+#OWline {
+  width: 100%;
+  height: 2px;
+  background-color: #D5D5D5;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    #OWline {
+      max-width: 600px; } }
+  @media (min-width: 1024px) {
+    #OWline {
+      max-width: 650px; } }
+
+.otherworksflex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4em auto;
+  justify-content: space-between; }
+  @media (min-width: 768px) {
+    .otherworksflex {
+      max-width: 600px; } }
+  @media (min-width: 1024px) {
+    .otherworksflex {
+      max-width: 650px; } }
+  .otherworksflex .owdiv {
+    margin: 2em auto;
+    width: 90%;
+    transition: 0.25s all ease-in-out; }
+    @media (min-width: 768px) {
+      .otherworksflex .owdiv {
+        width: 40%;
+        margin: 0; } }
+    .otherworksflex .owdiv .otherprojimgdiv {
+      background-color: #A2E3B3;
+      padding: 2em 0;
+      border-radius: 8px; }
+      .otherworksflex .owdiv .otherprojimgdiv .img {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        top: 30px; }
+    .otherworksflex .owdiv .otherprojname {
+      padding: 1em 0; }
+      .otherworksflex .owdiv .otherprojname p {
+        font-size: 1.2em;
+        font-family: "Poppins", sans-serif;
+        color: #25334A; }
+  .otherworksflex .owdiv:hover .otherprojimgdiv {
+    background-color: #6CD387;
+    transition: 0.25s all ease-in-out;
+    cursor: pointer; }
+
+.threeemboth {
+  background-color: white; }
 
 .container,
 body,

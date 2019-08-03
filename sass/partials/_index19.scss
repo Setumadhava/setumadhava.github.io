@@ -2,6 +2,7 @@
     // transition: 0.4s all ease-in-out;
 }
 /////////////////////  HEADER START /////////////////////
+
 #hpheader {
     margin: 2.1em auto;
     width: 100%;
@@ -320,6 +321,7 @@
         font-family: $opensans;
         font-size: 1em;
         color: #25334A;
+        line-height: 28px;
     }
     @media #{$tablet} {
         max-width: 500px;
