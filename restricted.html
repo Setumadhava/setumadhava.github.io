@@ -17,8 +17,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap" rel="stylesheet">
 </head>
 
-
-<!-- <script>
+<!-- 
+<script>
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
 </script> -->
 
@@ -128,48 +128,7 @@
 
         <!-- PASSWORD SCRIPT START -->
 
-        <script type="text/javascript">
-            var ncv = "http://setumadhava.com/thd_noncon_dashboard.html";
-            var index = "http://setumadhava.com/index19.html";
-            var premera = "http://setumadhava.com/premera.html"
-            var pagesList = [index, ncv, premera];
-            var passwordList = ['index', 'ncv', 'prema'];
-
-            document.getElementById("inputBox").onclick = function() {
-                document.getElementById("worngpwdiv").style.visibility = "hidden";
-                document.getElementById("inputBox").style.borderColor = "#7E7E7E";
-                document.getElementById("inputBox").style.borderWidth = "1px";
-            }
-
-
-            document.getElementById("buttondiv").onclick = function() {
-                var formValue = document.getElementById("inputBox").value;
-
-                for (j = 0; j < passwordList.length; j++) {
-                    if (formValue === passwordList[j]) {
-                        window.location = pagesList[j];
-                        document.getElementById("worngpwdiv").style.visibility = "hidden";
-                        document.getElementById("inputBox").style.borderColor = "#7E7E7E";
-                        document.getElementById("inputBox").style.borderWidth = "1px";
-                        break;
-
-                    } else {
-                        document.getElementById("worngpwdiv").style.visibility = "visible";
-                        document.getElementById("inputBox").style.borderColor = "red";
-                        document.getElementById("inputBox").style.borderWidth = "2px";
-                        document.getElementById("inputBox").value = "";
-
-                        setInterval(
-                            function() {
-                                document.getElementById("worngpwdiv").style.visibility = "hidden";
-                                document.getElementById("inputBox").style.borderColor = "#7E7E7E";
-                                document.getElementById("inputBox").style.borderWidth = "1px";
-                            },
-                            3000
-                        );
-                    }
-                }
-            }
+        <script src="restricted.js">
         </script>
         <!-- PASSWORD SCRIPT END-->
 
