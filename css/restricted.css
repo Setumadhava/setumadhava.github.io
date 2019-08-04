@@ -36,9 +36,7 @@ a {
       margin: 0;
       color: #25334A;
       transition: 0.25s all ease-in-out; }
-      #hpheader #hpheaderflex .name p span {
-        transition: 0.25s all ease-in-out; }
-    #hpheader #hpheaderflex .name p:hover span {
+    #hpheader #hpheaderflex .name p:hover {
       transition: 0.25s all ease-in-out;
       color: #F04B33; }
   #hpheader #hpheaderflex .name:hover {

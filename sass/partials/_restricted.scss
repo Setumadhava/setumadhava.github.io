@@ -45,17 +45,11 @@ a {
                 margin: 0;
                 color: #25334A;
                 transition: 0.25s all ease-in-out;
-
-                span {
-                    transition: 0.25s all ease-in-out;
-                }
             }
 
             p:hover {
-                span {
-                    transition: 0.25s all ease-in-out;
-                    color: $setured;
-                }
+                transition: 0.25s all ease-in-out;
+                color: $setured;
             }
         }
 

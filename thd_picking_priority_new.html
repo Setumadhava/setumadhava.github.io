@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Setu - Non Con Dashboard</title>
+    <title>Setu - Picking Priority App</title>
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/thd_noncon_dashboard.css">
+    <link rel="stylesheet" href="css/thd_picking_priority_new.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="css/img/homepage/logo.png" />
 
@@ -74,27 +74,21 @@
     <div id="projectbody">
 
 
-
-
-
-
-
-
         <div id="herosection">
             <div id="heroimg">
                 <div class="imgdiv">
-                    <img src="css/img/thd_ncv/Img-Hero.png">
+                    <img src="css/img/thd_pp/hero_img.png">
                 </div>
 
             </div>
         </div>
 
         <div id="herotitle">
-            <p>Non-Conveyable Dashboard</p>
+            <p>Picking Priority App</p>
         </div>
 
         <div class="contentsection">
-            <p>An enterprise app that aims to improve the operational efficiency of outbound work assignment and tracking for the Supervisors working in Home Depot’s fulfillment centers.</p>
+            <p>An app to help Home Depot’s Warehouse leaders make better decisions on where to prioritize picking based on order demand and business logic.</p>
         </div>
         <div class="threeemboth"></div>
 
@@ -111,7 +105,7 @@
             </div>
             <div class="roleitem">
                 <p class="roletitle">TIMELINE</p>
-                <p class="rolecontent">May - Jul 2019</p>
+                <p class="rolecontent">May - Jun 2018</p>
             </div>
         </div>
         <div class="threeemboth"></div>
@@ -124,20 +118,20 @@
         </div>
 
         <div class="contentsection">
-            <p>Customer order picking within the DFCs were managed by Outbound Supervisors using a refreshable spreadsheet. The spreadsheet tools were not built with any security and posed security risks for the organization. <br><br>
-
-                Along with this, there was no consistency in the process followed by supervisors across different buildings or even within the same building and the tools did not provide the users visibility to critical information to make
-                effective decisions.
+            <p>When customers place orders with multiple items, the most efficient way to fulfill those orders is by packing all the items within the order in a single box and shipping them together. The items are placed in different regions
+                depending on the size and
+                type of the item and pickers are usually picking within a single region to reduce their travel time. The problem occurs when one item within a customer order is picked and sent for packing but the others are not. Items that are
+                picked
+                occupy packing area space waiting for other items to arrive and this causes huge delay and slows down the entire supplychain.<br><br><br><br>
+                <b>Hypothesis</b><br>It was observed that, using the current process, The Home Depot's Direct Fulfillment Center's floor leaders were not able to effectively direct the floor associates (pickers) to various regions to pick the
+                items
+                in order to achieve the picking, packing & shipping goals. We believed, they were facing these issues because the excel spreadsheets they were using did not provide them visibility to critical information needed to make effective
+                decisions
+                on picking priority.<br><br>
             </p>
         </div>
-        <div class="twoemboth"></div>
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Spreadsheet.png">
-        </div>
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>The users were using a Spreadsheet-based tool for their job</p>
-        </div>
+
+
 
         <div class="threeemboth"></div>
 
@@ -148,7 +142,7 @@
         <div id="emphasisflex">
             <div class="empline"></div>
             <div class="empcontent">
-                <p>How might we create a secure, centralized solution that allows the Supervisors to manage and track customer orders efficiently?</p>
+                <p>How might we help the floor leaders visualize the relative priority and completion status of picks by flow so that they are able to direct pickers to the right region?</p>
             </div>
         </div>
         <div class="threeemboth"></div>
@@ -163,8 +157,14 @@
         </div>
 
         <div class="contentsection">
-            <p>The goal was to replace the existing spreadsheet-based tool with a cloud-based application that allowed users to carry out the same tasks with equal or better efficiency. No new features or process improvements was within the
-                purview of the MVP.
+            <p><b>Business Goal</b><br> The business' goal to reduce the time gap between when the first item and the last item within a single customer order would be picked so that they could be packed and shipped faster. This efficiency would
+                reduce
+                delays in shipping, shipping costs and can ultimately improve the overall customer experience.
+            </p>
+            <div class="fourembottom"></div>
+            <p><b>User Goal</b><br> The outbound leaders' goal was to be able to get visibility to how many items needs to picked from which regions within the fulfillment center, see which regions need replenishment, where their pickers
+                currently are
+                and direct pickers to the right region for picking customer orders.
             </p>
         </div>
         <div class="threeemboth"></div>
@@ -173,55 +173,16 @@
         <!-- RESEARCH START-->
 
         <div class="sectiontitle">
-            <p>Research</p>
+            <p>Research & Findings</p>
         </div>
 
         <div class="contentsection">
-            <p>Due to security concerns associated with the spreadsheet tool, we had to design and deliver a replacement app within 3 months which gave me a short window to finish research & design. To make the best use of the limited time, I
-                visited a Home Depot Fulfillment Center and did a Contextual Inquiry study to familiarize myself with the outbound process, the people doing the job and the problem they face.<br><br>
-
-                Once I was familiar with the problem, users’ journey and the business goals, I facilitated a week-long design sprint at another Fulfillment Center. This sprint involved a developer, members from the business team and 2 users from
-                different fulfillment centers. <br><br>
-
-                During the sprint, I also conducted few Semi-Structured Interviews with the users to validate my findings from the Contextual Inquiry and understand the user-behaviors and problems in further detail.
+            <p>We traveled to a DFC and conducted interviews with the leaders and supervisors of the building. The interviews helped us get an understanding of their process and pain-points. Along with this, I spent time shadowing some of the floor
+                associates as they were picking customer orders to understand how they receive messages and take action on them. Some of the main findings of the research are:
             </p>
         </div>
         <div class="threeemboth"></div>
         <!--  RESEARCH END -->
-
-
-
-
-        <!-- JOURNEY MAP START -->
-
-        <div class="sectiontitle">
-            <p>Journey Maps</p>
-        </div>
-
-        <div class="contentsection">
-            <p>The Contextual Inquiry helped us understand the mental-model of the Supervisors and the various touch-points that exist in their job of managing customer orders.
-            </p>
-        </div>
-        <div class="twoemboth"></div>
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-UJM_WAM.png">
-        </div>
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>The Journey Map for Work Assignment and Monitoring.</p>
-        </div>
-        <div class="twoemboth"></div>
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-UJM_Research.png">
-        </div>
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>The Journey Map for Researching customer orders with issues.</p>
-        </div>
-
-        <div class="threeemboth"></div>
-
-        <!-- JOURNEY MAP  END-->
 
 
 
@@ -242,7 +203,7 @@
                     <p>Stressful</p>
                 </div>
                 <div class="findingscontent">
-                    <p>The lack of automation required a lot of repeated, redundant interactions with the tool throughout the day resulting in stress.</p>
+                    <p>They needed visibility to much more information than what they excel sheets were providing.</p>
                 </div>
             </div>
 
@@ -251,7 +212,8 @@
                     <p>Less time spent with people</p>
                 </div>
                 <div class="findingscontent">
-                    <p>The supervisors wished they spent less time with the tool and more time with their associates building relationships and helping them be successful.</p>
+                    <p>While the spreadsheet provided them some of the necessary information, they were slow to update and required manual update every time. The leaders wanted something that would updated faster than the spreadsheets,
+                        automatically.</p>
                 </div>
             </div>
         </div>
@@ -265,7 +227,7 @@
                     <p>Slow and reactive</p>
                 </div>
                 <div class="findingscontent">
-                    <p>The tool did not provide users visibility to critical information when they needed. The users had to preemptively seek information.</p>
+                    <p>Not every information from the spreadsheet was equally valuable.</p>
                 </div>
             </div>
 
@@ -274,7 +236,7 @@
                     <p>Context switching is unproductive</p>
                 </div>
                 <div class="findingscontent">
-                    <p>The users used <b>3 different tools </b>simultaneously in their order-management process resulting in constant context-switching.</p>
+                    <p>Leaders often move around the floor and need the information at all times. </p>
                 </div>
             </div>
 
@@ -285,7 +247,7 @@
         <div id="emphasisflex">
             <div class="empline"></div>
             <div class="empcontent">
-                <p>“Hitting the Refresh button 6000 times a day is a pain in the a**."</p>
+                <p>"Which regions are blowing up? (Getting too many orders)"</p>
             </div>
         </div>
         <div class="twoemboth"></div>
@@ -297,7 +259,7 @@
         <div id="emphasisflex">
             <div class="empline"></div>
             <div class="empcontent">
-                <p>"It's stressful as we get closer to the cut times because sometimes customer orders are not loaded and I have to do a lot of research to find and fix issues."</p>
+                <p>"Are the pickers following the assigned path? "</p>
             </div>
         </div>
         <div class="twoemboth"></div>
@@ -307,28 +269,6 @@
         <div class="threeemboth"></div>
         <!--  FINDINGS END -->
 
-        <!-- PERSONA START -->
-
-        <div class="sectiontitle">
-            <p>Defining The User</p>
-        </div>
-
-        <div class="contentsection">
-            <p>From the research learnings, I created a user-persona to consolidate the users’ needs, goals, process, pain-points and behaviors.
-            </p>
-        </div>
-        <div class="twoemboth"></div>
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Persona.png">
-        </div>
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>Persona of an Outbound Supervisor within a fulfillment center.</p>
-        </div>
-
-        <div class="threeemboth"></div>
-
-        <!-- PERSONA END-->
 
 
         <!-- IDEATION START -->
@@ -342,13 +282,18 @@
         </div>
 
         <div class="contentsection">
-            <p>I facilitated a design studio with the team to explore ideas to solve for the prioritized goals and user needs. During the process I tried to keep the conversations focused on the MVP and created a parking lot with a list of
-                Nice-to-Haves.
-            </p>
+            <p>We created paper prototypes to explore ways to provide them the information that was necessary to make decisions. By involving the stakeholders and users in the sketching process helped us validate and narrow down quickly. We
+                encouraged
+                everyone to sketch their idea of presenting the necessary information and used dot voting to narrow down to the best solution. < </p> </div> <div class="twoemboth">
         </div>
-        <div class="twoemboth"></div>
         <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Whiteboard.png">
+            <img src="css/img/thd_pp/sketches.jpg">
+        </div>
+        <div class="centerimg">
+            <img src="css/img/thd_pp/whiteboard1.jpg">
+        </div>
+        <div class="centerimg">
+            <img src="css/img/thd_pp/paper_proto1.jpg">
         </div>
         <div class="oneemtop"></div>
         <div class="imgdesc">
@@ -357,110 +302,33 @@
 
         <div class="threeemboth"></div>
 
-        <div class="subtitle">
-            <p>Wireframes</p>
-        </div>
-
         <div class="contentsection">
-            <p>The Design Studio gave me a skeletal idea of the solution and I created digital wireframes too address the top user needs and goals.</p>
+
+            <p>We designed for a tablet to afford the mobility. Once we knew what information they needed and the priority of it, I quickly created a functional prototype. We ran 4 usability studies with the users to identify its usability of
+                the interface
+                and its effectiveness in providing users the information they need to make decisions. </p>
+
         </div>
-
-
 
         <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Wireframe.png">
+            <div class="appdesc">
+                <img src="css/img/thd_pp/appdesc.png">
+            </div>
         </div>
-        <div class="oneemtop"></div>
         <div class="imgdesc">
-            <p>The ideas explored, sketched, and prioritized during the Design Studio informed the first digital wireframe.</p>
+            <p>The team explored a breadth of ideas to address the identified user needs & goals.</p>
         </div>
-
-
-        <div class="threeemboth"></div>
-
-        <!-- IDEATION END-->
-
-        <!-- USABILITY START -->
-
-        <div class="sectiontitle">
-            <p>Usability & Iterations</p>
-        </div>
-
-        <div class="contentsection">
-            <p>We conducted a series of usability studies over the next couple of weeks to test our solution hypothesis and iterated based on the learnings. </p>
-        </div>
-        <div class="twoemboth"></div>
 
         <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Usability.png">
+            <div class="appflow">
+                <img src="css/img/thd_pp/appflow.png">
+            </div>
         </div>
 
-        <div class="oneemtop"></div>
         <div class="imgdesc">
-            <p>Usability studies helped us validate our solution hypothesis and identify areas of concern or delight.</p>
+            <p>The team explored a breadth of ideas to address the identified user needs & goals.</p>
         </div>
 
-        <div class="threeemboth"></div>
-        <!-- USABILITY END-->
-
-
-
-        <!-- FINAL DESIGN START -->
-
-        <div class="sectiontitle">
-            <p>Final Design</p>
-        </div>
-
-        <div class="contentsection">
-            <p>From the study we learned that users cared more about specific research and not open-ended research as we initially believed. Based on this, I iterated on the designs to match their mental model more closely. The outcome was that
-                users were able to take actions more easily and there was less ambiguity in what they could interact with and what they couldn’t. </p>
-        </div>
-
-        <div class="twoemboth"></div>
-
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Landing.png">
-        </div>
-
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>A cleaner looking landing page that matches the users' mental models more closely.</p>
-        </div>
-
-        <div class="threeemboth"></div>
-
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Research.png">
-        </div>
-
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>Research section is moved from the front page. This offers a more focused view of the information users need.</p>
-        </div>
-
-        <div class="threeemboth"></div>
-
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-CutTime.png">
-        </div>
-
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>Showing work by different cut times helps users prioritize the work accordingly. </p>
-        </div>
-
-        <div class="threeemboth"></div>
-
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Blank_Labels.png">
-        </div>
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>Orders with exceptions are grouped together so that suitable action can be taken.</p>
-        </div>
-
-        <div class="threeemboth"></div>
-        <!-- FINAL DESIGN END-->
 
         <!-- OUTCOMES START -->
 
@@ -494,39 +362,14 @@
 
 
         <div class="contentsection">
-            <p>The efficiency of the Supervisors and their decisions directly impacts The Home Depot's online shopping experience and the tools they use directly impacts the building's efficiency. As a result, it was very important for us to make
-                sure we
-                provide
-                the Supervisors a tool that makes them feel confident using while improving their efficiency and security. And we were able to deliver that in 10 weeks, well ahead of our schedule.
-
-                <br><br> When we tested the final version of the app, the users felt <b>comfortable and confident</b> using the new app. They were able run the operations smothly with very <b>little to no training needed</b> and this
-                was a huge win for
-                us.
+            <p>This app was particularly important to the business and the fulfillment center leaders because by making the picking and packing process more efficient, customer orders could be shipped out faster without any being left behind,
+                especially
+                in case of orders with multiple items. This would reduce the delay in shipping and save money for the business.
             </p>
         </div>
         <div class="threeemboth"></div>
 
-        <!-- USER QUOTE START -->
 
-        <div id="emphasisflex">
-            <div class="empline"></div>
-            <div class="empcontent">
-                <p>“I love that I don’t have to use the concatenator tool anymore”</p>
-            </div>
-        </div>
-        <div class="threeemboth"></div>
-        <!-- USER QUOTE END -->
-
-        <!-- USER QUOTE START -->
-
-        <div id="emphasisflex">
-            <div class="empline"></div>
-            <div class="empcontent">
-                <p>“The app is pretty self-explanatory.”</p>
-            </div>
-        </div>
-        <div class="threeemboth"></div>
-        <!-- USER QUOTE END -->
 
         <div class="contentsection">
             <p>Some aspects of the project, like the remote usability studies, could've gone better. Nonetheless, these issues were minor and didn't derail the project. I managed to stay focused on the MVP and included all stakeholders in the

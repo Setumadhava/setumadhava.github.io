@@ -34,17 +34,11 @@
                 margin: 0;
                 color: #25334A;
                 transition: 0.25s all ease-in-out;
-
-                span {
-                    transition: 0.25s all ease-in-out;
-                }
             }
 
             p:hover {
-                span {
-                    transition: 0.25s all ease-in-out;
-                    color: $setured;
-                }
+                transition: 0.25s all ease-in-out;
+                color: $setured;
             }
         }
 
@@ -148,17 +142,12 @@
                     font-size: 1em;
                     margin: 0;
                     color: #25334A;
-
-                    span {
-                        transition: 0.25s all ease-in-out;
-                    }
+                    transition: 0.25s all ease-in-out;
                 }
 
                 p:hover {
-                    span {
-                        transition: 0.25s all ease-in-out;
-                        color: $setured;
-                    }
+                    transition: 0.25s all ease-in-out;
+                    color: $setured;
                 }
             }
             @media #{$tablet} {
