@@ -335,8 +335,7 @@
     @media (min-width: 1024px) {
       .thd_ss .projectimg {
         position: relative;
-        width: 85%;
-        height: 400px; } }
+        width: 85%; } }
 
 @media (min-width: 1024px) {
   .thd_ncv_card:hover .projectimg {
