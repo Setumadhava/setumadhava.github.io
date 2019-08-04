@@ -453,8 +453,8 @@
 
     .projectimg {
         @media #{$mac13} {
-            width: 41%;
-            top: -5%;
+            // width: 41%;
+            // top: -5%;
             transition: 0.25s all ease-in-out;
         }
     }

@@ -331,8 +331,6 @@
   cursor: default; }
   @media (min-width: 1024px) {
     .thd_pp_card:hover .projectimg {
-      width: 41%;
-      top: -5%;
       transition: 0.25s all ease-in-out; } }
 
 .container,
