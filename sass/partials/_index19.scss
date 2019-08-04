@@ -434,6 +434,33 @@
         }
     }
 }
+
+.thd_ss {
+    background-color: #C4C6FF;
+
+    .projectimg {
+        width: 90%;
+        margin: 0 auto;
+        transition: 0.25s all ease-in-out;
+        @media #{$tablet} {
+            width: 75%;
+            height: 300px;
+        }
+        @media #{$mac13} {
+            position: relative;
+            width: 85%;
+            height: 400px;
+        }
+    }
+}
+
+#copyrightdiv {
+    font-family: $opensans;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    color: $grey4;
+}
 ////////////////////// HOVER ACTION //////////////////////
 ////////////////////// HOVER ACTION //////////////////////
 ////////////////////// HOVER ACTION //////////////////////

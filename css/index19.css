@@ -321,6 +321,29 @@
         top: 0;
         height: 300px; } }
 
+.thd_ss {
+  background-color: #C4C6FF; }
+  .thd_ss .projectimg {
+    width: 90%;
+    margin: 0 auto;
+    transition: 0.25s all ease-in-out; }
+    @media (min-width: 768px) {
+      .thd_ss .projectimg {
+        width: 75%;
+        height: 300px; } }
+    @media (min-width: 1024px) {
+      .thd_ss .projectimg {
+        position: relative;
+        width: 85%;
+        height: 400px; } }
+
+#copyrightdiv {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  color: #7E7E7E; }
+
 @media (min-width: 1024px) {
   .thd_ncv_card:hover .projectimg {
     width: 75%;
