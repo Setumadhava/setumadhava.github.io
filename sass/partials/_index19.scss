@@ -401,6 +401,7 @@
 
 .thd_ncv {
     background-color: #A2E3B3;
+    width: 100%;
 
     .projectimg {
         position: relative;
@@ -419,6 +420,7 @@
 
 .thd_pp {
     background-color: #A2D2E3;
+    width: 100%;
 
     .projectimg {
         width: 90%;
@@ -438,18 +440,27 @@
 
 .thd_ss {
     background-color: #C4C6FF;
+    width: 100%;
+    @media #{$tablet} {
+        min-height: 450px;
+    }
+    @media #{$mac13} {
+        min-height: 0;
+    }
 
     .projectimg {
         width: 90%;
         margin: 0 auto;
         transition: 0.25s all ease-in-out;
+        position: relative;
         @media #{$tablet} {
+            top: 10%;
             width: 70%;
             height: 300px;
         }
         @media #{$mac13} {
-            position: relative;
             width: 85%;
+            top: 0;
         }
     }
 }

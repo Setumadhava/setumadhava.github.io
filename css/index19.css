@@ -292,7 +292,8 @@
       font-size: 1em; }
 
 .thd_ncv {
-  background-color: #A2E3B3; }
+  background-color: #A2E3B3;
+  width: 100%; }
   .thd_ncv .projectimg {
     position: relative;
     top: 10%;
@@ -307,7 +308,8 @@
         height: 300px; } }
 
 .thd_pp {
-  background-color: #A2D2E3; }
+  background-color: #A2D2E3;
+  width: 100%; }
   .thd_pp .projectimg {
     width: 90%;
     margin: 0 auto;
@@ -323,19 +325,28 @@
         height: 300px; } }
 
 .thd_ss {
-  background-color: #C4C6FF; }
+  background-color: #C4C6FF;
+  width: 100%; }
+  @media (min-width: 768px) {
+    .thd_ss {
+      min-height: 450px; } }
+  @media (min-width: 1024px) {
+    .thd_ss {
+      min-height: 0; } }
   .thd_ss .projectimg {
     width: 90%;
     margin: 0 auto;
-    transition: 0.25s all ease-in-out; }
+    transition: 0.25s all ease-in-out;
+    position: relative; }
     @media (min-width: 768px) {
       .thd_ss .projectimg {
+        top: 10%;
         width: 70%;
         height: 300px; } }
     @media (min-width: 1024px) {
       .thd_ss .projectimg {
-        position: relative;
-        width: 85%; } }
+        width: 85%;
+        top: 0; } }
 
 @media (min-width: 1024px) {
   .thd_ncv_card:hover .projectimg {
