@@ -116,10 +116,10 @@ a {
           width: 240px;
           font-size: 1em;
           margin: 0;
-          color: #25334A; }
-          #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p span {
-            transition: 0.25s all ease-in-out; }
-        #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p:hover span {
+          color: #25334A;
+          font-weight: 300;
+          transition: 0.25s all ease-in-out; }
+        #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p:hover {
           transition: 0.25s all ease-in-out;
           color: #F04B33; }
       @media (min-width: 768px) {

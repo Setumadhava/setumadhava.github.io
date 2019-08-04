@@ -154,17 +154,13 @@ a {
                     font-size: 1em;
                     margin: 0;
                     color: #25334A;
-
-                    span {
-                        transition: 0.25s all ease-in-out;
-                    }
+                    font-weight: 300;
+                    transition: 0.25s all ease-in-out;
                 }
 
                 p:hover {
-                    span {
-                        transition: 0.25s all ease-in-out;
-                        color: $setured;
-                    }
+                    transition: 0.25s all ease-in-out;
+                    color: $setured;
                 }
             }
             @media #{$tablet} {
