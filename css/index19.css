@@ -22,7 +22,8 @@
       font-size: 1.5em;
       margin: 0;
       color: #25334A;
-      transition: 0.25s all ease-in-out; }
+      transition: 0.25s all ease-in-out;
+      font-weight: 300; }
     #hpheader #hpheaderflex .name p:hover {
       transition: 0.25s all ease-in-out;
       color: #F04B33; }
@@ -103,7 +104,8 @@
           font-size: 1em;
           margin: 0;
           color: #25334A;
-          transition: 0.25s all ease-in-out; }
+          transition: 0.25s all ease-in-out;
+          font-weight: 300; }
         #hpmobilemenuwrapper #hpmenunameflex #hpmenuName a p:hover {
           transition: 0.25s all ease-in-out;
           color: #F04B33; }

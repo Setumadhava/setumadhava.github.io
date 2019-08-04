@@ -60,7 +60,8 @@
             font-size: 1em;
             margin: 0;
             color: #25334A;
-            transition: 0.25s all ease-in-out; }
+            transition: 0.25s all ease-in-out;
+            font-weight: 300; }
           #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a p:hover {
             color: #F04B33;
             transition: 0.25s all ease-in-out; }
