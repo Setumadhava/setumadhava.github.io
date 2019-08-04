@@ -1,6 +1,9 @@
 a {
   text-decoration: none; }
 
+.threeemboth {
+  padding: 3em 0; }
+
 #wrapper {
   width: 90%;
   margin: 0 auto; }
@@ -258,6 +261,13 @@ a {
       background-color: #25334A;
       transition: 0.2s all ease-in-out;
       border-radius: 5px; }
+
+#copyrightdiv {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  color: #7E7E7E; }
 
 .container,
 body,

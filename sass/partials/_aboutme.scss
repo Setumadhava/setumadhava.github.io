@@ -2,6 +2,10 @@ a {
     text-decoration: none;
 }
 
+.threeemboth {
+    padding: 3em 0;
+}
+
 #wrapper {
     width: 90%;
     margin: 0 auto;
@@ -340,4 +344,14 @@ a {
         }
     }
 }
+////////////////////////// COPYRIGHT START ///////////////////////
+
+#copyrightdiv {
+    font-family: $opensans;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    color: $grey4;
+}
+////////////////////////// COPYRIGHT END ///////////////////////
 ////////////////// STOP ////////////////////

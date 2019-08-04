@@ -612,7 +612,13 @@ p {
         }
     }
 }
+///////////////////////// COPYRIGHT START ///////////////////////
 
-.threeemboth {
-    background-color: white;
+#copyrightdiv {
+    font-family: $opensans;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    color: $grey4;
 }
+////////////////////////// COPYRIGHT END ///////////////////////

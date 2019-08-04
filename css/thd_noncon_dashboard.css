@@ -474,8 +474,12 @@ p {
     background-color: #6CD387;
     transition: 0.25s all ease-in-out; }
 
-.threeemboth {
-  background-color: white; }
+#copyrightdiv {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  color: #7E7E7E; }
 
 .container,
 body,
