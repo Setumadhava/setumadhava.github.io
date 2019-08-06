@@ -625,12 +625,10 @@ p {
         .otherprojimgdiv {
             padding: 2em 0;
             border-radius: 8px;
-            // max-width: 400px;
-            // max-height: 352px;
-            min-height: 352px;
-            max-height: 352px;
             @media #{$tablet} {
                 min-width: 300px;
+                min-height: 352px;
+                max-height: 352px;
             }
             @media #{$mac13} {
                 min-width: 400px;
@@ -664,7 +662,7 @@ p {
         }
     }
     ////////////////////// PROJECT SPECIFIC START ////////////////////////////
-    ///// PICKING PRIORITY /////
+    ///// NON CON VIZ /////
     .thd_ncv_outer {
         background-color: #A2E3B3;
         position: relative;
@@ -696,16 +694,18 @@ p {
     }
 
     .thd_ss_inner {
-        position: absolute;
-        bottom: 70px;
-        width: 90%;
-        transform: translateX(06%);
+        width: 85%;
+        margin: 0 auto;
+        position: relative;
+        @media #{$tablet} {
+            top: 50px;
+        }
 
         .img {
             width: 100%;
         }
     }
-    //////////////////////// PROJECT SPECIIC ENDS /////////////////////////
+    //////////////////////// PROJECT SPECIFIC ENDS /////////////////////////
     .owdiv:hover {
         .thd_ncv_outer {
             background-color: #78CB8D;
