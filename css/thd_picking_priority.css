@@ -370,15 +370,23 @@ p {
       font-family: "Open Sans", sans-serif; }
 
 .centerimg {
-  background-color: #A2D2E3; }
+  background-color: #C9E9F4;
+  width: 90%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .centerimg {
+      width: 75%; } }
   @media (min-width: 1024px) {
     .centerimg {
-      max-width: 650px;
+      max-width: 850px;
       margin: 0 auto;
       background-color: transparent; }
       .centerimg img {
         width: 100%; } }
 
+@media (min-width: 768px) {
+  .appflow {
+    max-width: 950px; } }
 @media (min-width: 1024px) {
   .appflow {
     max-width: 1250px; } }

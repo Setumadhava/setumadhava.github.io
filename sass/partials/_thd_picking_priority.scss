@@ -475,9 +475,14 @@ p {
 }
 
 .centerimg {
-    background-color: #A2D2E3;
+    background-color: #C9E9F4;
+    width: 90%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        width: 75%;
+    }
     @media #{$mac13} {
-        max-width: 650px;
+        max-width: 850px;
         margin: 0 auto;
         background-color: transparent;
 
@@ -488,6 +493,9 @@ p {
 }
 
 .appflow {
+    @media #{$tablet} {
+        max-width: 950px;
+    }
     @media #{$mac13} {
         max-width: 1250px;
     }
