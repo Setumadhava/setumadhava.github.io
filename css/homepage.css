@@ -308,7 +308,7 @@
         height: 300px; } }
 
 .thd_pp {
-  background-color: #A2D2E3;
+  background-color: #C9E9F4;
   width: 100%; }
   .thd_pp .projectimg {
     width: 90%;
@@ -325,7 +325,7 @@
         height: 300px; } }
 
 .thd_ss {
-  background-color: #C4C6FF;
+  background-color: #DBDCFF;
   width: 100%; }
   @media (min-width: 768px) {
     .thd_ss {

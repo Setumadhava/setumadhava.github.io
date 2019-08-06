@@ -581,9 +581,18 @@ p {
         }
 
         .otherprojimgdiv {
-            background-color: #A2E3B3;
             padding: 2em 0;
             border-radius: 8px;
+            // max-width: 400px;
+            // max-height: 352px;
+            min-height: 352px;
+            max-height: 352px;
+            @media #{$tablet} {
+                min-width: 300px;
+            }
+            @media #{$mac13} {
+                min-width: 400px;
+            }
 
             .img {
                 width: 90%;
@@ -606,11 +615,64 @@ p {
         }
     }
 
+    .comingsoon {
+        position: relative;
+        top: -30px;
+        font-family: $opensans;
+        color: $grey4;
+        font-style: italic;
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-size: 1em;
+    }
+    ////////////////////// PROJECT SPECIFIC START ////////////////////////////
+    ///// PICKING PRIORITY /////
+    .thd_pp_outer {
+        background-color: #C9E9F4;
+        position: relative;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_pp_inner {
+        position: absolute;
+        bottom: 30px;
+        width: 80%;
+        transform: translateX(12%);
+        @media #{$tablet} {
+            width: 80%;
+            bottom: 30px;
+            transform: translateX(12%);
+        }
+
+        .img {
+            width: 100%;
+        }
+    }
+    ///// SIMPLE SORT ////
+    .thd_ss_outer {
+        background-color: #DBDCFF;
+        position: relative;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_ss_inner {
+        position: absolute;
+        transform: translateY(20%);
+
+        .img {
+            width: 100%;
+        }
+    }
+    //////////////////////// PROJECT SPECIIC ENDS /////////////////////////
     .owdiv:hover {
-        .otherprojimgdiv {
-            background-color: #6CD387;
+        .thd_pp_outer {
+            background-color: #8AC6DB;
             transition: 0.25s all ease-in-out;
-            // cursor: pointer;
+        }
+
+        .thd_ss_outer {
+            // background-color: #A2A5FD;
+            transition: 0.25s all ease-in-out;
         }
     }
 }

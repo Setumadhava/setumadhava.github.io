@@ -455,9 +455,16 @@ p {
         width: 40%;
         margin: 0; } }
     .otherworksflex .owdiv .otherprojimgdiv {
-      background-color: #A2E3B3;
       padding: 2em 0;
-      border-radius: 8px; }
+      border-radius: 8px;
+      min-height: 352px;
+      max-height: 352px; }
+      @media (min-width: 768px) {
+        .otherworksflex .owdiv .otherprojimgdiv {
+          min-width: 300px; } }
+      @media (min-width: 1024px) {
+        .otherworksflex .owdiv .otherprojimgdiv {
+          min-width: 400px; } }
       .otherworksflex .owdiv .otherprojimgdiv .img {
         width: 90%;
         margin: 0 auto;
@@ -471,8 +478,44 @@ p {
         letter-spacing: 1px;
         font-family: "Poppins", sans-serif;
         color: #25334A; }
-  .otherworksflex .owdiv:hover .otherprojimgdiv {
-    background-color: #6CD387;
+  .otherworksflex .comingsoon {
+    position: relative;
+    top: -30px;
+    font-family: "Open Sans", sans-serif;
+    color: #7E7E7E;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1em; }
+  .otherworksflex .thd_pp_outer {
+    background-color: #C9E9F4;
+    position: relative;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .thd_pp_inner {
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    transform: translateX(12%); }
+    @media (min-width: 768px) {
+      .otherworksflex .thd_pp_inner {
+        width: 80%;
+        bottom: 30px;
+        transform: translateX(12%); } }
+    .otherworksflex .thd_pp_inner .img {
+      width: 100%; }
+  .otherworksflex .thd_ss_outer {
+    background-color: #DBDCFF;
+    position: relative;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .thd_ss_inner {
+    position: absolute;
+    transform: translateY(20%); }
+    .otherworksflex .thd_ss_inner .img {
+      width: 100%; }
+  .otherworksflex .owdiv:hover .thd_pp_outer {
+    background-color: #8AC6DB;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .owdiv:hover .thd_ss_outer {
     transition: 0.25s all ease-in-out; }
 
 #copyrightdiv p {
