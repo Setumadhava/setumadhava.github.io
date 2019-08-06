@@ -479,6 +479,7 @@ p {
     background-color: #C9E9F4;
     width: 90%;
     margin: 0 auto;
+    border-radius: 8px;
     @media #{$tablet} {
         width: 75%;
     }
@@ -490,6 +491,15 @@ p {
         img {
             width: 100%;
         }
+    }
+}
+
+.portraitimg {
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
     }
 }
 

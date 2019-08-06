@@ -373,7 +373,8 @@ p {
 .centerimg {
   background-color: #C9E9F4;
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border-radius: 8px; }
   @media (min-width: 768px) {
     .centerimg {
       width: 75%; } }
@@ -384,6 +385,13 @@ p {
       background-color: transparent; }
       .centerimg img {
         width: 100%; } }
+
+@media (min-width: 768px) {
+  .portraitimg {
+    max-width: 600px; } }
+@media (min-width: 1024px) {
+  .portraitimg {
+    max-width: 650px; } }
 
 @media (min-width: 768px) {
   .appflow {
