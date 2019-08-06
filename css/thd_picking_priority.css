@@ -256,7 +256,8 @@ p {
     font-family: "Open Sans", sans-serif;
     color: #0F4C9F;
     font-weight: 600;
-    line-height: 34px; }
+    line-height: 34px;
+    text-align: center; }
   @media (min-width: 768px) {
     .largecontentsection {
       max-width: 600px; }
