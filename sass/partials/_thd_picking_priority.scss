@@ -1,265 +1,143 @@
 * {
-    font-family: $roboto;
     transition: 0.3s all ease-in-out;
     color: $textdark;
+    line-height: 1.8em;
 }
-////////////// NEW HEADER ////////////////
+/////////////////////  HEADER START /////////////////////
 
-#header {
-    padding: 2em 0;
-    margin: 0 auto;
-    width: 100%;
-    @media #{$tablet} {
-        padding: 2em 0;
-    }
+#ppheadercontainer {
     @media #{$mac13} {
-        // max-width: 1000px;
-        padding: 2em 0;
-    }
-    @media #{$mac15} {
-        // max-width: 1000px;
-        padding: 2em 0;
-    }
-    @media #{$monitor} {
-        // max-width: 1000px;
-        padding: 2em 0;
-    }
-    @media #{$fourk} {
-        max-width: 1550px;
+        height: 180px;
     }
 
-    #headerflex {
+    #ppmenuicondiv {
+        position: absolute;
+        right: 0;
+        z-index: 100;
+        top: 0;
+        padding: 2.25em 1em;
+        display: block;
+        position: fixed;
         @media #{$tablet} {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            position: relative;
+            padding: 4.5em 3em;
         }
         @media #{$mac13} {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            position: relative;
-        }
-        @media #{$mac15} {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            position: relative;
-        }
-        @media #{$monitor} {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            position: relative;
-        }
-        @media #{$fourk} {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            position: relative;
+            padding: 4.5em 6em;
         }
 
-        .name {
-            transition: 0.3s all ease-in-out;
-            position: relative;
-
-            a {
-                color: black;
-                transition: 0.3s all ease-in-out;
-            }
-
-            p {
-                font-family: georgia;
-                width: 180px;
-                font-size: 1.5em;
-                margin: 0;
-                @media #{$fourk} {
-                    font-size: 1.9em;
-                    width: 280px;
-                }
-            }
-        }
-
-        .name:hover {
-            transition: 0.3s all ease-in-out;
-            color: $setured;
+        img:hover {
             cursor: pointer;
-
-            a {
-                color: $setured;
-                transition: 0.3s all ease-in-out;
-            }
         }
+    }
 
-        #navflex {
-            width: 80%;
-            padding-top: 1em;
-            display: none;
+    #ppmobilemenuwrapper {
+        opacity: 0;
+        z-index: -2;
+        transition: 0.25s all ease-in-out;
+        width: 100%;
+        background-color: white;
+        position: relative;
+        top: 0;
+        left: 0;
+        position: fixed;
+        -webkit-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+        -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+        box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+
+        .ppmobilemenucontent {
+            width: 90%;
+            margin: 0 auto;
             @media #{$mac13} {
-                width: 40%;
-                justify-content: space-between;
-                padding-top: 0.7em;
-                display: flex;
+                max-width: 1000px;
             }
             @media #{$mac15} {
-                width: 40%;
-                justify-content: space-between;
-                padding-top: 0.7em;
+                max-width: 1000px;
                 display: flex;
-            }
-            @media #{$monitor} {
-                width: 40%;
+                flex-wrap: wrap;
                 justify-content: space-between;
-                padding-top: 0.7em;
-                display: flex;
-            }
-            @media #{$fourk} {
-                width: 40%;
-                justify-content: space-between;
-                padding-top: 0.7em;
-                display: flex;
             }
 
-            .navitem {
-                a {
-                    transition: 0.3s all ease-in-out;
-                    color: black;
+            #ppmenunameflex {
+                padding: 2em 0 0;
+                transition: 0.25s all ease-in-out;
+
+                #ppmenuName {
+                    max-width: 200px;
+
+                    a {
+                        font-size: 1.5em;
+
+                        p {
+                            font-family: $poppins;
+                            width: 240px;
+                            font-size: 1em;
+                            margin: 0;
+                            color: #25334A;
+                            transition: 0.25s all ease-in-out;
+                            font-weight: 300;
+                        }
+
+                        p:hover {
+                            color: $setured;
+                            transition: 0.25s all ease-in-out;
+                        }
+                    }
+                    @media #{$tablet} {
+                        margin-top: 2em;
+                    }
                 }
-                width: 20%;
-                text-align: left;
-                @media #{$mac13} {
-                    text-align: right;
+
+                #ppmenuxicondiv {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 2.4em 1.25em 0 0;
+                    @media #{$tablet} {
+                        padding: 4.5em 3.3em;
+                    }
+                    @media #{$mac13} {
+                        // display: none;
+                        padding: 4.5em 6.2em;
+                    }
+
+                    img:hover {
+                        cursor: pointer;
+                    }
                 }
+            }
+
+            ul {
+                padding: 1em 0;
+                transition: 0.3s all ease-in-out;
+                margin: 0;
                 @media #{$mac15} {
-                    text-align: right;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 2em;
                 }
-                @media #{$monitor} {
-                    text-align: right;
+
+                li {
+                    list-style: none;
+                    padding: 1.5em 0;
+                    @media #{$mac15} {
+                        padding: 1.5em;
+                        margin-bottom: 2em;
+                    }
+
+                    a {
+                        color: #25334A;
+                        font-family: $opensans;
+                        font-size: 0.9em;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                        transition: 0.25s all ease-in-out;
+                    }
+
+                    a:hover {
+                        color: $setured;
+                        transition: 0.25s all ease-in-out;
+                    }
                 }
-                @media #{$fourk} {
-                    text-align: right;
-                    font-size: 1.4em;
-                }
-                transition: 0.3s all ease-in-out;
-
-                p {
-                    font-size: 0.9em;
-                    font-weight: 500;
-                }
-            }
-
-            .navitem:hover {
-                a {
-                    transition: 0.3s all ease-in-out;
-                    color: $setured;
-                }
-                font-weight: bolder;
-                cursor: pointer;
-            }
-        }
-    }
-}
-
-#menuicon {
-    font-size: 1.1em;
-    position: absolute;
-    right: 0;
-    z-index: 100;
-    top: 0;
-    padding: 2em 1em;
-    display: block;
-    position: fixed;
-    @media #{$tablet} {
-        padding: 2em;
-    }
-    @media #{$mac13} {
-        display: none;
-    }
-    @media #{$mac15} {
-        display: none;
-    }
-    @media #{$monitor} {
-        display: none;
-    }
-    @media #{$fourk} {
-        display: none;
-    }
-}
-
-#mobilemenuwrapper {
-    opacity: 0;
-    z-index: -2;
-    transition: 0.3s all ease-in-out;
-    width: 100%;
-    background-color: white;
-    padding: 0 1.5em 0 1em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    position: fixed;
-    -webkit-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
-    -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
-    box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
-
-    #menunameflex {
-        padding: 2em 0 0;
-        @media #{$tablet} {
-            padding: 2em 0 0 1em;
-        }
-        transition: 0.3s all ease-in-out;
-
-        #menuName {
-            a {
-                letter-spacing: normal;
-                font-size: 1.5em;
-
-                p {
-                    width: 180px;
-                    font-family: georgia;
-                    color: black;
-                }
-                transition: 0.3s all ease-in-out;
-            }
-        }
-
-        #menuxicon {
-            position: absolute;
-            top: 0;
-            right: 0;
-            padding: 2.45em 1.5em 0 0;
-            @media #{$tablet} {
-                padding: 2.45em 2.4em 0 0;
-            }
-        }
-    }
-
-    #menuline {
-        height: 3px;
-        background-color: black;
-        margin: 0 auto;
-        width: 100%;
-        margin-top: 2em;
-        transition: 0.3s all ease-in-out;
-        @media #{$tablet} {
-            width: 95%;
-        }
-    }
-
-    ul {
-        padding: 1em 0;
-        transition: 0.3s all ease-in-out;
-        margin: 0;
-        @media #{$tablet} {
-            margin-left: 1.25em;
-        }
-
-        li {
-            list-style: none;
-            padding: 1.5em 0;
-
-            a {
-                color: black;
             }
         }
     }
@@ -273,12 +151,8 @@ p {
 @media #{$tablet} {}
 @media #{$mac13} {}
 @media #{$mac15} {}
-@media #{$monitor} {}
-@media #{$fourk} {}
-
-body {
-    background-color: #F3F3F3;
-}
+// @media #{$monitor} {}
+// @media #{$fourk} {}
 
 #supercontainer {
     width: 90%;
@@ -291,9 +165,9 @@ body {
     @media #{$mac15} {
         width: 80%;
     }
-    @media #{$monitor} {
-        width: 70%;
-    }
+    // @media #{$monitor} {
+    //     width: 70%;
+    // }
     @media #{$fourk} {
         width: 60%;
     }
@@ -308,6 +182,18 @@ body {
     padding-bottom: 4em;
 }
 
+.oneemtop {
+    padding: 1em 0 0;
+}
+
+.twoemboth {
+    padding: 2em 0;
+}
+
+.threeemboth {
+    padding: 3em 0;
+}
+
 .fouremboth {
     padding: 4em 0;
 }
@@ -315,468 +201,461 @@ body {
 .sixemboth {
     padding: 6em 0;
 }
-
-.subheader {
-    font-weight: bold;
-    font-size: 1.2em;
-    color: $esaurgreen;
-}
 ////////////////////////////////////////////////////////////////////
 
 #herosection {
-    // background-image: url("img/premera/herobg.png");
-    background-color: #F8BB88;
-    width: 100%;
+    // background-color: #A2E3B3;
+    background-image: url("img/thd_pp/hero-bg.svg");
     display: block;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    height: auto;
     position: relative;
-    height: 700px;
-    border-radius: 4px;
-    @media #{$phablet} {
-        height: 700px;
-    }
+    border-radius: 0;
+    margin: 0 auto;
+    height: 350px;
     @media #{$tablet} {
-        height: 800px;
+        height: 460px;
     }
     @media #{$mac13} {
-        height: 450px;
-    }
-    @media #{$mac15} {
-        height: 600px;
-    }
-    @media #{$monitor} {
-        height: 800px;
-    }
-    @media #{$fourk} {
-        height: 800px;
+        border-radius: 15px;
+        height: 550px;
+        max-width: 950px;
     }
 
-    .heroflex {
-        display: flex;
-        flex-wrap: wrap;
+    #heroimg {
         position: absolute;
-        justify-content: space-between;
-        left: 0;
-        right: 0;
+        transform: translateX(0%);
         bottom: 0;
-        width: 100%;
-        margin: 0 auto;
-        @media #{$phablet} {
-            width: 90%;
+
+        .imgdiv {
+            width: 70%;
+            margin: 0 auto;
+            @media #{$tablet} {
+                width: 45%;
+            }
+            @media #{$mac13} {
+                width: 40%;
+            }
         }
+    }
+}
+
+#herotitle {
+    p {
+        font-weight: 600;
+        font-size: 1.6em;
+        padding-top: 1em;
+        width: 85%;
+        margin: 0 auto;
+        font-family: $poppins;
+        letter-spacing: 2px;
         @media #{$tablet} {
-            width: 90%;
+            max-width: 600px;
+            font-size: 2em;
         }
         @media #{$mac13} {
-            width: 90%;
-        }
-        @media #{$mac15} {
-            width: 90%;
-        }
-        @media #{$monitor} {
-            width: 85%;
-        }
-        @media #{$fourk} {
-            width: 80%;
-        }
-
-        #hero_text {
-            width: 100%;
-            padding: 1.5em;
-            margin-bottom: 3em;
-            @media #{$phablet} {
-                width: 90%;
-            }
-            @media #{$tablet} {
-                width: 90%;
-                padding-left: 8em;
-                margin-bottom: 3em;
-            }
-            @media #{$mac13} {
-                width: 55%;
-                // position: absolute;
-                // bottom: 0;
-            }
-            @media #{$mac15} {
-                width: 45%;
-                position: absolute;
-                bottom: 0;
-            }
-            @media #{$monitor} {
-                width: 45%;
-                position: absolute;
-                bottom: 0;
-            }
-            @media #{$fourk} {
-                width: 45%;
-                position: absolute;
-                bottom: 0;
-            }
-
-            #pp_title {
-                font-family: georgia;
-                font-size: 2em;
-                color: #282828;
-                @media #{$mac15} {
-                    font-size: 2.7em;
-                }
-                @media #{$monitor} {
-                    font-size: 2.7em;
-                }
-                @media #{$fourk} {
-                    font-size: 2.7em;
-                }
-            }
-
-            #herotextline {
-                width: 90%;
-                height: 3px;
-                background-color: #282828;
-                @media #{$tablet} {
-                    width: 70%;
-                }
-                @media #{$mac13} {
-                    width: 95%;
-                }
-                @media #{$mac15} {
-                    width: 98%;
-                }
-                @media #{$monitor} {
-                    width: 85%;
-                }
-                @media #{$fourk} {
-                    width: 75%;
-                }
-            }
-
-            #hero_desc {
-                font-family: $roboto;
-                margin-top: 1em;
-                color: #5B5B5B;
-                line-height: 1.8em;
-            }
-        }
-
-        #hero_img {
-            width: 90%;
-            margin: 0 auto;
-            position: relative;
-            @media #{$phablet} {
-                width: 90%;
-            }
-            @media #{$tablet} {
-                width: 60%;
-            }
-            @media #{$mac13} {
-                width: 45%;
-
-                img {
-                    width: 90%;
-                    position: absolute;
-                    bottom: 0;
-                    right: 0;
-                }
-            }
-            @media #{$mac15} {
-                width: 40%;
-
-                img {
-                    width: 90%;
-                    position: absolute;
-                    bottom: 0;
-                    right: -15em;
-                }
-            }
-            @media #{$monitor} {
-                width: 45%;
-
-                img {
-                    width: 100%;
-                    position: absolute;
-                    bottom: 0;
-                    right: -18em;
-                }
-            }
-            @media #{$fourk} {
-                width: 50%;
-
-                img {
-                    width: 90%;
-                    position: absolute;
-                    bottom: 0;
-                    right: -21em;
-                }
-            }
+            max-width: 650px;
+            font-size: 2.5em;
         }
     }
 }
 
-.rolecontainer {
-    background-color: #EAEAEA;
-    margin: 6em 0 0;
-    border-radius: 8px;
+.sectiontitle {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
 
-    .roleflex {
-        display: flex;
-        flex-wrap: wrap;
-        border-radius: 8em;
-        padding: 1em;
-        justify-content: space-around;
-
-        .roleitem {
-            width: 100%;
-            @media #{$mac13} {
-                // width: 25%;
-            }
-            @media #{$mac15} {
-                width: 22%;
-            }
-            @media #{$monitor} {
-                width: 23%;
-            }
-            @media #{$fourk} {
-                width: 23%;
-            }
-
-            .itemtitle {
-                font-size: 0.8em;
-                color: #7E7E7E;
-                @media #{$mac13} {
-                    font-size: 1em;
-                }
-                @media #{$mac15} {
-                    font-size: 1em;
-                }
-                @media #{$monitor} {
-                    font-size: 1em;
-                }
-                @media #{$fourk} {
-                    font-size: 1em;
-                }
-            }
-
-            .itemcontent {
-                font-size: 1em;
-                @media #{$mac13} {
-                    font-size: 1.2em;
-                }
-                @media #{$mac15} {
-                    font-size: 1.2em;
-                }
-                @media #{$monitor} {
-                    font-size: 1.2em;
-                }
-                @media #{$fourk} {
-                    font-size: 1.2em;
-                }
-            }
+    p {
+        font-size: 1.4em;
+        font-weight: 500;
+        font-family: $poppins;
+        letter-spacing: 2px;
+        @media #{$tablet} {
+            font-size: 1.8em;
         }
     }
 }
-///////////////////////////// ROLE END /////////////////////////////
+
+.subtitle {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
+
+    p {
+        font-size: 1.1em;
+        font-weight: 700;
+        font-family: $opensans;
+    }
+}
 
 .contentsection {
-    width: 100%;
-    padding: 4em 0;
+    width: 85%;
+    max-width: 650px;
+    margin: 0 auto;
     @media #{$tablet} {
-        width: 70%;
+        max-width: 600px;
     }
     @media #{$mac13} {
-        width: 70%;
-        padding: 8em 0;
-    }
-    @media #{$mac15} {
-        width: 70%;
-        padding: 8em 0;
-    }
-    @media #{$monitor} {
-        width: 70%;
-        padding: 8em 0;
-    }
-    @media #{$fourk} {
-        width: 70%;
-        padding: 8em 0;
+        max-width: 650px;
     }
 
-    .sectiontitle {
-        margin-bottom: 2em;
+    p {
+        font-size: 18px;
+        font-family: $opensans;
+    }
+}
+
+.largecontentsection {
+    p {
+        font-size: 18px;
+        font-family: $opensans;
+        color: #0F4C9F;
+        font-weight: 600;
+        line-height: 34px;
+    }
+    @media #{$tablet} {
+        max-width: 600px;
 
         p {
-            font-family: georgia;
-            font-size: 2em;
+            font-size: 21px;
+            line-height: 40px;
         }
     }
-
-    .sectioncontent {
-        p {
-            font-size: 1em;
-            line-height: 1.9em;
-            @media #{$mac13} {
-                font-size: 1.2em;
-            }
-            @media #{$mac15} {
-                font-size: 1.2em;
-            }
-            @media #{$monitor} {
-                font-size: 1.2em;
-            }
-            @media #{$fourk} {
-                font-size: 1.2em;
-            }
-        }
-
-        #probstatement {
-            font-style: italic;
-            font-family: georgia;
-            font-size: 1.8em;
-            line-height: 2em;
-            color: $setured;
-            margin-top: 3em;
-        }
+    @media #{$mac13} {
+        max-width: 850px;
     }
+    width: 85%;
+    margin: 0 auto;
+    background-color: #F5FCFF;
+    padding: 2em;
+    border: 4px solid #8DC8DD;
+    border-radius: 10px;
+}
 
-    #process_img {
-        margin: 8em auto;
-        width: 100%;
+.imgdesc {
+    p {
+        width: 85%;
+        margin: 0 auto;
+        font-style: italic;
+        text-align: center;
+        color: $grey4;
+        font-family: $opensans;
         @media #{$tablet} {
-            width: 140%;
+            max-width: 600px;
         }
         @media #{$mac13} {
-            width: 150%;
-        }
-        @media #{$mac15} {
-            width: 150%;
-        }
-        @media #{$monitor} {
-            width: 150%;
-        }
-        @media #{$fourk} {
-            width: 150%;
+            max-width: 1250px;
         }
     }
 }
 
-.sectionseparator {
-    width: 100%;
-    height: 1px;
-    background-color: $grey2;
-}
+#emphasisflex {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    max-width: 800px;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
 
-.contentsectionflex {
-    padding: 8em 0;
+    .empline {
+        width: 27%;
+        max-width: 3px;
+        border-radius: 10em;
+        background-color: $thdorange;
+    }
 
-    .sectiontitle {
-        margin-bottom: 2em;
+    .empcontent {
+        margin: 0.5em 0 0 2em;
 
         p {
-            font-family: georgia;
-            font-size: 2em;
-        }
-    }
-
-    .sectionflex {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-
-        #mobilespace {
-            padding-top: 4em;
-        }
-
-        .flexsectioncontent {
-            width: 100%;
-            font-size: 1em;
-            line-height: 1.9em;
+            font-family: $opensans;
+            font-size: 1.6em;
+            font-weight: 300;
+            color: $thdorange;
             @media #{$tablet} {
-                width: 70%;
-            }
-            @media #{$mac13} {
-                font-size: 1.2em;
-                width: 70%;
-            }
-            @media #{$mac15} {
-                font-size: 1.2em;
-                width: 70%;
-            }
-            @media #{$monitor} {
-                font-size: 1.2em;
-                width: 70%;
-            }
-            @media #{$fourk} {
-                font-size: 1.2em;
-                width: 70%;
+                font-size: 2em;
             }
         }
     }
 }
 
-.solutionimageflex {
+#roleflex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    background-color: $grey1;
+    border-radius: 10px;
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 950px;
+    }
 
-    .solution_img {
+    .roleitem {
         width: 100%;
-        padding: 2em 0;
+        padding: 2em;
         @media #{$tablet} {
-            width: 70%;
-            margin: 0 auto;
+            width: 33%;
         }
         @media #{$mac13} {
-            width: 70%;
-            margin: 0 auto;
-        }
-        @media #{$mac15} {
             width: 33%;
-            padding: 1em;
         }
-        @media #{$monitor} {
-            width: 30%;
+
+        .roletitle {
+            font-size: 0.8em;
         }
-        @media #{$fourk} {
-            width: 30%;
+
+        .rolecontent {
+            font-size: 1.1em;
+        }
+    }
+}
+
+.findingsflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    width: 85%;
+    @media #{$tablet} {
+        max-width: 800px;
+        justify-content: space-around;
+    }
+    @media #{$mac13} {
+        max-width: 1050px;
+        justify-content: space-between;
+    }
+
+    .findingsbox {
+        background-color: $grey1;
+        padding: 1em;
+        border-radius: 10px;
+        margin-bottom: 2em;
+        @media #{$tablet} {
+            min-width: 650px;
+            min-height: 152px;
+            max-width: 650px;
+        }
+        @media #{$mac13} {
+            min-width: 0;
+            width: 42%;
+            margin: 2em;
+        }
+
+        .findingstitle {
+            p {
+                font-weight: 700;
+                font-size: 18px;
+                font-family: $opensans;
+            }
+        }
+
+        .findingscontent {
+            p {
+                font-size: 16px;
+                font-family: $opensans;
+            }
         }
     }
 }
 
 .centerimg {
-    width: 100%;
-    margin-bottom: 12em;
-
-    .appdesc {
-        width: 100%;
+    background-color: #A2D2E3;
+    @media #{$mac13} {
+        max-width: 650px;
         margin: 0 auto;
-        @media #{$tablet} {
-            width: 70%;
-        }
-        @media #{$mac13} {
-            width: 70%;
-        }
-        @media #{$mac15} {
-            width: 70%;
-        }
-        @media #{$monitor} {
-            width: 60%;
-        }
-        @media #{$fourk} {
-            width: 60%;
-        }
-
-        img {
-            width: 100%;
-        }
-    }
-
-    .appflow {
-        width: 100%;
-        margin: 0 auto;
+        background-color: transparent;
 
         img {
             width: 100%;
         }
     }
 }
+
+.appflow {
+    @media #{$mac13} {
+        max-width: 1250px;
+    }
+}
+
+#footer {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$mac13} {
+        max-width: 1250px;
+        margin: 0 auto;
+
+        #hello {
+            margin-left: 1em;
+        }
+
+        #contactflex {
+            margin-left: 3em;
+        }
+    }
+}
+
+#header {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    @media #{$mac13} {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+}
+
+#mobilemenuwrapper {
+    #menuName {
+        margin-left: 0.5em;
+        @media #{$tablet} {
+            margin-left: 3.25em;
+        }
+    }
+
+    ul {
+        margin-left: 0.5em;
+        @media #{$tablet} {
+            margin-left: 4.25em;
+        }
+    }
+}
+
+#statflex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 800px;
+    }
+
+    .statdiv {
+        width: 95%;
+        margin: 2em auto;
+        @media #{$tablet} {
+            width: 40%;
+        }
+    }
+}
+
+#OWline {
+    width: 100%;
+    height: 10px;
+    border-radius: 3px;
+    background-color: $grey1;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 1000px;
+    }
+}
+
+#owsectiontitle {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 1000px;
+    }
+
+    p {
+        font-size: 1.4em;
+        font-weight: 500;
+        font-family: $poppins;
+        letter-spacing: 2px;
+        @media #{$tablet} {
+            font-size: 1.8em;
+        }
+    }
+}
+
+.otherworksflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4em auto;
+    justify-content: space-between;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 1000px;
+    }
+
+    .owdiv {
+        margin: 2em auto;
+        width: 90%;
+        transition: 0.25s all ease-in-out;
+        @media #{$tablet} {
+            width: 40%;
+            margin: 0;
+        }
+
+        .otherprojimgdiv {
+            background-color: #A2E3B3;
+            padding: 2em 0;
+            border-radius: 8px;
+
+            .img {
+                width: 90%;
+                margin: 0 auto;
+                position: relative;
+                top: 30px;
+            }
+        }
+
+        .otherprojname {
+            padding: 1em 0;
+
+            p {
+                font-size: 1.2em;
+                font-weight: 600;
+                letter-spacing: 1px;
+                font-family: $poppins;
+                color: #25334A;
+            }
+        }
+    }
+
+    .owdiv:hover {
+        .otherprojimgdiv {
+            background-color: #6CD387;
+            transition: 0.25s all ease-in-out;
+            // cursor: pointer;
+        }
+    }
+}
+///////////////////////// COPYRIGHT START ///////////////////////
+
+#copyrightdiv {
+    p {
+        font-family: $opensans;
+        text-align: center;
+        font-size: 1em;
+        letter-spacing: 0.5px;
+        color: $grey4;
+    }
+}
+////////////////////////// COPYRIGHT END ///////////////////////

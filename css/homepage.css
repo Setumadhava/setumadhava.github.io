@@ -351,13 +351,14 @@
 @media (min-width: 1024px) {
   .thd_ncv_card:hover .projectimg {
     width: 72%;
-    top: 5%;
     transition: 0.25s all ease-in-out; } }
 
 .thd_pp_card:hover {
-  cursor: default; }
+  cursor: pointer; }
   @media (min-width: 1024px) {
     .thd_pp_card:hover .projectimg {
+      width: 40%;
+      top: -2%;
       transition: 0.25s all ease-in-out; } }
 
 #copyrightdiv p {
