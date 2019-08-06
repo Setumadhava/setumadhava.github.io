@@ -276,8 +276,8 @@ a {
 #socialflex {
     display: flex;
     flex-wrap: wrap;
-    margin: 6em auto 12em;
-    justify-content: space-between;
+    margin: 6em auto 8em;
+    // justify-content: space-between;
     @media #{$tablet} {
         max-width: 600px;
     }
@@ -289,7 +289,7 @@ a {
         position: relative;
         margin: 1em auto;
         @media #{$tablet} {
-            margin: 0;
+            margin: 0 4em 0 0;
         }
 
         .button {
