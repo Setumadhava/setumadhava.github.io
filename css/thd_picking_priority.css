@@ -493,14 +493,16 @@ p {
         width: 40%;
         margin: 0; } }
     .otherworksflex .owdiv .otherprojimgdiv {
-      background-color: #A2E3B3;
       padding: 2em 0;
-      border-radius: 8px; }
-      .otherworksflex .owdiv .otherprojimgdiv .img {
-        width: 90%;
-        margin: 0 auto;
-        position: relative;
-        top: 30px; }
+      border-radius: 8px;
+      min-height: 352px;
+      max-height: 352px; }
+      @media (min-width: 768px) {
+        .otherworksflex .owdiv .otherprojimgdiv {
+          min-width: 300px; } }
+      @media (min-width: 1024px) {
+        .otherworksflex .owdiv .otherprojimgdiv {
+          min-width: 400px; } }
     .otherworksflex .owdiv .otherprojname {
       padding: 1em 0; }
       .otherworksflex .owdiv .otherprojname p {
@@ -509,8 +511,49 @@ p {
         letter-spacing: 1px;
         font-family: "Poppins", sans-serif;
         color: #25334A; }
-  .otherworksflex .owdiv:hover .otherprojimgdiv {
-    background-color: #6CD387;
+  .otherworksflex .comingsoon {
+    position: relative;
+    top: -30px; }
+    .otherworksflex .comingsoon p {
+      font-family: "Open Sans", sans-serif;
+      color: #7E7E7E;
+      font-style: italic;
+      letter-spacing: 1px;
+      font-weight: 500;
+      font-size: 1em; }
+  .otherworksflex .thd_ncv_outer {
+    background-color: #A2E3B3;
+    position: relative;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .thd_ncv_inner {
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    transform: translateX(5%); }
+    @media (min-width: 768px) {
+      .otherworksflex .thd_ncv_inner {
+        width: 90%;
+        bottom: 30px; } }
+    @media (min-width: 768px) {
+      .otherworksflex .thd_ncv_inner {
+        bottom: 0; } }
+    .otherworksflex .thd_ncv_inner .img {
+      width: 100%; }
+  .otherworksflex .thd_ss_outer {
+    background-color: #DBDCFF;
+    position: relative;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .thd_ss_inner {
+    position: absolute;
+    bottom: 70px;
+    width: 90%;
+    transform: translateX(6%); }
+    .otherworksflex .thd_ss_inner .img {
+      width: 100%; }
+  .otherworksflex .owdiv:hover .thd_ncv_outer {
+    background-color: #78CB8D;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .owdiv:hover .thd_ss_outer {
     transition: 0.25s all ease-in-out; }
 
 #copyrightdiv p {

@@ -465,11 +465,6 @@ p {
       @media (min-width: 1024px) {
         .otherworksflex .owdiv .otherprojimgdiv {
           min-width: 400px; } }
-      .otherworksflex .owdiv .otherprojimgdiv .img {
-        width: 90%;
-        margin: 0 auto;
-        position: relative;
-        top: 30px; }
     .otherworksflex .owdiv .otherprojname {
       padding: 1em 0; }
       .otherworksflex .owdiv .otherprojname p {
@@ -510,7 +505,9 @@ p {
     transition: 0.25s all ease-in-out; }
   .otherworksflex .thd_ss_inner {
     position: absolute;
-    transform: translateY(20%); }
+    bottom: 70px;
+    width: 90%;
+    transform: translateX(6%); }
     .otherworksflex .thd_ss_inner .img {
       width: 100%; }
   .otherworksflex .owdiv:hover .thd_pp_outer {

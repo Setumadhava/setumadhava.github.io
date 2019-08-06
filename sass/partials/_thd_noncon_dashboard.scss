@@ -593,13 +593,6 @@ p {
             @media #{$mac13} {
                 min-width: 400px;
             }
-
-            .img {
-                width: 90%;
-                margin: 0 auto;
-                position: relative;
-                top: 30px;
-            }
         }
 
         .otherprojname {
@@ -660,7 +653,9 @@ p {
 
     .thd_ss_inner {
         position: absolute;
-        transform: translateY(20%);
+        bottom: 70px;
+        width: 90%;
+        transform: translateX(06%);
 
         .img {
             width: 100%;
