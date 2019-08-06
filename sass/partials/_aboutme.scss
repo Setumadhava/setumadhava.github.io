@@ -277,7 +277,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin: 6em auto 8em;
-    // justify-content: space-between;
+    justify-content: space-between;
     @media #{$tablet} {
         max-width: 600px;
     }
@@ -288,9 +288,6 @@ a {
     .buttondiv {
         position: relative;
         margin: 1em auto;
-        @media #{$tablet} {
-            margin: 0 4em 0 0;
-        }
 
         .button {
             width: 280px;

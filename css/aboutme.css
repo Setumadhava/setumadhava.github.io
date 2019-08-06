@@ -210,7 +210,8 @@ a {
 #socialflex {
   display: flex;
   flex-wrap: wrap;
-  margin: 6em auto 8em; }
+  margin: 6em auto 8em;
+  justify-content: space-between; }
   @media (min-width: 768px) {
     #socialflex {
       max-width: 600px; } }
@@ -220,9 +221,6 @@ a {
   #socialflex .buttondiv {
     position: relative;
     margin: 1em auto; }
-    @media (min-width: 768px) {
-      #socialflex .buttondiv {
-        margin: 0 4em 0 0; } }
     #socialflex .buttondiv .button {
       width: 280px;
       height: 50px;
