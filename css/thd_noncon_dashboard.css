@@ -480,13 +480,14 @@ p {
         color: #25334A; }
   .otherworksflex .comingsoon {
     position: relative;
-    top: -30px;
-    font-family: "Open Sans", sans-serif;
-    color: #7E7E7E;
-    font-style: italic;
-    letter-spacing: 1px;
-    font-weight: 500;
-    font-size: 1em; }
+    top: -30px; }
+    .otherworksflex .comingsoon p {
+      font-family: "Open Sans", sans-serif;
+      color: #7E7E7E;
+      font-style: italic;
+      letter-spacing: 1px;
+      font-weight: 500;
+      font-size: 1em; }
   .otherworksflex .thd_pp_outer {
     background-color: #C9E9F4;
     position: relative;

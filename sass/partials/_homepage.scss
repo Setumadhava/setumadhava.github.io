@@ -388,12 +388,14 @@
         }
 
         .comingsoon {
-            font-family: $opensans;
-            color: $grey4;
-            font-style: italic;
-            letter-spacing: 1px;
-            font-weight: 500;
-            font-size: 1em;
+            p {
+                font-family: $opensans;
+                color: $grey4;
+                font-style: italic;
+                letter-spacing: 1px;
+                font-weight: 500;
+                font-size: 1em;
+            }
         }
     }
 }
