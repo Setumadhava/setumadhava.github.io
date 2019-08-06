@@ -9,7 +9,7 @@ var pp = "http://setumadhava.com/thd_picking_priority.html";
 //Include the variable in the pahesList list and create a password for the page. They must be in the same position in their respective lists.
 
 var pagesList = [index, ncv, pp];
-var passwordList = ['index', 'ZimaBlue', 'FaluRed'];
+var passwordList = ['index', 'ZimaBlue', 'RationalRed'];
 
 document.getElementById("inputBox").onclick = function() {
     document.getElementById("worngpwdiv").style.visibility = "hidden";
