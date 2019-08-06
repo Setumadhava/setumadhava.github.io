@@ -471,8 +471,8 @@
 .thd_ncv_card:hover {
     .projectimg {
         @media #{$mac13} {
-            width: 75%;
-            top: 7%;
+            width: 72%;
+            top: 5%;
             transition: 0.25s all ease-in-out;
         }
     }
@@ -489,13 +489,15 @@
         }
     }
 }
-////////////////////////// COPYRIGHT START ///////////////////////
+//////////////////////// COPYRIGHT START ///////////////////////
 
 #copyrightdiv {
-    font-family: $opensans;
-    text-align: center;
-    font-size: 1em;
-    letter-spacing: 0.5px;
-    color: $grey4;
+    p {
+        font-family: $opensans;
+        text-align: center;
+        font-size: 1em;
+        letter-spacing: 0.5px;
+        color: $grey4;
+    }
 }
-////////////////////////// COPYRIGHT END ///////////////////////
+////////////////////////// COPYRIGHT E

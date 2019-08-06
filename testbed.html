@@ -22,43 +22,50 @@
 </script>
 
 <body>
-
-    <div class="wrapper">
-        <div id="mobilemenuwrapper">
-            <div id="menunameflex">
-                <div id="menuName">Setu Kathawate</div>
-                <img id="menuxicon" src="css/img/homepage2/menuxicon.svg" alt="">
+    <!-- <div class="fixedLeftColumn">
+        <div class="leftbtn">
+            <p>Random</p>
+        </div>
+    </div> -->
+    <div id="wrapper">
+        <div id="btndiv">
+            <div id="leftbtn">
+                <p>LEFT</p>
             </div>
-
-            <ul>
-                <li>BLOG</li>
-                <li>ABOUT</li>
-                <li>RESUME</li>
-            </ul>
         </div>
-        <div id="menuicon">
-            <img src="css/img/homepage2/menuicon.svg" alt="">
-        </div>
-        <script>
-            document.getElementById("menuicon").onclick = function() {
-                document.getElementById("menuicon").style.opacity = 0;
-                document.getElementById("menuwrapper").style.opacity = 1;
-                document.getElementById("menuwrapper").style.zIndex = 2;
-            }
-            document.getElementById('menuxicon').onclick = function() {
-                document.getElementById("menuwrapper").style.opacity = 0;
-                document.getElementById("menuwrapper").style.zIndex = -2;
-                setTimeout(function() {
-                    document.getElementById("menuicon").style.opacity = 1;
-                }, 150);
 
-            }
-        </script>
+        <div id="flexbox">
+            <div id="flexdivA">
+
+            </div>
+            <div id="flexdivB">
+
+            </div>
+            <div id="flexdivC">
+
+            </div>
+        </div>
+
+        <div id="btndiv">
+            <div id="rightbtn">
+                <p>RIGHT</p>
+            </div>
+        </div>
 
     </div>
 
 
 </body>
+
+<script>
+    var dec = 2;
+    document.getElementById("leftbtn").onclick = function() {
+
+        for (i = 1, i > 0, i--) {
+
+        }
+    }
+</script>
 
 </html>
 

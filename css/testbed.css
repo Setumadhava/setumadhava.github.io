@@ -1,29 +1,33 @@
-#menuicon {
-  font-size: 1.1em;
-  position: absolute;
-  right: 0;
-  z-index: 1;
-  top: 0;
-  padding: 1.6em 1em 0 0; }
-
-#mobilemenuwrapper {
-  opacity: 0;
-  transition: 0.3s all ease-in-out;
-  width: 100%;
-  background-color: white;
-  padding: 0 1.5em 0 1em;
-  position: absolute; }
-  #mobilemenuwrapper #menunameflex {
+#wrapper {
+  margin-top: 10em;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 20em auto; }
+  #wrapper #btndiv {
+    width: 150px;
+    height: 30px;
+    background-color: #00377D; }
+    #wrapper #btndiv p {
+      text-align: center;
+      color: white; }
+  #wrapper #flexbox {
+    width: 75%;
     display: flex;
-    justify-content: space-between;
-    padding: 1.5em 0; }
-    #mobilemenuwrapper #menunameflex #menuName {
-      font-size: 1.5em;
-      font-family: georgia;
-      padding-left: 0.3em; }
-  #mobilemenuwrapper li {
-    list-style: none;
-    padding: 1.2em 0; }
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    #wrapper #flexbox #flexdivA {
+      width: 100px;
+      height: 100px;
+      background-color: #D5D5D5; }
+    #wrapper #flexbox #flexdivB {
+      width: 100px;
+      height: 100px;
+      background-color: green; }
+    #wrapper #flexbox #flexdivC {
+      width: 100px;
+      height: 100px;
+      background-color: #D5D5D5; }
 
 .container,
 body,
