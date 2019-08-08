@@ -377,6 +377,7 @@ p {
   border-radius: 8px; }
   @media (min-width: 768px) {
     .centerimg {
+      background-color: transparent;
       width: 75%; } }
   @media (min-width: 1024px) {
     .centerimg {
@@ -386,12 +387,14 @@ p {
       .centerimg img {
         width: 100%; } }
 
-@media (min-width: 768px) {
-  .portraitimg {
-    max-width: 600px; } }
-@media (min-width: 1024px) {
-  .portraitimg {
-    max-width: 650px; } }
+.portraitimg {
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .portraitimg {
+      max-width: 600px; } }
+  @media (min-width: 1024px) {
+    .portraitimg {
+      max-width: 650px; } }
 
 @media (min-width: 768px) {
   .appflow {
@@ -530,21 +533,21 @@ p {
       font-weight: 500;
       font-size: 1em; }
   .otherworksflex .thd_ncv_outer {
+    border-radius: 8px;
     background-color: #A2E3B3;
     position: relative;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .thd_ncv_inner {
-    position: absolute;
-    bottom: 10px;
     width: 90%;
-    transform: translateX(5%); }
+    margin: 0 auto;
+    top: 30px;
+    position: relative; }
     @media (min-width: 768px) {
       .otherworksflex .thd_ncv_inner {
-        width: 90%;
-        bottom: 30px; } }
-    @media (min-width: 768px) {
+        top: 50px; } }
+    @media (min-width: 1024px) {
       .otherworksflex .thd_ncv_inner {
-        bottom: 0; } }
+        width: 85%; } }
     .otherworksflex .thd_ncv_inner .img {
       width: 100%; }
   .otherworksflex .thd_ss_outer {
@@ -564,6 +567,7 @@ p {
     background-color: #78CB8D;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .thd_ss_outer {
+    background-color: #A2A5FD;
     transition: 0.25s all ease-in-out; }
 
 #copyrightdiv p {

@@ -481,6 +481,7 @@ p {
     margin: 0 auto;
     border-radius: 8px;
     @media #{$tablet} {
+        background-color: transparent;
         width: 75%;
     }
     @media #{$mac13} {
@@ -495,6 +496,7 @@ p {
 }
 
 .portraitimg {
+    margin: 0 auto;
     @media #{$tablet} {
         max-width: 600px;
     }
@@ -674,22 +676,22 @@ p {
     ////////////////////// PROJECT SPECIFIC START ////////////////////////////
     ///// NON CON VIZ /////
     .thd_ncv_outer {
+        border-radius: 8px;
         background-color: #A2E3B3;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
 
     .thd_ncv_inner {
-        position: absolute;
-        bottom: 10px;
         width: 90%;
-        transform: translateX(05%);
+        margin: 0 auto;
+        top: 30px;
+        position: relative;
         @media #{$tablet} {
-            width: 90%;
-            bottom: 30px;
+            top: 50px;
         }
-        @media #{$tablet} {
-            bottom: 0;
+        @media #{$mac13} {
+            width: 85%;
         }
 
         .img {
@@ -723,7 +725,7 @@ p {
         }
 
         .thd_ss_outer {
-            // background-color: #A2A5FD;
+            background-color: #A2A5FD;
             transition: 0.25s all ease-in-out;
         }
     }

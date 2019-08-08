@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2389.766" height="718.933" viewBox="0 0 2389.766 718.933">
+  <g id="Group_1298" data-name="Group 1298" transform="translate(9754.438 -13315.627)">
+    <path id="Rectangle_230" data-name="Rectangle 230" d="M30,0H2359.765a30,30,0,0,1,30,30V235.239a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V30A30,30,0,0,1,30,0Z" transform="translate(-9754.438 13315.627)" fill="#314380"/>
+    <g id="Rectangle_231" data-name="Rectangle 231" transform="translate(-9754.438 13556.152)" fill="rgba(255,255,255,0.56)" stroke="#314380" stroke-width="4">
+      <rect width="2389.765" height="235.239" stroke="none"/>
+      <rect x="2" y="2" width="2385.765" height="231.239" fill="none"/>
+    </g>
+    <g id="Rectangle_232" data-name="Rectangle 232" transform="translate(-9754.438 13799.32)" fill="rgba(255,255,255,0.56)" stroke="#314380" stroke-width="4">
+      <path d="M0,0H2389.765a0,0,0,0,1,0,0V220.239a15,15,0,0,1-15,15H15a15,15,0,0,1-15-15V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M4,2H2385.765a2,2,0,0,1,2,2V220.239a13,13,0,0,1-13,13H15a13,13,0,0,1-13-13V4A2,2,0,0,1,4,2Z" fill="none"/>
+    </g>
+    <g id="Group_1292" data-name="Group 1292" transform="translate(-9656.643 13400.208)">
+      <text id="Function" transform="translate(0 64)" fill="#fff" font-size="60" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Function</tspan></text>
+      <text id="Target_UPH" data-name="Target UPH" transform="translate(650.21 64)" fill="#fff" font-size="60" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Target UPH</tspan></text>
+      <text id="Actual_UPH" data-name="Actual UPH" transform="translate(1255.488 64)" fill="#fff" font-size="60" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Actual UPH</tspan></text>
+      <text id="_Increase" data-name="% Increase" transform="translate(1863.408 64)" fill="#fff" font-size="60" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">% Increase</tspan></text>
+      <text id="Receive_Sort_Small_Items" data-name="Receive &amp; Sort
+Small Items" transform="translate(0 250.019)" fill="#2b2525" font-size="61" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Receive &amp; Sort</tspan><tspan x="0" y="86">Small Items</tspan></text>
+      <text id="_90_UPH" data-name="90 UPH" transform="translate(650.21 293.952)" fill="#2b2525" font-size="60" font-family="OpenSans, Open Sans"><tspan x="0" y="0">90 UPH</tspan></text>
+      <text id="_90_UPH-2" data-name="90 UPH" transform="translate(650.21 537.121)" fill="#2b2525" font-size="60" font-family="OpenSans, Open Sans"><tspan x="0" y="0">90 UPH</tspan></text>
+      <text id="_360_UPH" data-name="360 UPH" transform="translate(1255.488 293.952)" fill="#2b2525" font-size="60" font-family="OpenSans, Open Sans"><tspan x="0" y="0">360 UPH</tspan></text>
+      <text id="_110_UPH" data-name="110 UPH" transform="translate(1255.488 537.121)" fill="#2b2525" font-size="60" font-family="OpenSans, Open Sans"><tspan x="0" y="0">110 UPH</tspan></text>
+      <text id="_300_" data-name="300%" transform="translate(1863.408 306.451)" fill="#2b2525" font-size="89" font-family="OpenSans, Open Sans"><tspan x="0" y="0">300%</tspan></text>
+      <text id="_22_" data-name="22%" transform="translate(1863.408 549.619)" fill="#2b2525" font-size="89" font-family="OpenSans, Open Sans"><tspan x="0" y="0">22%</tspan></text>
+      <text id="Receive_Sort_Bulk_Items" data-name="Receive &amp; Sort
+Bulk Items" transform="translate(0 495.83)" fill="#2b2525" font-size="61" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Receive &amp; Sort</tspan><tspan x="0" y="86">Bulk Items</tspan></text>
+    </g>
+  </g>
+</svg>

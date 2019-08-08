@@ -205,7 +205,7 @@ p {
 
 #herosection {
     // background-color: #A2E3B3;
-    background-image: url("img/thd_ncv/hero-bg-green.svg");
+    background-image: url("img/thd_ss/hero-bg-purple.svg");
     display: block;
     background-size: cover;
     background-position: center center;
@@ -452,11 +452,41 @@ p {
 }
 
 .centerimg {
-    // background-color: #CBE4D2;
+    background-color: #DBDCFF;
+    @media #{$tablet} {
+        background-color: transparent;
+    }
     @media #{$mac13} {
         max-width: 1250px;
         margin: 0 auto;
         background-color: transparent;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.portraitimg {
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 850px;
+    }
+}
+
+.one15 {
+    background-color: transparent;
+    width: 90%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        width: 50%;
+    }
+    @media #{$mac13} {
+        width: 35%;
+        max-width: 500px;
     }
 }
 
@@ -634,8 +664,6 @@ p {
         margin: 0 auto;
         @media #{$tablet} {
             bottom: 30px;
-        }
-        @media #{$tablet} {
             width: 60%;
         }
         @media #{$mac13} {
@@ -646,19 +674,24 @@ p {
             width: 100%;
         }
     }
-    ///// SIMPLE SORT ////
-    .thd_ss_outer {
-        background-color: #DBDCFF;
+    ///// NON CON VIZ /////
+    .thd_ncv_outer {
+        border-radius: 8px;
+        background-color: #A2E3B3;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
 
-    .thd_ss_inner {
-        width: 85%;
+    .thd_ncv_inner {
+        width: 90%;
         margin: 0 auto;
+        top: 30px;
         position: relative;
         @media #{$tablet} {
             top: 50px;
+        }
+        @media #{$mac13} {
+            width: 85%;
         }
 
         .img {
@@ -672,8 +705,8 @@ p {
             transition: 0.25s all ease-in-out;
         }
 
-        .thd_ss_outer {
-            // background-color: #A2A5FD;
+        .thd_ncv_outer {
+            background-color: #78CB8D;
             transition: 0.25s all ease-in-out;
         }
     }

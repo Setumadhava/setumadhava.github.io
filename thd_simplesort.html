@@ -17,9 +17,9 @@
 
 
 
-<script>
+<!-- <script>
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-</script>
+</script> -->
 
 <body>
 
@@ -83,7 +83,7 @@
         <div id="herosection">
             <div id="heroimg">
                 <div class="imgdiv">
-                    <img src="css/img/thd_ncv/Img-Hero.png">
+                    <img src="css/img/thd_ss/ss_tv_noblur.png">
                 </div>
 
             </div>
@@ -114,144 +114,134 @@
                 <p class="rolecontent">Jan - Feb 2019</p>
             </div>
         </div>
-        <div class="threeemboth"></div>
+
         <!-- ROLE END-->
 
         <!-- PROBLEM START -->
 
         <div class="sectiontitle">
+            <div class="threeemboth"></div>
             <p>The Problem</p>
         </div>
 
         <div class="contentsection">
-            <p>Customer order picking within the DFCs were managed by Outbound Supervisors using a refreshable spreadsheet. The spreadsheet tools were not built with any security and posed security risks for the organization. <br><br>
+            <p> Home Depot's fulfillment centers contains millions of items that customers can shop for online. These items are stacked in shelves within million+ sq.ft facilities. These shelves need to be replenished regularly so that customer
+                orders are shipped on time. However, due to slow trailer unloading process, the shelves were not being replenished on time, causing delays in customer shipment.<br><br>
 
-                Along with this, there was no consistency in the process followed by supervisors across different buildings or even within the same building and the tools did not provide the users visibility to critical information to make
-                effective decisions.
+                To overcome this issue, the Operations Engineering team decided to implement a mechanized unloading process called Simple Sort, which would increase the speed of the unloading process. My team was tasked with designing and building
+                software that would assist the floor associates while they worked on the Simple Sort system.
+
             </p>
         </div>
-        <div class="twoemboth"></div>
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Spreadsheet.png">
-        </div>
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>The users were using a Spreadsheet-based tool for their job</p>
-        </div>
 
-        <div class="threeemboth"></div>
+
+
 
         <!-- PROBLEM END-->
 
-        <!-- HMW START -->
-
+        <!-- HMW START-->
+        <div class="twoemboth"></div>
         <div id="emphasisflex">
             <div class="empline"></div>
             <div class="empcontent">
-                <p>How might we create a secure, centralized solution that allows the Supervisors to manage and track customer orders efficiently?</p>
+                <p>How might we enable the Inbound Receiving Associates to efficiently sort the items being unloaded from a trailer and the Inbound Leaders to configure and manage the Simple Sort system?</p>
             </div>
         </div>
-        <div class="threeemboth"></div>
-        <!-- HMW END -->
+        <div class="twoemboth"></div>
+
+        <!-- HMWEND -->
+
 
 
 
         <!-- THE GOAL START-->
 
         <div class="sectiontitle">
-            <p>The Goal</p>
+            <div class="threeemboth"></div>
+            <p>Defining Success</p>
         </div>
 
         <div class="contentsection">
-            <p>The goal was to replace the existing spreadsheet-based tool with a cloud-based application that allowed users to carry out the same tasks with equal or better efficiency. No new features or process improvements was within the
-                purview of the MVP.
+            <p>The goal of the new process was:<br><br>
+
+                <b>&#8680;</b>&nbsp; Reduce the trailer unloading time by half.<br>
+                <b>&#8680;</b> &nbsp;Unload trailers in the same shift.<br>
+                <b>&#8680;</b> &nbsp;Eliminate sorting bottlenecks.<br>
+
+
             </p>
+
         </div>
-        <div class="threeemboth"></div>
+
         <!-- THE GOAL END -->
 
         <!-- RESEARCH START-->
 
         <div class="sectiontitle">
+            <div class="threeemboth"></div>
             <p>Research</p>
         </div>
 
+        <!-- <div id="researchflex">
+            <div id="researchmethodssection">
+                <div id="researchmethoddiv">
+                    <div class="subtitle">
+                        <p>Methods Used:</p>
+                    </div>
+                    <div class="contentsection">
+                        <p>Contextual Inquiry</p>
+                    </div>
+                    <div class="contentsection">
+                        <p>Interviews</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
         <div class="contentsection">
-            <p>Due to security concerns associated with the spreadsheet tool, we had to design and deliver a replacement app within 3 months which gave me a short window to finish research & design. To make the best use of the limited time, I
-                visited a Home Depot Fulfillment Center and did a Contextual Inquiry study to familiarize myself with the outbound process, the people doing the job and the problem they face.<br><br>
-
-                Once I was familiar with the problem, users’ journey and the business goals, I facilitated a week-long design sprint at another Fulfillment Center. This sprint involved a developer, members from the business team and 2 users from
-                different fulfillment centers. <br><br>
-
-                During the sprint, I also conducted few Semi-Structured Interviews with the users to validate my findings from the Contextual Inquiry and understand the user-behaviors and problems in further detail.
+            <p>To understand what was causing the delays and the impact of the problem, we visited a fulfillment center to learn more about the process.
             </p>
         </div>
-        <div class="threeemboth"></div>
-        <!--  RESEARCH END -->
 
 
-
-
-        <!-- JOURNEY MAP START -->
-
-        <div class="sectiontitle">
-            <p>Journey Maps</p>
+        <div class="twoemboth"></div>
+        <div class="subtitle">
+            <p>Methods Used</p>
         </div>
-
         <div class="contentsection">
-            <p>The Contextual Inquiry helped us understand the mental-model of the Supervisors and the various touch-points that exist in their job of managing customer orders.
+            <p>Contextual Inquiry | Interviews
             </p>
         </div>
         <div class="twoemboth"></div>
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-UJM_WAM.png">
-        </div>
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>The Journey Map for Work Assignment and Monitoring.</p>
-        </div>
-        <div class="twoemboth"></div>
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-UJM_Research.png">
-        </div>
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>The Journey Map for Researching customer orders with issues.</p>
+        <div class="subtitle">
+            <p>Findings</p>
         </div>
 
-        <div class="threeemboth"></div>
-
-        <!-- JOURNEY MAP  END-->
-
-
+        <div class="contentsection">
+            <p>The main takeaways from the research were:
+            </p>
+        </div>
 
         <!-- FINDINGS START-->
 
-        <div class="sectiontitle">
-            <p>Insights</p>
-        </div>
 
-        <div class="contentsection">
-            <p>Some of the key findings on the current tool and process were:</p>
-        </div>
         <div class="oneemboth"></div>
         <div class="findingsflex">
 
             <div class="findingsbox">
                 <div class="findingstitle">
-                    <p>Stressful</p>
+                    <p>Manual Process</p>
                 </div>
                 <div class="findingscontent">
-                    <p>The lack of automation required a lot of repeated, redundant interactions with the tool throughout the day resulting in stress.</p>
+                    <p>The inbound Receiving associates were unloading trailers manually which was a time-consuming effort. As a result of this, trailers were often not unloaded in a single shift causing delays. </p>
                 </div>
             </div>
 
             <div class="findingsbox">
                 <div class="findingstitle">
-                    <p>Less time spent with people</p>
+                    <p>Sorting was tme-consuming</p>
                 </div>
                 <div class="findingscontent">
-                    <p>The supervisors wished they spent less time with the tool and more time with their associates building relationships and helping them be successful.</p>
+                    <p>Sorting was another time-consuming effort since the receiving associates had to manually check every item/pallet and decide where it should go causing sorting bottlenecks.</p>
                 </div>
             </div>
         </div>
@@ -262,78 +252,36 @@
 
             <div class="findingsbox">
                 <div class="findingstitle">
-                    <p>Slow and reactive</p>
+                    <p>Sorting Bottlenecks</p>
                 </div>
                 <div class="findingscontent">
-                    <p>The tool did not provide users visibility to critical information when they needed. The users had to preemptively seek information.</p>
+                    <p>As a result of sorting bottlenecks, the items were not available for the picking associates to pick despite being available within the building for customers to shop.</p>
                 </div>
             </div>
 
             <div class="findingsbox">
                 <div class="findingstitle">
-                    <p>Context switching is unproductive</p>
+                    <p>Troubleshooting slows unloading</p>
                 </div>
                 <div class="findingscontent">
-                    <p>The users used <b>3 different tools </b>simultaneously in their order-management process resulting in constant context-switching.</p>
+                    <p>When items coming out of the trailers had issues, it would slow down the unloading process causing further delays. </p>
                 </div>
             </div>
 
         </div>
 
-        <!-- USER QUOTE START-->
-        <div class="twoemboth"></div>
-        <div id="emphasisflex">
-            <div class="empline"></div>
-            <div class="empcontent">
-                <p>“Hitting the Refresh button 6000 times a day is a pain in the a**."</p>
-            </div>
-        </div>
-        <div class="twoemboth"></div>
 
-        <!-- USER QUOTE START-->
 
-        <!-- USER QUOTE START-->
-        <div class="twoemboth"></div>
-        <div id="emphasisflex">
-            <div class="empline"></div>
-            <div class="empcontent">
-                <p>"It's stressful as we get closer to the cut times because sometimes customer orders are not loaded and I have to do a lot of research to find and fix issues."</p>
-            </div>
-        </div>
-        <div class="twoemboth"></div>
-
-        <!-- USER QUOTE START-->
-
-        <div class="threeemboth"></div>
         <!--  FINDINGS END -->
 
-        <!-- PERSONA START -->
+        <!--  RESEARCH END -->
 
-        <div class="sectiontitle">
-            <p>Defining The User</p>
-        </div>
-
-        <div class="contentsection">
-            <p>From the research learnings, I created a user-persona to consolidate the users’ needs, goals, process, pain-points and behaviors.
-            </p>
-        </div>
-        <div class="twoemboth"></div>
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Persona.png">
-        </div>
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>Persona of an Outbound Supervisor within a fulfillment center.</p>
-        </div>
-
-        <div class="threeemboth"></div>
-
-        <!-- PERSONA END-->
 
 
         <!-- IDEATION START -->
 
         <div class="sectiontitle">
+            <div class="threeemboth"></div>
             <p>Ideation</p>
         </div>
 
@@ -341,42 +289,106 @@
             <p>Design Studio</p>
         </div>
 
+
         <div class="contentsection">
-            <p>I facilitated a design studio with the team to explore ideas to solve for the prioritized goals and user needs. During the process I tried to keep the conversations focused on the MVP and created a parking lot with a list of
-                Nice-to-Haves.
+            <p>With a good understanding of the problem and the users' needs, we started thinking about ways to address those needs by whiteboarding the user-journey and flow within the app. The design studio involved the developers, PM,
+                business owner while I was the facilitator.
             </p>
         </div>
         <div class="twoemboth"></div>
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Whiteboard.png">
+
+        <!-- USER QUOTE START-->
+        <div class="twoemboth"></div>
+        <div id="emphasisflex">
+            <div class="empline"></div>
+            <div class="empcontent">
+                <p>How might we help the associates sort the items as they're being unloaded from the trailers?</p>
+            </div>
+        </div>
+        <div class="twoemboth"></div>
+
+        <!-- USER QUOTE END>
+
+        <!-- USER QUOTE START-->
+        <div class="twoemboth"></div>
+        <div id="emphasisflex">
+            <div class="empline"></div>
+            <div class="empcontent">
+                <p>How might we allow the Inbound Leaders configure and manage the Simple Sort system?</p>
+            </div>
+        </div>
+        <div class="twoemboth"></div>
+
+        <!-- USER QUOTE END -->
+
+        <!-- IMAGE GROUP START-->
+
+        <div class="threeemboth"></div>
+        <div class="centerimg portraitimg">
+            <img src="css/img/thd_ss/user_flow_sketch.png">
         </div>
         <div class="oneemtop"></div>
         <div class="imgdesc">
-            <p>The team explored a breadth of ideas to address the identified user needs & goals.</p>
+            <p>Defining the user flow for the new unloading process.</p>
         </div>
-
         <div class="threeemboth"></div>
 
+        <!-- IMAGE GROUP END-->
+
+        <!-- IMAGE GROUP START-->
+
+        <div class="threeemboth"></div>
+        <div class="centerimg portraitimg">
+            <img src="css/img/thd_ss/user_flow_sketch_2.png">
+        </div>
+        <div class="oneemtop"></div>
+        <div class="imgdesc">
+            <p>Brainstorming the user journey through the app.</p>
+        </div>
+        <div class="threeemboth"></div>
+
+        <!-- IMAGE GROUP END-->
+
+        <!-- IMAGE GROUP START-->
+
+        <div class="threeemboth"></div>
+        <div class="centerimg portraitimg">
+            <img src="css/img/thd_ss/config_sketch.png">
+        </div>
+        <div class="oneemtop"></div>
+        <div class="imgdesc">
+            <p>Sketching the Config app.</p>
+        </div>
+        <div class="threeemboth"></div>
+
+        <!-- IMAGE GROUP END-->
+
+
+
         <div class="subtitle">
-            <p>Wireframes</p>
+            <p>Inital Designs</p>
         </div>
 
         <div class="contentsection">
-            <p>The Design Studio gave me a skeletal idea of the solution and I created digital wireframes too address the top user needs and goals.</p>
+            <p>From the brainstorming, we hypothesized that the Receiving associates would need a wall-mounted display that tells them how to sort the items as their get unloaded and a desktop dashboard for the Inbound Leaders to configure and
+                manage the Simple Sort system.</p>
         </div>
 
+        <!-- IMAGE GROUP START-->
 
-
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Wireframe.png">
+        <div class="threeemboth"></div>
+        <div class="centerimg ">
+            <img src="css/img/thd_ss/initial_design.png">
         </div>
         <div class="oneemtop"></div>
         <div class="imgdesc">
-            <p>The ideas explored, sketched, and prioritized during the Design Studio informed the first digital wireframe.</p>
+            <p>Screen of the first version of the prototype that was used for the usability studies.</p>
         </div>
-
-
         <div class="threeemboth"></div>
+
+        <!-- IMAGE GROUP END-->
+
+
 
         <!-- IDEATION END-->
 
@@ -387,20 +399,44 @@
         </div>
 
         <div class="contentsection">
-            <p>We conducted a series of usability studies over the next couple of weeks to test our solution hypothesis and iterated based on the learnings. </p>
-        </div>
-        <div class="twoemboth"></div>
+            <p>Once we had our solution hypothesis, we put the prototypes in front of the users to validate our assumptions and hypothesis. <br><br>
 
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Usability.png">
+                Since the mechanized portion of the Simple Sort was not live, we had to do a wizard-of-oz usability testing. My team and I pretended to be the simple sort system and as the associates scanned the dummy boxes, we were moving the boxes
+                and changing information on the screen. It was challenging to keep the biases to a minimum and get the most accurate feedback from the associates, but also fun.
+            </p>
         </div>
 
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>Usability studies helped us validate our solution hypothesis and identify areas of concern or delight.</p>
-        </div>
+        <!-- IMAGE GROUP START-->
 
         <div class="threeemboth"></div>
+        <div class="centerimg portraitimg">
+            <img src="css/img/thd_ss/usability_synth.png">
+        </div>
+        <div class="oneemtop"></div>
+        <div class="imgdesc">
+            <p>Synthesizing the usability data.</p>
+        </div>
+        <div class="threeemboth"></div>
+
+        <!-- IMAGE GROUP END-->
+
+
+        <!-- IMAGE GROUP START-->
+
+        <div class="threeemboth"></div>
+        <div class="centerimg">
+            <img src="css/img/thd_ss/usability_findings.png">
+        </div>
+        <div class="oneemtop"></div>
+        <div class="imgdesc">
+            <p>Findings from the usability study.</p>
+        </div>
+        <div class="threeemboth"></div>
+
+        <!-- IMAGE GROUP END-->
+
+
+
         <!-- USABILITY END-->
 
 
@@ -408,141 +444,134 @@
         <!-- FINAL DESIGN START -->
 
         <div class="sectiontitle">
+            <div class="threeemboth"></div>
             <p>Final Design</p>
         </div>
 
         <div class="contentsection">
-            <p>From the study we learned that users cared more about specific research and not open-ended research as we initially believed. Based on this, I iterated on the designs to match their mental model more closely. The outcome was that
-                users were able to take actions more easily and there was less ambiguity in what they could interact with and what they couldn’t. </p>
+            <p>The learnings from the usability studies helped inform the final version of the apps. This was also the first time an app of this scale was designed for large screens in the Fulfillment Centers.</p>
         </div>
 
-        <div class="twoemboth"></div>
-
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Landing.png">
-        </div>
-
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>A cleaner looking landing page that matches the users' mental models more closely.</p>
-        </div>
+        <!-- IMAGE GROUP START-->
 
         <div class="threeemboth"></div>
-
         <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Research.png">
-        </div>
-
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>Research section is moved from the front page. This offers a more focused view of the information users need.</p>
-        </div>
-
-        <div class="threeemboth"></div>
-
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-CutTime.png">
-        </div>
-
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>Showing work by different cut times helps users prioritize the work accordingly. </p>
-        </div>
-
-        <div class="threeemboth"></div>
-
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Blank_Labels.png">
+            <img src="css/img/thd_ss/usability_changes.png">
         </div>
         <div class="oneemtop"></div>
         <div class="imgdesc">
-            <p>Orders with exceptions are grouped together so that suitable action can be taken.</p>
+            <p>Iterations made based on the usability learnings</p>
         </div>
+        <div class="threeemboth"></div>
+
+        <!-- IMAGE GROUP END-->
+
+
+        <!-- IMAGE GROUP START-->
 
         <div class="threeemboth"></div>
+        <div class="centerimg ">
+            <img src="css/img/thd_ss/final_design.png">
+        </div>
+        <div class="oneemtop"></div>
+        <div class="imgdesc">
+            <p>Final design of the Simple Sort App.</p>
+        </div>
+        <div class="threeemboth"></div>
+
+        <!-- IMAGE GROUP END-->
+
+
+        <!-- IMAGE GROUP START-->
+
+        <div class="threeemboth"></div>
+        <div class="centerimg ">
+            <img src="css/img/thd_ss/config_page_final.png">
+        </div>
+        <div class="oneemtop"></div>
+        <div class="imgdesc">
+            <p>Final design of the Simple Sort Config App.</p>
+        </div>
+        <div class="threeemboth"></div>
+
+        <!-- IMAGE GROUP END-->
+
+        <!-- IMAGE GROUP START-->
+
+        <div class="threeemboth"></div>
+        <div class="centerimg portraitimg ">
+            <img src="css/img/thd_ss/floor_picture.png">
+        </div>
+        <div class="oneemtop"></div>
+        <div class="imgdesc">
+            <p>The app deployed in the Fulfillment Centers.</p>
+        </div>
+        <div class="threeemboth"></div>
+
+        <!-- IMAGE GROUP END-->
+
+
         <!-- FINAL DESIGN END-->
 
         <!-- OUTCOMES START -->
 
         <div class="sectiontitle">
+            <!-- <div class="threeemboth"></div> -->
             <p>Outcomes</p>
         </div>
 
-        <div class="twoemboth"></div>
-
-        <div id="statflex">
-            <div class="statdiv">
-                <img src="css/img/thd_ncv/5x.png">
-            </div>
-            <div class="statdiv">
-                <img src="css/img/thd_ncv/2x.png">
-            </div>
-        </div>
-
-        <div id="statflex">
-            <div class="statdiv">
-                <img src="css/img/thd_ncv/1x.png">
-            </div>
-            <div class="statdiv">
-                <img src="css/img/thd_ncv/10x.png">
-            </div>
-        </div>
-
-
-
-        <div class="twoemboth"></div>
-
-
         <div class="contentsection">
-            <p>The efficiency of the Supervisors and their decisions directly impacts The Home Depot's online shopping experience and the tools they use directly impacts the building's efficiency. As a result, it was very important for us to make
-                sure we
-                provide
-                the Supervisors a tool that makes them feel confident using while improving their efficiency and security. And we were able to deliver that in 10 weeks, well ahead of our schedule.
+            <p>The Simple Sort process went live a month after the app was designed and shipped. In a month after the new process went live, we were able to see significant improvements in the unloading process. <br><br>
 
-                <br><br> When we tested the final version of the app, the users felt <b>comfortable and confident</b> using the new app. They were able run the operations smothly with very <b>little to no training needed</b> and this
-                was a huge win for
-                us.
+                <b>&#8680;</b>&nbsp;&nbsp;Trailer unloading time by half on an average. Average time to unload came down from 90 minutes to 45 minutes.<br>
+                <b>&#8680;</b>&nbsp;&nbsp;There were no sorting bottlenecks since the items were pre-sorted based on their location which made the job of the putting them away easier and faster.<br>
+
             </p>
         </div>
+
+
+        <!-- IMAGE GROUP START-->
+
         <div class="threeemboth"></div>
-
-        <!-- USER QUOTE START -->
-
-        <div id="emphasisflex">
-            <div class="empline"></div>
-            <div class="empcontent">
-                <p>“I love that I don’t have to use the concatenator tool anymore”</p>
-            </div>
+        <div class="centerimg  portraitimg">
+            <img src="css/img/thd_ss/KPIs.svg">
+        </div>
+        <div class="oneemtop"></div>
+        <div class="imgdesc">
+            <p>Improvement in the unloading process after implementing Simple Sort system. UPH = Units Per Hour</p>
         </div>
         <div class="threeemboth"></div>
-        <!-- USER QUOTE END -->
 
-        <!-- USER QUOTE START -->
+        <!-- IMAGE GROUP END-->
 
-        <div id="emphasisflex">
-            <div class="empline"></div>
-            <div class="empcontent">
-                <p>“The app is pretty self-explanatory.”</p>
-            </div>
+        <!-- IMAGE GROUP START-->
+
+
+        <div class="centerimg one15">
+            <img src="css/img/thd_ss/115.svg">
         </div>
-        <div class="threeemboth"></div>
-        <!-- USER QUOTE END -->
 
-        <div class="contentsection">
-            <p>Some aspects of the project, like the remote usability studies, could've gone better. Nonetheless, these issues were minor and didn't derail the project. I managed to stay focused on the MVP and included all stakeholders in the
-                entire
-                design
-                process
-                which
-                made this project a successful endeavor.<br><br> Working on this project gave me a lot of
-                confidence in runnings design sprints and making big design
-                decisions.
-            </p>
-        </div>
+
         <div class="threeemboth"></div>
+
+        <!-- IMAGE GROUP END-->
 
 
         <!-- OUTCOMES END-->
+
+        <!-- LEARNINGS START -->
+        <div class="sectiontitle">
+            <div class="threeemboth"></div>
+            <p>Learnings</p>
+        </div>
+        <div class="contentsection">
+            <p>This project was particularly challenging during the usability studies because the Receiving associates were completely new to the Simple Sort process. Also, since the physical component of the process live, the associates were not
+                sure what it would work like making the usability study challenging. This experience gave me a lot of learning on running wizard-of-oz usability studies.
+
+            </p>
+        </div>
+        <div class="threeemboth"></div>
+        <!-- LEARNINGS END -->
 
 
 
@@ -550,26 +579,6 @@
 
         <!-- Supercontainer -->
 
-        <!-- /////////////////////////// NEXT PROJECT //////////////////////// -->
-
-        <!-- <div class="footernavcontainer">
-
-            <a class=" navbutton piunxt" href="pumpitup.html">
-                <div>
-                    <div class="navcontentdiv">
-                        <p><span class="nextprojsmall">Previous Project</span><br><br><span class="nextprojbig">Pump It Up</span></p>
-                    </div>
-                </div>
-            </a>
-
-            <a class=" navbutton esaurnxt" href="eventosaur.html">
-                <div>
-                    <div class="navcontentdiv">
-                        <p><span class="nextprojsmall">Next Project</span><br><br><span class="nextprojbig">Eventosaur</span></p>
-                    </div>
-                </div>
-            </a>
-        </div> -->
 
 
 
@@ -613,24 +622,22 @@
             </a>
         </div>
 
-        <!-- /////// SIMPLE SORT ////////// -->
+        <!-- /////// Non Con Viz ////////// -->
         <div class="owdiv">
-            <!-- <a href="restricted.html"> -->
-            <div class="otherprojimgdiv thd_ss_outer">
-                <div class="thd_ss_inner">
-                    <div class="img">
-                        <img src="css/img/thd_ss/ss_tv_noblur.png">
+            <a href="restricted.html">
+                <div class="otherprojimgdiv thd_ncv_outer">
+                    <div class="thd_ncv_inner">
+                        <div class="img">
+                            <img src="css/img/thd_ncv/Img-Hero.png">
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="otherprojname">
-                <p>Inbound Simple Sort</p>
-            </div>
-            <div class="comingsoon">
-                <p>Coming soon</p>
-            </div>
-            <!-- </a> -->
+                <div class="otherprojname">
+                    <p>Non Conveyable Dashboard</p>
+                </div>
+
+            </a>
         </div>
 
     </div>
