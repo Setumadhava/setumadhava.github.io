@@ -1,0 +1,692 @@
+* {
+    transition: 0.3s all ease-in-out;
+    color: $textdark;
+    line-height: 1.8em;
+}
+/////////////////////  HEADER START /////////////////////
+
+#ppheadercontainer {
+    @media #{$mac13} {
+        height: 180px;
+    }
+
+    #ppmenuicondiv {
+        position: absolute;
+        right: 0;
+        z-index: 100;
+        top: 0;
+        padding: 2.25em 1em;
+        display: block;
+        position: fixed;
+        @media #{$tablet} {
+            padding: 4.5em 3em;
+        }
+        @media #{$mac13} {
+            padding: 4.5em 6em;
+        }
+
+        img:hover {
+            cursor: pointer;
+        }
+    }
+
+    #ppmobilemenuwrapper {
+        opacity: 0;
+        z-index: -2;
+        transition: 0.25s all ease-in-out;
+        width: 100%;
+        background-color: white;
+        position: relative;
+        top: 0;
+        left: 0;
+        position: fixed;
+        -webkit-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+        -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+        box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+
+        .ppmobilemenucontent {
+            width: 90%;
+            margin: 0 auto;
+            @media #{$mac13} {
+                max-width: 1000px;
+            }
+            @media #{$mac15} {
+                max-width: 1000px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            #ppmenunameflex {
+                padding: 2em 0 0;
+                transition: 0.25s all ease-in-out;
+
+                #ppmenuName {
+                    max-width: 200px;
+
+                    a {
+                        font-size: 1.5em;
+
+                        p {
+                            font-family: $poppins;
+                            width: 240px;
+                            font-size: 1em;
+                            margin: 0;
+                            color: #25334A;
+                            transition: 0.25s all ease-in-out;
+                            font-weight: 300;
+                        }
+
+                        p:hover {
+                            color: $setured;
+                            transition: 0.25s all ease-in-out;
+                        }
+                    }
+                    @media #{$tablet} {
+                        margin-top: 2em;
+                    }
+                }
+
+                #ppmenuxicondiv {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 2.4em 1.25em 0 0;
+                    @media #{$tablet} {
+                        padding: 4.5em 3.3em;
+                    }
+                    @media #{$mac13} {
+                        // display: none;
+                        padding: 4.5em 6.2em;
+                    }
+
+                    img:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            ul {
+                padding: 1em 0;
+                transition: 0.3s all ease-in-out;
+                margin: 0;
+                @media #{$mac15} {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 2em;
+                }
+
+                li {
+                    list-style: none;
+                    padding: 1.5em 0;
+                    @media #{$mac15} {
+                        padding: 1.5em;
+                        margin-bottom: 2em;
+                    }
+
+                    a {
+                        color: #25334A;
+                        font-family: $opensans;
+                        font-size: 0.9em;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                        transition: 0.25s all ease-in-out;
+                    }
+
+                    a:hover {
+                        color: $setured;
+                        transition: 0.25s all ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
+//////////////// HEADER END ///////////////
+
+p {
+    line-height: 1.8em;
+}
+@media #{$phablet} {}
+@media #{$tablet} {}
+@media #{$mac13} {}
+@media #{$mac15} {}
+// @media #{$monitor} {}
+// @media #{$fourk} {}
+
+#supercontainer {
+    width: 90%;
+    @media #{$tablet} {
+        width: 90%;
+    }
+    @media #{$mac13} {
+        width: 80%;
+    }
+    @media #{$mac15} {
+        width: 80%;
+    }
+    // @media #{$monitor} {
+    //     width: 70%;
+    // }
+    @media #{$fourk} {
+        width: 60%;
+    }
+    margin: 0 auto;
+}
+
+.sixembottom {
+    padding-bottom: 6em;
+}
+
+.fourembottom {
+    padding-bottom: 4em;
+}
+
+.oneemtop {
+    padding: 1em 0 0;
+}
+
+.twoemboth {
+    padding: 2em 0;
+}
+
+.threeemboth {
+    padding: 3em 0;
+}
+
+.fouremboth {
+    padding: 4em 0;
+}
+
+.sixemboth {
+    padding: 6em 0;
+}
+////////////////////////////////////////////////////////////////////
+
+#herosection {
+    // background-color: #A2E3B3;
+    background-image: url("img/thd_ncv/hero-bg-green.svg");
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    border-radius: 0;
+    margin: 0 auto;
+    height: 350px;
+    @media #{$tablet} {
+        height: 460px;
+    }
+    @media #{$mac13} {
+        border-radius: 15px;
+        height: 550px;
+        max-width: 950px;
+    }
+
+    #heroimg {
+        position: absolute;
+        top: 25%;
+        transform: translateX(0%);
+
+        .imgdiv {
+            width: 90%;
+            margin: 0 auto;
+        }
+        @media #{$tablet} {
+            .imgdiv {
+                width: 80%;
+                margin: 0 auto;
+            }
+            position: absolute;
+            top: 15%;
+        }
+        @media #{$mac13} {
+            .imgdiv {
+                width: 70%;
+                margin: 0 auto;
+            }
+            position: absolute;
+            top: 15%;
+        }
+    }
+}
+
+#herotitle {
+    p {
+        font-weight: 600;
+        font-size: 1.6em;
+        padding-top: 1em;
+        width: 85%;
+        margin: 0 auto;
+        font-family: $poppins;
+        letter-spacing: 2px;
+        @media #{$tablet} {
+            max-width: 600px;
+            font-size: 2em;
+        }
+        @media #{$mac13} {
+            max-width: 650px;
+            font-size: 2.5em;
+        }
+    }
+}
+
+.sectiontitle {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
+
+    p {
+        font-size: 1.4em;
+        font-weight: 500;
+        font-family: $poppins;
+        letter-spacing: 2px;
+        @media #{$tablet} {
+            font-size: 1.8em;
+        }
+    }
+}
+
+.subtitle {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
+
+    p {
+        font-size: 1.1em;
+        font-weight: 700;
+        font-family: $opensans;
+    }
+}
+
+.contentsection {
+    width: 85%;
+    max-width: 650px;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: $opensans;
+    }
+}
+
+.imgdesc {
+    p {
+        width: 85%;
+        margin: 0 auto;
+        font-style: italic;
+        text-align: center;
+        color: $grey4;
+        font-family: $opensans;
+        @media #{$tablet} {
+            max-width: 600px;
+        }
+        @media #{$mac13} {
+            max-width: 1250px;
+        }
+    }
+}
+
+#emphasisflex {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    max-width: 800px;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
+
+    .empline {
+        width: 27%;
+        max-width: 3px;
+        border-radius: 10em;
+        background-color: $thdorange;
+    }
+
+    .empcontent {
+        margin: 0.5em 0 0 2em;
+
+        p {
+            font-family: $opensans;
+            font-size: 1.6em;
+            font-weight: 300;
+            color: $thdorange;
+            @media #{$tablet} {
+                font-size: 2em;
+            }
+        }
+    }
+}
+
+#roleflex {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $grey1;
+    border-radius: 10px;
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 950px;
+    }
+
+    .roleitem {
+        width: 100%;
+        padding: 2em;
+        @media #{$tablet} {
+            width: 33%;
+        }
+        @media #{$mac13} {
+            width: 33%;
+        }
+
+        .roletitle {
+            font-size: 0.8em;
+        }
+
+        .rolecontent {
+            font-size: 1.1em;
+        }
+    }
+}
+
+.findingsflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    width: 85%;
+    @media #{$tablet} {
+        max-width: 800px;
+        justify-content: space-around;
+    }
+    @media #{$mac13} {
+        max-width: 1050px;
+        justify-content: space-between;
+    }
+
+    .findingsbox {
+        background-color: $grey1;
+        padding: 1em;
+        border-radius: 10px;
+        margin-bottom: 2em;
+        @media #{$mac13} {
+            width: 42%;
+            margin: 2em;
+        }
+
+        .findingstitle {
+            p {
+                font-weight: 700;
+                font-size: 18px;
+                font-family: $opensans;
+            }
+        }
+
+        .findingscontent {
+            p {
+                font-size: 16px;
+                font-family: $opensans;
+            }
+        }
+    }
+}
+
+.centerimg {
+    // background-color: #CBE4D2;
+    @media #{$mac13} {
+        max-width: 1250px;
+        margin: 0 auto;
+        background-color: transparent;
+    }
+}
+
+#footer {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$mac13} {
+        max-width: 1250px;
+        margin: 0 auto;
+
+        #hello {
+            margin-left: 1em;
+        }
+
+        #contactflex {
+            margin-left: 3em;
+        }
+    }
+}
+
+#header {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    @media #{$mac13} {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+}
+
+#mobilemenuwrapper {
+    #menuName {
+        margin-left: 0.5em;
+        @media #{$tablet} {
+            margin-left: 3.25em;
+        }
+    }
+
+    ul {
+        margin-left: 0.5em;
+        @media #{$tablet} {
+            margin-left: 4.25em;
+        }
+    }
+}
+
+#statflex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 800px;
+    }
+
+    .statdiv {
+        width: 55%;
+        margin: 2em auto;
+        @media #{$tablet} {
+            width: 20%;
+        }
+    }
+}
+
+#OWline {
+    width: 100%;
+    height: 10px;
+    border-radius: 3px;
+    background-color: $grey1;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 1000px;
+    }
+}
+
+#owsectiontitle {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 1000px;
+    }
+
+    p {
+        font-size: 1.4em;
+        font-weight: 500;
+        font-family: $poppins;
+        letter-spacing: 2px;
+        @media #{$tablet} {
+            font-size: 1.8em;
+        }
+    }
+}
+
+.otherworksflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4em auto;
+    justify-content: space-between;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 1000px;
+    }
+
+    .owdiv {
+        margin: 2em auto;
+        width: 90%;
+        transition: 0.25s all ease-in-out;
+        position: relative;
+        @media #{$tablet} {
+            width: 40%;
+            margin: 0;
+        }
+
+        .otherprojimgdiv {
+            padding: 2em 0;
+            border-radius: 8px;
+            @media #{$tablet} {
+                min-width: 300px;
+                min-height: 352px;
+                max-height: 352px;
+            }
+            @media #{$mac13} {
+                min-width: 400px;
+            }
+        }
+
+        .otherprojname {
+            padding: 1em 0;
+
+            p {
+                font-size: 1.2em;
+                font-weight: 600;
+                letter-spacing: 1px;
+                font-family: $poppins;
+                color: #25334A;
+            }
+        }
+    }
+
+    .comingsoon {
+        position: relative;
+        top: -30px;
+
+        p {
+            font-family: $opensans;
+            color: $grey4;
+            font-style: italic;
+            letter-spacing: 1px;
+            font-weight: 500;
+            font-size: 1em;
+        }
+    }
+    ////////////////////// PROJECT SPECIFIC START ////////////////////////////
+    ///// PICKING PRIORITY /////
+    .thd_pp_outer {
+        border-radius: 8px;
+        background-color: #C9E9F4;
+        position: relative;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_pp_inner {
+        width: 70%;
+        margin: 0 auto;
+        @media #{$tablet} {
+            bottom: 30px;
+        }
+        @media #{$tablet} {
+            width: 60%;
+        }
+        @media #{$mac13} {
+            width: 50%;
+        }
+
+        .img {
+            width: 100%;
+        }
+    }
+    ///// SIMPLE SORT ////
+    .thd_ss_outer {
+        background-color: #DBDCFF;
+        position: relative;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_ss_inner {
+        width: 85%;
+        margin: 0 auto;
+        position: relative;
+        @media #{$tablet} {
+            top: 50px;
+        }
+
+        .img {
+            width: 100%;
+        }
+    }
+    //////////////////////// PROJECT SPECIFIC ENDS /////////////////////////
+    .owdiv:hover {
+        .thd_pp_outer {
+            background-color: #8AC6DB;
+            transition: 0.25s all ease-in-out;
+        }
+
+        .thd_ss_outer {
+            // background-color: #A2A5FD;
+            transition: 0.25s all ease-in-out;
+        }
+    }
+}
+///////////////////////// COPYRIGHT START ///////////////////////
+
+#copyrightdiv {
+    p {
+        font-family: $opensans;
+        text-align: center;
+        font-size: 1em;
+        letter-spacing: 0.5px;
+        color: $grey4;
+    }
+}
+////////////////////////// COPYRIGHT END ///////////////////////
