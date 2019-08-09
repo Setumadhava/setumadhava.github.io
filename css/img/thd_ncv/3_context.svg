@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="102" viewBox="0 0 190 102">
+  <g id="Group_1320" data-name="Group 1320" transform="translate(-852 -63)">
+    <rect id="Rectangle_236" data-name="Rectangle 236" width="190" height="102" rx="4" transform="translate(852 63)" fill="#a75be8"/>
+    <g id="Group_258" data-name="Group 258" transform="translate(936 149.117) rotate(-90)" opacity="0.499">
+      <g id="Group_258-2" data-name="Group 258" transform="translate(0 0)">
+        <path id="Path_67" data-name="Path 67" d="M297.762,239.989l-8.883-8.883a2.69,2.69,0,0,0-.877-.583c-.013-.006-.027-.007-.041-.013a2.591,2.591,0,0,0-1.95,0c-.014.006-.027.007-.041.013a2.664,2.664,0,0,0-.877.583l-8.883,8.883a2.672,2.672,0,1,0,3.779,3.779l4.324-4.324v14.929a2.673,2.673,0,0,0,5.345,0V239.444l4.324,4.324a2.672,2.672,0,1,0,3.779-3.779Z" transform="translate(-275.428 -230.32)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Group_259" data-name="Group 259" transform="translate(910.262 81.076) rotate(45)" opacity="0.499">
+      <g id="Group_258-3" data-name="Group 258" transform="translate(0 0)">
+        <path id="Path_67-2" data-name="Path 67" d="M297.762,239.989l-8.883-8.883a2.69,2.69,0,0,0-.877-.583c-.013-.006-.027-.007-.041-.013a2.591,2.591,0,0,0-1.95,0c-.014.006-.027.007-.041.013a2.664,2.664,0,0,0-.877.583l-8.883,8.883a2.672,2.672,0,1,0,3.779,3.779l4.324-4.324v14.929a2.673,2.673,0,0,0,5.345,0V239.444l4.324,4.324a2.672,2.672,0,1,0,3.779-3.779Z" transform="translate(-275.428 -230.32)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Group_260" data-name="Group 260" transform="translate(1002.607 99.973) rotate(135)" opacity="0.499">
+      <g id="Group_258-4" data-name="Group 258" transform="translate(0 0)">
+        <path id="Path_67-3" data-name="Path 67" d="M297.762,239.989l-8.883-8.883a2.69,2.69,0,0,0-.877-.583c-.013-.006-.027-.007-.041-.013a2.591,2.591,0,0,0-1.95,0c-.014.006-.027.007-.041.013a2.664,2.664,0,0,0-.877.583l-8.883,8.883a2.672,2.672,0,1,0,3.779,3.779l4.324-4.324v14.929a2.673,2.673,0,0,0,5.345,0V239.444l4.324,4.324a2.672,2.672,0,1,0,3.779-3.779Z" transform="translate(-275.428 -230.32)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <rect id="Rectangle_85" data-name="Rectangle 85" width="28" height="33" rx="3" transform="translate(936 69)" fill="#fff" opacity="0.499"/>
+    <rect id="Rectangle_86" data-name="Rectangle 86" width="28" height="33" rx="3" transform="translate(884 121)" fill="#fff" opacity="0.499"/>
+    <rect id="Rectangle_87" data-name="Rectangle 87" width="28" height="33" rx="3" transform="translate(987 121)" fill="#fff" opacity="0.499"/>
+  </g>
+</svg>

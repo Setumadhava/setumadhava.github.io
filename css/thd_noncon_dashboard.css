@@ -252,6 +252,37 @@ p {
     font-size: 18px;
     font-family: "Open Sans", sans-serif; }
 
+#insightflex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between; }
+  @media (min-width: 768px) {
+    #insightflex {
+      max-width: 650px; } }
+  @media (min-width: 1024px) {
+    #insightflex {
+      max-width: 1250px; } }
+  #insightflex .insightdiv {
+    padding: 1em; }
+    @media (min-width: 768px) {
+      #insightflex .insightdiv {
+        width: 45%;
+        margin-bottom: 2em; } }
+    @media (min-width: 1024px) {
+      #insightflex .insightdiv {
+        width: 22%; } }
+    #insightflex .insightdiv .insight_imgdiv img {
+      width: 400px; }
+    #insightflex .insightdiv .insight_title p {
+      margin: 1em 0;
+      font-weight: 700;
+      font-size: 18px;
+      font-family: "Open Sans", sans-serif; }
+    #insightflex .insightdiv .insight_content p {
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif; }
+
 .imgdesc p {
   width: 85%;
   margin: 0 auto;
