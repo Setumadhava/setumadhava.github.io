@@ -261,8 +261,8 @@
     padding-top: 2em; }
     @media (min-width: 1024px) {
       .projectcard .projectcontentdiv {
-        width: 40%;
-        padding-top: 4em;
+        width: 44%;
+        padding: 4em 0 0 2em;
         margin: 0; } }
     .projectcard .projectcontentdiv .organization p {
       font-size: 0.8em;
@@ -272,9 +272,9 @@
       letter-spacing: 1px; }
     .projectcard .projectcontentdiv .projecttitle p {
       font-family: "Poppins", sans-serif;
+      font-size: 1.7em;
+      font-weight: 400;
       color: #25334A;
-      font-size: 1.4em;
-      font-weight: 800;
       letter-spacing: 1px;
       text-decoration: none; }
     .projectcard .projectcontentdiv .projectdesc p {

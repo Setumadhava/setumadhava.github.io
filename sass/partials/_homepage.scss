@@ -351,8 +351,11 @@
         margin: 0 auto;
         padding-top: 2em;
         @media #{$mac13} {
-            width: 40%;
-            padding-top: 4em;
+            // background-color: red;
+            width: 44%;
+            padding: 4em 0 0 2em;
+            // width: 40%;
+            // padding-top: 4em;
             margin: 0;
         }
 
@@ -369,9 +372,9 @@
         .projecttitle {
             p {
                 font-family: $poppins;
+                font-size: 1.7em;
+                font-weight: 400;
                 color: #25334A;
-                font-size: 1.4em;
-                font-weight: 800;
                 letter-spacing: 1px;
                 text-decoration: none;
             }
