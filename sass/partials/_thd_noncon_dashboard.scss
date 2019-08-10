@@ -498,11 +498,28 @@ p {
 }
 
 .centerimg {
-    // background-color: #CBE4D2;
+    background-color: #CBE4D2;
+    @media #{$tablet} {
+        background-color: transparent;
+    }
     @media #{$mac13} {
         max-width: 1250px;
         margin: 0 auto;
         background-color: transparent;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.portraitimg {
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 850px;
     }
 }
 

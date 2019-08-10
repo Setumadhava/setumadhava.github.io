@@ -379,11 +379,27 @@ p {
       font-size: 16px;
       font-family: "Open Sans", sans-serif; }
 
-@media (min-width: 1024px) {
-  .centerimg {
-    max-width: 1250px;
-    margin: 0 auto;
-    background-color: transparent; } }
+.centerimg {
+  background-color: #CBE4D2; }
+  @media (min-width: 768px) {
+    .centerimg {
+      background-color: transparent; } }
+  @media (min-width: 1024px) {
+    .centerimg {
+      max-width: 1250px;
+      margin: 0 auto;
+      background-color: transparent; } }
+  .centerimg img {
+    width: 100%; }
+
+.portraitimg {
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .portraitimg {
+      max-width: 600px; } }
+  @media (min-width: 1024px) {
+    .portraitimg {
+      max-width: 850px; } }
 
 #footer {
   width: 85%;
