@@ -492,7 +492,7 @@
         @media #{$tablet} {
             top: 0;
             width: 55%;
-            height: 300px;
+            max-width: 380px;
         }
         @media #{$mac13} {
             max-width: 253.44px;

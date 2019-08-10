@@ -366,7 +366,7 @@
       .motion_design .projectimg {
         top: 0;
         width: 55%;
-        height: 300px; } }
+        max-width: 380px; } }
     @media (min-width: 1024px) {
       .motion_design .projectimg {
         max-width: 253.44px; } }
