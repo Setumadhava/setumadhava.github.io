@@ -252,6 +252,40 @@ p {
     font-size: 18px;
     font-family: "Open Sans", sans-serif; }
 
+#researchmethodflex {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  @media (min-width: 768px) {
+    #researchmethodflex {
+      max-width: 650px; } }
+  @media (min-width: 1024px) {
+    #researchmethodflex {
+      max-width: 650px; } }
+  #researchmethodflex .researchmethoddiv {
+    background-color: #EDEDED;
+    padding: 0 2em;
+    border-radius: 8px;
+    margin: 1em 0;
+    width: 230px; }
+    @media (min-width: 768px) {
+      #researchmethodflex .researchmethoddiv {
+        width: 30%; } }
+    #researchmethodflex .researchmethoddiv p {
+      position: relative;
+      top: 8px;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif;
+      text-align: center; }
+  @media (min-width: 768px) {
+    #researchmethodflex .rmleftmargin {
+      margin-left: 2em; }
+      #researchmethodflex .rmleftmargin p {
+        position: relative;
+        top: 22px; } }
+
 #insightflex {
   display: flex;
   flex-wrap: wrap;
