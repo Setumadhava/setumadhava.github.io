@@ -541,6 +541,7 @@ p {
         }
     }
 }
+// IMAGE ATTRIBUTES START
 
 .centerimg {
     background-color: #CBE4D2;
@@ -567,6 +568,25 @@ p {
         max-width: 850px;
     }
 }
+// IMAGE ATTRIBUTES END
+// VIDEO ATTRIBUTES START
+
+.centervideo {
+    position: relative;
+
+    .videodiv {
+        video {
+            display: block;
+            margin: 0 auto;
+            -webkit-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+            -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+            box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+            width: 85%;
+            max-width: 1250px;
+        }
+    }
+}
+// VIDEO ATTRIBUTES END
 
 #footer {
     width: 85%;
