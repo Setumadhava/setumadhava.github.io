@@ -192,12 +192,12 @@ p {
   @media (min-width: 768px) {
     #herotitle p {
       max-width: 600px;
-      font-size: 2.8em;
+      font-size: 2.6em;
       margin: 2em auto 0; } }
   @media (min-width: 1024px) {
     #herotitle p {
       max-width: 650px;
-      font-size: 2.8em;
+      font-size: 2.6em;
       margin: 0 auto; } }
 
 .sectiontitle {
@@ -489,14 +489,15 @@ p {
 .otherworksflex {
   display: flex;
   flex-wrap: wrap;
-  margin: 4em auto;
+  margin: 2em auto;
   justify-content: space-between; }
   @media (min-width: 768px) {
     .otherworksflex {
       max-width: 600px; } }
   @media (min-width: 1024px) {
     .otherworksflex {
-      max-width: 1000px; } }
+      max-width: 1000px;
+      margin: 4em auto; } }
   .otherworksflex .owdiv {
     margin: 2em auto;
     width: 90%;
@@ -565,11 +566,31 @@ p {
         top: 50px; } }
     .otherworksflex .thd_ss_inner .img {
       width: 100%; }
+  .otherworksflex .motion_design_outer {
+    background-color: #F8B2B2;
+    position: relative;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .motion_design_inner {
+    width: 85%;
+    margin: 0 auto;
+    position: relative; }
+    @media (min-width: 768px) {
+      .otherworksflex .motion_design_inner {
+        top: 20px; } }
+    @media (min-width: 1024px) {
+      .otherworksflex .motion_design_inner {
+        top: 10px;
+        max-width: 265.44px; } }
+    .otherworksflex .motion_design_inner .img {
+      width: 100%; }
   .otherworksflex .owdiv:hover .thd_ncv_outer {
     background-color: #78CB8D;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .thd_ss_outer {
     background-color: #A2A5FD;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .owdiv:hover .motion_design_outer {
+    background-color: #F08989;
     transition: 0.25s all ease-in-out; }
 
 #copyrightdiv p {
