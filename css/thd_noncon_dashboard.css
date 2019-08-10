@@ -438,6 +438,7 @@ p {
 .centervideo {
   position: relative; }
   .centervideo .videodiv video {
+    border-radius: 10px;
     display: block;
     margin: 0 auto;
     -webkit-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
