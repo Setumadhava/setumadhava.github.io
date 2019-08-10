@@ -190,21 +190,23 @@ p {
           margin: 0 auto; } }
 
 #herotitle p {
-  font-weight: 600;
-  font-size: 1.6em;
+  font-weight: 500;
+  font-size: 2em;
   padding-top: 1em;
   width: 85%;
-  margin: 0 auto;
+  margin: 5em auto 0;
   font-family: "Poppins", sans-serif;
   letter-spacing: 2px; }
   @media (min-width: 768px) {
     #herotitle p {
       max-width: 600px;
-      font-size: 2em; } }
+      font-size: 2.8em;
+      margin: 2em auto 0; } }
   @media (min-width: 1024px) {
     #herotitle p {
       max-width: 650px;
-      font-size: 2.5em; } }
+      font-size: 2.8em;
+      margin: 0 auto; } }
 
 .sectiontitle {
   width: 85%;
@@ -435,17 +437,15 @@ p {
     .portraitimg {
       max-width: 850px; } }
 
-.centervideo {
-  position: relative; }
-  .centervideo .videodiv video {
-    border-radius: 10px;
-    display: block;
-    margin: 0 auto;
-    -webkit-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
-    -moz-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
-    box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
-    width: 85%;
-    max-width: 1250px; }
+.centervideo .videodiv video {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
+  -moz-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
+  box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
+  width: 85%;
+  max-width: 1250px; }
 
 #footer {
   width: 85%;
