@@ -283,9 +283,9 @@ p {
   max-height: 800px;
   max-width: 500px;
   border-radius: 14px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     .expcenterdiv {
-      max-width: 650px; } }
+      max-width: 850px; } }
   @media (min-width: 1024px) {
     .expcenterdiv {
       max-width: 1250px; } }

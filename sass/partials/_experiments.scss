@@ -365,8 +365,8 @@ p {
     // background-color: $grey1;
     max-width: 500px;
     border-radius: 14px;
-    @media #{$mac13} {
-        max-width: 650px;
+    @media #{$tablet} {
+        max-width: 850px;
     }
     @media #{$mac13} {
         max-width: 1250px;
