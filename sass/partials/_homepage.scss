@@ -490,13 +490,12 @@
         transition: 0.25s all ease-in-out;
         position: relative;
         @media #{$tablet} {
-            top: 10%;
-            width: 70%;
+            top: 0;
+            width: 55%;
             height: 300px;
         }
         @media #{$mac13} {
-            width: 55%;
-            top: -5px;
+            max-width: 253.44px;
         }
     }
 }

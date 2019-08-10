@@ -364,13 +364,12 @@
     position: relative; }
     @media (min-width: 768px) {
       .motion_design .projectimg {
-        top: 10%;
-        width: 70%;
+        top: 0;
+        width: 55%;
         height: 300px; } }
     @media (min-width: 1024px) {
       .motion_design .projectimg {
-        width: 55%;
-        top: -5px; } }
+        max-width: 253.44px; } }
 
 .thd_ncv_card:hover {
   cursor: pointer; }
