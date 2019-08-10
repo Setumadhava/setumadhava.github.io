@@ -403,6 +403,7 @@
     }
 }
 ///////////////////////////////// PROJECT SPECIFIC ///////////////////////////////
+//////////// THD NCV CARD SPECIFIC //////////////
 
 .thd_ncv {
     background-color: #A2E3B3;
@@ -422,6 +423,7 @@
         }
     }
 }
+//////////// THD PP CARD SPECIFIC //////////////
 
 .thd_pp {
     background-color: #C9E9F4;
@@ -442,6 +444,7 @@
         }
     }
 }
+//////////// THD SS CARD SPECIFIC //////////////
 
 .thd_ss {
     background-color: #DBDCFF;
@@ -466,6 +469,34 @@
         @media #{$mac13} {
             width: 85%;
             top: 0;
+        }
+    }
+}
+//////////// MOTION DESIGN CARD SPECIFIC //////////////
+
+.motion_design {
+    background-color: #F8B2B2;
+    width: 100%;
+    @media #{$tablet} {
+        min-height: 450px;
+    }
+    @media #{$mac13} {
+        min-height: 0;
+    }
+
+    .projectimg {
+        width: 90%;
+        margin: 0 auto;
+        transition: 0.25s all ease-in-out;
+        position: relative;
+        @media #{$tablet} {
+            top: 10%;
+            width: 70%;
+            height: 300px;
+        }
+        @media #{$mac13} {
+            width: 55%;
+            top: -5px;
         }
     }
 }
@@ -494,6 +525,14 @@
 
     .thd_ss {
         background-color: #BDBEEA;
+    }
+}
+
+.motion_design_card:hover {
+    cursor: pointer;
+
+    .motion_design {
+        background-color: #F08989;
     }
 }
 //////////////////////// COPYRIGHT START ///////////////////////

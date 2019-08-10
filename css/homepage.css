@@ -348,6 +348,30 @@
         width: 85%;
         top: 0; } }
 
+.motion_design {
+  background-color: #F8B2B2;
+  width: 100%; }
+  @media (min-width: 768px) {
+    .motion_design {
+      min-height: 450px; } }
+  @media (min-width: 1024px) {
+    .motion_design {
+      min-height: 0; } }
+  .motion_design .projectimg {
+    width: 90%;
+    margin: 0 auto;
+    transition: 0.25s all ease-in-out;
+    position: relative; }
+    @media (min-width: 768px) {
+      .motion_design .projectimg {
+        top: 10%;
+        width: 70%;
+        height: 300px; } }
+    @media (min-width: 1024px) {
+      .motion_design .projectimg {
+        width: 55%;
+        top: -5px; } }
+
 .thd_ncv_card:hover {
   cursor: pointer; }
   .thd_ncv_card:hover .thd_ncv {
@@ -362,6 +386,11 @@
   cursor: pointer; }
   .thd_ss_card:hover .thd_ss {
     background-color: #BDBEEA; }
+
+.motion_design_card:hover {
+  cursor: pointer; }
+  .motion_design_card:hover .motion_design {
+    background-color: #F08989; }
 
 #copyrightdiv p {
   font-family: "Open Sans", sans-serif;
