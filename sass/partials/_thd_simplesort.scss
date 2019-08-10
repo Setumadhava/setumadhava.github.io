@@ -409,40 +409,80 @@ p {
     }
 }
 
-.findingsflex {
+#researchmethodflex {
+    // background-color: red;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
+
+    .researchmethod {
+        background-color: $grey1;
+        padding: 0 2em;
+        border-radius: 8px;
+        margin: 1em 0;
+        width: 250px;
+
+        p {
+            position: relative;
+            top: 8px;
+            font-weight: 500;
+            font-family: $poppins;
+            text-align: center;
+        }
+    }
+
+    .rmleftmargin {
+        @media #{$tablet} {
+            margin-left: 2em;
+        }
+    }
+}
+
+#insightflex {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: center;
-    width: 85%;
+    justify-content: space-between;
     @media #{$tablet} {
-        max-width: 800px;
-        justify-content: space-around;
+        max-width: 650px;
     }
     @media #{$mac13} {
-        max-width: 1050px;
-        justify-content: space-between;
+        max-width: 1250px;
     }
 
-    .findingsbox {
-        background-color: $grey1;
+    .insightdiv {
         padding: 1em;
-        border-radius: 10px;
-        margin-bottom: 2em;
+        @media #{$tablet} {
+            width: 45%;
+            margin-bottom: 2em;
+        }
         @media #{$mac13} {
-            width: 42%;
-            margin: 2em;
+            width: 22%;
         }
 
-        .findingstitle {
+        .insight_imgdiv {
+            img {
+                width: 400px;
+            }
+        }
+
+        .insight_title {
             p {
+                margin: 1em 0;
                 font-weight: 700;
                 font-size: 18px;
                 font-family: $opensans;
             }
         }
 
-        .findingscontent {
+        .insight_content {
             p {
                 font-size: 16px;
                 font-family: $opensans;
@@ -450,6 +490,47 @@ p {
         }
     }
 }
+// .findingsflex {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin: 0 auto;
+//     justify-content: center;
+//     width: 85%;
+//     @media #{$tablet} {
+//         max-width: 800px;
+//         justify-content: space-around;
+//     }
+//     @media #{$mac13} {
+//         max-width: 1050px;
+//         justify-content: space-between;
+//     }
+//
+//     .findingsbox {
+//         background-color: $grey1;
+//         padding: 1em;
+//         border-radius: 10px;
+//         margin-bottom: 2em;
+//         @media #{$mac13} {
+//             width: 42%;
+//             margin: 2em;
+//         }
+//
+//         .findingstitle {
+//             p {
+//                 font-weight: 700;
+//                 font-size: 18px;
+//                 font-family: $opensans;
+//             }
+//         }
+//
+//         .findingscontent {
+//             p {
+//                 font-size: 16px;
+//                 font-family: $opensans;
+//             }
+//         }
+//     }
+// }
 
 .centerimg {
     background-color: #DBDCFF;

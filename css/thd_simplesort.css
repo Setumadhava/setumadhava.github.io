@@ -296,7 +296,7 @@ p {
 #roleflex {
   display: flex;
   flex-wrap: wrap;
-  background-color: #F5F5F5;
+  background-color: #EDEDED;
   border-radius: 10px;
   width: 85%;
   margin: 0 auto; }
@@ -317,34 +317,61 @@ p {
     #roleflex .roleitem .rolecontent {
       font-size: 1.1em; }
 
-.findingsflex {
+#researchmethodflex {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; }
+  @media (min-width: 768px) {
+    #researchmethodflex {
+      max-width: 600px; } }
+  @media (min-width: 1024px) {
+    #researchmethodflex {
+      max-width: 650px; } }
+  #researchmethodflex .researchmethod {
+    background-color: #EDEDED;
+    padding: 0 2em;
+    border-radius: 8px;
+    margin: 1em 0;
+    width: 250px; }
+    #researchmethodflex .researchmethod p {
+      position: relative;
+      top: 8px;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif;
+      text-align: center; }
+  @media (min-width: 768px) {
+    #researchmethodflex .rmleftmargin {
+      margin-left: 2em; } }
+
+#insightflex {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  justify-content: center;
-  width: 85%; }
+  justify-content: space-between; }
   @media (min-width: 768px) {
-    .findingsflex {
-      max-width: 800px;
-      justify-content: space-around; } }
+    #insightflex {
+      max-width: 650px; } }
   @media (min-width: 1024px) {
-    .findingsflex {
-      max-width: 1050px;
-      justify-content: space-between; } }
-  .findingsflex .findingsbox {
-    background-color: #F5F5F5;
-    padding: 1em;
-    border-radius: 10px;
-    margin-bottom: 2em; }
+    #insightflex {
+      max-width: 1250px; } }
+  #insightflex .insightdiv {
+    padding: 1em; }
+    @media (min-width: 768px) {
+      #insightflex .insightdiv {
+        width: 45%;
+        margin-bottom: 2em; } }
     @media (min-width: 1024px) {
-      .findingsflex .findingsbox {
-        width: 42%;
-        margin: 2em; } }
-    .findingsflex .findingsbox .findingstitle p {
+      #insightflex .insightdiv {
+        width: 22%; } }
+    #insightflex .insightdiv .insight_imgdiv img {
+      width: 400px; }
+    #insightflex .insightdiv .insight_title p {
+      margin: 1em 0;
       font-weight: 700;
       font-size: 18px;
       font-family: "Open Sans", sans-serif; }
-    .findingsflex .findingsbox .findingscontent p {
+    #insightflex .insightdiv .insight_content p {
       font-size: 16px;
       font-family: "Open Sans", sans-serif; }
 
@@ -436,7 +463,7 @@ p {
   width: 100%;
   height: 10px;
   border-radius: 3px;
-  background-color: #F5F5F5;
+  background-color: #EDEDED;
   margin: 0 auto; }
   @media (min-width: 768px) {
     #OWline {
@@ -796,11 +823,11 @@ html {
     width: 28px;
     margin: 0 2em; }
   .iconsflex .mail {
-    fill: #F5F5F5;
+    fill: #EDEDED;
     width: 28px;
     padding-top: 0.57em; }
   .iconsflex .in {
-    fill: #F5F5F5;
+    fill: #EDEDED;
     width: 28px; }
   .iconsflex .mailicon:hover .mail {
     transition: all 0.20s ease-in-out;
@@ -827,7 +854,7 @@ html {
   width: 100%;
   border-radius: 3px 3px 0 0;
   margin: 0 auto 2em;
-  background-color: #F5F5F5; }
+  background-color: #EDEDED; }
 
 .copyright {
   padding: 0.8em 0;

@@ -971,11 +971,11 @@ html {
     width: 28px;
     margin: 0 2em; }
   .iconsflex .mail {
-    fill: #F5F5F5;
+    fill: #EDEDED;
     width: 28px;
     padding-top: 0.57em; }
   .iconsflex .in {
-    fill: #F5F5F5;
+    fill: #EDEDED;
     width: 28px; }
   .iconsflex .mailicon:hover .mail {
     transition: all 0.20s ease-in-out;
@@ -1002,7 +1002,7 @@ html {
   width: 100%;
   border-radius: 3px 3px 0 0;
   margin: 0 auto 2em;
-  background-color: #F5F5F5; }
+  background-color: #EDEDED; }
 
 .copyright {
   padding: 0.8em 0;
