@@ -382,6 +382,8 @@
     margin: 0 auto;
     transition: 0.25s all ease-in-out;
     position: relative; }
+    .motion_design .projectimg img {
+      border-radius: 10px; }
     @media (min-width: 768px) {
       .motion_design .projectimg {
         top: 0;

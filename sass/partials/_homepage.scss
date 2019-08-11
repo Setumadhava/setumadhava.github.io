@@ -510,6 +510,10 @@
         margin: 0 auto;
         transition: 0.25s all ease-in-out;
         position: relative;
+
+        img {
+            border-radius: 10px;
+        }
         @media #{$tablet} {
             top: 0;
             width: 55%;
