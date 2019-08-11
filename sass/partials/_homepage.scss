@@ -350,16 +350,34 @@
         width: 90%;
         margin: 0 auto;
         padding-top: 2em;
+        position: relative;
         @media #{$mac13} {
-            // background-color: red;
             width: 44%;
             padding: 4em 0 0 2em;
-            // width: 40%;
-            // padding-top: 4em;
             margin: 0;
         }
 
+        .projectnumber {
+            position: absolute;
+            top: -2em;
+            left: -3em;
+            @media #{$mac13} {
+                top: -3em;
+                left: 0;
+            }
+
+            p {
+                font-size: 8em;
+                font-family: $poppins;
+                letter-spacing: 2.5px;
+                color: $grey1;
+            }
+        }
+
         .organization {
+            position: relative;
+            z-index: 99;
+
             p {
                 font-size: 0.8em;
                 font-weight: 800;
@@ -377,6 +395,8 @@
                 color: #25334A;
                 letter-spacing: 1px;
                 text-decoration: none;
+                position: relative;
+                z-index: 100;
             }
         }
 
@@ -508,6 +528,15 @@
 
     .thd_ncv {
         background-color: #78CB8D;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: #78CB8D;
+        }
     }
 }
 
@@ -516,6 +545,15 @@
 
     .thd_pp {
         background-color: #8AC6DB;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: #8AC6DB;
+        }
     }
 }
 
@@ -524,6 +562,15 @@
 
     .thd_ss {
         background-color: #BDBEEA;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: #BDBEEA;
+        }
     }
 }
 
@@ -532,6 +579,15 @@
 
     .motion_design {
         background-color: #F08989;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: #F08989;
+        }
     }
 }
 //////////////////////// COPYRIGHT START ///////////////////////

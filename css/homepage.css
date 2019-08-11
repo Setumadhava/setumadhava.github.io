@@ -258,25 +258,44 @@
   .projectcard .projectcontentdiv {
     width: 90%;
     margin: 0 auto;
-    padding-top: 2em; }
+    padding-top: 2em;
+    position: relative; }
     @media (min-width: 1024px) {
       .projectcard .projectcontentdiv {
         width: 44%;
         padding: 4em 0 0 2em;
         margin: 0; } }
-    .projectcard .projectcontentdiv .organization p {
-      font-size: 0.8em;
-      font-weight: 800;
-      font-family: "Open Sans", sans-serif;
-      color: #A3a3a3;
-      letter-spacing: 1px; }
+    .projectcard .projectcontentdiv .projectnumber {
+      position: absolute;
+      top: -2em;
+      left: -3em; }
+      @media (min-width: 1024px) {
+        .projectcard .projectcontentdiv .projectnumber {
+          top: -3em;
+          left: 0; } }
+      .projectcard .projectcontentdiv .projectnumber p {
+        font-size: 8em;
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 2.5px;
+        color: #EDEDED; }
+    .projectcard .projectcontentdiv .organization {
+      position: relative;
+      z-index: 99; }
+      .projectcard .projectcontentdiv .organization p {
+        font-size: 0.8em;
+        font-weight: 800;
+        font-family: "Open Sans", sans-serif;
+        color: #A3a3a3;
+        letter-spacing: 1px; }
     .projectcard .projectcontentdiv .projecttitle p {
       font-family: "Poppins", sans-serif;
       font-size: 1.7em;
       font-weight: 400;
       color: #25334A;
       letter-spacing: 1px;
-      text-decoration: none; }
+      text-decoration: none;
+      position: relative;
+      z-index: 100; }
     .projectcard .projectcontentdiv .projectdesc p {
       font-size: 1em;
       font-family: "Open Sans", sans-serif;
@@ -374,22 +393,42 @@
 .thd_ncv_card:hover {
   cursor: pointer; }
   .thd_ncv_card:hover .thd_ncv {
-    background-color: #78CB8D; }
+    background-color: #78CB8D;
+    transition: 0.25s all ease-in-out; }
+  .thd_ncv_card:hover .projecttitle p {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #78CB8D; }
 
 .thd_pp_card:hover {
   cursor: pointer; }
   .thd_pp_card:hover .thd_pp {
-    background-color: #8AC6DB; }
+    background-color: #8AC6DB;
+    transition: 0.25s all ease-in-out; }
+  .thd_pp_card:hover .projecttitle p {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #8AC6DB; }
 
 .thd_ss_card:hover {
   cursor: pointer; }
   .thd_ss_card:hover .thd_ss {
-    background-color: #BDBEEA; }
+    background-color: #BDBEEA;
+    transition: 0.25s all ease-in-out; }
+  .thd_ss_card:hover .projecttitle p {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #BDBEEA; }
 
 .motion_design_card:hover {
   cursor: pointer; }
   .motion_design_card:hover .motion_design {
-    background-color: #F08989; }
+    background-color: #F08989;
+    transition: 0.25s all ease-in-out; }
+  .motion_design_card:hover .projecttitle p {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #F08989; }
 
 #copyrightdiv p {
   font-family: "Open Sans", sans-serif;
