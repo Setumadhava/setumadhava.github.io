@@ -353,7 +353,7 @@
         position: relative;
         @media #{$mac13} {
             width: 44%;
-            padding: 4em 0 0 2em;
+            padding: 3em 0 0 2em;
             margin: 0;
         }
 
@@ -402,12 +402,20 @@
         }
 
         .projectdesc {
+            position: relative;
+            z-index: 98;
+
             p {
                 font-size: 1em;
                 font-family: $opensans;
                 color: #25334A;
                 line-height: 28px;
-                max-width: 300px;
+                @media #{$tablet} {
+                    max-width: 380px;
+                }
+                @media #{$mac13} {
+                    max-width: 300px;
+                }
             }
         }
 

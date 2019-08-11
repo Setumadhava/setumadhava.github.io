@@ -263,7 +263,7 @@
     @media (min-width: 1024px) {
       .projectcard .projectcontentdiv {
         width: 44%;
-        padding: 4em 0 0 2em;
+        padding: 3em 0 0 2em;
         margin: 0; } }
     .projectcard .projectcontentdiv .projectnumber {
       position: absolute;
@@ -297,12 +297,20 @@
       text-decoration: none;
       position: relative;
       z-index: 100; }
-    .projectcard .projectcontentdiv .projectdesc p {
-      font-size: 1em;
-      font-family: "Open Sans", sans-serif;
-      color: #25334A;
-      line-height: 28px;
-      max-width: 300px; }
+    .projectcard .projectcontentdiv .projectdesc {
+      position: relative;
+      z-index: 98; }
+      .projectcard .projectcontentdiv .projectdesc p {
+        font-size: 1em;
+        font-family: "Open Sans", sans-serif;
+        color: #25334A;
+        line-height: 28px; }
+        @media (min-width: 768px) {
+          .projectcard .projectcontentdiv .projectdesc p {
+            max-width: 380px; } }
+        @media (min-width: 1024px) {
+          .projectcard .projectcontentdiv .projectdesc p {
+            max-width: 300px; } }
     .projectcard .projectcontentdiv .comingsoon p {
       font-family: "Open Sans", sans-serif;
       color: #7E7E7E;
