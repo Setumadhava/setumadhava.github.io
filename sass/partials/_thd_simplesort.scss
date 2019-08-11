@@ -225,29 +225,24 @@ p {
     }
 
     #heroimg {
-        position: absolute;
-        top: 25%;
-        transform: translateX(0%);
+        @media #{$tablet} {
+            top: 15%;
+        }
 
         .imgdiv {
-            width: 90%;
+            position: relative;
             margin: 0 auto;
-        }
-        @media #{$tablet} {
-            .imgdiv {
-                width: 80%;
-                margin: 0 auto;
-            }
-            position: absolute;
-            top: 15%;
-        }
-        @media #{$mac13} {
-            .imgdiv {
+            width: 90%;
+            top: 80px;
+            max-width: 382px;
+            @media #{$tablet} {
                 width: 70%;
-                margin: 0 auto;
+                max-width: 537px;
             }
-            position: absolute;
-            top: 15%;
+            @media #{$mac13} {
+                width: 70%;
+                max-width: 737px;
+            }
         }
     }
 }

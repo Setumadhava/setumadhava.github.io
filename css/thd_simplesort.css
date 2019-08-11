@@ -167,27 +167,23 @@ p {
       border-radius: 15px;
       height: 550px;
       max-width: 950px; } }
-  #herosection #heroimg {
-    position: absolute;
-    top: 25%;
-    transform: translateX(0%); }
-    #herosection #heroimg .imgdiv {
-      width: 90%;
-      margin: 0 auto; }
+  @media (min-width: 768px) {
+    #herosection #heroimg {
+      top: 15%; } }
+  #herosection #heroimg .imgdiv {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    top: 80px;
+    max-width: 382px; }
     @media (min-width: 768px) {
-      #herosection #heroimg {
-        position: absolute;
-        top: 15%; }
-        #herosection #heroimg .imgdiv {
-          width: 80%;
-          margin: 0 auto; } }
+      #herosection #heroimg .imgdiv {
+        width: 70%;
+        max-width: 537px; } }
     @media (min-width: 1024px) {
-      #herosection #heroimg {
-        position: absolute;
-        top: 15%; }
-        #herosection #heroimg .imgdiv {
-          width: 70%;
-          margin: 0 auto; } }
+      #herosection #heroimg .imgdiv {
+        width: 70%;
+        max-width: 737px; } }
 
 #herotitle p {
   font-weight: 500;
