@@ -277,8 +277,25 @@ p {
     .animatednavbar {
       top: 40px; } }
 
+.centerimg {
+  width: 90%;
+  margin: 0 auto; }
+  .centerimg .imagediv {
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      .centerimg .imagediv {
+        max-width: 600px; } }
+    @media (min-width: 1024px) {
+      .centerimg .imagediv {
+        max-width: 700px; } }
+    .centerimg .imagediv img {
+      width: 100%;
+      border-radius: 10px;
+      -webkit-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
+      -moz-box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75);
+      box-shadow: 0 4px 15px -4px rgba(102, 102, 102, 0.75); }
+
 .expcenterdiv {
-  width: 85%;
   margin: 0 auto 8em;
   max-height: 800px;
   max-width: 500px;

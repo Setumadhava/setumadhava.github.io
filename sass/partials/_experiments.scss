@@ -358,8 +358,31 @@ p {
     }
 }
 
+.centerimg {
+    width: 90%;
+    margin: 0 auto;
+
+    .imagediv {
+        margin: 0 auto;
+        @media #{$tablet} {
+            max-width: 600px;
+        }
+        @media #{$mac13} {
+            max-width: 700px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            -webkit-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+            -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+            box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+        }
+    }
+}
+
 .expcenterdiv {
-    width: 85%;
+    // width: 85%;
     margin: 0 auto 8em;
     max-height: 800px;
     // background-color: $grey1;
