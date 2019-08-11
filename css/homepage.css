@@ -277,7 +277,7 @@
         font-size: 8em;
         font-family: "Poppins", sans-serif;
         letter-spacing: 2.5px;
-        color: #EDEDED; }
+        color: red; }
     .projectcard .projectcontentdiv .organization {
       position: relative;
       z-index: 99; }
