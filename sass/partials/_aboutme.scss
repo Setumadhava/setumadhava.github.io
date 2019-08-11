@@ -344,11 +344,13 @@ a {
 ////////////////////////// COPYRIGHT START ///////////////////////
 
 #copyrightdiv {
-    font-family: $opensans;
-    text-align: center;
-    font-size: 1em;
-    letter-spacing: 0.5px;
-    color: $grey4;
+    p {
+        font-family: $opensans;
+        text-align: center;
+        font-size: 1em;
+        letter-spacing: 0.5px;
+        color: $grey4;
+    }
 }
 ////////////////////////// COPYRIGHT END ///////////////////////
 ////////////////// STOP ////////////////////

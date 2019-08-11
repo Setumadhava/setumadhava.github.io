@@ -259,7 +259,7 @@ a {
       transition: 0.2s all ease-in-out;
       border-radius: 5px; }
 
-#copyrightdiv {
+#copyrightdiv p {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   font-size: 1em;
