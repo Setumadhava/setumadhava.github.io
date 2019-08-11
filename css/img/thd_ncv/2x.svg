@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="190" height="102" viewBox="0 0 190 102">
-  <g id="Group_1318" data-name="Group 1318" transform="translate(-440 -63)">
+  <g id="_2x" data-name="2x" transform="translate(-440 -63)">
     <rect id="Rectangle_234" data-name="Rectangle 234" width="190" height="102" rx="4" transform="translate(440 63)" fill="#ed6479"/>
-    <text id="_2x" data-name="2x" transform="translate(535 137)" fill="#fff" font-size="60" font-family="OpenSans-Semibold, Open Sans" font-weight="600" opacity="0.502"><tspan x="-33.647" y="0">2x</tspan></text>
+    <path id="Path_69" data-name="Path 69" d="M-2.637,0H-41.348V-6.953l14.727-14.8a125.264,125.264,0,0,0,8.652-9.473,22.616,22.616,0,0,0,3.105-5.254,14.166,14.166,0,0,0,.977-5.273,8.04,8.04,0,0,0-2.324-6.094,8.907,8.907,0,0,0-6.426-2.227,17.132,17.132,0,0,0-6.348,1.211,29.712,29.712,0,0,0-7.09,4.375l-4.961-6.055a32.008,32.008,0,0,1,9.258-5.7,27.1,27.1,0,0,1,9.57-1.68q7.969,0,12.773,4.16a14.051,14.051,0,0,1,4.8,11.191,19.638,19.638,0,0,1-1.387,7.344,29.846,29.846,0,0,1-4.258,7.168,97.3,97.3,0,0,1-9.551,9.98l-9.922,9.609v.391H-2.637ZM16.973-22.07,2.48-43.2H12.949l9.844,15.117L32.715-43.2H43.105L28.574-22.07,43.848,0H33.457L22.793-16.172,12.168,0H1.777Z" transform="translate(535 145)" fill="#fff" opacity="0.502"/>
   </g>
 </svg>
