@@ -288,6 +288,9 @@ a {
     .buttondiv {
         position: relative;
         margin: 1em auto;
+        @media #{$tablet} {
+            margin: 0;
+        }
 
         .button {
             width: 280px;

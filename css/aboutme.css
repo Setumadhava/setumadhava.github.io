@@ -221,6 +221,9 @@ a {
   #socialflex .buttondiv {
     position: relative;
     margin: 1em auto; }
+    @media (min-width: 768px) {
+      #socialflex .buttondiv {
+        margin: 0; } }
     #socialflex .buttondiv .button {
       width: 280px;
       height: 50px;
