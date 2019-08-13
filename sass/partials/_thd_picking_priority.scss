@@ -320,6 +320,13 @@ p {
 }
 
 .hypothesiscontent {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #F5FCFF;
+    padding: 2em;
+    border: 4px solid #0F4C9F;
+    border-radius: 10px;
+
     p {
         font-size: 18px;
         font-family: $opensans;
@@ -339,12 +346,6 @@ p {
     @media #{$mac13} {
         max-width: 850px;
     }
-    width: 85%;
-    margin: 0 auto;
-    background-color: #F5FCFF;
-    padding: 2em;
-    border: 4px solid #8DC8DD;
-    border-radius: 10px;
 }
 
 .imgdesc {
