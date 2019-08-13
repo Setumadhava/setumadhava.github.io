@@ -348,6 +348,52 @@ p {
     }
 }
 
+#insightflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    @media #{$tablet} {
+        max-width: 650px;
+    }
+    @media #{$mac13} {
+        max-width: 1250px;
+    }
+
+    .insightdiv {
+        padding: 1em;
+        @media #{$tablet} {
+            width: 45%;
+            margin-bottom: 2em;
+        }
+        @media #{$mac13} {
+            width: 22%;
+        }
+
+        .insight_imgdiv {
+            img {
+                width: 400px;
+            }
+        }
+
+        .insight_title {
+            p {
+                margin: 1em 0;
+                font-weight: 700;
+                font-size: 18px;
+                font-family: $opensans;
+            }
+        }
+
+        .insight_content {
+            p {
+                font-size: 16px;
+                font-family: $opensans;
+            }
+        }
+    }
+}
+
 .imgdesc {
     p {
         width: 85%;
