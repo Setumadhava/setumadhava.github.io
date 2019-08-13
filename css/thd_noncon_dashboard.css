@@ -387,14 +387,13 @@ p {
 .hypothesiscontent {
   width: 85%;
   margin: 0 auto;
-  background-color: #F5FFF7;
   padding: 2em;
-  border: 4px solid #23A841;
+  border: 6px solid #2B803F;
   border-radius: 10px; }
   .hypothesiscontent p {
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
-    color: #23A841;
+    color: #2B803F;
     font-weight: 600;
     line-height: 34px;
     text-align: center; }

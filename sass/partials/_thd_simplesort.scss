@@ -445,15 +445,15 @@ p {
 .hypothesiscontent {
     width: 85%;
     margin: 0 auto;
-    background-color: #F7F5FF;
+    // background-color: #F7F5FF;
     padding: 2em;
-    border: 4px solid #A2A5FD;
+    border: 6px solid #63379F;
     border-radius: 10px;
 
     p {
         font-size: 18px;
         font-family: $opensans;
-        color: #8660ED;
+        color: #63379F;
         font-weight: 600;
         line-height: 34px;
         text-align: center;
