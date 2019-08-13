@@ -379,6 +379,7 @@ p {
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: space-between;
+    width: 90%;
     @media #{$tablet} {
         max-width: 650px;
     }
