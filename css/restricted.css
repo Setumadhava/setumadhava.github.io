@@ -229,14 +229,16 @@ a {
           height: 28px; }
     #passwordwrapper #formflex #buttondiv:hover {
       cursor: pointer; }
-      #passwordwrapper #formflex #buttondiv:hover #hoverdiv {
-        width: 116px;
-        background-color: #25334A;
-        transition: 0.1s all ease-in-out;
-        border-radius: 7px; }
-      #passwordwrapper #formflex #buttondiv:hover #Group_240 {
-        stroke: white;
-        transition: 0.25s all ease-in-out; }
+      @media (min-width: 1024px) {
+        #passwordwrapper #formflex #buttondiv:hover #hoverdiv {
+          width: 116px;
+          background-color: #25334A;
+          transition: 0.1s all ease-in-out;
+          border-radius: 7px; } }
+      @media (min-width: 1024px) {
+        #passwordwrapper #formflex #buttondiv:hover #Group_240 {
+          stroke: white;
+          transition: 0.25s all ease-in-out; } }
   #passwordwrapper #reachoutdiv {
     margin: 2em 0 0; }
     #passwordwrapper #reachoutdiv p {

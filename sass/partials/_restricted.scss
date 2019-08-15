@@ -311,15 +311,19 @@ a {
             cursor: pointer;
 
             #hoverdiv {
-                width: 116px;
-                background-color: #25334A;
-                transition: 0.1s all ease-in-out;
-                border-radius: 7px;
+                @media #{$mac13} {
+                    width: 116px;
+                    background-color: #25334A;
+                    transition: 0.1s all ease-in-out;
+                    border-radius: 7px;
+                }
             }
 
             #Group_240 {
-                stroke: white;
-                transition: 0.25s all ease-in-out;
+                @media #{$mac13} {
+                    stroke: white;
+                    transition: 0.25s all ease-in-out;
+                }
             }
         }
     }
