@@ -278,6 +278,7 @@ a {
     flex-wrap: wrap;
     margin: 6em auto 8em;
     justify-content: space-between;
+    width: 85%;
     @media #{$tablet} {
         max-width: 600px;
     }
@@ -331,16 +332,20 @@ a {
 
         .button {
             p {
-                color: white;
-                transition: 0.25s all ease-in-out;
+                @media #{$mac13} {
+                    color: white;
+                    transition: 0.25s all ease-in-out;
+                }
             }
         }
 
         .hoverdiv {
-            width: 160px;
-            background-color: #25334A;
-            transition: 0.2s all ease-in-out;
-            border-radius: 5px;
+            @media #{$mac13} {
+                width: 160px;
+                background-color: #25334A;
+                transition: 0.2s all ease-in-out;
+                border-radius: 5px;
+            }
         }
     }
 }

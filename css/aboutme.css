@@ -211,7 +211,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin: 6em auto 8em;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 85%; }
   @media (min-width: 768px) {
     #socialflex {
       max-width: 600px; } }
@@ -253,14 +254,16 @@ a {
       top: 0; }
   #socialflex .buttondiv:hover {
     cursor: pointer; }
-    #socialflex .buttondiv:hover .button p {
-      color: white;
-      transition: 0.25s all ease-in-out; }
-    #socialflex .buttondiv:hover .hoverdiv {
-      width: 160px;
-      background-color: #25334A;
-      transition: 0.2s all ease-in-out;
-      border-radius: 5px; }
+    @media (min-width: 1024px) {
+      #socialflex .buttondiv:hover .button p {
+        color: white;
+        transition: 0.25s all ease-in-out; } }
+    @media (min-width: 1024px) {
+      #socialflex .buttondiv:hover .hoverdiv {
+        width: 160px;
+        background-color: #25334A;
+        transition: 0.2s all ease-in-out;
+        border-radius: 5px; } }
 
 #copyrightdiv p {
   font-family: "Open Sans", sans-serif;
