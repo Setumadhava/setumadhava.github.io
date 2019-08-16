@@ -346,6 +346,19 @@
         }
     }
 
+    .lockicon {
+        position: absolute;
+        transform: translateY(80%);
+        left: 40%;
+        z-index: 10;
+        opacity: 0.3;
+        transition: 0.25s all ease-in-out;
+
+        img {
+            max-width: 100px;
+        }
+    }
+
     .projectcontentdiv {
         width: 90%;
         margin: 0 auto;
@@ -584,6 +597,11 @@
 .thd_ncv_card:hover {
     cursor: pointer;
 
+    .lockicon {
+        opacity: 1;
+        transition: 0.25s all ease-in-out;
+    }
+
     .thd_ncv {
         background-color: #78CB8D;
         transition: 0.25s all ease-in-out;
@@ -601,6 +619,11 @@
 .thd_pp_card:hover {
     cursor: pointer;
 
+    .lockicon {
+        opacity: 1;
+        transition: 0.25s all ease-in-out;
+    }
+
     .thd_pp {
         background-color: #8AC6DB;
         transition: 0.25s all ease-in-out;
@@ -617,6 +640,11 @@
 
 .thd_ss_card:hover {
     cursor: pointer;
+
+    .lockicon {
+        opacity: 1;
+        transition: 0.25s all ease-in-out;
+    }
 
     .thd_ss {
         background-color: #ABACE2;
