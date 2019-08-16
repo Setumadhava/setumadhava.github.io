@@ -261,8 +261,11 @@
     right: 50%;
     transform: translate(50%, -50%);
     z-index: 10;
-    opacity: 0.3;
+    opacity: 1;
     transition: 0.25s all ease-in-out; }
+    @media (min-width: 1024px) {
+      .projectcard .lockicon {
+        opacity: 0.3; } }
     .projectcard .lockicon img {
       max-width: 100px; }
   .projectcard .projectcontentdiv {
