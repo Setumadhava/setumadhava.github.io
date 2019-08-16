@@ -891,6 +891,25 @@ p {
             width: 100%;
         }
     }
+    ///// SIMPLE SORT ////
+    .thd_ss_outer {
+        background-color: #DBDCFF;
+        position: relative;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_ss_inner {
+        width: 85%;
+        margin: 0 auto;
+        position: relative;
+        @media #{$tablet} {
+            top: 50px;
+        }
+
+        .img {
+            width: 100%;
+        }
+    }
     ///// MOTION DESIGN ////
     .motion_design_outer {
         background-color: #F8B2B2;
@@ -923,6 +942,11 @@ p {
 
         .thd_ncv_outer {
             background-color: #78CB8D;
+            transition: 0.25s all ease-in-out;
+        }
+
+        .thd_ss_outer {
+            background-color: #ABACE2;
             transition: 0.25s all ease-in-out;
         }
 

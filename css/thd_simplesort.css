@@ -614,6 +614,25 @@ p {
         max-width: 265.44px; } }
     .otherworksflex .motion_design_inner .img {
       width: 100%; }
+  .otherworksflex .piu_outer {
+    background-color: #C7FAF6;
+    position: relative;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .piu_inner {
+    width: 55%;
+    margin: 0 auto;
+    position: relative; }
+    @media (min-width: 768px) {
+      .otherworksflex .piu_inner {
+        top: -10px;
+        width: 50%; } }
+    @media (min-width: 1024px) {
+      .otherworksflex .piu_inner {
+        top: -10px;
+        width: 37.5%;
+        max-width: 150px; } }
+    .otherworksflex .piu_inner .img {
+      width: 100%; }
   .otherworksflex .owdiv:hover .thd_pp_outer {
     background-color: #8AC6DB;
     transition: 0.25s all ease-in-out; }
@@ -622,6 +641,9 @@ p {
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .motion_design_outer {
     background-color: #F08989;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .owdiv:hover .piu_outer {
+    background-color: #85CBCA;
     transition: 0.25s all ease-in-out; }
 
 #copyrightdiv p {

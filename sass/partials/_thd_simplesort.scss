@@ -830,6 +830,31 @@ p {
             width: 100%;
         }
     }
+    ///// PUMP IT UP ////
+    .piu_outer {
+        background-color: #C7FAF6;
+        position: relative;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .piu_inner {
+        width: 55%;
+        margin: 0 auto;
+        position: relative;
+        @media #{$tablet} {
+            top: -10px;
+            width: 50%;
+        }
+        @media #{$mac13} {
+            top: -10px;
+            width: 37.5%;
+            max-width: 150px;
+        }
+
+        .img {
+            width: 100%;
+        }
+    }
     //////////////////////// PROJECT SPECIFIC ENDS /////////////////////////
     .owdiv:hover {
         .thd_pp_outer {
@@ -844,6 +869,11 @@ p {
 
         .motion_design_outer {
             background-color: #F08989;
+            transition: 0.25s all ease-in-out;
+        }
+
+        .piu_outer {
+            background-color: #85CBCA;
             transition: 0.25s all ease-in-out;
         }
     }
