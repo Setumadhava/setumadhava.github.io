@@ -225,29 +225,29 @@ p {
     }
 
     #heroimg {
+        position: relative;
         @media #{$tablet} {
-            top: 15%;
+            // top: 15%;
         }
 
         .imgdiv {
-            position: relative;
-            margin: 0 auto;
-            width: 40%;
-            top: 30px;
-            max-width: 140px;
-
             img {
                 width: 100%;
             }
+            position: absolute;
+            width: 40%;
+            max-width: 140px;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%,15%);
             @media #{$tablet} {
                 width: 25%;
-                max-width: 350px;
-                margin: 0 auto;
+                max-width: 180px;
+                transform: translate(50%,10%);
             }
             @media #{$mac13} {
-                width: 25%;
-                max-width: 350px;
-                margin: 0 auto;
+                transform: translate(50%,15%);
+                max-width: 200px;
             }
         }
     }
@@ -624,11 +624,13 @@ p {
 }
 
 .usabilityimg {
+    margin: 3em auto;
     @media #{$tablet} {
-        width: 65%;
+        width: 75%;
     }
     @media #{$mac13} {
         width: 40%;
+        margin: 0 auto;
     }
 }
 
