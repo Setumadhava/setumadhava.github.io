@@ -257,8 +257,9 @@
         margin: 0; } }
   .projectcard .lockicon {
     position: absolute;
-    transform: translateY(80%);
-    left: 40%;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
     z-index: 10;
     opacity: 0.3;
     transition: 0.25s all ease-in-out; }
