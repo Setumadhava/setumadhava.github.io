@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="102" viewBox="0 0 190 102">
+  <g id="Group_1320" data-name="Group 1320" transform="translate(-852 -63)">
+    <rect id="Rectangle_236" data-name="Rectangle 236" width="190" height="102" rx="4" transform="translate(852 63)" fill="#f4c424"/>
+    <g id="Group_273" data-name="Group 273" transform="translate(920.313 82)">
+      <path id="Rectangle_101" data-name="Rectangle 101" d="M2,0H22.475a2,2,0,0,1,2,2V37.9a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(14.687 0)" fill="#fff" opacity="0.51"/>
+      <path id="Polygon_2" data-name="Polygon 2" d="M25.473,1.29a2,2,0,0,1,2.741,0l21.8,20.518a2,2,0,0,1-1.371,3.456H5.043a2,2,0,0,1-1.371-3.456Z" transform="translate(53.374 63.161) rotate(180)" fill="#fff" opacity="0.51"/>
+    </g>
+    <text id="_" data-name="₹" transform="translate(940 117.685)" fill="#fff" font-size="25" font-family="PingFangSC-Semibold, PingFang SC" font-weight="600" opacity="0.597"><tspan x="0" y="0">₹</tspan></text>
+  </g>
+</svg>

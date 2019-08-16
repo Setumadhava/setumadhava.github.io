@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="263px" height="93px" viewBox="0 0 263 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>userneed2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="20.1589286" cy="17.1647727" rx="9.36964286" ry="9.9375"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18.7392857" height="19.875" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Poster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-248.000000, -4987.000000)">
+            <g id="Group-9" transform="translate(248.000000, 4987.000000)">
+                <g id="userneed2">
+                    <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="262.5" height="93"></rect>
+                    <text id="User-Need-2" font-family="Roboto-MediumItalic, Roboto" font-size="13.5" font-style="italic" font-weight="500" fill="#032A2F">
+                        <tspan x="71.25" y="20">User Need 2</tspan>
+                    </text>
+                    <text id="I-want-to-be-able-to" font-family="Roboto-Italic, Roboto" font-size="13.5" font-style="italic" font-weight="normal" fill="#032A2F">
+                        <tspan x="71.25" y="44">I want to be able to fill the </tspan>
+                        <tspan x="71.25" y="62">tank remotely, without walking </tspan>
+                        <tspan x="71.25" y="80">to the pump switch</tspan>
+                    </text>
+                    <g id="Group-2" transform="translate(13.500000, 10.500000)">
+                        <polygon id="Path-40" stroke="#026F8B" stroke-width="0.75" stroke-linecap="square" points="10.2214286 31.3181818 6.24642857 34.3295455 6.24642857 39.75 34.6392857 39.75 34.6392857 34.3295455 31.2321429 31.3181818"></polygon>
+                        <use id="Oval" stroke="#026F8B" mask="url(#mask-2)" stroke-width="4.5" stroke-linecap="square" xlink:href="#path-1"></use>
+                        <ellipse id="Oval-Copy" fill="#026F8B" cx="20.1589286" cy="17.1647727" rx="1.9875" ry="2.10795455"></ellipse>
+                        <path d="M12.4928571,22.8863636 L12.4928571,31.3181818" id="Path-41" stroke="#026F8B" stroke-width="0.75" stroke-linecap="square"></path>
+                        <path d="M27.825,22.8863636 L27.825,31.3181818" id="Path-41-Copy" stroke="#026F8B" stroke-width="0.75" stroke-linecap="square"></path>
+                        <path d="M17.0357143,7.85686516 L17.0357143,1.20454545" id="Path-42" stroke="#026F8B" stroke-width="0.75" stroke-linecap="square"></path>
+                        <path d="M23.2821429,7.85686516 L23.2821429,1.20454545" id="Path-42-Copy" stroke="#026F8B" stroke-width="0.75" stroke-linecap="square"></path>
+                        <polygon id="Path-43" stroke="#026F8B" stroke-width="0.75" stroke-linecap="square" fill="#FFFFFF" points="13.0607143 0 15.3321429 4.81818182 24.9857143 4.81818182 26.6892857 0"></polygon>
+                        <polyline id="Path-44" stroke="#026F8B" stroke-width="0.75" stroke-linecap="square" points="26.1214286 9.63636364 39.75 9.63636364 39.75 24.7052225 31.7176739 24.7052225 31.7176739 20.4763712 28.9607142 20.4763712"></polyline>
+                        <polyline id="Path-45" stroke="#026F8B" stroke-width="0.75" stroke-linecap="square" points="33.5035714 25.2954545 33.5035714 28.3068182 38.0817821 28.3068182 38.0817821 25.2952211"></polyline>
+                        <path d="M12.4928571,27.1022727 C12.4928571,27.1022727 7.38214286,27.1022727 7.38214286,23.4886364 L0.567857143,23.4886364 C0.567857143,23.4886364 2.31858976e-12,30.7159091 5.67857143,34.9318182" id="Path-46" stroke="#026F8B" stroke-width="0.75" stroke-linecap="square"></path>
+                        <polyline id="Path-47" stroke="#026F8B" stroke-width="0.75" stroke-linecap="square" points="2.27142857 23.4886364 2.27142857 20.4772727 5.67857143 20.4772727 5.67857143 23.4886364"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
