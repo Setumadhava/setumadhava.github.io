@@ -489,7 +489,7 @@ p {
   margin: 0 auto; }
   @media (min-width: 768px) {
     #OWline {
-      max-width: 600px; } }
+      max-width: 700px; } }
   @media (min-width: 1024px) {
     #OWline {
       max-width: 1000px; } }
@@ -499,7 +499,7 @@ p {
   margin: 0 auto; }
   @media (min-width: 768px) {
     #owsectiontitle {
-      max-width: 600px; } }
+      max-width: 700px; } }
   @media (min-width: 1024px) {
     #owsectiontitle {
       max-width: 1000px; } }
@@ -519,7 +519,7 @@ p {
   justify-content: space-between; }
   @media (min-width: 768px) {
     .otherworksflex {
-      max-width: 600px; } }
+      max-width: 700px; } }
   @media (min-width: 1024px) {
     .otherworksflex {
       max-width: 1000px;
@@ -531,7 +531,7 @@ p {
     position: relative; }
     @media (min-width: 768px) {
       .otherworksflex .owdiv {
-        width: 40%;
+        width: 45%;
         margin: 0; } }
     .otherworksflex .owdiv .otherprojimgdiv {
       padding: 2em 0;

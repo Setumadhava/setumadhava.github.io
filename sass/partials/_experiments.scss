@@ -419,7 +419,7 @@ p {
     background-color: $grey1;
     margin: 0 auto;
     @media #{$tablet} {
-        max-width: 600px;
+        max-width: 700px;
     }
     @media #{$mac13} {
         max-width: 1000px;
@@ -430,7 +430,7 @@ p {
     width: 85%;
     margin: 0 auto;
     @media #{$tablet} {
-        max-width: 600px;
+        max-width: 700px;
     }
     @media #{$mac13} {
         max-width: 1000px;
@@ -453,7 +453,7 @@ p {
     margin: 2em auto;
     justify-content: space-between;
     @media #{$tablet} {
-        max-width: 600px;
+        max-width: 700px;
     }
     @media #{$mac13} {
         max-width: 1000px;
@@ -466,7 +466,7 @@ p {
         transition: 0.25s all ease-in-out;
         position: relative;
         @media #{$tablet} {
-            width: 40%;
+            width: 45%;
             margin: 0;
         }
 
