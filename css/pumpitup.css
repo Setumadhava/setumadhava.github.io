@@ -259,13 +259,14 @@ p {
   font-style: italic;
   text-align: center;
   color: #7E7E7E;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px; }
   @media (min-width: 768px) {
     .imgdesc p {
       max-width: 600px; } }
   @media (min-width: 1024px) {
     .imgdesc p {
-      max-width: 1250px; } }
+      max-width: 650px; } }
 
 #emphasisflex {
   display: flex;

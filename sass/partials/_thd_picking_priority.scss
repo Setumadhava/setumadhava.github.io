@@ -403,11 +403,12 @@ p {
         text-align: center;
         color: $grey4;
         font-family: $opensans;
+        line-height: 30px;
         @media #{$tablet} {
             max-width: 600px;
         }
         @media #{$mac13} {
-            max-width: 1250px;
+            max-width: 650px;
         }
     }
 }
