@@ -120,7 +120,7 @@
                     list-style: none;
                     padding: 1.5em 0;
                     @media #{$mac15} {
-                        padding: 1.5em 0 1.5em 3em;
+                        padding: 1.5em 0 1.5em 4em;
                         margin-bottom: 2em;
                     }
 
@@ -481,7 +481,7 @@ p {
     width: 85%;
     margin: 0 auto;
     @media #{$tablet} {
-        max-width: 950px;
+        max-width: 1000px;
     }
 
     .roleitem {

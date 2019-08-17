@@ -95,7 +95,7 @@
         padding: 1.5em 0; }
         @media (min-width: 1440px) {
           #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul li {
-            padding: 1.5em 0 1.5em 3em;
+            padding: 1.5em 0 1.5em 4em;
             margin-bottom: 2em; } }
         #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul li a {
           color: #25334A;
@@ -352,7 +352,7 @@ p {
   margin: 0 auto; }
   @media (min-width: 768px) {
     #roleflex {
-      max-width: 950px; } }
+      max-width: 1000px; } }
   #roleflex .roleitem {
     width: 100%;
     padding: 2em; }
