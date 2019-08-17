@@ -46,7 +46,7 @@
       padding: 1.5em 0; }
       @media (min-width: 1024px) {
         #hpheader #hpheaderflex ul li {
-          padding: 0.45em 1.5em; } }
+          padding: 0.45em 0 0 3em; } }
       #hpheader #hpheaderflex ul li a {
         color: #25334A;
         font-family: "Open Sans", sans-serif;

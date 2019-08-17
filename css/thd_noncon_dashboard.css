@@ -95,7 +95,7 @@
         padding: 1.5em 0; }
         @media (min-width: 1440px) {
           #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul li {
-            padding: 1.5em;
+            padding: 1.5em 0 1.5em 3em;
             margin-bottom: 2em; } }
         #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul li a {
           color: #25334A;
@@ -166,7 +166,7 @@ p {
     #herosection {
       border-radius: 15px;
       height: 550px;
-      max-width: 950px; } }
+      max-width: 1000px; } }
   #herosection #heroimg {
     position: absolute;
     top: 25%;

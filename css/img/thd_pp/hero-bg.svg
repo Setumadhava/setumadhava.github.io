@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="779" height="415" viewBox="0 0 779 415">
   <g id="hero-bg-green" transform="translate(-586 -127)">
-    <rect id="Rectangle_3" data-name="Rectangle 3" width="779" height="415" rx="30" transform="translate(586 127)" fill="#c9e9f4"/>
-    <path id="Path_7" data-name="Path 7" d="M779,206.8V385a30,30,0,0,1-30,30H30A30,30,0,0,1,0,385V225.375s65.1,35.257,195.469,21.5c69.563-7.341,291.817-38.22,408.053-48.363C670.007,192.709,779,200.91,779,206.8Z" transform="translate(586 127)" fill="#09456a" opacity="0.096"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="779" height="415" transform="translate(586 127)" fill="#c9e9f4"/>
+    <path id="Path_84" data-name="Path 84" d="M0-4.226S60.759-32.465,198.387-32.465,458.612,13.5,609.605,13.5,779-4.226,779-4.226V164.521H0Z" transform="translate(586 377.479)" fill="#b2dcea"/>
   </g>
 </svg>
