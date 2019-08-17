@@ -4,6 +4,12 @@ a {
 .threeemboth {
   padding: 3em 0; }
 
+.twoemboth {
+  padding: 2em 0; }
+
+.oneemboth {
+  padding: 1em 0; }
+
 #wrapper {
   width: 90%;
   margin: 0 auto; }
@@ -206,6 +212,57 @@ a {
   .contentsection p {
     line-height: 1.9em;
     font-family: "Open Sans", sans-serif; }
+
+.centerimg {
+  width: 85%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .centerimg {
+      max-width: 600px; } }
+  @media (min-width: 1024px) {
+    .centerimg {
+      max-width: 650px; } }
+
+.subtitle {
+  width: 85%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .subtitle {
+      max-width: 600px; } }
+  @media (min-width: 1024px) {
+    .subtitle {
+      max-width: 650px; } }
+  .subtitle p {
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif; }
+
+.imgdesc p {
+  width: 85%;
+  margin: 0 auto;
+  font-style: italic;
+  text-align: center;
+  color: #7E7E7E;
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px; }
+  @media (min-width: 768px) {
+    .imgdesc p {
+      max-width: 600px; } }
+  @media (min-width: 1024px) {
+    .imgdesc p {
+      max-width: 650px; } }
+
+.line {
+  width: 85%;
+  height: 3px;
+  background-color: #EDEDED;
+  margin: 0 auto 6em; }
+  @media (min-width: 768px) {
+    .line {
+      max-width: 600px; } }
+  @media (min-width: 1024px) {
+    .line {
+      max-width: 650px; } }
 
 #socialflex {
   display: flex;

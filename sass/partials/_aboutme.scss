@@ -6,6 +6,14 @@ a {
     padding: 3em 0;
 }
 
+.twoemboth {
+    padding: 2em 0;
+}
+
+.oneemboth {
+    padding: 1em 0;
+}
+
 #wrapper {
     width: 90%;
     margin: 0 auto;
@@ -270,6 +278,65 @@ a {
     p {
         line-height: 1.9em;
         font-family: $opensans;
+    }
+}
+
+.centerimg {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
+}
+
+.subtitle {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
+
+    p {
+        font-size: 1.1em;
+        font-weight: 700;
+        font-family: $opensans;
+    }
+}
+
+.imgdesc {
+    p {
+        width: 85%;
+        margin: 0 auto;
+        font-style: italic;
+        text-align: center;
+        color: $grey4;
+        font-family: $opensans;
+        line-height: 30px;
+        @media #{$tablet} {
+            max-width: 600px;
+        }
+        @media #{$mac13} {
+            max-width: 650px;
+        }
+    }
+}
+
+.line {
+    width: 85%;
+    height: 3px;
+    background-color: $grey1;
+    margin: 0 auto 6em;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
     }
 }
 
