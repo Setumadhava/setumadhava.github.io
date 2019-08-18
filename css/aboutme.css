@@ -213,16 +213,6 @@ a {
     line-height: 1.9em;
     font-family: "Open Sans", sans-serif; }
 
-.centerimg {
-  width: 85%;
-  margin: 0 auto; }
-  @media (min-width: 768px) {
-    .centerimg {
-      max-width: 600px; } }
-  @media (min-width: 1024px) {
-    .centerimg {
-      max-width: 650px; } }
-
 .subtitle {
   width: 85%;
   margin: 0 auto; }

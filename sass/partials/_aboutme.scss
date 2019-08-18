@@ -281,17 +281,6 @@ a {
     }
 }
 
-.centerimg {
-    width: 85%;
-    margin: 0 auto;
-    @media #{$tablet} {
-        max-width: 600px;
-    }
-    @media #{$mac13} {
-        max-width: 650px;
-    }
-}
-
 .subtitle {
     width: 85%;
     margin: 0 auto;
