@@ -242,16 +242,16 @@ a {
     .imgdesc p {
       max-width: 650px; } }
 
-.line {
+.linediv {
   width: 85%;
   height: 3px;
   background-color: #EDEDED;
   margin: 0 auto 6em; }
   @media (min-width: 768px) {
-    .line {
+    .linediv {
       max-width: 600px; } }
   @media (min-width: 1024px) {
-    .line {
+    .linediv {
       max-width: 650px; } }
 
 #socialflex {
