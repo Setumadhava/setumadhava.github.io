@@ -266,6 +266,11 @@ a {
   @media (min-width: 1024px) {
     #socialflex {
       max-width: 650px; } }
+  #socialflex a {
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      #socialflex a {
+        margin: 0; } }
   #socialflex .buttondiv {
     position: relative;
     margin: 1em auto; }
@@ -273,7 +278,7 @@ a {
       #socialflex .buttondiv {
         margin: 0; } }
     #socialflex .buttondiv .button {
-      width: 280px;
+      width: 260px;
       height: 50px;
       background-color: white;
       border: 2px solid #25334A;
