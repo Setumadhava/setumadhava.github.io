@@ -428,7 +428,7 @@ p {
     width: 85%;
     margin: 0 auto;
     @media #{$tablet} {
-        max-width: 600px;
+        max-width: 500px;
     }
     @media #{$mac13} {
         max-width: 850px;

@@ -335,7 +335,7 @@ p {
   margin: 0 auto; }
   @media (min-width: 768px) {
     .landscapeimg {
-      max-width: 600px; } }
+      max-width: 500px; } }
   @media (min-width: 1024px) {
     .landscapeimg {
       max-width: 850px; } }
