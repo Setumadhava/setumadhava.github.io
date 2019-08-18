@@ -420,7 +420,30 @@ p {
         max-width: 600px;
     }
     @media #{$mac13} {
-        max-width: 650px;
+        max-width: 850px;
+    }
+}
+
+.landscapeimg {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 850px;
+    }
+}
+
+.planeimg {
+    margin: 3em auto;
+    @media #{$tablet} {
+        max-width: 600px;
+        margin: 3em auto;
+    }
+    @media #{$mac13} {
+        max-width: 870px;
+        margin: 3em auto;
     }
 }
 

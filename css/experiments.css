@@ -328,7 +328,28 @@ p {
       max-width: 600px; } }
   @media (min-width: 1024px) {
     .foodimg {
-      max-width: 650px; } }
+      max-width: 850px; } }
+
+.landscapeimg {
+  width: 85%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .landscapeimg {
+      max-width: 600px; } }
+  @media (min-width: 1024px) {
+    .landscapeimg {
+      max-width: 850px; } }
+
+.planeimg {
+  margin: 3em auto; }
+  @media (min-width: 768px) {
+    .planeimg {
+      max-width: 600px;
+      margin: 3em auto; } }
+  @media (min-width: 1024px) {
+    .planeimg {
+      max-width: 870px;
+      margin: 3em auto; } }
 
 #OWline {
   width: 85%;
