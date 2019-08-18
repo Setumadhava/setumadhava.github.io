@@ -440,6 +440,20 @@ p {
       font-size: 16px;
       font-family: "Open Sans", sans-serif; }
 
+.creditcontent {
+  width: 82%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .creditcontent {
+      max-width: 620px; } }
+  @media (min-width: 1024px) {
+    .creditcontent {
+      max-width: 650px; } }
+  .creditcontent p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #BCBCBC; }
+
 .centerimg {
   background-color: #EDEDED; }
   @media (min-width: 768px) {

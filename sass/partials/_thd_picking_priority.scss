@@ -413,6 +413,23 @@ p {
     }
 }
 
+.creditcontent {
+    width: 82%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 620px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: $opensans;
+        color: $grey3;
+    }
+}
+
 #emphasisflex {
     display: flex;
     width: 85%;

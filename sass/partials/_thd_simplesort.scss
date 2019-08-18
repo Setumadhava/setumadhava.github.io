@@ -518,47 +518,23 @@ p {
         }
     }
 }
-// .findingsflex {
-//     display: flex;
-//     flex-wrap: wrap;
-//     margin: 0 auto;
-//     justify-content: center;
-//     width: 85%;
-//     @media #{$tablet} {
-//         max-width: 800px;
-//         justify-content: space-around;
-//     }
-//     @media #{$mac13} {
-//         max-width: 1050px;
-//         justify-content: space-between;
-//     }
-//
-//     .findingsbox {
-//         background-color: $grey1;
-//         padding: 1em;
-//         border-radius: 10px;
-//         margin-bottom: 2em;
-//         @media #{$mac13} {
-//             width: 42%;
-//             margin: 2em;
-//         }
-//
-//         .findingstitle {
-//             p {
-//                 font-weight: 700;
-//                 font-size: 18px;
-//                 font-family: $opensans;
-//             }
-//         }
-//
-//         .findingscontent {
-//             p {
-//                 font-size: 16px;
-//                 font-family: $opensans;
-//             }
-//         }
-//     }
-// }
+
+.creditcontent {
+    width: 82%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 620px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: $opensans;
+        color: $grey3;
+    }
+}
 
 .centerimg {
     background-color: #EDEDED;
