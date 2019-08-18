@@ -488,7 +488,7 @@
     }
 
     .projectimg {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
         transition: 0.25s all ease-in-out;
         @media #{$tablet} {
@@ -543,7 +543,7 @@
     }
 
     .projectimg {
-        width: 70%;
+        width: 55%;
         margin: 0 auto;
         transition: 0.25s all ease-in-out;
         position: relative;
@@ -552,12 +552,15 @@
             border-radius: 10px;
         }
         @media #{$tablet} {
-            top: 0;
-            width: 35%;
-            max-width: 380px;
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%,-50%);
+            width: 26.5%;
+            max-width: 183.16px;
         }
         @media #{$mac13} {
-            top: -10px;
+            // top: -10px;
             width: 30%;
             max-width: 138px;
         }

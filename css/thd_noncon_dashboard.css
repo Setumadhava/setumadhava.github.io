@@ -662,12 +662,14 @@ p {
     position: relative; }
     @media (min-width: 768px) {
       .otherworksflex .piu_inner {
-        top: -10px;
-        width: 50%; } }
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        max-width: 141.75px;
+        width: 45%; } }
     @media (min-width: 1024px) {
       .otherworksflex .piu_inner {
-        top: -10px;
-        width: 37.5%;
         max-width: 150px; } }
     .otherworksflex .piu_inner .img {
       width: 100%; }

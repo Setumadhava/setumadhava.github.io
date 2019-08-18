@@ -843,12 +843,14 @@ p {
         margin: 0 auto;
         position: relative;
         @media #{$tablet} {
-            top: -10px;
-            width: 50%;
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%,-50%);
+            max-width: 141.75px;
+            width: 45%;
         }
         @media #{$mac13} {
-            top: -10px;
-            width: 37.5%;
             max-width: 150px;
         }
 
