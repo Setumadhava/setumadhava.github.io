@@ -181,7 +181,7 @@ a {
   @media (min-width: 1024px) {
     #mypicture {
       border-radius: 15px;
-      height: 550px;
+      height: 500px;
       max-width: 1000px; } }
 
 .abouttitle {
