@@ -15,7 +15,7 @@ a {
 
 #hpheader {
   margin: 2.1em auto;
-  width: 90%; }
+  width: 100%; }
   @media (min-width: 768px) {
     #hpheader {
       margin: 4.1em auto; } }
