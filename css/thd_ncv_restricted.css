@@ -2,7 +2,6 @@ a {
   text-decoration: none; }
 
 #wrapper {
-  width: 90%;
   margin: 0 auto; }
   @media (min-width: 768px) {
     #wrapper {
@@ -11,9 +10,12 @@ a {
     #wrapper {
       max-width: 1000px; } }
 
+.threeemboth {
+  padding: 3em 0; }
+
 #hpheader {
   margin: 2.1em auto;
-  width: 100%; }
+  width: 90%; }
   @media (min-width: 768px) {
     #hpheader {
       margin: 4.1em auto; } }
@@ -155,8 +157,80 @@ a {
         color: #F04B33;
         transition: 0.25s all ease-in-out; }
 
+#herosection {
+  background-image: url("img/thd_ncv/hero-bg-green.svg");
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: relative;
+  border-radius: 0;
+  margin: 0 auto;
+  height: 350px; }
+  @media (min-width: 768px) {
+    #herosection {
+      height: 460px; } }
+  @media (min-width: 1024px) {
+    #herosection {
+      border-radius: 15px;
+      height: 550px;
+      max-width: 1000px; } }
+  #herosection #heroimg {
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 300px;
+    width: 90%; }
+    #herosection #heroimg .imgdiv {
+      width: 100%; }
+    @media (min-width: 768px) {
+      #herosection #heroimg {
+        width: 614px;
+        top: 65%; } }
+    @media (min-width: 1024px) {
+      #herosection #heroimg {
+        width: 700px;
+        top: 65%; } }
+
+.lockicon {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  z-index: 1;
+  opacity: 1;
+  transition: 0.25s all ease-in-out; }
+  .lockicon img {
+    max-width: 100px; }
+    @media (min-width: 768px) {
+      .lockicon img {
+        max-width: 150px; } }
+
+#herotitle p {
+  font-weight: 500;
+  font-size: 2em;
+  padding-top: 1em;
+  width: 85%;
+  margin: 5em auto 0;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px; }
+  @media (min-width: 768px) {
+    #herotitle p {
+      max-width: 600px;
+      font-size: 2.6em;
+      margin: 2em auto 0; } }
+  @media (min-width: 1024px) {
+    #herotitle p {
+      max-width: 650px;
+      font-size: 2.6em;
+      margin: 0 auto; } }
+
 #passwordwrapper {
-  margin-top: 8em; }
+  margin-top: 8em;
+  width: 90%;
+  margin: 0 auto; }
   #passwordwrapper #lockicondiv {
     max-width: 100px;
     margin: 0 auto; }
@@ -200,7 +274,8 @@ a {
         #passwordwrapper #formflex #inputBox {
           margin: 0 1em; } }
     #passwordwrapper #formflex #buttondiv {
-      width: 120px;
+      width: 100%;
+      max-width: 330px;
       border: 2px solid #25334A;
       height: 50px;
       border-radius: 10px;
@@ -208,7 +283,8 @@ a {
       position: relative; }
       @media (min-width: 768px) {
         #passwordwrapper #formflex #buttondiv {
-          margin: 0; } }
+          margin: 0;
+          width: 120px; } }
       #passwordwrapper #formflex #buttondiv #hoverdiv {
         height: 46px;
         width: 0;
@@ -220,7 +296,9 @@ a {
         width: 31.38px;
         margin: 0.6em auto 0;
         position: absolute;
-        left: 35%;
+        top: 35%;
+        right: 50%;
+        transform: translate(50%, -50%);
         z-index: 100; }
         #passwordwrapper #formflex #buttondiv #buttonimg #btn {
           transition: 0.5s all ease-in-out;
@@ -256,6 +334,13 @@ a {
         border-bottom: 1px solid #F04B33;
         border-bottom-style: dotted;
         padding-bottom: 2px; }
+
+#copyrightdiv p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  color: #7E7E7E; }
 
 .container,
 body,
@@ -535,4 +620,4 @@ html {
     .copyright {
       font-size: 1.4em; } }
 
-/*# sourceMappingURL=restricted.css.map */
+/*# sourceMappingURL=thd_ncv_restricted.css.map */

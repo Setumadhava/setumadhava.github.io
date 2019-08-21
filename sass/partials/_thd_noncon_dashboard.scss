@@ -226,28 +226,22 @@ p {
 
     #heroimg {
         position: absolute;
-        top: 25%;
-        transform: translateX(0%);
+        top: 60%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        width: 300px;
+        width: 90%;
 
         .imgdiv {
-            width: 90%;
-            margin: 0 auto;
+            width: 100%;
         }
         @media #{$tablet} {
-            .imgdiv {
-                width: 80%;
-                margin: 0 auto;
-            }
-            position: absolute;
-            top: 15%;
+            width: 614px;
+            top: 65%;
         }
         @media #{$mac13} {
-            .imgdiv {
-                width: 70%;
-                margin: 0 auto;
-            }
-            position: absolute;
-            top: 15%;
+            width: 700px;
+            top: 65%;
         }
     }
 }

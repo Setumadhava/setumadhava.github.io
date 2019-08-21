@@ -3,7 +3,7 @@ a {
 }
 
 #wrapper {
-    width: 90%;
+    // width: 90%;
     margin: 0 auto;
     @media #{$tablet} {
         max-width: 650px;
@@ -12,11 +12,15 @@ a {
         max-width: 1000px;
     }
 }
+
+.threeemboth {
+    padding: 3em 0;
+}
 /////////////////////  HOMEPAGE HEADER START /////////////////////
 
 #hpheader {
     margin: 2.1em auto;
-    width: 100%;
+    width: 90%;
     @media #{$tablet} {
         margin: 4.1em auto;
     }
@@ -212,9 +216,95 @@ a {
     }
 }
 //////////////// HOMEPAGE HEADER END ///////////////
+/////////////////////////////// PROJECT IMAGE ////////////////////////////
+
+#herosection {
+    // background-color: #A2E3B3;
+    background-image: url("img/thd_ncv/hero-bg-green.svg");
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    border-radius: 0;
+    margin: 0 auto;
+    height: 350px;
+    @media #{$tablet} {
+        height: 460px;
+    }
+    @media #{$mac13} {
+        border-radius: 15px;
+        height: 550px;
+        max-width: 1000px;
+    }
+
+    #heroimg {
+        position: absolute;
+        top: 60%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        width: 300px;
+        width: 90%;
+
+        .imgdiv {
+            width: 100%;
+        }
+        @media #{$tablet} {
+            width: 614px;
+            top: 65%;
+        }
+        @media #{$mac13} {
+            width: 700px;
+            top: 65%;
+        }
+    }
+}
+
+.lockicon {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    z-index: 1;
+    opacity: 1;
+    transition: 0.25s all ease-in-out;
+
+    img {
+        max-width: 100px;
+        @media #{$tablet} {
+            max-width: 150px;
+        }
+    }
+}
+
+#herotitle {
+    p {
+        font-weight: 500;
+        font-size: 2em;
+        padding-top: 1em;
+        width: 85%;
+        margin: 5em auto 0;
+        font-family: $poppins;
+        letter-spacing: 2px;
+        @media #{$tablet} {
+            max-width: 600px;
+            font-size: 2.6em;
+            margin: 2em auto 0;
+        }
+        @media #{$mac13} {
+            max-width: 650px;
+            font-size: 2.6em;
+            margin: 0 auto;
+        }
+    }
+}
+//////////////////////////// PROJECT IMAGE END /////////////////////////
 
 #passwordwrapper {
     margin-top: 8em;
+    width: 90%;
+    margin: 0 auto;
 
     #lockicondiv {
         max-width: 100px;
@@ -272,7 +362,8 @@ a {
         }
 
         #buttondiv {
-            width: 120px;
+            width: 100%;
+            max-width: 330px;
             border: 2px solid #25334A;
             height: 50px;
             border-radius: 10px;
@@ -280,6 +371,7 @@ a {
             position: relative;
             @media #{$tablet} {
                 margin: 0;
+                width: 120px;
             }
 
             #hoverdiv {
@@ -295,7 +387,9 @@ a {
                 width: 31.38px;
                 margin: 0.6em auto 0;
                 position: absolute;
-                left: 35%;
+                top: 35%;
+                right: 50%;
+                transform: translate(50%,-50%);
                 z-index: 100;
 
                 #btn {
@@ -356,3 +450,15 @@ a {
     }
 }
 ////////////////// STOP ////////////////////
+///////////////////////// COPYRIGHT START ///////////////////////
+
+#copyrightdiv {
+    p {
+        font-family: $opensans;
+        text-align: center;
+        font-size: 1em;
+        letter-spacing: 0.5px;
+        color: $grey4;
+    }
+}
+////////////////////////// COPYRIGHT END ///////////////////////

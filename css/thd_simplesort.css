@@ -171,10 +171,11 @@ p {
     #herosection #heroimg {
       top: 15%; } }
   #herosection #heroimg .imgdiv {
-    position: relative;
-    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
     width: 90%;
-    top: 80px;
     max-width: 382px; }
     @media (min-width: 768px) {
       #herosection #heroimg .imgdiv {
