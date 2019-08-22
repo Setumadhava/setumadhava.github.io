@@ -454,10 +454,186 @@ a {
         }
     }
 }
-////////////////// STOP ////////////////////
+/////////////////////// OTHER WORKS ////////////////////
+
+#OWline {
+    width: 85%;
+    height: 3px;
+    background-color: $grey1;
+    margin: 6em auto;
+    @media #{$tablet} {
+        width: 100%;
+        max-width: 1000px;
+    }
+}
+
+#owsectiontitle {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 700px;
+        margin: 0;
+    }
+    @media #{$mac13} {
+        max-width: 1000px;
+    }
+
+    p {
+        font-size: 1.4em;
+        font-weight: 500;
+        font-family: $poppins;
+        letter-spacing: 2px;
+        @media #{$tablet} {
+            font-size: 1.8em;
+        }
+    }
+}
+
+.contentsection {
+    width: 85%;
+    max-width: 650px;
+    margin: 0 auto;
+    @media #{$tablet} {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: $opensans;
+    }
+}
+
+.otherworksflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em auto;
+    justify-content: space-between;
+    @media #{$tablet} {
+        max-width: 700px;
+    }
+    @media #{$mac13} {
+        max-width: 1000px;
+        margin: 4em auto;
+    }
+
+    .owdiv {
+        margin: 2em auto;
+        width: 90%;
+        transition: 0.25s all ease-in-out;
+        position: relative;
+        @media #{$tablet} {
+            width: 45%;
+            margin: 0;
+        }
+
+        .otherprojimgdiv {
+            padding: 2em 0;
+            border-radius: 8px;
+            @media #{$tablet} {
+                min-width: 300px;
+                min-height: 352px;
+                max-height: 352px;
+            }
+            @media #{$mac13} {
+                min-width: 400px;
+            }
+        }
+
+        .otherprojname {
+            padding: 1em 0;
+
+            p {
+                font-size: 1.2em;
+                font-weight: 600;
+                letter-spacing: 1px;
+                font-family: $poppins;
+                color: #25334A;
+            }
+        }
+    }
+    ////////////////////// PROJECT SPECIFIC START ////////////////////////////
+    ///// MOTION DESIGN ////
+    .motion_design_outer {
+        background-color: #F8B2B2;
+        position: relative;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .motion_design_inner {
+        width: 85%;
+        margin: 0 auto;
+        position: relative;
+        @media #{$tablet} {
+            top: 20px;
+        }
+        @media #{$mac13} {
+            top: 10px;
+            max-width: 265.44px;
+        }
+
+        .img {
+            width: 100%;
+        }
+    }
+    ///// PUMP IT UP ////
+    .piu_outer {
+        background-color: #C7FAF6;
+        position: relative;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .piu_inner {
+        width: 55%;
+        margin: 0 auto;
+        position: relative;
+        @media #{$tablet} {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%,-50%);
+            max-width: 141.75px;
+            width: 45%;
+        }
+        @media #{$mac13} {
+            max-width: 150px;
+        }
+
+        .img {
+            width: 100%;
+        }
+    }
+    //////////////////////// PROJECT SPECIFIC ENDS /////////////////////////
+    .owdiv:hover {
+        .thd_pp_outer {
+            background-color: #8AC6DB;
+            transition: 0.25s all ease-in-out;
+        }
+
+        .thd_ncv_outer {
+            background-color: #78CB8D;
+            transition: 0.25s all ease-in-out;
+        }
+
+        .motion_design_outer {
+            background-color: #F08989;
+            transition: 0.25s all ease-in-out;
+        }
+
+        .piu_outer {
+            background-color: #85CBCA;
+            transition: 0.25s all ease-in-out;
+        }
+    }
+}
+////////////////////// OTEHR WORKS END ////////////////
 ///////////////////////// COPYRIGHT START ///////////////////////
 
 #copyrightdiv {
+    width: 90%;
+    margin: 0 auto;
+
     p {
         font-family: $opensans;
         text-align: center;

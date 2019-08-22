@@ -282,7 +282,7 @@ a {
       border: 2px solid #25334A;
       height: 50px;
       border-radius: 10px;
-      margin: 0 auto;
+      margin: 2em auto;
       position: relative; }
       @media (min-width: 768px) {
         #passwordwrapper #formflex #buttondiv {
@@ -338,12 +338,148 @@ a {
         border-bottom-style: dotted;
         padding-bottom: 2px; }
 
-#copyrightdiv p {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  font-size: 1em;
-  letter-spacing: 0.5px;
-  color: #7E7E7E; }
+#OWline {
+  width: 85%;
+  height: 3px;
+  background-color: #EDEDED;
+  margin: 6em auto; }
+  @media (min-width: 768px) {
+    #OWline {
+      width: 100%;
+      max-width: 1000px; } }
+
+#owsectiontitle {
+  width: 85%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    #owsectiontitle {
+      max-width: 700px;
+      margin: 0; } }
+  @media (min-width: 1024px) {
+    #owsectiontitle {
+      max-width: 1000px; } }
+  #owsectiontitle p {
+    font-size: 1.4em;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px; }
+    @media (min-width: 768px) {
+      #owsectiontitle p {
+        font-size: 1.8em; } }
+
+.contentsection {
+  width: 85%;
+  max-width: 650px;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .contentsection {
+      width: 100%;
+      max-width: 1000px;
+      margin: 0; } }
+  .contentsection p {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif; }
+
+.otherworksflex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em auto;
+  justify-content: space-between; }
+  @media (min-width: 768px) {
+    .otherworksflex {
+      max-width: 700px; } }
+  @media (min-width: 1024px) {
+    .otherworksflex {
+      max-width: 1000px;
+      margin: 4em auto; } }
+  .otherworksflex .owdiv {
+    margin: 2em auto;
+    width: 90%;
+    transition: 0.25s all ease-in-out;
+    position: relative; }
+    @media (min-width: 768px) {
+      .otherworksflex .owdiv {
+        width: 45%;
+        margin: 0; } }
+    .otherworksflex .owdiv .otherprojimgdiv {
+      padding: 2em 0;
+      border-radius: 8px; }
+      @media (min-width: 768px) {
+        .otherworksflex .owdiv .otherprojimgdiv {
+          min-width: 300px;
+          min-height: 352px;
+          max-height: 352px; } }
+      @media (min-width: 1024px) {
+        .otherworksflex .owdiv .otherprojimgdiv {
+          min-width: 400px; } }
+    .otherworksflex .owdiv .otherprojname {
+      padding: 1em 0; }
+      .otherworksflex .owdiv .otherprojname p {
+        font-size: 1.2em;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-family: "Poppins", sans-serif;
+        color: #25334A; }
+  .otherworksflex .motion_design_outer {
+    background-color: #F8B2B2;
+    position: relative;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .motion_design_inner {
+    width: 85%;
+    margin: 0 auto;
+    position: relative; }
+    @media (min-width: 768px) {
+      .otherworksflex .motion_design_inner {
+        top: 20px; } }
+    @media (min-width: 1024px) {
+      .otherworksflex .motion_design_inner {
+        top: 10px;
+        max-width: 265.44px; } }
+    .otherworksflex .motion_design_inner .img {
+      width: 100%; }
+  .otherworksflex .piu_outer {
+    background-color: #C7FAF6;
+    position: relative;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .piu_inner {
+    width: 55%;
+    margin: 0 auto;
+    position: relative; }
+    @media (min-width: 768px) {
+      .otherworksflex .piu_inner {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        max-width: 141.75px;
+        width: 45%; } }
+    @media (min-width: 1024px) {
+      .otherworksflex .piu_inner {
+        max-width: 150px; } }
+    .otherworksflex .piu_inner .img {
+      width: 100%; }
+  .otherworksflex .owdiv:hover .thd_pp_outer {
+    background-color: #8AC6DB;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .owdiv:hover .thd_ncv_outer {
+    background-color: #78CB8D;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .owdiv:hover .motion_design_outer {
+    background-color: #F08989;
+    transition: 0.25s all ease-in-out; }
+  .otherworksflex .owdiv:hover .piu_outer {
+    background-color: #85CBCA;
+    transition: 0.25s all ease-in-out; }
+
+#copyrightdiv {
+  width: 90%;
+  margin: 0 auto; }
+  #copyrightdiv p {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    color: #7E7E7E; }
 
 .container,
 body,
