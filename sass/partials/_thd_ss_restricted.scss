@@ -20,9 +20,12 @@ a {
 
 #hpheader {
     margin: 2.1em auto;
-    width: 100%;
+    width: 90%;
     @media #{$tablet} {
         margin: 4.1em auto;
+    }
+    @media #{$mac13} {
+        width: 100%;
     }
 
     #hpheaderflex {

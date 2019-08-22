@@ -15,10 +15,13 @@ a {
 
 #hpheader {
   margin: 2.1em auto;
-  width: 100%; }
+  width: 90%; }
   @media (min-width: 768px) {
     #hpheader {
       margin: 4.1em auto; } }
+  @media (min-width: 1024px) {
+    #hpheader {
+      width: 100%; } }
   @media (min-width: 1024px) {
     #hpheader #hpheaderflex {
       display: flex;
