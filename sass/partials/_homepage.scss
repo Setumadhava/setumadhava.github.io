@@ -441,7 +441,7 @@
 //////////// THD NCV CARD SPECIFIC //////////////
 
 .thd_ncv {
-    background-color: #A2E3B3;
+    background-color: $ncv;
     width: 100%;
     @media #{$tablet} {
         min-height: 450px;
@@ -467,7 +467,7 @@
 //////////// THD PP CARD SPECIFIC //////////////
 
 .thd_pp {
-    background-color: #C9E9F4;
+    background-color: $pp;
     width: 100%;
     @media #{$tablet} {
         min-height: 450px;
@@ -494,7 +494,7 @@
 //////////// THD SS CARD SPECIFIC //////////////
 
 .thd_ss {
-    background-color: #DBDCFF;
+    background-color: $ss;
     width: 100%;
     @media #{$tablet} {
         min-height: 450px;
@@ -522,7 +522,7 @@
 //////////// PUMP IT UP CARD SPECIFIC //////////////
 
 .piu {
-    background-color: #C7FAF6;
+    background-color: $pumpitup;
     width: 100%;
     @media #{$tablet} {
         min-height: 450px;
@@ -558,7 +558,7 @@
 //////////// MOTION DESIGN CARD SPECIFIC //////////////
 
 .motion_design {
-    background-color: #F8B2B2;
+    background-color: $exploration;
     width: 100%;
     @media #{$tablet} {
         min-height: 450px;
@@ -599,7 +599,7 @@
     }
 
     .thd_ncv {
-        background-color: #78CB8D;
+        background-color: $ncv_hover;
         transition: 0.25s all ease-in-out;
     }
 
@@ -607,7 +607,7 @@
         p {
             text-decoration: underline;
             text-decoration-style: dotted;
-            text-decoration-color: #78CB8D;
+            text-decoration-color: $ncv_hover;
         }
     }
 }
@@ -621,7 +621,7 @@
     }
 
     .thd_pp {
-        background-color: #8AC6DB;
+        background-color: $pp_hover;
         transition: 0.25s all ease-in-out;
     }
 
@@ -629,7 +629,7 @@
         p {
             text-decoration: underline;
             text-decoration-style: dotted;
-            text-decoration-color: #8AC6DB;
+            text-decoration-color: $pp_hover;
         }
     }
 }
@@ -643,7 +643,7 @@
     }
 
     .thd_ss {
-        background-color: #ABACE2;
+        background-color: $ss_hover;
         transition: 0.25s all ease-in-out;
     }
 
@@ -651,7 +651,7 @@
         p {
             text-decoration: underline;
             text-decoration-style: dotted;
-            text-decoration-color: #ABACE2;
+            text-decoration-color: $ss_hover;
         }
     }
 }
@@ -660,7 +660,7 @@
     cursor: pointer;
 
     .piu {
-        background-color: #85CBCA;
+        background-color: $pumpitup_hover;
         transition: 0.25s all ease-in-out;
     }
 
@@ -668,7 +668,7 @@
         p {
             text-decoration: underline;
             text-decoration-style: dotted;
-            text-decoration-color: #85CBCA;
+            text-decoration-color: $pumpitup_hover;
         }
     }
 }
@@ -677,7 +677,7 @@
     cursor: pointer;
 
     .motion_design {
-        background-color: #F08989;
+        background-color: $exploration_hover;
         transition: 0.25s all ease-in-out;
     }
 
@@ -685,7 +685,7 @@
         p {
             text-decoration: underline;
             text-decoration-style: dotted;
-            text-decoration-color: #F08989;
+            text-decoration-color: $exploration_hover;
         }
     }
 }

@@ -205,7 +205,7 @@ p {
 
 #herosection {
     // background-color: #A2E3B3;
-    background-image: url("img/thd_pp/hero-bg.svg");
+    background-image: url("img/thd_pp/pp_hero_bg.svg");
     display: block;
     background-size: cover;
     background-position: center center;
@@ -745,7 +745,7 @@ p {
     ///// NON CON VIZ /////
     .thd_ncv_outer {
         border-radius: 8px;
-        background-color: #A2E3B3;
+        background-color: $ncv;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -768,7 +768,7 @@ p {
     }
     ///// SIMPLE SORT ////
     .thd_ss_outer {
-        background-color: #DBDCFF;
+        background-color: $ss;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -787,7 +787,7 @@ p {
     }
     ///// MOTION DESIGN ////
     .motion_design_outer {
-        background-color: #F8B2B2;
+        background-color: $exploration;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -810,7 +810,7 @@ p {
     }
     ///// PUMP IT UP ////
     .piu_outer {
-        background-color: #C7FAF6;
+        background-color: $pumpitup;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -838,22 +838,22 @@ p {
     //////////////////////// PROJECT SPECIFIC ENDS /////////////////////////
     .owdiv:hover {
         .thd_ncv_outer {
-            background-color: #78CB8D;
+            background-color: $ncv_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .thd_ss_outer {
-            background-color: #ABACE2;
+            background-color: $ss_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .motion_design_outer {
-            background-color: #F08989;
+            background-color: $exploration_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .piu_outer {
-            background-color: #85CBCA;
+            background-color: $pp_hover;
             transition: 0.25s all ease-in-out;
         }
     }

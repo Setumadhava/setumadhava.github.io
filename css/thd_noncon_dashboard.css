@@ -149,7 +149,7 @@ p {
   padding: 6em 0; }
 
 #herosection {
-  background-image: url("img/thd_ncv/hero-bg-green.svg");
+  background-image: url("img/thd_ncv/ncv_hero_bg.svg");
   display: block;
   background-size: cover;
   background-position: center center;
@@ -614,7 +614,7 @@ p {
       font-size: 1em; }
   .otherworksflex .thd_pp_outer {
     border-radius: 8px;
-    background-color: #C9E9F4;
+    background-color: #E0F5B9;
     position: relative;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .thd_pp_inner {
@@ -645,7 +645,7 @@ p {
     .otherworksflex .thd_ss_inner .img {
       width: 100%; }
   .otherworksflex .motion_design_outer {
-    background-color: #F8B2B2;
+    background-color: #B8EBFD;
     position: relative;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .motion_design_inner {
@@ -662,7 +662,7 @@ p {
     .otherworksflex .motion_design_inner .img {
       width: 100%; }
   .otherworksflex .piu_outer {
-    background-color: #C7FAF6;
+    background-color: #C6F1D6;
     position: relative;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .piu_inner {
@@ -683,16 +683,16 @@ p {
     .otherworksflex .piu_inner .img {
       width: 100%; }
   .otherworksflex .owdiv:hover .thd_pp_outer {
-    background-color: #8AC6DB;
+    background-color: #E0F5B9;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .thd_ss_outer {
-    background-color: #ABACE2;
+    background-color: #DBDCFF;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .motion_design_outer {
-    background-color: #F08989;
+    background-color: #B8EBFD;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .piu_outer {
-    background-color: #85CBCA;
+    background-color: #C6F1D6;
     transition: 0.25s all ease-in-out; }
 
 #copyrightdiv p {

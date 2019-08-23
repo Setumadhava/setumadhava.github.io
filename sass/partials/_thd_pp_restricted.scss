@@ -223,7 +223,7 @@ a {
 
 #herosection {
     // background-color: #A2E3B3;
-    background-image: url("img/thd_pp/hero-bg.svg");
+    background-image: url("img/thd_pp/pp_hero_bg.svg");
     display: block;
     background-size: cover;
     background-position: center center;
@@ -550,7 +550,7 @@ a {
     ////////////////////// PROJECT SPECIFIC START ////////////////////////////
     ///// MOTION DESIGN ////
     .motion_design_outer {
-        background-color: #F8B2B2;
+        background-color: $exploration;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -573,7 +573,7 @@ a {
     }
     ///// PUMP IT UP ////
     .piu_outer {
-        background-color: #C7FAF6;
+        background-color: $pumpitup;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -600,23 +600,13 @@ a {
     }
     //////////////////////// PROJECT SPECIFIC ENDS /////////////////////////
     .owdiv:hover {
-        .thd_pp_outer {
-            background-color: #8AC6DB;
-            transition: 0.25s all ease-in-out;
-        }
-
-        .thd_ncv_outer {
-            background-color: #78CB8D;
-            transition: 0.25s all ease-in-out;
-        }
-
         .motion_design_outer {
-            background-color: #F08989;
+            background-color: $exploration_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .piu_outer {
-            background-color: #85CBCA;
+            background-color: $pumpitup_hover;
             transition: 0.25s all ease-in-out;
         }
     }
