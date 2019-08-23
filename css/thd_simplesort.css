@@ -579,7 +579,7 @@ p {
       font-size: 1em; }
   .otherworksflex .thd_pp_outer {
     border-radius: 8px;
-    background-color: #EAEFB8;
+    background-color: #AFB7C3;
     position: relative;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .thd_pp_inner {
@@ -596,7 +596,7 @@ p {
       width: 100%; }
   .otherworksflex .thd_ncv_outer {
     border-radius: 8px;
-    background-color: #F7D4E8;
+    background-color: #EFBEDF;
     position: relative;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .thd_ncv_inner {
@@ -651,10 +651,10 @@ p {
     .otherworksflex .piu_inner .img {
       width: 100%; }
   .otherworksflex .owdiv:hover .thd_pp_outer {
-    background-color: #DBE0A4;
+    background-color: #8E9CAF;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .thd_ncv_outer {
-    background-color: #EAB4D3;
+    background-color: #DB99C5;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .motion_design_outer {
     background-color: #96D3E8;

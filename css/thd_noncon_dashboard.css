@@ -614,7 +614,7 @@ p {
       font-size: 1em; }
   .otherworksflex .thd_pp_outer {
     border-radius: 8px;
-    background-color: #EAEFB8;
+    background-color: #AFB7C3;
     position: relative;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .thd_pp_inner {
@@ -683,7 +683,7 @@ p {
     .otherworksflex .piu_inner .img {
       width: 100%; }
   .otherworksflex .owdiv:hover .thd_pp_outer {
-    background-color: #EAEFB8;
+    background-color: #AFB7C3;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .thd_ss_outer {
     background-color: #DBDCFF;
