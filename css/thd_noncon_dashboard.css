@@ -451,17 +451,18 @@ p {
     color: #BCBCBC; }
 
 .centerimg {
-  background-color: #EDEDED; }
-  @media (min-width: 768px) {
-    .centerimg {
-      background-color: transparent; } }
+  width: 90%;
+  margin: 0 auto; }
   @media (min-width: 1024px) {
     .centerimg {
-      max-width: 1250px;
-      margin: 0 auto;
-      background-color: transparent; } }
+      max-width: 1250px; } }
   .centerimg img {
     width: 100%; }
+
+@media (min-width: 1024px) {
+  .sean_jerzeel {
+    max-width: 1000px;
+    margin: 0 auto; } }
 
 .portraitimg {
   margin: 0 auto; }
@@ -683,16 +684,16 @@ p {
     .otherworksflex .piu_inner .img {
       width: 100%; }
   .otherworksflex .owdiv:hover .thd_pp_outer {
-    background-color: #AFB7C3;
+    background-color: #8E9CAF;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .thd_ss_outer {
-    background-color: #DBDCFF;
+    background-color: #B2B3ED;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .motion_design_outer {
-    background-color: #B8EBFD;
+    background-color: #96D3E8;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .piu_outer {
-    background-color: #C6F1D6;
+    background-color: #90E5AF;
     transition: 0.25s all ease-in-out; }
 
 #copyrightdiv p {

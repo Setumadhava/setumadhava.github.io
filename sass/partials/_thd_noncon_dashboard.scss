@@ -588,18 +588,22 @@ p {
 // IMAGE ATTRIBUTES START
 
 .centerimg {
-    background-color: #EDEDED;
-    @media #{$tablet} {
-        background-color: transparent;
-    }
+    width: 90%;
+    margin: 0 auto;
+    @media #{$tablet} {}
     @media #{$mac13} {
         max-width: 1250px;
-        margin: 0 auto;
-        background-color: transparent;
     }
 
     img {
         width: 100%;
+    }
+}
+
+.sean_jerzeel {
+    @media #{$mac13} {
+        max-width: 1000px;
+        margin: 0 auto;
     }
 }
 
@@ -889,22 +893,22 @@ p {
     //////////////////////// PROJECT SPECIFIC ENDS /////////////////////////
     .owdiv:hover {
         .thd_pp_outer {
-            background-color: $pp;
+            background-color: $pp_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .thd_ss_outer {
-            background-color: $ss;
+            background-color: $ss_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .motion_design_outer {
-            background-color: $exploration;
+            background-color: $exploration_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .piu_outer {
-            background-color: $pumpitup;
+            background-color: $pumpitup_hover;
             transition: 0.25s all ease-in-out;
         }
     }
