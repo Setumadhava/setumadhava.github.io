@@ -257,14 +257,14 @@ p {
     font-family: "Open Sans", sans-serif;
     color: #126886;
     font-weight: 600;
-    line-height: 34px;
-    text-align: center; }
+    line-height: 34px; }
   @media (min-width: 768px) {
     .hypothesiscontent {
       max-width: 600px; }
       .hypothesiscontent p {
         font-size: 21px;
-        line-height: 40px; } }
+        line-height: 40px;
+        text-align: center; } }
   @media (min-width: 1024px) {
     .hypothesiscontent {
       max-width: 850px; } }
@@ -419,19 +419,15 @@ p {
       font-family: "Open Sans", sans-serif; }
 
 .centerimg {
-  background-color: #EDEDED;
   width: 90%;
-  margin: 0 auto;
-  border-radius: 8px; }
+  margin: 0 auto; }
   @media (min-width: 768px) {
     .centerimg {
-      background-color: transparent;
       width: 75%; } }
   @media (min-width: 1024px) {
     .centerimg {
       max-width: 850px;
-      margin: 0 auto;
-      background-color: transparent; }
+      margin: 0 auto; }
       .centerimg img {
         width: 100%; } }
 
@@ -446,7 +442,8 @@ p {
 
 @media (min-width: 768px) {
   .appflow {
-    max-width: 950px; } }
+    width: 90%;
+    max-width: 1250px; } }
 @media (min-width: 1024px) {
   .appflow {
     max-width: 1250px; } }
@@ -659,7 +656,7 @@ p {
     background-color: #96D3E8;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .piu_outer {
-    background-color: #8E9CAF;
+    background-color: #90E5AF;
     transition: 0.25s all ease-in-out; }
 
 #copyrightdiv p {

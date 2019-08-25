@@ -333,7 +333,6 @@ p {
         color: #126886;
         font-weight: 600;
         line-height: 34px;
-        text-align: center;
     }
     @media #{$tablet} {
         max-width: 600px;
@@ -341,6 +340,7 @@ p {
         p {
             font-size: 21px;
             line-height: 40px;
+            text-align: center;
         }
     }
     @media #{$mac13} {
@@ -544,18 +544,15 @@ p {
 }
 
 .centerimg {
-    background-color: #EDEDED;
     width: 90%;
     margin: 0 auto;
-    border-radius: 8px;
+    // border-radius: 8px;
     @media #{$tablet} {
-        background-color: transparent;
         width: 75%;
     }
     @media #{$mac13} {
         max-width: 850px;
         margin: 0 auto;
-        background-color: transparent;
 
         img {
             width: 100%;
@@ -575,7 +572,8 @@ p {
 
 .appflow {
     @media #{$tablet} {
-        max-width: 950px;
+        width: 90%;
+        max-width: 1250px;
     }
     @media #{$mac13} {
         max-width: 1250px;
@@ -853,7 +851,7 @@ p {
         }
 
         .piu_outer {
-            background-color: $pp_hover;
+            background-color: $pumpitup_hover;
             transition: 0.25s all ease-in-out;
         }
     }

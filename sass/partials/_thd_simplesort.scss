@@ -458,7 +458,6 @@ p {
         color: #63379F;
         font-weight: 600;
         line-height: 34px;
-        text-align: center;
     }
     @media #{$tablet} {
         max-width: 600px;
@@ -466,6 +465,7 @@ p {
         p {
             font-size: 21px;
             line-height: 40px;
+            text-align: center;
         }
     }
     @media #{$mac13} {

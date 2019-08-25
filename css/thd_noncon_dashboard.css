@@ -393,14 +393,14 @@ p {
     font-family: "Open Sans", sans-serif;
     color: #2B803F;
     font-weight: 600;
-    line-height: 34px;
-    text-align: center; }
+    line-height: 34px; }
   @media (min-width: 768px) {
     .hypothesiscontent {
       max-width: 600px; }
       .hypothesiscontent p {
         font-size: 21px;
-        line-height: 40px; } }
+        line-height: 40px;
+        text-align: center; } }
   @media (min-width: 1024px) {
     .hypothesiscontent {
       max-width: 850px; } }
