@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3026.438" height="1257.318" viewBox="0 0 3026.438 1257.318">
+  <defs>
+    <filter id="Rectangle_53" x="19.5" y="48.5" width="2952.216" height="1208.818" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="22.5" result="blur"/>
+      <feFlood flood-opacity="0.447"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Img-UJM_WAM" transform="translate(-4531 -9649)">
+    <g transform="matrix(1, 0, 0, 1, 4531, 9649)" filter="url(#Rectangle_53)">
+      <rect id="Rectangle_53-2" data-name="Rectangle 53" width="2817.216" height="1073.818" transform="translate(87 113)" fill="#fff"/>
+    </g>
+    <g id="Rectangle_43" data-name="Rectangle 43" transform="translate(4531 9649)" fill="#fff" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="25">
+      <rect width="3026.438" height="1186.818" rx="30" stroke="none"/>
+      <rect x="12.5" y="12.5" width="3001.438" height="1161.818" rx="17.5" fill="none"/>
+    </g>
+    <g id="Group_144" data-name="Group 144" transform="translate(1659 1249)">
+      <rect id="Rectangle_24" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e6e6e6"/>
+      <text id="Label_Manager_Spreadsheet" data-name="Label Manager 
+Spreadsheet" transform="translate(5189 8683)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Label Manager </tspan><tspan x="0" y="33">Spreadsheet</tspan></text>
+    </g>
+    <g id="Group_148" data-name="Group 148" transform="translate(1964 1249)">
+      <rect id="Rectangle_24-2" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e6e6e6"/>
+      <text id="Label_Manager_Spreadsheet-2" data-name="Label Manager 
+Spreadsheet" transform="translate(5189 8683)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Label Manager </tspan><tspan x="0" y="33">Spreadsheet</tspan></text>
+    </g>
+    <g id="Group_145" data-name="Group 145" transform="translate(1659 1478)">
+      <rect id="Rectangle_24-3" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdf9e0"/>
+      <text id="Press_Refresh_button" data-name="Press ‘Refresh’ button" transform="translate(5310 8701)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="-120.762" y="0">Press ‘Refresh’ button</tspan></text>
+    </g>
+    <g id="Group_149" data-name="Group 149" transform="translate(1964 1478)">
+      <rect id="Rectangle_24-4" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdf9e0"/>
+      <text id="Press_Refresh_button-2" data-name="Press ‘Refresh’ button" transform="translate(5189 8701)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Press ‘Refresh’ button</tspan></text>
+    </g>
+    <g id="Group_146" data-name="Group 146" transform="translate(1659 1706)">
+      <rect id="Rectangle_24-5" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdc0c0"/>
+      <text id="No_notifications_for_new_information_updates." data-name="No notifications for new 
+information updates." transform="translate(5189 8636)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">No notifications for new </tspan><tspan x="0" y="33">information updates.</tspan></text>
+      <text id="Not_a_proactive_tool._User_must_fetch_new_data." data-name="Not a proactive tool. 
+User must fetch new 
+data." transform="translate(5189 8717)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Not a proactive tool. </tspan><tspan x="0" y="33">User must fetch new </tspan><tspan x="0" y="66">data.</tspan></text>
+    </g>
+    <g id="Group_152" data-name="Group 152" transform="translate(1964 1707)">
+      <rect id="Rectangle_24-6" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdc0c0"/>
+      <text id="No_notifications_for_new_information_updates.-2" data-name="No notifications for new 
+information updates." transform="translate(5189 8636)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">No notifications for new </tspan><tspan x="0" y="33">information updates.</tspan></text>
+      <text id="Not_a_proactive_tool._User_must_fetch_new_data.-2" data-name="Not a proactive tool. 
+User must fetch new 
+data." transform="translate(5189 8717)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Not a proactive tool. </tspan><tspan x="0" y="33">User must fetch new </tspan><tspan x="0" y="66">data.</tspan></text>
+    </g>
+    <rect id="Rectangle_44" data-name="Rectangle 44" width="300" height="218" transform="translate(6526 9830)" fill="#e6e6e6"/>
+    <rect id="Rectangle_45" data-name="Rectangle 45" width="300" height="218" transform="translate(6526 10059)" fill="#e6e6e6"/>
+    <rect id="Rectangle_46" data-name="Rectangle 46" width="300" height="218" transform="translate(6526 10287)" fill="#e6e6e6"/>
+    <text id="Tool_Used" data-name="Tool Used" transform="translate(6676.5 9949)" font-size="24" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.08em"><tspan x="-63.895" y="0">Tool Used</tspan></text>
+    <text id="User_Action" data-name="User Action" transform="translate(6676.5 10179)" font-size="24" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.08em"><tspan x="-76.438" y="0">User Action</tspan></text>
+    <text id="Pain_Points" data-name="Pain Points" transform="translate(6676.5 10406)" font-size="24" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.08em"><tspan x="-74.258" y="0">Pain Points</tspan></text>
+    <g id="Group_147" data-name="Group 147" transform="translate(1659 1930)">
+      <rect id="Rectangle_24-7" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8586)" fill="#e2fde0"/>
+      <text id="Auto-refresh_the_app._Show_the_ID_of_last_person_who_scanned_an_order" data-name="Auto-refresh the app.
+
+Show the ID of last 
+person who scanned an 
+order" transform="translate(5189 8638)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Auto-refresh the app.</tspan><tspan x="0" y="33"></tspan><tspan x="0" y="66">Show the ID of last </tspan><tspan x="0" y="99">person who scanned an </tspan><tspan x="0" y="132">order</tspan></text>
+    </g>
+    <rect id="Rectangle_47" data-name="Rectangle 47" width="300" height="218" transform="translate(6526 10516)" fill="#e6e6e6"/>
+    <text id="Opportunities" transform="translate(6676.5 10635)" font-size="24" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.08em"><tspan x="-92.538" y="0">Opportunities</tspan></text>
+    <path id="Path_50" data-name="Path 50" d="M0,0H294.54l37.139,30.1L294.54,59.846H0V0Z" transform="translate(6526 9750.129)" fill="#0c2464"/>
+    <path id="Path_51" data-name="Path 51" d="M0,0H294.54l37.139,30.1L294.54,59.846H0L37.316,29.838Z" transform="translate(6832.5 9750.5)" fill="#abc8eb" stroke="#0c2464" stroke-width="2"/>
+    <path id="Path_52" data-name="Path 52" d="M0,0H294.54l37.139,30.1L294.54,59.846H0L37.316,29.838Z" transform="translate(7137.5 9750.5)" fill="#abc8eb" stroke="#0c2464" stroke-width="2"/>
+    <text id="Monitor_Work_Flow" data-name="Monitor Work Flow" transform="translate(6571.314 9788.717)" fill="#fff" font-size="24" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Monitor Work Flow</tspan></text>
+    <text id="Check_all_labels_in_Printed_status" data-name="Check all labels in ‘Printed’ status" transform="translate(6904 9755)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="11.725" y="21">Check all labels in </tspan><tspan x="25.665" y="48">‘Printed’ status</tspan></text>
+    <text id="Make_sure_all_orders_are_getting_loaded" data-name="Make sure all orders are getting loaded" transform="translate(7209 9755)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="32.535" y="21">Make sure all </tspan><tspan x="10.943" y="48">orders are getting </tspan></text>
+    <g id="Group_153" data-name="Group 153" transform="translate(1964 1934)">
+      <rect id="Rectangle_24-8" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e2fde0"/>
+      <text id="Show_a_real-time_contextual_summary_of_all_the_orders_at_all_times." data-name="Show a real-time, contextual 
+summary of all the 
+orders at all times." transform="translate(5189 8623)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="26">Show a real-time, </tspan><tspan x="0" y="59">contextual </tspan><tspan x="0" y="92">summary of all the </tspan><tspan x="0" y="125">orders at all times.</tspan></text>
+    </g>
+    <path id="Path_53" data-name="Path 53" d="M0,0H294.54l37.139,30.1L294.54,59.846H0V0Z" transform="translate(4618 9750.129)" fill="#0c6445"/>
+    <path id="Path_54" data-name="Path 54" d="M0,0H294.54l37.139,30.1L294.54,59.846H0L37.316,29.838Z" transform="translate(4924.5 9750.5)" fill="#acedd6" stroke="#0c6445" stroke-width="2"/>
+    <path id="Path_55" data-name="Path 55" d="M0,0H294.54l37.139,30.1L294.54,59.846H0L37.316,29.838Z" transform="translate(5229.5 9750.5)" fill="#acedd6" stroke="#0c6445" stroke-width="2"/>
+    <path id="Path_56" data-name="Path 56" d="M0,0H294.54l37.139,30.1L294.54,59.846H0L37.316,29.838Z" transform="translate(5535.5 9750.5)" fill="#acedd6" stroke="#0c6445" stroke-width="2"/>
+    <path id="Path_57" data-name="Path 57" d="M0,0H294.54l37.139,30.1L294.54,59.846H0L37.316,29.838Z" transform="translate(5840.5 9750.5)" fill="#acedd6" stroke="#0c6445" stroke-width="2"/>
+    <path id="Path_58" data-name="Path 58" d="M0,0H294.54l37.139,30.1L294.54,59.846H0L37.316,29.838Z" transform="translate(6145.5 9750.5)" fill="#acedd6" stroke="#0c6445" stroke-width="2"/>
+    <text id="Assign_Work_Flow" data-name="Assign Work Flow" transform="translate(4663.314 9788.717)" fill="#fff" font-size="24" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Assign Work Flow</tspan></text>
+    <text id="Check_for_new_wave" data-name="Check for new wave" transform="translate(5090 9788)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="-92.656" y="0">Check for new wave</tspan></text>
+    <text id="Check_print_rules" data-name="Check print rules" transform="translate(5395 9788)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="-78.799" y="0">Check print rules</tspan></text>
+    <text id="Copy_wave_number" data-name="Copy wave number" transform="translate(5701 9788)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="-89.868" y="0">Copy wave number</tspan></text>
+    <text id="Print_labels" data-name="Print labels" transform="translate(6006 9788)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="-52.026" y="0">Print labels</tspan></text>
+    <text id="Assign_labels" data-name="Assign labels" transform="translate(6311 9788)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="-59.741" y="0">Assign labels</tspan></text>
+    <g id="Group_159" data-name="Group 159" transform="translate(-249 1249)">
+      <rect id="Rectangle_24-9" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e6e6e6"/>
+      <text id="Label_Manager_Spreadsheet-3" data-name="Label Manager 
+Spreadsheet" transform="translate(5189 8683)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Label Manager </tspan><tspan x="0" y="33">Spreadsheet</tspan></text>
+    </g>
+    <g id="Group_160" data-name="Group 160" transform="translate(56 1249)">
+      <rect id="Rectangle_24-10" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e6e6e6"/>
+      <text id="Label_Manager_Spreadsheet-4" data-name="Label Manager 
+Spreadsheet" transform="translate(5189 8683)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Label Manager </tspan><tspan x="0" y="33">Spreadsheet</tspan></text>
+    </g>
+    <g id="Group_161" data-name="Group 161" transform="translate(361 1249)">
+      <rect id="Rectangle_24-11" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e6e6e6"/>
+      <text id="Label_Manager_Spreadsheet-5" data-name="Label Manager 
+Spreadsheet" transform="translate(5189 8683)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Label Manager </tspan><tspan x="0" y="33">Spreadsheet</tspan></text>
+    </g>
+    <g id="Group_162" data-name="Group 162" transform="translate(666 1249)">
+      <rect id="Rectangle_24-12" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e6e6e6"/>
+      <text id="Warehouse_Management_System" data-name="Warehouse 
+Management System" transform="translate(5189 8683)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Warehouse </tspan><tspan x="0" y="33">Management System</tspan></text>
+    </g>
+    <g id="Group_163" data-name="Group 163" transform="translate(971 1249)">
+      <rect id="Rectangle_24-13" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e6e6e6"/>
+      <text id="_Manual_" data-name="&lt;Manual&gt;" transform="translate(5245 8701)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="-55.67" y="0">&lt;Manual&gt;</tspan></text>
+    </g>
+    <g id="Group_164" data-name="Group 164" transform="translate(-249 1478)">
+      <rect id="Rectangle_24-14" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdf9e0"/>
+      <text id="Press_Refresh_button-3" data-name="Press ‘Refresh’ button" transform="translate(5310 8701)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="-120.762" y="0">Press ‘Refresh’ button</tspan></text>
+    </g>
+    <g id="Group_165" data-name="Group 165" transform="translate(56 1478)">
+      <rect id="Rectangle_24-15" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdf9e0"/>
+      <text id="Expand_Wave_rows" data-name="Expand Wave rows" transform="translate(5294 8701)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="-104.953" y="0">Expand Wave rows</tspan></text>
+    </g>
+    <g id="Group_166" data-name="Group 166" transform="translate(361 1478)">
+      <rect id="Rectangle_24-16" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdf9e0"/>
+      <text id="Ctlr_C" data-name="Ctlr + C" transform="translate(5189 8701)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Ctlr + C</tspan></text>
+    </g>
+    <g id="Group_167" data-name="Group 167" transform="translate(666 1478)">
+      <rect id="Rectangle_24-17" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdf9e0"/>
+      <text id="Compare_labels._Use_label_printing_wizard" data-name="Compare labels.
+Use label printing 
+wizard" transform="translate(5189 8668)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Compare labels.</tspan><tspan x="0" y="33">Use label printing </tspan><tspan x="0" y="66">wizard</tspan></text>
+    </g>
+    <g id="Group_168" data-name="Group 168" transform="translate(971 1478)">
+      <rect id="Rectangle_24-18" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdf9e0"/>
+      <text id="Sort_and_distribute_labels_to_associates" data-name="Sort and distribute 
+labels to associates" transform="translate(5189 8684)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Sort and distribute </tspan><tspan x="0" y="33">labels to associates</tspan></text>
+    </g>
+    <g id="Group_169" data-name="Group 169" transform="translate(-249 1706)">
+      <rect id="Rectangle_24-19" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdc0c0"/>
+      <text id="No_notifications_for_new_information_updates.-3" data-name="No notifications for new 
+information updates." transform="translate(5189 8636)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">No notifications for new </tspan><tspan x="0" y="33">information updates.</tspan></text>
+      <text id="Not_a_proactive_tool._User_must_fetch_new_data.-3" data-name="Not a proactive tool. 
+User must fetch new 
+data." transform="translate(5189 8717)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Not a proactive tool. </tspan><tspan x="0" y="33">User must fetch new </tspan><tspan x="0" y="66">data.</tspan></text>
+    </g>
+    <g id="Group_170" data-name="Group 170" transform="translate(56 1706)">
+      <rect id="Rectangle_24-20" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdc0c0"/>
+      <text id="Small_text_is_stressful_for_the_eyes." data-name="Small text is stressful 
+for the eyes." transform="translate(5189 8684)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Small text is stressful </tspan><tspan x="0" y="33">for the eyes.</tspan></text>
+    </g>
+    <g id="Group_171" data-name="Group 171" transform="translate(361 1706)">
+      <rect id="Rectangle_24-21" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdc0c0"/>
+      <text id="N_A" data-name="N/A" transform="translate(5210 8701)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="-21.047" y="0">N/A</tspan></text>
+    </g>
+    <g id="Group_172" data-name="Group 172" transform="translate(666 1706)">
+      <rect id="Rectangle_24-22" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdc0c0"/>
+      <text id="Switching_between_apps_to_check_for_the_right_labels_to_be_printed." data-name="Switching between apps 
+to check for the right 
+labels to be printed." transform="translate(5189 8668)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Switching between apps </tspan><tspan x="0" y="33">to check for the right </tspan><tspan x="0" y="66">labels to be printed.</tspan></text>
+    </g>
+    <g id="Group_173" data-name="Group 173" transform="translate(971 1706)">
+      <rect id="Rectangle_24-23" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#fdc0c0"/>
+      <text id="No_way_to_track_which_associates_has_which_labels" data-name="No way to track which 
+associates has which 
+labels" transform="translate(5189 8668)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">No way to track which </tspan><tspan x="0" y="33">associates has which </tspan><tspan x="0" y="66">labels</tspan></text>
+    </g>
+    <rect id="Rectangle_48" data-name="Rectangle 48" width="300" height="218" transform="translate(4618 9830)" fill="#e6e6e6"/>
+    <rect id="Rectangle_49" data-name="Rectangle 49" width="300" height="218" transform="translate(4618 10059)" fill="#e6e6e6"/>
+    <rect id="Rectangle_50" data-name="Rectangle 50" width="300" height="218" transform="translate(4618 10287)" fill="#e6e6e6"/>
+    <text id="Tool_Used-2" data-name="Tool Used" transform="translate(4768.5 9949)" font-size="24" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.08em"><tspan x="-63.895" y="0">Tool Used</tspan></text>
+    <text id="User_Action-2" data-name="User Action" transform="translate(4768.5 10179)" font-size="24" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.08em"><tspan x="-76.438" y="0">User Action</tspan></text>
+    <text id="Pain_Points-2" data-name="Pain Points" transform="translate(4768.5 10406)" font-size="24" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.08em"><tspan x="-74.258" y="0">Pain Points</tspan></text>
+    <g id="Group_174" data-name="Group 174" transform="translate(-249 1935)">
+      <rect id="Rectangle_24-24" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e2fde0"/>
+      <text id="Auto-refresh_the_app._Make_it_proactive." data-name="Auto-refresh the app.
+
+Make it proactive." transform="translate(5189 8668)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Auto-refresh the app.</tspan><tspan x="0" y="33"></tspan><tspan x="0" y="66">Make it proactive.</tspan></text>
+    </g>
+    <g id="Group_175" data-name="Group 175" transform="translate(56 1935)">
+      <rect id="Rectangle_24-25" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e2fde0"/>
+      <text id="Show_waves_and_labels_at_the_front" data-name="Show waves and labels at the front" transform="translate(5189 8656)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="26">Show waves and </tspan><tspan x="0" y="59">labels at the front</tspan></text>
+    </g>
+    <g id="Group_176" data-name="Group 176" transform="translate(361 1935)">
+      <rect id="Rectangle_24-26" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e2fde0"/>
+      <text id="N_A-2" data-name="N/A" transform="translate(5189 8701)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">N/A</tspan></text>
+    </g>
+    <g id="Group_177" data-name="Group 177" transform="translate(666 1935)">
+      <rect id="Rectangle_24-27" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e2fde0"/>
+      <text id="Print_labels_from_within_the_app" data-name="Print labels from within the app" transform="translate(5189 8655)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="26">Print labels from within </tspan><tspan x="0" y="59">the app</tspan></text>
+    </g>
+    <g id="Group_178" data-name="Group 178" transform="translate(971 1935)">
+      <rect id="Rectangle_24-28" data-name="Rectangle 24" width="297.5" height="218" transform="translate(5174 8582)" fill="#e2fde0"/>
+      <text id="Track_label_assignment" data-name="Track label assignment" transform="translate(5189 8701)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Track label assignment</tspan></text>
+    </g>
+    <rect id="Rectangle_51" data-name="Rectangle 51" width="300" height="218" transform="translate(4618 10516)" fill="#e6e6e6"/>
+    <text id="Opportunities-2" data-name="Opportunities" transform="translate(4768.5 10635)" font-size="24" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.08em"><tspan x="-92.538" y="0">Opportunities</tspan></text>
+  </g>
+</svg>

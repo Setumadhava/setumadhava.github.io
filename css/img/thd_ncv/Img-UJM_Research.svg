@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3026.438" height="1344.101" viewBox="0 0 3026.438 1344.101">
+  <defs>
+    <filter id="Rectangle_37" x="25.862" y="56.763" width="2975.788" height="1287.338" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="22.5" result="blur"/>
+      <feFlood flood-opacity="0.447"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_180" data-name="Group 180" transform="translate(-4600 -8536)">
+    <g transform="matrix(1, 0, 0, 1, 4600, 8536)" filter="url(#Rectangle_37)">
+      <rect id="Rectangle_37-2" data-name="Rectangle 37" width="2840.787" height="1152.338" transform="translate(93.36 121.26)" fill="#fff"/>
+    </g>
+    <g id="Rectangle_52" data-name="Rectangle 52" transform="translate(4600 8536)" fill="#fff" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="25">
+      <rect width="3026.438" height="1273.601" rx="30" stroke="none"/>
+      <rect x="12.5" y="12.5" width="3001.438" height="1248.601" rx="17.5" fill="none"/>
+    </g>
+    <g id="Group_129" data-name="Group 129" transform="translate(5139.78 8731.309)">
+      <rect id="Rectangle_24" data-name="Rectangle 24" width="319.254" height="233.941" fill="#e6e6e6"/>
+      <text id="Label_Manager_Spreadsheet" data-name="Label Manager 
+Spreadsheet" transform="translate(16.097 107.484)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Label Manager </tspan><tspan x="0" y="34">Spreadsheet</tspan></text>
+    </g>
+    <g id="Group_125" data-name="Group 125" transform="translate(5467.083 8731.309)">
+      <rect id="Rectangle_24-2" data-name="Rectangle 24" width="319.254" height="233.941" fill="#e6e6e6"/>
+      <text id="Label_Manager_Spreadsheet-2" data-name="Label Manager 
+Spreadsheet" transform="translate(16.097 107.484)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Label Manager </tspan><tspan x="0" y="34">Spreadsheet</tspan></text>
+    </g>
+    <g id="Group_113" data-name="Group 113" transform="translate(5794.385 8731.309)">
+      <rect id="Rectangle_24-3" data-name="Rectangle 24" width="319.254" height="233.941" fill="#e6e6e6"/>
+      <text id="Label_Manager_Spreadsheet-3" data-name="Label Manager 
+Spreadsheet" transform="translate(16.097 107.484)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Label Manager </tspan><tspan x="0" y="34">Spreadsheet</tspan></text>
+    </g>
+    <g id="Group_114" data-name="Group 114" transform="translate(6121.688 8731.309)">
+      <rect id="Rectangle_24-4" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0)" fill="#e6e6e6"/>
+      <text id="Label_Manager_Spreadsheet-4" data-name="Label Manager 
+Spreadsheet" transform="translate(16.097 107.484)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Label Manager </tspan><tspan x="0" y="34">Spreadsheet</tspan></text>
+    </g>
+    <g id="Group_136" data-name="Group 136" transform="translate(6776.292 8731.309)">
+      <rect id="Rectangle_24-5" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0)" fill="#e6e6e6"/>
+      <text id="Warehouse_Management_System" data-name="Warehouse 
+Management System" transform="translate(16.097 107.484)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Warehouse </tspan><tspan x="0" y="34">Management System</tspan></text>
+    </g>
+    <g id="Group_115" data-name="Group 115" transform="translate(6448.99 8731.309)">
+      <rect id="Rectangle_24-6" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0)" fill="#e6e6e6"/>
+      <text id="Concatenator_tool" data-name="Concatenator tool" transform="translate(16.097 126.8)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Concatenator tool</tspan></text>
+    </g>
+    <g id="Group_133" data-name="Group 133" transform="translate(7103.595 8731.309)">
+      <rect id="Rectangle_24-7" data-name="Rectangle 24" width="319.254" height="233.941" fill="#e6e6e6"/>
+      <text id="Label_Manager_Spreadsheet-5" data-name="Label Manager 
+Spreadsheet" transform="translate(16.097 107.484)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Label Manager </tspan><tspan x="0" y="34">Spreadsheet</tspan></text>
+    </g>
+    <g id="Group_130" data-name="Group 130" transform="translate(5139.78 8977.054)">
+      <rect id="Rectangle_24-8" data-name="Rectangle 24" width="319.254" height="233.941" fill="#fdf9e0"/>
+      <text id="Press_Refresh_button" data-name="Press ‘Refresh’ button" transform="translate(142.097 125.727)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="-125.793" y="0">Press ‘Refresh’ button</tspan></text>
+    </g>
+    <g id="Group_126" data-name="Group 126" transform="translate(5467.083 8977.054)">
+      <rect id="Rectangle_24-9" data-name="Rectangle 24" width="319.254" height="233.941" fill="#fdf9e0"/>
+      <text id="Double_click_on_each_print_rule_to_open_the_Research_sheet._" data-name="Double click on each
+print rule to open the 
+Research sheet. " transform="translate(16.097 91.387)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Double click on each</tspan><tspan x="0" y="34">print rule to open the </tspan><tspan x="0" y="68">Research sheet. </tspan></text>
+    </g>
+    <g id="Group_116" data-name="Group 116" transform="translate(5794.385 8977.054)">
+      <rect id="Rectangle_24-10" data-name="Rectangle 24" width="319.254" height="233.941" fill="#fdf9e0"/>
+      <text id="Sort_columns_as_needed" data-name="Sort columns as needed" transform="translate(16.097 125.727)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Sort columns as needed</tspan></text>
+    </g>
+    <g id="Group_117" data-name="Group 117" transform="translate(6121.688 8977.054)">
+      <rect id="Rectangle_24-11" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0)" fill="#fdf9e0"/>
+      <text id="Ctrl_C" data-name="Ctrl + C" transform="translate(16.097 126.8)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Ctrl + C</tspan></text>
+    </g>
+    <g id="Group_137" data-name="Group 137" transform="translate(6776.292 8977.054)">
+      <rect id="Rectangle_24-12" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0)" fill="#fdf9e0"/>
+      <text id="Use_label_printing_wizard" data-name="Use label printing 
+wizard" transform="translate(16.097 90.314)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Use label printing </tspan><tspan x="0" y="34">wizard</tspan></text>
+    </g>
+    <g id="Group_118" data-name="Group 118" transform="translate(6448.99 8977.054)">
+      <rect id="Rectangle_24-13" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0)" fill="#fdf9e0"/>
+      <text id="Paste_in_Concatenator_tool._Copy_comma_separated_values." data-name="Paste in Concatenator
+tool. Copy comma 
+separated values." transform="translate(16.097 107.484)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Paste in Concatenator</tspan><tspan x="0" y="34">tool. Copy comma </tspan><tspan x="0" y="68">separated values.</tspan></text>
+    </g>
+    <g id="Group_134" data-name="Group 134" transform="translate(7103.595 8977.054)">
+      <rect id="Rectangle_24-14" data-name="Rectangle 24" width="319.254" height="233.941" fill="#fdf9e0"/>
+      <text id="Right_click_Close_Confirm" data-name="Right click &gt; Close &gt; Confirm" transform="translate(16.097 80.484)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="26">Right click &gt; Close &gt; </tspan><tspan x="0" y="59">Confirm</tspan></text>
+    </g>
+    <g id="Group_131" data-name="Group 131" transform="translate(5139.78 9221.726)">
+      <rect id="Rectangle_24-15" data-name="Rectangle 24" width="319.254" height="233.941" fill="#fdc0c0"/>
+      <text id="Tool_doesn_t_proactively_provide_the_order_picking_status." data-name="Tool doesn’t proactively 
+provide the order 
+picking status." transform="translate(16.097 90.314)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Tool doesn’t proactively </tspan><tspan x="0" y="34">provide the order </tspan><tspan x="0" y="68">picking status.</tspan></text>
+    </g>
+    <g id="Group_127" data-name="Group 127" transform="translate(5467.083 9221.726)">
+      <rect id="Rectangle_24-16" data-name="Rectangle 24" width="319.254" height="233.941" fill="#fdc0c0"/>
+      <g id="Group_143" data-name="Group 143" transform="translate(16.097 34.34)">
+        <text id="Task_must_be_repeated_for_multiple_waves_labels" data-name="Task must be repeated 
+for multiple waves/
+labels" transform="translate(0 27)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Task must be repeated </tspan><tspan x="0" y="34">for multiple waves/</tspan><tspan x="0" y="68">labels</tspan></text>
+        <text id="Time_consuming" data-name="Time consuming" transform="translate(0 156.848)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Time consuming</tspan></text>
+      </g>
+    </g>
+    <g id="Group_119" data-name="Group 119" transform="translate(5794.385 9221.726)">
+      <rect id="Rectangle_24-17" data-name="Rectangle 24" width="319.254" height="233.941" fill="#fdc0c0"/>
+      <text id="Time_consuming-2" data-name="Time consuming" transform="translate(16.097 125.727)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Time consuming</tspan></text>
+    </g>
+    <g id="Group_120" data-name="Group 120" transform="translate(6121.688 9221.726)">
+      <rect id="Rectangle_24-18" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0)" fill="#fdc0c0"/>
+      <text id="N_A" data-name="N/A" transform="translate(16.097 125.727)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">N/A</tspan></text>
+    </g>
+    <g id="Group_138" data-name="Group 138" transform="translate(6776.292 9221.726)">
+      <rect id="Rectangle_24-19" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0)" fill="#fdc0c0"/>
+      <g id="Group_142" data-name="Group 142" transform="translate(16.097 34.34)">
+        <text id="Task_must_be_repeated_for_multiple_waves_labels-2" data-name="Task must be repeated 
+for multiple waves/
+labels" transform="translate(0 27)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Task must be repeated </tspan><tspan x="0" y="34">for multiple waves/</tspan><tspan x="0" y="68">labels</tspan></text>
+        <text id="Time_consuming-3" data-name="Time consuming" transform="translate(0 156.848)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Time consuming</tspan></text>
+      </g>
+    </g>
+    <g id="Group_121" data-name="Group 121" transform="translate(6448.99 9221.726)">
+      <rect id="Rectangle_24-20" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0)" fill="#fdc0c0"/>
+      <text id="Time_consuming-4" data-name="Time consuming" transform="translate(16.097 125.727)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Time consuming</tspan></text>
+    </g>
+    <g id="Group_135" data-name="Group 135" transform="translate(7103.595 9221.726)">
+      <rect id="Rectangle_24-21" data-name="Rectangle 24" width="319.254" height="233.941" fill="#fdc0c0"/>
+      <text id="Too_many_clicks." data-name="Too many clicks." transform="translate(16.097 125.727)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Too many clicks.</tspan></text>
+    </g>
+    <rect id="Rectangle_38" data-name="Rectangle 38" width="321.937" height="233.941" transform="translate(4810.332 8730.235)" fill="#e6e6e6"/>
+    <rect id="Rectangle_39" data-name="Rectangle 39" width="321.937" height="233.941" transform="translate(4810.332 8975.98)" fill="#e6e6e6"/>
+    <rect id="Rectangle_40" data-name="Rectangle 40" width="321.937" height="233.941" transform="translate(4810.332 9221.726)" fill="#e6e6e6"/>
+    <text id="Tool_Used" data-name="Tool Used" transform="translate(4970.157 8857.035)" font-size="25" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.08em"><tspan x="-66.557" y="0">Tool Used</tspan></text>
+    <text id="User_Action" data-name="User Action" transform="translate(4970.28 9102.78)" font-size="25" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.08em"><tspan x="-79.623" y="0">User Action</tspan></text>
+    <text id="Pain_Points" data-name="Pain Points" transform="translate(4969.426 9347.453)" font-size="25" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.08em"><tspan x="-77.352" y="0">Pain Points</tspan></text>
+    <g id="Group_132" data-name="Group 132" transform="translate(5139.78 9467.471)">
+      <rect id="Rectangle_24-22" data-name="Rectangle 24" width="319.254" height="233.941" fill="#e2fde0"/>
+      <text id="Show_a_real-time_summary_of_all_the_orders_at_all_times." data-name="Show a real-time 
+summary of all the 
+orders at all times." transform="translate(16.097 91.387)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Show a real-time </tspan><tspan x="0" y="34">summary of all the </tspan><tspan x="0" y="68">orders at all times.</tspan></text>
+    </g>
+    <g id="Group_128" data-name="Group 128" transform="translate(5467.083 9467.471)">
+      <rect id="Rectangle_24-23" data-name="Rectangle 24" width="319.254" height="233.941" fill="#e2fde0"/>
+      <text id="Quick_access_to_order_information." data-name="Quick access to order 
+information." transform="translate(16.097 108.557)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Quick access to order </tspan><tspan x="0" y="34">information.</tspan></text>
+    </g>
+    <g id="Group_122" data-name="Group 122" transform="translate(5794.385 9467.471)">
+      <rect id="Rectangle_24-24" data-name="Rectangle 24" width="319.254" height="233.941" fill="#e2fde0"/>
+      <text id="Smart_sorting_and_filtering_of_order_details." data-name="Smart sorting and 
+filtering of order details." transform="translate(16.097 108.557)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Smart sorting and </tspan><tspan x="0" y="34">filtering of order details.</tspan></text>
+    </g>
+    <g id="Group_123" data-name="Group 123" transform="translate(6121.688 9467.471)">
+      <rect id="Rectangle_24-25" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0)" fill="#e2fde0"/>
+      <text id="Better_control_over_labels_to_be_copied." data-name="Better control over 
+labels to be copied." transform="translate(16.097 108.557)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Better control over </tspan><tspan x="0" y="34">labels to be copied.</tspan></text>
+    </g>
+    <g id="Group_139" data-name="Group 139" transform="translate(6776.292 9467.471)">
+      <rect id="Rectangle_24-26" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0)" fill="#e2fde0"/>
+      <text id="Print_labels_from_within_the_app" data-name="Print labels from within the app" transform="translate(16.097 78.338)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="26">Print labels from within </tspan><tspan x="0" y="59">the app</tspan></text>
+    </g>
+    <g id="Group_124" data-name="Group 124" transform="translate(6448.99 9467.471)">
+      <rect id="Rectangle_24-27" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0)" fill="#e2fde0"/>
+      <text id="Copy_order_details_as_comma_separated_values._" data-name="Copy order details as comma separated values. " transform="translate(16.097 62.241)" font-size="24" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="26">Copy order details as </tspan><tspan x="0" y="59">comma separated values. </tspan></text>
+    </g>
+    <g id="Group_140" data-name="Group 140" transform="translate(7103.595 9467.471)">
+      <rect id="Rectangle_24-28" data-name="Rectangle 24" width="319.254" height="233.941" transform="translate(0 0)" fill="#e2fde0"/>
+      <text id="Faster_navigation_between_research_and_work_management_pages." data-name="Faster navigation 
+between research and 
+work management 
+pages." transform="translate(16.097 73.144)" font-size="25" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Faster navigation </tspan><tspan x="0" y="34">between research and </tspan><tspan x="0" y="68">work management </tspan><tspan x="0" y="102">pages.</tspan></text>
+    </g>
+    <rect id="Rectangle_41" data-name="Rectangle 41" width="321.937" height="233.941" transform="translate(4810.332 9466.397)" fill="#e6e6e6"/>
+    <text id="Opportunities" transform="translate(4968.037 9593.197)" font-size="25" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.08em"><tspan x="-96.393" y="0">Opportunities</tspan></text>
+    <path id="Path_42" data-name="Path 42" d="M0,0H316.077l39.855,32.3L316.077,64.222H0V0Z" transform="translate(4810.332 8643.45)" fill="#0c5d64"/>
+    <path id="Path_43" data-name="Path 43" d="M0,0H316.077l39.855,32.3L316.077,64.222H0l40.045-32.2Z" transform="translate(5139.244 8643.849)" fill="#64d4e3" stroke="#0c5d64" stroke-width="2"/>
+    <path id="Path_44" data-name="Path 44" d="M0,0H316.077l39.855,32.3L316.077,64.222H0l40.045-32.2Z" transform="translate(5466.546 8643.849)" fill="#64d4e3" stroke="#0c5d64" stroke-width="2"/>
+    <path id="Path_45" data-name="Path 45" d="M0,0H316.077l39.855,32.3L316.077,64.222H0l40.045-32.2Z" transform="translate(5794.922 8643.849)" fill="#64d4e3" stroke="#0c5d64" stroke-width="2"/>
+    <path id="Path_46" data-name="Path 46" d="M0,0H316.077l39.855,32.3L316.077,64.222H0l40.045-32.2Z" transform="translate(6122.225 8643.849)" fill="#64d4e3" stroke="#0c5d64" stroke-width="2"/>
+    <path id="Path_47" data-name="Path 47" d="M0,0H316.077l39.855,32.3L316.077,64.222H0l40.045-32.2Z" transform="translate(6449.527 8643.849)" fill="#64d4e3" stroke="#0c5d64" stroke-width="2"/>
+    <path id="Path_48" data-name="Path 48" d="M0,0H316.077l39.855,32.3L316.077,64.222H0l40.045-32.2Z" transform="translate(6776.829 8643.849)" fill="#64d4e3" stroke="#0c5d64" stroke-width="2"/>
+    <path id="Path_49" data-name="Path 49" d="M0,0H316.077l39.855,32.3L316.077,64.222H0l40.045-32.2Z" transform="translate(7104.132 8643.849)" fill="#64d4e3" stroke="#0c5d64" stroke-width="2"/>
+    <text id="Research_Flow" data-name="Research Flow" transform="translate(4858.959 8683.959)" fill="#fff" font-size="25" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Research Flow</tspan></text>
+    <text id="Check_next_trailer_Cut-time" data-name="Check next trailer Cut-time" transform="translate(5316.656 8682.701)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="-124.067" y="0">Check next trailer Cut-time</tspan></text>
+    <text id="Find_orders_with_issues_in_one_wave" data-name="Find orders with issues 
+in one wave" transform="translate(5637.519 8669.824)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="-109.424" y="0">Find orders with issues </tspan><tspan x="-55.61" y="27">in one wave</tspan></text>
+    <text id="Research_order_attributes" data-name="Research order attributes" transform="translate(5974.7 8682.701)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="-118.862" y="0">Research order attributes</tspan></text>
+    <text id="Copy_order_oLPNs" data-name="Copy order oLPNs" transform="translate(6294.342 8682.701)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="-83.813" y="0">Copy order oLPNs</tspan></text>
+    <text id="Comma_separate_orders" data-name="Comma separate orders" transform="translate(6629.67 8682.701)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="-112.876" y="0">Comma separate orders</tspan></text>
+    <text id="Print_labels" data-name="Print labels" transform="translate(6950.994 8682.701)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="-52.026" y="0">Print labels</tspan></text>
+    <text id="Close_Research_sheet" data-name="Close Research sheet" transform="translate(7285.226 8682.701)" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="-98.628" y="0">Close Research sheet</tspan></text>
+  </g>
+</svg>

@@ -436,6 +436,10 @@ p {
       font-size: 16px;
       font-family: "Open Sans", sans-serif; }
 
+.emptext {
+  color: #282F3B;
+  font-weight: 500; }
+
 .creditcontent {
   width: 82%;
   margin: 0 auto; }
