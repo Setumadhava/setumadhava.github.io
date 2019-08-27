@@ -220,6 +220,9 @@
   font-size: 1.7em;
   font-weight: 300;
   color: #25334A; }
+  @media (min-width: 768px) {
+    #helloline p {
+      font-size: 2em; } }
 #helloline span {
   font-weight: 400;
   color: #F04B33; }
