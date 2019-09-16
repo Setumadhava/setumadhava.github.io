@@ -53,13 +53,12 @@
       #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName {
         max-width: 200px; }
         #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a {
-          font-size: 1.5em; }
+          font-size: 1.8em; }
           #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a p {
+            color: #25334A;
             font-family: "Poppins", sans-serif;
             width: 240px;
-            font-size: 1em;
             margin: 0;
-            color: #25334A;
             transition: 0.25s all ease-in-out;
             font-weight: 300; }
           #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuName a p:hover {
@@ -72,10 +71,10 @@
         position: absolute;
         top: 0;
         right: 0;
-        padding: 2.4em 1.25em 0 0; }
+        padding: 2.75em 1.25em 0 0; }
         @media (min-width: 768px) {
           #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicondiv {
-            padding: 4.5em 3.3em; } }
+            padding: 4.65em 3.2em; } }
         @media (min-width: 1024px) {
           #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent #ppmenunameflex #ppmenuxicondiv {
             padding: 4.5em 6.2em; } }
@@ -95,12 +94,12 @@
         padding: 1.5em 0; }
         @media (min-width: 1440px) {
           #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul li {
-            padding: 1.5em 0 1.5em 4em;
+            padding: 1.7em 0 1.5em 4em;
             margin-bottom: 2em; } }
         #ppheadercontainer #ppmobilemenuwrapper .ppmobilemenucontent ul li a {
           color: #25334A;
           font-family: "Open Sans", sans-serif;
-          font-size: 0.9em;
+          font-size: 1.1em;
           font-weight: 400;
           letter-spacing: 1px;
           transition: 0.25s all ease-in-out; }

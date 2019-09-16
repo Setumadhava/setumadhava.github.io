@@ -65,14 +65,13 @@
                     max-width: 200px;
 
                     a {
-                        font-size: 1.5em;
+                        font-size: 1.8em;
 
                         p {
+                            color: #25334A;
                             font-family: $poppins;
                             width: 240px;
-                            font-size: 1em;
                             margin: 0;
-                            color: #25334A;
                             transition: 0.25s all ease-in-out;
                             font-weight: 300;
                         }
@@ -91,9 +90,9 @@
                     position: absolute;
                     top: 0;
                     right: 0;
-                    padding: 2.4em 1.25em 0 0;
+                    padding: 2.75em 1.25em 0 0;
                     @media #{$tablet} {
-                        padding: 4.5em 3.3em;
+                        padding: 4.65em 3.2em;
                     }
                     @media #{$mac13} {
                         // display: none;
@@ -120,14 +119,14 @@
                     list-style: none;
                     padding: 1.5em 0;
                     @media #{$mac15} {
-                        padding: 1.5em 0 1.5em 4em;
+                        padding: 1.7em 0 1.5em 4em;
                         margin-bottom: 2em;
                     }
 
                     a {
                         color: #25334A;
                         font-family: $opensans;
-                        font-size: 0.9em;
+                        font-size: 1.1em;
                         font-weight: 400;
                         letter-spacing: 1px;
                         transition: 0.25s all ease-in-out;
@@ -862,7 +861,7 @@ p {
     ///// PICKING PRIORITY /////
     .thd_pp_outer {
         border-radius: 8px;
-        background-color: #C9E9F4;
+        background-color: $pp;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -885,7 +884,7 @@ p {
     ///// NON CON VIZ /////
     .thd_ncv_outer {
         border-radius: 8px;
-        background-color: #A2E3B3;
+        background-color: $ncv;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -908,7 +907,7 @@ p {
     }
     ///// SIMPLE SORT ////
     .thd_ss_outer {
-        background-color: #DBDCFF;
+        background-color: $ss;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -927,7 +926,7 @@ p {
     }
     ///// MOTION DESIGN ////
     .motion_design_outer {
-        background-color: #F8B2B2;
+        background-color: $exploration;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -951,22 +950,22 @@ p {
     //////////////////////// PROJECT SPECIFIC ENDS /////////////////////////
     .owdiv:hover {
         .thd_pp_outer {
-            background-color: #8AC6DB;
+            background-color: $pp_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .thd_ncv_outer {
-            background-color: #78CB8D;
+            background-color: $ncv_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .thd_ss_outer {
-            background-color: #ABACE2;
+            background-color: $ss_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .motion_design_outer {
-            background-color: #F08989;
+            background-color: $exploration_hover;
             transition: 0.25s all ease-in-out;
         }
     }

@@ -3,7 +3,7 @@
     color: $textdark;
     line-height: 1.8em;
 }
-/////////////////////  HEADER START /////////////////////
+/////////////////////  PROJECT HEADER START /////////////////////
 
 #ppheadercontainer {
     @media #{$mac13} {
@@ -65,14 +65,13 @@
                     max-width: 200px;
 
                     a {
-                        font-size: 1.5em;
+                        font-size: 1.8em;
 
                         p {
+                            color: #25334A;
                             font-family: $poppins;
                             width: 240px;
-                            font-size: 1em;
                             margin: 0;
-                            color: #25334A;
                             transition: 0.25s all ease-in-out;
                             font-weight: 300;
                         }
@@ -91,9 +90,9 @@
                     position: absolute;
                     top: 0;
                     right: 0;
-                    padding: 2.4em 1.25em 0 0;
+                    padding: 2.75em 1.25em 0 0;
                     @media #{$tablet} {
-                        padding: 4.5em 3.3em;
+                        padding: 4.65em 3.2em;
                     }
                     @media #{$mac13} {
                         // display: none;
@@ -120,14 +119,14 @@
                     list-style: none;
                     padding: 1.5em 0;
                     @media #{$mac15} {
-                        padding: 1.5em 0 1.5em 4em;
+                        padding: 1.7em 0 1.5em 4em;
                         margin-bottom: 2em;
                     }
 
                     a {
                         color: #25334A;
                         font-family: $opensans;
-                        font-size: 0.9em;
+                        font-size: 1.1em;
                         font-weight: 400;
                         letter-spacing: 1px;
                         transition: 0.25s all ease-in-out;
@@ -142,7 +141,7 @@
         }
     }
 }
-//////////////// HEADER END ///////////////
+//////////////// PROJECT HEADER END ///////////////
 
 p {
     line-height: 1.8em;
