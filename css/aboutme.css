@@ -207,7 +207,7 @@ a {
       max-width: 600px; } }
   @media (min-width: 1024px) {
     .abouttitle {
-      max-width: 1000px; } }
+      max-width: 850px; } }
   .abouttitle p {
     color: #F04B33;
     font-family: "Poppins", sans-serif;
@@ -223,11 +223,17 @@ a {
       max-width: 600px; } }
   @media (min-width: 1024px) {
     .contentsection {
-      max-width: 1000px; } }
+      max-width: 850px; } }
   .contentsection p {
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: "Open Sans", sans-serif;
     line-height: 2em; }
+    @media (min-width: 768px) {
+      .contentsection p {
+        font-size: 1em; } }
+    @media (min-width: 1024px) {
+      .contentsection p {
+        font-size: 1.3em; } }
 
 .subtitle {
   width: 85%;

@@ -324,8 +324,15 @@ p {
     }
 
     p {
-        font-size: 1.3em;
+        font-size: 1em;
+        @media #{$tablet} {
+            font-size: 1em;
+        }
+        @media #{$mac13} {
+            font-size: 1.3em;
+        }
         font-family: $opensans;
+        line-height: 2em;
     }
 }
 
@@ -350,9 +357,13 @@ p {
     }
 
     p {
-        font-size: 1.1em;
+        font-size: 0.9em;
         font-family: $opensans;
         color: $grey3;
+        @media #{$mac13} {
+            font-size: 1.1em;
+            line-height: 2.2em;
+        }
     }
 }
 
@@ -364,14 +375,24 @@ p {
         text-align: center;
         color: $grey4;
         font-family: $opensans;
-        line-height: 40px;
-        font-size: 1.2em;
+        line-height: 2em;
+        font-size: 0.9em;
         @media #{$tablet} {
             max-width: 600px;
         }
         @media #{$mac13} {
             max-width: 650px;
+            font-size: 1.1em;
+            line-height: 2.2em;
         }
+    }
+}
+
+.rolecontent {
+    font-size: 1em;
+    @media #{$tablet} {
+        font-size: 1.1em;
+        font-family: $opensans;
     }
 }
 

@@ -249,8 +249,15 @@ p {
     .contentsection {
       max-width: 850px; } }
   .contentsection p {
-    font-size: 1.3em;
-    font-family: "Open Sans", sans-serif; }
+    font-size: 1em;
+    font-family: "Open Sans", sans-serif;
+    line-height: 2em; }
+    @media (min-width: 768px) {
+      .contentsection p {
+        font-size: 1em; } }
+    @media (min-width: 1024px) {
+      .contentsection p {
+        font-size: 1.3em; } }
 
 @media (min-width: 768px) {
   .introcontent {
@@ -268,9 +275,13 @@ p {
     .creditcontent {
       max-width: 650px; } }
   .creditcontent p {
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-family: "Open Sans", sans-serif;
     color: #BCBCBC; }
+    @media (min-width: 1024px) {
+      .creditcontent p {
+        font-size: 1.1em;
+        line-height: 2.2em; } }
 
 .imgdesc p {
   width: 85%;
@@ -279,14 +290,23 @@ p {
   text-align: center;
   color: #7E7E7E;
   font-family: "Open Sans", sans-serif;
-  line-height: 40px;
-  font-size: 1.2em; }
+  line-height: 2em;
+  font-size: 0.9em; }
   @media (min-width: 768px) {
     .imgdesc p {
       max-width: 600px; } }
   @media (min-width: 1024px) {
     .imgdesc p {
-      max-width: 650px; } }
+      max-width: 650px;
+      font-size: 1.1em;
+      line-height: 2.2em; } }
+
+.rolecontent {
+  font-size: 1em; }
+  @media (min-width: 768px) {
+    .rolecontent {
+      font-size: 1.1em;
+      font-family: "Open Sans", sans-serif; } }
 
 #emphasisflex {
   display: flex;

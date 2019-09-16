@@ -323,8 +323,15 @@ p {
     }
 
     p {
-        font-size: 1.3em;
+        font-size: 1em;
+        @media #{$tablet} {
+            font-size: 1em;
+        }
+        @media #{$mac13} {
+            font-size: 1.3em;
+        }
         font-family: $opensans;
+        line-height: 2em;
     }
 }
 
@@ -338,6 +345,27 @@ p {
     }
 }
 
+.creditcontent {
+    width: 82%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 620px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
+
+    p {
+        font-size: 0.9em;
+        font-family: $opensans;
+        color: $grey3;
+        @media #{$mac13} {
+            font-size: 1.1em;
+            line-height: 2.2em;
+        }
+    }
+}
+
 .imgdesc {
     p {
         width: 85%;
@@ -346,14 +374,24 @@ p {
         text-align: center;
         color: $grey4;
         font-family: $opensans;
-        line-height: 40px;
-        font-size: 1.2em;
+        line-height: 2em;
+        font-size: 0.9em;
         @media #{$tablet} {
             max-width: 600px;
         }
         @media #{$mac13} {
             max-width: 650px;
+            font-size: 1.1em;
+            line-height: 2.2em;
         }
+    }
+}
+
+.rolecontent {
+    font-size: 1em;
+    @media #{$tablet} {
+        font-size: 1.1em;
+        font-family: $opensans;
     }
 }
 
@@ -596,7 +634,7 @@ p {
     ///// PICKING PRIORITY /////
     .thd_pp_outer {
         border-radius: 8px;
-        background-color: #C9E9F4;
+        background-color: $pp;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -619,7 +657,7 @@ p {
     ///// NON CON VIZ /////
     .thd_ncv_outer {
         border-radius: 8px;
-        background-color: #A2E3B3;
+        background-color: $ncv;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -642,7 +680,7 @@ p {
     }
     ///// SIMPLE SORT ////
     .thd_ss_outer {
-        background-color: #DBDCFF;
+        background-color: $ss;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -661,7 +699,7 @@ p {
     }
     ///// PUMP IT UP ////
     .piu_outer {
-        background-color: #C7FAF6;
+        background-color: $pumpitup;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
@@ -689,22 +727,22 @@ p {
     //////////////////////// PROJECT SPECIFIC ENDS /////////////////////////
     .owdiv:hover {
         .thd_pp_outer {
-            background-color: #8AC6DB;
+            background-color: $pp_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .thd_ncv_outer {
-            background-color: #78CB8D;
+            background-color: $ncv_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .thd_ss_outer {
-            background-color: #ABACE2;
+            background-color: $ss_hover;
             transition: 0.25s all ease-in-out;
         }
 
         .piu_outer {
-            background-color: #85CBCA;
+            background-color: $pumpitup_hover;
             transition: 0.25s all ease-in-out;
         }
     }
