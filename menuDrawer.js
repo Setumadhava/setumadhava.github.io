@@ -1,7 +1,7 @@
 document.getElementById("hpmenuicon").onclick = function() {
     document.getElementById("hpmenuicondiv").style.opacity = 0;
     document.getElementById("hpmenuicondiv").style.zIndex = -2;
-    document.getElementById("hpmobilemenuwrapper").style.opacity = 01;
+    document.getElementById("hpmobilemenuwrapper").style.opacity = 1;
     document.getElementById("hpmobilemenuwrapper").style.zIndex = 2;
 }
 
