@@ -255,22 +255,22 @@ p {
 
 #herotitle {
     p {
-        font-weight: 500;
-        font-size: 2em;
+        font-weight: 700;
+        font-size: 2.5em;
         padding-top: 1em;
         width: 85%;
-        margin: 5em auto 0;
+        margin: 0 auto 2em;
         font-family: $poppins;
         letter-spacing: 2px;
         @media #{$tablet} {
-            max-width: 600px;
-            font-size: 2.6em;
-            margin: 2em auto 0;
+            max-width: 650px;
+            font-size: 3.5em;
+            margin: 0 auto 2em;
         }
         @media #{$mac13} {
-            max-width: 650px;
-            font-size: 2.6em;
-            margin: 0 auto;
+            max-width: 900px;
+            font-size: 3.5em;
+            margin: 0 auto 1em;
         }
     }
 }
@@ -282,16 +282,16 @@ p {
         max-width: 600px;
     }
     @media #{$mac13} {
-        max-width: 650px;
+        max-width: 850px;
     }
 
     p {
-        font-size: 1.4em;
-        font-weight: 500;
+        font-size: 2.4em;
+        font-weight: 700;
         font-family: $poppins;
         letter-spacing: 2px;
         @media #{$tablet} {
-            font-size: 1.8em;
+            font-size: 3em;
         }
     }
 }
@@ -303,11 +303,11 @@ p {
         max-width: 600px;
     }
     @media #{$mac13} {
-        max-width: 650px;
+        max-width: 850px;
     }
 
     p {
-        font-size: 1.1em;
+        font-size: 1.5em;
         font-weight: 700;
         font-family: $opensans;
     }
@@ -321,12 +321,39 @@ p {
         max-width: 600px;
     }
     @media #{$mac13} {
+        max-width: 850px;
+    }
+
+    p {
+        font-size: 1.3em;
+        font-family: $opensans;
+    }
+}
+
+.introcontent {
+    @media #{$tablet} {
+        max-width: 900px;
+
+        p {
+            font-size: 1.6em;
+        }
+    }
+}
+
+.creditcontent {
+    width: 82%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 620px;
+    }
+    @media #{$mac13} {
         max-width: 650px;
     }
 
     p {
-        font-size: 18px;
+        font-size: 1.1em;
         font-family: $opensans;
+        color: $grey3;
     }
 }
 
@@ -338,7 +365,8 @@ p {
         text-align: center;
         color: $grey4;
         font-family: $opensans;
-        line-height: 30px;
+        line-height: 40px;
+        font-size: 1.2em;
         @media #{$tablet} {
             max-width: 600px;
         }
@@ -423,7 +451,7 @@ p {
         max-width: 600px;
     }
     @media #{$mac13} {
-        max-width: 650px;
+        max-width: 850px;
     }
 
     .researchmethoddiv {
@@ -656,23 +684,6 @@ p {
     }
 }
 
-.creditcontent {
-    width: 82%;
-    margin: 0 auto;
-    @media #{$tablet} {
-        max-width: 620px;
-    }
-    @media #{$mac13} {
-        max-width: 650px;
-    }
-
-    p {
-        font-size: 16px;
-        font-family: $opensans;
-        color: $grey3;
-    }
-}
-
 .one15 {
     background-color: transparent;
     width: 90%;
@@ -764,22 +775,23 @@ p {
 }
 
 #owsectiontitle {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     @media #{$tablet} {
         max-width: 700px;
+        width: 90%;
     }
     @media #{$mac13} {
         max-width: 1000px;
     }
 
     p {
-        font-size: 1.4em;
-        font-weight: 500;
+        font-size: 2.4em;
+        font-weight: 700;
         font-family: $poppins;
         letter-spacing: 2px;
         @media #{$tablet} {
-            font-size: 1.8em;
+            font-size: 3em;
         }
     }
 }
@@ -824,7 +836,7 @@ p {
             padding: 1em 0;
 
             p {
-                font-size: 1.2em;
+                font-size: 1.4em;
                 font-weight: 600;
                 letter-spacing: 1px;
                 font-family: $poppins;
@@ -962,10 +974,13 @@ p {
 ///////////////////////// COPYRIGHT START ///////////////////////
 
 #copyrightdiv {
+    width: 90%;
+    margin: 0 auto;
+
     p {
         font-family: $opensans;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.2em;
         letter-spacing: 0.5px;
         color: $grey4;
     }

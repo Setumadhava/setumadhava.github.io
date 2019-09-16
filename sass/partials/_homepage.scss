@@ -298,16 +298,15 @@
 #helloline {
     p {
         font-family: $poppins;
-        font-size: 1.7em;
-        font-weight: 300;
+        font-size: 2em;
+        font-weight: 700;
         color: #25334A;
         @media #{$tablet} {
-            font-size: 2em;
+            font-size: 2.5em;
         }
     }
 
     span {
-        font-weight: 400;
         color: $setured;
     }
 }
@@ -315,9 +314,9 @@
 #whatido {
     p {
         font-family: $opensans;
-        font-size: 1em;
+        font-size: 1.2em;
         color: #25334A;
-        line-height: 28px;
+        line-height: 35px;
     }
     @media #{$tablet} {
         max-width: 500px;
@@ -403,7 +402,7 @@
             p {
                 font-family: $poppins;
                 font-size: 1.7em;
-                font-weight: 300;
+                font-weight: 700;
                 color: #25334A;
                 letter-spacing: 1px;
                 text-decoration: none;
@@ -415,10 +414,10 @@
             position: relative;
 
             p {
-                font-size: 1em;
+                font-size: 1.2em;
                 font-family: $opensans;
                 color: #25334A;
-                line-height: 28px;
+                line-height: 35px;
                 @media #{$tablet} {
                     max-width: 380px;
                 }
@@ -695,10 +694,13 @@
 //////////////////////// COPYRIGHT START ///////////////////////
 
 #copyrightdiv {
+    width: 90%;
+    margin: 0 auto;
+
     p {
         font-family: $opensans;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.2em;
         letter-spacing: 0.5px;
         color: $grey4;
     }

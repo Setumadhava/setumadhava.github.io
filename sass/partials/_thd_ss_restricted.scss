@@ -325,7 +325,7 @@ a {
             color: #25334A;
             text-align: center;
             line-height: 1.9em;
-            font-size: 1.5em;
+            font-size: 2em;
         }
     }
 
@@ -343,7 +343,7 @@ a {
             font-family: $opensans;
             font-weight: 400;
             color: red;
-            font-size: 0.8em;
+            font-size: 1em;
         }
     }
 
@@ -434,7 +434,7 @@ a {
             text-align: center;
             color: $grey4;
             font-family: $opensans;
-            font-size: 1em;
+            font-size: 1.3em;
             line-height: 1.9em;
 
             span {
@@ -468,23 +468,24 @@ a {
 }
 
 #owsectiontitle {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     @media #{$tablet} {
         max-width: 700px;
-        margin: 0;
+        width: 90%;
     }
     @media #{$mac13} {
+        margin: 0;
         max-width: 1000px;
     }
 
     p {
-        font-size: 1.4em;
-        font-weight: 500;
+        font-size: 2.4em;
+        font-weight: 700;
         font-family: $poppins;
         letter-spacing: 2px;
         @media #{$tablet} {
-            font-size: 1.8em;
+            font-size: 3em;
         }
     }
 }
@@ -494,13 +495,15 @@ a {
     max-width: 650px;
     margin: 0 auto;
     @media #{$tablet} {
-        width: 100%;
+        max-width: 600px;
+    }
+    @media #{$mac13} {
         max-width: 1000px;
         margin: 0;
     }
 
     p {
-        font-size: 18px;
+        font-size: 1.3em;
         font-family: $opensans;
     }
 }
@@ -545,7 +548,7 @@ a {
             padding: 1em 0;
 
             p {
-                font-size: 1.2em;
+                font-size: 1.4em;
                 font-weight: 600;
                 letter-spacing: 1px;
                 font-family: $poppins;
@@ -627,7 +630,7 @@ a {
     p {
         font-family: $opensans;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.2em;
         letter-spacing: 0.5px;
         color: $grey4;
     }

@@ -217,21 +217,20 @@
 
 #helloline p {
   font-family: "Poppins", sans-serif;
-  font-size: 1.7em;
-  font-weight: 300;
+  font-size: 2em;
+  font-weight: 700;
   color: #25334A; }
   @media (min-width: 768px) {
     #helloline p {
-      font-size: 2em; } }
+      font-size: 2.5em; } }
 #helloline span {
-  font-weight: 400;
   color: #F04B33; }
 
 #whatido p {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   color: #25334A;
-  line-height: 28px; }
+  line-height: 35px; }
 @media (min-width: 768px) {
   #whatido {
     max-width: 500px; } }
@@ -302,7 +301,7 @@
     .projectcard .projectcontentdiv .projecttitle p {
       font-family: "Poppins", sans-serif;
       font-size: 1.7em;
-      font-weight: 300;
+      font-weight: 700;
       color: #25334A;
       letter-spacing: 1px;
       text-decoration: none;
@@ -310,10 +309,10 @@
     .projectcard .projectcontentdiv .projectdesc {
       position: relative; }
       .projectcard .projectcontentdiv .projectdesc p {
-        font-size: 1em;
+        font-size: 1.2em;
         font-family: "Open Sans", sans-serif;
         color: #25334A;
-        line-height: 28px; }
+        line-height: 35px; }
         @media (min-width: 768px) {
           .projectcard .projectcontentdiv .projectdesc p {
             max-width: 380px; } }
@@ -510,12 +509,15 @@
     text-decoration-style: dotted;
     text-decoration-color: #96D3E8; }
 
-#copyrightdiv p {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  font-size: 1em;
-  letter-spacing: 0.5px;
-  color: #7E7E7E; }
+#copyrightdiv {
+  width: 90%;
+  margin: 0 auto; }
+  #copyrightdiv p {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+    color: #7E7E7E; }
 
 .container,
 body,
