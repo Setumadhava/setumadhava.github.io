@@ -30,6 +30,17 @@ a {
         max-width: 1000px;
     }
 }
+
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 650px;
+    }
+    @media #{$tablet} {
+        max-width: 1000px;
+    }
+}
 /////////////////////  HOMEPAGE HEADER START /////////////////////
 
 #hpheader {
@@ -59,7 +70,7 @@ a {
             p {
                 font-family: $poppins;
                 width: 240px;
-                font-size: 1.5em;
+                font-size: 1.8em;
                 margin: 0;
                 color: #25334A;
                 transition: 0.25s all ease-in-out;
@@ -95,13 +106,13 @@ a {
                 list-style: none;
                 padding: 1.5em 0;
                 @media #{$mac13} {
-                    padding: 0.45em 0 0 4em;
+                    padding: 0.6em 0 0 4em;
                 }
 
                 a {
                     color: #25334A;
                     font-family: $opensans;
-                    font-size: 0.9em;
+                    font-size: 1.1em;
                     font-weight: 400;
                     letter-spacing: 1px;
                     transition: 0.25s all ease-in-out;
@@ -121,11 +132,11 @@ a {
     right: 0;
     z-index: 100;
     top: 0;
-    padding: 2.5em 1em;
+    padding: 2.75em 1em;
     display: block;
     position: fixed;
     @media #{$tablet} {
-        padding: 4em 3em;
+        padding: 4.65em 3em;
     }
     @media #{$mac13} {
         display: none;
@@ -164,7 +175,7 @@ a {
             max-width: 200px;
 
             a {
-                font-size: 1.5em;
+                font-size: 1.8em;
 
                 p {
                     font-family: $poppins;
@@ -190,9 +201,9 @@ a {
             position: absolute;
             top: 0;
             right: 0;
-            padding: 2.5em 1.25em 0 0;
+            padding: 2.75em 1.25em 0 0;
             @media #{$tablet} {
-                padding: 4em 3.2em;
+                padding: 4.65em 3.2em;
             }
             @media #{$mac13} {
                 // display: none;
@@ -217,7 +228,7 @@ a {
             a {
                 color: #25334A;
                 font-family: $opensans;
-                font-size: 0.9em;
+                font-size: 1.1em;
                 font-weight: 400;
                 letter-spacing: 1px;
             }
@@ -259,7 +270,7 @@ a {
         max-width: 600px;
     }
     @media #{$mac13} {
-        max-width: 850px;
+        max-width: 1000px;
     }
 
     p {
@@ -278,7 +289,7 @@ a {
         max-width: 600px;
     }
     @media #{$mac13} {
-        max-width: 850px;
+        max-width: 1000px;
     }
 
     p {
