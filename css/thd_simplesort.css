@@ -268,10 +268,10 @@ p {
   margin: 0 auto; }
   @media (min-width: 768px) {
     .creditcontent {
-      max-width: 620px; } }
+      max-width: 600px; } }
   @media (min-width: 1024px) {
     .creditcontent {
-      max-width: 650px; } }
+      max-width: 850px; } }
   .creditcontent p {
     font-size: 0.9em;
     font-family: "Open Sans", sans-serif;

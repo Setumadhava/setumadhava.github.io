@@ -345,10 +345,10 @@ p {
     width: 82%;
     margin: 0 auto;
     @media #{$tablet} {
-        max-width: 620px;
+        max-width: 600px;
     }
     @media #{$mac13} {
-        max-width: 650px;
+        max-width: 850px;
     }
 
     p {
@@ -610,6 +610,7 @@ p {
     }
 }
 // VIDEO ATTRIBUTES START
+
 .centervideo {
     .videodiv {
         video {
