@@ -609,6 +609,22 @@ p {
         max-width: 600px;
     }
 }
+// VIDEO ATTRIBUTES START
+.centervideo {
+    .videodiv {
+        video {
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+            -webkit-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+            -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+            box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+            width: 85%;
+            max-width: 1250px;
+        }
+    }
+}
+// VIDEO ATTRIBUTES END
 
 .one15 {
     background-color: transparent;
