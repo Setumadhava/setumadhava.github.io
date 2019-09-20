@@ -448,6 +448,10 @@ p {
   .centerimg img {
     width: 100%; }
 
+@media (min-width: 768px) {
+  .illustration {
+    max-width: 650px; } }
+
 .findingsimg {
   margin: 0 auto; }
   @media (min-width: 768px) {

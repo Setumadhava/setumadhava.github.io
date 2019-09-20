@@ -580,6 +580,12 @@ p {
     }
 }
 
+.illustration {
+    @media #{$tablet} {
+        max-width: 650px;
+    }
+}
+
 .findingsimg {
     margin: 0 auto;
     @media #{$tablet} {

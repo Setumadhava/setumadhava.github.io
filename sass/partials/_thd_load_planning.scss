@@ -204,7 +204,7 @@ p {
 
 #herosection {
     // background-color: #A2E3B3;
-    background-image: url("img/thd_ncv/ncv_hero_bg.svg");
+    background-image: url("img/thd_lp/lp_hero_bg.svg");
     display: block;
     background-size: cover;
     background-position: center center;
@@ -235,12 +235,11 @@ p {
             width: 100%;
         }
         @media #{$tablet} {
-            max-width: 614px;
-            top: 65%;
+            max-width: 630px;
+            top: 50%;
         }
         @media #{$mac13} {
-            max-width: 700px;
-            top: 65%;
+            max-width: 850px;
         }
     }
 }

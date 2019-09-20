@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Setu - Non Con Dashboard</title>
+    <title>Setu - DFC Load Planning</title>
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/thd_noncon_dashboard.css">
+    <link rel="stylesheet" href="css/thd_load_planning.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="css/img/homepage/logo.png" />
 
@@ -30,9 +30,9 @@
 </head>
 
 
-<!-- <script>
+<script>
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-</script> -->
+</script>
 
 <body>
 
@@ -96,18 +96,18 @@
         <div id="herosection">
             <div id="heroimg">
                 <div class="imgdiv">
-                    <img src="css/img/thd_ncv/Img-Hero.png">
+                    <img src="css/img/thd_lp/lp_trailer.svg">
                 </div>
 
             </div>
         </div>
 
         <div id="herotitle">
-            <p>Non-Conveyable Dashboard</p>
+            <p>Load Planning</p>
         </div>
 
         <div class="contentsection introcontent">
-            <p>An enterprise app that aims to improve the operational efficiency of outbound work assignment and tracking for the Supervisors working in Home Depot’s fulfillment centers.</p>
+            <p>Re-engineering the customer order loading process for efficient trailer loading and increased cost savings for the Home Depot.</p>
         </div>
         <div class="threeemboth"></div>
         <div class="threeemboth"></div>
@@ -122,11 +122,11 @@
             </div>
             <div class="roleitem">
                 <p class="roletitle">RESPONSIBILITIES</p>
-                <p class="rolecontent">User Research, Usability Studies, Interaction & Product Design</p>
+                <p class="rolecontent">User Research, Stakeholder Alignment, Journey Mapping</p>
             </div>
             <div class="roleitem">
                 <p class="roletitle">TIMELINE</p>
-                <p class="rolecontent">May - Jul 2019</p>
+                <p class="rolecontent">Jun 2019 - Present </p>
             </div>
         </div>
         <div class="threeemboth"></div>
@@ -136,24 +136,37 @@
         <!-- PROBLEM START -->
 
         <div class="sectiontitle">
+            <p>Context</p>
+        </div>
+
+        <div class="contentsection">
+            <p>Customer orders that are picked within the DFCs are loaded into trailers which then take the items to the next distribution center for last-mile delivery. The process of planning how a trailer is supposed to be loaded is called ‘Load
+                Planning’.
+            </p>
+        </div>
+
+
+        <div class="threeemboth"></div>
+
+        <!-- PROBLEM END-->
+
+        <!-- PROBLEM START -->
+
+        <div class="sectiontitle">
             <p>The Problem</p>
         </div>
 
         <div class="contentsection">
-            <p>Customer order picking within the DFCs were managed by Outbound Supervisors using a refreshable spreadsheet. The spreadsheet tools were not built with any security and posed security risks for the organization. <br><br>
+            <p>Trailer loading was not a planned activity. The loaders were loading trailers in the FIFO order based on their best guess. As a result:<br><br>
+                1. Customers orders getting split.
+                2. Trailer volume was not being efficiently used which impacted how many orders could fit inside a trailer.<br><br>
 
-                Along with this, there was no consistency in the process followed by supervisors across different buildings or even within the same building and the tools did not provide the users visibility to critical information to make
-                effective decisions.
+                Along with this, the carrier contracts were fixed and the Home Depot could not choose carriers based on the volume resulting in higher freight spend per lane. <br><br>
+
+                Both of these issues was costing the company almost $2M/year.
             </p>
         </div>
-        <div class="twoemboth"></div>
-        <div class="centerimg">
-            <img src="css/img/thd_ncv/Img-Spreadsheet.png">
-        </div>
-        <div class="oneemtop"></div>
-        <div class="imgdesc">
-            <p>The Supervisors were using a slow and non-secure spreadsheet-based tool to manage outbound work in the fulfillment centers</p>
-        </div>
+
 
         <div class="threeemboth"></div>
 
@@ -169,8 +182,7 @@
         </div>
 
         <div class="contentsection">
-            <p>The goal was to replace the existing spreadsheet-based tool with a cloud-based application that allowed users to carry out the same tasks with equal or better efficiency. No new features or process improvements was within the
-                purview of the MVP.
+            <p>The goal was to help the DFC by planning the customer orders in advance before releasing the orders to the DFC for picking and loading the orders.
             </p>
         </div>
 
@@ -180,7 +192,7 @@
         <div id="emphasisflex">
             <div class="empline"></div>
             <div class="empcontent">
-                <p>How might we create a secure, centralized solution that allows the Supervisors to manage and track customer orders efficiently?</p>
+                <p>How might we better plan customer order loading within the trailers and allow for flexible carrier selection so that customer orders are delivered on time?</p>
             </div>
         </div>
 
@@ -194,11 +206,12 @@
 
         <div class="sectiontitle">
             <div class="threeemboth"></div>
-            <p>Journey Maps</p>
+            <p>Prioritization</p>
         </div>
 
         <div class="contentsection">
-            <p>Contextual Inquiry helped us understand the mental-model of the Supervisors and the various touch-points that exist in their job of managing customer orders.
+            <p>I facilitated a kick-off meeting with the stakeholders and led them through a goals-generation and prioritization exercise. The outcome was a prioritized list of goals based on what initiative added the most value to the company with
+                least amount of complexity.
             </p>
         </div>
         <div class="twoemboth"></div>

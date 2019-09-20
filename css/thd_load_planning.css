@@ -148,7 +148,7 @@ p {
   padding: 6em 0; }
 
 #herosection {
-  background-image: url("img/thd_ncv/ncv_hero_bg.svg");
+  background-image: url("img/thd_lp/lp_hero_bg.svg");
   display: block;
   background-size: cover;
   background-position: center center;
@@ -177,12 +177,11 @@ p {
       width: 100%; }
     @media (min-width: 768px) {
       #herosection #heroimg {
-        max-width: 614px;
-        top: 65%; } }
+        max-width: 630px;
+        top: 50%; } }
     @media (min-width: 1024px) {
       #herosection #heroimg {
-        max-width: 700px;
-        top: 65%; } }
+        max-width: 850px; } }
 
 #herotitle p {
   font-weight: 700;
@@ -1020,4 +1019,4 @@ html {
     .copyright {
       font-size: 1.4em; } }
 
-/*# sourceMappingURL=thd_noncon_dashboard.css.map */
+/*# sourceMappingURL=thd_load_planning.css.map */
