@@ -466,6 +466,30 @@
         }
     }
 }
+//////////// THD LP CARD SPECIFIC //////////////
+
+.thd_lp {
+    background-color: $loadplan;
+    width: 100%;
+    position: relative;
+    min-height: 250px;
+    @media #{$tablet} {
+        min-height: 450px;
+    }
+    @media #{$mac13} {
+        min-height: 325px;
+    }
+
+    .projectimg {
+        width: 90%;
+        margin: 0 auto;
+        transition: 0.25s all ease-in-out;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%,-50%);
+    }
+}
 //////////// THD PP CARD SPECIFIC //////////////
 
 .thd_pp {
@@ -610,6 +634,28 @@
             text-decoration: underline;
             text-decoration-style: dotted;
             text-decoration-color: $ncv_hover;
+        }
+    }
+}
+
+.thd_lp_card:hover {
+    cursor: pointer;
+
+    .lockicon {
+        opacity: 1;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_ncv {
+        background-color: $loadplan_hover;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: $loadplan_hover;
         }
     }
 }
