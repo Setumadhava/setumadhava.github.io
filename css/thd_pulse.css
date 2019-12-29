@@ -282,6 +282,9 @@ p {
     max-width: 650px; }
     .introcontent p {
       font-size: 1.6em; } }
+@media (min-width: 1024px) {
+  .introcontent {
+    max-width: 850px; } }
 
 .creditcontent {
   width: 82%;
