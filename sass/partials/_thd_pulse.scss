@@ -1,0 +1,1042 @@
+* {
+    transition: 0.3s all ease-in-out;
+    color: $textdark;
+    line-height: 1.8em;
+}
+/////////////////////  PROJECT HEADER START /////////////////////
+
+#ppheadercontainer {
+    @media #{$mac13} {
+        height: 180px;
+    }
+
+    #ppmenuicondiv {
+        position: absolute;
+        right: 0;
+        z-index: 100;
+        top: 0;
+        padding: 2.25em 1em;
+        display: block;
+        position: fixed;
+        @media #{$tablet} {
+            padding: 4.5em 3em;
+        }
+        @media #{$mac13} {
+            padding: 4.5em 6em;
+        }
+
+        img:hover {
+            cursor: pointer;
+        }
+    }
+
+    #ppmobilemenuwrapper {
+        opacity: 0;
+        z-index: -2;
+        transition: 0.25s all ease-in-out;
+        width: 100%;
+        background-color: white;
+        position: relative;
+        top: 0;
+        left: 0;
+        position: fixed;
+        -webkit-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+        -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+        box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+
+        .ppmobilemenucontent {
+            width: 90%;
+            margin: 0 auto;
+            @media #{$mac13} {
+                max-width: 1000px;
+            }
+            @media #{$mac15} {
+                max-width: 1000px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            #ppmenunameflex {
+                padding: 2em 0 0;
+                transition: 0.25s all ease-in-out;
+
+                #ppmenuName {
+                    max-width: 200px;
+
+                    a {
+                        font-size: 1.8em;
+
+                        p {
+                            color: #25334A;
+                            font-family: $poppins;
+                            width: 240px;
+                            margin: 0;
+                            transition: 0.25s all ease-in-out;
+                            font-weight: 300;
+                        }
+
+                        p:hover {
+                            color: $setured;
+                            transition: 0.25s all ease-in-out;
+                        }
+                    }
+                    @media #{$tablet} {
+                        margin-top: 2em;
+                    }
+                }
+
+                #ppmenuxicondiv {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 2.75em 1.25em 0 0;
+                    @media #{$tablet} {
+                        padding: 4.65em 3.2em;
+                    }
+                    @media #{$mac13} {
+                        // display: none;
+                        padding: 4.5em 6.2em;
+                    }
+
+                    img:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            ul {
+                padding: 1em 0;
+                transition: 0.3s all ease-in-out;
+                margin: 0;
+                @media #{$mac15} {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 2em;
+                }
+
+                li {
+                    list-style: none;
+                    padding: 1.5em 0;
+                    @media #{$mac15} {
+                        padding: 1.7em 0 1.5em 4em;
+                        margin-bottom: 2em;
+                    }
+
+                    a {
+                        color: #25334A;
+                        font-family: $opensans;
+                        font-size: 1.1em;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                        transition: 0.25s all ease-in-out;
+                    }
+
+                    a:hover {
+                        color: $setured;
+                        transition: 0.25s all ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
+//////////////// PROJECT HEADER END ///////////////
+
+p {
+    line-height: 1.8em;
+}
+@media #{$phablet} {}
+@media #{$tablet} {}
+@media #{$mac13} {}
+@media #{$mac15} {}
+// @media #{$monitor} {}
+// @media #{$fourk} {}
+
+#supercontainer {
+    width: 90%;
+    @media #{$tablet} {
+        width: 90%;
+    }
+    @media #{$mac13} {
+        width: 80%;
+    }
+    @media #{$mac15} {
+        width: 80%;
+    }
+    // @media #{$monitor} {
+    //     width: 70%;
+    // }
+    @media #{$fourk} {
+        width: 60%;
+    }
+    margin: 0 auto;
+}
+
+.sixembottom {
+    padding-bottom: 6em;
+}
+
+.fourembottom {
+    padding-bottom: 4em;
+}
+
+.oneemtop {
+    padding: 1em 0 0;
+}
+
+.twoemboth {
+    padding: 2em 0;
+}
+
+.threeemboth {
+    padding: 3em 0;
+}
+
+.fouremboth {
+    padding: 4em 0;
+}
+
+.sixemboth {
+    padding: 6em 0;
+}
+////////////////////////////////////////////////////////////////////
+
+#herosection {
+    // background-color: #A2E3B3;
+    background-image: url("img/thd_pulse/pulse_hero_bg.svg");
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    border-radius: 0;
+    margin: 0 auto;
+    height: 350px;
+    @media #{$tablet} {
+        height: 460px;
+    }
+    @media #{$mac13} {
+        border-radius: 15px;
+        height: 550px;
+        max-width: 1000px;
+    }
+
+    #heroimg {
+        position: absolute;
+        top: 60%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        width: 300px;
+        width: 90%;
+
+        .imgdiv {
+            width: 100%;
+        }
+        @media #{$tablet} {
+            max-width: 614px;
+            top: 65%;
+        }
+        @media #{$mac13} {
+            max-width: 700px;
+            top: 65%;
+        }
+    }
+}
+
+#herotitle {
+    p {
+        font-weight: 700;
+        font-size: 2.5em;
+        padding-top: 1em;
+        width: 85%;
+        margin: 0 auto 2em;
+        font-family: $poppins;
+        letter-spacing: 2px;
+        @media #{$tablet} {
+            max-width: 650px;
+            font-size: 3.5em;
+            margin: 0 auto 2em;
+        }
+        @media #{$mac13} {
+            max-width: 850px;
+            margin: 0 auto 1em;
+        }
+    }
+}
+
+.sectiontitle {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 850px;
+    }
+
+    p {
+        font-size: 2.4em;
+        font-weight: 700;
+        font-family: $poppins;
+        letter-spacing: 2px;
+        @media #{$tablet} {
+            font-size: 3em;
+        }
+    }
+}
+
+.userneed {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 850px;
+    }
+
+    p {
+        font-size: 1em;
+        font-weight: 800;
+        font-family: $opensans;
+        color: $grey4;
+    }
+}
+
+.subtitle {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 850px;
+    }
+
+    p {
+        font-size: 1.5em;
+        font-weight: 700;
+        font-family: $opensans;
+    }
+}
+
+.contentsection {
+    width: 85%;
+    max-width: 650px;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 850px;
+    }
+
+    p {
+        font-size: 1em;
+        @media #{$tablet} {
+            font-size: 1em;
+        }
+        @media #{$mac13} {
+            font-size: 1.3em;
+        }
+        font-family: $opensans;
+        line-height: 2em;
+    }
+}
+
+.userquote {
+    font-family: $poppins;
+    font-size: 2em;
+    font-weight: 300;
+    font-style: italic;
+    padding: 2em 0;
+}
+
+.introcontent {
+    @media #{$tablet} {
+        max-width: 850px;
+
+        p {
+            font-size: 1.6em;
+        }
+    }
+}
+
+.creditcontent {
+    width: 82%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 850px;
+    }
+
+    p {
+        font-size: 0.9em;
+        font-family: $opensans;
+        color: $grey3;
+        @media #{$mac13} {
+            font-size: 1.1em;
+            line-height: 2.2em;
+        }
+    }
+}
+
+.qtbaflex {
+    display: flex;
+
+    .qtbaline {
+        width: 6px;
+        background-color: $grey2;
+        border-radius: 100px;
+    }
+}
+
+.prototype {
+    max-width: 90%;
+    margin: 0 auto;
+
+    iframe {
+        max-width: 100%;
+    }
+}
+
+.fullscreenbg {
+    background-color: $grey1;
+
+    .imageflex {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 4em 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .imgdiv {
+            width: 100%;
+            padding: 2em;
+            margin: 0 auto;
+            @media #{$tablet} {
+                width: 75%;
+            }
+            @media #{$mac13} {
+                width: 46%;
+            }
+        }
+    }
+}
+
+.imgdesc {
+    p {
+        width: 85%;
+        margin: 0 auto;
+        font-style: italic;
+        text-align: center;
+        color: $grey4;
+        font-family: $opensans;
+        line-height: 2em;
+        font-size: 0.9em;
+        @media #{$tablet} {
+            max-width: 600px;
+        }
+        @media #{$mac13} {
+            max-width: 650px;
+            font-size: 1.1em;
+            line-height: 2.2em;
+        }
+    }
+}
+
+.rolecontent {
+    font-size: 1em;
+    @media #{$tablet} {
+        font-size: 1.1em;
+        font-family: $opensans;
+    }
+}
+// RESEARCH METHODS START
+
+#researchmethodflex {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media #{$tablet} {
+        max-width: 650px;
+    }
+    @media #{$mac13} {
+        max-width: 850px;
+    }
+
+    .researchmethoddiv {
+        background-color: $grey1;
+        padding: 0 2em;
+        border-radius: 8px;
+        margin: 1em 0;
+        width: 230px;
+        @media #{$tablet} {
+            width: 30%;
+        }
+
+        p {
+            position: relative;
+            top: 8px;
+            font-weight: 500;
+            font-family: $poppins;
+            text-align: center;
+        }
+    }
+
+    .rmleftmargin {
+        @media #{$tablet} {
+            p {
+                position: relative;
+                top: 22px;
+            }
+            margin-left: 2em;
+        }
+        @media #{$mac13} {
+            p {
+                position: relative;
+                top: 8px;
+                font-weight: 500;
+                font-family: $poppins;
+                text-align: center;
+            }
+        }
+    }
+}
+// RESEARCH METHODS END
+
+#insightflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 90%;
+    @media #{$tablet} {
+        max-width: 650px;
+    }
+    @media #{$mac13} {
+        max-width: 1250px;
+    }
+
+    .insightdiv {
+        padding: 1em;
+        @media #{$tablet} {
+            width: 45%;
+            margin-bottom: 2em;
+        }
+        @media #{$mac13} {
+            width: 22%;
+        }
+
+        .insight_imgdiv {
+            img {
+                width: 400px;
+            }
+        }
+
+        .insight_title {
+            p {
+                margin: 1em 0;
+                font-weight: 700;
+                font-size: 18px;
+                font-family: $opensans;
+            }
+        }
+
+        .insight_content {
+            p {
+                font-size: 16px;
+                font-family: $opensans;
+            }
+        }
+    }
+}
+
+#emphasisflex {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    max-width: 800px;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 650px;
+    }
+
+    .empline {
+        width: 27%;
+        max-width: 3px;
+        border-radius: 10em;
+        background-color: $thdorange;
+    }
+
+    .empcontent {
+        margin: 0.5em 0 0 2em;
+
+        p {
+            font-family: $opensans;
+            font-size: 1.6em;
+            font-weight: 300;
+            color: $thdorange;
+            @media #{$tablet} {
+                font-size: 2em;
+            }
+        }
+    }
+}
+
+#roleflex {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $grey1;
+    border-radius: 10px;
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 1000px;
+    }
+
+    .roleitem {
+        width: 100%;
+        padding: 2em;
+        @media #{$tablet} {
+            width: 33%;
+        }
+        @media #{$mac13} {
+            width: 33%;
+        }
+
+        .roletitle {
+            font-size: 0.8em;
+            font-weight: 700;
+        }
+    }
+}
+
+.hypothesiscontent {
+    width: 85%;
+    margin: 0 auto;
+    // background-color: #F5FFF7;
+    padding: 2em;
+    border: 6px solid #F96302;
+    border-radius: 10px;
+
+    p {
+        font-size: 1.2em;
+        font-family: $opensans;
+        color: #F96302;
+        font-weight: 600;
+        line-height: 1.8em;
+    }
+    @media #{$tablet} {
+        max-width: 600px;
+
+        p {
+            font-size: 1.6em;
+            line-height: 2.2em;
+            text-align: center;
+        }
+    }
+    @media #{$mac13} {
+        max-width: 850px;
+    }
+}
+
+.findingsflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    width: 85%;
+    @media #{$tablet} {
+        max-width: 800px;
+        justify-content: space-around;
+    }
+    @media #{$mac13} {
+        max-width: 1050px;
+        justify-content: space-between;
+    }
+
+    .findingsbox {
+        background-color: $grey1;
+        padding: 1em;
+        border-radius: 10px;
+        margin-bottom: 2em;
+        @media #{$mac13} {
+            width: 42%;
+            margin: 2em;
+        }
+
+        .findingstitle {
+            p {
+                font-weight: 700;
+                font-size: 18px;
+                font-family: $opensans;
+            }
+        }
+
+        .findingscontent {
+            p {
+                font-size: 16px;
+                font-family: $opensans;
+            }
+        }
+    }
+}
+
+.emptext {
+    color: $emptext;
+    font-weight: 500;
+}
+// IMAGE ATTRIBUTES START
+
+.centerimg {
+    width: 90%;
+    margin: 0 auto;
+    @media #{$tablet} {}
+    @media #{$mac13} {
+        max-width: 1250px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.sean_jerzeel {
+    @media #{$mac13} {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+.portraitimg {
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+    }
+    @media #{$mac13} {
+        max-width: 850px;
+    }
+}
+// IMAGE ATTRIBUTES END
+// VIDEO ATTRIBUTES START
+
+.centervideo {
+    .videodiv {
+        video {
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+            -webkit-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+            -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+            box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+            width: 85%;
+            max-width: 1250px;
+        }
+    }
+}
+// VIDEO ATTRIBUTES END
+
+#footer {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$mac13} {
+        max-width: 1250px;
+        margin: 0 auto;
+
+        #hello {
+            margin-left: 1em;
+        }
+
+        #contactflex {
+            margin-left: 3em;
+        }
+    }
+}
+
+#header {
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    @media #{$mac13} {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+}
+
+#mobilemenuwrapper {
+    #menuName {
+        margin-left: 0.5em;
+        @media #{$tablet} {
+            margin-left: 3.25em;
+        }
+    }
+
+    ul {
+        margin-left: 0.5em;
+        @media #{$tablet} {
+            margin-left: 4.25em;
+        }
+    }
+}
+
+#statflex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 800px;
+    }
+
+    .statdiv {
+        width: 55%;
+        margin: 2em auto;
+        @media #{$tablet} {
+            width: 20%;
+        }
+    }
+}
+
+#OWline {
+    width: 85%;
+    height: 3px;
+    background-color: $grey1;
+    margin: 6em auto;
+    @media #{$tablet} {
+        max-width: 700px;
+    }
+    @media #{$mac13} {
+        max-width: 1000px;
+    }
+}
+
+#owsectiontitle {
+    width: 90%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 700px;
+        width: 90%;
+    }
+    @media #{$mac13} {
+        max-width: 1000px;
+    }
+
+    p {
+        font-size: 2.4em;
+        font-weight: 700;
+        font-family: $poppins;
+        letter-spacing: 2px;
+        @media #{$tablet} {
+            font-size: 3em;
+        }
+    }
+}
+
+.otherworksflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em auto;
+    justify-content: space-between;
+    @media #{$tablet} {
+        max-width: 700px;
+    }
+    @media #{$mac13} {
+        max-width: 1000px;
+        margin: 4em auto;
+    }
+
+    .owdiv {
+        margin: 2em auto;
+        width: 90%;
+        transition: 0.25s all ease-in-out;
+        position: relative;
+        @media #{$tablet} {
+            width: 45%;
+            margin: 0;
+        }
+
+        .otherprojimgdiv {
+            padding: 2em 0;
+            border-radius: 8px;
+            @media #{$tablet} {
+                min-width: 300px;
+                min-height: 352px;
+                max-height: 352px;
+            }
+            @media #{$mac13} {
+                min-width: 400px;
+            }
+        }
+
+        .otherprojname {
+            padding: 1em 0;
+
+            p {
+                font-size: 1.4em;
+                font-weight: 600;
+                letter-spacing: 1px;
+                font-family: $poppins;
+                color: #25334A;
+            }
+        }
+    }
+
+    .comingsoon {
+        position: relative;
+        top: -30px;
+
+        p {
+            font-family: $opensans;
+            color: $grey4;
+            font-style: italic;
+            letter-spacing: 1px;
+            font-weight: 500;
+            font-size: 1em;
+        }
+    }
+    ////////////////////// OTHER WORKS PROJECT SPECIFIC START ////////////////////////////
+    ///// PICKING PRIORITY /////
+    .thd_pp_outer {
+        border-radius: 8px;
+        background-color: $pp;
+        position: relative;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_pp_inner {
+        width: 70%;
+        margin: 0 auto;
+        @media #{$tablet} {
+            bottom: 30px;
+        }
+        @media #{$tablet} {
+            width: 60%;
+        }
+        @media #{$mac13} {
+            width: 45%;
+        }
+
+        .img {
+            width: 100%;
+        }
+    }
+    ///// SIMPLE SORT ////
+    .thd_ss_outer {
+        background-color: $ss;
+        position: relative;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_ss_inner {
+        width: 85%;
+        margin: 0 auto;
+        position: relative;
+        @media #{$tablet} {
+            top: 50px;
+        }
+
+        .img {
+            width: 100%;
+        }
+    }
+    ///// MOTION DESIGN ////
+    .motion_design_outer {
+        background-color: $exploration;
+        position: relative;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .motion_design_inner {
+        width: 85%;
+        margin: 0 auto;
+        position: relative;
+        @media #{$tablet} {
+            top: 20px;
+        }
+        @media #{$mac13} {
+            top: 10px;
+            max-width: 265.44px;
+        }
+
+        .img {
+            width: 100%;
+        }
+    }
+    ///// PUMP IT UP ////
+    .piu_outer {
+        background-color: $pumpitup;
+        position: relative;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .piu_inner {
+        width: 55%;
+        margin: 0 auto;
+        position: relative;
+        @media #{$tablet} {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%,-50%);
+            max-width: 141.75px;
+            width: 45%;
+        }
+        @media #{$mac13} {
+            max-width: 150px;
+        }
+
+        .img {
+            width: 100%;
+        }
+    }
+    //////////////////////// PROJECT SPECIFIC ENDS /////////////////////////
+    .owdiv:hover {
+        .thd_pp_outer {
+            background-color: $pp_hover;
+            transition: 0.25s all ease-in-out;
+        }
+
+        .thd_ss_outer {
+            background-color: $ss_hover;
+            transition: 0.25s all ease-in-out;
+        }
+
+        .motion_design_outer {
+            background-color: $exploration_hover;
+            transition: 0.25s all ease-in-out;
+        }
+
+        .piu_outer {
+            background-color: $pumpitup_hover;
+            transition: 0.25s all ease-in-out;
+        }
+    }
+}
+///////////////////////// COPYRIGHT START ///////////////////////
+
+#copyrightdiv {
+    width: 90%;
+    margin: 0 auto;
+
+    p {
+        font-family: $opensans;
+        text-align: center;
+        font-size: 1.2em;
+        letter-spacing: 0.5px;
+        color: $grey4;
+    }
+}
+////////////////////////// COPYRIGHT END ///////////////////////

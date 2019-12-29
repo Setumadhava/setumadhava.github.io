@@ -11,6 +11,53 @@
 //     .leftbtn {}
 // }
 
+.flextest {
+    height: 500px;
+    width: 100%;
+    margin: 100px auto;
+    background-color: $grey1;
+
+    #babya {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+
+        .box {
+            width: 100%;
+            @media #{$tablet} {
+                width: 50%;
+            }
+            @media #{$mac13} {
+                width: 25%;
+            }
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    }
+}
+
+.random {
+    width: 100%;
+    height: 150px;
+    background-color: pink;
+}
+
 #wrapper {
     margin-top: 10em;
     display: flex;

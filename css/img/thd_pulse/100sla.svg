@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="102" viewBox="0 0 190 102">
+  <g id="Group_1318" data-name="Group 1318" transform="translate(-440 -63)">
+    <rect id="Rectangle_234" data-name="Rectangle 234" width="190" height="102" rx="4" transform="translate(440 63)" fill="#ed6479"/>
+    <g id="Group_7022" data-name="Group 7022" transform="translate(-18 7)">
+      <g id="Group_7020" data-name="Group 7020" transform="translate(37.169 6.151)">
+        <rect id="Rectangle_1699" data-name="Rectangle 1699" width="24" height="23" transform="translate(473.831 67.849)" fill="#fff" opacity="0.6"/>
+        <rect id="Rectangle_1700" data-name="Rectangle 1700" width="4" height="6" transform="translate(483.831 67.849)" fill="#fff" opacity="0.6"/>
+        <path id="Path_1094" data-name="Path 1094" d="M3.195,12.888H4.464V4.681H6.293L3.195,0,0,4.681H1.914v8.207Z" transform="translate(518.662 76.054) rotate(90)" fill="#fff" opacity="0.6"/>
+      </g>
+      <g id="Group_7026" data-name="Group 7026" transform="translate(94.169 28.151)">
+        <rect id="Rectangle_1699-2" data-name="Rectangle 1699" width="24" height="23" transform="translate(473.831 67.849)" fill="#fff" opacity="0.6"/>
+        <rect id="Rectangle_1700-2" data-name="Rectangle 1700" width="4" height="6" transform="translate(483.831 67.849)" fill="#fff" opacity="0.6"/>
+        <path id="Path_1094-2" data-name="Path 1094" d="M3.195,12.888H4.464V4.681H6.293L3.195,0,0,4.681H1.914v8.207Z" transform="translate(518.662 76.054) rotate(90)" fill="#fff" opacity="0.6"/>
+      </g>
+      <g id="Group_7027" data-name="Group 7027" transform="translate(54.169 50.151)">
+        <rect id="Rectangle_1699-3" data-name="Rectangle 1699" width="24" height="23" transform="translate(473.831 67.849)" fill="#fff" opacity="0.6"/>
+        <rect id="Rectangle_1700-3" data-name="Rectangle 1700" width="4" height="6" transform="translate(483.831 67.849)" fill="#fff" opacity="0.6"/>
+        <path id="Path_1094-3" data-name="Path 1094" d="M3.195,12.888H4.464V4.681H6.293L3.195,0,0,4.681H1.914v8.207Z" transform="translate(518.662 76.054) rotate(90)" fill="#fff" opacity="0.6"/>
+      </g>
+      <rect id="Rectangle_1706" data-name="Rectangle 1706" width="21" height="67" transform="translate(627 74)" fill="#fff" opacity="0.6"/>
+      <line id="Line_26" data-name="Line 26" x1="16" y1="11" transform="translate(615.5 66.5)" fill="none" stroke="#f9c1c9" stroke-width="3"/>
+      <line id="Line_27" data-name="Line 27" x1="16" y2="11" transform="translate(614.5 136.5)" fill="none" stroke="#f9c1c9" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
