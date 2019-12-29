@@ -440,6 +440,32 @@
     }
 }
 ///////////////////////////////// PROJECT SPECIFIC ///////////////////////////////
+//////////// THD Pulse CARD SPECIFIC //////////////
+
+.thd_pulse {
+    background-color: $pulse;
+    width: 100%;
+    @media #{$tablet} {
+        min-height: 450px;
+    }
+    @media #{$mac13} {
+        min-height: 325px;
+    }
+
+    .projectimg {
+        position: relative;
+        top: 10%;
+        width: 90%;
+        margin: 0 auto;
+        transition: 0.25s all ease-in-out;
+        @media #{$tablet} {
+            width: 70%;
+        }
+        @media #{$mac13} {
+            height: 300px;
+        }
+    }
+}
 //////////// THD NCV CARD SPECIFIC //////////////
 
 .thd_ncv {
@@ -615,6 +641,28 @@
 ////////////////////// HOVER ACTION //////////////////////
 ////////////////////// HOVER ACTION //////////////////////
 ////////////////////// HOVER ACTION //////////////////////
+
+.thd_pulse_card:hover {
+    cursor: pointer;
+
+    .lockicon {
+        opacity: 1;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_ncv {
+        background-color: $pulse_hover;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: $pulse_hover;
+        }
+    }
+}
 
 .thd_ncv_card:hover {
     cursor: pointer;

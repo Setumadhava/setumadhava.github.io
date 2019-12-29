@@ -879,19 +879,21 @@ p {
         }
     }
     ////////////////////// PROJECT SPECIFIC START ////////////////////////////
-    ///// PICKING PRIORITY /////
-    .thd_pp_outer {
+    //////////// PULSE /////////////
+    .thd_pulse_outer {
         border-radius: 8px;
-        background-color: $pp;
+        background-color: $pulse;
         position: relative;
         transition: 0.25s all ease-in-out;
     }
 
-    .thd_pp_inner {
+    .thd_pulse_inner {
         width: 70%;
         margin: 0 auto;
         @media #{$tablet} {
             bottom: 30px;
+        }
+        @media #{$tablet} {
             width: 60%;
         }
         @media #{$mac13} {
@@ -970,8 +972,8 @@ p {
     }
     //////////////////////// PROJECT SPECIFIC ENDS /////////////////////////
     .owdiv:hover {
-        .thd_pp_outer {
-            background-color: $pp_hover;
+        .thd_pulse_outer {
+            background-color: $pulse_hover;
             transition: 0.25s all ease-in-out;
         }
 

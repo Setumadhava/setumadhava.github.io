@@ -327,6 +327,28 @@
       font-weight: 500;
       font-size: 1em; }
 
+.thd_pulse {
+  background-color: #FFEAA3;
+  width: 100%; }
+  @media (min-width: 768px) {
+    .thd_pulse {
+      min-height: 450px; } }
+  @media (min-width: 1024px) {
+    .thd_pulse {
+      min-height: 325px; } }
+  .thd_pulse .projectimg {
+    position: relative;
+    top: 10%;
+    width: 90%;
+    margin: 0 auto;
+    transition: 0.25s all ease-in-out; }
+    @media (min-width: 768px) {
+      .thd_pulse .projectimg {
+        width: 70%; } }
+    @media (min-width: 1024px) {
+      .thd_pulse .projectimg {
+        height: 300px; } }
+
 .thd_ncv {
   background-color: #EFBEDF;
   width: 100%; }
@@ -469,6 +491,19 @@
     @media (min-width: 1024px) {
       .motion_design .projectimg {
         max-width: 253.44px; } }
+
+.thd_pulse_card:hover {
+  cursor: pointer; }
+  .thd_pulse_card:hover .lockicon {
+    opacity: 1;
+    transition: 0.25s all ease-in-out; }
+  .thd_pulse_card:hover .thd_ncv {
+    background-color: #DECD94;
+    transition: 0.25s all ease-in-out; }
+  .thd_pulse_card:hover .projecttitle p {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #DECD94; }
 
 .thd_ncv_card:hover {
   cursor: pointer; }
