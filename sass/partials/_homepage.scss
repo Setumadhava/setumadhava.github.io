@@ -630,6 +630,8 @@ section {
 .motion_design {
     background-color: $exploration;
     width: 100%;
+    position: relative;
+    min-height: 350px;
     @media #{$tablet} {
         min-height: 450px;
     }
@@ -641,18 +643,21 @@ section {
         width: 90%;
         margin: 0 auto;
         transition: 0.25s all ease-in-out;
-        position: relative;
+        // position: relative;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        max-width: 280px;
 
         img {
             border-radius: 10px;
         }
         @media #{$tablet} {
-            top: 0;
-            width: 55%;
-            max-width: 380px;
+            max-width: 340px;
         }
         @media #{$mac13} {
-            max-width: 253.44px;
+            max-width: 300px;
         }
     }
 }

@@ -484,7 +484,9 @@ section {
 
 .motion_design {
   background-color: #B8EBFD;
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  min-height: 350px; }
   @media (min-width: 768px) {
     .motion_design {
       min-height: 450px; } }
@@ -495,17 +497,19 @@ section {
     width: 90%;
     margin: 0 auto;
     transition: 0.25s all ease-in-out;
-    position: relative; }
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    max-width: 280px; }
     .motion_design .projectimg img {
       border-radius: 10px; }
     @media (min-width: 768px) {
       .motion_design .projectimg {
-        top: 0;
-        width: 55%;
-        max-width: 380px; } }
+        max-width: 340px; } }
     @media (min-width: 1024px) {
       .motion_design .projectimg {
-        max-width: 253.44px; } }
+        max-width: 300px; } }
 
 .thd_pulse_card:hover {
   cursor: pointer; }
