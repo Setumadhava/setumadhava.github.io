@@ -497,7 +497,7 @@
   .thd_pulse_card:hover .lockicon {
     opacity: 1;
     transition: 0.25s all ease-in-out; }
-  .thd_pulse_card:hover .thd_ncv {
+  .thd_pulse_card:hover .thd_pulse {
     background-color: #DECD94;
     transition: 0.25s all ease-in-out; }
   .thd_pulse_card:hover .projecttitle p {
