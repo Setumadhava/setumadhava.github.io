@@ -1,0 +1,825 @@
+* {
+    // transition: 0.4s all ease-in-out;
+}
+/////////////////////  HOMEPAGE HEADER START /////////////////////
+
+#hpheader {
+    margin: 2.1em auto;
+    width: 100%;
+    @media #{$tablet} {
+        margin: 4.1em auto;
+    }
+
+    #hpheaderflex {
+        @media #{$mac13} {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .name {
+            transition: 0.25s all ease-in-out;
+            position: relative;
+
+            a {
+                color: black;
+                transition: 0.25s all ease-in-out;
+            }
+
+            p {
+                font-family: $poppins;
+                width: 240px;
+                font-size: 1.8em;
+                margin: 0;
+                color: #25334A;
+                transition: 0.25s all ease-in-out;
+                font-weight: 300;
+            }
+
+            p:hover {
+                transition: 0.25s all ease-in-out;
+                color: $setured;
+            }
+        }
+
+        .name:hover {
+            transition: 0.25s all ease-in-out;
+
+            a {
+                color: $setured;
+                transition: 0.25s all ease-in-out;
+            }
+        }
+
+        ul {
+            padding: 1em 0;
+            transition: 0.25s all ease-in-out;
+            display: none;
+            @media #{$mac13} {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0;
+            }
+
+            li {
+                list-style: none;
+                padding: 1.5em 0;
+                @media #{$mac13} {
+                    padding: 0.6em 0 0 4em;
+                }
+
+                a {
+                    color: #25334A;
+                    font-family: $opensans;
+                    font-size: 1.1em;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                    transition: 0.25s all ease-in-out;
+                }
+
+                a:hover {
+                    transition: 0.25s all ease-in-out;
+                    color: $setured;
+                }
+            }
+        }
+    }
+}
+
+#hpmenuicondiv {
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    top: 0;
+    padding: 2.75em 1em;
+    display: block;
+    position: fixed;
+    @media #{$tablet} {
+        padding: 4.65em 3em;
+    }
+    @media #{$mac13} {
+        display: none;
+        // padding: 4.5em 3em;
+    }
+
+    img:hover {
+        cursor: pointer;
+    }
+}
+
+#hpmobilemenuwrapper {
+    opacity: 0;
+    z-index: -2;
+    transition: 0.25s all ease-in-out;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    position: fixed;
+    -webkit-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+    -moz-box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+    box-shadow: 0 4px 15px -4px rgba(102,102,102,0.75);
+
+    .hpmobilemenucontent {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #hpmenunameflex {
+        padding: 2.1em 0 0;
+        transition: 0.25s all ease-in-out;
+
+        #hpmenuName {
+            max-width: 200px;
+
+            a {
+                font-size: 1.8em;
+
+                p {
+                    font-family: $poppins;
+                    width: 240px;
+                    font-size: 1em;
+                    margin: 0;
+                    color: #25334A;
+                    transition: 0.25s all ease-in-out;
+                    font-weight: 300;
+                }
+
+                p:hover {
+                    transition: 0.25s all ease-in-out;
+                    color: $setured;
+                }
+            }
+            @media #{$tablet} {
+                margin-top: 2em;
+            }
+        }
+
+        #hpmenuxicondiv {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 2.75em 1.25em 0 0;
+            @media #{$tablet} {
+                padding: 4.65em 3.2em;
+            }
+            @media #{$mac13} {
+                // display: none;
+                padding: 4.5em 6.2em;
+            }
+
+            img:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    ul {
+        padding: 1em 0;
+        transition: 0.3s all ease-in-out;
+        margin: 0;
+
+        li {
+            list-style: none;
+            padding: 1.5em 0;
+
+            a {
+                color: #25334A;
+                font-family: $opensans;
+                font-size: 1.1em;
+                font-weight: 400;
+                letter-spacing: 1px;
+            }
+
+            a:hover {
+                color: $setured;
+                transition: 0.25s all ease-in-out;
+            }
+        }
+    }
+}
+//////////////// HOMEPAGE HEADER END ///////////////
+
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        max-width: 650px;
+    }
+    @media #{$tablet} {
+        max-width: 1000px;
+    }
+}
+
+.twoemboth {
+    padding: 2em 0;
+}
+
+.threeemboth {
+    padding: 3em 0;
+}
+
+.fouremboth {
+    padding: 4em 0;
+}
+
+.oneemboth {
+    padding: 1em 0;
+}
+
+.navplaceholder {
+    height: 80px;
+    width: 100%;
+    background-color: $grey2;
+}
+
+#newheader {
+    margin: 0 auto;
+    @media #{$tablet} {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    @media #{$mac13} {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .logodiv {
+        width: 60px;
+    }
+
+    #newnavflex {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 2em;
+        @media #{$tablet} {
+            width: 40%;
+            padding-top: 0;
+        }
+        @media #{$mac13} {
+            width: 35%;
+            padding-top: 0;
+        }
+
+        .newnavitem {
+            width: 33%;
+
+            p {
+                font-family: $opensans;
+                font-size: 1em;
+                @media #{$tablet} {
+                    font-size: 0.9em;
+                }
+            }
+        }
+
+        .navitemcenter {
+            text-align: center;
+        }
+
+        .navitemright {
+            text-align: right;
+        }
+    }
+}
+
+body {
+    background-image: url("img/homepage/gridbg.svg");
+    background-repeat: no-repeat;
+}
+
+#firstfold {
+    margin: 0 auto;
+    padding: 8em 0;
+    @media #{$mac13} {
+        padding: 10em 0 20em;
+    }
+}
+
+#helloline {
+    p {
+        font-family: $poppins;
+        font-size: 2em;
+        font-weight: 500;
+        color: #25334A;
+        @media #{$tablet} {
+            font-size: 3em;
+        }
+    }
+
+    span {
+        color: $setured;
+    }
+}
+
+#whatido {
+    p {
+        font-family: $opensans;
+        font-size: 1.2em;
+        color: #25334A;
+        line-height: 35px;
+    }
+    @media #{$tablet} {
+        max-width: 500px;
+    }
+    @media #{$mac13} {
+        max-width: 500px;
+    }
+}
+
+section.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+section {
+    opacity: 0;
+    transition: opacity 1s;
+    transform: translate(0, 200px);
+    transition: all 1s;
+}
+
+.projectcard {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8em;
+    @media #{$mac13} {
+        justify-content: space-between;
+        margin-bottom: 12em;
+    }
+
+    .projectimgdiv {
+        padding: 2em 0;
+        border-radius: 8px;
+        transition: 0.25s all ease-in-out;
+        position: relative;
+        @media #{$mac13} {
+            width: 60%;
+            max-height: 550px;
+            min-height: 400px;
+            border-radius: 10px;
+            margin: 0;
+        }
+    }
+
+    .lockicon {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        z-index: 1;
+        opacity: 1;
+        transition: 0.25s all ease-in-out;
+        @media #{$mac13} {
+            opacity: 0.3;
+        }
+
+        img {
+            max-width: 100px;
+        }
+    }
+
+    .projectcontentdiv {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 2em;
+        position: relative;
+        @media #{$mac13} {
+            width: 35%;
+            padding: 3em 0 0 2em;
+            margin: 0;
+        }
+
+        .projectnumber {
+            position: absolute;
+            top: -2em;
+            left: -3em;
+            z-index: -10;
+            @media #{$tablet} {
+                left: -2.6em;
+            }
+            @media #{$mac13} {
+                top: -3em;
+                left: 0;
+            }
+
+            p {
+                font-size: 8em;
+                font-family: $poppins;
+                letter-spacing: 2.5px;
+                color: $grey1;
+                font-weight: 600;
+            }
+        }
+
+        .projecttitle {
+            p {
+                font-family: $poppins;
+                font-size: 1.7em;
+                font-weight: 700;
+                color: #25334A;
+                letter-spacing: 1px;
+                text-decoration: none;
+                position: relative;
+            }
+        }
+
+        .projectdesc {
+            position: relative;
+
+            p {
+                font-size: 1.1em;
+                font-family: $opensans;
+                color: #25334A;
+                line-height: 1.8em;
+                @media #{$tablet} {
+                    max-width: 380px;
+                }
+                @media #{$mac13} {
+                    max-width: 400px;
+                }
+            }
+        }
+
+        .comingsoon {
+            p {
+                font-family: $opensans;
+                color: $grey4;
+                font-style: italic;
+                letter-spacing: 1px;
+                font-weight: 500;
+                font-size: 1em;
+            }
+        }
+    }
+}
+///////////////////////////////// PROJECT SPECIFIC ///////////////////////////////
+//////////// THD Pulse CARD SPECIFIC //////////////
+
+.thd_pulse {
+    background-color: $pulse;
+    width: 100%;
+    @media #{$tablet} {
+        min-height: 450px;
+    }
+    @media #{$mac13} {
+        min-height: 325px;
+    }
+
+    .projectimg {
+        position: relative;
+        top: 10%;
+        width: 90%;
+        margin: 0 auto;
+        transition: 0.25s all ease-in-out;
+        @media #{$tablet} {
+            width: 70%;
+        }
+        @media #{$mac13} {
+            height: 300px;
+        }
+    }
+}
+//////////// THD NCV CARD SPECIFIC //////////////
+
+.thd_ncv {
+    background-color: $ncv;
+    width: 100%;
+    @media #{$tablet} {
+        min-height: 450px;
+    }
+    @media #{$mac13} {
+        min-height: 325px;
+    }
+
+    .projectimg {
+        position: relative;
+        top: 10%;
+        width: 90%;
+        margin: 0 auto;
+        transition: 0.25s all ease-in-out;
+        @media #{$tablet} {
+            width: 70%;
+        }
+        @media #{$mac13} {
+            height: 300px;
+        }
+    }
+}
+//////////// THD LP CARD SPECIFIC //////////////
+
+.thd_lp {
+    background-color: $loadplan;
+    width: 100%;
+    position: relative;
+    min-height: 250px;
+    @media #{$tablet} {
+        min-height: 450px;
+    }
+    @media #{$mac13} {
+        min-height: 325px;
+    }
+
+    .projectimg {
+        width: 90%;
+        margin: 0 auto;
+        transition: 0.25s all ease-in-out;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%,-50%);
+    }
+}
+//////////// THD PP CARD SPECIFIC //////////////
+
+.thd_pp {
+    background-color: $pp;
+    width: 100%;
+    @media #{$tablet} {
+        min-height: 450px;
+    }
+    @media #{$mac13} {
+        min-height: 325px;
+    }
+
+    .projectimg {
+        width: 80%;
+        margin: 0 auto;
+        transition: 0.25s all ease-in-out;
+        @media #{$tablet} {
+            width: 50%;
+        }
+        @media #{$mac13} {
+            position: relative;
+            width: 38%;
+            top: 0;
+            height: 300px;
+        }
+    }
+}
+//////////// THD SS CARD SPECIFIC //////////////
+
+.thd_ss {
+    background-color: $ss;
+    width: 100%;
+    @media #{$tablet} {
+        min-height: 450px;
+    }
+    @media #{$mac13} {
+        min-height: 325px;
+    }
+
+    .projectimg {
+        width: 90%;
+        margin: 0 auto;
+        transition: 0.25s all ease-in-out;
+        position: relative;
+        @media #{$tablet} {
+            top: 10%;
+            width: 70%;
+            height: 300px;
+        }
+        @media #{$mac13} {
+            width: 85%;
+            top: 0;
+        }
+    }
+}
+//////////// PUMP IT UP CARD SPECIFIC //////////////
+
+.piu {
+    background-color: $pumpitup;
+    width: 100%;
+    @media #{$tablet} {
+        min-height: 450px;
+    }
+    @media #{$mac13} {
+        min-height: 325px;
+    }
+
+    .projectimg {
+        width: 55%;
+        margin: 0 auto;
+        transition: 0.25s all ease-in-out;
+        position: relative;
+
+        img {
+            border-radius: 10px;
+        }
+        @media #{$tablet} {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%,-50%);
+            width: 26.5%;
+            max-width: 183.16px;
+        }
+        @media #{$mac13} {
+            // top: -10px;
+            width: 30%;
+            max-width: 138px;
+        }
+    }
+}
+//////////// MOTION DESIGN CARD SPECIFIC //////////////
+
+.motion_design {
+    background-color: $exploration;
+    width: 100%;
+    position: relative;
+    min-height: 350px;
+    @media #{$tablet} {
+        min-height: 450px;
+    }
+    @media #{$mac13} {
+        min-height: 0;
+    }
+
+    .projectimg {
+        width: 90%;
+        margin: 0 auto;
+        transition: 0.25s all ease-in-out;
+        // position: relative;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        max-width: 280px;
+
+        img {
+            border-radius: 10px;
+        }
+        @media #{$tablet} {
+            max-width: 340px;
+        }
+        @media #{$mac13} {
+            max-width: 300px;
+        }
+    }
+}
+////////////////////// HOVER ACTION //////////////////////
+////////////////////// HOVER ACTION //////////////////////
+////////////////////// HOVER ACTION //////////////////////
+
+.thd_pulse_card:hover {
+    cursor: pointer;
+
+    .lockicon {
+        opacity: 1;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_pulse {
+        background-color: $pulse_hover;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: $pulse_hover;
+        }
+    }
+}
+
+.thd_ncv_card:hover {
+    cursor: pointer;
+
+    .lockicon {
+        opacity: 1;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_ncv {
+        background-color: $ncv_hover;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: $ncv_hover;
+        }
+    }
+}
+
+.thd_lp_card:hover {
+    cursor: pointer;
+
+    .lockicon {
+        opacity: 1;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_ncv {
+        background-color: $loadplan_hover;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: $loadplan_hover;
+        }
+    }
+}
+
+.thd_pp_card:hover {
+    cursor: pointer;
+
+    .lockicon {
+        opacity: 1;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_pp {
+        background-color: $pp_hover;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: $pp_hover;
+        }
+    }
+}
+
+.thd_ss_card:hover {
+    cursor: pointer;
+
+    .lockicon {
+        opacity: 1;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .thd_ss {
+        background-color: $ss_hover;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: $ss_hover;
+        }
+    }
+}
+
+.piu_card:hover {
+    cursor: pointer;
+
+    .piu {
+        background-color: $pumpitup_hover;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: $pumpitup_hover;
+        }
+    }
+}
+
+.motion_design_card:hover {
+    cursor: pointer;
+
+    .motion_design {
+        background-color: $exploration_hover;
+        transition: 0.25s all ease-in-out;
+    }
+
+    .projecttitle {
+        p {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: $exploration_hover;
+        }
+    }
+}
+//////////////////////// COPYRIGHT START ///////////////////////
+
+#copyrightdiv {
+    width: 90%;
+    margin: 0 auto;
+
+    p {
+        font-family: $opensans;
+        text-align: center;
+        font-size: 1.2em;
+        letter-spacing: 0.5px;
+        color: $grey4;
+    }
+}
+////////////////////////// COPYRIGHT E
