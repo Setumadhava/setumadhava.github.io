@@ -513,12 +513,12 @@ section {
     opacity: 1;
     transition: 0.25s all ease-in-out; }
   .thd_pulse_card:hover .thd_pulse {
-    background-color: #DECD94;
+    background-color: #F8D55C;
     transition: 0.25s all ease-in-out; }
   .thd_pulse_card:hover .projecttitle p {
     text-decoration: underline;
     text-decoration-style: dotted;
-    text-decoration-color: #DECD94; }
+    text-decoration-color: #F8D55C; }
 
 .thd_ncv_card:hover {
   cursor: pointer; }

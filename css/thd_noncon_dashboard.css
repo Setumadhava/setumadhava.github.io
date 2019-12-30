@@ -653,19 +653,25 @@ p {
     border-radius: 8px;
     background-color: #FFEAA3;
     position: relative;
-    transition: 0.25s all ease-in-out; }
+    transition: 0.25s all ease-in-out;
+    min-height: 230px; }
   .otherworksflex .thd_pulse_inner {
-    width: 70%;
-    margin: 0 auto; }
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 65%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    max-width: 280px; }
     @media (min-width: 768px) {
       .otherworksflex .thd_pulse_inner {
-        bottom: 30px; } }
-    @media (min-width: 768px) {
-      .otherworksflex .thd_pulse_inner {
-        width: 60%; } }
+        min-width: 280px;
+        max-width: 300px;
+        top: 55%; } }
     @media (min-width: 1024px) {
       .otherworksflex .thd_pulse_inner {
-        width: 45%; } }
+        min-width: 380px;
+        top: 60%; } }
     .otherworksflex .thd_pulse_inner .img {
       width: 100%; }
   .otherworksflex .thd_ss_outer {
@@ -720,7 +726,7 @@ p {
     .otherworksflex .piu_inner .img {
       width: 100%; }
   .otherworksflex .owdiv:hover .thd_pulse_outer {
-    background-color: #DECD94;
+    background-color: #F8D55C;
     transition: 0.25s all ease-in-out; }
   .otherworksflex .owdiv:hover .thd_ss_outer {
     background-color: #B2B3ED;

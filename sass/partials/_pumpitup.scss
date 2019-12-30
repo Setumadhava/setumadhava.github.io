@@ -879,31 +879,39 @@ p {
         }
     }
     ////////////////////// PROJECT SPECIFIC START ////////////////////////////
+    ////////
     //////////// PULSE /////////////
     .thd_pulse_outer {
         border-radius: 8px;
         background-color: $pulse;
         position: relative;
         transition: 0.25s all ease-in-out;
+        min-height: 230px;
     }
 
     .thd_pulse_inner {
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
+        position: absolute;
+        top: 65%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        max-width: 280px;
         @media #{$tablet} {
-            bottom: 30px;
-        }
-        @media #{$tablet} {
-            width: 60%;
+            min-width: 280px;
+            max-width: 300px;
+            top: 55%;
         }
         @media #{$mac13} {
-            width: 45%;
+            min-width: 380px;
+            top: 60%;
         }
 
         .img {
             width: 100%;
         }
     }
+    ////////////// PULSE END //////////////
     ///// NON CON VIZ /////
     .thd_ncv_outer {
         border-radius: 8px;
@@ -915,13 +923,19 @@ p {
     .thd_ncv_inner {
         width: 90%;
         margin: 0 auto;
-        top: 30px;
-        position: relative;
+        position: absolute;
+        top: 65%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        max-width: 280px;
         @media #{$tablet} {
-            top: 50px;
+            min-width: 280px;
+            max-width: 300px;
+            top: 55%;
         }
         @media #{$mac13} {
-            width: 85%;
+            min-width: 380px;
+            top: 60%;
         }
 
         .img {
