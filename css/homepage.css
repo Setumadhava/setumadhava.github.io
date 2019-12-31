@@ -249,8 +249,8 @@ section.visible {
 section {
   opacity: 0;
   transition: opacity 1s;
-  transform: translate(0, 200px);
-  transition: all 1s; }
+  transform: translate(0, 150px);
+  transition: all 1.25s; }
 
 .projectcard {
   display: flex;
