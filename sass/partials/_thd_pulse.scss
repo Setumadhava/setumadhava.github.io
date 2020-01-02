@@ -393,8 +393,14 @@ p {
 
     .qtbaline {
         width: 6px;
-        background-color: $grey2;
+        background-color: $grey1;
         border-radius: 100px;
+    }
+
+    .qtba {
+        position: relative;
+        right: 20px;
+        // background-color: red;
     }
 }
 

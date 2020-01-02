@@ -308,8 +308,11 @@ p {
   display: flex; }
   .qtbaflex .qtbaline {
     width: 6px;
-    background-color: #D5D5D5;
+    background-color: #EDEDED;
     border-radius: 100px; }
+  .qtbaflex .qtba {
+    position: relative;
+    right: 20px; }
 
 .prototype {
   max-width: 90%;
