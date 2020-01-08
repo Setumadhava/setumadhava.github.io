@@ -572,6 +572,10 @@ p {
   .centerimg img {
     width: 100%; }
 
+.branding {
+  max-width: 850px;
+  margin: 0 auto; }
+
 @media (min-width: 1024px) {
   .sean_jerzeel {
     max-width: 1000px;

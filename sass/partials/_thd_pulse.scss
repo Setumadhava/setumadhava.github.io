@@ -741,6 +741,11 @@ p {
     }
 }
 
+.branding {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
 .sean_jerzeel {
     @media #{$mac13} {
         max-width: 1000px;
