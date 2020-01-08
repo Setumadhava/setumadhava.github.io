@@ -416,7 +416,28 @@ p {
 .fullscreenbg {
     background-color: $grey1;
 
-    .imageflex {
+    .imageflex_ideation_lightbox {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 4em 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .imgdiv {
+            width: 100%;
+            padding: 2em;
+            margin: 0 auto;
+            @media #{$tablet} {
+                width: 75%;
+            }
+            @media #{$mac13} {
+                width: 46%;
+            }
+        }
+    }
+
+    .imageflex_design_explorations {
         max-width: 1400px;
         margin: 0 auto;
         padding: 4em 0;

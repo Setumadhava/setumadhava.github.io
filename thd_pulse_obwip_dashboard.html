@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="css/simplelightbox.min.css">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145591717-1"></script>
     <script>
@@ -414,18 +416,26 @@
 
 
         <div class="fullscreenbg">
-            <div class="imageflex">
+            <div class="imageflex_ideation_lightbox">
                 <div class="imgdiv">
-                    <img src="css/img/thd_pulse/sketch_01.png">
+                    <a href="css/img/thd_pulse/sketch_01.png">
+                        <img src="css/img/thd_pulse/sketch_01.png" alt="" />
+                    </a>
                 </div>
                 <div class="imgdiv">
-                    <img src="css/img/thd_pulse/sketch_02.png">
+                    <a href="css/img/thd_pulse/sketch_02.png">
+                        <img src="css/img/thd_pulse/sketch_02.png" alt="" />
+                    </a>
                 </div>
                 <div class="imgdiv">
-                    <img src="css/img/thd_pulse/sketch_03.png">
+                    <a href="css/img/thd_pulse/sketch_03.png">
+                        <img src="css/img/thd_pulse/sketch_03.png" alt="" />
+                    </a>
                 </div>
                 <div class="imgdiv">
-                    <img src="css/img/thd_pulse/sketch_04.png">
+                    <a href="css/img/thd_pulse/sketch_04.png">
+                        <img src="css/img/thd_pulse/sketch_04.png" alt="" />
+                    </a>
                 </div>
             </div>
         </div>
@@ -501,24 +511,36 @@
 
 
         <div class="fullscreenbg">
-            <div class="imageflex">
+            <div class="imageflex_design_explorations">
                 <div class="imgdiv">
-                    <img src="css/img/thd_pulse/PD_01.png">
+                    <a href="css/img/thd_pulse/PD_01.png">
+                        <img src="css/img/thd_pulse/PD_01.png">
+                    </a>
                 </div>
                 <div class="imgdiv">
-                    <img src="css/img/thd_pulse/PD_02.png">
+                    <a href="css/img/thd_pulse/PD_02.png">
+                        <img src="css/img/thd_pulse/PD_02.png">
+                    </a>
                 </div>
                 <div class="imgdiv">
-                    <img src="css/img/thd_pulse/PD_03.png">
+                    <a href="css/img/thd_pulse/PD_03.png">
+                        <img src="css/img/thd_pulse/PD_03.png">
+                    </a>
                 </div>
                 <div class="imgdiv">
-                    <img src="css/img/thd_pulse/PD_04.png">
+                    <a href="css/img/thd_pulse/PD_04.png">
+                        <img src="css/img/thd_pulse/PD_04.png">
+                    </a>
                 </div>
                 <div class="imgdiv">
-                    <img src="css/img/thd_pulse/PD_05.png">
+                    <a href="css/img/thd_pulse/PD_05.png">
+                        <img src="css/img/thd_pulse/PD_05.png">
+                    </a>
                 </div>
                 <div class="imgdiv">
-                    <img src="css/img/thd_pulse/PD_06.png">
+                    <a href="css/img/thd_pulse/PD_06.png">
+                        <img src="css/img/thd_pulse/PD_06.png">
+                    </a>
                 </div>
             </div>
         </div>
@@ -1081,7 +1103,23 @@
     </script>
 
 
+    <!-- ///////////////// LIGHTBOX ///////////// -->
+
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(function() {
+            const $ideation = $('.imageflex_ideation_lightbox a').simpleLightbox();
+            const $design_exploration = $('.imageflex_design_explorations a').simpleLightbox();
+
+        });
+    </script>
+
+    <!-- ///////////////// LIGHTBOX END /////////////////// -->
+
+
     <!-- ////////////// PROGRESS BAR ///////////// -->
+
+
 
     <!-- <script>
         $(window).load(function() {
