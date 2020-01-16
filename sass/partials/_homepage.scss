@@ -461,7 +461,8 @@ section {
 //////////// THD Pulse CARD SPECIFIC //////////////
 
 .thd_pulse {
-    background-color: $pulse;
+    // background-color: $pulse;
+    background-color: $grey1;
     width: 100%;
     @media #{$tablet} {
         min-height: 450px;
@@ -487,7 +488,8 @@ section {
 //////////// THD NCV CARD SPECIFIC //////////////
 
 .thd_ncv {
-    background-color: $ncv;
+    // background-color: $ncv;
+    background-color: $grey1;
     width: 100%;
     @media #{$tablet} {
         min-height: 450px;
@@ -513,7 +515,8 @@ section {
 //////////// THD LP CARD SPECIFIC //////////////
 
 .thd_lp {
-    background-color: $loadplan;
+    // background-color: $loadplan;
+    background-color: $grey1;
     width: 100%;
     position: relative;
     min-height: 250px;
@@ -537,7 +540,8 @@ section {
 //////////// THD PP CARD SPECIFIC //////////////
 
 .thd_pp {
-    background-color: $pp;
+    // background-color: $pp;
+    background-color: $grey1;
     width: 100%;
     @media #{$tablet} {
         min-height: 450px;
@@ -564,7 +568,8 @@ section {
 //////////// THD SS CARD SPECIFIC //////////////
 
 .thd_ss {
-    background-color: $ss;
+    // background-color: $ss;
+    background-color: $grey1;
     width: 100%;
     @media #{$tablet} {
         min-height: 450px;
@@ -592,7 +597,8 @@ section {
 //////////// PUMP IT UP CARD SPECIFIC //////////////
 
 .piu {
-    background-color: $pumpitup;
+    // background-color: $pumpitup;
+    background-color: $grey1;
     width: 100%;
     @media #{$tablet} {
         min-height: 450px;
@@ -628,7 +634,8 @@ section {
 //////////// MOTION DESIGN CARD SPECIFIC //////////////
 
 .motion_design {
-    background-color: $exploration;
+    // background-color: $exploration;
+    background-color: $grey1;
     width: 100%;
     position: relative;
     min-height: 350px;
@@ -717,7 +724,7 @@ section {
         transition: 0.25s all ease-in-out;
     }
 
-    .thd_ncv {
+    .thd_lp {
         background-color: $loadplan_hover;
         transition: 0.25s all ease-in-out;
     }

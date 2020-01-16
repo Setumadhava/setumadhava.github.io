@@ -343,7 +343,7 @@ section {
       font-size: 1em; }
 
 .thd_pulse {
-  background-color: #FFEAA3;
+  background-color: #EDEDED;
   width: 100%; }
   @media (min-width: 768px) {
     .thd_pulse {
@@ -365,7 +365,7 @@ section {
         height: 300px; } }
 
 .thd_ncv {
-  background-color: #EFBEDF;
+  background-color: #EDEDED;
   width: 100%; }
   @media (min-width: 768px) {
     .thd_ncv {
@@ -387,7 +387,7 @@ section {
         height: 300px; } }
 
 .thd_lp {
-  background-color: #EFD5BE;
+  background-color: #EDEDED;
   width: 100%;
   position: relative;
   min-height: 250px; }
@@ -407,7 +407,7 @@ section {
     transform: translate(50%, -50%); }
 
 .thd_pp {
-  background-color: #AFB7C3;
+  background-color: #EDEDED;
   width: 100%; }
   @media (min-width: 768px) {
     .thd_pp {
@@ -430,7 +430,7 @@ section {
         height: 300px; } }
 
 .thd_ss {
-  background-color: #DBDCFF;
+  background-color: #EDEDED;
   width: 100%; }
   @media (min-width: 768px) {
     .thd_ss {
@@ -454,7 +454,7 @@ section {
         top: 0; } }
 
 .piu {
-  background-color: #C6F1D6;
+  background-color: #EDEDED;
   width: 100%; }
   @media (min-width: 768px) {
     .piu {
@@ -483,7 +483,7 @@ section {
         max-width: 138px; } }
 
 .motion_design {
-  background-color: #B8EBFD;
+  background-color: #EDEDED;
   width: 100%;
   position: relative;
   min-height: 350px; }
@@ -542,7 +542,7 @@ section {
   .thd_lp_card:hover .lockicon {
     opacity: 1;
     transition: 0.25s all ease-in-out; }
-  .thd_lp_card:hover .thd_ncv {
+  .thd_lp_card:hover .thd_lp {
     background-color: #EFC5A1;
     transition: 0.25s all ease-in-out; }
   .thd_lp_card:hover .projecttitle p {
