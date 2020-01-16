@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="819" height="1301" viewBox="0 0 819 1301">
   <defs>
     <clipPath id="clip-path">
-      <rect width="819" height="1301" fill="none"/>
+      <rect id="Rectangle_1727" data-name="Rectangle 1727" width="819" height="1301" fill="none"/>
     </clipPath>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#fff" stop-opacity="0"/>
@@ -9,9 +9,9 @@
       <stop offset="1" stop-color="#fff"/>
     </linearGradient>
   </defs>
-  <g id="gridbg" transform="translate(-30 -28)">
+  <g id="gridbg" transform="translate(-30 -28)" opacity="0.6">
     <g id="gridbg-2" data-name="gridbg" transform="translate(30 28)" opacity="0.9" clip-path="url(#clip-path)">
-      <g transform="translate(-31 -31)">
+      <g id="Group_7048" data-name="Group 7048" transform="translate(-31 -31)">
         <path id="Path_1132" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -76,7 +76,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 35)">
+      <g id="Group_7049" data-name="Group 7049" transform="translate(-31 35)">
         <path id="Path_1132-2" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-2" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-2" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -141,7 +141,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 101)">
+      <g id="Group_7050" data-name="Group 7050" transform="translate(-31 101)">
         <path id="Path_1132-3" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-3" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-3" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -206,7 +206,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 167)">
+      <g id="Group_7051" data-name="Group 7051" transform="translate(-31 167)">
         <path id="Path_1132-4" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-4" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-4" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -271,7 +271,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 233)">
+      <g id="Group_7052" data-name="Group 7052" transform="translate(-31 233)">
         <path id="Path_1132-5" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-5" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-5" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -336,7 +336,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 299)">
+      <g id="Group_7053" data-name="Group 7053" transform="translate(-31 299)">
         <path id="Path_1132-6" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-6" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-6" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -401,7 +401,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 365)">
+      <g id="Group_7054" data-name="Group 7054" transform="translate(-31 365)">
         <path id="Path_1132-7" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-7" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-7" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -466,7 +466,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 431)">
+      <g id="Group_7055" data-name="Group 7055" transform="translate(-31 431)">
         <path id="Path_1132-8" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-8" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-8" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -531,7 +531,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 497)">
+      <g id="Group_7056" data-name="Group 7056" transform="translate(-31 497)">
         <path id="Path_1132-9" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-9" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-9" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -596,7 +596,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 563)">
+      <g id="Group_7057" data-name="Group 7057" transform="translate(-31 563)">
         <path id="Path_1132-10" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-10" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-10" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -661,7 +661,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 629)">
+      <g id="Group_7058" data-name="Group 7058" transform="translate(-31 629)">
         <path id="Path_1132-11" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-11" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-11" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -726,7 +726,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 695)">
+      <g id="Group_7059" data-name="Group 7059" transform="translate(-31 695)">
         <path id="Path_1132-12" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-12" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-12" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -791,7 +791,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 761)">
+      <g id="Group_7060" data-name="Group 7060" transform="translate(-31 761)">
         <path id="Path_1132-13" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-13" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-13" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -856,7 +856,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 827)">
+      <g id="Group_7061" data-name="Group 7061" transform="translate(-31 827)">
         <path id="Path_1132-14" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-14" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-14" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -921,7 +921,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 893)">
+      <g id="Group_7062" data-name="Group 7062" transform="translate(-31 893)">
         <path id="Path_1132-15" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-15" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-15" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -986,7 +986,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 959)">
+      <g id="Group_7063" data-name="Group 7063" transform="translate(-31 959)">
         <path id="Path_1132-16" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-16" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-16" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -1051,7 +1051,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 1025)">
+      <g id="Group_7064" data-name="Group 7064" transform="translate(-31 1025)">
         <path id="Path_1132-17" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-17" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-17" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -1116,7 +1116,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 1091)">
+      <g id="Group_7065" data-name="Group 7065" transform="translate(-31 1091)">
         <path id="Path_1132-18" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-18" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-18" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -1181,7 +1181,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 1157)">
+      <g id="Group_7066" data-name="Group 7066" transform="translate(-31 1157)">
         <path id="Path_1132-19" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-19" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-19" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
@@ -1246,7 +1246,7 @@
           <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
         </g>
       </g>
-      <g transform="translate(-31 1223)">
+      <g id="Group_7067" data-name="Group 7067" transform="translate(-31 1223)">
         <path id="Path_1132-20" data-name="Path 1132" d="M0,0H2V2L-1.734,5.736Z" transform="translate(51 51)" fill="#25334a"/>
         <path id="Path_1133-20" data-name="Path 1133" d="M0,0H2V2L-1.734,5.736Z" transform="translate(130 51)" fill="#25334a" opacity="0.9"/>
         <path id="Path_1134-20" data-name="Path 1134" d="M0,0H2V2L-1.734,5.736Z" transform="translate(208 51)" fill="#25334a" opacity="0.8"/>
